@@ -5486,7 +5486,7 @@
       "region": "world",
       "category": "dark_chocolate",
       "package": "150 g",
-      "image": null,
+      "image": "https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/66b49f77127ba200242a87f6/01percent20heropercent20image_amulpercent20darkpercent20chocolatepercent20cartonpercent20150g.jpg",
       "description": {
         "es": "Chocolate amargo indio con 55% de cacao, sin sólidos lácteos.",
         "en": "Indian dark chocolate with 55% cocoa and no milk solids."
@@ -5552,7 +5552,8 @@
       ],
       "sourceId": "amul-dark-chocolate-india-150g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-amul-dark-chocolate-india-150g"
     },
     {
       "id": "orion-choco-pie-korea-468g",
@@ -10584,7 +10585,7 @@
       "region": "world",
       "category": "potato_snack",
       "package": "38 g pack",
-      "image": null,
+      "image": "https://cdn.askul.co.jp/img/product/3L2/UK71811_3L2.jpg",
       "description": {
         "es": "Bastones de papa sin sal añadida, versión natural japonesa.",
         "en": "Unseasoned Japanese potato sticks with no added salt."
@@ -10619,7 +10620,8 @@
       ],
       "sourceId": "calbee-jagabee-plain-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-calbee-jagabee-plain-japan-38g"
     },
     {
       "id": "tajin-clasico-mexico-142g",
@@ -11012,7 +11014,7 @@
       "region": "world",
       "category": "chocolate_sandwich_cake",
       "package": "30 g single pack",
-      "image": null,
+      "image": "https://turcamart.com/cdn/shop/products/Halley-Biskuvi-30-Gr-24-Adet-2.jpg?v=1617185656&width=700",
       "description": {
         "es": "Galletita sándwich de cacao con marshmallow y cobertura de chocolate con leche.",
         "en": "Cocoa sandwich biscuit with marshmallow and milk chocolate coating."
@@ -11207,7 +11209,8 @@
       ],
       "sourceId": "ulker-halley-turkey",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-ulker-halley-turkey-30g"
     },
     {
       "id": "marmite-yeast-extract-uk-250g",
@@ -11223,7 +11226,7 @@
       "region": "world",
       "category": "yeast_spread",
       "package": "250 g jar",
-      "image": null,
+      "image": "https://www.ocado.com/images-v3/eafa5127-d256-497b-9609-4869092accd6/355ad06b-9456-4032-9724-ab017a84da8c/1120x1120.jpg",
       "description": {
         "es": "Pasta salada de extracto de levadura enriquecida con vitaminas B.",
         "en": "Savory yeast extract spread fortified with B vitamins."
@@ -11349,7 +11352,8 @@
       ],
       "sourceId": "marmite-yeast-extract-uk",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-marmite-yeast-extract-uk-250g"
     },
     {
       "id": "mcbaigs-pure-maple-syrup-canada",
@@ -11364,8 +11368,8 @@
       "market": "Canada",
       "region": "world",
       "category": "maple_syrup",
-      "package": "Bottle size not specified on source page",
-      "image": null,
+      "package": "250 ml bottle (image-matched)",
+      "image": "https://mcbaigs.com/1.png",
       "description": {
         "es": "Jarabe de arce canadiense 100% puro, sin ingredientes añadidos.",
         "en": "100% pure Canadian maple syrup with no added ingredients."
@@ -11384,7 +11388,8 @@
       ],
       "sourceId": "mcbaigs-maple-syrup-canada",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mcbaigs-pure-maple-syrup-canada"
     },
     {
       "id": "kewpie-japanese-mayonnaise-japan-450g",
@@ -11400,7 +11405,7 @@
       "region": "world",
       "category": "condiment_sauce",
       "package": "450 g bottle",
-      "image": null,
+      "image": "https://www.kewpieshop.com/cdn/shop/files/KA_Mayo_Import_450g_Front_1198x1198.jpg?v=1762924635",
       "description": {
         "es": "Mayonesa japonesa cremosa elaborada con yema de huevo y una mezcla de vinagres.",
         "en": "Creamy Japanese mayonnaise made with egg yolks and a blend of vinegars."
@@ -11490,7 +11495,8 @@
       ],
       "sourceId": "kewpie-japanese-mayonnaise-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-kewpie-japanese-mayonnaise-japan-450g"
     },
     {
       "id": "parle-g-biscuits-india",
