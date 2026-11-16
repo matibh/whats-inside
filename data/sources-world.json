@@ -1477,6 +1477,69 @@
       "url": "https://ca.britishessentials.com/products/heinz-baked-beanz-150g",
       "supports": "Heinz Baked Beanz UK 150 g can product image.",
       "market": "United Kingdom"
+    },
+    {
+      "id": "image-nutella-italy-400g",
+      "productId": "nutella-italy-400g",
+      "publisher": "Nutella Italia",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.nutella.com/it/it/prodotti/crema-spalmabile/nutella",
+      "supports": "Official Nutella Italy 400 g jar product image.",
+      "market": "Italy"
+    },
+    {
+      "id": "image-coca-cola-original-us",
+      "productId": "coca-cola-original-us",
+      "publisher": "Lowe's",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.lowes.com/pd/Coca-Cola-Coca-Cola-Bottle-20-fl-oz/5014075097",
+      "supports": "Coca-Cola Original Taste US 20 fl oz bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-lays-classic-us-1-5oz",
+      "productId": "lays-classic-us-1-5oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/148212532",
+      "supports": "Lay's Classic US 1.5 oz bag product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-froot-loops-us-13-2oz",
+      "productId": "froot-loops-us-13-2oz",
+      "publisher": "ShopRite",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.shoprite.com/product/kelloggs-froot-loops-original-cold-breakfast-cereal-132-oz-id-00038000281860",
+      "supports": "Kellogg's Froot Loops US 13.2 oz box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-takis-fuego-mexico-70g",
+      "productId": "takis-fuego-mexico-70g",
+      "publisher": "Walmart México",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com.mx/ip/botana-barcel-takis-fuego-picante-sabor-chile-y-limon-70-g/00750081000367",
+      "supports": "Takis Fuego Mexico 70 g bag product image.",
+      "market": "Mexico"
+    },
+    {
+      "id": "image-gansito-marinela-mexico-50g",
+      "productId": "gansito-marinela-mexico-50g",
+      "publisher": "Walmart México",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com.mx/ip/envasados-dulces/pastelito-marinela-gansito-50-g/00750100015310",
+      "supports": "Marinela Gansito Mexico 50 g wrapper product image.",
+      "market": "Mexico"
+    },
+    {
+      "id": "image-reeses-peanut-butter-cups-us-4-4oz",
+      "productId": "reeses-peanut-butter-cups-us-4-4oz",
+      "publisher": "Hannaford",
+      "sourceType": "retailer_product_image",
+      "url": "https://hannaford.com/groceries/candy-chocolate/chocolate-candy/packaged-chocolate-candy/reeses-milk-chocolate-peanut-butter-cups-candy-snack-size-8-ct-44-oz-pkg.html",
+      "supports": "REESE'S Snack Size Peanut Butter Cups US 4.4 oz package image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
