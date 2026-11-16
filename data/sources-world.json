@@ -1792,6 +1792,60 @@
       "url": "https://lollyhood.com.au/products/skittles-original-61-5g",
       "supports": "SKITTLES Original US 61.5 g pack product image.",
       "market": "United States"
+    },
+    {
+      "id": "image-amul-dark-chocolate-india-150g",
+      "productId": "amul-dark-chocolate-india-150g",
+      "publisher": "Mystore",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.mystore.in/en/product/amul-dark-chocolate-40x150g-pack",
+      "supports": "Amul Dark Chocolate India 150 g package image.",
+      "market": "India"
+    },
+    {
+      "id": "image-kewpie-japanese-mayonnaise-japan-450g",
+      "productId": "kewpie-japanese-mayonnaise-japan-450g",
+      "publisher": "Kewpie Shop",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.kewpieshop.com/collections/kewpie-mayonnaise",
+      "supports": "KEWPIE Japanese Mayonnaise 450 g bottle product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-marmite-yeast-extract-uk-250g",
+      "productId": "marmite-yeast-extract-uk-250g",
+      "publisher": "Ocado",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.ocado.com/products/marmite-original-yeast-extract-spread/11125011",
+      "supports": "Marmite Original UK 250 g jar product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-ulker-halley-turkey-30g",
+      "productId": "ulker-halley-turkey-30g",
+      "publisher": "Turcamart",
+      "sourceType": "retailer_product_image",
+      "url": "https://turcamart.com/products/ulker-halley-chocolate-24s-30-g",
+      "supports": "Ülker Halley Turkey 30 g wrapper product image.",
+      "market": "Turkey"
+    },
+    {
+      "id": "image-calbee-jagabee-plain-japan-38g",
+      "productId": "calbee-jagabee-plain-japan-38g",
+      "publisher": "Askul Japan",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.askul.co.jp/p/UK71811/",
+      "supports": "Calbee Jagabee Plain Japan package image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-mcbaigs-pure-maple-syrup-canada",
+      "productId": "mcbaigs-pure-maple-syrup-canada",
+      "publisher": "McBaigs",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://mcbaigs.com/",
+      "supports": "McBaigs Pure Maple Syrup Canada 250 ml bottle image; product record package size updated to match.",
+      "market": "Canada"
     }
   ],
   "lastUpdated": "2026-11-16"
