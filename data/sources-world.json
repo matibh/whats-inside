@@ -1540,6 +1540,69 @@
       "url": "https://hannaford.com/groceries/candy-chocolate/chocolate-candy/packaged-chocolate-candy/reeses-milk-chocolate-peanut-butter-cups-candy-snack-size-8-ct-44-oz-pkg.html",
       "supports": "REESE'S Snack Size Peanut Butter Cups US 4.4 oz package image.",
       "market": "United States"
+    },
+    {
+      "id": "image-oreo-original-us-family",
+      "productId": "oreo-original-us-family",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/OREO-Chocolate-Sandwich-Cookies-Family-Size-18-12-oz",
+      "supports": "OREO Original US family-size 18.12 oz package image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-toblerone-milk-switzerland-100g",
+      "productId": "toblerone-milk-switzerland-100g",
+      "publisher": "Giftmandu",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.giftmandu.com/toblerone-milk-swiss-chocolate-100g",
+      "supports": "Toblerone Milk Switzerland 100 g package image.",
+      "market": "Switzerland"
+    },
+    {
+      "id": "image-frosted-flakes-us-17-3oz",
+      "productId": "frosted-flakes-us-17-3oz",
+      "publisher": "The Fresh Grocer",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.thefreshgrocer.com/product/kelloggs-frosted-flakes-original-cold-breakfast-cereal-173-oz-id-00038000281907",
+      "supports": "Kellogg's Frosted Flakes US 17.3 oz box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-pocky-chocolate-japan-2pack",
+      "productId": "pocky-chocolate-japan-2pack",
+      "publisher": "Gorod Tokyo",
+      "sourceType": "retailer_product_image",
+      "url": "https://gorodtokyo.ru/produkt/glico-pocky-yaponskiy-shokolad-23377/",
+      "supports": "Glico Pocky Chocolate Japan two-pack product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-mcvities-digestives-uk-original",
+      "productId": "mcvities-digestives-uk-original",
+      "publisher": "TikTok Shop",
+      "sourceType": "retailer_product_image",
+      "url": "https://shop.tiktok.com/us/pdp/mcvities-digestives-the-original-355g-crunchy-biscuits/1729440104182550612",
+      "supports": "McVitie's Digestives The Original UK 355 g pack product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-cadbury-dairy-milk-uk-45g",
+      "productId": "cadbury-dairy-milk-uk-45g",
+      "publisher": "Cadbury Gifts Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.cadburygiftsdirect.co.uk/cadbury-dairy-milk-bar-45g.html",
+      "supports": "Cadbury Dairy Milk UK 45 g wrapper product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-ferrero-rocher-us-3pack",
+      "productId": "ferrero-rocher-us-3pack",
+      "publisher": "The Sweet Spot",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.trythesweetspot.com/product/ferrero-rocher-shelf-pack-3-pc/735",
+      "supports": "Ferrero Rocher US 3-piece shelf pack product image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
