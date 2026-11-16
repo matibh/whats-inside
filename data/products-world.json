@@ -7032,7 +7032,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "90 g pack option",
-      "image": null,
+      "image": "https://media.britannia.co.in/Untitled_design_2_6ee1be83c2.webp",
       "description": {
         "es": "Galletitas indias de manteca con aceite de palma, leche y vainilla.",
         "en": "Indian butter cookies with palm oil, milk and vanilla."
@@ -7162,7 +7162,8 @@
       ],
       "sourceId": "britannia-good-day-butter-india-90g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-britannia-good-day-butter-india-90g"
     },
     {
       "id": "guarana-antarctica-brazil-350ml",
@@ -13574,7 +13575,7 @@
       "region": "world",
       "category": "frozen_dumplings",
       "package": "276 g pack (12 pieces)",
-      "image": null,
+      "image": "https://delivery.youmetown.com/img/goods/5/4901001397457_5.jpg",
       "description": {
         "es": "Empanaditas japonesas congeladas rellenas de vegetales y carnes, con masa fina.",
         "en": "Japanese frozen pan-fried dumplings filled with vegetables and meat in a thin wrapper."
@@ -13788,7 +13789,8 @@
       ],
       "sourceId": "ajinomoto-gyoza-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-ajinomoto-gyoza-japan-276g"
     },
     {
       "id": "lotte-koalas-march-chocolate-japan-48g",
