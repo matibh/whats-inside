@@ -10299,7 +10299,7 @@
       "region": "world",
       "category": "chili_sauce",
       "package": "200 g bottle",
-      "image": null,
+      "image": "https://www.bbassets.com/media/uploads/p/xl/266058_12-maggi-hot-sweet-tomato-chilli-sauce.jpg",
       "description": {
         "es": "Salsa india agridulce de tomate y chile · transcripción comercial de etiqueta.",
         "en": "Indian sweet-and-hot tomato chilli sauce · retailer label transcription."
@@ -10409,7 +10409,8 @@
       ],
       "sourceId": "maggi-hot-sweet-chilli-india",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-maggi-hot-sweet-tomato-chilli-india-200g"
     },
     {
       "id": "colacao-original-spain-383g",
@@ -10532,7 +10533,7 @@
       "region": "world",
       "category": "canned_beans",
       "package": "15.5 oz can (also offered in other sizes)",
-      "image": null,
+      "image": "https://shop.goya.com/cdn/shop/products/BlackBeans_28c155a8-f3f3-451f-ae76-79f70c54993c.png?v=1661812943&width=1080",
       "description": {
         "es": "Frijoles negros en conserva con agua y sal.",
         "en": "Canned black beans with water and salt."
@@ -10566,7 +10567,8 @@
       ],
       "sourceId": "goya-black-beans-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-goya-black-beans-us-15-5oz"
     },
     {
       "id": "calbee-jagabee-plain-japan-38g",
@@ -10633,7 +10635,7 @@
       "region": "world",
       "category": "seasoning_blend",
       "package": "5 oz bottle (also 14 oz and other sizes)",
-      "image": null,
+      "image": "https://availmru.com/cdn/shop/files/Untitled_design.png?v=1771200468",
       "description": {
         "es": "Condimento de chile, limón y sal marina.",
         "en": "Chili, lime and sea salt seasoning."
@@ -10668,7 +10670,8 @@
       ],
       "sourceId": "tajin-clasico",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-tajin-clasico-mexico-142g"
     },
     {
       "id": "want-want-seaweed-rice-crackers-tw-102g",
@@ -10684,7 +10687,7 @@
       "region": "world",
       "category": "rice_crackers",
       "package": "102 g pack (also 136 g)",
-      "image": null,
+      "image": "https://eorder.soda-mall.com/hung-hom/media/catalog/product/cache/9b588f459139fa4fbe58d45626be4c98/3/7/37558_1.jpg",
       "description": {
         "es": "Galletas de arroz tipo senbei con tiras de alga.",
         "en": "Senbei-style rice crackers with seaweed strips."
@@ -10718,7 +10721,8 @@
       ],
       "sourceId": "want-want-seaweed-rice-crackers",
       "verification": "manufacturer_product_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-want-want-seaweed-rice-crackers-tw-102g"
     },
     {
       "id": "want-want-shelly-senbei-china-122g",
@@ -10828,7 +10832,7 @@
       "region": "world",
       "category": "fruit_candy",
       "package": "61.5 g single pack",
-      "image": null,
+      "image": "https://lollyhood.com.au/cdn/shop/files/Skittles-Original-Chewy-Candy-Full-Size-2-17-oz-Bag_9c05242d-b8bf-47a3-ac8d-bfbdd709dc8a.d90e5dd4464032c6ac9ade58ee7f7e90.avif?v=1765284807&width=1445",
       "description": {
         "es": "Caramelos masticables frutales multicolor, fórmula estadounidense.",
         "en": "Colorful fruit-flavored chewy candy, United States formula."
@@ -10991,7 +10995,8 @@
       ],
       "sourceId": "skittles-original-us",
       "verification": "manufacturer_product_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-skittles-original-us-61-5g"
     },
     {
       "id": "ulker-halley-turkey-30g",
