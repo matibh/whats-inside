@@ -844,7 +844,7 @@
       "region": "world",
       "category": "chocolate_bar",
       "package": "1.5 oz",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Kit-Kat-Candy-Bar-Milk-Chocolate-Wafer-1-5oz-Pack-of-2_ff880bed-57d3-43fe-830f-61c4722ecbfc.af3c416ba16266fba65c1bc7253935ae.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573",
       "description": {
         "es": "Barra de chocolate con leche y oblea · versión estadounidense.",
         "en": "Milk chocolate wafer bar · United States-market version."
@@ -980,7 +980,8 @@
       "nameI18n": {
         "es": "Kit Kat chocolate con leche",
         "en": "Kit Kat Milk Chocolate"
-      }
+      },
+      "imageSourceId": "image-kitkat-milk-chocolate-us-1-5oz"
     },
     {
       "id": "cheerios-original-us-8-9oz",
@@ -5794,7 +5795,7 @@
       "region": "world",
       "category": "bouillon",
       "package": "1 kg professional pack",
-      "image": null,
+      "image": "https://rzonlinehandel.at/images/product_images/info_images/BG-9000275714610.jpg",
       "description": {
         "es": "Caldo concentrado alemán de verduras con extracto de levadura y hortalizas.",
         "en": "German concentrated vegetable bouillon with yeast extract and vegetables."
@@ -5924,7 +5925,8 @@
       ],
       "sourceId": "knorr-gemuse-bouillon-germany-1kg-source",
       "verification": "manufacturer_product_specification_via_distributor_pdf",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-knorr-gemuse-bouillon-germany-1kg"
     },
     {
       "id": "meiji-milk-chocolate-japan-50g",
@@ -6015,7 +6017,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "140 g (4.94 oz) pack",
-      "image": null,
+      "image": "https://www.ramencrate.co.nz/cdn/shop/files/SamyangOriginalBuldakHotChickenInstantNoodles-Plain.png?v=1768252565&width=1445",
       "description": {
         "es": "Fideos instantáneos coreanos picantes con salsa de pollo, versión estadounidense.",
         "en": "Spicy Korean instant noodles with chicken-style sauce, US-market declaration."
@@ -6369,7 +6371,8 @@
       ],
       "sourceId": "samyang-buldak-original-korea-us-140g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-samyang-buldak-original-korea-us-140g"
     },
     {
       "id": "heinz-baked-beanz-uk-150g",
@@ -7259,7 +7262,7 @@
       "region": "world",
       "category": "yeast_spread",
       "package": "220 g jar",
-      "image": null,
+      "image": "https://www.instacart.com/image-server/1864x1864/www.instacart.com/assets/domains/product-image/file/large_3a33d897-ded2-4563-bbfb-c6b087c9d25b.jpg",
       "description": {
         "es": "Pasta australiana concentrada de extracto de levadura, sal y vitaminas B.",
         "en": "Australian concentrated yeast extract spread with salt and B vitamins."
@@ -7349,7 +7352,8 @@
       ],
       "sourceId": "vegemite-australia-220g-source",
       "verification": "manufacturer_product_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-vegemite-australia-220g"
     },
     {
       "id": "walkers-quavers-cheese-uk",
@@ -7365,7 +7369,7 @@
       "region": "world",
       "category": "cheese_snack",
       "package": "16 g serving reference",
-      "image": null,
+      "image": "https://i.ebayimg.com/images/g/x08AAOSw0kpl~q5e/s-l1200.jpg",
       "description": {
         "es": "Snack aireado de fécula de papa con sabor a queso, vendido en Reino Unido.",
         "en": "Puffed potato-starch cheese snack sold in the UK."
@@ -7575,7 +7579,8 @@
       ],
       "sourceId": "walkers-quavers-cheese-uk-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-walkers-quavers-cheese-uk"
     },
     {
       "id": "pocari-sweat-japan-500ml",
@@ -7591,7 +7596,7 @@
       "region": "world",
       "category": "sports_drink",
       "package": "500 ml bottle",
-      "image": null,
+      "image": "https://wingonfile01.easesales.com/upload/3302BA3D66D2EDC2/202005/4834603554203765292.png_700x650.ashx",
       "description": {
         "es": "Bebida japonesa de reposición de agua y electrolitos.",
         "en": "Japanese hydration drink with water and electrolyte replenishment."
@@ -7689,7 +7694,8 @@
       ],
       "sourceId": "pocari-sweat-japan-500ml-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pocari-sweat-japan-500ml"
     },
     {
       "id": "kelloggs-coco-pops-uk",
@@ -8041,7 +8047,7 @@
       "region": "world",
       "category": "chocolate_spread",
       "package": "8 kg foodservice tub",
-      "image": null,
+      "image": "https://lasalameriadeli.com/cdn/shop/files/746BC4C1-2EC3-4000-80FD-25827093BD32.jpg?v=1711316349&width=1445",
       "description": {
         "es": "Crema untable de galletas caramelizadas Biscoff, presentación profesional.",
         "en": "Spread made from caramelised Biscoff biscuits, foodservice pack."
@@ -8139,7 +8145,8 @@
       ],
       "sourceId": "lotus-biscoff-spread-foodservice-8kg-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lotus-biscoff-spread-foodservice-8kg"
     },
     {
       "id": "indomie-mi-goreng-indonesia",
@@ -8668,7 +8675,7 @@
       "region": "world",
       "category": "pasta_sauce",
       "package": "400 g jar",
-      "image": null,
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/552911813925290-71a56d77-6546-4ca9-888f-714a2a3e57ee.jpg",
       "description": {
         "es": "Salsa picante de tomate con pimiento rojo, ajo, perejil y guindilla.",
         "en": "Spicy tomato sauce with red pepper, garlic, parsley and chilli."
@@ -8750,7 +8757,8 @@
       ],
       "sourceId": "barilla-arrabbiata-sauce-italy-400g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-barilla-arrabbiata-sauce-italy-400g"
     },
     {
       "id": "kikkoman-soy-sauce-india-500ml",
