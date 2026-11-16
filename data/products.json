@@ -1835,6 +1835,1387 @@
       "sourceId": "mana-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready"
+    },
+    {
+      "id": "milka-chocolate-leche-55g-ar",
+      "name": "Chocolate Milka con Leche",
+      "brand": "Milka",
+      "country": "Brasil",
+      "market": "Argentina",
+      "category": "milk_chocolate",
+      "package": "55 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Chocolate con leche · ¿Podés adivinar sus ingredientes?",
+        "en": "Milk chocolate · Can you guess its ingredients?"
+      },
+      "ingredientsText": "Azúcar, manteca de cacao, leche entera en polvo, pasta de cacao, suero de leche en polvo, grasa anhidra de leche, emulsionante lecitina de soja, emulsionante polirricinoleato de poliglicerol, aromatizante idéntico al natural vainillina, leche, derivados de soja.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "pasta de cacao",
+            "cocoa mass",
+            "cocoa liquor"
+          ]
+        },
+        {
+          "es": "suero de leche en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero de leche en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "grasa anhidra de leche",
+          "en": "anhydrous milk fat",
+          "aliases": [
+            "grasa anhidra de leche",
+            "anhydrous milk fat"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate",
+            "PGPR"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "derivados de soja",
+          "en": "soy derivatives",
+          "aliases": [
+            "derivados de soja",
+            "soy derivatives",
+            "soya derivatives"
+          ]
+        }
+      ],
+      "sourceId": "milka-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "terrabusi-variedad-chocolate-310g",
+      "name": "Galletitas Terrabusi Variedad Chocolate",
+      "brand": "Terrabusi",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "assorted_cookies",
+      "package": "310 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Galletitas surtidas · ¿Qué ingredientes reconocés?",
+        "en": "Assorted cookies · Which ingredients can you name?"
+      },
+      "ingredientsText": "Harina de trigo enriquecida, hierro, ácido fólico, vitamina B1, vitamina B2, niacina, azúcar, grasa vacuna refinada, jarabe de maíz de alta fructosa, harina de sorgo, almidón, cacao en polvo, aceite vegetal, sal, gelatina, colorante caramelo III, colorante carmín, colorante cúrcuma, bicarbonato de sodio, bicarbonato de amonio, fosfato monocálcico, lecitina de soja, aromatizantes, goma guar, ácido cítrico. Puede contener leche.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "harina de sorgo",
+          "en": "sorghum flour",
+          "aliases": [
+            "harina de sorgo",
+            "sorghum flour"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "caramelo III",
+          "en": "caramel color III",
+          "aliases": [
+            "caramelo III",
+            "caramel color III",
+            "caramel colour"
+          ]
+        },
+        {
+          "es": "carmín",
+          "en": "carmine",
+          "aliases": [
+            "carmín",
+            "carmine"
+          ]
+        },
+        {
+          "es": "cúrcuma",
+          "en": "turmeric",
+          "aliases": [
+            "cúrcuma",
+            "turmeric"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        }
+      ],
+      "sourceId": "terrabusi-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "jorgito-alfajor-choco-negro-55g",
+      "name": "Alfajor Jorgito Negro",
+      "brand": "Jorgito",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_alfajor",
+      "package": "55 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Alfajor clásico · ¿Cuántos ingredientes podés descubrir?",
+        "en": "Classic chocolate alfajor · How many ingredients can you find?"
+      },
+      "ingredientsText": "Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, estabilizante INS 406, regulador de acidez INS 500ii, aromatizante vainilla], harina de trigo enriquecida Ley 25.630, baño de repostería semiamargo, azúcar, grasa vacuna refinada, miel, cacao en polvo, leche entera en polvo, yema de huevo en polvo, sal, leudantes químicos INS 503ii y 500ii, emulsionante INS 471, lecitina de soja INS 322, aromatizantes/saborizantes.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sorbato de potasio (INS 202)",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio (INS 202)",
+            "potassium sorbate",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "agar (INS 406)",
+          "en": "agar",
+          "aliases": [
+            "agar (INS 406)",
+            "agar",
+            "agar-agar"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio (INS 500ii)",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio (INS 500ii)",
+            "sodium bicarbonate",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "aromatizante vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "baño de repostería semiamargo",
+          "en": "semi-sweet compound coating",
+          "aliases": [
+            "baño de repostería semiamargo",
+            "semi-sweet compound coating",
+            "compound chocolate coating"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "yema de huevo en polvo",
+          "en": "egg yolk powder",
+          "aliases": [
+            "yema de huevo en polvo",
+            "egg yolk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503ii)",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio (INS 503ii)",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos (INS 471)",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos (INS 471)",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "lecitina de soja (INS 322)",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja (INS 322)",
+            "soy lecithin",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "jorgito-negro",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "jorgito-alfajor-blanco-merengue-50g",
+      "name": "Alfajor Jorgito Blanco Merengue",
+      "brand": "Jorgito",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "white_alfajor",
+      "package": "50 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Alfajor blanco con merengue · ¿Qué contiene?",
+        "en": "White alfajor with meringue · What's inside?"
+      },
+      "ingredientsText": "Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, estabilizante INS 406, regulador de acidez INS 500ii, aromatizante vainilla], harina de trigo enriquecida Ley 25.630, azúcar, grasa vacuna refinada, miel, cacao en polvo, leche entera en polvo, albúmina de huevo, yema de huevo en polvo, sal, leudantes químicos INS 503ii y 500ii, emulsionante INS 471, lecitina de soja INS 322, aromatizantes/saborizantes.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sorbato de potasio (INS 202)",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio (INS 202)",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "agar (INS 406)",
+          "en": "agar",
+          "aliases": [
+            "agar (INS 406)",
+            "agar",
+            "agar-agar"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio (INS 500ii)",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio (INS 500ii)",
+            "sodium bicarbonate",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "aromatizante vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "albúmina de huevo",
+          "en": "egg albumin",
+          "aliases": [
+            "albúmina de huevo",
+            "egg albumin",
+            "egg white"
+          ]
+        },
+        {
+          "es": "yema de huevo en polvo",
+          "en": "egg yolk powder",
+          "aliases": [
+            "yema de huevo en polvo",
+            "egg yolk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503ii)",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio (INS 503ii)",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos (INS 471)",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos (INS 471)",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "lecitina de soja (INS 322)",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja (INS 322)",
+            "soy lecithin",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "jorgito-blanco",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "jorgito-alfajor-choco-blanco-55g",
+      "name": "Alfajor Jorgito Choco Blanco",
+      "brand": "Jorgito",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "white_chocolate_alfajor",
+      "package": "55 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Alfajor de chocolate blanco · Adiviná sus ingredientes.",
+        "en": "White chocolate alfajor · Guess its ingredients."
+      },
+      "ingredientsText": "Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, regulador de acidez INS 500ii, aromatizante], harina de trigo enriquecida Ley 25.630, baño de repostería fantasía blanco, azúcar, grasa vacuna refinada, miel, leche entera en polvo, sal, leudantes químicos INS 503ii y 500ii, emulsionante INS 471, aromatizantes/saborizantes.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sorbato de potasio (INS 202)",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio (INS 202)",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio (INS 500ii)",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio (INS 500ii)",
+            "sodium bicarbonate",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "baño de repostería fantasía blanco",
+          "en": "white compound coating",
+          "aliases": [
+            "baño de repostería fantasía blanco",
+            "white compound coating",
+            "white confectionery coating"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503ii)",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio (INS 503ii)",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos (INS 471)",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos (INS 471)",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "aromatizantes/saborizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes/saborizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "jorgito-chocoblanco",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "jorgelin-blanco-85g",
+      "name": "Alfajor Jorgelín Blanco",
+      "brand": "Jorgito",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "white_alfajor",
+      "package": "85 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Alfajor triple blanco · ¿Podés identificar todos sus ingredientes?",
+        "en": "Triple white alfajor · Can you identify all its ingredients?"
+      },
+      "ingredientsText": "Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, regulador de acidez INS 500ii, aromatizante], harina de trigo enriquecida Ley 25.630, baño de repostería fantasía blanco, azúcar, grasa vacuna refinada, miel, leche entera en polvo, sal, leudantes químicos INS 503ii y 500ii, emulsionante INS 471, aromatizantes/saborizantes.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sorbato de potasio (INS 202)",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio (INS 202)",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio (INS 500ii)",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio (INS 500ii)",
+            "sodium bicarbonate",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "baño de repostería fantasía blanco",
+          "en": "white compound coating",
+          "aliases": [
+            "baño de repostería fantasía blanco",
+            "white compound coating",
+            "white confectionery coating"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503ii)",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio (INS 503ii)",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos (INS 471)",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos (INS 471)",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "aromatizantes/saborizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes/saborizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "jorgelin-blanco",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "fanta-naranja-ar",
+      "name": "Fanta Naranja",
+      "brand": "Fanta · Coca-Cola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "orange_soda",
+      "package": "Presentación argentina; tamaño no especificado",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Gaseosa de naranja · ¿Qué tiene la fórmula?",
+        "en": "Orange soda · What's in the formula?"
+      },
+      "ingredientsText": "Agua carbonatada, azúcares, aromatizantes, ácido cítrico (INS 330), citrato de sodio (INS 331iii), benzoato de sodio, EDTA cálcico disódico (INS 385), colorantes INS 110 y 123.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "azúcares",
+          "en": "sugars",
+          "aliases": [
+            "azúcares",
+            "sugars",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "ácido cítrico (INS 330)",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico (INS 330)",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "citrato de sodio (INS 331iii)",
+          "en": "sodium citrate",
+          "aliases": [
+            "citrato de sodio (INS 331iii)",
+            "sodium citrate"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "EDTA cálcico disódico (INS 385)",
+          "en": "calcium disodium EDTA",
+          "aliases": [
+            "EDTA cálcico disódico (INS 385)",
+            "calcium disodium EDTA",
+            "disodium calcium EDTA"
+          ]
+        },
+        {
+          "es": "colorante amarillo ocaso (INS 110)",
+          "en": "sunset yellow FCF",
+          "aliases": [
+            "colorante amarillo ocaso (INS 110)",
+            "sunset yellow FCF",
+            "sunset yellow"
+          ]
+        },
+        {
+          "es": "colorante rojo cochinilla A (INS 123)",
+          "en": "amaranth dye",
+          "aliases": [
+            "colorante rojo cochinilla A (INS 123)",
+            "amaranth dye",
+            "amaranth"
+          ]
+        }
+      ],
+      "sourceId": "fanta-ar",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "fanta-pomelo-ar",
+      "name": "Fanta Pomelo",
+      "brand": "Fanta · Coca-Cola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "grapefruit_soda",
+      "package": "Presentación argentina; tamaño no especificado",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Gaseosa de pomelo · Descubrí sus ingredientes.",
+        "en": "Grapefruit soda · Discover its ingredients."
+      },
+      "ingredientsText": "Agua carbonatada, azúcar o JMAF, ácido cítrico (INS 330), aromatizantes, secuestrante INS 452i, conservante benzoato de sodio, colorante tartrazina (INS 102).",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "azúcar o jarabe de maíz de alta fructosa",
+          "en": "sugar or high-fructose corn syrup",
+          "aliases": [
+            "azúcar o jarabe de maíz de alta fructosa",
+            "sugar or high-fructose corn syrup",
+            "sugar",
+            "high fructose corn syrup"
+          ]
+        },
+        {
+          "es": "ácido cítrico (INS 330)",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico (INS 330)",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "polifosfato de sodio (INS 452i)",
+          "en": "sodium polyphosphate",
+          "aliases": [
+            "polifosfato de sodio (INS 452i)",
+            "sodium polyphosphate"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "tartrazina (INS 102)",
+          "en": "tartrazine",
+          "aliases": [
+            "tartrazina (INS 102)",
+            "tartrazine"
+          ]
+        }
+      ],
+      "sourceId": "fanta-pomelo-ar",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "baggio-pronto-naranja-200ml",
+      "name": "Baggio Pronto Naranja",
+      "brand": "Baggio",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "orange_juice_drink",
+      "package": "200 ml",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Jugo listo de naranja · ¿Qué ingredientes tiene?",
+        "en": "Ready-to-drink orange juice · What's inside?"
+      },
+      "ingredientsText": "Agua, jugo concentrado de naranja, azúcar, jarabe de maíz de alta fructosa, vitamina C, acidulante ácido cítrico, aromatizante, antioxidante eritorbato de sodio, antioxidante ácido ascórbico.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jugo concentrado de naranja",
+          "en": "orange juice concentrate",
+          "aliases": [
+            "jugo concentrado de naranja",
+            "orange juice concentrate"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C",
+            "ascorbic acid"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "eritorbato de sodio",
+          "en": "sodium erythorbate",
+          "aliases": [
+            "eritorbato de sodio",
+            "sodium erythorbate"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid",
+            "vitamin C"
+          ]
+        }
+      ],
+      "sourceId": "baggio-pronto",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "mantecol-clasico-111g",
+      "name": "Mantecol Clásico",
+      "brand": "Mantecol",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "peanut_nougat",
+      "package": "111 g",
+      "barcode": null,
+      "image": null,
+      "description": {
+        "es": "Turrón de maní · ¿Cuántos ingredientes encontrás?",
+        "en": "Peanut nougat · How many ingredients can you find?"
+      },
+      "ingredientsText": "Pasta de maní, jarabe de glucosa, azúcar, aceite de palma, claras de huevo, aceite de soja, cacao en polvo, emulsionante mono y diglicéridos de ácidos grasos, regulador de acidez ácido cítrico, aromatizante idéntico al natural vainillina. Contiene derivados de maní, huevo y soja. Puede contener leche, almendra, castaña de cajú y avellana.",
+      "ingredients": [
+        {
+          "es": "pasta de maní",
+          "en": "peanut paste",
+          "aliases": [
+            "pasta de maní",
+            "peanut paste",
+            "peanut butter"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "claras de huevo",
+          "en": "egg whites",
+          "aliases": [
+            "claras de huevo",
+            "egg whites",
+            "egg white"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil",
+            "soya oil"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "mono and diglycerides"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "mantecol-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
     }
   ]
 }
