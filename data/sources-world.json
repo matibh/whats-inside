@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "lastReviewed": "2026-11-16",
+  "sources": [
+    {
+      "id": "nutella-italy-ferrero",
+      "productId": "nutella-italy-400g",
+      "publisher": "Ferrero Italia",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.ferrero.it/prodotti/nutella-prodotti/nutella/",
+      "supports": "Official Italian Nutella ingredient declaration.",
+      "market": "Italy"
+    },
+    {
+      "id": "coca-cola-us-official",
+      "productId": "coca-cola-original-us",
+      "publisher": "The Coca-Cola Company US",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/us/en/brands/coca-cola/products/original/original-taste",
+      "supports": "Official US Coca-Cola Original Taste ingredients.",
+      "market": "United States"
+    },
+    {
+      "id": "oreo-us-official",
+      "productId": "oreo-original-us-family",
+      "publisher": "OREO / Mondelēz",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.oreo.com/products/oreo-cookie?Size=1+Pack",
+      "supports": "Official US OREO Original ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "pringles-us-official",
+      "productId": "pringles-original-us-5-2oz",
+      "publisher": "Pringles",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.pringles.com/en-us/products/pringles-the-original-product.html",
+      "supports": "Official US Pringles The Original ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "heinz-us-official",
+      "productId": "heinz-tomato-ketchup-us-38oz",
+      "publisher": "Heinz",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.heinz.com/products/00013000004664-tomato-ketchup",
+      "supports": "Official US Heinz Tomato Ketchup ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "kelloggs-cornflakes-us-official",
+      "productId": "kelloggs-corn-flakes-us-9-6oz",
+      "publisher": "Kellogg's / Kellanova",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.wkkellogg.com/products/kellogg-s-corn-flakes-cereal-product",
+      "supports": "Official US Kellogg's Corn Flakes ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "toblerone-switzerland-official",
+      "productId": "toblerone-milk-switzerland-100g",
+      "publisher": "Toblerone",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.toblerone.com/ch-de/produkte/milch/",
+      "supports": "Official Swiss Toblerone Milk ingredient declaration.",
+      "market": "Switzerland"
+    },
+    {
+      "id": "kitkat-us-hershey",
+      "productId": "kitkat-milk-chocolate-us-1-5oz",
+      "publisher": "Hersheyland",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.hersheyland.com/products/kit-kat-milk-chocolate-candy-bar-1-5-oz.html",
+      "supports": "Official US Kit Kat Milk Chocolate ingredient declaration and package size.",
+      "market": "United States"
+    }
+  ]
+}
