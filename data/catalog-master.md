@@ -9,6 +9,7 @@ Human-readable editorial register. JSON remains the game's data source; update t
 - **Argentina:** 25
 - **World:** 120
 - **Idiomas / Languages:** Español + English
+- **Fotos reales / Real product photos:** 38 / 145
 
 ## Reglas / Rules
 
@@ -30,6 +31,7 @@ Human-readable editorial register. JSON remains the game's data source; update t
 ### Nutella / Nutella
 
 - **ID:** `nutella-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.nutella.com/ar/sites/nutella20_ar/files/2023-06/350g_ok.jpg?t=1736508122) · [Fuente / Source](https://www.nutella.com/ar/es/productos/nutella)
 - **Marca / Brand:** Ferrero
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -65,6 +67,7 @@ La página oficial argentina identifica 7 ingredientes: azúcar, aceite de palma
 ### Chocolinas / Chocolinas
 
 - **ID:** `chocolinas-ar-150g`
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn11.bigcommerce.com/s-b156nxvmdp/images/stencil/1280x1280/products/875/1287/318999-800-450__66603.1692200350.jpg?c=1) · [Fuente / Source](https://gauchostore.com/chocolinas-galletitas-de-chocolate-150-g-5-29-oz/)
 - **Marca / Brand:** Bagley
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -105,6 +108,7 @@ HARINA DE TRIGO ENRIQUECIDA SEGUN LEY 25630 (harina de trigo, hierro, ácido fó
 ### Oreo Original / Oreo Original
 
 - **ID:** `oreo-original-ar-118g`
+- **Foto real / Real photo:** [Ver envase / View package](https://acdn-us.mitiendanube.com/stores/005/651/909/products/2-fc95c486f842f9a38417393881896337-1024-1024.webp) · [Fuente / Source](https://tuasupermercado.com.ar/productos/galletitas-oreo-regular-x-118-gramos/)
 - **Marca / Brand:** Oreo · Mondelez
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -144,6 +148,7 @@ Azúcar, harina de trigo enriquecida, aceite vegetal, cacao en polvo, jarabe de 
 ### Papas Lay's Clásicas / Papas Lay's Clásicas
 
 - **ID:** `lays-clasicas-ar-40g`
+- **Foto real / Real photo:** [Ver envase / View package](https://masonlineprod.vtexassets.com/arquivos/ids/290186/Papas-Fritas-Lays-Cl-sicas-40g-1-45256.jpg?v=638246649691230000) · [Fuente / Source](https://www.masonline.com.ar/papas-fritas-lays-clasicas-40g-2/p)
 - **Marca / Brand:** Lay's · PepsiCo
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -175,6 +180,7 @@ Papa, aceite vegetal, sal.
 ### Cereal Nesquik / Cereal Nesquik
 
 - **ID:** `nesquik-cereal-ar-230g`
+- **Foto real / Real photo:** [Ver envase / View package](https://superlavioleta.com/cdn/shop/products/CEREAL_NESQUIK_230GRS.jpg?v=1751385753) · [Fuente / Source](https://superlavioleta.com/products/cereal-nestle)
 - **Marca / Brand:** Nestlé · Nesquik
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -227,6 +233,7 @@ Harina integral de maíz, sémola fina de maíz, azúcar, jarabe de glucosa, cac
 ### Coca-Cola Sabor Original / Coca-Cola Sabor Original
 
 - **ID:** `coca-cola-original-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://hiperlibertad.vtexassets.com/arquivos/ids/210159-800-auto?aspect=true&height=auto&v=638210685969170000&width=800) · [Fuente / Source](https://www.hiperlibertad.com.ar/coca-cola-sabor-original-500-ml/p)
 - **Marca / Brand:** Coca-Cola
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -261,6 +268,7 @@ AGUA CARBONATADA, AZÚCAR o JMAF, COL 150 d, ACI 338, ARO, EDU SUCRALOSA (4,3 mg
 ### Sprite Sabor Lima-Limón / Sprite Sabor Lima-Limón
 
 - **ID:** `sprite-lima-limon-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.coca-cola.com/content/dam/onexp/ar/es/sprite/productos/38881_ARG_BOTELLARENDER_928x928_V1.jpg) · [Fuente / Source](https://www.coca-cola.com/ar/es/brands/sprite/productos)
 - **Marca / Brand:** Sprite · Coca-Cola
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -438,6 +446,7 @@ Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar,
 ### Chocolate Milka con Leche / Chocolate Milka con Leche
 
 - **ID:** `milka-chocolate-leche-55g-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://f.fcdn.app/imgs/f94787/universobinario.com/ubinuy/1887/original/catalogo/7622210745224-001_1/1500-1500/tableta-de-chocolate-milka-de-leche-55g-001.jpg) · [Fuente / Source](https://universobinario.com/catalogo/tableta-de-chocolate-milka-de-leche-55g_7622210745224_001)
 - **Marca / Brand:** Milka
 - **País / Country:** Brasil
 - **Mercado / Market:** Argentina
@@ -477,6 +486,7 @@ Azúcar, manteca de cacao, leche entera en polvo, pasta de cacao, suero de leche
 ### Galletitas Terrabusi Variedad Chocolate / Galletitas Terrabusi Variedad Chocolate
 
 - **ID:** `terrabusi-variedad-chocolate-310g`
+- **Foto real / Real photo:** [Ver envase / View package](https://perobienargentino.com/cdn/shop/products/310chocolate_600x_62bfe6fc-e5da-4d6b-81a4-edeeb5c2f63a_1200x1200.jpg?v=1706303900) · [Fuente / Source](https://perobienargentino.com/products/galletitas-terrabusi-variedad-chocolate-310-g)
 - **Marca / Brand:** Terrabusi
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -530,6 +540,7 @@ Harina de trigo enriquecida, hierro, ácido fólico, vitamina B1, vitamina B2, n
 ### Alfajor Jorgito Negro / Alfajor Jorgito Negro
 
 - **ID:** `jorgito-alfajor-choco-negro-55g`
+- **Foto real / Real photo:** [Ver envase / View package](https://dcdn-us.mitiendanube.com/stores/005/091/765/products/image2025041913264298723-965f9fb99e7fd9e65317476720110422-1024-1024.webp) · [Fuente / Source](https://guiraomayorista.com.ar/productos/alfajor-jorgito-negro-6u-x-55gr/)
 - **Marca / Brand:** Jorgito
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -667,6 +678,7 @@ Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, regulador d
 ### Alfajor Jorgelín Blanco / Alfajor Jorgelín Blanco
 
 - **ID:** `jorgelin-blanco-85g`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.clansrl.com.ar/web/image/product.template/84/image_1024?unique=208f864) · [Fuente / Source](https://www.clansrl.com.ar/shop/13650-alf-jorgelin-blanco-art-25-x24-84)
 - **Marca / Brand:** Jorgito
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -710,6 +722,7 @@ Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, regulador d
 ### Fanta Naranja / Fanta Naranja
 
 - **ID:** `fanta-naranja-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.coca-cola.com/content/dam/onexp/ar/es/fanta/fantanaranja1198x1198.jpg) · [Fuente / Source](https://www.coca-cola.com/ar/es/brands/fanta/productos)
 - **Marca / Brand:** Fanta · Coca-Cola
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -747,6 +760,7 @@ Agua carbonatada, azúcares, aromatizantes, ácido cítrico (INS 330), citrato d
 ### Fanta Pomelo / Fanta Pomelo
 
 - **ID:** `fanta-pomelo-ar`
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/881691/Gaseosa-Pomelo-600-Ml-Fanta-2-1040316.jpg?v=638919057906670000) · [Fuente / Source](https://www.jumbo.com.ar/gaseosa-pomelo-x-600-ml-fanta/p)
 - **Marca / Brand:** Fanta · Coca-Cola
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -782,6 +796,7 @@ Agua carbonatada, azúcar o JMAF, ácido cítrico (INS 330), aromatizantes, secu
 ### Baggio Pronto Naranja / Baggio Pronto Naranja
 
 - **ID:** `baggio-pronto-naranja-200ml`
+- **Foto real / Real photo:** [Ver envase / View package](https://acdn-us.mitiendanube.com/stores/006/912/754/products/d_735552-mla94035179792_102025-b-b8bf32a6e12e68b2d817623860729078-1024-1024.webp) · [Fuente / Source](https://www.lagolosineria.com.ar/productos/jugo-baggio-200ml-sin-azucar-ag-x18u-barata-la-golosineria/)
 - **Marca / Brand:** Baggio
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -858,6 +873,7 @@ Pasta de maní, jarabe de glucosa, azúcar, aceite de palma, claras de huevo, ac
 ### Galletitas Pepitos / Galletitas Pepitos
 
 - **ID:** `pepitos-chocolate-ar-119g`
+- **Foto real / Real photo:** [Ver envase / View package](https://f.fcdn.app/imgs/c87e7d/universobinario.com/ubinuy/31d8/original/catalogo/7622201735906-001_1/1500-1500/galletas-pepitos-754-con-chispas-de-chocolate-119gr-azul.jpg) · [Fuente / Source](https://universobinario.com/catalogo/galletas-pepitos-754-con-chispas-de-chocolate-119gr-azul_7622201735906_001)
 - **Marca / Brand:** Pepitos · Mondelez
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -1057,6 +1073,7 @@ Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato
 ### Galletitas Santa María Mechaditas / Galletitas Santa María Mechaditas
 
 - **ID:** `santa-maria-mechaditas-ar-200g`
+- **Foto real / Real photo:** [Ver envase / View package](https://acdn-us.mitiendanube.com/stores/093/780/products/galletitasdulcesmechaditosantamaria-d26606442eb02b488217505394380905-1024-1024.webp) · [Fuente / Source](https://rojasglutenfree.com/productos/galletitas-dulces-mechaditos-santa-maria/)
 - **Marca / Brand:** Santa María
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
@@ -1216,6 +1233,7 @@ Unbleached enriched flour (wheat flour, niacin, reduced iron, thiamine mononitra
 ### Pringles Original / Pringles The Original
 
 - **ID:** `pringles-original-us-5-2oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://s7d1.scene7.com/is/image/dolgen/dg-00907205-1) · [Fuente / Source](https://www.dollargeneral.com/p/pringles-original-potato-crisps-chips-lunch-snacks-5-2-oz/038000138416)
 - **Marca / Brand:** Pringles
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1258,6 +1276,7 @@ Dried potatoes, vegetable oil (corn, cottonseed, canola, soybean and/or sunflowe
 ### Ketchup de tomate Heinz / Heinz Tomato Ketchup
 
 - **ID:** `heinz-tomato-ketchup-us-38oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Heinz-Tomato-Ketchup-38-oz-Bottle-Pack-of-6_0d427dd6-05b7-4464-bb4e-3ff07a427245.b18ed410cd6cb754ae5cb2a78dcee416.jpeg) · [Fuente / Source](https://www.walmart.com/ip/15474017983)
 - **Marca / Brand:** Heinz
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1294,6 +1313,7 @@ Tomato concentrate from red ripe tomatoes, distilled vinegar, high fructose corn
 ### Kellogg's Corn Flakes / Kellogg's Corn Flakes
 
 - **ID:** `kelloggs-corn-flakes-us-9-6oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Kellogg-s-Corn-Flakes-Breakfast-Cereal-8-Vitamins-and-Minerals-Healthy-Snacks-Original-9-6oz-Box-1-Box_31a6a23d-8574-4bad-bcc3-a9ffc7930f60.51b5f1373aeb8754fb7849a33d0fd791.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768) · [Fuente / Source](https://www.walmart.com/ip/Kellogg-s-Corn-Flakes-Breakfast-Cereal-8-Vitamins-and-Minerals-Healthy-Snacks-Original-9-6oz-Box-1-Box/745853764)
 - **Marca / Brand:** Kellanova
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1556,6 +1576,7 @@ Milled corn, sugar, malt flavor, contains 2% or less of salt. Vitamins and Miner
 ### Sopa condensada de tomate Campbell's / Campbell's Condensed Tomato Soup
 
 - **ID:** `campbells-tomato-soup-us-10-75oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Campbell-s-Red-White-Tomato-Soup-10-75-Ounce-Cans-Pack-of-12_08aed42f-6393-416f-95c2-7962622480aa.2061dd9db7a3001668f03c4148289ce8.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768) · [Fuente / Source](https://www.walmart.com/ip/519481778)
 - **Marca / Brand:** Campbell's
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1596,6 +1617,7 @@ Tomato Puree (Water, Tomato Paste), Water, Wheat Flour, Sugar, Contains Less Tha
 ### Sopa condensada de pollo con fideos Campbell's / Campbell's Condensed Chicken Noodle Soup
 
 - **ID:** `campbells-chicken-noodle-us-10-75oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.instacart.com/assets/domains/product-image/file/large_2ee05523-219f-4fcf-b93a-a63d30cccf77.jpg) · [Fuente / Source](https://www.instacart.com/products/16548089-campbell-s-chicken-noodle-soup-10-75-oz)
 - **Marca / Brand:** Campbell's
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1650,6 +1672,7 @@ Chicken Stock, Enriched Egg Noodles (Wheat Flour, Eggs, Niacin, Ferrous Sulfate,
 ### Barra SNICKERS / SNICKERS Bar
 
 - **ID:** `snickers-original-us-1-86oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.instacart.com/assets/domains/product-image/file/large_c486d74c-b0b9-4fb2-ad05-930566c5b114.jpg) · [Fuente / Source](https://sameday.dollartree.com/store/dollar-tree/products/16753683-snickers-chocolate-candy-bar-single-1-86-oz)
 - **Marca / Brand:** Mars
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -1692,6 +1715,7 @@ Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Lactose, Skim Milk, Milkfat, Soy
 ### Galletitas RITZ Original / RITZ Original Crackers
 
 - **ID:** `ritz-original-us-10-3oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/asr/aa82044c-64ec-4911-beee-2dbd44777ecf.3a6159a4ecdb315e49d2fecb5247c3bf.jpeg) · [Fuente / Source](https://www.walmart.com/ip/34632325)
 - **Marca / Brand:** Mondelēz / Nabisco
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -2048,6 +2072,7 @@ AZÚCARES AÑADIDOS (AZÚCAR, JARABE DE MAÍZ DE ALTA FRUCTOSA, AZÚCAR INVERTID
 ### HARIBO Goldbears 5 oz / HARIBO Goldbears 5 oz
 
 - **ID:** `haribo-goldbears-us-5oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://stevensonstoys.com/cdn/shop/files/haribo.jpg?v=1708381226) · [Fuente / Source](https://stevensonstoys.com/products/1003931)
 - **Marca / Brand:** HARIBO
 - **País / Country:** Germany
 - **Mercado / Market:** United States
@@ -2129,6 +2154,7 @@ Flour (55%) (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Vegetable Oil (Palm),
 ### Papas fritas Walkers sabor salado / Walkers Ready Salted Crisps
 
 - **ID:** `walkers-ready-salted-uk`
+- **Foto real / Real photo:** [Ver envase / View package](https://automaticrefreshments.com/cdn/shop/files/19_7f026638-db48-4f85-974d-9e5c6e7d546f.png?v=1706094027&width=800) · [Fuente / Source](https://automaticrefreshments.com/collections/crisps)
 - **Marca / Brand:** Walkers
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
@@ -2244,6 +2270,7 @@ Milk Chocolate (Sugar, Cocoa Butter, Cocoa Mass, Skim Milk Powder, Butteroil, So
 ### Cereal Nescau 210 g / Nescau Cereal 210 g
 
 - **ID:** `nescau-cereal-brazil-210g`
+- **Foto real / Real photo:** [Ver envase / View package](https://tdc01z.vteximg.com.br/arquivos/ids/157344-1000-1000/11225-cer-nestle-210g-cx-nescau-choc.png?v=637897717638530000) · [Fuente / Source](https://www.supercordeiro.com.br/11225-cer-nestle-210g-cx-nescau-choc/p)
 - **Marca / Brand:** Nestlé
 - **País / Country:** Brazil
 - **Mercado / Market:** Brazil
@@ -2292,6 +2319,7 @@ Farinha de milho integral, açúcar, farinha de milho enriquecida com ferro e á
 ### Trakinas Chocolate 126 g / Trakinas Chocolate 126 g
 
 - **ID:** `trakinas-chocolate-brazil-126g`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.marchebresil.com/cdn/shop/files/Trakinaschocolate126g.webp?v=1761758755&width=1500) · [Fuente / Source](https://www.marchebresil.com/en/products/trakinas-chocolate-120g)
 - **Marca / Brand:** Mondelēz
 - **País / Country:** Brazil
 - **Mercado / Market:** Brazil
@@ -2339,6 +2367,7 @@ Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura veget
 ### Sabritas Original / Sabritas Original
 
 - **ID:** `sabritas-original-mexico-45g`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750101110145L2.jpg) · [Fuente / Source](https://despensa.bodegaaurrera.com.mx/ip/papas-fritas-sabritas-original-45-g/00750101110145)
 - **Marca / Brand:** Sabritas
 - **País / Country:** Mexico
 - **Mercado / Market:** Mexico
@@ -2370,6 +2399,7 @@ Papas 100% mexicanas, aceite vegetal y sal.
 ### Ritter Sport Leche Alpina / Ritter Sport Alpine Milk
 
 - **ID:** `ritter-sport-alpenmilch-germany-100g`
+- **Foto real / Real photo:** [Ver envase / View package](https://oursweetindulgence.net/cdn/shop/files/304975.avif?v=1768523620&width=533) · [Fuente / Source](https://oursweetindulgence.net/collections/german)
 - **Marca / Brand:** Ritter Sport
 - **País / Country:** Germany
 - **Mercado / Market:** Germany
@@ -2525,6 +2555,7 @@ WHEAT flour, sugar, palm oil, rapeseed oil, fat reduced cocoa powder (4.3%), WHE
 ### Barilla Pesto alla Genovese / Barilla Pesto alla Genovese
 
 - **ID:** `barilla-pesto-genovese-italy-190g`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.londonfoodhall.co.uk/cdn/shop/files/71klFCMgGwL.jpg?v=1771342205&width=1946) · [Fuente / Source](https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g)
 - **Marca / Brand:** Barilla
 - **País / Country:** Italy
 - **Mercado / Market:** Italy
@@ -2567,6 +2598,7 @@ Olio di girasole, basilico fresco 30%, ANACARDI, Parmigiano Reggiano DOP 5% (LAT
 ### Arnott's Tim Tam Original 200 g / Arnott's Tim Tam Original 200 g
 
 - **ID:** `tim-tam-original-australia-200g`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.aussiepharmadirect.com.au/cdn/shop/files/TimTamOriginal_grande.png?v=1698207065) · [Fuente / Source](https://www.aussiepharmadirect.com.au/products/tim-tam-original)
 - **Marca / Brand:** Arnott's
 - **País / Country:** Australia
 - **Mercado / Market:** Australia
@@ -3287,6 +3319,7 @@ Sugar (processed in Japan), high fructose corn syrup, fruit juice, salt / acidul
 ### Kellogg's Coco Pops (Reino Unido) / Kellogg's Coco Pops (UK)
 
 - **ID:** `kelloggs-coco-pops-uk`
+- **Foto real / Real photo:** [Ver envase / View package](https://centra.ie/thumbnail/800x800/var/files/brandbank/5059319028958-16066-6a0930-Kellogg-s-Coco-Pops-420g.jpg) · [Fuente / Source](https://centra.ie/offers/kelloggs-coco-pops-cereal-420g)
 - **Marca / Brand:** Kellogg's
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
@@ -3331,6 +3364,7 @@ Rice, sugar, glucose syrup, fat reduced cocoa powder, salt, cocoa mass, barley m
 ### Salsa A.1. Original para carnes 10 oz / A.1. Original Steak Sauce 10 oz
 
 - **ID:** `a1-original-steak-sauce-us-10oz`
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/A-1-Original-Steak-Sauce-Bottle-10-oz-3-Pack_2d6c1e88-78a1-43c9-9273-a5e7cccfdc0a.1157d855937abc18d28ae06342a4b6fc.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768) · [Fuente / Source](https://www.walmart.com/ip/419119348)
 - **Marca / Brand:** A.1.
 - **País / Country:** United States
 - **Mercado / Market:** United States
@@ -3442,6 +3476,7 @@ Original caramelised biscuits 58% (wheat flour, sugar, vegetable oils (palm oil,
 ### Indomie Mi Goreng / Indomie Mi Goreng
 
 - **ID:** `indomie-mi-goreng-indonesia`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.toko360.com/product/100009/104625/1672023663/26/6e49560710ff85f49f3c913783af7a21.jpeg) · [Fuente / Source](https://www.toko360.com/produk/%281-bungkus%29-indomie-goreng-spesial-asli-original-85-gram-mie-goreng-1-buah-1pcs-1-bks--bayar-ditempat--cod_d104625.html)
 - **Marca / Brand:** Indomie
 - **País / Country:** Indonesia
 - **Mercado / Market:** Indonesia
@@ -3507,6 +3542,7 @@ Tepung terigu, minyak nabati, saus cabe (4,7%) (mengandung pengawet natrium benz
 ### Fanta Naranja Japón 500 ml / Fanta Orange Japan 500 ml
 
 - **ID:** `fanta-orange-japan-500ml`
+- **Foto real / Real photo:** [Ver envase / View package](https://tshop.r10s.jp/nozomi-market/cabinet/202509_20/f16-74-1.jpg) · [Fuente / Source](https://item.rakuten.co.jp/nozomi-market/f16-74/)
 - **Marca / Brand:** Fanta
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
@@ -3544,6 +3580,7 @@ Tepung terigu, minyak nabati, saus cabe (4,7%) (mengandung pengawet natrium benz
 ### Barilla Salsa Basilico 400 g / Barilla Basilico Sauce 400 g
 
 - **ID:** `barilla-basilico-sauce-italy-400g`
+- **Foto real / Real photo:** [Ver envase / View package](https://www.gosupps.com/media/catalog/product/7/1/71uJ9hp7EFL.jpg) · [Fuente / Source](https://www.gosupps.com/barilla-basilico-pasta-and-pizza-sauce-400g-italy-non-gmo-project-verified-vegan-gluten-free-no-added-colour-or-presevatives-pasta-pizza-400-g-pack-of-1.html)
 - **Marca / Brand:** Barilla
 - **País / Country:** Italy
 - **Mercado / Market:** Latin America product page / Italian-style recipe
@@ -3746,6 +3783,7 @@ Enriched flour (wheat flour, niacin, reduced iron, thiamine mononitrate, ribofla
 ### Oishi Prawn Crackers Original / Oishi Prawn Crackers Original
 
 - **ID:** `oishi-prawn-crackers-philippines-original-24g`
+- **Foto real / Real photo:** [Ver envase / View package](https://zbga.shopsuki.ph/cdn/shop/files/4891208040143_800x.jpg?v=1753152481) · [Fuente / Source](https://zbga.shopsuki.ph/products/oishi-prawn-crackers-original-24g)
 - **Marca / Brand:** Oishi
 - **País / Country:** Philippines
 - **Mercado / Market:** Philippines
@@ -3792,6 +3830,7 @@ Wheat, Tapioca Starch, Corn Starch, Vegetable Oil (may consist of Coconut Oil an
 ### Sanpellegrino Aranciata / Sanpellegrino Aranciata
 
 - **ID:** `sanpellegrino-aranciata-italy-330ml`
+- **Foto real / Real photo:** [Ver envase / View package](https://shopping.c.yimg.jp/lib/tokyo-syusui/20241119nbkk052.jpg) · [Fuente / Source](https://store.shopping.yahoo.co.jp/tokyo-syusui/8252350048.html)
 - **Marca / Brand:** Sanpellegrino
 - **País / Country:** Italy
 - **Mercado / Market:** Italy
