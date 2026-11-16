@@ -11627,7 +11627,7 @@
       "region": "world",
       "category": "chocolate_bar",
       "package": "50 g slab",
-      "image": null,
+      "image": "https://cdn11.bigcommerce.com/s-3oxcprqsip/images/stencil/1280x1280/products/47072/57254/R151470_40__12773.1666362870.jpg?c=1",
       "description": {
         "es": "Chocolate con leche neozelandés con maní tostado.",
         "en": "New Zealand milk chocolate with roasted peanuts."
@@ -11696,7 +11696,8 @@
       ],
       "sourceId": "whittakers-peanut-slab-new-zealand",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-whittakers-peanut-slab-new-zealand-50g"
     },
     {
       "id": "ouma-buttermilk-rusks-south-africa-500g",
@@ -11835,7 +11836,7 @@
       "region": "world",
       "category": "curry_paste",
       "package": "1 kg foodservice pouch",
-      "image": null,
+      "image": "https://asianpantry.com.au/cdn/shop/files/7f9934225e395c823644634acd20d312.webp?crop=center&height=1200&v=1765256672&width=1200",
       "description": {
         "es": "Pasta tailandesa de curry rojo con hierbas, especias y pasta de camarón.",
         "en": "Thai red curry paste with herbs, spices and shrimp paste."
@@ -11931,7 +11932,8 @@
       ],
       "sourceId": "mae-ploy-red-curry-paste-thailand",
       "verification": "foodservice_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mae-ploy-red-curry-paste-thailand-1kg"
     },
     {
       "id": "vegemite-original-australia-220g",
@@ -11947,7 +11949,7 @@
       "region": "world",
       "category": "yeast_spread",
       "package": "220 g jar",
-      "image": null,
+      "image": "https://www.instacart.com/image-server/1864x1864/www.instacart.com/assets/domains/product-image/file/large_3a33d897-ded2-4563-bbfb-c6b087c9d25b.jpg",
       "description": {
         "es": "Pasta australiana salada de extracto de levadura, enriquecida con vitaminas B.",
         "en": "Australian savoury yeast extract spread enriched with B vitamins."
@@ -12065,7 +12067,8 @@
       ],
       "sourceId": "vegemite-original-australia",
       "verification": "manufacturer_data_sheet",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-vegemite-original-australia-220g"
     },
     {
       "id": "lu-petit-beurre-france-25g",
@@ -12184,7 +12187,7 @@
       "region": "world",
       "category": "chocolate_biscuit_sticks",
       "package": "40 g box",
-      "image": null,
+      "image": "https://candyblastshop.com/cdn/shop/files/GlicoPocky-MatchaGreenTea3.webp?v=1707861021&width=1445",
       "description": {
         "es": "Palitos de galletita cubiertos con sabor a té verde matcha, versión comercializada en Estados Unidos.",
         "en": "Biscuit sticks with matcha green tea flavour, US-market formulation."
@@ -12364,7 +12367,8 @@
       ],
       "sourceId": "pocky-matcha-us-glico",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pocky-matcha-us-40g"
     },
     {
       "id": "samyang-buldak-original-us",
@@ -12380,7 +12384,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "Single retail pack; size not specified on source page",
-      "image": null,
+      "image": "https://www.ramencrate.co.nz/cdn/shop/files/SamyangOriginalBuldakHotChickenInstantNoodles-Plain.png?v=1768252565&width=1445",
       "description": {
         "es": "Fideos instantáneos coreanos picantes con salsa sabor pollo.",
         "en": "Korean spicy instant noodles with chicken-flavoured sauce."
@@ -12732,7 +12736,8 @@
       ],
       "sourceId": "samyang-buldak-original-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-samyang-buldak-original-us"
     },
     {
       "id": "lao-gan-ma-spicy-chili-crisp-canada-210g",
@@ -12748,7 +12753,7 @@
       "region": "world",
       "category": "condiment_sauce",
       "package": "210 g jar",
-      "image": null,
+      "image": "https://www.formosamarket.com/cdn/shop/files/8sG7c0s3gyvL_8102dcd2-6a20-4c84-b571-32c5119c279d_1200x1200.jpg?v=1733645038",
       "description": {
         "es": "Condimento chino de aceite con chile, cebolla, frijoles negros y pimienta de Sichuan.",
         "en": "Chinese chilli oil condiment with chilli, onion, black beans and Sichuan pepper."
@@ -12829,7 +12834,8 @@
       ],
       "sourceId": "lao-gan-ma-chili-crisp-canada",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lao-gan-ma-spicy-chili-crisp-canada-210g"
     },
     {
       "id": "bourbon-alfort-mini-chocolate-japan-61g",
@@ -13735,7 +13741,7 @@
       "region": "world",
       "category": "filled_cookies",
       "package": "48 g box",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall_90cbe901-3b6a-4a0f-976b-9dc7f5434872.63776c0d23e38266c9fa7faed3607ab9.jpeg",
       "description": {
         "es": "Pequeñas galletitas japonesas rellenas de chocolate.",
         "en": "Japanese bite-size biscuits filled with chocolate."
@@ -13919,7 +13925,8 @@
       ],
       "sourceId": "lotte-koalas-march-chocolate-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lotte-koalas-march-chocolate-japan-48g"
     },
     {
       "id": "lotte-koalas-march-strawberry-japan-46g",
