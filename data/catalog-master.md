@@ -4208,7 +4208,7 @@ Vegetable oil (canola oil, soybean oil), egg yolk, vinegar, salt, monosodium glu
 
 ### Galletitas Parle-G / Parle-G Biscuits
 
-- **ID:** `parle-g-biscuits-india-100g`
+- **ID:** `parle-g-biscuits-india`
 - **Marca / Brand:** Parle
 - **País / Country:** India
 - **Mercado / Market:** India
