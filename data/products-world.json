@@ -5894,6 +5894,1426 @@
       "sourceId": "knorr-gemuse-bouillon-germany-1kg-source",
       "verification": "manufacturer_product_specification_via_distributor_pdf",
       "status": "ready"
+    },
+    {
+      "id": "meiji-milk-chocolate-japan-50g",
+      "barcode": null,
+      "name": "Meiji Milk Chocolate 50 g",
+      "nameI18n": {
+        "es": "Chocolate con leche Meiji 50 g",
+        "en": "Meiji Milk Chocolate 50 g"
+      },
+      "brand": "Meiji",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "milk_chocolate",
+      "package": "50 g",
+      "image": null,
+      "description": {
+        "es": "Chocolate japonés de leche con cacao, leche entera en polvo y lecitina.",
+        "en": "Japanese milk chocolate made with cocoa, whole milk powder and lecithin."
+      },
+      "ingredientsText": "砂糖（外国製造）、カカオマス、全粉乳、ココアバター／レシチン、香料",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "lecitina",
+          "en": "lecithin",
+          "aliases": [
+            "lecitina",
+            "lecithin"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring"
+          ]
+        }
+      ],
+      "sourceId": "meiji-milk-chocolate-japan-50g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "samyang-buldak-original-korea-us-140g",
+      "barcode": null,
+      "name": "Samyang Buldak Original",
+      "nameI18n": {
+        "es": "Samyang Buldak Original",
+        "en": "Samyang Buldak Original"
+      },
+      "brand": "Samyang",
+      "country": "South Korea",
+      "market": "United States",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "140 g (4.94 oz) pack",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos coreanos picantes con salsa de pollo, versión estadounidense.",
+        "en": "Spicy Korean instant noodles with chicken-style sauce, US-market declaration."
+      },
+      "ingredientsText": "Noodles: Wheat Flour, Food Starch-Modified, Palm Oil, Less than 2% of: Wheat Gluten, Salt, Glycerin, Soy Lecithin, Polyglycerol Esters of Fatty Acids, Potassium Carbonate, Sodium Carbonate, Sodium Phosphate Dibasic, Guar Gum, Tocopherols, Riboflavin (Color). Sauce: Water, Artificial Chicken Flavor Powder (Artificial Flavor, Dextrin, Wheat Starch, Sugar, Salt, Yeast Extract, Natural Flavor, Disodium 5'-Ribonucleotide, Maltodextrin, Corn Starch), Soy Sauce Seasoning (Soybeans, Water, Salt, Wheat, Sodium Carbonate, High Fructose Corn Syrup, Disodium 5'-Ribonucleotide, Garlic, Steviol Glycoside, Maltodextrin, Sugar), Sugar, Hot Pepper Seasoning (Red Pepper, Dextrin, Salt, Sugar, Onion Powder, Artificial Flavor, Garlic Powder, Silicon Dioxide, Soy Sauce, Capsicum Oleoresin, Paprika Oleoresin, Monosodium Glutamate, Disodium Inosinate, Disodium Guanylate), Soybean Oil, Onion, Red Pepper Seed Oil, Garlic, Modified Food Starch, Capsicum Oleoresin, Paprika Oleoresin, Black Pepper Powder, Natural and Artificial Curry Flavor (Cumin, Salt, Maltodextrin, Artificial Flavor). Flake: Sesame, Dried Seaweed.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "almidón alimentario modificado",
+          "en": "modified food starch",
+          "aliases": [
+            "almidón alimentario modificado",
+            "modified food starch"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "gluten de trigo",
+          "en": "wheat gluten",
+          "aliases": [
+            "gluten de trigo",
+            "wheat gluten"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "glicerina",
+          "en": "glycerin",
+          "aliases": [
+            "glicerina",
+            "glycerin"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "ésteres de poliglicerol de ácidos grasos",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de poliglicerol de ácidos grasos",
+            "polyglycerol esters of fatty acids"
+          ]
+        },
+        {
+          "es": "carbonato de potasio",
+          "en": "potassium carbonate",
+          "aliases": [
+            "carbonato de potasio",
+            "potassium carbonate"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "fosfato disódico",
+          "en": "disodium phosphate",
+          "aliases": [
+            "fosfato disódico",
+            "disodium phosphate"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum"
+          ]
+        },
+        {
+          "es": "tocoferoles",
+          "en": "tocopherols",
+          "aliases": [
+            "tocoferoles",
+            "tocopherols"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "sabor artificial de pollo",
+          "en": "artificial chicken flavor",
+          "aliases": [
+            "sabor artificial de pollo",
+            "artificial chicken flavor"
+          ]
+        },
+        {
+          "es": "dextrina",
+          "en": "dextrin",
+          "aliases": [
+            "dextrina",
+            "dextrin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "sabor natural",
+          "en": "natural flavor",
+          "aliases": [
+            "sabor natural",
+            "natural flavor"
+          ]
+        },
+        {
+          "es": "ribonucleótido disódico",
+          "en": "disodium ribonucleotide",
+          "aliases": [
+            "ribonucleótido disódico",
+            "disodium ribonucleotide"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybeans",
+          "aliases": [
+            "soja",
+            "soybeans"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "glucósido de esteviol",
+          "en": "steviol glycoside",
+          "aliases": [
+            "glucósido de esteviol",
+            "steviol glycoside"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "chile rojo",
+          "en": "red pepper",
+          "aliases": [
+            "chile rojo",
+            "red pepper"
+          ]
+        },
+        {
+          "es": "dióxido de silicio",
+          "en": "silicon dioxide",
+          "aliases": [
+            "dióxido de silicio",
+            "silicon dioxide"
+          ]
+        },
+        {
+          "es": "salsa de soja",
+          "en": "soy sauce",
+          "aliases": [
+            "salsa de soja",
+            "soy sauce"
+          ]
+        },
+        {
+          "es": "oleorresina de capsicum",
+          "en": "capsicum oleoresin",
+          "aliases": [
+            "oleorresina de capsicum",
+            "capsicum oleoresin"
+          ]
+        },
+        {
+          "es": "oleorresina de paprika",
+          "en": "paprika oleoresin",
+          "aliases": [
+            "oleorresina de paprika",
+            "paprika oleoresin"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "aceite de semilla de chile rojo",
+          "en": "red pepper seed oil",
+          "aliases": [
+            "aceite de semilla de chile rojo",
+            "red pepper seed oil"
+          ]
+        },
+        {
+          "es": "pimienta negra en polvo",
+          "en": "black pepper powder",
+          "aliases": [
+            "pimienta negra en polvo",
+            "black pepper powder"
+          ]
+        },
+        {
+          "es": "comino",
+          "en": "cumin",
+          "aliases": [
+            "comino",
+            "cumin"
+          ]
+        },
+        {
+          "es": "semillas de sésamo",
+          "en": "sesame",
+          "aliases": [
+            "semillas de sésamo",
+            "sesame"
+          ]
+        },
+        {
+          "es": "algas secas",
+          "en": "dried seaweed",
+          "aliases": [
+            "algas secas",
+            "dried seaweed"
+          ]
+        }
+      ],
+      "sourceId": "samyang-buldak-original-korea-us-140g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "heinz-baked-beanz-uk-150g",
+      "barcode": "5000157004017",
+      "name": "Heinz Baked Beanz 150 g",
+      "nameI18n": {
+        "es": "Heinz Baked Beanz 150 g",
+        "en": "Heinz Baked Beanz 150 g"
+      },
+      "brand": "Heinz",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "canned_beans",
+      "package": "150 g",
+      "image": null,
+      "description": {
+        "es": "Porotos horneados en salsa de tomate, presentación británica individual.",
+        "en": "Baked beans in tomato sauce, UK single-serve pack."
+      },
+      "ingredientsText": "Beans (49%), Tomatoes (35%), Water, Sugar, Modified Cornflour, Spirit Vinegar, Salt, Spice Extracts, Herb Extract.",
+      "ingredients": [
+        {
+          "es": "porotos",
+          "en": "beans",
+          "aliases": [
+            "porotos",
+            "beans"
+          ]
+        },
+        {
+          "es": "tomates",
+          "en": "tomatoes",
+          "aliases": [
+            "tomates",
+            "tomatoes"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified cornflour",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified cornflour"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "spirit vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "spirit vinegar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "extractos de especias",
+          "en": "spice extracts",
+          "aliases": [
+            "extractos de especias",
+            "spice extracts"
+          ]
+        },
+        {
+          "es": "extracto de hierbas",
+          "en": "herb extract",
+          "aliases": [
+            "extracto de hierbas",
+            "herb extract"
+          ]
+        }
+      ],
+      "sourceId": "heinz-baked-beanz-uk-150g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "jumex-mango-nectar-mexico-960ml",
+      "barcode": null,
+      "name": "Jumex Mango Nectar 960 ml",
+      "nameI18n": {
+        "es": "Néctar de mango Jumex 960 ml",
+        "en": "Jumex Mango Nectar 960 ml"
+      },
+      "brand": "Jumex",
+      "country": "Mexico",
+      "market": "Mexico",
+      "region": "world",
+      "category": "fruit_juice",
+      "package": "960 ml carton",
+      "image": null,
+      "description": {
+        "es": "Néctar mexicano de mango con pulpa de mango y jarabe de maíz de alta fructosa.",
+        "en": "Mexican mango nectar with mango pulp and high-fructose corn syrup."
+      },
+      "ingredientsText": "Agua, azúcares añadidos (pulpa de mango de concentrado (20%), jarabe de maíz de alta fructosa), ácido cítrico y ácido ascórbico.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "pulpa de mango concentrada",
+          "en": "mango puree from concentrate",
+          "aliases": [
+            "pulpa de mango concentrada",
+            "mango puree from concentrate"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid"
+          ]
+        }
+      ],
+      "sourceId": "jumex-mango-nectar-mexico-960ml-source",
+      "verification": "retailer_product_label",
+      "status": "ready"
+    },
+    {
+      "id": "maggi-masala-twist-india-75g",
+      "barcode": null,
+      "name": "MAGGI Masala Twist 75 g",
+      "nameI18n": {
+        "es": "MAGGI Masala Twist 75 g",
+        "en": "MAGGI Masala Twist 75 g"
+      },
+      "brand": "MAGGI",
+      "country": "India",
+      "market": "India",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "75 g prepared-product reference",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos indios con mezcla de especias, vegetales deshidratados y tomate.",
+        "en": "Indian instant noodles with spice mix, dehydrated vegetables and tomato."
+      },
+      "ingredientsText": "Refined wheat flour (Maida), Palm oil, Iodised salt, Thickeners (412 & 508), Humectant (451(i)) and Acidity Regulators (501(i), 500(i) & 330). Tastemaker: Mixed spice (18.9%), Sugar, Dehydrated vegetables (12.7%) [Dehydrated carrot bits (6.8%), Sweetcorn starch (5.9%)], starch, iodised salt, nature identical flavouring substances, Tomato paste (5.8%), Toasted onion flakes (4.3%), Refined wheat flour (Maida), Roasted garlic flakes, Thickeners (508 & 415), Onion powder (2.9%), Palm oil, Herbs, Natural flavouring substance, Yeast extract powder, Flavour enhancer (635), Tamarind powder, Acidity regulator (330), Wheat gluten.",
+      "ingredients": [
+        {
+          "es": "harina de trigo refinada (maida)",
+          "en": "refined wheat flour (maida)",
+          "aliases": [
+            "harina de trigo refinada (maida)",
+            "refined wheat flour (maida)"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodised salt",
+          "aliases": [
+            "sal yodada",
+            "iodised salt"
+          ]
+        },
+        {
+          "es": "goma guar (412)",
+          "en": "guar gum (412)",
+          "aliases": [
+            "goma guar (412)",
+            "guar gum (412)"
+          ]
+        },
+        {
+          "es": "cloruro de potasio (508)",
+          "en": "potassium chloride (508)",
+          "aliases": [
+            "cloruro de potasio (508)",
+            "potassium chloride (508)"
+          ]
+        },
+        {
+          "es": "humectante E451(i)",
+          "en": "humectant E451(i)",
+          "aliases": [
+            "humectante E451(i)",
+            "humectant E451(i)"
+          ]
+        },
+        {
+          "es": "acetato de potasio (501(i))",
+          "en": "potassium acetate (501(i))",
+          "aliases": [
+            "acetato de potasio (501(i))",
+            "potassium acetate (501(i))"
+          ]
+        },
+        {
+          "es": "carbonato de sodio (500(i))",
+          "en": "sodium carbonate (500(i))",
+          "aliases": [
+            "carbonato de sodio (500(i))",
+            "sodium carbonate (500(i))"
+          ]
+        },
+        {
+          "es": "ácido cítrico (330)",
+          "en": "citric acid (330)",
+          "aliases": [
+            "ácido cítrico (330)",
+            "citric acid (330)"
+          ]
+        },
+        {
+          "es": "mezcla de especias",
+          "en": "mixed spice",
+          "aliases": [
+            "mezcla de especias",
+            "mixed spice"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "zanahoria deshidratada",
+          "en": "dehydrated carrot",
+          "aliases": [
+            "zanahoria deshidratada",
+            "dehydrated carrot"
+          ]
+        },
+        {
+          "es": "almidón de maíz dulce",
+          "en": "sweetcorn starch",
+          "aliases": [
+            "almidón de maíz dulce",
+            "sweetcorn starch"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "saborizantes idénticos a los naturales",
+          "en": "nature-identical flavouring substances",
+          "aliases": [
+            "saborizantes idénticos a los naturales",
+            "nature-identical flavouring substances"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "cebolla tostada en escamas",
+          "en": "toasted onion flakes",
+          "aliases": [
+            "cebolla tostada en escamas",
+            "toasted onion flakes"
+          ]
+        },
+        {
+          "es": "ajo tostado en escamas",
+          "en": "roasted garlic flakes",
+          "aliases": [
+            "ajo tostado en escamas",
+            "roasted garlic flakes"
+          ]
+        },
+        {
+          "es": "goma xantana (415)",
+          "en": "xanthan gum (415)",
+          "aliases": [
+            "goma xantana (415)",
+            "xanthan gum (415)"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "hierbas",
+          "en": "herbs",
+          "aliases": [
+            "hierbas",
+            "herbs"
+          ]
+        },
+        {
+          "es": "saborizante natural",
+          "en": "natural flavouring substance",
+          "aliases": [
+            "saborizante natural",
+            "natural flavouring substance"
+          ]
+        },
+        {
+          "es": "extracto de levadura en polvo",
+          "en": "yeast extract powder",
+          "aliases": [
+            "extracto de levadura en polvo",
+            "yeast extract powder"
+          ]
+        },
+        {
+          "es": "potenciador del sabor E635",
+          "en": "flavour enhancer E635",
+          "aliases": [
+            "potenciador del sabor E635",
+            "flavour enhancer E635"
+          ]
+        },
+        {
+          "es": "tamarindo en polvo",
+          "en": "tamarind powder",
+          "aliases": [
+            "tamarindo en polvo",
+            "tamarind powder"
+          ]
+        },
+        {
+          "es": "gluten de trigo",
+          "en": "wheat gluten",
+          "aliases": [
+            "gluten de trigo",
+            "wheat gluten"
+          ]
+        }
+      ],
+      "sourceId": "maggi-masala-twist-india-75g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "parle-g-original-india-uk-799g",
+      "barcode": null,
+      "name": "Parle-G Original 79.9 g",
+      "nameI18n": {
+        "es": "Parle-G Original 79,9 g",
+        "en": "Parle-G Original 79.9 g"
+      },
+      "brand": "Parle",
+      "country": "India",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "79.9 g import pack",
+      "image": null,
+      "description": {
+        "es": "Galletitas dulces de trigo de la marca india Parle, paquete importado vendido en Reino Unido.",
+        "en": "Sweet wheat glucose biscuits from Indian brand Parle, imported pack sold in the UK."
+      },
+      "ingredientsText": "Wheat Flour (68.3%), Sugar, Vegetable Oil (Palm Oil), Glucose-Fructose Syrup, Salt, Raising Agents [Ammonium Carbonates, Sodium Hydrogen Carbonate], Skimmed Milk (0.3%), Artificial Flavouring and Emulsifier [Mono- and Diacetyl Tartaric Acid Esters of Mono- and Diglycerides of Fatty Acids].",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa y fructosa",
+          "en": "glucose-fructose syrup",
+          "aliases": [
+            "jarabe de glucosa y fructosa",
+            "glucose-fructose syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "carbonato de amonio",
+          "en": "ammonium carbonate",
+          "aliases": [
+            "carbonato de amonio",
+            "ammonium carbonate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium hydrogen carbonate"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skimmed milk",
+          "aliases": [
+            "leche descremada",
+            "skimmed milk"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavouring",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavouring"
+          ]
+        },
+        {
+          "es": "ésteres de ácido diacetil tartárico de mono y diglicéridos",
+          "en": "mono- and diacetyl tartaric acid esters of mono- and diglycerides",
+          "aliases": [
+            "ésteres de ácido diacetil tartárico de mono y diglicéridos",
+            "mono- and diacetyl tartaric acid esters of mono- and diglycerides"
+          ]
+        }
+      ],
+      "sourceId": "parle-g-original-india-uk-799g-source",
+      "verification": "retailer_product_label",
+      "status": "ready"
+    },
+    {
+      "id": "leibniz-original-butter-biscuits-germany-200g",
+      "barcode": null,
+      "name": "LEIBNIZ Original Butter Biscuits 200 g",
+      "nameI18n": {
+        "es": "Galletitas de manteca LEIBNIZ Original 200 g",
+        "en": "LEIBNIZ Original Butter Biscuits 200 g"
+      },
+      "brand": "LEIBNIZ",
+      "country": "Germany",
+      "market": "Germany",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "200 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas alemanas clásicas de trigo y manteca, con 52 bordes dentados.",
+        "en": "Classic German wheat and butter biscuits with 52 scalloped edges."
+      },
+      "ingredientsText": "WHEAT flour (70%), sugar, BUTTER (12%), invert sugar syrup, raising agents: sodium carbonates, diphosphates; whey products (MILK), whole MILK powder, salt, emulsifier: lecithins; acid: citric acid; flavourings (MILK), whole hen's EGG powder.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca",
+          "en": "butter",
+          "aliases": [
+            "manteca",
+            "butter"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar invertido",
+          "en": "invert sugar syrup",
+          "aliases": [
+            "jarabe de azúcar invertido",
+            "invert sugar syrup"
+          ]
+        },
+        {
+          "es": "carbonatos de sodio",
+          "en": "sodium carbonates",
+          "aliases": [
+            "carbonatos de sodio",
+            "sodium carbonates"
+          ]
+        },
+        {
+          "es": "difosfatos",
+          "en": "diphosphates",
+          "aliases": [
+            "difosfatos",
+            "diphosphates"
+          ]
+        },
+        {
+          "es": "productos de suero de leche",
+          "en": "whey products",
+          "aliases": [
+            "productos de suero de leche",
+            "whey products"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitinas",
+          "en": "lecithins",
+          "aliases": [
+            "lecitinas",
+            "lecithins"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavourings",
+          "aliases": [
+            "saborizantes",
+            "flavourings"
+          ]
+        },
+        {
+          "es": "huevo entero en polvo",
+          "en": "whole egg powder",
+          "aliases": [
+            "huevo entero en polvo",
+            "whole egg powder"
+          ]
+        }
+      ],
+      "sourceId": "leibniz-original-butter-biscuits-germany-200g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "britannia-good-day-butter-india-90g",
+      "barcode": null,
+      "name": "Britannia Good Day Butter 90 g",
+      "nameI18n": {
+        "es": "Britannia Good Day Butter 90 g",
+        "en": "Britannia Good Day Butter 90 g"
+      },
+      "brand": "Britannia",
+      "country": "India",
+      "market": "India",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "90 g pack option",
+      "image": null,
+      "description": {
+        "es": "Galletitas indias de manteca con aceite de palma, leche y vainilla.",
+        "en": "Indian butter cookies with palm oil, milk and vanilla."
+      },
+      "ingredientsText": "Wheat Flour, Sugar, Vegetable Fat (Palm), Butter (From Cow’s or Buffalo’s Milk), Invert Sugar, Whole Milk Powder (From Cow’s or Buffalo’s Milk), Ammonium Bicarbonate (E503(ii)) & Sodium Bicarbonate (E500(ii)) (Raising Agents), Salt, Soya Lecithin (E322), Mono & Diglycerides of Fatty Acids (Palm) (E471) & Diacetyl Tartaric Acid Esters of Mono & Diglycerides (Palm) (E472e) (Emulsifiers), Butter, Vanilla & Milk (Natural, Nature Identical & Artificial Flavours).",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vegetal de palma",
+          "en": "vegetable fat (palm)",
+          "aliases": [
+            "grasa vegetal de palma",
+            "vegetable fat (palm)"
+          ]
+        },
+        {
+          "es": "manteca",
+          "en": "butter",
+          "aliases": [
+            "manteca",
+            "butter"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soya lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids"
+          ]
+        },
+        {
+          "es": "ésteres de ácido diacetil tartárico de mono y diglicéridos",
+          "en": "diacetyl tartaric acid esters of mono- and diglycerides",
+          "aliases": [
+            "ésteres de ácido diacetil tartárico de mono y diglicéridos",
+            "diacetyl tartaric acid esters of mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "saborizante de manteca",
+          "en": "butter flavour",
+          "aliases": [
+            "saborizante de manteca",
+            "butter flavour"
+          ]
+        },
+        {
+          "es": "saborizante de vainilla",
+          "en": "vanilla flavour",
+          "aliases": [
+            "saborizante de vainilla",
+            "vanilla flavour"
+          ]
+        },
+        {
+          "es": "saborizante de leche",
+          "en": "milk flavour",
+          "aliases": [
+            "saborizante de leche",
+            "milk flavour"
+          ]
+        }
+      ],
+      "sourceId": "britannia-good-day-butter-india-90g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "guarana-antarctica-brazil-350ml",
+      "barcode": null,
+      "name": "Guaraná Antarctica 350 ml",
+      "nameI18n": {
+        "es": "Guaraná Antarctica 350 ml",
+        "en": "Guaraná Antarctica 350 ml"
+      },
+      "brand": "Guaraná Antarctica",
+      "country": "Brazil",
+      "market": "Brazil",
+      "region": "world",
+      "category": "soft_drink",
+      "package": "350 ml can",
+      "image": null,
+      "description": {
+        "es": "Gaseosa brasileña sabor guaraná, elaborada con extracto de guaraná amazónico.",
+        "en": "Brazilian guarana-flavoured soft drink made with Amazonian guarana extract."
+      },
+      "ingredientsText": "Água gaseificada, açúcar, extrato de guaraná, acidulante ácido cítrico, conservadores: benzoato de sódio e sorbato de potássio, aromatizante e corante caramelo IV.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "extracto de guaraná",
+          "en": "guarana extract",
+          "aliases": [
+            "extracto de guaraná",
+            "guarana extract"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring"
+          ]
+        },
+        {
+          "es": "colorante caramelo IV",
+          "en": "caramel colour IV",
+          "aliases": [
+            "colorante caramelo IV",
+            "caramel colour IV"
+          ]
+        }
+      ],
+      "sourceId": "guarana-antarctica-brazil-350ml-source",
+      "verification": "retailer_product_label",
+      "status": "ready"
+    },
+    {
+      "id": "vegemite-australia-220g",
+      "barcode": "9352042000281",
+      "name": "VEGEMITE 220 g",
+      "nameI18n": {
+        "es": "VEGEMITE 220 g",
+        "en": "VEGEMITE 220 g"
+      },
+      "brand": "VEGEMITE",
+      "country": "Australia",
+      "market": "Australia",
+      "region": "world",
+      "category": "yeast_spread",
+      "package": "220 g jar",
+      "image": null,
+      "description": {
+        "es": "Pasta australiana concentrada de extracto de levadura, sal y vitaminas B.",
+        "en": "Australian concentrated yeast extract spread with salt and B vitamins."
+      },
+      "ingredientsText": "YEAST EXTRACT (WHEAT, BARLEY), SALT, MINERAL SALT (508), MALT EXTRACT (BARLEY), COLOUR (150c), FLAVOURS, NIACIN, THIAMINE, RIBOFLAVIN, FOLATE.",
+      "ingredients": [
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sal mineral (508)",
+          "en": "mineral salt (508)",
+          "aliases": [
+            "sal mineral (508)",
+            "mineral salt (508)"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "colorante 150c",
+          "en": "colour 150c",
+          "aliases": [
+            "colorante 150c",
+            "colour 150c"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavours",
+          "aliases": [
+            "saborizantes",
+            "flavours"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "folato",
+          "en": "folate",
+          "aliases": [
+            "folato",
+            "folate"
+          ]
+        }
+      ],
+      "sourceId": "vegemite-australia-220g-source",
+      "verification": "manufacturer_product_specification",
+      "status": "ready"
     }
   ]
 }
