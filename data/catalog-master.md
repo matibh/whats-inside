@@ -5703,7 +5703,7 @@ Soy sauce (water, soybeans, wheat, salt), sugar, wine, water, vinegar, salt, sod
 
 ### Pringles Crema Agria y Cebolla / Pringles Sour Cream & Onion
 
-- **ID:** `pringles-sour-cream-onion-us-155g`
+- **ID:** `pringles-sour-cream-onion-spain-40g`
 - **Marca / Brand:** Pringles
 - **País / Country:** Spain
 - **Mercado / Market:** Spain
