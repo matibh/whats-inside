@@ -370,6 +370,60 @@
       "url": "https://www.hiperlibertad.com.ar/coca-cola-sabor-original-500-ml/p",
       "supports": "Coca-Cola Sabor Original Argentina 500 ml bottle product image.",
       "market": "Argentina"
+    },
+    {
+      "id": "image-havanna-semilia-ar-55g",
+      "productId": "havanna-semilia-ar-55g",
+      "publisher": "Disco / Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.disco.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p",
+      "supports": "Havanna Semilia SIN TACC box, 4 units, 200 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-toddy-galletitas-chocolate-ar-126g",
+      "productId": "toddy-galletitas-chocolate-ar-126g",
+      "publisher": "Disco / Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.disco.com.ar/galletitas-chips-de-chocolate-126-gr-toddy-2/p",
+      "supports": "Toddy Clásica chocolate chip cookies Argentina 126 g package.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-mana-con-leche-ar-136g",
+      "productId": "mana-con-leche-ar-136g",
+      "publisher": "Átomo Conviene",
+      "sourceType": "retailer_product_image",
+      "url": "https://atomoconviene.com/atomo-ecommerce/28934-galletas-dulces-mana-con-leche-136-grs--7790040137813.html",
+      "supports": "Maná con Leche Argentina 136 g package.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-gallo-snacks-queso-ar-50g",
+      "productId": "gallo-snacks-queso-ar-50g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.jumbo.com.ar/chips-arroz-queso-gallo-50-gr/p",
+      "supports": "Gallo Snacks Chips de Arroz Queso Argentina 50 g package.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-cachafaz-alfajor-maizena-ar-456g",
+      "productId": "cachafaz-alfajor-maizena-ar-456g",
+      "publisher": "Vea / Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.vea.com.ar/alfajor-de-maizena-cachafaz-456-gr/p",
+      "supports": "Cachafaz Maizena alfajores Argentina 456 g box, six units.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-la-serenisima-yogur-frutilla-bebible-1300g",
+      "productId": "la-serenisima-yogur-frutilla-bebible-1300g",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.masonline.com.ar/yogur-bebible-la-serenisima-clasico-frutilla-1300-g/p",
+      "supports": "La Serenísima Nutrición Activa drinkable strawberry yogurt 1300 g sachet.",
+      "market": "Argentina"
     }
   ]
 }
