@@ -424,6 +424,15 @@
       "url": "https://www.masonline.com.ar/yogur-bebible-la-serenisima-clasico-frutilla-1300-g/p",
       "supports": "La Serenísima Nutrición Activa drinkable strawberry yogurt 1300 g sachet.",
       "market": "Argentina"
+    },
+    {
+      "id": "image-mantecol-clasico-111g",
+      "productId": "mantecol-clasico-111g",
+      "publisher": "DeliMart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.delimart.com.ar/postre_tradicional_mantecol_111_gr",
+      "supports": "Mantecol Clásico Argentina 111 g wrapper product image.",
+      "market": "Argentina"
     }
   ]
 }
