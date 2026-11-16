@@ -219,7 +219,8 @@ async function loadProductCatalog(){
    $('productPlaceholder').textContent=icons[currentProduct.category]||'🥫';
    $('productPlaceholder').style.display='';
   }
-  $('productDesc').textContent=currentProduct.description[lang]||currentProduct.description.en;
+  const productDescription=$('productDesc')||document.querySelector('[data-i18n="productDesc"]');
+  if(productDescription) productDescription.textContent=currentProduct.description[lang]||currentProduct.description.en;
   updateDailyLabel();
   $('startBtn').textContent=lang==='en'?'START PLAYING ↗':'EMPEZAR A JUGAR ↗';
   $('startBtn').disabled=false;
