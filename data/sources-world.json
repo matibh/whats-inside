@@ -1216,6 +1216,69 @@
       "url": "https://www.marchebresil.com/en/products/trakinas-chocolate-120g",
       "supports": "Trakinas Chocolate Brazil 126 g package image.",
       "market": "Brazil"
+    },
+    {
+      "id": "image-a1-original-steak-sauce-us-10oz",
+      "productId": "a1-original-steak-sauce-us-10oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/419119348",
+      "supports": "A.1. Original Steak Sauce US 10 oz bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-barilla-basilico-sauce-italy-400g",
+      "productId": "barilla-basilico-sauce-italy-400g",
+      "publisher": "GoSupps",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.gosupps.com/barilla-basilico-pasta-and-pizza-sauce-400g-italy-non-gmo-project-verified-vegan-gluten-free-no-added-colour-or-presevatives-pasta-pizza-400-g-pack-of-1.html",
+      "supports": "Barilla Basilico 400 g jar product image.",
+      "market": "Latin America product page / Italian-style recipe"
+    },
+    {
+      "id": "image-sanpellegrino-aranciata-italy-330ml",
+      "productId": "sanpellegrino-aranciata-italy-330ml",
+      "publisher": "Tokyo Shusui",
+      "sourceType": "retailer_product_image",
+      "url": "https://store.shopping.yahoo.co.jp/tokyo-syusui/8252350048.html",
+      "supports": "Sanpellegrino Aranciata 330 ml can product image.",
+      "market": "Italy"
+    },
+    {
+      "id": "image-oishi-prawn-crackers-philippines-original-24g",
+      "productId": "oishi-prawn-crackers-philippines-original-24g",
+      "publisher": "ShopSuki Philippines",
+      "sourceType": "retailer_product_image",
+      "url": "https://zbga.shopsuki.ph/products/oishi-prawn-crackers-original-24g",
+      "supports": "Oishi Prawn Crackers Original 24 g package image.",
+      "market": "Philippines"
+    },
+    {
+      "id": "image-indomie-mi-goreng-indonesia",
+      "productId": "indomie-mi-goreng-indonesia",
+      "publisher": "Toko360",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.toko360.com/produk/%281-bungkus%29-indomie-goreng-spesial-asli-original-85-gram-mie-goreng-1-buah-1pcs-1-bks--bayar-ditempat--cod_d104625.html",
+      "supports": "Indomie Mi Goreng Indonesia 85 g pack product image.",
+      "market": "Indonesia"
+    },
+    {
+      "id": "image-fanta-orange-japan-500ml",
+      "productId": "fanta-orange-japan-500ml",
+      "publisher": "Nozomi Market",
+      "sourceType": "retailer_product_image",
+      "url": "https://item.rakuten.co.jp/nozomi-market/f16-74/",
+      "supports": "Fanta Orange Japan 500 ml PET bottle product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-kelloggs-coco-pops-uk",
+      "productId": "kelloggs-coco-pops-uk",
+      "publisher": "Centra",
+      "sourceType": "retailer_product_image",
+      "url": "https://centra.ie/offers/kelloggs-coco-pops-cereal-420g",
+      "supports": "Kellogg's Coco Pops UK cereal box product image (420 g pack).",
+      "market": "United Kingdom"
     }
   ],
   "lastUpdated": "2026-11-16"
