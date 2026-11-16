@@ -9,7 +9,7 @@ Human-readable editorial register. JSON remains the game's data source; update t
 - **Argentina:** 25
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 76 / 145
+- **Fotos reales / Real product photos:** 145 / 145
 
 ## Reglas / Rules
 
@@ -307,7 +307,7 @@ AGUA CARBONATADA, AZÚCAR O JMAF, JUGO DE LIMÓN, ARO, ACREG 331 iii, CONS BENZO
 ### Yogur bebible La Serenísima Frutilla / Yogur bebible La Serenísima Frutilla
 
 - **ID:** `la-serenisima-yogur-frutilla-bebible-1300g`
-- **Foto real / Real photo:** [Ver envase / View package](https://masonlineprod.vtexassets.com/arquivos/ids/375170/Yogur-Bebible-La-Seren-sima-Nutrici-n-Activa-Sabor-Frutilla-1300-G-0779133701051-1.jpg?v=639058172179630000) · [Fuente / Source](https://www.masonline.com.ar/yogur-bebible-la-serenisima-clasico-frutilla-1300-g/p)- **Marca / Brand:** La Serenísima
+- **Foto real / Real photo:** [Ver envase / View package](https://masonlineprod.vtexassets.com/arquivos/ids/375170/Yogur-Bebible-La-Seren-sima-Nutrici-n-Activa-Sabor-Frutilla-1300-G-0779133701051-1.jpg?v=639058172179630000) · [Fuente / Source](https://www.masonline.com.ar/yogur-bebible-la-serenisima-clasico-frutilla-1300-g/p)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 1300 g
@@ -347,7 +347,7 @@ Leche parcialmente descremada pasteurizada, solución de sacarosa, gelatina, cul
 ### Galletitas Toddy Clásicas Chocolate / Galletitas Toddy Clásicas Chocolate
 
 - **ID:** `toddy-galletitas-chocolate-ar-126g`
-- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/549702/Galletitas-Toddy-Chips-De-Chocolate-126-Gr-1-541589.jpg?v=637051080881430000) · [Fuente / Source](https://www.disco.com.ar/galletitas-chips-de-chocolate-126-gr-toddy-2/p)- **Marca / Brand:** Toddy
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/549702/Galletitas-Toddy-Chips-De-Chocolate-126-Gr-1-541589.jpg?v=637051080881430000) · [Fuente / Source](https://www.disco.com.ar/galletitas-chips-de-chocolate-126-gr-toddy-2/p)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 126 g
@@ -396,7 +396,7 @@ Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, n
 ### Galletitas Maná con Leche / Galletitas Maná con Leche
 
 - **ID:** `mana-con-leche-ar-136g`
-- **Foto real / Real photo:** [Ver envase / View package](https://atomoconviene.com/atomo-ecommerce/66258-large_default/galletas-dulces-mana-con-leche-136-grs-.jpg) · [Fuente / Source](https://atomoconviene.com/atomo-ecommerce/28934-galletas-dulces-mana-con-leche-136-grs--7790040137813.html)- **Marca / Brand:** Maná · Bagley
+- **Foto real / Real photo:** [Ver envase / View package](https://atomoconviene.com/atomo-ecommerce/66258-large_default/galletas-dulces-mana-con-leche-136-grs-.jpg) · [Fuente / Source](https://atomoconviene.com/atomo-ecommerce/28934-galletas-dulces-mana-con-leche-136-grs--7790040137813.html)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 136 g
@@ -588,7 +588,7 @@ Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, estabilizan
 ### Alfajor Jorgito Blanco Merengue / Alfajor Jorgito Blanco Merengue
 
 - **ID:** `jorgito-alfajor-blanco-merengue-50g`
-- **Foto real / Real photo:** [Ver envase / View package](https://tiendajorgito.com.ar/media/170dbeec7049fe3935e4cdac0bf4103e.webp) · [Fuente / Source](https://tiendajorgito.com.ar/producto/jorgito-blanco)- **Marca / Brand:** Jorgito
+- **Foto real / Real photo:** [Ver envase / View package](https://tiendajorgito.com.ar/media/170dbeec7049fe3935e4cdac0bf4103e.webp) · [Fuente / Source](https://tiendajorgito.com.ar/producto/jorgito-blanco)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 50 g
@@ -635,7 +635,7 @@ Dulce de leche [leche entera, azúcar, glucosa, conservante INS 202, estabilizan
 ### Alfajor Jorgito Choco Blanco / Alfajor Jorgito Choco Blanco
 
 - **ID:** `jorgito-alfajor-choco-blanco-55g`
-- **Foto real / Real photo:** [Ver envase / View package](https://tiendajorgito.com.ar/media/d2f56f59c5a605062a03a4649b7df76c.webp) · [Fuente / Source](https://tiendajorgito.com.ar/producto/jorgito-choco-blanco)- **Marca / Brand:** Jorgito
+- **Foto real / Real photo:** [Ver envase / View package](https://tiendajorgito.com.ar/media/d2f56f59c5a605062a03a4649b7df76c.webp) · [Fuente / Source](https://tiendajorgito.com.ar/producto/jorgito-choco-blanco)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 55 g
@@ -834,7 +834,7 @@ Agua, jugo concentrado de naranja, azúcar, jarabe de maíz de alta fructosa, vi
 ### Mantecol Clásico / Mantecol Clásico
 
 - **ID:** `mantecol-clasico-111g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.delimart.com.ar/user-content/53c37205-e740-4515-851d-599fffd104a2.jpg) · [Fuente / Source](https://www.delimart.com.ar/postre_tradicional_mantecol_111_gr)- **Marca / Brand:** Mantecol
+- **Foto real / Real photo:** [Ver envase / View package](https://www.delimart.com.ar/user-content/53c37205-e740-4515-851d-599fffd104a2.jpg) · [Fuente / Source](https://www.delimart.com.ar/postre_tradicional_mantecol_111_gr)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 111 g
@@ -920,7 +920,7 @@ Harina de trigo enriquecida, azúcar, aceite vegetal, cacao en polvo, dextrosa, 
 ### Alfajor Havanna Semilia / Alfajor Havanna Semilia
 
 - **ID:** `havanna-semilia-ar-55g`
-- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/625950-800-600?aspect=true&height=600&v=637533674717830000&width=800) · [Fuente / Source](https://www.disco.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p)- **Marca / Brand:** Havanna
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/625950-800-600?aspect=true&height=600&v=637533674717830000&width=800) · [Fuente / Source](https://www.disco.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** Pack x4 (peso unitario no especificado en la fuente)
@@ -981,7 +981,7 @@ Leche descremada, azúcar, glucosa, bicarbonato de sodio, sorbato de potasio, va
 ### Gallo Snacks Queso / Gallo Snacks Queso
 
 - **ID:** `gallo-snacks-queso-ar-50g`
-- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/791507/Chips-Gallo-Snacks-Arroz-Queso-X50g-1-986996.jpg?v=638288338176470000) · [Fuente / Source](https://www.jumbo.com.ar/chips-arroz-queso-gallo-50-gr/p)- **Marca / Brand:** Gallo
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/791507/Chips-Gallo-Snacks-Arroz-Queso-X50g-1-986996.jpg?v=638288338176470000) · [Fuente / Source](https://www.jumbo.com.ar/chips-arroz-queso-gallo-50-gr/p)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 50 g
@@ -1024,7 +1024,7 @@ Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal
 ### Alfajor de Maizena Cachafaz / Alfajor de Maizena Cachafaz
 
 - **ID:** `cachafaz-alfajor-maizena-ar-456g`
-- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/829050/11840186003.jpg?v=638575999926530000) · [Fuente / Source](https://www.vea.com.ar/alfajor-de-maizena-cachafaz-456-gr/p)- **Marca / Brand:** Cachafaz
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/829050/11840186003.jpg?v=638575999926530000) · [Fuente / Source](https://www.vea.com.ar/alfajor-de-maizena-cachafaz-456-gr/p)
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
 - **Envase / Package:** 456 g (caja de 6 unidades)
@@ -1118,7 +1118,7 @@ Harina de arroz, azúcar, almidón de maíz, aceite vegetal, chips de chocolate,
 ### Nutella / Nutella
 
 - **ID:** `nutella-italy-400g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.nutella.com/it/sites/nutella_it/files/2026-10/card_all_sizes_spread_400g_glass.png?t=1794584322) · [Fuente / Source](https://www.nutella.com/it/it/prodotti/crema-spalmabile/nutella)- **Marca / Brand:** Ferrero
+- **Foto real / Real photo:** [Ver envase / View package](https://www.nutella.com/it/sites/nutella_it/files/2026-10/card_all_sizes_spread_400g_glass.png?t=1794584322) · [Fuente / Source](https://www.nutella.com/it/it/prodotti/crema-spalmabile/nutella)
 - **País / Country:** Italy
 - **Mercado / Market:** Italy
 - **Envase / Package:** 400 g (market reference; verify exact jar label)
@@ -1153,7 +1153,7 @@ Zucchero, olio di palma, nocciole (13%), latte scremato in polvere (8,7%), cacao
 ### Coca-Cola sabor original / Coca-Cola Original Taste
 
 - **ID:** `coca-cola-original-us`
-- **Foto real / Real photo:** [Ver envase / View package](https://mobileimages.lowes.com/productimages/87e12d74-32fe-4bb0-a737-7a3d5c3fc2b4/69707301.jpeg) · [Fuente / Source](https://www.lowes.com/pd/Coca-Cola-Coca-Cola-Bottle-20-fl-oz/5014075097)- **Marca / Brand:** The Coca-Cola Company
+- **Foto real / Real photo:** [Ver envase / View package](https://mobileimages.lowes.com/productimages/87e12d74-32fe-4bb0-a737-7a3d5c3fc2b4/69707301.jpeg) · [Fuente / Source](https://www.lowes.com/pd/Coca-Cola-Coca-Cola-Bottle-20-fl-oz/5014075097)
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 20 fl oz bottle (US label)
@@ -1187,7 +1187,7 @@ Carbonated water, high fructose corn syrup, caramel color, phosphoric acid, natu
 ### Oreo Original / Oreo Original
 
 - **ID:** `oreo-original-us-family`
-- **Marca / Brand:** Mondelēz International
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/asr/5a54ae04-be18-4412-b0bf-d93a53e18527.e015c66aea4879efe562fd98f3a9ee54.jpeg) · [Fuente / Source](https://www.walmart.com/ip/OREO-Chocolate-Sandwich-Cookies-Family-Size-18-12-oz)- **Marca / Brand:** Mondelēz International
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** Family size (US label)
@@ -1354,7 +1354,7 @@ Milled corn, sugar, malt flavor, contains 2% or less of salt. Vitamins and miner
 ### Toblerone chocolate con leche / Toblerone Milk Chocolate
 
 - **ID:** `toblerone-milk-switzerland-100g`
-- **Marca / Brand:** Toblerone
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn11.bigcommerce.com/s-tgrcca6nho/images/stencil/1280w/products/18166/39707/toblerone-milk100g__20572.1749289381.jpg) · [Fuente / Source](https://www.giftmandu.com/toblerone-milk-swiss-chocolate-100g)- **Marca / Brand:** Toblerone
 - **País / Country:** Switzerland
 - **Mercado / Market:** Switzerland
 - **Envase / Package:** 100 g
@@ -1392,7 +1392,7 @@ Sugar, whole milk powder, cocoa butter, cocoa mass, honey (3%), milk fat, almond
 ### Kit Kat chocolate con leche / Kit Kat Milk Chocolate
 
 - **ID:** `kitkat-milk-chocolate-us-1-5oz`
-- **Marca / Brand:** Hershey / Kit Kat
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Kit-Kat-Candy-Bar-Milk-Chocolate-Wafer-1-5oz-Pack-of-2_ff880bed-57d3-43fe-830f-61c4722ecbfc.af3c416ba16266fba65c1bc7253935ae.jpeg?odnBg=FFFFFF&odnHeight=573&odnWidth=573) · [Fuente / Source](https://www.walmart.com/ip/6603374254)- **Marca / Brand:** Hershey / Kit Kat
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 1.5 oz
@@ -1435,7 +1435,7 @@ Sugar, wheat flour, cocoa butter, chocolate, lactose (milk), vegetable oil (palm
 ### Cheerios Original / Original Cheerios
 
 - **ID:** `cheerios-original-us-8-9oz`
-- **Marca / Brand:** General Mills
+- **Foto real / Real photo:** [Ver envase / View package](https://mojo.generalmills.com/api/public/content/qXISbTu6TrezkkuNB64u_A_04c57eea-66a2-45cd-a3f2-ecd27146a451_04c57eea-66a2-45cd-a3f2-ecd27146a451.png?v=583b15c0&t=04c57eea66a245cda3f2ecd27146a451) · [Fuente / Source](https://www.cheerios.com/products/original-cheerios)- **Marca / Brand:** General Mills
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 8.9 oz
@@ -1480,7 +1480,7 @@ Whole Grain Oats, Corn Starch, Sugar, Salt, Tripotassium Phosphate. Vitamin E (m
 ### Kellogg's Froot Loops / Kellogg's Froot Loops
 
 - **ID:** `froot-loops-us-13-2oz`
-- **Foto real / Real photo:** [Ver envase / View package](https://storage.googleapis.com/images-prs-prd-c7e7986.prs.prd.v8.commerce.mi9cloud.com/product-images/zoom/00038000281860_596) · [Fuente / Source](https://www.shoprite.com/product/kelloggs-froot-loops-original-cold-breakfast-cereal-132-oz-id-00038000281860)- **Marca / Brand:** WK Kellogg Co
+- **Foto real / Real photo:** [Ver envase / View package](https://storage.googleapis.com/images-prs-prd-c7e7986.prs.prd.v8.commerce.mi9cloud.com/product-images/zoom/00038000281860_596) · [Fuente / Source](https://www.shoprite.com/product/kelloggs-froot-loops-original-cold-breakfast-cereal-132-oz-id-00038000281860)
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 13.2 oz
@@ -1536,7 +1536,7 @@ Corn flour blend (whole grain yellow corn flour, degerminated yellow corn flour)
 ### Kellogg's Frosted Flakes / Kellogg's Frosted Flakes
 
 - **ID:** `frosted-flakes-us-17-3oz`
-- **Marca / Brand:** WK Kellogg Co
+- **Foto real / Real photo:** [Ver envase / View package](https://storage.googleapis.com/images-prs-prd-c7e7986.prs.prd.v8.commerce.mi9cloud.com/product-images/zoom/00038000281907_596) · [Fuente / Source](https://www.thefreshgrocer.com/product/kelloggs-frosted-flakes-original-cold-breakfast-cereal-173-oz-id-00038000281907)- **Marca / Brand:** WK Kellogg Co
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 17.3 oz
@@ -1761,7 +1761,7 @@ Unbleached Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitra
 ### Papas fritas Lay's clásicas / Lay's Classic Potato Chips
 
 - **ID:** `lays-classic-us-1-5oz`
-- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-Snack-Chips-1-5oz-Bag_d8bfdbcd-0227-4e78-a58d-ad4d4a4520cd.f3e2bdab9e9e86d934abf967ee0aff8a.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768) · [Fuente / Source](https://www.walmart.com/ip/148212532)- **Marca / Brand:** Frito-Lay
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-Snack-Chips-1-5oz-Bag_d8bfdbcd-0227-4e78-a58d-ad4d4a4520cd.f3e2bdab9e9e86d934abf967ee0aff8a.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768) · [Fuente / Source](https://www.walmart.com/ip/148212532)
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 1.5 oz (42.5 g)
@@ -1796,7 +1796,7 @@ Potatoes, Vegetable Oil (Canola, Corn, Soybean, and/or Sunflower Oil), and Salt.
 ### Doritos sabor queso nacho / Doritos Nacho Cheese
 
 - **ID:** `doritos-nacho-cheese-us-foodservice-1-4oz`
-- **Marca / Brand:** Frito-Lay
+- **Foto real / Real photo:** [Ver envase / View package](https://drryor7280ntb.cloudfront.net/media/catalog/product/0/0/00028400443753_fm0tzjy2pgpj1kdz.jpg) · [Fuente / Source](https://www.foodservicedirect.com/doritos-nacho-cheese-tortilla-chips-1-75-ounce-64-per-case-21204082.html)- **Marca / Brand:** Frito-Lay
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 1.4 oz (40 g) · school foodservice label
@@ -1860,7 +1860,7 @@ Whole Corn, Corn, Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Maltodextr
 ### Tazas REESE'S de chocolate y mantequilla de maní / REESE'S Peanut Butter Cups Snack Size
 
 - **ID:** `reeses-peanut-butter-cups-us-4-4oz`
-- **Foto real / Real photo:** [Ver envase / View package](https://i5.peapod.com/c/71/71B9L.png) · [Fuente / Source](https://hannaford.com/groceries/candy-chocolate/chocolate-candy/packaged-chocolate-candy/reeses-milk-chocolate-peanut-butter-cups-candy-snack-size-8-ct-44-oz-pkg.html)- **Marca / Brand:** The Hershey Company
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.peapod.com/c/71/71B9L.png) · [Fuente / Source](https://hannaford.com/groceries/candy-chocolate/chocolate-candy/packaged-chocolate-candy/reeses-milk-chocolate-peanut-butter-cups-candy-snack-size-8-ct-44-oz-pkg.html)
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 4.4 oz (124 g)
@@ -1919,7 +1919,7 @@ Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Milk Fat, Lactose, Le
 ### Takis Fuego 70 g / Takis Fuego 70 g
 
 - **ID:** `takis-fuego-mexico-70g`
-- **Foto real / Real photo:** [Ver envase / View package](https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750081000367L.jpg) · [Fuente / Source](https://www.walmart.com.mx/ip/botana-barcel-takis-fuego-picante-sabor-chile-y-limon-70-g/00750081000367)- **Marca / Brand:** Barcel
+- **Foto real / Real photo:** [Ver envase / View package](https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750081000367L.jpg) · [Fuente / Source](https://www.walmart.com.mx/ip/botana-barcel-takis-fuego-picante-sabor-chile-y-limon-70-g/00750081000367)
 - **País / Country:** Mexico
 - **Mercado / Market:** Mexico
 - **Envase / Package:** 70 g
@@ -1961,7 +1961,7 @@ HARINA DE MAÍZ, ACEITE VEGETAL, SAZONADOR (SAL YODADA, MALTODEXTRINA, AZÚCARES
 ### Gansito 50 g / Gansito 50 g
 
 - **ID:** `gansito-marinela-mexico-50g`
-- **Foto real / Real photo:** [Ver envase / View package](https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750100015310L.jpg) · [Fuente / Source](https://www.walmart.com.mx/ip/envasados-dulces/pastelito-marinela-gansito-50-g/00750100015310)- **Marca / Brand:** Marinela
+- **Foto real / Real photo:** [Ver envase / View package](https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750100015310L.jpg) · [Fuente / Source](https://www.walmart.com.mx/ip/envasados-dulces/pastelito-marinela-gansito-50-g/00750100015310)
 - **País / Country:** Mexico
 - **Mercado / Market:** Mexico
 - **Envase / Package:** 50 g (1 pieza)
@@ -2031,7 +2031,7 @@ AZÚCARES AÑADIDOS (AZÚCAR, JARABE DE MAÍZ DE ALTA FRUCTOSA, AZÚCAR INVERTID
 ### Pocky de chocolate (Japón) / Pocky Chocolate (Japan)
 
 - **ID:** `pocky-chocolate-japan-2pack`
-- **Marca / Brand:** Glico
+- **Foto real / Real photo:** [Ver envase / View package](https://gorodtokyo.ru/upload/goods_pic_large/23377.jpg) · [Fuente / Source](https://gorodtokyo.ru/produkt/glico-pocky-yaponskiy-shokolad-23377/)- **Marca / Brand:** Glico
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 2 bags (29 g per bag)
@@ -2113,7 +2113,7 @@ GLUCOSE SYRUP (FROM WHEAT OR CORN), SUGAR, GELATIN, DEXTROSE (FROM WHEAT OR CORN
 ### McVitie's Digestives Original / McVitie's Digestives Original
 
 - **ID:** `mcvities-digestives-uk-original`
-- **Marca / Brand:** McVitie's
+- **Foto real / Real photo:** [Ver envase / View package](https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/41c67d602d8b42ad87c49c8d6839441c~tplv-fhlh96nyum-crop-webp%3A1080%3A1080.webp?dr=12190&from=2378011839&idc=useast5&ps=933b5bde&shcp=607f11de&shp=8dbd94bf&t=555f072d) · [Fuente / Source](https://shop.tiktok.com/us/pdp/mcvities-digestives-the-original-355g-crunchy-biscuits/1729440104182550612)- **Marca / Brand:** McVitie's
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** Original pack (24 biscuits typical)
@@ -2191,7 +2191,7 @@ Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Salt, An
 ### Cadbury Dairy Milk 45 g / Cadbury Dairy Milk 45 g
 
 - **ID:** `cadbury-dairy-milk-uk-45g`
-- **Marca / Brand:** Cadbury
+- **Foto real / Real photo:** [Ver envase / View package](https://www.cadburygiftsdirect.co.uk/media/catalog/product/cache/dd4850ad4231b6306bceadf38a0bbeed/c/d/cdm_45g_mob_opt.jpg) · [Fuente / Source](https://www.cadburygiftsdirect.co.uk/cadbury-dairy-milk-bar-45g.html)- **Marca / Brand:** Cadbury
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 45 g bar
@@ -2228,7 +2228,7 @@ MILK, sugar, cocoa butter, cocoa mass, vegetable fats (palm, shea), emulsifiers 
 ### Ferrero Rocher pack de 3 (EE. UU.) / Ferrero Rocher 3-Piece Pack (US)
 
 - **ID:** `ferrero-rocher-us-3pack`
-- **Marca / Brand:** Ferrero
+- **Foto real / Real photo:** [Ver envase / View package](https://142127960.cdn6.editmysite.com/uploads/1/4/2/1/142127960/Y5RA27S777GOOW263K6YLBKR.jpeg) · [Fuente / Source](https://www.trythesweetspot.com/product/ferrero-rocher-shelf-pack-3-pc/735)- **Marca / Brand:** Ferrero
 - **País / Country:** Italy
 - **Mercado / Market:** United States
 - **Envase / Package:** 3 pieces
@@ -2434,7 +2434,7 @@ Zucker, VollMILCHpulver (20 %), Kakaobutter, Kakaomasse, HASELNUSSmasse, Emulgat
 ### Shin Ramyun Original en vaso / Shin Ramyun Original Cup
 
 - **ID:** `shin-ramyun-original-cup-us-75g`
-- **Marca / Brand:** Nongshim
+- **Foto real / Real photo:** [Ver envase / View package](https://nongshimusa.com/html5/imgs/world_of_shin/shin_ramyun_cup.png) · [Fuente / Source](https://nongshimusa.com/product-detail?pid=45)- **Marca / Brand:** Nongshim
 - **País / Country:** South Korea
 - **Mercado / Market:** United States
 - **Envase / Package:** 1 cup · 75 g
@@ -2513,7 +2513,7 @@ ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, R
 ### OREO Vainilla 154 g / OREO Vanilla 154 g
 
 - **ID:** `oreo-vanilla-uk-154g`
-- **Marca / Brand:** Mondelēz
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn.grocefully.com/storage/v1/object/public/images/sainsburys/7100916/01.jpeg) · [Fuente / Source](https://www.grocefully.com/uk/product/oreo-original-vanilla-sandwich-cookies-14-cookies-154-g-7622300315283)- **Marca / Brand:** Mondelēz
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 154 g
@@ -2646,7 +2646,7 @@ Milk Chocolate (38%) (Sugar, Milk Solids, Cocoa Butter, Cocoa Mass, Vegetable Oi
 ### Chocolate Amul Dark / Amul Dark Chocolate
 
 - **ID:** `amul-dark-chocolate-india-150g`
-- **Marca / Brand:** Amul
+- **Foto real / Real photo:** [Ver envase / View package](https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/66b49f77127ba200242a87f6/01percent20heropercent20image_amulpercent20darkpercent20chocolatepercent20cartonpercent20150g.jpg) · [Fuente / Source](https://www.mystore.in/en/product/amul-dark-chocolate-40x150g-pack)- **Marca / Brand:** Amul
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** 150 g
@@ -2681,7 +2681,7 @@ Sugar, Cocoa Solids, Cocoa Butter, Permitted Emulsifiers (E322, E476). Contains 
 ### Orion Choco Pie / Orion Choco Pie
 
 - **ID:** `orion-choco-pie-korea-468g`
-- **Foto real / Real photo:** [Ver envase / View package](https://down-ph.img.susercontent.com/file/th-11134207-7r98q-ltz6tzygt3up72) · [Fuente / Source](https://shopee.ph/Korean-Snacks-choco-pie-Ori-orion-468g-%2812pcs%29-i.1186353823.25373644511)- **Marca / Brand:** Orion
+- **Foto real / Real photo:** [Ver envase / View package](https://down-ph.img.susercontent.com/file/th-11134207-7r98q-ltz6tzygt3up72) · [Fuente / Source](https://shopee.ph/Korean-Snacks-choco-pie-Ori-orion-468g-%2812pcs%29-i.1186353823.25373644511)
 - **País / Country:** South Korea
 - **Mercado / Market:** South Korea
 - **Envase / Package:** 468 g box
@@ -2726,7 +2726,7 @@ Sugar, Cocoa Solids, Cocoa Butter, Permitted Emulsifiers (E322, E476). Contains 
 ### Bonne Maman Mermelada Extra de Frutilla / Bonne Maman Strawberry Extra Jam
 
 - **ID:** `bonne-maman-strawberry-jam-france-370g`
-- **Foto real / Real photo:** [Ver envase / View package](https://santaluzia.vtexassets.com/arquivos/ids/968553/1068032.jpg?v=637385268009600000) · [Fuente / Source](https://www.santaluzia.com.br/geleia-bonne-maman-morango-370g-1068032/p)- **Marca / Brand:** Bonne Maman
+- **Foto real / Real photo:** [Ver envase / View package](https://santaluzia.vtexassets.com/arquivos/ids/968553/1068032.jpg?v=637385268009600000) · [Fuente / Source](https://www.santaluzia.com.br/geleia-bonne-maman-morango-370g-1068032/p)
 - **País / Country:** France
 - **Mercado / Market:** France
 - **Envase / Package:** 370 g jar
@@ -2759,7 +2759,7 @@ Fraises, sucre, sucre roux de canne, jus de citrons concentré, gélifiant : pec
 ### Knorr Professional Caldo de Verduras / Knorr Professional Vegetable Bouillon
 
 - **ID:** `knorr-gemuse-bouillon-germany-1kg`
-- **Marca / Brand:** Knorr
+- **Foto real / Real photo:** [Ver envase / View package](https://rzonlinehandel.at/images/product_images/info_images/BG-9000275714610.jpg) · [Fuente / Source](https://rzonlinehandel.at/Lebensmittel-RZOnlinehandel/Nahrungsmittel-RZOnlinehandel/fertiggerichte-RZOnlinehandel/Knorr-Gemuesegold-Bouillon-1kg.html)- **Marca / Brand:** Knorr
 - **País / Country:** Germany
 - **Mercado / Market:** Germany
 - **Envase / Package:** 1 kg professional pack
@@ -2802,7 +2802,7 @@ Speisesalz, Hefeextrakt, Maltodextrin, Kaliumchlorid, Zucker, Zwiebeln (4,4%), S
 ### Chocolate con leche Meiji 50 g / Meiji Milk Chocolate 50 g
 
 - **ID:** `meiji-milk-chocolate-japan-50g`
-- **Foto real / Real photo:** [Ver envase / View package](https://tshop.r10s.jp/v-drug/cabinet/0519/4902777015927.jpg?fitin=720%3A720) · [Fuente / Source](https://item.rakuten.co.jp/v-drug/0270030_4902777015927x10/)- **Marca / Brand:** Meiji
+- **Foto real / Real photo:** [Ver envase / View package](https://tshop.r10s.jp/v-drug/cabinet/0519/4902777015927.jpg?fitin=720%3A720) · [Fuente / Source](https://item.rakuten.co.jp/v-drug/0270030_4902777015927x10/)
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 50 g
@@ -2836,7 +2836,7 @@ Speisesalz, Hefeextrakt, Maltodextrin, Kaliumchlorid, Zucker, Zwiebeln (4,4%), S
 ### Samyang Buldak Original / Samyang Buldak Original
 
 - **ID:** `samyang-buldak-original-korea-us-140g`
-- **Marca / Brand:** Samyang
+- **Foto real / Real photo:** [Ver envase / View package](https://www.ramencrate.co.nz/cdn/shop/files/SamyangOriginalBuldakHotChickenInstantNoodles-Plain.png?v=1768252565&width=1445) · [Fuente / Source](https://www.ramencrate.co.nz/products/samyang-original-hot-chicken-ramen)- **Marca / Brand:** Samyang
 - **País / Country:** South Korea
 - **Mercado / Market:** United States
 - **Envase / Package:** 140 g (4.94 oz) pack
@@ -2907,7 +2907,7 @@ Noodles: Wheat Flour, Food Starch-Modified, Palm Oil, Less than 2% of: Wheat Glu
 ### Heinz Baked Beanz 150 g / Heinz Baked Beanz 150 g
 
 - **ID:** `heinz-baked-beanz-uk-150g`
-- **Foto real / Real photo:** [Ver envase / View package](https://ca.britishessentials.com/cdn/shop/products/July022203_1024x1024.jpg?v=1656726102) · [Fuente / Source](https://ca.britishessentials.com/products/heinz-baked-beanz-150g)- **Marca / Brand:** Heinz
+- **Foto real / Real photo:** [Ver envase / View package](https://ca.britishessentials.com/cdn/shop/products/July022203_1024x1024.jpg?v=1656726102) · [Fuente / Source](https://ca.britishessentials.com/products/heinz-baked-beanz-150g)
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 150 g
@@ -2944,7 +2944,7 @@ Beans (49%), Tomatoes (35%), Water, Sugar, Modified Cornflour, Spirit Vinegar, S
 ### Néctar de mango Jumex 960 ml / Jumex Mango Nectar 960 ml
 
 - **ID:** `jumex-mango-nectar-mexico-960ml`
-- **Foto real / Real photo:** [Ver envase / View package](https://elsabormarket.com/cdn/shop/files/0e5478d99f659b278e66e816b0dad67a.jpg?v=1721465941) · [Fuente / Source](https://elsabormarket.com/products/jumex-mango-nectar-34-oz)- **Marca / Brand:** Jumex
+- **Foto real / Real photo:** [Ver envase / View package](https://elsabormarket.com/cdn/shop/files/0e5478d99f659b278e66e816b0dad67a.jpg?v=1721465941) · [Fuente / Source](https://elsabormarket.com/products/jumex-mango-nectar-34-oz)
 - **País / Country:** Mexico
 - **Mercado / Market:** Mexico
 - **Envase / Package:** 960 ml carton
@@ -2977,7 +2977,7 @@ Agua, azúcares añadidos (pulpa de mango de concentrado (20%), jarabe de maíz 
 ### MAGGI Masala Twist 75 g / MAGGI Masala Twist 75 g
 
 - **ID:** `maggi-masala-twist-india-75g`
-- **Marca / Brand:** MAGGI
+- **Foto real / Real photo:** [Ver envase / View package](https://www.nestleprofessional.in/sites/default/files/2023-09/723557%203D%20Maggi%20Masala%20Twist%20CUPPA%20%28400%20x%20380%20Px%29%20Front.png) · [Fuente / Source](https://www.nestleprofessional.in/foods/maggi-masala-twist)- **Marca / Brand:** MAGGI
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** 75 g prepared-product reference
@@ -3031,7 +3031,7 @@ Refined wheat flour (Maida), Palm oil, Iodised salt, Thickeners (412 & 508), Hum
 ### Parle-G Original 79,9 g / Parle-G Original 79.9 g
 
 - **ID:** `parle-g-original-india-uk-799g`
-- **Foto real / Real photo:** [Ver envase / View package](https://gayatristore.co.uk/cdn/shop/files/parle-g-glucose-biscuits-799g-8901719925139.png?v=1759436502&width=560) · [Fuente / Source](https://gayatristore.co.uk/products/parle-g-glucose-biscuits-79-9g)- **Marca / Brand:** Parle
+- **Foto real / Real photo:** [Ver envase / View package](https://gayatristore.co.uk/cdn/shop/files/parle-g-glucose-biscuits-799g-8901719925139.png?v=1759436502&width=560) · [Fuente / Source](https://gayatristore.co.uk/products/parle-g-glucose-biscuits-79-9g)
 - **País / Country:** India
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 79.9 g import pack
@@ -3069,7 +3069,7 @@ Wheat Flour (68.3%), Sugar, Vegetable Oil (Palm Oil), Glucose-Fructose Syrup, Sa
 ### Galletitas de manteca LEIBNIZ Original 200 g / LEIBNIZ Original Butter Biscuits 200 g
 
 - **ID:** `leibniz-original-butter-biscuits-germany-200g`
-- **Marca / Brand:** LEIBNIZ
+- **Foto real / Real photo:** [Ver envase / View package](https://www.parthenonfoods.com/cdn/shop/files/BahlsenLeibniz200g.png?v=1689958500) · [Fuente / Source](https://www.parthenonfoods.com/products/butter-biscuits-leibniz-keks-200g)- **Marca / Brand:** LEIBNIZ
 - **País / Country:** Germany
 - **Mercado / Market:** Germany
 - **Envase / Package:** 200 g
@@ -3110,7 +3110,7 @@ WHEAT flour (70%), sugar, BUTTER (12%), invert sugar syrup, raising agents: sodi
 ### Britannia Good Day Butter 90 g / Britannia Good Day Butter 90 g
 
 - **ID:** `britannia-good-day-butter-india-90g`
-- **Marca / Brand:** Britannia
+- **Foto real / Real photo:** [Ver envase / View package](https://media.britannia.co.in/Untitled_design_2_6ee1be83c2.webp) · [Fuente / Source](https://www.britannia.co.in/product/good-day)- **Marca / Brand:** Britannia
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** 90 g pack option
@@ -3153,7 +3153,7 @@ Wheat Flour, Sugar, Vegetable Fat (Palm), Butter (From Cow’s or Buffalo’s Mi
 ### Guaraná Antarctica 350 ml / Guaraná Antarctica 350 ml
 
 - **ID:** `guarana-antarctica-brazil-350ml`
-- **Foto real / Real photo:** [Ver envase / View package](https://img.superhoje.com/img.produtos/7891991000826/img_1200_1.png) · [Fuente / Source](https://superkan.com.br/refrigerante-guarana-antarctica-lata-350ml/7891991000826/d)- **Marca / Brand:** Guaraná Antarctica
+- **Foto real / Real photo:** [Ver envase / View package](https://img.superhoje.com/img.produtos/7891991000826/img_1200_1.png) · [Fuente / Source](https://superkan.com.br/refrigerante-guarana-antarctica-lata-350ml/7891991000826/d)
 - **País / Country:** Brazil
 - **Mercado / Market:** Brazil
 - **Envase / Package:** 350 ml can
@@ -3189,7 +3189,7 @@ Wheat Flour, Sugar, Vegetable Fat (Palm), Butter (From Cow’s or Buffalo’s Mi
 ### VEGEMITE 220 g / VEGEMITE 220 g
 
 - **ID:** `vegemite-australia-220g`
-- **Marca / Brand:** VEGEMITE
+- **Foto real / Real photo:** [Ver envase / View package](https://www.instacart.com/image-server/1864x1864/www.instacart.com/assets/domains/product-image/file/large_3a33d897-ded2-4563-bbfb-c6b087c9d25b.jpg) · [Fuente / Source](https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g)- **Marca / Brand:** VEGEMITE
 - **País / Country:** Australia
 - **Mercado / Market:** Australia
 - **Envase / Package:** 220 g jar
@@ -3227,7 +3227,7 @@ YEAST EXTRACT (WHEAT, BARLEY), SALT, MINERAL SALT (508), MALT EXTRACT (BARLEY), 
 ### Walkers Quavers sabor queso / Walkers Quavers Cheese
 
 - **ID:** `walkers-quavers-cheese-uk`
-- **Marca / Brand:** Walkers
+- **Foto real / Real photo:** [Ver envase / View package](https://i.ebayimg.com/images/g/x08AAOSw0kpl~q5e/s-l1200.jpg) · [Fuente / Source](https://www.ebay.co.uk/itm/116116380862)- **Marca / Brand:** Walkers
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 16 g serving reference
@@ -3280,7 +3280,7 @@ Potato Starch, Sunflower Oil, Cheese Flavour [Whey Powder (from Milk), Flavourin
 ### POCARI SWEAT 500 ml / POCARI SWEAT 500 ml
 
 - **ID:** `pocari-sweat-japan-500ml`
-- **Marca / Brand:** Otsuka
+- **Foto real / Real photo:** [Ver envase / View package](https://wingonfile01.easesales.com/upload/3302BA3D66D2EDC2/202005/4834603554203765292.png_700x650.ashx) · [Fuente / Source](https://shop.wingon.hk/en/Product/EshopDetail/4925/class-0/product-297399/cm-19670/d-0)- **Marca / Brand:** Otsuka
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 500 ml bottle
@@ -3407,7 +3407,7 @@ TOMATO PUREE (WATER, TOMATO PASTE), VINEGAR, CORN SYRUP, SALT, RAISIN PASTE, CRU
 ### Mutti Polpa de tomate 400 g / Mutti Polpa 400 g
 
 - **ID:** `mutti-polpa-italy-400g`
-- **Marca / Brand:** Mutti
+- **Foto real / Real photo:** [Ver envase / View package](https://chedrauimx.vtexassets.com/arquivos/ids/65508295-800-auto?aspect=true&height=auto&v=639094768624870000&width=800) · [Fuente / Source](https://www.chedraui.com.mx/pulpa-de-tomate-mutti-finamente-picado-de-400g-3246253/p)- **Marca / Brand:** Mutti
 - **País / Country:** Italy
 - **Mercado / Market:** Italy
 - **Envase / Package:** 400 g can (common retail size; verify package)
@@ -3437,7 +3437,7 @@ Tomate 99,8%, sal.
 ### Crema Lotus Biscoff 8 kg / Lotus Biscoff Spread 8 kg
 
 - **ID:** `lotus-biscoff-spread-foodservice-8kg`
-- **Marca / Brand:** Lotus Biscoff
+- **Foto real / Real photo:** [Ver envase / View package](https://lasalameriadeli.com/cdn/shop/files/746BC4C1-2EC3-4000-80FD-25827093BD32.jpg?v=1711316349&width=1445) · [Fuente / Source](https://lasalameriadeli.com/products/crema-lotus-biscoff-8kg)- **Marca / Brand:** Lotus Biscoff
 - **País / Country:** Belgium
 - **Mercado / Market:** International foodservice
 - **Envase / Package:** 8 kg foodservice tub
@@ -3617,7 +3617,7 @@ Pulpa de tomate 72%, concentrado de tomate 14%, cebolla, aceite de girasol, alba
 ### Barilla Salsa Arrabbiata 400 g / Barilla Arrabbiata Sauce 400 g
 
 - **ID:** `barilla-arrabbiata-sauce-italy-400g`
-- **Marca / Brand:** Barilla
+- **Foto real / Real photo:** [Ver envase / View package](https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/retail/images/552911813925290-71a56d77-6546-4ca9-888f-714a2a3e57ee.jpg) · [Fuente / Source](https://www.coupang.com/vp/products/2347357)- **Marca / Brand:** Barilla
 - **País / Country:** Italy
 - **Mercado / Market:** Latin America product page / Italian-style recipe
 - **Envase / Package:** 400 g jar
@@ -3654,7 +3654,7 @@ Pulpa de tomate 82%, concentrado de tomate 7,9%, aceite de girasol, pimientos ro
 ### Salsa de soja Kikkoman / Kikkoman Soy Sauce
 
 - **ID:** `kikkoman-soy-sauce-india-500ml`
-- **Marca / Brand:** Kikkoman
+- **Foto real / Real photo:** [Ver envase / View package](https://www.luckystore.in/cdn/shop/files/Kikkoman-Soy-Sauce-Pet-Bottle_-500-ml-luckystore-59967512_1080x.png?v=1752232591) · [Fuente / Source](https://www.luckystore.in/products/kikkoman-soy-sauce-500ml-pet-bottle-500-ml)- **Marca / Brand:** Kikkoman
 - **País / Country:** Japan
 - **Mercado / Market:** India
 - **Envase / Package:** 500 ml (one of the manufacturer-listed pack sizes)
@@ -3685,7 +3685,7 @@ Water, Soybeans (24%), Wheat, Salt.
 ### New Yakult / New Yakult
 
 - **ID:** `yakult-new-yakult-japan-65ml`
-- **Marca / Brand:** Yakult
+- **Foto real / Real photo:** [Ver envase / View package](https://www.costco.co.jp/medias/sys_master/images/hd1/hf7/414384885792798.jpg) · [Fuente / Source](https://www.costco.co.jp/Fresh-Frozen-Chilled/Dairy/New-Yakult-65ml-x-50/p/70174)- **Marca / Brand:** Yakult
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 65 ml bottle
@@ -3716,7 +3716,7 @@ Glucose-fructose syrup (made in Japan), sugar, skimmed milk powder / flavorings.
 ### Nissin Cup Noodles sabor pollo / Nissin Cup Noodles Chicken
 
 - **ID:** `nissin-cup-noodles-chicken-us-64g`
-- **Marca / Brand:** Nissin
+- **Foto real / Real photo:** [Ver envase / View package](https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a3ef9456-084f-4e88-b69c-ef3859095498.jpg) · [Fuente / Source](https://shop.foodmaxx.com/store/foodmaxx/products/34599-nissin-soup-ramen-noodle-chicken-flavor-2-25-oz)- **Marca / Brand:** Nissin
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 64 g paper cup
@@ -3865,7 +3865,7 @@ Water, orange juice from concentrate (16%), sugar, carbon dioxide, lemon juice c
 ### Pringles Paprika / Pringles Paprika
 
 - **ID:** `pringles-paprika-germany-165g`
-- **Marca / Brand:** Pringles
+- **Foto real / Real photo:** [Ver envase / View package](https://discountdragon.co.uk/cdn/shop/files/pringles_paprika.png?v=1754653982) · [Fuente / Source](https://discountdragon.co.uk/products/pringles-paprika-165g)- **Marca / Brand:** Pringles
 - **País / Country:** Germany
 - **Mercado / Market:** Germany
 - **Envase / Package:** 165 g canister
@@ -3916,7 +3916,7 @@ Potato puree powder, sunflower oil, corn flour, wheat flour, paprika seasoning (
 ### Glico Pretz sabor tomate / Glico Tomato Pretz
 
 - **ID:** `glico-tomato-pretz-japan-53g`
-- **Marca / Brand:** Glico
+- **Foto real / Real photo:** [Ver envase / View package](https://www.glico.com/assets/images/large/%E3%80%90%E7%AB%8B%E4%BD%93%E7%94%BB%E5%83%8F%E3%80%9153G_%EF%BE%84%EF%BE%8F%EF%BE%84%EF%BE%8C%EF%BE%9F%EF%BE%98%EF%BD%AF%EF%BE%82_20231204__1.jpg) · [Fuente / Source](https://www.glico.com/jp/product/snack_biscuit_cookie/pretz/46436/)- **Marca / Brand:** Glico
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 53 g pack
@@ -3962,7 +3962,7 @@ Wheat flour (made in Japan), vegetable oil, shortening, sugar, tomato paste, sta
 ### MILO en polvo / MILO Powder
 
 - **ID:** `milo-powder-australia-200g`
-- **Marca / Brand:** MILO
+- **Foto real / Real photo:** [Ver envase / View package](https://australiansnacks.com/cdn/shop/files/Milo_Small_Tin.jpg?v=1778165221&width=1946) · [Fuente / Source](https://australiansnacks.com/products/milo-small-tin)- **Marca / Brand:** MILO
 - **País / Country:** Australia
 - **Mercado / Market:** Australia
 - **Envase / Package:** 200 g pack
@@ -4005,7 +4005,7 @@ Extract of malt barley or malt barley and rice, milk solids, sugar, cocoa, choc 
 ### Chupa Chups chupetines frutales / Chupa Chups Fruit Lollipops
 
 - **ID:** `chupa-chups-fruit-lollipops-spain-300g`
-- **Marca / Brand:** Chupa Chups
+- **Foto real / Real photo:** [Ver envase / View package](https://www.treatsfromoz.com/cdn/shop/files/379909_2_1200x.jpg?v=1714640114) · [Fuente / Source](https://www.treatsfromoz.com/products/chupa-chups-lollipops-best-of-25-pack-300g)- **Marca / Brand:** Chupa Chups
 - **País / Country:** Spain
 - **Mercado / Market:** Spain / assorted fruit flavours
 - **Envase / Package:** 300 g assorted bag (25 lollipops)
@@ -4056,7 +4056,7 @@ Sugar, glucose syrup, fruit puree from concentrate (apple, cherry, raspberry, pi
 ### MAGGI salsa de tomate, chile y sabor agridulce / MAGGI Hot & Sweet Tomato Chilli Sauce
 
 - **ID:** `maggi-hot-sweet-tomato-chilli-india-200g`
-- **Marca / Brand:** MAGGI
+- **Foto real / Real photo:** [Ver envase / View package](https://www.bbassets.com/media/uploads/p/xl/266058_12-maggi-hot-sweet-tomato-chilli-sauce.jpg) · [Fuente / Source](https://www.bigbasket.com/pd/266058/maggi-hot-sweet-tomato-chilli-sauce-200-g-bottle/)- **Marca / Brand:** MAGGI
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** 200 g bottle
@@ -4094,7 +4094,7 @@ Water, Sugar, Tomato paste (11.9%), Red chilli puree (6.6%), Iodized salt, Acidi
 ### ColaCao Original / ColaCao Original
 
 - **ID:** `colacao-original-spain-383g`
-- **Marca / Brand:** ColaCao
+- **Foto real / Real photo:** [Ver envase / View package](https://www.polichollo.com/cdn/shop/files/6239.jpg?v=1758785698) · [Fuente / Source](https://www.polichollo.com/products/colacao-original-383-gr)- **Marca / Brand:** ColaCao
 - **País / Country:** Spain
 - **Mercado / Market:** Spain
 - **Envase / Package:** 383 g tin
@@ -4131,7 +4131,7 @@ Sugar, natural defatted cocoa (22%), malted kola cereal cream (wheat flour, barl
 ### Goya Frijoles Negros / Goya Black Beans
 
 - **ID:** `goya-black-beans-us-15-5oz`
-- **Marca / Brand:** Goya
+- **Foto real / Real photo:** [Ver envase / View package](https://shop.goya.com/cdn/shop/products/BlackBeans_28c155a8-f3f3-451f-ae76-79f70c54993c.png?v=1661812943&width=1080) · [Fuente / Source](https://shop.goya.com/products/goya-black-beans)- **Marca / Brand:** Goya
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 15.5 oz can (also offered in other sizes)
@@ -4161,7 +4161,7 @@ Black beans, water, salt.
 ### Calbee Jagabee natural / Calbee Jagabee Plain
 
 - **ID:** `calbee-jagabee-plain-japan-38g`
-- **Marca / Brand:** Calbee
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn.askul.co.jp/img/product/3L2/UK71811_3L2.jpg) · [Fuente / Source](https://www.askul.co.jp/p/UK71811/)- **Marca / Brand:** Calbee
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 38 g pack
@@ -4191,7 +4191,7 @@ Potatoes (United States), vegetable oil, antioxidant (vitamin C).
 ### Tajín Clásico / Tajín Clásico
 
 - **ID:** `tajin-clasico-mexico-142g`
-- **Marca / Brand:** Tajín
+- **Foto real / Real photo:** [Ver envase / View package](https://availmru.com/cdn/shop/files/Untitled_design.png?v=1771200468) · [Fuente / Source](https://availmru.com/products/tajin-clasico-seasoning)- **Marca / Brand:** Tajín
 - **País / Country:** Mexico
 - **Mercado / Market:** United States
 - **Envase / Package:** 5 oz bottle (also 14 oz and other sizes)
@@ -4221,7 +4221,7 @@ Mild chili peppers, lime, sea salt.
 ### Want Want galletas de arroz con algas / Want Want Seaweed Rice Crackers
 
 - **ID:** `want-want-seaweed-rice-crackers-tw-102g`
-- **Marca / Brand:** Want Want
+- **Foto real / Real photo:** [Ver envase / View package](https://eorder.soda-mall.com/hung-hom/media/catalog/product/cache/9b588f459139fa4fbe58d45626be4c98/3/7/37558_1.jpg) · [Fuente / Source](https://eorder.soda-mall.com/hung-hom/want-want-seaweed-rice-cracker-102g.html)- **Marca / Brand:** Want Want
 - **País / Country:** Taiwan
 - **Mercado / Market:** Taiwan / China
 - **Envase / Package:** 102 g pack (also 136 g)
@@ -4251,7 +4251,7 @@ Japonica rice, palm oil, seaweed strips.
 ### Want Want Shelly Senbei Original / Want Want Shelly Senbei Original
 
 - **ID:** `want-want-shelly-senbei-china-122g`
-- **Marca / Brand:** Want Want
+- **Foto real / Real photo:** [Ver envase / View package](https://www.tastysnack.asia/cdn/shop/files/WantWant-ShelleySenbei_122g_365d7f98-0b27-4383-91ff-1de65d897116_1024x.png?v=1700399006) · [Fuente / Source](https://www.tastysnack.asia/products/want-want-shelley-senbei-122g-1)- **Marca / Brand:** Want Want
 - **País / Country:** China
 - **Mercado / Market:** Singapore retail pack
 - **Envase / Package:** 122 g pack
@@ -4286,7 +4286,7 @@ Japonica rice, palm oil, sugar, salt, gelatin, flavour enhancer (monosodium glut
 ### SKITTLES Original / SKITTLES Original
 
 - **ID:** `skittles-original-us-61-5g`
-- **Marca / Brand:** Skittles
+- **Foto real / Real photo:** [Ver envase / View package](https://lollyhood.com.au/cdn/shop/files/Skittles-Original-Chewy-Candy-Full-Size-2-17-oz-Bag_9c05242d-b8bf-47a3-ac8d-bfbdd709dc8a.d90e5dd4464032c6ac9ade58ee7f7e90.avif?v=1765284807&width=1445) · [Fuente / Source](https://lollyhood.com.au/products/skittles-original-61-5g)- **Marca / Brand:** Skittles
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 61.5 g single pack
@@ -4332,7 +4332,7 @@ Sugar, corn syrup, hydrogenated palm kernel oil; less than 2% of: citric acid, t
 ### Ülker Halley / Ülker Halley
 
 - **ID:** `ulker-halley-turkey-30g`
-- **Marca / Brand:** Ülker
+- **Foto real / Real photo:** [Ver envase / View package](https://turcamart.com/cdn/shop/products/Halley-Biskuvi-30-Gr-24-Adet-2.jpg?v=1617185656&width=700) · [Fuente / Source](https://turcamart.com/products/ulker-halley-chocolate-24s-30-g)- **Marca / Brand:** Ülker
 - **País / Country:** Turkey
 - **Mercado / Market:** Turkey
 - **Envase / Package:** 30 g single pack
@@ -4382,7 +4382,7 @@ Milk chocolate (sugar, cocoa butter, cocoa mass, whole milk powder, skimmed milk
 ### Marmite extracto de levadura / Marmite Yeast Extract
 
 - **ID:** `marmite-yeast-extract-uk-250g`
-- **Marca / Brand:** Marmite
+- **Foto real / Real photo:** [Ver envase / View package](https://www.ocado.com/images-v3/eafa5127-d256-497b-9609-4869092accd6/355ad06b-9456-4032-9724-ab017a84da8c/1120x1120.jpg) · [Fuente / Source](https://www.ocado.com/products/marmite-original-yeast-extract-spread/11125011)- **Marca / Brand:** Marmite
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 250 g jar
@@ -4423,7 +4423,7 @@ Yeast extract (contains barley, wheat, oats, rye), salt, vegetable juice concent
 ### Jarabe de arce puro canadiense / Pure Canadian Maple Syrup
 
 - **ID:** `mcbaigs-pure-maple-syrup-canada`
-- **Marca / Brand:** McBaigs
+- **Foto real / Real photo:** [Ver envase / View package](https://mcbaigs.com/1.png) · [Fuente / Source](https://mcbaigs.com/)- **Marca / Brand:** McBaigs
 - **País / Country:** Canada
 - **Mercado / Market:** Canada
 - **Envase / Package:** Bottle size not specified on source page
@@ -4454,7 +4454,7 @@ Yeast extract (contains barley, wheat, oats, rye), salt, vegetable juice concent
 ### Mayonesa japonesa KEWPIE / KEWPIE Japanese Mayonnaise
 
 - **ID:** `kewpie-japanese-mayonnaise-japan-450g`
-- **Marca / Brand:** KEWPIE
+- **Foto real / Real photo:** [Ver envase / View package](https://www.kewpieshop.com/cdn/shop/files/KA_Mayo_Import_450g_Front_1198x1198.jpg?v=1762924635) · [Fuente / Source](https://www.kewpieshop.com/collections/kewpie-mayonnaise)- **Marca / Brand:** KEWPIE
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 450 g bottle
@@ -4490,7 +4490,7 @@ Vegetable oil (canola oil, soybean oil), egg yolk, vinegar, salt, monosodium glu
 ### Galletitas Parle-G / Parle-G Biscuits
 
 - **ID:** `parle-g-biscuits-india`
-- **Marca / Brand:** Parle
+- **Foto real / Real photo:** [Ver envase / View package](https://www.jiomart.com/images/product/600x600/491539619/parle-g-original-glucose-biscuits-100-g-product-images-o491539619-p491539619-1-202208121332.jpg) · [Fuente / Source](https://www.jiomart.com/p/groceries/parle-g-biscuits-110-g-get-20-g-extra/491539619)- **Marca / Brand:** Parle
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** Pack size varies by market; ingredient transcription only
@@ -4532,7 +4532,7 @@ Refined wheat flour (maida) 68%, sugar, refined palm oil, invert sugar syrup (su
 ### Whittaker's Peanut Slab / Whittaker's Peanut Slab
 
 - **ID:** `whittakers-peanut-slab-new-zealand-50g`
-- **Foto real / Real photo:** [Ver envase / View package](https://cdn11.bigcommerce.com/s-3oxcprqsip/images/stencil/1280x1280/products/47072/57254/R151470_40__12773.1666362870.jpg?c=1) · [Fuente / Source](https://spoil.co.nz/whittakers-peanut-slab-milk-chocolate-bar-50g/)- **Marca / Brand:** Whittaker's
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn11.bigcommerce.com/s-3oxcprqsip/images/stencil/1280x1280/products/47072/57254/R151470_40__12773.1666362870.jpg?c=1) · [Fuente / Source](https://spoil.co.nz/whittakers-peanut-slab-milk-chocolate-bar-50g/)
 - **País / Country:** New Zealand
 - **Mercado / Market:** New Zealand
 - **Envase / Package:** 50 g slab
@@ -4567,7 +4567,7 @@ Milk chocolate [sugar, cocoa solids 33% (pure cocoa butter and cocoa mass), New 
 ### Ouma Buttermilk Rusks / Ouma Buttermilk Rusks
 
 - **ID:** `ouma-buttermilk-rusks-south-africa-500g`
-- **Marca / Brand:** Ouma
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn.shopify.com/s/files/1/1900/6813/products/OUMA_Traditional_Rusks_500g_1024x1024.jpg?v=1610748507) · [Fuente / Source](https://bokkiesbiltong.com/products/ouma-rusks)- **Marca / Brand:** Ouma
 - **País / Country:** South Africa
 - **Mercado / Market:** South Africa
 - **Envase / Package:** 500 g pack
@@ -4606,7 +4606,7 @@ Wheat flour (gluten), sugar, vegetable fat (palm fruit, TBHQ), buttermilk powder
 ### Pasta de curry rojo Mae Ploy / Mae Ploy Red Curry Paste
 
 - **ID:** `mae-ploy-red-curry-paste-thailand-1kg`
-- **Foto real / Real photo:** [Ver envase / View package](https://asianpantry.com.au/cdn/shop/files/7f9934225e395c823644634acd20d312.webp?crop=center&height=1200&v=1765256672&width=1200) · [Fuente / Source](https://asianpantry.com.au/products/mae-ploy-red-curry-paste-1kg)- **Marca / Brand:** Mae Ploy
+- **Foto real / Real photo:** [Ver envase / View package](https://asianpantry.com.au/cdn/shop/files/7f9934225e395c823644634acd20d312.webp?crop=center&height=1200&v=1765256672&width=1200) · [Fuente / Source](https://asianpantry.com.au/products/mae-ploy-red-curry-paste-1kg)
 - **País / Country:** Thailand
 - **Mercado / Market:** United Kingdom foodservice listing
 - **Envase / Package:** 1 kg foodservice pouch
@@ -4644,7 +4644,7 @@ Garlic 21.5%, dried red chilli 19.0%, lemongrass 18.5%, shallot 14.5%, salt 13.0
 ### VEGEMITE Original / VEGEMITE Original
 
 - **ID:** `vegemite-original-australia-220g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.instacart.com/image-server/1864x1864/www.instacart.com/assets/domains/product-image/file/large_3a33d897-ded2-4563-bbfb-c6b087c9d25b.jpg) · [Fuente / Source](https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g)- **Marca / Brand:** VEGEMITE
+- **Foto real / Real photo:** [Ver envase / View package](https://www.instacart.com/image-server/1864x1864/www.instacart.com/assets/domains/product-image/file/large_3a33d897-ded2-4563-bbfb-c6b087c9d25b.jpg) · [Fuente / Source](https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g)
 - **País / Country:** Australia
 - **Mercado / Market:** Australia
 - **Envase / Package:** 220 g jar
@@ -4684,7 +4684,7 @@ Yeast extract (from yeast grown on barley and wheat), salt, mineral salt (508), 
 ### LU Véritable Petit Beurre / LU Véritable Petit Beurre
 
 - **ID:** `lu-petit-beurre-france-25g`
-- **Marca / Brand:** LU
+- **Foto real / Real photo:** [Ver envase / View package](https://cstatic.transgourmet.fr/tg-ecommerce/images/products/detail2/376311.jpg) · [Fuente / Source](https://www.transgourmet.fr/restauration-commerciale/produit/lu-veritable-petit-beurre-x3--277437.html)- **Marca / Brand:** LU
 - **País / Country:** France
 - **Mercado / Market:** France
 - **Envase / Package:** 25 g sleeve (3 biscuits)
@@ -4721,7 +4721,7 @@ Wheat flour 73%, sugar, butter 13%, skimmed milk powder, salt, raising agents (a
 ### Pocky Matcha / Pocky Matcha
 
 - **ID:** `pocky-matcha-us-40g`
-- **Foto real / Real photo:** [Ver envase / View package](https://candyblastshop.com/cdn/shop/files/GlicoPocky-MatchaGreenTea3.webp?v=1707861021&width=1445) · [Fuente / Source](https://candyblastshop.com/products/glico-pocky-matcha-green-tea)- **Marca / Brand:** Glico
+- **Foto real / Real photo:** [Ver envase / View package](https://candyblastshop.com/cdn/shop/files/GlicoPocky-MatchaGreenTea3.webp?v=1707861021&width=1445) · [Fuente / Source](https://candyblastshop.com/products/glico-pocky-matcha-green-tea)
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 40 g box
@@ -4770,7 +4770,7 @@ Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate,
 ### Samyang Buldak Original / Samyang Buldak Original
 
 - **ID:** `samyang-buldak-original-us`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.ramencrate.co.nz/cdn/shop/files/SamyangOriginalBuldakHotChickenInstantNoodles-Plain.png?v=1768252565&width=1445) · [Fuente / Source](https://www.ramencrate.co.nz/products/samyang-original-hot-chicken-ramen)- **Marca / Brand:** Samyang
+- **Foto real / Real photo:** [Ver envase / View package](https://www.ramencrate.co.nz/cdn/shop/files/SamyangOriginalBuldakHotChickenInstantNoodles-Plain.png?v=1768252565&width=1445) · [Fuente / Source](https://www.ramencrate.co.nz/products/samyang-original-hot-chicken-ramen)
 - **País / Country:** South Korea
 - **Mercado / Market:** United States
 - **Envase / Package:** Single retail pack; size not specified on source page
@@ -4840,7 +4840,7 @@ Noodles: Wheat flour, food starch-modified, palm oil, less than 2% of wheat glut
 ### Lao Gan Ma Chili Crisp picante / Lao Gan Ma Spicy Chili Crisp
 
 - **ID:** `lao-gan-ma-spicy-chili-crisp-canada-210g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.formosamarket.com/cdn/shop/files/8sG7c0s3gyvL_8102dcd2-6a20-4c84-b571-32c5119c279d_1200x1200.jpg?v=1733645038) · [Fuente / Source](https://www.formosamarket.com/products/lao-gan-ma-xiang-cui-la-granny-crispy-chili-oil)- **Marca / Brand:** Lao Gan Ma
+- **Foto real / Real photo:** [Ver envase / View package](https://www.formosamarket.com/cdn/shop/files/8sG7c0s3gyvL_8102dcd2-6a20-4c84-b571-32c5119c279d_1200x1200.jpg?v=1733645038) · [Fuente / Source](https://www.formosamarket.com/products/lao-gan-ma-xiang-cui-la-granny-crispy-chili-oil)
 - **País / Country:** China
 - **Mercado / Market:** Canada
 - **Envase / Package:** 210 g jar
@@ -4876,7 +4876,7 @@ Soybean oil, chili, onion, black bean, salt, sugar, Chinese prickly ash, monosod
 ### Galletitas Bourbon Alfort Mini Chocolate / Bourbon Alfort Mini Chocolate Biscuits
 
 - **ID:** `bourbon-alfort-mini-chocolate-japan-61g`
-- **Marca / Brand:** Bourbon
+- **Foto real / Real photo:** [Ver envase / View package](https://media.nedigital.sg/fairprice/90201057_XL1_20260129151713_bd42fa977237fe5b5675fe72c379c62b.jpg) · [Fuente / Source](https://www.fairprice.com.sg/product/bourbon-alfort-mini-chocolate-2)- **Marca / Brand:** Bourbon
 - **País / Country:** Japan
 - **Mercado / Market:** Thailand retail listing
 - **Envase / Package:** 61 g box
@@ -4919,7 +4919,7 @@ Sugar, wheat flour, whole milk powder, cacao mass, shortening, vegetable oil, co
 ### Asahi Calpis Water / Asahi Calpis Water
 
 - **ID:** `calpis-water-taiwan-australia-500ml`
-- **Marca / Brand:** Calpis / Asahi
+- **Foto real / Real photo:** [Ver envase / View package](https://kufu-ya.com/cdn/shop/files/image-73f4392c-f609-4b05-aff2-b9fcab77346c.jpg?v=1720337151) · [Fuente / Source](https://kufu-ya.com/products/a00000438a)- **Marca / Brand:** Calpis / Asahi
 - **País / Country:** Taiwan
 - **Mercado / Market:** Australia
 - **Envase / Package:** 500 ml bottle
@@ -4955,7 +4955,7 @@ Water, sugar, skim milk powder, yeast, acidity regulators (330, 331), flavour, t
 ### Heinz Baked Beanz / Heinz Baked Beanz
 
 - **ID:** `heinz-baked-beanz-uk-415g`
-- **Marca / Brand:** Heinz
+- **Foto real / Real photo:** [Ver envase / View package](https://www.armstrongcountryfoods.com/cdn/shop/products/heinzbeans_640x.jpg?v=1609851988) · [Fuente / Source](https://www.armstrongcountryfoods.com/products/heinz-baked-beans)- **Marca / Brand:** Heinz
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 415 g can
@@ -4992,7 +4992,7 @@ Beans (51%), Tomatoes (34%), Water, Sugar, Spirit Vinegar, Modified Corn Flour, 
 ### Cadbury Lunch Bar / Cadbury Lunch Bar
 
 - **ID:** `cadbury-lunch-bar-south-africa-48g`
-- **Marca / Brand:** Cadbury
+- **Foto real / Real photo:** [Ver envase / View package](https://static.wixstatic.com/media/e0cac8_099a71d4080947248e782c589370e157~mv2.png/v1/fill/w_509%2Ch_509%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/e0cac8_099a71d4080947248e782c589370e157~mv2.png) · [Fuente / Source](https://www.pantry-plus.com/product-page/cadbury-lunch-bar-48g-1-x-40)- **Marca / Brand:** Cadbury
 - **País / Country:** South Africa
 - **Mercado / Market:** South Africa
 - **Envase / Package:** 48 g bar (official page lists 23 g, 48 g and 62 g sizes)
@@ -5054,7 +5054,7 @@ Sugar, Glucose Syrup, Vegetable Fats [Palm Fruit, Sunflower Seed (Antioxidant-TB
 ### Gyoza Ajinomoto / Ajinomoto Gyoza
 
 - **ID:** `ajinomoto-gyoza-japan-276g`
-- **Marca / Brand:** Ajinomoto
+- **Foto real / Real photo:** [Ver envase / View package](https://delivery.youmetown.com/img/goods/5/4901001397457_5.jpg) · [Fuente / Source](https://delivery.youmetown.com/shop/g/g4901001397457/)- **Marca / Brand:** Ajinomoto
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 276 g pack (12 pieces)
@@ -5107,7 +5107,7 @@ Vegetables (cabbage, onion, Chinese chive, garlic), meats (chicken, pork), textu
 ### Koala's March Chocolate / Koala's March Chocolate
 
 - **ID:** `lotte-koalas-march-chocolate-japan-48g`
-- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall_90cbe901-3b6a-4a0f-976b-9dc7f5434872.63776c0d23e38266c9fa7faed3607ab9.jpeg) · [Fuente / Source](https://www.walmart.com/ip/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall/13330713609)- **Marca / Brand:** Lotte
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall_90cbe901-3b6a-4a0f-976b-9dc7f5434872.63776c0d23e38266c9fa7faed3607ab9.jpeg) · [Fuente / Source](https://www.walmart.com/ip/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall/13330713609)
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 48 g box
@@ -5156,7 +5156,7 @@ Sugar, wheat flour, vegetable oil, cacao mass, starch, shortening, lactose, whol
 ### Koala's March Strawberry / Koala's March Strawberry
 
 - **ID:** `lotte-koalas-march-strawberry-japan-46g`
-- **Marca / Brand:** Lotte
+- **Foto real / Real photo:** [Ver envase / View package](https://img06.weeecdn.com/item/image/157/702/581B86FB45799BAF.jpeg) · [Fuente / Source](https://www.sayweee.com/zh/product/Lotte-Koala-Strawberry-Chocolate-Biscuit/2134227)- **Marca / Brand:** Lotte
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 46 g box
@@ -5205,7 +5205,7 @@ Sugar, wheat flour, vegetable oil, lactose, starch, shortening, cocoa butter, wh
 ### Pasta de especias Tikka Masala Patak's / Patak's Tikka Masala Spice Paste
 
 - **ID:** `pataks-tikka-masala-paste-uk`
-- **Marca / Brand:** Patak's
+- **Foto real / Real photo:** [Ver envase / View package](https://www.bestwaywholesale.co.uk/img/products/1000/4/5011308000994.jpg) · [Fuente / Source](https://www.bestwaywholesale.co.uk/product/135216-1)- **Marca / Brand:** Patak's
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** Product page does not specify pack size
@@ -5250,7 +5250,7 @@ Water, Ground Spices (19%) [Turmeric, Paprika (4%), Cumin (3%), Coriander (3%), 
 ### Salsa TABASCO Original / TABASCO Original Red Sauce
 
 - **ID:** `tabasco-original-red-sauce-us-148ml`
-- **Marca / Brand:** TABASCO
+- **Foto real / Real photo:** [Ver envase / View package](https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/TW_vendor_inventory/5310/9c4b2baa92af18d54eac583d2de15dec1eaa769176554e4f85af051b7603.jpg) · [Fuente / Source](https://www.tw.coupang.com/products/TABASCO-%E5%A1%94%E5%B7%B4%E6%96%AF%E7%A7%91%E8%BE%A3%E6%A4%92%E9%86%AC-21006242848276)- **Marca / Brand:** TABASCO
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 5 fl oz (148 ml) bottle
@@ -5281,7 +5281,7 @@ Distilled vinegar, red pepper and salt.
 ### Papas fritas Walkers Cheese & Onion / Walkers Cheese & Onion Crisps
 
 - **ID:** `walkers-cheese-onion-crisps-uk`
-- **Marca / Brand:** Walkers
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn.media.amplience.net/i/Brakes/115408_2?%24pdp-mobile%24=&fmt=auto&img404=image-not-available&locale=en-gb&v=1) · [Fuente / Source](https://www.brake.co.uk/drinks-snacks/snacks-confectionery/crisps-snacks-nuts/crisps/walkers-cheese-onion-crisps-32-5g/p/115408)- **Marca / Brand:** Walkers
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** Single retail bag; size not specified on product page
@@ -5329,7 +5329,7 @@ Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Cheese &
 ### Sopa miso vegetariana Marukome Ryotei No Aji con tofu / Marukome Ryotei No Aji Tofu Vegetarian Miso Soup
 
 - **ID:** `marukome-ryotei-no-aji-tofu-vegetarian-152g`
-- **Marca / Brand:** Marukome
+- **Foto real / Real photo:** [Ver envase / View package](https://www.nikankitchen.com/Images/Products/marukome-instant-miso-soup-with-tofu--153g.png) · [Fuente / Source](https://www.nikankitchen.com/ja/products/91/marukome-ryotei-no-aji-instant-miso-soup-with-tofu-152g)- **Marca / Brand:** Marukome
 - **País / Country:** Japan
 - **Mercado / Market:** International foodservice / export listing
 - **Envase / Package:** 152 g pack
@@ -5372,7 +5372,7 @@ Soup base: Rice Miso (Filtered Water, Soybeans, Rice, Salt), Filtered Water, Alc
 ### Chicle Lotte Xylitol sabor cola / Lotte Xylitol Gum Cola
 
 - **ID:** `lotte-xylitol-cola-gum-japan-14pcs`
-- **Marca / Brand:** Lotte
+- **Foto real / Real photo:** [Ver envase / View package](https://www.tajimaya-cc.net/upload/save_image/0000045990601.jpg) · [Fuente / Source](https://www.tajimaya-cc.net/products/240962)- **Marca / Brand:** Lotte
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 14-piece pack
@@ -5411,7 +5411,7 @@ Maltitol, vegetable oil / sweeteners (xylitol, aspartame-L-phenylalanine compoun
 ### Branston Original Pickle / Branston Original Pickle
 
 - **ID:** `branston-original-pickle-uk-360g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/branston_pickle_360g-1670931748.jpg) · [Fuente / Source](https://www.britsuperstore.com/uk/browse-by-section/groceries/pickles/branston/branston-pickle-360g.html)- **Marca / Brand:** Branston
+- **Foto real / Real photo:** [Ver envase / View package](https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/branston_pickle_360g-1670931748.jpg) · [Fuente / Source](https://www.britsuperstore.com/uk/browse-by-section/groceries/pickles/branston/branston-pickle-360g.html)
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 360 g jar
@@ -5457,7 +5457,7 @@ Vegetables in variable proportions (52%) (carrot, rutabaga, onion, cauliflower),
 ### Pocky Almond Crush / Pocky Almond Crush
 
 - **ID:** `pocky-almond-crush-us-41g`
-- **Marca / Brand:** Glico
+- **Foto real / Real photo:** [Ver envase / View package](https://smoke2snack.com/cdn/shop/files/L9536806.jpg?v=1714817390) · [Fuente / Source](https://smoke2snack.com/products/buy-now-pocky-almond-crush-41g-best-cookies-shop-in-canada)- **Marca / Brand:** Glico
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 1.45 oz (41 g) box
@@ -5504,7 +5504,7 @@ Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate,
 ### Nestlé Chocapic / Nestlé Chocapic
 
 - **ID:** `chocapic-cereal-france-1kg`
-- **Marca / Brand:** Nestlé
+- **Foto real / Real photo:** [Ver envase / View package](https://media.cdnws.com/_i/311030/5903/450/7/03.jpeg) · [Fuente / Source](https://www.clic-shopping.com/petit-dejeuner/cereales-enfants-ados-adultes/nestle-cereales-petales-au-chocolat-chocapic-430g-750g-ou-1-kg.html)- **Marca / Brand:** Nestlé
 - **País / Country:** France
 - **Mercado / Market:** France
 - **Envase / Package:** 1 kg foodservice pack (French product sheet)
@@ -5552,7 +5552,7 @@ Whole wheat flour 37.5%, wheat flour 18.5%, chocolate powder 18.1% (sugar, cocoa
 ### Lotus Biscoff Speculoos / Lotus Biscoff Speculoos
 
 - **ID:** `lotus-biscoff-speculoos-belgium-250g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.baktotaal.nl/media/catalog/product/cache/eb002657933dbd4c15eb7abaeee5f499/L/o/Lotus_Biscoff_Speculoos_Koekjes_250g_20d6.jpg) · [Fuente / Source](https://www.baktotaal.nl/lotus-biscoff-speculoos-koekjes-250g)- **Marca / Brand:** Lotus Bakeries
+- **Foto real / Real photo:** [Ver envase / View package](https://www.baktotaal.nl/media/catalog/product/cache/eb002657933dbd4c15eb7abaeee5f499/L/o/Lotus_Biscoff_Speculoos_Koekjes_250g_20d6.jpg) · [Fuente / Source](https://www.baktotaal.nl/lotus-biscoff-speculoos-koekjes-250g)
 - **País / Country:** Belgium
 - **Mercado / Market:** Belgium
 - **Envase / Package:** 250 g pack
@@ -5586,7 +5586,7 @@ Wheat flour, sugar, vegetable oils (palm oil, rapeseed oil), candy sugar syrup, 
 ### Kraft Dinner Original Macaroni & Cheese / Kraft Dinner Original Macaroni & Cheese
 
 - **ID:** `kraft-dinner-original-canada-200g`
-- **Foto real / Real photo:** [Ver envase / View package](https://i.ebayimg.com/images/g/QO0AAOSwMONlxhfH/s-l1200.jpg) · [Fuente / Source](https://www.ebay.com/itm/404789694750)- **Marca / Brand:** Kraft Heinz
+- **Foto real / Real photo:** [Ver envase / View package](https://i.ebayimg.com/images/g/QO0AAOSwMONlxhfH/s-l1200.jpg) · [Fuente / Source](https://www.ebay.com/itm/404789694750)
 - **País / Country:** Canada
 - **Mercado / Market:** Canada
 - **Envase / Package:** 200 g box
@@ -5623,7 +5623,7 @@ Pasta (wheat), cheese sauce (whey powder, cheddar cheese, salt, butter, paprika,
 ### Barilla Pesto alla Genovese / Barilla Pesto alla Genovese
 
 - **ID:** `barilla-pesto-alla-genovese-italy-190g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.londonfoodhall.co.uk/cdn/shop/files/71klFCMgGwL.jpg?v=1771342205&width=1946) · [Fuente / Source](https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g)- **Marca / Brand:** Barilla
+- **Foto real / Real photo:** [Ver envase / View package](https://www.londonfoodhall.co.uk/cdn/shop/files/71klFCMgGwL.jpg?v=1771342205&width=1946) · [Fuente / Source](https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g)
 - **País / Country:** Italy
 - **Mercado / Market:** Latin America product page; made in Italy
 - **Envase / Package:** 190 g jar
@@ -5662,7 +5662,7 @@ Sunflower oil, basil 30%, cashew nuts, Parmigiano Reggiano DOP cheese 5% (milk),
 ### Monster Munch Pickled Onion / Monster Munch Pickled Onion
 
 - **ID:** `monster-munch-pickled-onion-uk`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.walkers.co.uk/prod/s3fs-public/2026-04/2515_Walkers%20Monster%20Munch%20Pickled%20Onion%2040g_Beauty.png) · [Fuente / Source](https://www.walkers.co.uk/products)- **Marca / Brand:** Walkers
+- **Foto real / Real photo:** [Ver envase / View package](https://www.walkers.co.uk/prod/s3fs-public/2026-04/2515_Walkers%20Monster%20Munch%20Pickled%20Onion%2040g_Beauty.png) · [Fuente / Source](https://www.walkers.co.uk/products)
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** Pack size varies; individual snack bag
@@ -5702,7 +5702,7 @@ Maize, rapeseed oil, pickled onion seasoning (flavourings, whey permeate (from m
 ### Cadbury Wispa Gold / Cadbury Wispa Gold
 
 - **ID:** `cadbury-wispa-gold-uk-48g`
-- **Foto real / Real photo:** [Ver envase / View package](https://assets.iceland.co.uk/i/iceland/cadbury_wispa_gold_chocolate_bar_48g_86639_T596.jpg) · [Fuente / Source](https://www.iceland.co.uk/p/cadbury-wispa-gold-chocolate-bar-48g/86639.html)- **Marca / Brand:** Cadbury
+- **Foto real / Real photo:** [Ver envase / View package](https://assets.iceland.co.uk/i/iceland/cadbury_wispa_gold_chocolate_bar_48g_86639_T596.jpg) · [Fuente / Source](https://www.iceland.co.uk/p/cadbury-wispa-gold-chocolate-bar-48g/86639.html)
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 48 g bar
@@ -5741,7 +5741,7 @@ Milk, sugar, glucose syrup, cocoa butter, vegetable fats (palm, shea), glucose-f
 ### HP Brown Sauce / HP Brown Sauce
 
 - **ID:** `hp-brown-sauce-uk-255g`
-- **Marca / Brand:** HP
+- **Foto real / Real photo:** [Ver envase / View package](https://boropantry.co.uk/cdn/shop/files/hp-sauce-original-255g-bottle.jpg?v=1772915542) · [Fuente / Source](https://boropantry.co.uk/products/hp-sauce-original-255g-classic-brown-sauce-for-meats-sausages)- **Marca / Brand:** HP
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 255 g glass bottle
@@ -5780,7 +5780,7 @@ Tomatoes, malt vinegar (with barley), molasses, glucose-fructose syrup, spirit v
 ### Heinz Saucy Sauce / Heinz Saucy Sauce
 
 - **ID:** `heinz-saucy-sauce-uk-415ml`
-- **Marca / Brand:** Heinz
+- **Foto real / Real photo:** [Ver envase / View package](https://cdn.grocefully.com/storage/v1/object/public/images/tesco/304408612/1.jpeg) · [Fuente / Source](https://www.grocefully.com/uk/product/heinz-saucy-sauce-mayonnaise-ketchup-sauce-5000157143365)- **Marca / Brand:** Heinz
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 415 ml bottle
@@ -5816,7 +5816,7 @@ Rapeseed oil (40%), tomato purée (22%), spirit vinegar, sugar, egg yolk (3%), s
 ### Haldiram's Aloo Bhujia
 
 - **ID:** `haldiram-aloo-bhujia-india-400g`
-- **Foto real / Real photo:** [Ver envase / View package](https://shubhamfoods.co.uk/cdn/shop/files/Buy_haldiram_aloo_bhujia_online_UK.jpg?v=1748007853) · [Fuente / Source](https://shubhamfoods.co.uk/products/buy-haldiram-aloo-bhujia-400g-online-uk)- **Marca / Brand:** Haldiram's
+- **Foto real / Real photo:** [Ver envase / View package](https://shubhamfoods.co.uk/cdn/shop/files/Buy_haldiram_aloo_bhujia_online_UK.jpg?v=1748007853) · [Fuente / Source](https://shubhamfoods.co.uk/products/buy-haldiram-aloo-bhujia-400g-online-uk)
 - **País / Country:** India
 - **Mercado / Market:** India
 - **Envase / Package:** 400 g pack
@@ -5858,7 +5858,7 @@ Potatoes (44%), vegetable oil (peanut and corn), gram pulse flour (4%), tepary b
 ### McVitie's Jaffa Cakes
 
 - **ID:** `mcvities-jaffa-cakes-uk-110g`
-- **Foto real / Real photo:** [Ver envase / View package](https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/c/mcvities_jaffa_cakes_10_pack_-1749470185.jpg) · [Fuente / Source](https://www.britsuperstore.com/uk/mcvities-jaffa-cakes-10-pack.html)- **Marca / Brand:** McVitie's
+- **Foto real / Real photo:** [Ver envase / View package](https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/c/mcvities_jaffa_cakes_10_pack_-1749470185.jpg) · [Fuente / Source](https://www.britsuperstore.com/uk/mcvities-jaffa-cakes-10-pack.html)
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 110 g pack
@@ -5915,7 +5915,7 @@ Glucose-fructose syrup, dark chocolate (19%) [sugar, cocoa mass, vegetable fats 
 ### Jell-O Strawberry Gelatin Dessert Mix
 
 - **ID:** `jello-strawberry-gelatin-us-6oz`
-- **Marca / Brand:** Jell-O
+- **Foto real / Real photo:** [Ver envase / View package](https://drryor7280ntb.cloudfront.net/media/catalog/product/1/0/10043000200510.jpg) · [Fuente / Source](https://www.foodservicedirect.com/jello-strawberry-gelatin-6-ounce-24-case-40430.html)- **Marca / Brand:** Jell-O
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 6 oz (170 g) pouch
@@ -5948,7 +5948,7 @@ Sugar, gelatin, adipic acid, contains less than 2% of artificial flavor, disodiu
 ### Kikkoman Teriyaki Marinade & Sauce
 
 - **ID:** `kikkoman-teriyaki-marinade-us-296ml`
-- **Marca / Brand:** Kikkoman
+- **Foto real / Real photo:** [Ver envase / View package](https://media.sobeys.com/original/754000000025700000000001396445_VOILA_dcf46b082fc1fdf7dfb132ab43b7ae4ad2bf5bbc.JPG) · [Fuente / Source](https://www.sobeys.com/products/kikkoman-teriyaki-marinade---sauce-296-ml)- **Marca / Brand:** Kikkoman
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 10 fl oz (296 ml) bottle
@@ -5985,7 +5985,7 @@ Soy sauce (water, soybeans, wheat, salt), sugar, wine, water, vinegar, salt, sod
 ### Pringles Crema Agria y Cebolla / Pringles Sour Cream & Onion
 
 - **ID:** `pringles-sour-cream-onion-spain-40g`
-- **Marca / Brand:** Pringles
+- **Foto real / Real photo:** [Ver envase / View package](https://www.supermercadosruizgalan.es/documents/10180/204342/224128_G.jpg) · [Fuente / Source](https://www.supermercadosruizgalan.es/detalle/-/Producto/pringles-sour-cream-onion-40g/224128)- **Marca / Brand:** Pringles
 - **País / Country:** Spain
 - **Mercado / Market:** Spain
 - **Envase / Package:** 40 g pack
@@ -6036,7 +6036,7 @@ Dried potatoes, sunflower oil, corn flour, wheat flour, rice flour, sour cream a
 ### Calbee Kappa Ebisen
 
 - **ID:** `calbee-kappa-ebisen-japan-130g`
-- **Marca / Brand:** Calbee
+- **Foto real / Real photo:** [Ver envase / View package](https://cookingsan.com/9149-product_hd/calbee-kappa-ebisen-shrimp-snack.jpg) · [Fuente / Source](https://cookingsan.com/en/snacks/1257-calbee-kappa-ebisen-shrimp-snack-4901330106720.html)- **Marca / Brand:** Calbee
 - **País / Country:** Japan
 - **Mercado / Market:** Japan
 - **Envase / Package:** 130 g bag (regional availability varies)
@@ -6071,7 +6071,7 @@ Wheat flour (made in Japan), vegetable oil, starch, shrimp, sugar, salt; leaveni
 ### Walkers Wotsits Really Cheesy
 
 - **ID:** `walkers-wotsits-really-cheesy-uk-22g`
-- **Marca / Brand:** Walkers
+- **Foto real / Real photo:** [Ver envase / View package](https://www.vendingwarehouse.co.uk/user/products/large/9fbce4af4eb775bd2196e47ac1fdfac8.jpg) · [Fuente / Source](https://www.vendingwarehouse.co.uk/walkers-wotsits-really-cheesy-crisps-225g-32-pack)- **Marca / Brand:** Walkers
 - **País / Country:** United Kingdom
 - **Mercado / Market:** United Kingdom
 - **Envase / Package:** 22.5 g individual pack (99 Calorie range)
@@ -6108,7 +6108,7 @@ Maize, rapeseed oil, cheese flavour [dried cheese (from milk) (7%), milk lactose
 ### Campbell's Chicken Broth
 
 - **ID:** `campbells-chicken-broth-latam-298ml`
-- **Marca / Brand:** Campbell's
+- **Foto real / Real photo:** [Ver envase / View package](https://latorremx.vtexassets.com/arquivos/ids/175721/68661-frontal.jpg?v=637793363311170000) · [Fuente / Source](https://www.latorre.com.gt/caldo-pollo-campbells-lata-68661/p)- **Marca / Brand:** Campbell's
 - **País / Country:** United States
 - **Mercado / Market:** Latin America regional product page
 - **Envase / Package:** Can; page does not specify net weight
@@ -6144,7 +6144,7 @@ Chicken broth, contains less than 2% of chicken fat, salt, yeast extract, monoso
 ### Gatorade Thirst Quencher Lemon Lime
 
 - **ID:** `gatorade-lemon-lime-us-828ml`
-- **Marca / Brand:** Gatorade
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/asr/c6f7a672-cf82-45d9-832b-d1dc5cf7dbc9_1.011dd39082d2a776fb34ca124a867d73.jpeg) · [Fuente / Source](https://www.walmart.com/ip/45081813)- **Marca / Brand:** Gatorade
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 28 fl oz (828 ml) bottle
@@ -6180,7 +6180,7 @@ Water, sugar, dextrose, citric acid, sodium citrate, monopotassium phosphate, gu
 ### M&M'S Peanut Butter Chocolate Candies
 
 - **ID:** `mms-peanut-butter-us-283oz`
-- **Marca / Brand:** M&M'S
+- **Foto real / Real photo:** [Ver envase / View package](https://i5.walmartimages.com/seo/M-M-s-Peanut-Butter-Milk-Chocolate-Candy-Share-Size-2-83-oz-Bag_4296b78c-9638-4554-aed1-8fde2e3a6d73.b346b704c898a3201e068b7bc10d6f45.jpeg) · [Fuente / Source](https://www.walmart.com/ip/38253472)- **Marca / Brand:** M&M'S
 - **País / Country:** United States
 - **Mercado / Market:** United States
 - **Envase / Package:** 2.83 oz (80 g) sharing-size pack
