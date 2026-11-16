@@ -7314,6 +7314,1402 @@
       "sourceId": "vegemite-australia-220g-source",
       "verification": "manufacturer_product_specification",
       "status": "ready"
+    },
+    {
+      "id": "walkers-quavers-cheese-uk",
+      "barcode": null,
+      "name": "Walkers Quavers Cheese",
+      "nameI18n": {
+        "es": "Walkers Quavers sabor queso",
+        "en": "Walkers Quavers Cheese"
+      },
+      "brand": "Walkers",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "cheese_snack",
+      "package": "16 g serving reference",
+      "image": null,
+      "description": {
+        "es": "Snack aireado de fécula de papa con sabor a queso, vendido en Reino Unido.",
+        "en": "Puffed potato-starch cheese snack sold in the UK."
+      },
+      "ingredientsText": "Potato Starch, Sunflower Oil, Cheese Flavour [Whey Powder (from Milk), Flavouring (contains Milk), Flavour Enhancers (Monosodium Glutamate, Disodium 5'-Ribonucleotide), Milk Powder, Cheese Powder (from Milk), Potassium Chloride, Garlic Powder, Acid (Lactic Acid), Colour (Paprika Extract)], Rice Flour, Soya Flour, Salt, Yeast, Onion Powder (Malt Flour from Barley), Pepper, Wheat Flour (contains Calcium, Iron, Niacin, Thiamin), Colour (Annatto).",
+      "ingredients": [
+        {
+          "es": "almidón de papa",
+          "en": "potato starch",
+          "aliases": [
+            "almidón de papa",
+            "potato starch"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "suero de leche en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero de leche en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate"
+          ]
+        },
+        {
+          "es": "ribonucleótido disódico",
+          "en": "disodium 5'-ribonucleotide",
+          "aliases": [
+            "ribonucleótido disódico",
+            "disodium 5'-ribonucleotide"
+          ]
+        },
+        {
+          "es": "leche en polvo",
+          "en": "milk powder",
+          "aliases": [
+            "leche en polvo",
+            "milk powder"
+          ]
+        },
+        {
+          "es": "queso en polvo",
+          "en": "cheese powder",
+          "aliases": [
+            "queso en polvo",
+            "cheese powder"
+          ]
+        },
+        {
+          "es": "cloruro de potasio",
+          "en": "potassium chloride",
+          "aliases": [
+            "cloruro de potasio",
+            "potassium chloride"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid"
+          ]
+        },
+        {
+          "es": "extracto de paprika",
+          "en": "paprika extract",
+          "aliases": [
+            "extracto de paprika",
+            "paprika extract"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "harina de soja",
+          "en": "soya flour",
+          "aliases": [
+            "harina de soja",
+            "soya flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "harina de malta de cebada",
+          "en": "malt flour from barley",
+          "aliases": [
+            "harina de malta de cebada",
+            "malt flour from barley"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "pimienta",
+          "en": "pepper",
+          "aliases": [
+            "pimienta",
+            "pepper"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "calcio",
+          "en": "calcium",
+          "aliases": [
+            "calcio",
+            "calcium"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamin",
+          "aliases": [
+            "tiamina",
+            "thiamin"
+          ]
+        },
+        {
+          "es": "annatto",
+          "en": "annatto",
+          "aliases": [
+            "annatto",
+            "annatto"
+          ]
+        }
+      ],
+      "sourceId": "walkers-quavers-cheese-uk-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "pocari-sweat-japan-500ml",
+      "barcode": null,
+      "name": "POCARI SWEAT 500 ml",
+      "nameI18n": {
+        "es": "POCARI SWEAT 500 ml",
+        "en": "POCARI SWEAT 500 ml"
+      },
+      "brand": "Otsuka",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "sports_drink",
+      "package": "500 ml bottle",
+      "image": null,
+      "description": {
+        "es": "Bebida japonesa de reposición de agua y electrolitos.",
+        "en": "Japanese hydration drink with water and electrolyte replenishment."
+      },
+      "ingredientsText": "Sugar (processed in Japan), high fructose corn syrup, fruit juice, salt / acidulant, flavoring, potassium chloride, calcium lactate, flavor enhancer (amino acids), magnesium chloride, antioxidants (vitamin C).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high fructose corn syrup"
+          ]
+        },
+        {
+          "es": "jugo de frutas",
+          "en": "fruit juice",
+          "aliases": [
+            "jugo de frutas",
+            "fruit juice"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "acidulante",
+          "en": "acidulant",
+          "aliases": [
+            "acidulante",
+            "acidulant"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavoring",
+          "aliases": [
+            "saborizante",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "cloruro de potasio",
+          "en": "potassium chloride",
+          "aliases": [
+            "cloruro de potasio",
+            "potassium chloride"
+          ]
+        },
+        {
+          "es": "lactato de calcio",
+          "en": "calcium lactate",
+          "aliases": [
+            "lactato de calcio",
+            "calcium lactate"
+          ]
+        },
+        {
+          "es": "potenciador del sabor (aminoácidos)",
+          "en": "flavor enhancer (amino acids)",
+          "aliases": [
+            "potenciador del sabor (aminoácidos)",
+            "flavor enhancer (amino acids)"
+          ]
+        },
+        {
+          "es": "cloruro de magnesio",
+          "en": "magnesium chloride",
+          "aliases": [
+            "cloruro de magnesio",
+            "magnesium chloride"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C"
+          ]
+        }
+      ],
+      "sourceId": "pocari-sweat-japan-500ml-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "kelloggs-coco-pops-uk",
+      "barcode": null,
+      "name": "Kellogg's Coco Pops (UK)",
+      "nameI18n": {
+        "es": "Kellogg's Coco Pops (Reino Unido)",
+        "en": "Kellogg's Coco Pops (UK)"
+      },
+      "brand": "Kellogg's",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "UK retail pack; size not specified on source page",
+      "image": null,
+      "description": {
+        "es": "Cereal de arroz inflado con cacao y vitaminas, formulación británica.",
+        "en": "Puffed rice cereal with cocoa and vitamins, UK formulation."
+      },
+      "ingredientsText": "Rice, sugar, glucose syrup, fat reduced cocoa powder, salt, cocoa mass, barley malt extract, flavourings. Vitamins and minerals: niacin, iron, vitamin B6, riboflavin, thiamin, folic acid, vitamin D, vitamin B12.",
+      "ingredients": [
+        {
+          "es": "arroz",
+          "en": "rice",
+          "aliases": [
+            "arroz",
+            "rice"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao reducido en grasa en polvo",
+          "en": "fat-reduced cocoa powder",
+          "aliases": [
+            "cacao reducido en grasa en polvo",
+            "fat-reduced cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "extracto de malta de cebada",
+          "en": "barley malt extract",
+          "aliases": [
+            "extracto de malta de cebada",
+            "barley malt extract"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavourings",
+          "aliases": [
+            "saborizantes",
+            "flavourings"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamin",
+          "aliases": [
+            "tiamina",
+            "thiamin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina D",
+          "en": "vitamin D",
+          "aliases": [
+            "vitamina D",
+            "vitamin D"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        }
+      ],
+      "sourceId": "kelloggs-coco-pops-uk-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "a1-original-steak-sauce-us-10oz",
+      "barcode": "00054400000054",
+      "name": "A.1. Original Steak Sauce 10 oz",
+      "nameI18n": {
+        "es": "Salsa A.1. Original para carnes 10 oz",
+        "en": "A.1. Original Steak Sauce 10 oz"
+      },
+      "brand": "A.1.",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "condiment_sauce",
+      "package": "10 oz bottle",
+      "image": null,
+      "description": {
+        "es": "Salsa estadounidense agridulce para carnes, con tomate, naranja y especias.",
+        "en": "American tangy steak sauce with tomato, orange and spices."
+      },
+      "ingredientsText": "TOMATO PUREE (WATER, TOMATO PASTE), VINEGAR, CORN SYRUP, SALT, RAISIN PASTE, CRUSHED ORANGE PUREE, SPICES (CONTAINS CELERY), DRIED GARLIC, CARAMEL COLOR, DRIED ONION, XANTHAN GUM.",
+      "ingredients": [
+        {
+          "es": "puré de tomate",
+          "en": "tomato puree",
+          "aliases": [
+            "puré de tomate",
+            "tomato puree"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "vinagre",
+          "en": "vinegar",
+          "aliases": [
+            "vinagre",
+            "vinegar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "pasta de pasas",
+          "en": "raisin paste",
+          "aliases": [
+            "pasta de pasas",
+            "raisin paste"
+          ]
+        },
+        {
+          "es": "puré de naranja triturada",
+          "en": "crushed orange puree",
+          "aliases": [
+            "puré de naranja triturada",
+            "crushed orange puree"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "apio",
+          "en": "celery",
+          "aliases": [
+            "apio",
+            "celery"
+          ]
+        },
+        {
+          "es": "ajo deshidratado",
+          "en": "dried garlic",
+          "aliases": [
+            "ajo deshidratado",
+            "dried garlic"
+          ]
+        },
+        {
+          "es": "colorante caramelo",
+          "en": "caramel color",
+          "aliases": [
+            "colorante caramelo",
+            "caramel color"
+          ]
+        },
+        {
+          "es": "cebolla deshidratada",
+          "en": "dried onion",
+          "aliases": [
+            "cebolla deshidratada",
+            "dried onion"
+          ]
+        },
+        {
+          "es": "goma xantana",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xantana",
+            "xanthan gum"
+          ]
+        }
+      ],
+      "sourceId": "a1-original-steak-sauce-us-10oz-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "mutti-polpa-italy-400g",
+      "barcode": null,
+      "name": "Mutti Polpa 400 g",
+      "nameI18n": {
+        "es": "Mutti Polpa de tomate 400 g",
+        "en": "Mutti Polpa 400 g"
+      },
+      "brand": "Mutti",
+      "country": "Italy",
+      "market": "Italy",
+      "region": "world",
+      "category": "canned_tomatoes",
+      "package": "400 g can (common retail size; verify package)",
+      "image": null,
+      "description": {
+        "es": "Tomate italiano finamente picado con su propio jugo y sal.",
+        "en": "Finely chopped Italian tomatoes in their own juice with salt."
+      },
+      "ingredientsText": "Tomate 99,8%, sal.",
+      "ingredients": [
+        {
+          "es": "tomate",
+          "en": "tomato",
+          "aliases": [
+            "tomate",
+            "tomato"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "mutti-polpa-italy-400g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lotus-biscoff-spread-foodservice-8kg",
+      "barcode": null,
+      "name": "Lotus Biscoff Spread 8 kg",
+      "nameI18n": {
+        "es": "Crema Lotus Biscoff 8 kg",
+        "en": "Lotus Biscoff Spread 8 kg"
+      },
+      "brand": "Lotus Biscoff",
+      "country": "Belgium",
+      "market": "International foodservice",
+      "region": "world",
+      "category": "chocolate_spread",
+      "package": "8 kg foodservice tub",
+      "image": null,
+      "description": {
+        "es": "Crema untable de galletas caramelizadas Biscoff, presentación profesional.",
+        "en": "Spread made from caramelised Biscoff biscuits, foodservice pack."
+      },
+      "ingredientsText": "Original caramelised biscuits 58% (wheat flour, sugar, vegetable oils (palm oil, rapeseed oil), candy sugar syrup, raising agent (sodium hydrogen carbonate), soya flour, salt, cinnamon), rapeseed oil, sugar, emulsifier (soya lecithin), acid (citric acid).",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar caramelizado",
+          "en": "candy sugar syrup",
+          "aliases": [
+            "jarabe de azúcar caramelizado",
+            "candy sugar syrup"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium hydrogen carbonate"
+          ]
+        },
+        {
+          "es": "harina de soja",
+          "en": "soya flour",
+          "aliases": [
+            "harina de soja",
+            "soya flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "canela",
+          "en": "cinnamon",
+          "aliases": [
+            "canela",
+            "cinnamon"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soya lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        }
+      ],
+      "sourceId": "lotus-biscoff-spread-foodservice-8kg-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "indomie-mi-goreng-indonesia",
+      "barcode": null,
+      "name": "Indomie Mi Goreng",
+      "nameI18n": {
+        "es": "Indomie Mi Goreng",
+        "en": "Indomie Mi Goreng"
+      },
+      "brand": "Indomie",
+      "country": "Indonesia",
+      "market": "Indonesia",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "85 g pack (common retail size; source record does not state size)",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos indonesios salteados con salsa dulce de soja, chile y condimentos.",
+        "en": "Indonesian instant stir-fry noodles with sweet soy sauce, chilli and seasonings."
+      },
+      "ingredientsText": "Tepung terigu, minyak nabati, saus cabe (4,7%) (mengandung pengawet natrium benzoat dan natrium metabisulfit), kecap manis (mengandung kedelai dan gandum), bawang goreng (2,3%), tepung tapioka, garam, gula, bumbu mi goreng (0,8%) (mengandung antioksidan alfa tokoferol, tokoferol campuran pekat dan BHA), penguat rasa (mononatrium glutamat, dinatrium inosinat dan guanilat), perisa sintetik (mengandung telur, susu, antioksidan (asam askorbat, alfa tokoferol dan tokoferol campuran pekat)), bawang putih bubuk, pengatur keasaman, penstabil (nabati dan fosfat), lada bubuk, vitamin (A, B1, B6, B12, niasin, asam folat dan pantotenat), pewarna alami karamel I, mineral (zat besi), antioksidan TBHQ dan pewarna sintetik tartrazin CI 19140.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "salsa de chile",
+          "en": "chilli sauce",
+          "aliases": [
+            "salsa de chile",
+            "chilli sauce"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite"
+          ]
+        },
+        {
+          "es": "salsa de soja dulce",
+          "en": "sweet soy sauce",
+          "aliases": [
+            "salsa de soja dulce",
+            "sweet soy sauce"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybeans",
+          "aliases": [
+            "soja",
+            "soybeans"
+          ]
+        },
+        {
+          "es": "cebolla frita",
+          "en": "fried onion",
+          "aliases": [
+            "cebolla frita",
+            "fried onion"
+          ]
+        },
+        {
+          "es": "harina de tapioca",
+          "en": "tapioca flour",
+          "aliases": [
+            "harina de tapioca",
+            "tapioca flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "alfa-tocoferol",
+          "en": "alpha-tocopherol",
+          "aliases": [
+            "alfa-tocoferol",
+            "alpha-tocopherol"
+          ]
+        },
+        {
+          "es": "tocoferoles mixtos concentrados",
+          "en": "mixed concentrated tocopherols",
+          "aliases": [
+            "tocoferoles mixtos concentrados",
+            "mixed concentrated tocopherols"
+          ]
+        },
+        {
+          "es": "BHA",
+          "en": "BHA",
+          "aliases": [
+            "BHA",
+            "BHA"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "saborizante sintético",
+          "en": "synthetic flavouring",
+          "aliases": [
+            "saborizante sintético",
+            "synthetic flavouring"
+          ]
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "aliases": [
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "regulador de acidez",
+          "en": "acidity regulator",
+          "aliases": [
+            "regulador de acidez",
+            "acidity regulator"
+          ]
+        },
+        {
+          "es": "estabilizante vegetal",
+          "en": "vegetable stabiliser",
+          "aliases": [
+            "estabilizante vegetal",
+            "vegetable stabiliser"
+          ]
+        },
+        {
+          "es": "fosfatos",
+          "en": "phosphates",
+          "aliases": [
+            "fosfatos",
+            "phosphates"
+          ]
+        },
+        {
+          "es": "pimienta molida",
+          "en": "ground pepper",
+          "aliases": [
+            "pimienta molida",
+            "ground pepper"
+          ]
+        },
+        {
+          "es": "vitamina A",
+          "en": "vitamin A",
+          "aliases": [
+            "vitamina A",
+            "vitamin A"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "ácido pantoténico",
+          "en": "pantothenic acid",
+          "aliases": [
+            "ácido pantoténico",
+            "pantothenic acid"
+          ]
+        },
+        {
+          "es": "colorante caramelo I",
+          "en": "caramel colour I",
+          "aliases": [
+            "colorante caramelo I",
+            "caramel colour I"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ",
+            "TBHQ"
+          ]
+        },
+        {
+          "es": "tartrazina CI 19140",
+          "en": "tartrazine CI 19140",
+          "aliases": [
+            "tartrazina CI 19140",
+            "tartrazine CI 19140"
+          ]
+        }
+      ],
+      "sourceId": "indomie-mi-goreng-indonesia-source",
+      "verification": "regulatory_database_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "fanta-orange-japan-500ml",
+      "barcode": null,
+      "name": "Fanta Orange Japan 500 ml",
+      "nameI18n": {
+        "es": "Fanta Naranja Japón 500 ml",
+        "en": "Fanta Orange Japan 500 ml"
+      },
+      "brand": "Fanta",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "orange_soda",
+      "package": "500 ml PET (manufacturer-listed size)",
+      "image": null,
+      "description": {
+        "es": "Gaseosa Fanta de naranja del mercado japonés, con edulcorantes y colorante caroteno.",
+        "en": "Japanese-market Fanta orange soda with sweeteners and carotene colour."
+      },
+      "ingredientsText": "果糖ぶどう糖液糖（国内製造）／炭酸、香料、酸味料、酸化防止剤（ビタミンC）、甘味料（アセスルファムK、スクラロース、ステビア）、カロチン色素",
+      "ingredients": [
+        {
+          "es": "jarabe de fructosa y glucosa",
+          "en": "high-fructose glucose syrup",
+          "aliases": [
+            "jarabe de fructosa y glucosa",
+            "high-fructose glucose syrup"
+          ]
+        },
+        {
+          "es": "gas carbónico",
+          "en": "carbon dioxide",
+          "aliases": [
+            "gas carbónico",
+            "carbon dioxide"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring"
+          ]
+        },
+        {
+          "es": "acidulante",
+          "en": "acidulant",
+          "aliases": [
+            "acidulante",
+            "acidulant"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C"
+          ]
+        },
+        {
+          "es": "acesulfame K",
+          "en": "acesulfame K",
+          "aliases": [
+            "acesulfame K",
+            "acesulfame K"
+          ]
+        },
+        {
+          "es": "sucralosa",
+          "en": "sucralose",
+          "aliases": [
+            "sucralosa",
+            "sucralose"
+          ]
+        },
+        {
+          "es": "estevia",
+          "en": "stevia",
+          "aliases": [
+            "estevia",
+            "stevia"
+          ]
+        },
+        {
+          "es": "colorante caroteno",
+          "en": "carotene colour",
+          "aliases": [
+            "colorante caroteno",
+            "carotene colour"
+          ]
+        }
+      ],
+      "sourceId": "fanta-orange-japan-500ml-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "barilla-basilico-sauce-italy-400g",
+      "barcode": null,
+      "name": "Barilla Salsa Basilico 400 g",
+      "nameI18n": {
+        "es": "Barilla Salsa Basilico 400 g",
+        "en": "Barilla Basilico Sauce 400 g"
+      },
+      "brand": "Barilla",
+      "country": "Italy",
+      "market": "Latin America product page / Italian-style recipe",
+      "region": "world",
+      "category": "pasta_sauce",
+      "package": "400 g jar",
+      "image": null,
+      "description": {
+        "es": "Salsa italiana de tomate y albahaca con cebolla y aceite de girasol.",
+        "en": "Italian-style tomato and basil pasta sauce with onion and sunflower oil."
+      },
+      "ingredientsText": "Pulpa de tomate 72%, concentrado de tomate 14%, cebolla, aceite de girasol, albahaca 2%, azúcar, sal, aroma natural.",
+      "ingredients": [
+        {
+          "es": "pulpa de tomate",
+          "en": "tomato pulp",
+          "aliases": [
+            "pulpa de tomate",
+            "tomato pulp"
+          ]
+        },
+        {
+          "es": "concentrado de tomate",
+          "en": "tomato concentrate",
+          "aliases": [
+            "concentrado de tomate",
+            "tomato concentrate"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "albahaca",
+          "en": "basil",
+          "aliases": [
+            "albahaca",
+            "basil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "aroma natural",
+          "en": "natural flavouring",
+          "aliases": [
+            "aroma natural",
+            "natural flavouring"
+          ]
+        }
+      ],
+      "sourceId": "barilla-basilico-sauce-italy-400g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "barilla-arrabbiata-sauce-italy-400g",
+      "barcode": null,
+      "name": "Barilla Salsa Arrabbiata 400 g",
+      "nameI18n": {
+        "es": "Barilla Salsa Arrabbiata 400 g",
+        "en": "Barilla Arrabbiata Sauce 400 g"
+      },
+      "brand": "Barilla",
+      "country": "Italy",
+      "market": "Latin America product page / Italian-style recipe",
+      "region": "world",
+      "category": "pasta_sauce",
+      "package": "400 g jar",
+      "image": null,
+      "description": {
+        "es": "Salsa picante de tomate con pimiento rojo, ajo, perejil y guindilla.",
+        "en": "Spicy tomato sauce with red pepper, garlic, parsley and chilli."
+      },
+      "ingredientsText": "Pulpa de tomate 82%, concentrado de tomate 7,9%, aceite de girasol, pimientos rojos, ajo, sal, perejil, azúcar, guindilla 0,1%.",
+      "ingredients": [
+        {
+          "es": "pulpa de tomate",
+          "en": "tomato pulp",
+          "aliases": [
+            "pulpa de tomate",
+            "tomato pulp"
+          ]
+        },
+        {
+          "es": "concentrado de tomate",
+          "en": "tomato concentrate",
+          "aliases": [
+            "concentrado de tomate",
+            "tomato concentrate"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "pimientos rojos",
+          "en": "red peppers",
+          "aliases": [
+            "pimientos rojos",
+            "red peppers"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "perejil",
+          "en": "parsley",
+          "aliases": [
+            "perejil",
+            "parsley"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "guindilla",
+          "en": "chilli pepper",
+          "aliases": [
+            "guindilla",
+            "chilli pepper"
+          ]
+        }
+      ],
+      "sourceId": "barilla-arrabbiata-sauce-italy-400g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
     }
   ]
 }
