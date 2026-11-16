@@ -1,0 +1,947 @@
+{
+  "version": 1,
+  "description": "International catalog. Each product is tied to the country/market whose ingredient label is represented; formulas must not be assumed identical across markets.",
+  "language": [
+    "es",
+    "en"
+  ],
+  "lastUpdated": "2026-11-16",
+  "products": [
+    {
+      "id": "nutella-italy-400g",
+      "barcode": null,
+      "name": "Nutella",
+      "brand": "Ferrero",
+      "country": "Italy",
+      "market": "Italy",
+      "region": "world",
+      "category": "chocolate_spread",
+      "package": "400 g (market reference; verify exact jar label)",
+      "image": null,
+      "description": {
+        "es": "Crema de cacao y avellanas · versión italiana.",
+        "en": "Hazelnut cocoa spread · Italian-market version."
+      },
+      "ingredientsText": "Zucchero, olio di palma, nocciole (13%), latte scremato in polvere (8,7%), cacao magro (7,4%), emulsionanti: lecitine (soia), vanillina.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "avellanas",
+          "en": "hazelnuts",
+          "aliases": [
+            "avellanas",
+            "hazelnuts",
+            "hazelnut"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "cacao magro",
+          "en": "low-fat cocoa",
+          "aliases": [
+            "cacao magro",
+            "low-fat cocoa",
+            "defatted cocoa",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "lecitinas de soja",
+          "en": "soy lecithins",
+          "aliases": [
+            "lecitinas de soja",
+            "soy lecithins",
+            "lecithin",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "nutella-italy-ferrero",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "coca-cola-original-us",
+      "barcode": null,
+      "name": "Coca-Cola Original Taste",
+      "brand": "The Coca-Cola Company",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "soft_drink",
+      "package": "20 fl oz bottle (US label)",
+      "image": null,
+      "description": {
+        "es": "Gaseosa cola · fórmula del mercado estadounidense.",
+        "en": "Cola soft drink · United States-market formula."
+      },
+      "ingredientsText": "Carbonated water, high fructose corn syrup, caramel color, phosphoric acid, natural flavors, caffeine.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "HFCS",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "colorante caramelo",
+          "en": "caramel color",
+          "aliases": [
+            "colorante caramelo",
+            "caramel color"
+          ]
+        },
+        {
+          "es": "ácido fosfórico",
+          "en": "phosphoric acid",
+          "aliases": [
+            "ácido fosfórico",
+            "phosphoric acid"
+          ]
+        },
+        {
+          "es": "aromatizantes naturales",
+          "en": "natural flavors",
+          "aliases": [
+            "aromatizantes naturales",
+            "natural flavors",
+            "natural flavourings"
+          ]
+        },
+        {
+          "es": "cafeína",
+          "en": "caffeine",
+          "aliases": [
+            "cafeína",
+            "caffeine"
+          ]
+        }
+      ],
+      "sourceId": "coca-cola-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "oreo-original-us-family",
+      "barcode": null,
+      "name": "Oreo Original",
+      "brand": "Mondelēz International",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "sandwich_cookies",
+      "package": "Family size (US label)",
+      "image": null,
+      "description": {
+        "es": "Galletitas sándwich de cacao · versión estadounidense.",
+        "en": "Chocolate sandwich cookies · United States-market version."
+      },
+      "ingredientsText": "Unbleached enriched flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), sugar, palm oil, soybean and/or canola oil, cocoa (processed with alkali), high fructose corn syrup, leavening (baking soda and/or calcium phosphate), salt, soy lecithin, chocolate, artificial flavor.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "wheat flour",
+            "enriched flour"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamine mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamine mononitrate",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin b2"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil",
+            "soy oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil",
+            "rapeseed oil"
+          ]
+        },
+        {
+          "es": "cacao procesado con álcali",
+          "en": "cocoa processed with alkali",
+          "aliases": [
+            "cacao procesado con álcali",
+            "cocoa processed with alkali",
+            "alkalized cocoa"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "baking soda",
+          "aliases": [
+            "bicarbonato de sodio",
+            "baking soda",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "fosfato de calcio",
+          "en": "calcium phosphate",
+          "aliases": [
+            "fosfato de calcio",
+            "calcium phosphate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "chocolate",
+          "en": "chocolate",
+          "aliases": [
+            "chocolate"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavor",
+            "artificial flavour"
+          ]
+        }
+      ],
+      "sourceId": "oreo-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "pringles-original-us-5-2oz",
+      "barcode": null,
+      "name": "Pringles The Original",
+      "brand": "Pringles",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "5.2 oz (US label)",
+      "image": null,
+      "description": {
+        "es": "Snack de papa apilable · versión estadounidense.",
+        "en": "Stackable potato crisps · United States-market version."
+      },
+      "ingredientsText": "Dried potatoes, vegetable oil (corn, cottonseed, canola, soybean and/or sunflower), degerminated yellow corn flour, cornstarch, rice flour, maltodextrin, mono- and diglycerides, salt, wheat starch.",
+      "ingredients": [
+        {
+          "es": "papas deshidratadas",
+          "en": "dried potatoes",
+          "aliases": [
+            "papas deshidratadas",
+            "dried potatoes",
+            "dehydrated potatoes"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de maíz",
+          "en": "corn oil",
+          "aliases": [
+            "aceite de maíz",
+            "corn oil"
+          ]
+        },
+        {
+          "es": "aceite de algodón",
+          "en": "cottonseed oil",
+          "aliases": [
+            "aceite de algodón",
+            "cottonseed oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "harina de maíz amarillo",
+          "en": "yellow corn flour",
+          "aliases": [
+            "harina de maíz amarillo",
+            "yellow corn flour",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "cornstarch",
+          "aliases": [
+            "almidón de maíz",
+            "cornstarch",
+            "corn starch"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos",
+            "mono- and diglycerides",
+            "mono and diglycerides"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "almidón de trigo",
+          "en": "wheat starch",
+          "aliases": [
+            "almidón de trigo",
+            "wheat starch"
+          ]
+        }
+      ],
+      "sourceId": "pringles-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "heinz-tomato-ketchup-us-38oz",
+      "barcode": null,
+      "name": "Heinz Tomato Ketchup",
+      "brand": "Heinz",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "ketchup",
+      "package": "38 oz",
+      "image": null,
+      "description": {
+        "es": "Ketchup de tomate · versión estadounidense.",
+        "en": "Tomato ketchup · United States-market version."
+      },
+      "ingredientsText": "Tomato concentrate from red ripe tomatoes, distilled vinegar, high fructose corn syrup, corn syrup, salt, spice, onion powder, natural flavoring.",
+      "ingredients": [
+        {
+          "es": "concentrado de tomate",
+          "en": "tomato concentrate",
+          "aliases": [
+            "concentrado de tomate",
+            "tomato concentrate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "vinagre destilado",
+          "en": "distilled vinegar",
+          "aliases": [
+            "vinagre destilado",
+            "distilled vinegar",
+            "white vinegar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices",
+            "spice"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavoring",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavoring",
+            "natural flavouring"
+          ]
+        }
+      ],
+      "sourceId": "heinz-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "kelloggs-corn-flakes-us-9-6oz",
+      "barcode": null,
+      "name": "Kellogg's Corn Flakes",
+      "brand": "Kellanova",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "9.6 oz (US label)",
+      "image": null,
+      "description": {
+        "es": "Cereal de copos de maíz · versión estadounidense.",
+        "en": "Corn flakes cereal · United States-market version."
+      },
+      "ingredientsText": "Milled corn, sugar, malt flavor, contains 2% or less of salt. Vitamins and minerals: iron (ferric phosphate), niacinamide, vitamin B6 (pyridoxine hydrochloride), vitamin B2 (riboflavin), vitamin B1 (thiamin hydrochloride), folic acid, vitamin D3, vitamin B12.",
+      "ingredients": [
+        {
+          "es": "maíz molido",
+          "en": "milled corn",
+          "aliases": [
+            "maíz molido",
+            "milled corn",
+            "corn"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sabor malta",
+          "en": "malt flavor",
+          "aliases": [
+            "sabor malta",
+            "malt flavor",
+            "malt flavour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fosfato férrico",
+          "en": "ferric phosphate",
+          "aliases": [
+            "fosfato férrico",
+            "ferric phosphate"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide",
+            "vitamin b3"
+          ]
+        },
+        {
+          "es": "clorhidrato de piridoxina",
+          "en": "pyridoxine hydrochloride",
+          "aliases": [
+            "clorhidrato de piridoxina",
+            "pyridoxine hydrochloride",
+            "vitamin b6"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin b2"
+          ]
+        },
+        {
+          "es": "clorhidrato de tiamina",
+          "en": "thiamin hydrochloride",
+          "aliases": [
+            "clorhidrato de tiamina",
+            "thiamin hydrochloride",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina D3",
+          "en": "vitamin D3",
+          "aliases": [
+            "vitamina D3",
+            "vitamin D3"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12",
+            "cobalamin"
+          ]
+        }
+      ],
+      "sourceId": "kelloggs-cornflakes-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "toblerone-milk-switzerland-100g",
+      "barcode": null,
+      "name": "Toblerone Milk",
+      "brand": "Toblerone",
+      "country": "Switzerland",
+      "market": "Switzerland",
+      "region": "world",
+      "category": "milk_chocolate",
+      "package": "100 g",
+      "image": null,
+      "description": {
+        "es": "Chocolate con leche, miel y nougat de almendras · versión suiza.",
+        "en": "Milk chocolate with honey and almond nougat · Swiss-market version."
+      },
+      "ingredientsText": "Sugar, whole milk powder, cocoa butter, cocoa mass, honey (3%), milk fat, almonds (1.6%), emulsifier (soy lecithins), egg white, flavouring.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "grasa láctea",
+          "en": "milk fat",
+          "aliases": [
+            "grasa láctea",
+            "milk fat",
+            "butterfat"
+          ]
+        },
+        {
+          "es": "almendras",
+          "en": "almonds",
+          "aliases": [
+            "almendras",
+            "almonds"
+          ]
+        },
+        {
+          "es": "lecitinas de soja",
+          "en": "soy lecithins",
+          "aliases": [
+            "lecitinas de soja",
+            "soy lecithins",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "clara de huevo",
+          "en": "egg white",
+          "aliases": [
+            "clara de huevo",
+            "egg white",
+            "egg whites"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        }
+      ],
+      "sourceId": "toblerone-switzerland-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "kitkat-milk-chocolate-us-1-5oz",
+      "barcode": null,
+      "name": "Kit Kat Milk Chocolate",
+      "brand": "Hershey / Kit Kat",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_bar",
+      "package": "1.5 oz",
+      "image": null,
+      "description": {
+        "es": "Barra de chocolate con leche y oblea · versión estadounidense.",
+        "en": "Milk chocolate wafer bar · United States-market version."
+      },
+      "ingredientsText": "Sugar, wheat flour, cocoa butter, chocolate, lactose (milk), vegetable oil (palm oil, palm kernel oil), skim milk, milk fat. Contains 2% or less of: lecithin (soy), PGPR, vanillin (artificial flavor), salt, yeast, baking soda.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "chocolate",
+          "en": "chocolate",
+          "aliases": [
+            "chocolate"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose",
+            "milk sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de palmiste",
+          "en": "palm kernel oil",
+          "aliases": [
+            "aceite de palmiste",
+            "palm kernel oil"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk",
+            "skimmed milk"
+          ]
+        },
+        {
+          "es": "grasa láctea",
+          "en": "milk fat",
+          "aliases": [
+            "grasa láctea",
+            "milk fat"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "PGPR",
+          "en": "PGPR",
+          "aliases": [
+            "PGPR",
+            "polirricinoleato de poliglicerol"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "baking soda",
+          "aliases": [
+            "bicarbonato de sodio",
+            "baking soda",
+            "sodium bicarbonate"
+          ]
+        }
+      ],
+      "sourceId": "kitkat-us-hershey",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    }
+  ]
+}
