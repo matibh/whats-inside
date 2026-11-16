@@ -5,9 +5,9 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-16
-- **Productos / Products:** 68
+- **Productos / Products:** 78
 - **Argentina:** 20
-- **World:** 48
+- **World:** 58
 - **Idiomas / Languages:** Español + English
 
 ## Reglas / Rules
@@ -2947,6 +2947,428 @@ YEAST EXTRACT (WHEAT, BARLEY), SALT, MINERAL SALT (508), MALT EXTRACT (BARLEY), 
 **Fuente / Source:** [Bega Foods (manufacturer product data sheet)](https://superiorfs.com.au/documents/PDF/KV220_1.pdf)  
 **Tipo / Type:** `manufacturer_product_specification`  
 **Alcance / Supports:** Bega Foods product data sheet for VEGEMITE 220 g, GTIN 9352042000281; manufacturer-issued specification hosted by foodservice distributor.
+
+---
+
+### Walkers Quavers sabor queso / Walkers Quavers Cheese
+
+- **ID:** `walkers-quavers-cheese-uk`
+- **Marca / Brand:** Walkers
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 16 g serving reference
+- **Categoría / Category:** `cheese_snack`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack aireado de fécula de papa con sabor a queso, vendido en Reino Unido.
+- **Description (EN):** Puffed potato-starch cheese snack sold in the UK.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potato Starch, Sunflower Oil, Cheese Flavour [Whey Powder (from Milk), Flavouring (contains Milk), Flavour Enhancers (Monosodium Glutamate, Disodium 5'-Ribonucleotide), Milk Powder, Cheese Powder (from Milk), Potassium Chloride, Garlic Powder, Acid (Lactic Acid), Colour (Paprika Extract)], Rice Flour, Soya Flour, Salt, Yeast, Onion Powder (Malt Flour from Barley), Pepper, Wheat Flour (contains Calcium, Iron, Niacin, Thiamin), Colour (Annatto).
+
+**Respuestas aceptadas / Accepted answers (25)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| almidón de papa | potato starch | almidón de papa, potato starch |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| suero de leche en polvo | whey powder | suero de leche en polvo, whey powder |
+| saborizante | flavouring | saborizante, flavouring |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate |
+| ribonucleótido disódico | disodium 5'-ribonucleotide | ribonucleótido disódico, disodium 5'-ribonucleotide |
+| leche en polvo | milk powder | leche en polvo, milk powder |
+| queso en polvo | cheese powder | queso en polvo, cheese powder |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| ácido láctico | lactic acid | ácido láctico, lactic acid |
+| extracto de paprika | paprika extract | extracto de paprika, paprika extract |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| harina de soja | soya flour | harina de soja, soya flour |
+| sal | salt | sal, salt |
+| levadura | yeast | levadura, yeast |
+| harina de malta de cebada | malt flour from barley | harina de malta de cebada, malt flour from barley |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| pimienta | pepper | pimienta, pepper |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| calcio | calcium | calcio, calcium |
+| hierro | iron | hierro, iron |
+| niacina | niacin | niacina, niacin |
+| tiamina | thiamin | tiamina, thiamin |
+| annatto | annatto | annatto, annatto |
+
+**Fuente / Source:** [Walkers UK](https://www.walkers.co.uk/our-range/family-snacks/quavers-cheese)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Walkers UK product page with ingredient list. Precautionary may-contain allergens excluded.
+
+---
+
+### POCARI SWEAT 500 ml / POCARI SWEAT 500 ml
+
+- **ID:** `pocari-sweat-japan-500ml`
+- **Marca / Brand:** Otsuka
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 500 ml bottle
+- **Categoría / Category:** `sports_drink`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bebida japonesa de reposición de agua y electrolitos.
+- **Description (EN):** Japanese hydration drink with water and electrolyte replenishment.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar (processed in Japan), high fructose corn syrup, fruit juice, salt / acidulant, flavoring, potassium chloride, calcium lactate, flavor enhancer (amino acids), magnesium chloride, antioxidants (vitamin C).
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| jarabe de maíz de alta fructosa | high fructose corn syrup | jarabe de maíz de alta fructosa, high fructose corn syrup |
+| jugo de frutas | fruit juice | jugo de frutas, fruit juice |
+| sal | salt | sal, salt |
+| acidulante | acidulant | acidulante, acidulant |
+| saborizante | flavoring | saborizante, flavoring |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride |
+| lactato de calcio | calcium lactate | lactato de calcio, calcium lactate |
+| potenciador del sabor (aminoácidos) | flavor enhancer (amino acids) | potenciador del sabor (aminoácidos), flavor enhancer (amino acids) |
+| cloruro de magnesio | magnesium chloride | cloruro de magnesio, magnesium chloride |
+| vitamina C | vitamin C | vitamina C, vitamin C |
+
+**Fuente / Source:** [Otsuka Pharmaceutical](https://www.otsuka.co.jp/en/nutraceutical/products/pocarisweat/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Otsuka product page, ingredient declaration for 500 ml label-free bottle. Recipe shown for this bottle format.
+
+---
+
+### Kellogg's Coco Pops (Reino Unido) / Kellogg's Coco Pops (UK)
+
+- **ID:** `kelloggs-coco-pops-uk`
+- **Marca / Brand:** Kellogg's
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** UK retail pack; size not specified on source page
+- **Categoría / Category:** `breakfast_cereal`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Cereal de arroz inflado con cacao y vitaminas, formulación británica.
+- **Description (EN):** Puffed rice cereal with cocoa and vitamins, UK formulation.
+
+**Ingredientes declarados / Declared ingredients**
+
+Rice, sugar, glucose syrup, fat reduced cocoa powder, salt, cocoa mass, barley malt extract, flavourings. Vitamins and minerals: niacin, iron, vitamin B6, riboflavin, thiamin, folic acid, vitamin D, vitamin B12.
+
+**Respuestas aceptadas / Accepted answers (16)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| arroz | rice | arroz, rice |
+| azúcar | sugar | azúcar, sugar |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| cacao reducido en grasa en polvo | fat-reduced cocoa powder | cacao reducido en grasa en polvo, fat-reduced cocoa powder |
+| sal | salt | sal, salt |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| extracto de malta de cebada | barley malt extract | extracto de malta de cebada, barley malt extract |
+| saborizantes | flavourings | saborizantes, flavourings |
+| niacina | niacin | niacina, niacin |
+| hierro | iron | hierro, iron |
+| vitamina B6 | vitamin B6 | vitamina B6, vitamin B6 |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| tiamina | thiamin | tiamina, thiamin |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| vitamina D | vitamin D | vitamina D, vitamin D |
+| vitamina B12 | vitamin B12 | vitamina B12, vitamin B12 |
+
+**Fuente / Source:** [Kellogg's UK / Kellogg's Vantage](https://www.kelloggsvantage.co.uk/en_GB/products/coco-pops-original.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kellogg's UK product data page; ingredients and vitamin/mineral declaration. Package size not specified.
+
+---
+
+### Salsa A.1. Original para carnes 10 oz / A.1. Original Steak Sauce 10 oz
+
+- **ID:** `a1-original-steak-sauce-us-10oz`
+- **Marca / Brand:** A.1.
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 10 oz bottle
+- **Categoría / Category:** `condiment_sauce`
+- **Barcode:** 00054400000054
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa estadounidense agridulce para carnes, con tomate, naranja y especias.
+- **Description (EN):** American tangy steak sauce with tomato, orange and spices.
+
+**Ingredientes declarados / Declared ingredients**
+
+TOMATO PUREE (WATER, TOMATO PASTE), VINEGAR, CORN SYRUP, SALT, RAISIN PASTE, CRUSHED ORANGE PUREE, SPICES (CONTAINS CELERY), DRIED GARLIC, CARAMEL COLOR, DRIED ONION, XANTHAN GUM.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| puré de tomate | tomato puree | puré de tomate, tomato puree |
+| agua | water | agua, water |
+| pasta de tomate | tomato paste | pasta de tomate, tomato paste |
+| vinagre | vinegar | vinagre, vinegar |
+| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
+| sal | salt | sal, salt |
+| pasta de pasas | raisin paste | pasta de pasas, raisin paste |
+| puré de naranja triturada | crushed orange puree | puré de naranja triturada, crushed orange puree |
+| especias | spices | especias, spices |
+| apio | celery | apio, celery |
+| ajo deshidratado | dried garlic | ajo deshidratado, dried garlic |
+| colorante caramelo | caramel color | colorante caramelo, caramel color |
+| cebolla deshidratada | dried onion | cebolla deshidratada, dried onion |
+| goma xantana | xanthan gum | goma xantana, xanthan gum |
+
+**Fuente / Source:** [Kraft Heinz / A.1.](https://www.kraftheinz.com/a1/products/00054400000054-original-steak-sauce)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kraft Heinz US product page; ingredient declaration and 10 oz size.
+
+---
+
+### Mutti Polpa de tomate 400 g / Mutti Polpa 400 g
+
+- **ID:** `mutti-polpa-italy-400g`
+- **Marca / Brand:** Mutti
+- **País / Country:** Italy
+- **Mercado / Market:** Italy
+- **Envase / Package:** 400 g can (common retail size; verify package)
+- **Categoría / Category:** `canned_tomatoes`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Tomate italiano finamente picado con su propio jugo y sal.
+- **Description (EN):** Finely chopped Italian tomatoes in their own juice with salt.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tomate 99,8%, sal.
+
+**Respuestas aceptadas / Accepted answers (2)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| tomate | tomato | tomate, tomato |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [Mutti](https://mutti-parma.com/es/productos/polpa/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Mutti product page states the main ingredients as tomato 99.8% and salt; 400 g package is a market reference, not specified on this page.
+
+---
+
+### Crema Lotus Biscoff 8 kg / Lotus Biscoff Spread 8 kg
+
+- **ID:** `lotus-biscoff-spread-foodservice-8kg`
+- **Marca / Brand:** Lotus Biscoff
+- **País / Country:** Belgium
+- **Mercado / Market:** International foodservice
+- **Envase / Package:** 8 kg foodservice tub
+- **Categoría / Category:** `chocolate_spread`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Crema untable de galletas caramelizadas Biscoff, presentación profesional.
+- **Description (EN):** Spread made from caramelised Biscoff biscuits, foodservice pack.
+
+**Ingredientes declarados / Declared ingredients**
+
+Original caramelised biscuits 58% (wheat flour, sugar, vegetable oils (palm oil, rapeseed oil), candy sugar syrup, raising agent (sodium hydrogen carbonate), soya flour, salt, cinnamon), rapeseed oil, sugar, emulsifier (soya lecithin), acid (citric acid).
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil |
+| jarabe de azúcar caramelizado | candy sugar syrup | jarabe de azúcar caramelizado, candy sugar syrup |
+| bicarbonato de sodio | sodium hydrogen carbonate | bicarbonato de sodio, sodium hydrogen carbonate |
+| harina de soja | soya flour | harina de soja, soya flour |
+| sal | salt | sal, salt |
+| canela | cinnamon | canela, cinnamon |
+| lecitina de soja | soya lecithin | lecitina de soja, soya lecithin |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+
+**Fuente / Source:** [Lotus Biscoff Food Professionals](https://www.lotusbiscoff.com/en/foodprofessionals/products/biscoff-spread-8kg)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Lotus Biscoff foodservice product page; ingredient declaration for 8 kg spread. Trace-allergen warnings excluded.
+
+---
+
+### Indomie Mi Goreng / Indomie Mi Goreng
+
+- **ID:** `indomie-mi-goreng-indonesia`
+- **Marca / Brand:** Indomie
+- **País / Country:** Indonesia
+- **Mercado / Market:** Indonesia
+- **Envase / Package:** 85 g pack (common retail size; source record does not state size)
+- **Categoría / Category:** `instant_noodles`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `regulatory_database_transcription`
+- **Descripción (ES):** Fideos instantáneos indonesios salteados con salsa dulce de soja, chile y condimentos.
+- **Description (EN):** Indonesian instant stir-fry noodles with sweet soy sauce, chilli and seasonings.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tepung terigu, minyak nabati, saus cabe (4,7%) (mengandung pengawet natrium benzoat dan natrium metabisulfit), kecap manis (mengandung kedelai dan gandum), bawang goreng (2,3%), tepung tapioka, garam, gula, bumbu mi goreng (0,8%) (mengandung antioksidan alfa tokoferol, tokoferol campuran pekat dan BHA), penguat rasa (mononatrium glutamat, dinatrium inosinat dan guanilat), perisa sintetik (mengandung telur, susu, antioksidan (asam askorbat, alfa tokoferol dan tokoferol campuran pekat)), bawang putih bubuk, pengatur keasaman, penstabil (nabati dan fosfat), lada bubuk, vitamin (A, B1, B6, B12, niasin, asam folat dan pantotenat), pewarna alami karamel I, mineral (zat besi), antioksidan TBHQ dan pewarna sintetik tartrazin CI 19140.
+
+**Respuestas aceptadas / Accepted answers (37)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| salsa de chile | chilli sauce | salsa de chile, chilli sauce |
+| benzoato de sodio | sodium benzoate | benzoato de sodio, sodium benzoate |
+| metabisulfito de sodio | sodium metabisulfite | metabisulfito de sodio, sodium metabisulfite |
+| salsa de soja dulce | sweet soy sauce | salsa de soja dulce, sweet soy sauce |
+| soja | soybeans | soja, soybeans |
+| cebolla frita | fried onion | cebolla frita, fried onion |
+| harina de tapioca | tapioca flour | harina de tapioca, tapioca flour |
+| sal | salt | sal, salt |
+| azúcar | sugar | azúcar, sugar |
+| alfa-tocoferol | alpha-tocopherol | alfa-tocoferol, alpha-tocopherol |
+| tocoferoles mixtos concentrados | mixed concentrated tocopherols | tocoferoles mixtos concentrados, mixed concentrated tocopherols |
+| BHA | BHA | BHA, BHA |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| saborizante sintético | synthetic flavouring | saborizante sintético, synthetic flavouring |
+| huevo | egg | huevo, egg |
+| leche | milk | leche, milk |
+| ácido ascórbico | ascorbic acid | ácido ascórbico, ascorbic acid |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| regulador de acidez | acidity regulator | regulador de acidez, acidity regulator |
+| estabilizante vegetal | vegetable stabiliser | estabilizante vegetal, vegetable stabiliser |
+| fosfatos | phosphates | fosfatos, phosphates |
+| pimienta molida | ground pepper | pimienta molida, ground pepper |
+| vitamina A | vitamin A | vitamina A, vitamin A |
+| vitamina B1 | vitamin B1 | vitamina B1, vitamin B1 |
+| vitamina B6 | vitamin B6 | vitamina B6, vitamin B6 |
+| vitamina B12 | vitamin B12 | vitamina B12, vitamin B12 |
+| niacina | niacin | niacina, niacin |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| ácido pantoténico | pantothenic acid | ácido pantoténico, pantothenic acid |
+| colorante caramelo I | caramel colour I | colorante caramelo I, caramel colour I |
+| hierro | iron | hierro, iron |
+| TBHQ | TBHQ | TBHQ, TBHQ |
+| tartrazina CI 19140 | tartrazine CI 19140 | tartrazina CI 19140, tartrazine CI 19140 |
+
+**Fuente / Source:** [Nilaigizi.id (BPOM registration transcription)](https://www.nilaigizi.id/product/indomie-mi-goreng)  
+**Tipo / Type:** `regulatory_database_transcription`  
+**Alcance / Supports:** Indonesian ingredient transcription linked to BPOM registration MD240935004300027; third-party database, not manufacturer page. Formula/package must be checked against local wrapper.
+
+---
+
+### Fanta Naranja Japón 500 ml / Fanta Orange Japan 500 ml
+
+- **ID:** `fanta-orange-japan-500ml`
+- **Marca / Brand:** Fanta
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 500 ml PET (manufacturer-listed size)
+- **Categoría / Category:** `orange_soda`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Gaseosa Fanta de naranja del mercado japonés, con edulcorantes y colorante caroteno.
+- **Description (EN):** Japanese-market Fanta orange soda with sweeteners and carotene colour.
+
+**Ingredientes declarados / Declared ingredients**
+
+果糖ぶどう糖液糖（国内製造）／炭酸、香料、酸味料、酸化防止剤（ビタミンC）、甘味料（アセスルファムK、スクラロース、ステビア）、カロチン色素
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| jarabe de fructosa y glucosa | high-fructose glucose syrup | jarabe de fructosa y glucosa, high-fructose glucose syrup |
+| gas carbónico | carbon dioxide | gas carbónico, carbon dioxide |
+| saborizante | flavouring | saborizante, flavouring |
+| acidulante | acidulant | acidulante, acidulant |
+| vitamina C | vitamin C | vitamina C, vitamin C |
+| acesulfame K | acesulfame K | acesulfame K, acesulfame K |
+| sucralosa | sucralose | sucralosa, sucralose |
+| estevia | stevia | estevia, stevia |
+| colorante caroteno | carotene colour | colorante caroteno, carotene colour |
+
+**Fuente / Source:** [Coca-Cola Japan](https://www.coca-cola.com/jp/ja/brands/fanta/products)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Coca-Cola Japan product ingredient list for Fanta Orange. The 500 ml PET size is shown in official product announcements; formulation varies by market and revision.
+
+---
+
+### Barilla Salsa Basilico 400 g / Barilla Basilico Sauce 400 g
+
+- **ID:** `barilla-basilico-sauce-italy-400g`
+- **Marca / Brand:** Barilla
+- **País / Country:** Italy
+- **Mercado / Market:** Latin America product page / Italian-style recipe
+- **Envase / Package:** 400 g jar
+- **Categoría / Category:** `pasta_sauce`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa italiana de tomate y albahaca con cebolla y aceite de girasol.
+- **Description (EN):** Italian-style tomato and basil pasta sauce with onion and sunflower oil.
+
+**Ingredientes declarados / Declared ingredients**
+
+Pulpa de tomate 72%, concentrado de tomate 14%, cebolla, aceite de girasol, albahaca 2%, azúcar, sal, aroma natural.
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| pulpa de tomate | tomato pulp | pulpa de tomate, tomato pulp |
+| concentrado de tomate | tomato concentrate | concentrado de tomate, tomato concentrate |
+| cebolla | onion | cebolla, onion |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| albahaca | basil | albahaca, basil |
+| azúcar | sugar | azúcar, sugar |
+| sal | salt | sal, salt |
+| aroma natural | natural flavouring | aroma natural, natural flavouring |
+
+**Fuente / Source:** [Barilla Latinoamérica](https://www.barilla.com/es-la/productos/salsas/salsas-rojas/salsa-basilico)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Barilla product page lists 400 g and the complete ingredient declaration.
+
+---
+
+### Barilla Salsa Arrabbiata 400 g / Barilla Arrabbiata Sauce 400 g
+
+- **ID:** `barilla-arrabbiata-sauce-italy-400g`
+- **Marca / Brand:** Barilla
+- **País / Country:** Italy
+- **Mercado / Market:** Latin America product page / Italian-style recipe
+- **Envase / Package:** 400 g jar
+- **Categoría / Category:** `pasta_sauce`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa picante de tomate con pimiento rojo, ajo, perejil y guindilla.
+- **Description (EN):** Spicy tomato sauce with red pepper, garlic, parsley and chilli.
+
+**Ingredientes declarados / Declared ingredients**
+
+Pulpa de tomate 82%, concentrado de tomate 7,9%, aceite de girasol, pimientos rojos, ajo, sal, perejil, azúcar, guindilla 0,1%.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| pulpa de tomate | tomato pulp | pulpa de tomate, tomato pulp |
+| concentrado de tomate | tomato concentrate | concentrado de tomate, tomato concentrate |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| pimientos rojos | red peppers | pimientos rojos, red peppers |
+| ajo | garlic | ajo, garlic |
+| sal | salt | sal, salt |
+| perejil | parsley | perejil, parsley |
+| azúcar | sugar | azúcar, sugar |
+| guindilla | chilli pepper | guindilla, chilli pepper |
+
+**Fuente / Source:** [Barilla Latinoamérica](https://www.barilla.com/es-la/productos/salsas/salsas-rojas/salsa-arrabbiata)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Barilla product page lists 400 g and ingredient declaration.
 
 ---
 
