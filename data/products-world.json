@@ -10351,6 +10351,976 @@
       "sourceId": "maggi-hot-sweet-chilli-india",
       "verification": "retailer_label_transcription",
       "status": "ready"
+    },
+    {
+      "id": "colacao-original-spain-383g",
+      "barcode": null,
+      "name": "ColaCao Original",
+      "nameI18n": {
+        "es": "ColaCao Original",
+        "en": "ColaCao Original"
+      },
+      "brand": "ColaCao",
+      "country": "Spain",
+      "market": "Spain",
+      "region": "world",
+      "category": "malt_cocoa_powder",
+      "package": "383 g tin",
+      "image": null,
+      "description": {
+        "es": "Preparado español de cacao con cereal kola-malteado.",
+        "en": "Spanish cocoa drink powder with malted kola cereal."
+      },
+      "ingredientsText": "Sugar, natural defatted cocoa (22%), malted kola cereal cream (wheat flour, barley malt extract, natural flavour: cola nut extract), mineral salts (calcium, phosphorus), flavourings, salt.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "cacao desgrasado natural",
+          "en": "natural defatted cocoa",
+          "aliases": [
+            "cacao desgrasado natural",
+            "natural defatted cocoa"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "extracto de malta de cebada",
+          "en": "barley malt extract",
+          "aliases": [
+            "extracto de malta de cebada",
+            "barley malt extract"
+          ]
+        },
+        {
+          "es": "extracto de nuez de cola",
+          "en": "cola nut extract",
+          "aliases": [
+            "extracto de nuez de cola",
+            "cola nut extract"
+          ]
+        },
+        {
+          "es": "sales minerales",
+          "en": "mineral salts",
+          "aliases": [
+            "sales minerales",
+            "mineral salts"
+          ]
+        },
+        {
+          "es": "calcio",
+          "en": "calcium",
+          "aliases": [
+            "calcio",
+            "calcium"
+          ]
+        },
+        {
+          "es": "fósforo",
+          "en": "phosphorus",
+          "aliases": [
+            "fósforo",
+            "phosphorus"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "colacao-original-spain",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "goya-black-beans-us-15-5oz",
+      "barcode": null,
+      "name": "Goya Black Beans",
+      "nameI18n": {
+        "es": "Goya Frijoles Negros",
+        "en": "Goya Black Beans"
+      },
+      "brand": "Goya",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "canned_beans",
+      "package": "15.5 oz can (also offered in other sizes)",
+      "image": null,
+      "description": {
+        "es": "Frijoles negros en conserva con agua y sal.",
+        "en": "Canned black beans with water and salt."
+      },
+      "ingredientsText": "Black beans, water, salt.",
+      "ingredients": [
+        {
+          "es": "frijoles negros",
+          "en": "black beans",
+          "aliases": [
+            "frijoles negros",
+            "black beans"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "goya-black-beans-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "calbee-jagabee-plain-japan-38g",
+      "barcode": null,
+      "name": "Calbee Jagabee Plain",
+      "nameI18n": {
+        "es": "Calbee Jagabee natural",
+        "en": "Calbee Jagabee Plain"
+      },
+      "brand": "Calbee",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "potato_snack",
+      "package": "38 g pack",
+      "image": null,
+      "description": {
+        "es": "Bastones de papa sin sal añadida, versión natural japonesa.",
+        "en": "Unseasoned Japanese potato sticks with no added salt."
+      },
+      "ingredientsText": "Potatoes (United States), vegetable oil, antioxidant (vitamin C).",
+      "ingredients": [
+        {
+          "es": "papas",
+          "en": "potatoes",
+          "aliases": [
+            "papas",
+            "potatoes"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C",
+            "ascorbic acid"
+          ]
+        }
+      ],
+      "sourceId": "calbee-jagabee-plain-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "tajin-clasico-mexico-142g",
+      "barcode": null,
+      "name": "Tajín Clásico",
+      "nameI18n": {
+        "es": "Tajín Clásico",
+        "en": "Tajín Clásico"
+      },
+      "brand": "Tajín",
+      "country": "Mexico",
+      "market": "United States",
+      "region": "world",
+      "category": "seasoning_blend",
+      "package": "5 oz bottle (also 14 oz and other sizes)",
+      "image": null,
+      "description": {
+        "es": "Condimento de chile, limón y sal marina.",
+        "en": "Chili, lime and sea salt seasoning."
+      },
+      "ingredientsText": "Mild chili peppers, lime, sea salt.",
+      "ingredients": [
+        {
+          "es": "chiles suaves",
+          "en": "mild chili peppers",
+          "aliases": [
+            "chiles suaves",
+            "mild chili peppers",
+            "mild chile peppers"
+          ]
+        },
+        {
+          "es": "limón",
+          "en": "lime",
+          "aliases": [
+            "limón",
+            "lime"
+          ]
+        },
+        {
+          "es": "sal marina",
+          "en": "sea salt",
+          "aliases": [
+            "sal marina",
+            "sea salt"
+          ]
+        }
+      ],
+      "sourceId": "tajin-clasico",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "want-want-seaweed-rice-crackers-tw-102g",
+      "barcode": null,
+      "name": "Want Want Seaweed Rice Crackers",
+      "nameI18n": {
+        "es": "Want Want galletas de arroz con algas",
+        "en": "Want Want Seaweed Rice Crackers"
+      },
+      "brand": "Want Want",
+      "country": "Taiwan",
+      "market": "Taiwan / China",
+      "region": "world",
+      "category": "rice_crackers",
+      "package": "102 g pack (also 136 g)",
+      "image": null,
+      "description": {
+        "es": "Galletas de arroz tipo senbei con tiras de alga.",
+        "en": "Senbei-style rice crackers with seaweed strips."
+      },
+      "ingredientsText": "Japonica rice, palm oil, seaweed strips.",
+      "ingredients": [
+        {
+          "es": "arroz japónica",
+          "en": "japonica rice",
+          "aliases": [
+            "arroz japónica",
+            "japonica rice"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "tiras de alga",
+          "en": "seaweed strips",
+          "aliases": [
+            "tiras de alga",
+            "seaweed strips"
+          ]
+        }
+      ],
+      "sourceId": "want-want-seaweed-rice-crackers",
+      "verification": "manufacturer_product_specification",
+      "status": "ready"
+    },
+    {
+      "id": "want-want-shelly-senbei-china-122g",
+      "barcode": null,
+      "name": "Want Want Shelly Senbei Original",
+      "nameI18n": {
+        "es": "Want Want Shelly Senbei Original",
+        "en": "Want Want Shelly Senbei Original"
+      },
+      "brand": "Want Want",
+      "country": "China",
+      "market": "Singapore retail pack",
+      "region": "world",
+      "category": "rice_crackers",
+      "package": "122 g pack",
+      "image": null,
+      "description": {
+        "es": "Galletitas de arroz senbei originales de Want Want, versión comercializada en Singapur.",
+        "en": "Original Want Want senbei rice crackers, Singapore retail listing."
+      },
+      "ingredientsText": "Japonica rice, palm oil, sugar, salt, gelatin, flavour enhancer (monosodium glutamate / E621, disodium 5'-inosinate / E631, disodium 5'-guanylate / E627).",
+      "ingredients": [
+        {
+          "es": "arroz japónica",
+          "en": "japonica rice",
+          "aliases": [
+            "arroz japónica",
+            "japonica rice"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG",
+            "E621"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium 5'-inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium 5'-inosinate",
+            "E631"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium 5'-guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium 5'-guanylate",
+            "E627"
+          ]
+        }
+      ],
+      "sourceId": "want-want-shelly-senbei",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "skittles-original-us-61-5g",
+      "barcode": null,
+      "name": "SKITTLES Original",
+      "nameI18n": {
+        "es": "SKITTLES Original",
+        "en": "SKITTLES Original"
+      },
+      "brand": "Skittles",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "fruit_candy",
+      "package": "61.5 g single pack",
+      "image": null,
+      "description": {
+        "es": "Caramelos masticables frutales multicolor, fórmula estadounidense.",
+        "en": "Colorful fruit-flavored chewy candy, United States formula."
+      },
+      "ingredientsText": "Sugar, corn syrup, hydrogenated palm kernel oil; less than 2% of: citric acid, tapioca dextrin, modified corn starch, natural and artificial flavors, colors (Red 40 Lake, Yellow 5 Lake, Blue 2 Lake, Yellow 6 Lake, titanium dioxide, Blue 1 Lake, Yellow 6, Red 40, Yellow 5, Blue 1), sodium citrate, carnauba wax.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "aceite de palmiste hidrogenado",
+          "en": "hydrogenated palm kernel oil",
+          "aliases": [
+            "aceite de palmiste hidrogenado",
+            "hydrogenated palm kernel oil"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "dextrina de tapioca",
+          "en": "tapioca dextrin",
+          "aliases": [
+            "dextrina de tapioca",
+            "tapioca dextrin"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified corn starch",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified corn starch"
+          ]
+        },
+        {
+          "es": "aromas naturales y artificiales",
+          "en": "natural and artificial flavors",
+          "aliases": [
+            "aromas naturales y artificiales",
+            "natural and artificial flavors",
+            "natural and artificial flavourings"
+          ]
+        },
+        {
+          "es": "rojo 40 lake",
+          "en": "Red 40 Lake",
+          "aliases": [
+            "rojo 40 lake",
+            "Red 40 Lake"
+          ]
+        },
+        {
+          "es": "amarillo 5 lake",
+          "en": "Yellow 5 Lake",
+          "aliases": [
+            "amarillo 5 lake",
+            "Yellow 5 Lake"
+          ]
+        },
+        {
+          "es": "azul 2 lake",
+          "en": "Blue 2 Lake",
+          "aliases": [
+            "azul 2 lake",
+            "Blue 2 Lake"
+          ]
+        },
+        {
+          "es": "amarillo 6 lake",
+          "en": "Yellow 6 Lake",
+          "aliases": [
+            "amarillo 6 lake",
+            "Yellow 6 Lake"
+          ]
+        },
+        {
+          "es": "dióxido de titanio",
+          "en": "titanium dioxide",
+          "aliases": [
+            "dióxido de titanio",
+            "titanium dioxide"
+          ]
+        },
+        {
+          "es": "azul 1 lake",
+          "en": "Blue 1 Lake",
+          "aliases": [
+            "azul 1 lake",
+            "Blue 1 Lake"
+          ]
+        },
+        {
+          "es": "amarillo 6",
+          "en": "Yellow 6",
+          "aliases": [
+            "amarillo 6",
+            "Yellow 6"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "Red 40",
+          "aliases": [
+            "rojo 40",
+            "Red 40"
+          ]
+        },
+        {
+          "es": "amarillo 5",
+          "en": "Yellow 5",
+          "aliases": [
+            "amarillo 5",
+            "Yellow 5"
+          ]
+        },
+        {
+          "es": "azul 1",
+          "en": "Blue 1",
+          "aliases": [
+            "azul 1",
+            "Blue 1"
+          ]
+        },
+        {
+          "es": "citrato de sodio",
+          "en": "sodium citrate",
+          "aliases": [
+            "citrato de sodio",
+            "sodium citrate"
+          ]
+        },
+        {
+          "es": "cera de carnauba",
+          "en": "carnauba wax",
+          "aliases": [
+            "cera de carnauba",
+            "carnauba wax"
+          ]
+        }
+      ],
+      "sourceId": "skittles-original-us",
+      "verification": "manufacturer_product_specification",
+      "status": "ready"
+    },
+    {
+      "id": "ulker-halley-turkey-30g",
+      "barcode": null,
+      "name": "Ülker Halley",
+      "nameI18n": {
+        "es": "Ülker Halley",
+        "en": "Ülker Halley"
+      },
+      "brand": "Ülker",
+      "country": "Turkey",
+      "market": "Turkey",
+      "region": "world",
+      "category": "chocolate_sandwich_cake",
+      "package": "30 g single pack",
+      "image": null,
+      "description": {
+        "es": "Galletita sándwich de cacao con marshmallow y cobertura de chocolate con leche.",
+        "en": "Cocoa sandwich biscuit with marshmallow and milk chocolate coating."
+      },
+      "ingredientsText": "Milk chocolate (sugar, cocoa butter, cocoa mass, whole milk powder, skimmed milk powder, emulsifiers: ammonium phosphatides, polyglycerol polyricinoleate, soy lecithin, flavouring, salt), wheat flour, marshmallow (sugar, invert sugar syrup, water, humectant sorbitol, beef gelatin, flavouring), palm oil, invert sugar syrup, sugar, raising agents (ammonium hydrogen carbonate, sodium hydrogen carbonate, disodium diphosphate), skimmed milk powder, salt, soy lecithin, egg, hazelnut, acidity regulator (citric acid), milk flavourings, flour treatment agent (sodium metabisulphite).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "pasta de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "fosfátidos de amonio",
+          "en": "ammonium phosphatides",
+          "aliases": [
+            "fosfátidos de amonio",
+            "ammonium phosphatides"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar invertido",
+          "en": "invert sugar syrup",
+          "aliases": [
+            "jarabe de azúcar invertido",
+            "invert sugar syrup"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "sorbitol",
+          "en": "sorbitol",
+          "aliases": [
+            "sorbitol",
+            "sorbitol"
+          ]
+        },
+        {
+          "es": "gelatina bovina",
+          "en": "beef gelatin",
+          "aliases": [
+            "gelatina bovina",
+            "beef gelatin"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium hydrogen carbonate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium hydrogen carbonate"
+          ]
+        },
+        {
+          "es": "difosfato disódico",
+          "en": "disodium diphosphate",
+          "aliases": [
+            "difosfato disódico",
+            "disodium diphosphate"
+          ]
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "aliases": [
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "avellana",
+          "en": "hazelnut",
+          "aliases": [
+            "avellana",
+            "hazelnut"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulphite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulphite"
+          ]
+        }
+      ],
+      "sourceId": "ulker-halley-turkey",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "marmite-yeast-extract-uk-250g",
+      "barcode": null,
+      "name": "Marmite Yeast Extract",
+      "nameI18n": {
+        "es": "Marmite extracto de levadura",
+        "en": "Marmite Yeast Extract"
+      },
+      "brand": "Marmite",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "yeast_spread",
+      "package": "250 g jar",
+      "image": null,
+      "description": {
+        "es": "Pasta salada de extracto de levadura enriquecida con vitaminas B.",
+        "en": "Savory yeast extract spread fortified with B vitamins."
+      },
+      "ingredientsText": "Yeast extract (contains barley, wheat, oats, rye), salt, vegetable juice concentrate, vitamins (thiamin, riboflavin, niacin, vitamin B12 and folic acid), natural flavouring (contains celery).",
+      "ingredients": [
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "cebada",
+          "en": "barley",
+          "aliases": [
+            "cebada",
+            "barley"
+          ]
+        },
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        },
+        {
+          "es": "avena",
+          "en": "oats",
+          "aliases": [
+            "avena",
+            "oats"
+          ]
+        },
+        {
+          "es": "centeno",
+          "en": "rye",
+          "aliases": [
+            "centeno",
+            "rye"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "concentrado de jugo de vegetales",
+          "en": "vegetable juice concentrate",
+          "aliases": [
+            "concentrado de jugo de vegetales",
+            "vegetable juice concentrate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamin",
+          "aliases": [
+            "tiamina",
+            "thiamin",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavouring",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavouring",
+            "natural flavoring"
+          ]
+        },
+        {
+          "es": "apio",
+          "en": "celery",
+          "aliases": [
+            "apio",
+            "celery"
+          ]
+        }
+      ],
+      "sourceId": "marmite-yeast-extract-uk",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "mcbaigs-pure-maple-syrup-canada",
+      "barcode": null,
+      "name": "Pure Canadian Maple Syrup",
+      "nameI18n": {
+        "es": "Jarabe de arce puro canadiense",
+        "en": "Pure Canadian Maple Syrup"
+      },
+      "brand": "McBaigs",
+      "country": "Canada",
+      "market": "Canada",
+      "region": "world",
+      "category": "maple_syrup",
+      "package": "Bottle size not specified on source page",
+      "image": null,
+      "description": {
+        "es": "Jarabe de arce canadiense 100% puro, sin ingredientes añadidos.",
+        "en": "100% pure Canadian maple syrup with no added ingredients."
+      },
+      "ingredientsText": "100% pure maple syrup.",
+      "ingredients": [
+        {
+          "es": "jarabe de arce",
+          "en": "maple syrup",
+          "aliases": [
+            "jarabe de arce",
+            "maple syrup",
+            "syrup"
+          ]
+        }
+      ],
+      "sourceId": "mcbaigs-maple-syrup-canada",
+      "verification": "manufacturer_website",
+      "status": "ready"
     }
   ]
 }
