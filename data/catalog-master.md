@@ -5701,61 +5701,56 @@ Soy sauce (water, soybeans, wheat, salt), sugar, wine, water, vinegar, salt, sod
 **Tipo / Type:** `manufacturer_website`  
 **Alcance / Supports:** Official Kikkoman USA product page identifies the 10 fl oz (296 ml) Teriyaki Marinade & Sauce and provides the ingredient list.
 
-### Pringles Sour Cream & Onion
+### Pringles Crema Agria y Cebolla / Pringles Sour Cream & Onion
 
 - **ID:** `pringles-sour-cream-onion-us-155g`
 - **Marca / Brand:** Pringles
-- **País / Country:** United States
-- **Mercado / Market:** United States
-- **Envase / Package:** 5.5 oz (155 g) can
+- **País / Country:** Spain
+- **Mercado / Market:** Spain
+- **Envase / Package:** 40 g pack
 - **Categoría / Category:** `potato_chips`
 - **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
-- **Descripción (ES):** Papas apilables sabor crema agria y cebolla, fórmula estadounidense.
-- **Description (EN):** Stackable sour cream and onion potato crisps, US formulation.
+- **Descripción (ES):** Papas apilables sabor crema agria y cebolla, fórmula comercializada en España.
+- **Description (EN):** Stackable sour cream and onion potato crisps, Spanish-market formulation.
 
 **Ingredientes declarados / Declared ingredients**
 
-Dried potatoes, vegetable oil (corn, cottonseed, canola, soybean and/or sunflower), degerminated yellow corn flour, cornstarch, rice flour, maltodextrin, mono- and diglycerides. Contains 2% or less of salt, whey, monosodium glutamate, onion powder, sugar, coconut oil, nonfat milk, sour cream (cream, nonfat milk, cultures), natural flavors, buttermilk, citric acid, cream, lactic acid, cultured nonfat milk, disodium inosinate, disodium guanylate, invert sugar, malic acid, yeast extract, wheat starch.
+Dried potatoes, sunflower oil, corn flour, wheat flour, rice flour, sour cream and onion seasoning (wheat starch, flavour enhancers {monosodium glutamate, disodium guanylate, disodium inosinate}, onion powder, dextrose, sunflower oil, salt, modified corn starch, milk flavourings, maltodextrin, sugar, sweet whey powder (milk), sour cream powder (milk), glucose syrup powder, acids (citric acid, malic acid), milk proteins), maltodextrin, emulsifier (E471), rapeseed oil, salt, colour (annatto norbixin).
 
-**Respuestas aceptadas / Accepted answers (31)**
+**Respuestas aceptadas / Accepted answers (26)**
 
 | Español | English | Alias / Aliases |
 |---|---|---|
 | papas deshidratadas | dried potatoes | papas deshidratadas, dried potatoes |
-| aceite de maíz | corn oil | aceite de maíz, corn oil |
-| aceite de algodón | cottonseed oil | aceite de algodón, cottonseed oil |
-| aceite de colza | canola oil | aceite de colza, canola oil, rapeseed oil |
-| aceite de soja | soybean oil | aceite de soja, soybean oil |
 | aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
-| harina de maíz amarillo | yellow corn flour | harina de maíz amarillo, yellow corn flour |
-| almidón de maíz | cornstarch | almidón de maíz, cornstarch, maize starch |
+| harina de maíz | corn flour | harina de maíz, corn flour, maize flour |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
 | harina de arroz | rice flour | harina de arroz, rice flour |
-| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
-| mono y diglicéridos | mono- and diglycerides | mono y diglicéridos, mono- and diglycerides, E471 |
-| sal | salt | sal, salt |
-| suero | whey | suero, whey |
-| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
-| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
-| azúcar | sugar | azúcar, sugar |
-| aceite de coco | coconut oil | aceite de coco, coconut oil |
-| leche descremada | nonfat milk | leche descremada, nonfat milk, skim milk |
-| crema | cream | crema, cream |
-| cultivos lácticos | cultures | cultivos lácticos, cultures, dairy cultures |
-| aromas naturales | natural flavors | aromas naturales, natural flavors, natural flavourings |
-| suero de mantequilla | buttermilk | suero de mantequilla, buttermilk |
-| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
-| ácido láctico | lactic acid | ácido láctico, lactic acid, E270 |
-| leche cultivada descremada | cultured nonfat milk | leche cultivada descremada, cultured nonfat milk |
-| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate, E631 |
-| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate, E627 |
-| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
-| ácido málico | malic acid | ácido málico, malic acid, E296 |
-| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
 | almidón de trigo | wheat starch | almidón de trigo, wheat starch |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate, E627 |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate, E631 |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| dextrosa | dextrose | dextrosa, dextrose |
+| sal | salt | sal, salt |
+| almidón de maíz modificado | modified corn starch | almidón de maíz modificado, modified corn starch, modified maize starch |
+| aromas de leche | milk flavourings | aromas de leche, milk flavourings, milk flavorings |
+| leche | milk | leche, milk |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| azúcar | sugar | azúcar, sugar |
+| suero de leche dulce en polvo | sweet whey powder | suero de leche dulce en polvo, sweet whey powder |
+| nata acidificada en polvo | sour cream powder | nata acidificada en polvo, sour cream powder |
+| jarabe de glucosa en polvo | glucose syrup powder | jarabe de glucosa en polvo, glucose syrup powder |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| ácido málico | malic acid | ácido málico, malic acid, E296 |
+| proteínas de leche | milk proteins | proteínas de leche, milk proteins |
+| emulsionante E471 | E471 emulsifier | emulsionante E471, E471 emulsifier, mono y diglicéridos |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| norbixina de achiote | annatto norbixin | norbixina de achiote, annatto norbixin, E160b |
 
-**Fuente / Source:** [Pringles US](https://www.pringles.com/en-us/products/pringles-sour-cream-onion-product.html)  
+**Fuente / Source:** [Pringles España](https://www.pringles.com/es/products/40g/pringles-sour-cream-and-onion-40g.html)  
 **Tipo / Type:** `manufacturer_website`  
-**Alcance / Supports:** Official Pringles US product page provides the US Sour Cream & Onion ingredient statement and a 5.5 oz pack nutrition panel.
+**Alcance / Supports:** Official Pringles Spain product page lists the 40 g Sour Cream and Onion product, its Spanish ingredient declaration and 40 g nutrition panel; precautionary may-contain soy excluded.
 
 ### Calbee Kappa Ebisen
 
