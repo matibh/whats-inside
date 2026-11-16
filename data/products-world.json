@@ -2293,7 +2293,7 @@
       "region": "world",
       "category": "tortilla_chips",
       "package": "1.4 oz (40 g) · school foodservice label",
-      "image": null,
+      "image": "https://drryor7280ntb.cloudfront.net/media/catalog/product/0/0/00028400443753_fm0tzjy2pgpj1kdz.jpg",
       "description": {
         "es": "Totopos sabor queso nacho · etiqueta estadounidense de foodservice escolar.",
         "en": "Nacho cheese tortilla chips · US school-foodservice label."
@@ -2596,7 +2596,8 @@
       "nameI18n": {
         "es": "Doritos sabor queso nacho",
         "en": "Doritos Nacho Cheese"
-      }
+      },
+      "imageSourceId": "image-doritos-nacho-cheese-us-foodservice-1-4oz"
     },
     {
       "id": "reeses-peanut-butter-cups-us-4-4oz",
@@ -10740,7 +10741,7 @@
       "region": "world",
       "category": "rice_crackers",
       "package": "122 g pack",
-      "image": null,
+      "image": "https://www.tastysnack.asia/cdn/shop/files/WantWant-ShelleySenbei_122g_365d7f98-0b27-4383-91ff-1de65d897116_1024x.png?v=1700399006",
       "description": {
         "es": "Galletitas de arroz senbei originales de Want Want, versión comercializada en Singapur.",
         "en": "Original Want Want senbei rice crackers, Singapore retail listing."
@@ -10818,7 +10819,8 @@
       ],
       "sourceId": "want-want-shelly-senbei",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-want-want-shelly-senbei-china-122g"
     },
     {
       "id": "skittles-original-us-61-5g",
@@ -11512,7 +11514,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "100 g pack (ingredient transcription; pack size varies by market)",
-      "image": null,
+      "image": "https://www.jiomart.com/images/product/600x600/491539619/parle-g-original-glucose-biscuits-100-g-product-images-o491539619-p491539619-1-202208121332.jpg",
       "description": {
         "es": "Clásicas galletitas dulces de trigo de la India, con leche y sabor a vainilla.",
         "en": "Classic Indian sweet wheat biscuits made with milk and vanilla flavour."
@@ -11659,7 +11661,8 @@
       ],
       "sourceId": "parle-g-biscuits-india",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-parle-g-biscuits-india"
     },
     {
       "id": "whittakers-peanut-slab-new-zealand-50g",
@@ -11761,7 +11764,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "500 g pack",
-      "image": null,
+      "image": "https://cdn.shopify.com/s/files/1/1900/6813/products/OUMA_Traditional_Rusks_500g_1024x1024.jpg?v=1610748507",
       "description": {
         "es": "Bizcochos secos sudafricanos tradicionales con suero de leche.",
         "en": "Traditional South African buttermilk rusks."
@@ -11868,7 +11871,8 @@
       ],
       "sourceId": "ouma-buttermilk-rusks-south-africa",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-ouma-buttermilk-rusks-south-africa-500g"
     },
     {
       "id": "mae-ploy-red-curry-paste-thailand-1kg",
@@ -12132,7 +12136,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "25 g sleeve (3 biscuits)",
-      "image": null,
+      "image": "https://cstatic.transgourmet.fr/tg-ecommerce/images/products/detail2/376311.jpg",
       "description": {
         "es": "Galletitas francesas de manteca tipo petit beurre.",
         "en": "French butter petit-beurre biscuits."
@@ -12219,7 +12223,8 @@
       ],
       "sourceId": "lu-petit-beurre-france",
       "verification": "manufacturer_technical_sheet",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lu-petit-beurre-france-25g"
     },
     {
       "id": "pocky-matcha-us-40g",
@@ -12899,7 +12904,7 @@
       "region": "world",
       "category": "chocolate_cookies",
       "package": "61 g box",
-      "image": null,
+      "image": "https://media.nedigital.sg/fairprice/90201057_XL1_20260129151713_bd42fa977237fe5b5675fe72c379c62b.jpg",
       "description": {
         "es": "Mini galletitas japonesas de trigo integral cubiertas con chocolate con leche.",
         "en": "Japanese mini whole-wheat biscuits topped with milk chocolate."
@@ -13033,7 +13038,8 @@
       ],
       "sourceId": "bourbon-alfort-mini-japan",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-bourbon-alfort-mini-chocolate-japan-61g"
     },
     {
       "id": "calpis-water-taiwan-australia-500ml",
@@ -13143,7 +13149,7 @@
       "region": "world",
       "category": "canned_beans",
       "package": "415 g can",
-      "image": null,
+      "image": "https://www.armstrongcountryfoods.com/cdn/shop/products/heinzbeans_640x.jpg?v=1609851988",
       "description": {
         "es": "Porotos blancos horneados en salsa de tomate, versión británica.",
         "en": "British baked white beans in tomato sauce."
@@ -13230,7 +13236,8 @@
       ],
       "sourceId": "heinz-baked-beanz-uk",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-heinz-baked-beanz-uk-415g"
     },
     {
       "id": "cadbury-lunch-bar-south-africa-48g",
@@ -13246,7 +13253,7 @@
       "region": "world",
       "category": "chocolate_bar",
       "package": "48 g bar (official page lists 23 g, 48 g and 62 g sizes)",
-      "image": null,
+      "image": "https://static.wixstatic.com/media/e0cac8_099a71d4080947248e782c589370e157~mv2.png/v1/fill/w_509%2Ch_509%2Cal_c%2Cq_85%2Cenc_avif%2Cquality_auto/e0cac8_099a71d4080947248e782c589370e157~mv2.png",
       "description": {
         "es": "Barra sudafricana con oblea, caramelo, maní y arroz crocante, cubierta de chocolate.",
         "en": "South African wafer bar with chewy caramel, peanuts and crisped rice, coated in chocolate."
@@ -13543,7 +13550,8 @@
       ],
       "sourceId": "cadbury-lunch-bar-south-africa",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-cadbury-lunch-bar-south-africa-48g"
     },
     {
       "id": "ajinomoto-gyoza-japan-276g",
