@@ -4166,3 +4166,81 @@ Yeast extract (contains barley, wheat, oats, rye), salt, vegetable juice concent
 **Alcance / Supports:** Producer page identifies the product as 100% pure Canadian maple syrup; no package size is claimed.
 
 ---
+
+
+---
+
+### Mayonesa japonesa KEWPIE / KEWPIE Japanese Mayonnaise
+
+- **ID:** `kewpie-japanese-mayonnaise-japan-450g`
+- **Marca / Brand:** KEWPIE
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 450 g bottle
+- **Categoría / Category:** `condiment_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Mayonesa japonesa cremosa elaborada con yema de huevo y una mezcla de vinagres.
+- **Description (EN):** Creamy Japanese mayonnaise made with egg yolks and a blend of vinegars.
+
+**Ingredientes declarados / Declared ingredients**
+
+Vegetable oil (canola oil, soybean oil), egg yolk, vinegar, salt, monosodium glutamate, spice, natural flavour.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| aceite de canola | canola oil | aceite de canola, canola oil |
+| aceite de soja | soybean oil | aceite de soja, soybean oil, aceite de soya, soy oil |
+| yema de huevo | egg yolk | yema de huevo, egg yolk, yema |
+| vinagre | vinegar | vinagre, vinegar |
+| sal | salt | sal, salt |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| especias | spice | especias, spice, especia |
+| aromatizante natural | natural flavour | aromatizante natural, natural flavour, natural flavor, saborizante natural |
+
+**Fuente / Source:** [KEWPIE official shop — Japanese-origin 450 g product](https://www.kewpieshop.com/products/kewpie-mayonnaise-450-g-product-of-japan)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official KEWPIE shop listing identifies the 450 g Japanese-origin product and gives its ingredient statement. This record does not use the separate US-made formulation.
+
+---
+
+### Galletitas Parle-G / Parle-G Biscuits
+
+- **ID:** `parle-g-biscuits-india-100g`
+- **Marca / Brand:** Parle
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** Pack size varies by market; ingredient transcription only
+- **Categoría / Category:** `plain_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Clásicas galletitas dulces de trigo de la India, con leche y sabor a vainilla.
+- **Description (EN):** Classic Indian sweet wheat biscuits made with milk and vanilla flavour.
+
+**Ingredientes declarados / Declared ingredients**
+
+Refined wheat flour (maida) 68%, sugar, refined palm oil, invert sugar syrup (sugar, citric acid), iodised salt, raising agents (INS 503(ii), INS 500(ii)), milk solids, flour treatment agent (INS 1101(i)), emulsifier of vegetable origin (INS 472e), added artificial vanilla flavour (dextrose/glucose, levulose/fructose).
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo refinada | refined wheat flour | harina de trigo refinada, refined wheat flour, maida, harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma refinado | refined palm oil | aceite de palma refinado, refined palm oil, aceite de palma, palm oil |
+| jarabe de azúcar invertido | invert sugar syrup | jarabe de azúcar invertido, invert sugar syrup |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| sal yodada | iodised salt | sal yodada, iodised salt, iodized salt, sal |
+| gasificante INS 503(ii) | raising agent INS 503(ii) | gasificante INS 503(ii), raising agent INS 503(ii), bicarbonato de amonio, ammonium bicarbonate, E503(ii) |
+| gasificante INS 500(ii) | raising agent INS 500(ii) | gasificante INS 500(ii), raising agent INS 500(ii), bicarbonato de sodio, sodium bicarbonate, E500(ii) |
+| sólidos lácteos | milk solids | sólidos lácteos, milk solids, leche en polvo, milk powder |
+| agente de tratamiento de harina INS 1101(i) | flour treatment agent INS 1101(i) | agente de tratamiento de harina INS 1101(i), flour treatment agent INS 1101(i), INS 1101(i) |
+| emulsionante INS 472e | emulsifier INS 472e | emulsionante INS 472e, emulsifier INS 472e, E472e, DATEM |
+| aromatizante artificial de vainilla | artificial vanilla flavour | aromatizante artificial de vainilla, artificial vanilla flavour, artificial vanilla flavor, vainilla |
+| dextrosa | dextrose | dextrosa, dextrose, glucosa, glucose |
+| levulosa | levulose | levulosa, levulose, fructosa, fructose |
+
+**Fuente / Source:** [Parle official brand page](https://www.parleproducts.com/brands/parle-g) · [Secondary pack transcription](https://halalscan.app/p/parle-g)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Parle's official page confirms the Parle-G product family; the detailed ingredient declaration is a secondary transcription of a retail pack. No single package weight is asserted because sizes vary.
