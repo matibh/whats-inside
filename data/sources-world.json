@@ -1342,6 +1342,78 @@
       "url": "https://www.walmart.com/ip/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall/13330713609",
       "supports": "Lotte Koala's March Chocolate Japan 48 g box product image.",
       "market": "Japan"
+    },
+    {
+      "id": "image-kraft-dinner-original-canada-200g",
+      "productId": "kraft-dinner-original-canada-200g",
+      "publisher": "eBay Canada",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.ebay.com/itm/404789694750",
+      "supports": "Kraft Dinner Original Canada 200 g box product image.",
+      "market": "Canada"
+    },
+    {
+      "id": "image-branston-original-pickle-uk-360g",
+      "productId": "branston-original-pickle-uk-360g",
+      "publisher": "Brit Superstore",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.britsuperstore.com/uk/browse-by-section/groceries/pickles/branston/branston-pickle-360g.html",
+      "supports": "Branston Original Pickle UK 360 g jar product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-lotus-biscoff-speculoos-belgium-250g",
+      "productId": "lotus-biscoff-speculoos-belgium-250g",
+      "publisher": "Baktotaal",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.baktotaal.nl/lotus-biscoff-speculoos-koekjes-250g",
+      "supports": "Lotus Biscoff Speculoos Belgium 250 g package image.",
+      "market": "Belgium"
+    },
+    {
+      "id": "image-monster-munch-pickled-onion-uk",
+      "productId": "monster-munch-pickled-onion-uk",
+      "publisher": "Walkers",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walkers.co.uk/products",
+      "supports": "Walkers Monster Munch Pickled Onion UK retail bag image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-cadbury-wispa-gold-uk-48g",
+      "productId": "cadbury-wispa-gold-uk-48g",
+      "publisher": "Iceland Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.iceland.co.uk/p/cadbury-wispa-gold-chocolate-bar-48g/86639.html",
+      "supports": "Cadbury Wispa Gold UK 48 g wrapper product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-haldiram-aloo-bhujia-india-400g",
+      "productId": "haldiram-aloo-bhujia-india-400g",
+      "publisher": "Shubham Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://shubhamfoods.co.uk/products/buy-haldiram-aloo-bhujia-400g-online-uk",
+      "supports": "Haldiram's Aloo Bhujia India 400 g bag product image.",
+      "market": "India"
+    },
+    {
+      "id": "image-mcvities-jaffa-cakes-uk-110g",
+      "productId": "mcvities-jaffa-cakes-uk-110g",
+      "publisher": "Brit Superstore",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.britsuperstore.com/uk/mcvities-jaffa-cakes-10-pack.html",
+      "supports": "McVitie's Jaffa Cakes UK 10-pack box product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-barilla-pesto-alla-genovese-italy-190g",
+      "productId": "barilla-pesto-alla-genovese-italy-190g",
+      "publisher": "London Food Hall",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g",
+      "supports": "Barilla Pesto alla Genovese 190 g jar product image.",
+      "market": "Latin America product page; made in Italy"
     }
   ],
   "lastUpdated": "2026-11-16"
