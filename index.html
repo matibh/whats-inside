@@ -168,12 +168,12 @@ async function loadProductCatalog(){
   dailyIndex=((epochDay-catalogStartDay)%playableProducts.length+playableProducts.length)%playableProducts.length;
   currentProduct=playableProducts[dailyIndex];
   ingredients=currentProduct.ingredients;
-  $('productName').textContent=currentProduct.name;
+  $('productName').textContent=currentProduct.nameI18n?.[lang]||currentProduct.name;
   const photo=$('productImage').parentElement;
   if(currentProduct.image){
    $('productImage').style.display='';
    $('productImage').src=currentProduct.image;
-   $('productImage').alt=currentProduct.name+' product package';
+   $('productImage').alt=(currentProduct.nameI18n?.[lang]||currentProduct.name)+' product package';
    $('productPlaceholder').style.display='none';
   }else{
    $('productImage').style.display='none';
