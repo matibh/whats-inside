@@ -993,7 +993,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "8.9 oz",
-      "image": null,
+      "image": "https://mojo.generalmills.com/api/public/content/qXISbTu6TrezkkuNB64u_A_04c57eea-66a2-45cd-a3f2-ecd27146a451_04c57eea-66a2-45cd-a3f2-ecd27146a451.png?v=583b15c0&t=04c57eea66a245cda3f2ecd27146a451",
       "description": {
         "es": "Cereal de avena integral tostada · versión estadounidense.",
         "en": "Toasted whole-grain oat cereal · US version."
@@ -1147,7 +1147,8 @@
       "nameI18n": {
         "es": "Cheerios Original",
         "en": "Original Cheerios"
-      }
+      },
+      "imageSourceId": "image-cheerios-original-us-8-9oz"
     },
     {
       "id": "froot-loops-us-13-2oz",
@@ -4593,7 +4594,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "1 cup · 75 g",
-      "image": null,
+      "image": "https://nongshimusa.com/html5/imgs/world_of_shin/shin_ramyun_cup.png",
       "description": {
         "es": "Fideos instantáneos picantes con caldo sabor carne, versión estadounidense en vaso.",
         "en": "Spicy instant noodles with beef-flavored broth, US cup version."
@@ -5011,7 +5012,8 @@
       ],
       "sourceId": "shin-ramyun-original-cup-us-75g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-shin-ramyun-original-cup-us-75g"
     },
     {
       "id": "oreo-vanilla-uk-154g",
@@ -5027,7 +5029,7 @@
       "region": "world",
       "category": "sandwich_cookies",
       "package": "154 g",
-      "image": null,
+      "image": "https://cdn.grocefully.com/storage/v1/object/public/images/sainsburys/7100916/01.jpeg",
       "description": {
         "es": "Galletitas sándwich de cacao y crema sabor vainilla, versión británica.",
         "en": "Cocoa sandwich biscuits with vanilla-flavoured filling, UK-market version."
@@ -5149,7 +5151,8 @@
       ],
       "sourceId": "oreo-vanilla-uk-154g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-oreo-vanilla-uk-154g"
     },
     {
       "id": "barilla-pesto-genovese-italy-190g",
@@ -6895,7 +6898,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "200 g",
-      "image": null,
+      "image": "https://www.parthenonfoods.com/cdn/shop/files/BahlsenLeibniz200g.png?v=1689958500",
       "description": {
         "es": "Galletitas alemanas clásicas de trigo y manteca, con 52 bordes dentados.",
         "en": "Classic German wheat and butter biscuits with 52 scalloped edges."
@@ -7009,7 +7012,8 @@
       ],
       "sourceId": "leibniz-original-butter-biscuits-germany-200g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-leibniz-original-butter-biscuits-germany-200g"
     },
     {
       "id": "britannia-good-day-butter-india-90g",
@@ -8005,7 +8009,7 @@
       "region": "world",
       "category": "canned_tomatoes",
       "package": "400 g can (common retail size; verify package)",
-      "image": null,
+      "image": "https://chedrauimx.vtexassets.com/arquivos/ids/65508295-800-auto?aspect=true&height=auto&v=639094768624870000&width=800",
       "description": {
         "es": "Tomate italiano finamente picado con su propio jugo y sal.",
         "en": "Finely chopped Italian tomatoes in their own juice with salt."
@@ -8031,7 +8035,8 @@
       ],
       "sourceId": "mutti-polpa-italy-400g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mutti-polpa-italy-400g"
     },
     {
       "id": "lotus-biscoff-spread-foodservice-8kg",
@@ -8833,7 +8838,7 @@
       "region": "world",
       "category": "fermented_drink",
       "package": "65 ml bottle",
-      "image": null,
+      "image": "https://www.costco.co.jp/medias/sys_master/images/hd1/hf7/414384885792798.jpg",
       "description": {
         "es": "Bebida láctea fermentada probiótica de la línea japonesa New Yakult.",
         "en": "Probiotic fermented milk drink from Japan's New Yakult line."
@@ -8877,7 +8882,8 @@
       ],
       "sourceId": "yakult-new-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-yakult-new-yakult-japan-65ml"
     },
     {
       "id": "nissin-cup-noodles-chicken-us-64g",
@@ -8893,7 +8899,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "64 g paper cup",
-      "image": null,
+      "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a3ef9456-084f-4e88-b69c-ef3859095498.jpg",
       "description": {
         "es": "Fideos instantáneos sabor pollo · fórmula estadounidense.",
         "en": "Chicken-flavored instant noodles · United States formula."
@@ -9227,7 +9233,8 @@
       ],
       "sourceId": "nissin-cup-noodles-chicken-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-nissin-cup-noodles-chicken-us-64g"
     },
     {
       "id": "oishi-prawn-crackers-philippines-original-24g",
@@ -9513,7 +9520,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "165 g canister",
-      "image": null,
+      "image": "https://discountdragon.co.uk/cdn/shop/files/pringles_paprika.png?v=1754653982",
       "description": {
         "es": "Snack de papa con condimento de pimentón · fórmula alemana.",
         "en": "Paprika-seasoned potato snack · German formula."
@@ -9719,7 +9726,8 @@
       ],
       "sourceId": "pringles-paprika-germany",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pringles-paprika-germany-165g"
     },
     {
       "id": "glico-tomato-pretz-japan-53g",
