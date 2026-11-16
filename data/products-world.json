@@ -9747,7 +9747,7 @@
       "region": "world",
       "category": "tomato_pretzels",
       "package": "53 g pack",
-      "image": null,
+      "image": "https://www.glico.com/assets/images/large/%E3%80%90%E7%AB%8B%E4%BD%93%E7%94%BB%E5%83%8F%E3%80%9153G_%EF%BE%84%EF%BE%8F%EF%BE%84%EF%BE%8C%EF%BE%9F%EF%BE%98%EF%BD%AF%EF%BE%82_20231204__1.jpg",
       "description": {
         "es": "Pretzels salados con tomate y vinagre de tomate · producto japonés.",
         "en": "Savory pretzel sticks with tomato and tomato vinegar · Japanese product."
@@ -9912,7 +9912,8 @@
       ],
       "sourceId": "glico-tomato-pretz-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-glico-tomato-pretz-japan-53g"
     },
     {
       "id": "milo-powder-australia-200g",
@@ -9928,7 +9929,7 @@
       "region": "world",
       "category": "malt_drink_powder",
       "package": "200 g pack",
-      "image": null,
+      "image": "https://australiansnacks.com/cdn/shop/files/Milo_Small_Tin.jpg?v=1778165221&width=1946",
       "description": {
         "es": "Preparado en polvo de malta y cacao · fórmula australiana.",
         "en": "Malted cocoa drink powder · Australian formula."
@@ -10068,7 +10069,8 @@
       ],
       "sourceId": "milo-powder-australia",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-milo-powder-australia-200g"
     },
     {
       "id": "chupa-chups-fruit-lollipops-spain-300g",
@@ -15313,7 +15315,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "1 kg foodservice pack (French product sheet)",
-      "image": null,
+      "image": "https://media.cdnws.com/_i/311030/5903/450/7/03.jpeg",
       "description": {
         "es": "Cereal de trigo integral con chocolate, según ficha de producto francesa.",
         "en": "Whole-wheat chocolate breakfast cereal, per a French product specification."
@@ -15521,7 +15523,8 @@
       ],
       "sourceId": "chocapic-cereal-france-1kg",
       "verification": "retailer_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-chocapic-cereal-france-1kg"
     },
     {
       "id": "lotus-biscoff-speculoos-belgium-250g",
@@ -16212,7 +16215,7 @@
       "region": "world",
       "category": "brown_sauce",
       "package": "255 g glass bottle",
-      "image": null,
+      "image": "https://boropantry.co.uk/cdn/shop/files/hp-sauce-original-255g-bottle.jpg?v=1772915542",
       "description": {
         "es": "Salsa marrón británica con tomate, dátiles y tamarindo.",
         "en": "British brown sauce with tomatoes, dates and tamarind."
@@ -16337,7 +16340,8 @@
       ],
       "sourceId": "hp-brown-sauce-uk-255g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-hp-brown-sauce-uk-255g"
     },
     {
       "id": "heinz-saucy-sauce-uk-415ml",
@@ -16944,7 +16948,7 @@
       "region": "world",
       "category": "gelatin_dessert",
       "package": "6 oz (170 g) pouch",
-      "image": null,
+      "image": "https://drryor7280ntb.cloudfront.net/media/catalog/product/1/0/10043000200510.jpg",
       "description": {
         "es": "Postre de gelatina sabor frutilla artificial, mezcla en polvo.",
         "en": "Artificially strawberry-flavoured powdered gelatin dessert mix."
@@ -17025,7 +17029,8 @@
       ],
       "sourceId": "jello-strawberry-gelatin-us-6oz",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-jello-strawberry-gelatin-us-6oz"
     },
     {
       "id": "kikkoman-teriyaki-marinade-us-296ml",
@@ -17041,7 +17046,7 @@
       "region": "world",
       "category": "teriyaki_sauce",
       "package": "10 fl oz (296 ml) bottle",
-      "image": null,
+      "image": "https://media.sobeys.com/original/754000000025700000000001396445_VOILA_dcf46b082fc1fdf7dfb132ab43b7ae4ad2bf5bbc.JPG",
       "description": {
         "es": "Salsa y marinada teriyaki estadounidense a base de salsa de soja, azúcar y vino.",
         "en": "US teriyaki marinade and sauce made with soy sauce, sugar and wine."
@@ -17152,7 +17157,8 @@
       ],
       "sourceId": "kikkoman-teriyaki-marinade-us-296ml",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-kikkoman-teriyaki-marinade-us-296ml"
     },
     {
       "id": "pringles-sour-cream-onion-spain-40g",
@@ -17168,7 +17174,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "40 g pack",
-      "image": null,
+      "image": "https://www.supermercadosruizgalan.es/documents/10180/204342/224128_G.jpg",
       "description": {
         "es": "Papas apilables sabor crema agria y cebolla, fórmula comercializada en España.",
         "en": "Stackable sour cream and onion potato crisps, Spanish-market formulation."
@@ -17398,7 +17404,8 @@
       ],
       "sourceId": "pringles-sour-cream-onion-spain-40g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pringles-sour-cream-onion-spain-40g"
     },
     {
       "id": "calbee-kappa-ebisen-japan-130g",
