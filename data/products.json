@@ -13,7 +13,7 @@
       "market": "Argentina",
       "category": "chocolate_spread",
       "package": "Presentación argentina; tamaño no especificado en fuente",
-      "image": null,
+      "image": "https://www.nutella.com/ar/sites/nutella20_ar/files/2023-06/350g_ok.jpg?t=1736508122",
       "description": {
         "en": "Hazelnut cocoa spread · Can you guess what's inside?",
         "es": "Crema de cacao y avellanas · ¿Qué ingredientes tiene?"
@@ -86,7 +86,8 @@
       "sourceId": "nutella-official",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-nutella-ar"
     },
     {
       "id": "chocolinas-ar-150g",
@@ -215,7 +216,7 @@
       "market": "Argentina",
       "category": "filled_cookies",
       "package": "118 g",
-      "image": null,
+      "image": "https://acdn-us.mitiendanube.com/stores/005/651/909/products/2-fc95c486f842f9a38417393881896337-1024-1024.webp",
       "description": {
         "en": "Chocolate sandwich cookies · What's inside?",
         "es": "Galletitas rellenas de chocolate · ¿Qué tienen?"
@@ -314,7 +315,8 @@
       "sourceId": "oreo-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-oreo-original-ar-118g"
     },
     {
       "id": "lays-clasicas-ar-40g",
@@ -325,7 +327,7 @@
       "market": "Argentina",
       "category": "potato_chips",
       "package": "40 g",
-      "image": null,
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/290186/Papas-Fritas-Lays-Cl-sicas-40g-1-45256.jpg?v=638246649691230000",
       "description": {
         "en": "Classic potato chips · Only a few ingredients?",
         "es": "Papas fritas clásicas · ¿Cuántos ingredientes tienen?"
@@ -360,7 +362,8 @@
       "sourceId": "lays-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-lays-clasicas-ar-40g"
     },
     {
       "id": "nesquik-cereal-ar-230g",
@@ -371,7 +374,7 @@
       "market": "Argentina",
       "category": "breakfast_cereal",
       "package": "230 g",
-      "image": null,
+      "image": "https://superlavioleta.com/cdn/shop/products/CEREAL_NESQUIK_230GRS.jpg?v=1751385753",
       "description": {
         "en": "Chocolate breakfast cereal · Name what's inside.",
         "es": "Cereal de chocolate · Nombrá sus ingredientes."
@@ -574,7 +577,8 @@
       "sourceId": "nesquik-vea",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-nesquik-cereal-ar-230g"
     },
     {
       "id": "coca-cola-original-ar",
@@ -656,7 +660,7 @@
       "market": "Argentina",
       "category": "soft_drink",
       "package": "Presentación argentina; tamaño no especificado",
-      "image": null,
+      "image": "https://www.coca-cola.com/content/dam/onexp/ar/es/sprite/productos/38881_ARG_BOTELLARENDER_928x928_V1.jpg",
       "description": {
         "en": "Lemon-lime soda · What's in the new formula?",
         "es": "Gaseosa lima-limón · ¿Qué tiene su fórmula?"
@@ -746,7 +750,8 @@
       "sourceId": "sprite-official",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-sprite-lima-limon-ar"
     },
     {
       "id": "la-serenisima-yogur-frutilla-bebible-1300g",
@@ -1261,7 +1266,7 @@
       "category": "milk_chocolate",
       "package": "55 g",
       "barcode": null,
-      "image": null,
+      "image": "https://f.fcdn.app/imgs/f94787/universobinario.com/ubinuy/1887/original/catalogo/7622210745224-001_1/1500-1500/tableta-de-chocolate-milka-de-leche-55g-001.jpg",
       "description": {
         "es": "Chocolate con leche · ¿Podés adivinar sus ingredientes?",
         "en": "Milk chocolate · Can you guess its ingredients?"
@@ -1364,7 +1369,8 @@
       "sourceId": "milka-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-milka-chocolate-leche-55g-ar"
     },
     {
       "id": "terrabusi-variedad-chocolate-310g",
@@ -1375,7 +1381,7 @@
       "category": "assorted_cookies",
       "package": "310 g",
       "barcode": null,
-      "image": null,
+      "image": "https://perobienargentino.com/cdn/shop/products/310chocolate_600x_62bfe6fc-e5da-4d6b-81a4-edeeb5c2f63a_1200x1200.jpg?v=1706303900",
       "description": {
         "es": "Galletitas surtidas · ¿Qué ingredientes reconocés?",
         "en": "Assorted cookies · Which ingredients can you name?"
@@ -1595,7 +1601,8 @@
       "sourceId": "terrabusi-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-terrabusi-variedad-chocolate-310g"
     },
     {
       "id": "jorgito-alfajor-choco-negro-55g",
@@ -2266,7 +2273,7 @@
       "category": "orange_soda",
       "package": "Presentación argentina; tamaño no especificado",
       "barcode": null,
-      "image": null,
+      "image": "https://www.coca-cola.com/content/dam/onexp/ar/es/fanta/fantanaranja1198x1198.jpg",
       "description": {
         "es": "Gaseosa de naranja · ¿Qué tiene la fórmula?",
         "en": "Orange soda · What's in the formula?"
@@ -2354,7 +2361,8 @@
       "sourceId": "fanta-ar",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-fanta-naranja-ar"
     },
     {
       "id": "fanta-pomelo-ar",
@@ -2365,7 +2373,7 @@
       "category": "grapefruit_soda",
       "package": "Presentación argentina; tamaño no especificado",
       "barcode": null,
-      "image": null,
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/881691/Gaseosa-Pomelo-600-Ml-Fanta-2-1040316.jpg?v=638919057906670000",
       "description": {
         "es": "Gaseosa de pomelo · Descubrí sus ingredientes.",
         "en": "Grapefruit soda · Discover its ingredients."
@@ -2435,7 +2443,8 @@
       "sourceId": "fanta-pomelo-ar",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-fanta-pomelo-ar"
     },
     {
       "id": "baggio-pronto-naranja-200ml",
@@ -2650,7 +2659,7 @@
       "market": "Argentina",
       "category": "chocolate_cookies",
       "package": "119 g",
-      "image": null,
+      "image": "https://f.fcdn.app/imgs/c87e7d/universobinario.com/ubinuy/31d8/original/catalogo/7622201735906-001_1/1500-1500/galletas-pepitos-754-con-chispas-de-chocolate-119gr-azul.jpg",
       "description": {
         "es": "Galletitas dulces con perlitas a base de cacao · ¿Qué ingredientes tienen?",
         "en": "Sweet cookies with cocoa-based chips · Can you guess what's inside?"
@@ -2821,7 +2830,8 @@
       "sourceId": "pepitos-jumbo-119",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-pepitos-chocolate-ar-119g"
     },
     {
       "id": "havanna-semilia-ar-55g",
@@ -3498,7 +3508,7 @@
       "market": "Argentina",
       "category": "chocolate_cookies",
       "package": "200 g",
-      "image": null,
+      "image": "https://acdn-us.mitiendanube.com/stores/093/780/products/galletitasdulcesmechaditosantamaria-d26606442eb02b488217505394380905-1024-1024.webp",
       "description": {
         "es": "Galletitas sin gluten con chips de chocolate.",
         "en": "Gluten-free cookies with chocolate chips."
@@ -3640,7 +3650,8 @@
       "sourceId": "santa-maria-mechaditas-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-santa-maria-mechaditas-ar-200g"
     }
   ]
 }
