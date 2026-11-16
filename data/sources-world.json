@@ -253,6 +253,96 @@
       "url": "https://www.paodeacucar.com/produto/444497/biscoito-recheio-chocolate-trakinas-126g",
       "supports": "Retailer ingredient transcription for Trakinas Chocolate 126 g; corroborated with IDEC label analysis (2020), formula may have changed.",
       "market": "Brazil"
+    },
+    {
+      "id": "sabritas-original-mexico-45g-source",
+      "productId": "sabritas-original-mexico-45g",
+      "publisher": "PepsiCo México",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.pepsico.com.mx/nuestro-impacto/sustentabilidad/sabritas-naturalidad",
+      "supports": "Official PepsiCo Mexico FAQ: Sabritas Original contains Mexican potatoes, oil and salt.",
+      "market": "Mexico"
+    },
+    {
+      "id": "ritter-sport-alpenmilch-germany-100g-source",
+      "productId": "ritter-sport-alpenmilch-germany-100g",
+      "publisher": "Alfred Ritter GmbH product specification (PDF hosted by retailer)",
+      "sourceType": "manufacturer_specification_via_retailer_pdf",
+      "url": "https://wietholt-shop.de/media/10/ff/1f/1768478784/ritter_sport_29188.pdf",
+      "supports": "Product specification for Alpenmilch 100 g; GTIN 4000417018007 and ingredient list. Precautionary traces excluded.",
+      "market": "Germany"
+    },
+    {
+      "id": "shin-ramyun-original-cup-us-75g-source",
+      "productId": "shin-ramyun-original-cup-us-75g",
+      "publisher": "Nongshim USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://nongshimusa.com/product-detail?pid=45",
+      "supports": "Official US Shin Ramyun Original Cup 75 g ingredient declaration. The page warns formulas can change; package remains definitive.",
+      "market": "United States"
+    },
+    {
+      "id": "oreo-vanilla-uk-154g-source",
+      "productId": "oreo-vanilla-uk-154g",
+      "publisher": "OREO UK / Mondelēz",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.oreo.co.uk/products/index.html?p=31197",
+      "supports": "Official UK product listing for OREO Vanilla 154 g; ingredients from product detail.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "barilla-pesto-genovese-italy-190g-source",
+      "productId": "barilla-pesto-genovese-italy-190g",
+      "publisher": "Barilla Italia",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.barilla.com/it-it/prodotti/pesti/pesti/pesto-alla-genovese",
+      "supports": "Official Italian Barilla Pesto alla Genovese 190 g ingredient list. Precautionary traces excluded.",
+      "market": "Italy"
+    },
+    {
+      "id": "tim-tam-original-australia-200g-source",
+      "productId": "tim-tam-original-australia-200g",
+      "publisher": "Woolworths Australia",
+      "sourceType": "retailer_product_label",
+      "url": "https://www.woolworths.com.au/shop/productdetails/36066/arnott-s-tim-tam-original-chocolate-biscuits",
+      "supports": "Australian retailer ingredient transcription for Arnott's Tim Tam Original 200 g; product stated made in Australia.",
+      "market": "Australia"
+    },
+    {
+      "id": "amul-dark-chocolate-india-150g-source",
+      "productId": "amul-dark-chocolate-india-150g",
+      "publisher": "Amul",
+      "sourceType": "manufacturer_website",
+      "url": "https://old.amul.com/products/amul-dark-chocolate-info.php",
+      "supports": "Official Amul Dark Chocolate composition and pack-size listing (150 g among available sizes).",
+      "market": "India"
+    },
+    {
+      "id": "orion-choco-pie-korea-468g-source",
+      "productId": "orion-choco-pie-korea-468g",
+      "publisher": "K-Food Label (Korea MFDS HACCP product-report label data)",
+      "sourceType": "government_label_database_via_specialist_index",
+      "url": "https://kfoodlabel.com/p/orion-choco-pie-4912/",
+      "supports": "Korean domestic Orion Choco Pie 468 g / barcode 880117534912. Page attributes source to Korean HACCP product-report data; ingredient names translated from Korean label.",
+      "market": "South Korea"
+    },
+    {
+      "id": "bonne-maman-strawberry-jam-france-370g-source",
+      "productId": "bonne-maman-strawberry-jam-france-370g",
+      "publisher": "Groupe Pomona product technical sheet",
+      "sourceType": "manufacturer_supplier_technical_sheet",
+      "url": "https://cdn.api.groupe-pomona.fr/public/products/0045259/branch/es/medias/confiture-extra-de-fraise-en-bocal-370-g-bonne-maman_0045259_es_technical.pdf",
+      "supports": "Technical sheet for Bonne Maman strawberry extra jam 370 g; transformation in France; ingredients listed. Supplier technical sheet, not the consumer-facing manufacturer page.",
+      "market": "France"
+    },
+    {
+      "id": "knorr-gemuse-bouillon-germany-1kg-source",
+      "productId": "knorr-gemuse-bouillon-germany-1kg",
+      "publisher": "Unilever Germany Food Solutions product data sheet (PDF hosted by retailer)",
+      "sourceType": "manufacturer_product_specification_via_distributor_pdf",
+      "url": "https://shop.tila-lachenmaier.de/files/downloads/Artikelpass4007801104681.pdf",
+      "supports": "Knorr Professional Gemüse Kraftbouillon 1 kg; GTIN 4007801104681; manufacturer Unilever Germany Food Solutions; product data sheet dated 14 Feb 2026.",
+      "market": "Germany"
     }
   ]
 }
