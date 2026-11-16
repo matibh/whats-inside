@@ -14618,7 +14618,7 @@
       "region": "world",
       "category": "instant_soup",
       "package": "152 g pack",
-      "image": null,
+      "image": "https://www.nikankitchen.com/Images/Products/marukome-instant-miso-soup-with-tofu--153g.png",
       "description": {
         "es": "Sopa instantánea japonesa de miso con tofu, wakame y cebolla de verdeo; sin gluten y sin MSG añadido.",
         "en": "Japanese instant miso soup with tofu, wakame and green onion; gluten-free and no added MSG."
@@ -14753,7 +14753,8 @@
       ],
       "sourceId": "marukome-ryotei-tofu-miso-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-marukome-ryotei-no-aji-tofu-vegetarian-152g"
     },
     {
       "id": "lotte-xylitol-cola-gum-japan-14pcs",
@@ -14769,7 +14770,7 @@
       "region": "world",
       "category": "chewing_gum",
       "package": "14-piece pack",
-      "image": null,
+      "image": "https://www.tajimaya-cc.net/upload/save_image/0000045990601.jpg",
       "description": {
         "es": "Chicle japonés sin azúcar sabor cola, endulzado con xilitol y maltitol.",
         "en": "Japanese sugar-free cola gum sweetened with xylitol and maltitol."
@@ -14888,7 +14889,8 @@
       ],
       "sourceId": "lotte-xylitol-cola-gum-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lotte-xylitol-cola-gum-japan-14pcs"
     },
     {
       "id": "branston-original-pickle-uk-360g",
@@ -17531,7 +17533,7 @@
       "region": "world",
       "category": "cheese_puffs",
       "package": "22.5 g individual pack (99 Calorie range)",
-      "image": null,
+      "image": "https://www.vendingwarehouse.co.uk/user/products/large/9fbce4af4eb775bd2196e47ac1fdfac8.jpg",
       "description": {
         "es": "Snack inflado de maíz con sabor a queso, horneado y vegetariano.",
         "en": "Baked vegetarian maize snack with a cheesy flavour."
@@ -17644,7 +17646,8 @@
       ],
       "sourceId": "walkers-wotsits-really-cheesy-uk-22g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-walkers-wotsits-really-cheesy-uk-22g"
     },
     {
       "id": "campbells-chicken-broth-latam-298ml",
@@ -17659,8 +17662,8 @@
       "market": "Latin America regional product page",
       "region": "world",
       "category": "chicken_broth",
-      "package": "Can; page does not specify net weight",
-      "image": null,
+      "package": "10.5 oz (298 g) can (image-matched)",
+      "image": "https://latorremx.vtexassets.com/arquivos/ids/175721/68661-frontal.jpg?v=637793363311170000",
       "description": {
         "es": "Caldo de pollo Campbell's con extracto de apio y proteína de soja.",
         "en": "Campbell's chicken broth with celery extract and soy protein."
@@ -17761,7 +17764,8 @@
       ],
       "sourceId": "campbells-chicken-broth-latam-298ml",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-campbells-chicken-broth-latam-298ml"
     },
     {
       "id": "gatorade-lemon-lime-us-828ml",
@@ -17777,7 +17781,7 @@
       "region": "world",
       "category": "sports_drink",
       "package": "28 fl oz (828 ml) bottle",
-      "image": null,
+      "image": "https://i5.walmartimages.com/asr/c6f7a672-cf82-45d9-832b-d1dc5cf7dbc9_1.011dd39082d2a776fb34ca124a867d73.jpeg",
       "description": {
         "es": "Bebida deportiva sabor lima-limón, fórmula estadounidense con colorante amarillo 5.",
         "en": "US lemon-lime sports drink with Yellow 5 colouring."
@@ -17883,7 +17887,8 @@
       ],
       "sourceId": "gatorade-lemon-lime-us-828ml",
       "verification": "manufacturer_specification_pdf",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-gatorade-lemon-lime-us-828ml"
     },
     {
       "id": "mms-peanut-butter-us-283oz",
