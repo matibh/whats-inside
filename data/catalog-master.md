@@ -3810,3 +3810,359 @@ Water, Sugar, Tomato paste (11.9%), Red chilli puree (6.6%), Iodized salt, Acidi
 **Alcance / Supports:** Retailer listing transcribes the ingredient declaration, identifies Nestlé India and a 200 g pack; manufacturer brand page confirms product identity but not full ingredients.
 
 ---
+### ColaCao Original / ColaCao Original
+
+- **ID:** `colacao-original-spain-383g`
+- **Marca / Brand:** ColaCao
+- **País / Country:** Spain
+- **Mercado / Market:** Spain
+- **Envase / Package:** 383 g tin
+- **Categoría / Category:** `malt_cocoa_powder`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Preparado español de cacao con cereal kola-malteado.
+- **Description (EN):** Spanish cocoa drink powder with malted kola cereal.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, natural defatted cocoa (22%), malted kola cereal cream (wheat flour, barley malt extract, natural flavour: cola nut extract), mineral salts (calcium, phosphorus), flavourings, salt.
+
+**Respuestas aceptadas / Accepted answers (10)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| cacao desgrasado natural | natural defatted cocoa | cacao desgrasado natural, natural defatted cocoa |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| extracto de malta de cebada | barley malt extract | extracto de malta de cebada, barley malt extract |
+| extracto de nuez de cola | cola nut extract | extracto de nuez de cola, cola nut extract |
+| sales minerales | mineral salts | sales minerales, mineral salts |
+| calcio | calcium | calcio, calcium |
+| fósforo | phosphorus | fósforo, phosphorus |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [Idilia Foods / ColaCao](https://colacao.es/productos/colacao-original)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official ColaCao Spain product page lists the 383 g format and ingredient declaration.
+
+---
+
+### Goya Frijoles Negros / Goya Black Beans
+
+- **ID:** `goya-black-beans-us-15-5oz`
+- **Marca / Brand:** Goya
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 15.5 oz can (also offered in other sizes)
+- **Categoría / Category:** `canned_beans`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Frijoles negros en conserva con agua y sal.
+- **Description (EN):** Canned black beans with water and salt.
+
+**Ingredientes declarados / Declared ingredients**
+
+Black beans, water, salt.
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| frijoles negros | black beans | frijoles negros, black beans |
+| agua | water | agua, water |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [Goya Foods](https://www.goya.com/en/products/black-beans-can/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Goya product page lists the 15.5 oz format among available sizes and gives the three-ingredient declaration.
+
+---
+
+### Calbee Jagabee natural / Calbee Jagabee Plain
+
+- **ID:** `calbee-jagabee-plain-japan-38g`
+- **Marca / Brand:** Calbee
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 38 g pack
+- **Categoría / Category:** `potato_snack`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bastones de papa sin sal añadida, versión natural japonesa.
+- **Description (EN):** Unseasoned Japanese potato sticks with no added salt.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potatoes (United States), vegetable oil, antioxidant (vitamin C).
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papas | potatoes | papas, potatoes |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| vitamina C | vitamin C | vitamina C, vitamin C, ascorbic acid |
+
+**Fuente / Source:** [Calbee Japan](https://www.calbee.co.jp/products/detail/?p=20250121145024)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Calbee Japan page lists the 38 g Plain product and its three-item ingredient declaration.
+
+---
+
+### Tajín Clásico / Tajín Clásico
+
+- **ID:** `tajin-clasico-mexico-142g`
+- **Marca / Brand:** Tajín
+- **País / Country:** Mexico
+- **Mercado / Market:** United States
+- **Envase / Package:** 5 oz bottle (also 14 oz and other sizes)
+- **Categoría / Category:** `seasoning_blend`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Condimento de chile, limón y sal marina.
+- **Description (EN):** Chili, lime and sea salt seasoning.
+
+**Ingredientes declarados / Declared ingredients**
+
+Mild chili peppers, lime, sea salt.
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| chiles suaves | mild chili peppers | chiles suaves, mild chili peppers, mild chile peppers |
+| limón | lime | limón, lime |
+| sal marina | sea salt | sal marina, sea salt |
+
+**Fuente / Source:** [Tajín USA](https://www.tajin.com/us/tajin-clasico-seasoning-new/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Tajín page lists the Clásico ingredient trio and available pack sizes.
+
+---
+
+### Want Want galletas de arroz con algas / Want Want Seaweed Rice Crackers
+
+- **ID:** `want-want-seaweed-rice-crackers-tw-102g`
+- **Marca / Brand:** Want Want
+- **País / Country:** Taiwan
+- **Mercado / Market:** Taiwan / China
+- **Envase / Package:** 102 g pack (also 136 g)
+- **Categoría / Category:** `rice_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_specification`
+- **Descripción (ES):** Galletas de arroz tipo senbei con tiras de alga.
+- **Description (EN):** Senbei-style rice crackers with seaweed strips.
+
+**Ingredientes declarados / Declared ingredients**
+
+Japonica rice, palm oil, seaweed strips.
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| arroz japónica | japonica rice | arroz japónica, japonica rice |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| tiras de alga | seaweed strips | tiras de alga, seaweed strips |
+
+**Fuente / Source:** [I Lan Foods / Taiwantrade product specification](https://wantwant.en.taiwantrade.com/product/seaweed-rice-crackers-202147.html)  
+**Tipo / Type:** `manufacturer_product_specification`  
+**Alcance / Supports:** Product specification identifies Want Want seaweed rice crackers, place of origin Taiwan/China, ingredient list and 102 g / 136 g pack sizes.
+
+---
+
+### Want Want Shelly Senbei Original / Want Want Shelly Senbei Original
+
+- **ID:** `want-want-shelly-senbei-china-122g`
+- **Marca / Brand:** Want Want
+- **País / Country:** China
+- **Mercado / Market:** Singapore retail pack
+- **Envase / Package:** 122 g pack
+- **Categoría / Category:** `rice_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas de arroz senbei originales de Want Want, versión comercializada en Singapur.
+- **Description (EN):** Original Want Want senbei rice crackers, Singapore retail listing.
+
+**Ingredientes declarados / Declared ingredients**
+
+Japonica rice, palm oil, sugar, salt, gelatin, flavour enhancer (monosodium glutamate / E621, disodium 5'-inosinate / E631, disodium 5'-guanylate / E627).
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| arroz japónica | japonica rice | arroz japónica, japonica rice |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| azúcar | sugar | azúcar, sugar |
+| sal | salt | sal, salt |
+| gelatina | gelatin | gelatina, gelatin |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| inosinato disódico | disodium 5'-inosinate | inosinato disódico, disodium 5'-inosinate, E631 |
+| guanilato disódico | disodium 5'-guanylate | guanilato disódico, disodium 5'-guanylate, E627 |
+
+**Fuente / Source:** [NTUC FairPrice (retailer label transcription)](https://www.fairprice.com.sg/product/want-want-shelly-senbei-rice-cracker-original-122g-420042)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Retailer product page gives 122 g pack, China origin and ingredient declaration; precautionary traces are excluded.
+
+---
+
+### SKITTLES Original / SKITTLES Original
+
+- **ID:** `skittles-original-us-61-5g`
+- **Marca / Brand:** Skittles
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 61.5 g single pack
+- **Categoría / Category:** `fruit_candy`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_specification`
+- **Descripción (ES):** Caramelos masticables frutales multicolor, fórmula estadounidense.
+- **Description (EN):** Colorful fruit-flavored chewy candy, United States formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, corn syrup, hydrogenated palm kernel oil; less than 2% of: citric acid, tapioca dextrin, modified corn starch, natural and artificial flavors, colors (Red 40 Lake, Yellow 5 Lake, Blue 2 Lake, Yellow 6 Lake, titanium dioxide, Blue 1 Lake, Yellow 6, Red 40, Yellow 5, Blue 1), sodium citrate, carnauba wax.
+
+**Respuestas aceptadas / Accepted answers (19)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
+| aceite de palmiste hidrogenado | hydrogenated palm kernel oil | aceite de palmiste hidrogenado, hydrogenated palm kernel oil |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| dextrina de tapioca | tapioca dextrin | dextrina de tapioca, tapioca dextrin |
+| almidón de maíz modificado | modified corn starch | almidón de maíz modificado, modified corn starch |
+| aromas naturales y artificiales | natural and artificial flavors | aromas naturales y artificiales, natural and artificial flavors, natural and artificial flavourings |
+| rojo 40 lake | Red 40 Lake | rojo 40 lake, Red 40 Lake |
+| amarillo 5 lake | Yellow 5 Lake | amarillo 5 lake, Yellow 5 Lake |
+| azul 2 lake | Blue 2 Lake | azul 2 lake, Blue 2 Lake |
+| amarillo 6 lake | Yellow 6 Lake | amarillo 6 lake, Yellow 6 Lake |
+| dióxido de titanio | titanium dioxide | dióxido de titanio, titanium dioxide |
+| azul 1 lake | Blue 1 Lake | azul 1 lake, Blue 1 Lake |
+| amarillo 6 | Yellow 6 | amarillo 6, Yellow 6 |
+| rojo 40 | Red 40 | rojo 40, Red 40 |
+| amarillo 5 | Yellow 5 | amarillo 5, Yellow 5 |
+| azul 1 | Blue 1 | azul 1, Blue 1 |
+| citrato de sodio | sodium citrate | citrato de sodio, sodium citrate |
+| cera de carnauba | carnauba wax | cera de carnauba, carnauba wax |
+
+**Fuente / Source:** [Mars Wrigley (manufacturer product specification)](https://www.webstaurantstore.com/documents/nutrition/mars_full_size_milk_chocolate_candy_bar_variety_pack_nutrition_information.pdf)  
+**Tipo / Type:** `manufacturer_product_specification`  
+**Alcance / Supports:** Mars Wrigley product specification PDF includes the SKITTLES Original ingredient statement and 61.5 g single pack; source is manufacturer documentation hosted by a foodservice retailer.
+
+---
+
+### Ülker Halley / Ülker Halley
+
+- **ID:** `ulker-halley-turkey-30g`
+- **Marca / Brand:** Ülker
+- **País / Country:** Turkey
+- **Mercado / Market:** Turkey
+- **Envase / Package:** 30 g single pack
+- **Categoría / Category:** `chocolate_sandwich_cake`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletita sándwich de cacao con marshmallow y cobertura de chocolate con leche.
+- **Description (EN):** Cocoa sandwich biscuit with marshmallow and milk chocolate coating.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk chocolate (sugar, cocoa butter, cocoa mass, whole milk powder, skimmed milk powder, emulsifiers: ammonium phosphatides, polyglycerol polyricinoleate, soy lecithin, flavouring, salt), wheat flour, marshmallow (sugar, invert sugar syrup, water, humectant sorbitol, beef gelatin, flavouring), palm oil, invert sugar syrup, sugar, raising agents (ammonium hydrogen carbonate, sodium hydrogen carbonate, disodium diphosphate), skimmed milk powder, salt, soy lecithin, egg, hazelnut, acidity regulator (citric acid), milk flavourings, flour treatment agent (sodium metabisulphite).
+
+**Respuestas aceptadas / Accepted answers (23)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| pasta de cacao | cocoa mass | pasta de cacao, cocoa mass |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| leche descremada en polvo | skimmed milk powder | leche descremada en polvo, skimmed milk powder |
+| fosfátidos de amonio | ammonium phosphatides | fosfátidos de amonio, ammonium phosphatides |
+| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+| sal | salt | sal, salt |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| jarabe de azúcar invertido | invert sugar syrup | jarabe de azúcar invertido, invert sugar syrup |
+| agua | water | agua, water |
+| sorbitol | sorbitol | sorbitol, sorbitol |
+| gelatina bovina | beef gelatin | gelatina bovina, beef gelatin |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| bicarbonato de amonio | ammonium hydrogen carbonate | bicarbonato de amonio, ammonium hydrogen carbonate |
+| bicarbonato de sodio | sodium hydrogen carbonate | bicarbonato de sodio, sodium hydrogen carbonate |
+| difosfato disódico | disodium diphosphate | difosfato disódico, disodium diphosphate |
+| huevo | egg | huevo, egg |
+| avellana | hazelnut | avellana, hazelnut |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| metabisulfito de sodio | sodium metabisulphite | metabisulfito de sodio, sodium metabisulphite |
+
+**Fuente / Source:** [Cepte Şok (retailer label transcription)](https://www.sokmarket.com.tr/ulker-halley-30-g-p-4650)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Retailer label transcription identifies 30 g pack, Turkish origin and the detailed ingredient declaration. Precautionary sesame traces are excluded.
+
+---
+
+### Marmite extracto de levadura / Marmite Yeast Extract
+
+- **ID:** `marmite-yeast-extract-uk-250g`
+- **Marca / Brand:** Marmite
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 250 g jar
+- **Categoría / Category:** `yeast_spread`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pasta salada de extracto de levadura enriquecida con vitaminas B.
+- **Description (EN):** Savory yeast extract spread fortified with B vitamins.
+
+**Ingredientes declarados / Declared ingredients**
+
+Yeast extract (contains barley, wheat, oats, rye), salt, vegetable juice concentrate, vitamins (thiamin, riboflavin, niacin, vitamin B12 and folic acid), natural flavouring (contains celery).
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| cebada | barley | cebada, barley |
+| trigo | wheat | trigo, wheat |
+| avena | oats | avena, oats |
+| centeno | rye | centeno, rye |
+| sal | salt | sal, salt |
+| concentrado de jugo de vegetales | vegetable juice concentrate | concentrado de jugo de vegetales, vegetable juice concentrate |
+| tiamina | thiamin | tiamina, thiamin, vitamin B1 |
+| riboflavina | riboflavin | riboflavina, riboflavin, vitamin B2 |
+| niacina | niacin | niacina, niacin, vitamin B3 |
+| vitamina B12 | vitamin B12 | vitamina B12, vitamin B12 |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| aromatizante natural | natural flavouring | aromatizante natural, natural flavouring, natural flavoring |
+| apio | celery | apio, celery |
+
+**Fuente / Source:** [Unilever UK / Marmite](https://www.unileverfoodsolutions.co.uk/product/null-1-EN-592258.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Unilever Food Solutions UK product page provides the Marmite ingredient declaration; 250 g retail format cross-checked against Tesco.
+
+---
+
+### Jarabe de arce puro canadiense / Pure Canadian Maple Syrup
+
+- **ID:** `mcbaigs-pure-maple-syrup-canada`
+- **Marca / Brand:** McBaigs
+- **País / Country:** Canada
+- **Mercado / Market:** Canada
+- **Envase / Package:** Bottle size not specified on source page
+- **Categoría / Category:** `maple_syrup`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Jarabe de arce canadiense 100% puro, sin ingredientes añadidos.
+- **Description (EN):** 100% pure Canadian maple syrup with no added ingredients.
+
+**Ingredientes declarados / Declared ingredients**
+
+100% pure maple syrup.
+
+**Respuestas aceptadas / Accepted answers (1)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| jarabe de arce | maple syrup | jarabe de arce, maple syrup, syrup |
+
+**Fuente / Source:** [McBaigs](https://www.mcbaigs.com/nutrition-fact/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Producer page identifies the product as 100% pure Canadian maple syrup; no package size is claimed.
+
+---
