@@ -4426,6 +4426,1474 @@
       "sourceId": "trakinas-chocolate-brazil-126g-source",
       "verification": "retailer_product_label",
       "status": "ready"
+    },
+    {
+      "id": "sabritas-original-mexico-45g",
+      "barcode": null,
+      "name": "Sabritas Original",
+      "nameI18n": {
+        "es": "Sabritas Original",
+        "en": "Sabritas Original"
+      },
+      "brand": "Sabritas",
+      "country": "Mexico",
+      "market": "Mexico",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "45 g (market pack reference)",
+      "image": null,
+      "description": {
+        "es": "Papas fritas clásicas mexicanas con solo tres ingredientes.",
+        "en": "Classic Mexican potato chips made with only three ingredients."
+      },
+      "ingredientsText": "Papas 100% mexicanas, aceite vegetal y sal.",
+      "ingredients": [
+        {
+          "es": "papas",
+          "en": "potatoes",
+          "aliases": [
+            "papas",
+            "potatoes"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "sabritas-original-mexico-45g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "ritter-sport-alpenmilch-germany-100g",
+      "barcode": "4000417018007",
+      "name": "Ritter Sport Alpine Milk",
+      "nameI18n": {
+        "es": "Ritter Sport Leche Alpina",
+        "en": "Ritter Sport Alpine Milk"
+      },
+      "brand": "Ritter Sport",
+      "country": "Germany",
+      "market": "Germany",
+      "region": "world",
+      "category": "milk_chocolate",
+      "package": "100 g",
+      "image": null,
+      "description": {
+        "es": "Chocolate con leche alpina y pasta de avellanas, versión alemana.",
+        "en": "Alpine milk chocolate with hazelnut paste, German-market version."
+      },
+      "ingredientsText": "Zucker, VollMILCHpulver (20 %), Kakaobutter, Kakaomasse, HASELNUSSmasse, Emulgator: Lecithine (SOJA).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "pasta de avellanas",
+          "en": "hazelnut paste",
+          "aliases": [
+            "pasta de avellanas",
+            "hazelnut paste"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        }
+      ],
+      "sourceId": "ritter-sport-alpenmilch-germany-100g-source",
+      "verification": "manufacturer_specification_via_retailer_pdf",
+      "status": "ready"
+    },
+    {
+      "id": "shin-ramyun-original-cup-us-75g",
+      "barcode": null,
+      "name": "Shin Ramyun Original Cup",
+      "nameI18n": {
+        "es": "Shin Ramyun Original en vaso",
+        "en": "Shin Ramyun Original Cup"
+      },
+      "brand": "Nongshim",
+      "country": "South Korea",
+      "market": "United States",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "1 cup · 75 g",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos picantes con caldo sabor carne, versión estadounidense en vaso.",
+        "en": "Spicy instant noodles with beef-flavored broth, US cup version."
+      },
+      "ingredientsText": "ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), POTATO STARCH, PALM OIL, MODIFIED POTATO STARCH, DRIED FLAKES [CARROT (CARROT, DEXTROSE), MUSHROOM, GREEN ONION, RED CHILI PEPPER], SALT, CONTAINS LESS THAN 2% OF: ARTIFICIAL FLAVOR, BEEF BONE EXTRACT, BEEF FAT, BLACK PEPPER, CITRIC ACID, CORN SYRUP, DEXTROSE, DISODIUM GUANYLATE, DISODIUM INOSINATE, DISODIUM SUCCINATE, FLAVOR ENHANCER (MALTODEXTRIN, DEXTROSE, GLYCINE, SODIUM PHOSPHATE TRIBASIC, D-XYLOSE), GARLIC, GLYCERIN, GUM ARABIC, HYDROLYZED CORN PROTEIN, HYDROLYZED SOY PROTEIN, HYDROLYZED WHEAT PROTEIN, MALTODEXTRIN, MONOSODIUM GLUTAMATE, MUSHROOM, NATURAL FLAVORS (CONTAINS SESAME), ONION, POTASSIUM CARBONATE, RED CHILI PEPPER, RIBOFLAVIN (COLOR), RICE FLOUR, SODIUM CARBONATE, SODIUM PHOSPHATES, SOY LECITHIN, SOYBEAN PASTE (SOY, WHEAT, SALT), SOYBEAN SPROUT EXTRACT, SUGAR, TOCOPHEROLS (ANTIOXIDANT), VEGETABLE MIXTURE (ONION, CORN SYRUP, CABBAGE, SPINACH, PUMPKIN, CARROT, TOMATO PASTE), WHEAT STARCH, YEAST EXTRACT, YELLOW CORN FLOUR.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamine mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamine mononitrate"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "almidón de papa",
+          "en": "potato starch",
+          "aliases": [
+            "almidón de papa",
+            "potato starch"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "almidón de papa modificado",
+          "en": "modified potato starch",
+          "aliases": [
+            "almidón de papa modificado",
+            "modified potato starch"
+          ]
+        },
+        {
+          "es": "zanahoria",
+          "en": "carrot",
+          "aliases": [
+            "zanahoria",
+            "carrot"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "champiñones",
+          "en": "mushrooms",
+          "aliases": [
+            "champiñones",
+            "mushrooms"
+          ]
+        },
+        {
+          "es": "cebolla de verdeo",
+          "en": "green onion",
+          "aliases": [
+            "cebolla de verdeo",
+            "green onion"
+          ]
+        },
+        {
+          "es": "chile rojo",
+          "en": "red chili pepper",
+          "aliases": [
+            "chile rojo",
+            "red chili pepper"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sabor artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "sabor artificial",
+            "artificial flavor"
+          ]
+        },
+        {
+          "es": "extracto de hueso de res",
+          "en": "beef bone extract",
+          "aliases": [
+            "extracto de hueso de res",
+            "beef bone extract"
+          ]
+        },
+        {
+          "es": "grasa vacuna",
+          "en": "beef fat",
+          "aliases": [
+            "grasa vacuna",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "pimienta negra",
+          "en": "black pepper",
+          "aliases": [
+            "pimienta negra",
+            "black pepper"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "succinato disódico",
+          "en": "disodium succinate",
+          "aliases": [
+            "succinato disódico",
+            "disodium succinate"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "glicina",
+          "en": "glycine",
+          "aliases": [
+            "glicina",
+            "glycine"
+          ]
+        },
+        {
+          "es": "fosfato trisódico",
+          "en": "sodium phosphate tribasic",
+          "aliases": [
+            "fosfato trisódico",
+            "sodium phosphate tribasic"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "glicerina",
+          "en": "glycerin",
+          "aliases": [
+            "glicerina",
+            "glycerin"
+          ]
+        },
+        {
+          "es": "goma arábiga",
+          "en": "gum arabic",
+          "aliases": [
+            "goma arábiga",
+            "gum arabic"
+          ]
+        },
+        {
+          "es": "proteína de maíz hidrolizada",
+          "en": "hydrolyzed corn protein",
+          "aliases": [
+            "proteína de maíz hidrolizada",
+            "hydrolyzed corn protein"
+          ]
+        },
+        {
+          "es": "proteína de soja hidrolizada",
+          "en": "hydrolyzed soy protein",
+          "aliases": [
+            "proteína de soja hidrolizada",
+            "hydrolyzed soy protein"
+          ]
+        },
+        {
+          "es": "proteína de trigo hidrolizada",
+          "en": "hydrolyzed wheat protein",
+          "aliases": [
+            "proteína de trigo hidrolizada",
+            "hydrolyzed wheat protein"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate"
+          ]
+        },
+        {
+          "es": "sabores naturales",
+          "en": "natural flavors",
+          "aliases": [
+            "sabores naturales",
+            "natural flavors"
+          ]
+        },
+        {
+          "es": "carbonato de potasio",
+          "en": "potassium carbonate",
+          "aliases": [
+            "carbonato de potasio",
+            "potassium carbonate"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "fosfatos de sodio",
+          "en": "sodium phosphates",
+          "aliases": [
+            "fosfatos de sodio",
+            "sodium phosphates"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "pasta de soja",
+          "en": "soybean paste",
+          "aliases": [
+            "pasta de soja",
+            "soybean paste"
+          ]
+        },
+        {
+          "es": "extracto de brotes de soja",
+          "en": "soybean sprout extract",
+          "aliases": [
+            "extracto de brotes de soja",
+            "soybean sprout extract"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "tocoferoles",
+          "en": "tocopherols",
+          "aliases": [
+            "tocoferoles",
+            "tocopherols"
+          ]
+        },
+        {
+          "es": "repollo",
+          "en": "cabbage",
+          "aliases": [
+            "repollo",
+            "cabbage"
+          ]
+        },
+        {
+          "es": "espinaca",
+          "en": "spinach",
+          "aliases": [
+            "espinaca",
+            "spinach"
+          ]
+        },
+        {
+          "es": "calabaza",
+          "en": "pumpkin",
+          "aliases": [
+            "calabaza",
+            "pumpkin"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "almidón de trigo",
+          "en": "wheat starch",
+          "aliases": [
+            "almidón de trigo",
+            "wheat starch"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "harina de maíz amarillo",
+          "en": "yellow corn flour",
+          "aliases": [
+            "harina de maíz amarillo",
+            "yellow corn flour"
+          ]
+        }
+      ],
+      "sourceId": "shin-ramyun-original-cup-us-75g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "oreo-vanilla-uk-154g",
+      "barcode": null,
+      "name": "OREO Vanilla 154 g",
+      "nameI18n": {
+        "es": "OREO Vainilla 154 g",
+        "en": "OREO Vanilla 154 g"
+      },
+      "brand": "Mondelēz",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "sandwich_cookies",
+      "package": "154 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas sándwich de cacao y crema sabor vainilla, versión británica.",
+        "en": "Cocoa sandwich biscuits with vanilla-flavoured filling, UK-market version."
+      },
+      "ingredientsText": "WHEAT flour, sugar, palm oil, rapeseed oil, fat reduced cocoa powder (4.3%), WHEAT starch, glucose-fructose syrup, raising agents (ammonium carbonates, potassium carbonates, sodium carbonates), salt, emulsifier (SOYA lecithins), acidity regulator (sodium hydroxide), flavouring.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil"
+          ]
+        },
+        {
+          "es": "cacao bajo en grasa",
+          "en": "fat-reduced cocoa",
+          "aliases": [
+            "cacao bajo en grasa",
+            "fat-reduced cocoa"
+          ]
+        },
+        {
+          "es": "almidón de trigo",
+          "en": "wheat starch",
+          "aliases": [
+            "almidón de trigo",
+            "wheat starch"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa y fructosa",
+          "en": "glucose-fructose syrup",
+          "aliases": [
+            "jarabe de glucosa y fructosa",
+            "glucose-fructose syrup"
+          ]
+        },
+        {
+          "es": "carbonato de amonio",
+          "en": "ammonium carbonate",
+          "aliases": [
+            "carbonato de amonio",
+            "ammonium carbonate"
+          ]
+        },
+        {
+          "es": "carbonato de potasio",
+          "en": "potassium carbonate",
+          "aliases": [
+            "carbonato de potasio",
+            "potassium carbonate"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "hidróxido de sodio",
+          "en": "sodium hydroxide",
+          "aliases": [
+            "hidróxido de sodio",
+            "sodium hydroxide"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring"
+          ]
+        }
+      ],
+      "sourceId": "oreo-vanilla-uk-154g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "barilla-pesto-genovese-italy-190g",
+      "barcode": null,
+      "name": "Barilla Pesto alla Genovese",
+      "nameI18n": {
+        "es": "Barilla Pesto alla Genovese",
+        "en": "Barilla Pesto alla Genovese"
+      },
+      "brand": "Barilla",
+      "country": "Italy",
+      "market": "Italy",
+      "region": "world",
+      "category": "pasta_sauce",
+      "package": "190 g",
+      "image": null,
+      "description": {
+        "es": "Salsa pesto italiana con albahaca fresca, anacardos y Parmigiano Reggiano.",
+        "en": "Italian pesto sauce with fresh basil, cashews and Parmigiano Reggiano."
+      },
+      "ingredientsText": "Olio di girasole, basilico fresco 30%, ANACARDI, Parmigiano Reggiano DOP 5% (LATTE), fibra di mais, siero di LATTE in polvere, sale, proteine del LATTE, olio extra vergine di oliva, zucchero, estratto di basilico, aromi naturali (LATTE), correttore di acidità: acido lattico, aglio.",
+      "ingredients": [
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "albahaca fresca",
+          "en": "fresh basil",
+          "aliases": [
+            "albahaca fresca",
+            "fresh basil"
+          ]
+        },
+        {
+          "es": "anacardos",
+          "en": "cashews",
+          "aliases": [
+            "anacardos",
+            "cashews"
+          ]
+        },
+        {
+          "es": "queso Parmigiano Reggiano",
+          "en": "Parmigiano Reggiano cheese",
+          "aliases": [
+            "queso Parmigiano Reggiano",
+            "Parmigiano Reggiano cheese"
+          ]
+        },
+        {
+          "es": "fibra de maíz",
+          "en": "maize fibre",
+          "aliases": [
+            "fibra de maíz",
+            "maize fibre"
+          ]
+        },
+        {
+          "es": "suero de leche en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero de leche en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "proteínas de leche",
+          "en": "milk protein",
+          "aliases": [
+            "proteínas de leche",
+            "milk protein"
+          ]
+        },
+        {
+          "es": "aceite de oliva virgen extra",
+          "en": "extra virgin olive oil",
+          "aliases": [
+            "aceite de oliva virgen extra",
+            "extra virgin olive oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "extracto de albahaca",
+          "en": "basil extract",
+          "aliases": [
+            "extracto de albahaca",
+            "basil extract"
+          ]
+        },
+        {
+          "es": "aromas naturales",
+          "en": "natural flavourings",
+          "aliases": [
+            "aromas naturales",
+            "natural flavourings"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        }
+      ],
+      "sourceId": "barilla-pesto-genovese-italy-190g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "tim-tam-original-australia-200g",
+      "barcode": null,
+      "name": "Arnott's Tim Tam Original 200 g",
+      "nameI18n": {
+        "es": "Arnott's Tim Tam Original 200 g",
+        "en": "Arnott's Tim Tam Original 200 g"
+      },
+      "brand": "Arnott's",
+      "country": "Australia",
+      "market": "Australia",
+      "region": "world",
+      "category": "chocolate_cookies",
+      "package": "200 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas australianas de chocolate con cobertura de chocolate con leche.",
+        "en": "Australian chocolate biscuits coated in milk chocolate."
+      },
+      "ingredientsText": "Milk Chocolate (38%) (Sugar, Milk Solids, Cocoa Butter, Cocoa Mass, Vegetable Oil, Emulsifiers (Soy Lecithin, E476), Flavour), Wheat Flour, Sugar, Vegetable Oil (Emulsifier (Soy Lecithin), Antioxidant (E307b From Soy)), Golden Syrup, Food Colours (Caramel III, Beet Red, Cochineal, Annatto), Wheat Starch, Cocoa Powder, Salt, Baking Powder, Emulsifier (Soy Lecithin), Flavour.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sólidos de leche",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos de leche",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "emulsionante E476",
+          "en": "emulsifier E476",
+          "aliases": [
+            "emulsionante E476",
+            "emulsifier E476"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavour",
+          "aliases": [
+            "saborizante",
+            "flavour"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "jarabe dorado",
+          "en": "golden syrup",
+          "aliases": [
+            "jarabe dorado",
+            "golden syrup"
+          ]
+        },
+        {
+          "es": "caramelo III",
+          "en": "caramel III",
+          "aliases": [
+            "caramelo III",
+            "caramel III"
+          ]
+        },
+        {
+          "es": "rojo de remolacha",
+          "en": "beet red",
+          "aliases": [
+            "rojo de remolacha",
+            "beet red"
+          ]
+        },
+        {
+          "es": "carmín",
+          "en": "cochineal",
+          "aliases": [
+            "carmín",
+            "cochineal"
+          ]
+        },
+        {
+          "es": "achiote",
+          "en": "annatto",
+          "aliases": [
+            "achiote",
+            "annatto"
+          ]
+        },
+        {
+          "es": "almidón de trigo",
+          "en": "wheat starch",
+          "aliases": [
+            "almidón de trigo",
+            "wheat starch"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "polvo de hornear",
+          "en": "baking powder",
+          "aliases": [
+            "polvo de hornear",
+            "baking powder"
+          ]
+        },
+        {
+          "es": "antioxidante E307b",
+          "en": "antioxidant E307b",
+          "aliases": [
+            "antioxidante E307b",
+            "antioxidant E307b"
+          ]
+        }
+      ],
+      "sourceId": "tim-tam-original-australia-200g-source",
+      "verification": "retailer_product_label",
+      "status": "ready"
+    },
+    {
+      "id": "amul-dark-chocolate-india-150g",
+      "barcode": null,
+      "name": "Amul Dark Chocolate",
+      "nameI18n": {
+        "es": "Chocolate Amul Dark",
+        "en": "Amul Dark Chocolate"
+      },
+      "brand": "Amul",
+      "country": "India",
+      "market": "India",
+      "region": "world",
+      "category": "dark_chocolate",
+      "package": "150 g",
+      "image": null,
+      "description": {
+        "es": "Chocolate amargo indio con 55% de cacao, sin sólidos lácteos.",
+        "en": "Indian dark chocolate with 55% cocoa and no milk solids."
+      },
+      "ingredientsText": "Sugar, Cocoa Solids, Cocoa Butter, Permitted Emulsifiers (E322, E476). Contains Added Flavours (Artificial Flavouring Substances - Cocoa and Vanilla).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sólidos de cacao",
+          "en": "cocoa solids",
+          "aliases": [
+            "sólidos de cacao",
+            "cocoa solids"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "emulsionante E322",
+          "en": "emulsifier E322",
+          "aliases": [
+            "emulsionante E322",
+            "emulsifier E322"
+          ]
+        },
+        {
+          "es": "emulsionante E476",
+          "en": "emulsifier E476",
+          "aliases": [
+            "emulsionante E476",
+            "emulsifier E476"
+          ]
+        },
+        {
+          "es": "saborizante artificial de cacao",
+          "en": "artificial cocoa flavouring",
+          "aliases": [
+            "saborizante artificial de cacao",
+            "artificial cocoa flavouring"
+          ]
+        },
+        {
+          "es": "saborizante artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "saborizante artificial de vainilla",
+            "artificial vanilla flavouring"
+          ]
+        }
+      ],
+      "sourceId": "amul-dark-chocolate-india-150g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "orion-choco-pie-korea-468g",
+      "barcode": "880117534912",
+      "name": "Orion Choco Pie",
+      "nameI18n": {
+        "es": "Orion Choco Pie",
+        "en": "Orion Choco Pie"
+      },
+      "brand": "Orion",
+      "country": "South Korea",
+      "market": "South Korea",
+      "region": "world",
+      "category": "snack_cake",
+      "package": "468 g box",
+      "image": null,
+      "description": {
+        "es": "Pastelito coreano con relleno de malvavisco y cobertura de cacao.",
+        "en": "Korean snack cake with marshmallow filling and cocoa coating."
+      },
+      "ingredientsText": "밀가루, 백설탕, 물엿, 쇼트닝, 식물성유지, 코코아프리퍼레이션, 코코아분말, 산도조절제, 포도당, 젤라틴, 전란액, 식염, 코코아매스, 합성향료, 혼합제제(유화제, 산도조절제, 아라비아검), 잔탄검, 유화제.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de almidón",
+          "en": "starch syrup",
+          "aliases": [
+            "jarabe de almidón",
+            "starch syrup"
+          ]
+        },
+        {
+          "es": "shortening",
+          "en": "shortening",
+          "aliases": [
+            "shortening",
+            "shortening"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "preparado de cacao",
+          "en": "cocoa preparation",
+          "aliases": [
+            "preparado de cacao",
+            "cocoa preparation"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "regulador de acidez",
+          "en": "acidity regulator",
+          "aliases": [
+            "regulador de acidez",
+            "acidity regulator"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "huevo entero líquido",
+          "en": "liquid whole egg",
+          "aliases": [
+            "huevo entero líquido",
+            "liquid whole egg"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavor"
+          ]
+        },
+        {
+          "es": "emulsionante",
+          "en": "emulsifier",
+          "aliases": [
+            "emulsionante",
+            "emulsifier"
+          ]
+        },
+        {
+          "es": "goma arábiga",
+          "en": "gum arabic",
+          "aliases": [
+            "goma arábiga",
+            "gum arabic"
+          ]
+        },
+        {
+          "es": "goma xantana",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xantana",
+            "xanthan gum"
+          ]
+        }
+      ],
+      "sourceId": "orion-choco-pie-korea-468g-source",
+      "verification": "government_label_database_via_specialist_index",
+      "status": "ready"
+    },
+    {
+      "id": "bonne-maman-strawberry-jam-france-370g",
+      "barcode": null,
+      "name": "Bonne Maman Strawberry Extra Jam",
+      "nameI18n": {
+        "es": "Bonne Maman Mermelada Extra de Frutilla",
+        "en": "Bonne Maman Strawberry Extra Jam"
+      },
+      "brand": "Bonne Maman",
+      "country": "France",
+      "market": "France",
+      "region": "world",
+      "category": "fruit_jam",
+      "package": "370 g jar",
+      "image": null,
+      "description": {
+        "es": "Mermelada extra francesa de frutillas con azúcar y jugo de limón.",
+        "en": "French extra strawberry jam with sugar and lemon juice."
+      },
+      "ingredientsText": "Fraises, sucre, sucre roux de canne, jus de citrons concentré, gélifiant : pectines de fruits.",
+      "ingredients": [
+        {
+          "es": "frutillas",
+          "en": "strawberries",
+          "aliases": [
+            "frutillas",
+            "strawberries"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "azúcar rubia de caña",
+          "en": "brown cane sugar",
+          "aliases": [
+            "azúcar rubia de caña",
+            "brown cane sugar"
+          ]
+        },
+        {
+          "es": "jugo concentrado de limón",
+          "en": "concentrated lemon juice",
+          "aliases": [
+            "jugo concentrado de limón",
+            "concentrated lemon juice"
+          ]
+        },
+        {
+          "es": "pectinas de frutas",
+          "en": "fruit pectins",
+          "aliases": [
+            "pectinas de frutas",
+            "fruit pectins"
+          ]
+        }
+      ],
+      "sourceId": "bonne-maman-strawberry-jam-france-370g-source",
+      "verification": "manufacturer_supplier_technical_sheet",
+      "status": "ready"
+    },
+    {
+      "id": "knorr-gemuse-bouillon-germany-1kg",
+      "barcode": "4007801104681",
+      "name": "Knorr Professional Vegetable Bouillon",
+      "nameI18n": {
+        "es": "Knorr Professional Caldo de Verduras",
+        "en": "Knorr Professional Vegetable Bouillon"
+      },
+      "brand": "Knorr",
+      "country": "Germany",
+      "market": "Germany",
+      "region": "world",
+      "category": "bouillon",
+      "package": "1 kg professional pack",
+      "image": null,
+      "description": {
+        "es": "Caldo concentrado alemán de verduras con extracto de levadura y hortalizas.",
+        "en": "German concentrated vegetable bouillon with yeast extract and vegetables."
+      },
+      "ingredientsText": "Speisesalz, Hefeextrakt, Maltodextrin, Kaliumchlorid, Zucker, Zwiebeln (4,4%), Stärke, Lauch (2,7%), Pastinakenpulver (2,4%), Petersilienwurzelpulver (1,7%), Säuerungsmittel: Citronensäure, Karotten (0,5%), Kräuter, Gewürze, Kürbispulver (0,3%).",
+      "ingredients": [
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "cloruro de potasio",
+          "en": "potassium chloride",
+          "aliases": [
+            "cloruro de potasio",
+            "potassium chloride"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "puerro",
+          "en": "leek",
+          "aliases": [
+            "puerro",
+            "leek"
+          ]
+        },
+        {
+          "es": "polvo de chirivía",
+          "en": "parsnip powder",
+          "aliases": [
+            "polvo de chirivía",
+            "parsnip powder"
+          ]
+        },
+        {
+          "es": "polvo de raíz de perejil",
+          "en": "parsley root powder",
+          "aliases": [
+            "polvo de raíz de perejil",
+            "parsley root powder"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "zanahoria",
+          "en": "carrot",
+          "aliases": [
+            "zanahoria",
+            "carrot"
+          ]
+        },
+        {
+          "es": "hierbas",
+          "en": "herbs",
+          "aliases": [
+            "hierbas",
+            "herbs"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "polvo de calabaza",
+          "en": "pumpkin powder",
+          "aliases": [
+            "polvo de calabaza",
+            "pumpkin powder"
+          ]
+        }
+      ],
+      "sourceId": "knorr-gemuse-bouillon-germany-1kg-source",
+      "verification": "manufacturer_product_specification_via_distributor_pdf",
+      "status": "ready"
     }
   ]
 }
