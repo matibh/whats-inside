@@ -721,6 +721,96 @@
       "url": "https://halalscan.app/p/parle-g",
       "supports": "Parle's official brand page confirms the product family; the detailed ingredient declaration is a secondary transcription of a Parle-G pack and is not represented as a direct manufacturer specification. Pack size varies, so no single package weight is asserted.",
       "market": "India"
+    },
+    {
+      "id": "whittakers-peanut-slab-new-zealand",
+      "productId": "whittakers-peanut-slab-new-zealand-50g",
+      "publisher": "Whittaker's",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.whittakers.co.nz/en_WW/products/peanut/slab",
+      "supports": "Official Whittaker's product page identifies the New Zealand-made 50 g Peanut Slab and gives its full ingredient statement. Precautionary may-contain tree nuts and gluten are not treated as ingredients.",
+      "market": "New Zealand"
+    },
+    {
+      "id": "ouma-buttermilk-rusks-south-africa",
+      "productId": "ouma-buttermilk-rusks-south-africa-500g",
+      "publisher": "SaffaTrading",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.saffatrading.co.za/Ouma-Buttermilk-Rusks",
+      "supports": "Retail listing provides the 500 g pack and an ingredient declaration. It is a secondary transcription, not an official manufacturer specification.",
+      "market": "South Africa"
+    },
+    {
+      "id": "mae-ploy-red-curry-paste-thailand",
+      "productId": "mae-ploy-red-curry-paste-thailand-1kg",
+      "publisher": "Henderson Foodservice",
+      "sourceType": "foodservice_specification",
+      "url": "https://www.henderson-foodservice.com/productpdf/download/file/id/987/name/Mae_Ploy_Red_Curry_Paste_BD_%252812x1kg%2529.pdf/",
+      "supports": "Foodservice specification identifies Mae Ploy Red Curry Paste in 1 kg pouches and provides ingredient percentages and subcomponents, including shrimp paste.",
+      "market": "United Kingdom foodservice listing; product of Thailand"
+    },
+    {
+      "id": "vegemite-original-australia",
+      "productId": "vegemite-original-australia-220g",
+      "publisher": "Bega Foods / Bega Foodservice",
+      "sourceType": "manufacturer_data_sheet",
+      "url": "https://superiorfs.com.au/documents/PDF/KV220_1.pdf",
+      "supports": "Bega product data sheet identifies the 220 g jar, barcode and ingredient declaration. The manufacturer foodservice page independently confirms the formula and Australian origin.",
+      "market": "Australia"
+    },
+    {
+      "id": "lu-petit-beurre-france",
+      "productId": "lu-petit-beurre-france-25g",
+      "publisher": "Groupe Pomona / LU",
+      "sourceType": "manufacturer_technical_sheet",
+      "url": "https://cdn.api.groupe-pomona.fr/public/products/0029760/branch/es/medias/veritable-petit-beurre-en-etui-25-g-lu_0029760_es_technical.pdf",
+      "supports": "Technical sheet updated 25 September 2025 identifies the 25 g three-biscuit sleeve and detailed ingredients. Precautionary egg and sesame traces are excluded.",
+      "market": "France"
+    },
+    {
+      "id": "pocky-matcha-us-glico",
+      "productId": "pocky-matcha-us-40g",
+      "publisher": "Ezaki Glico USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.glico.com/us/product/pocky/18857/",
+      "supports": "Official Glico USA product page lists Pocky Matcha 1.41 oz (40 g) and the US-market ingredient statement. This is not asserted to be the Japanese-market formula.",
+      "market": "United States"
+    },
+    {
+      "id": "samyang-buldak-original-us",
+      "productId": "samyang-buldak-original-us",
+      "publisher": "Samyang America",
+      "sourceType": "manufacturer_website",
+      "url": "https://beta.samyangamerica.com/buldak/original",
+      "supports": "Official Samyang America product page supplies ingredient declarations for noodles, sauce and flakes for the US-market Buldak Original product. Package size is not stated in the catalog.",
+      "market": "United States"
+    },
+    {
+      "id": "lao-gan-ma-chili-crisp-canada",
+      "productId": "lao-gan-ma-spicy-chili-crisp-canada-210g",
+      "publisher": "Voilà by Sobeys",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://voila.ca/products/lao-gan-ma-spicy-chilli-crisp-210-g/597325EA",
+      "supports": "Canadian retailer listing identifies the 210 g jar and ingredient list. The Chinese country of origin is attributed to the product brand and should be treated as a market/product identification rather than a manufacturer-issued technical sheet.",
+      "market": "Canada"
+    },
+    {
+      "id": "bourbon-alfort-mini-japan",
+      "productId": "bourbon-alfort-mini-chocolate-japan-61g",
+      "publisher": "TOPS Online",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.tops.co.th/en/bourbon-alfort-mini-chocolate-biscuit-61g-4901360245567",
+      "supports": "Retail listing identifies the 61 g product, Japan as country of origin, barcode and ingredient declaration. Product packaging may be revised by the manufacturer.",
+      "market": "Thailand retail listing; product of Japan"
+    },
+    {
+      "id": "calpis-water-taiwan-australia",
+      "productId": "calpis-water-taiwan-australia-500ml",
+      "publisher": "Woolworths Australia",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.woolworths.com.au/shop/productdetails/6057799/asahi-calpis-water",
+      "supports": "Australian retailer listing identifies a 500 ml bottle, ingredient declaration and explicitly labels the product as Product of Taiwan.",
+      "market": "Australia"
     }
   ],
   "lastUpdated": "2026-11-16"
