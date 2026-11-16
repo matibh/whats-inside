@@ -1675,6 +1675,78 @@
       "url": "https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g",
       "supports": "VEGEMITE Australia 220 g jar product image.",
       "market": "Australia"
+    },
+    {
+      "id": "image-cheerios-original-us-8-9oz",
+      "productId": "cheerios-original-us-8-9oz",
+      "publisher": "Cheerios / General Mills",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.cheerios.com/products/original-cheerios",
+      "supports": "Official Cheerios Original US 8.9 oz box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-leibniz-original-butter-biscuits-germany-200g",
+      "productId": "leibniz-original-butter-biscuits-germany-200g",
+      "publisher": "Parthenon Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.parthenonfoods.com/products/butter-biscuits-leibniz-keks-200g",
+      "supports": "Leibniz Original Keks Germany 200 g package image.",
+      "market": "Germany"
+    },
+    {
+      "id": "image-mutti-polpa-italy-400g",
+      "productId": "mutti-polpa-italy-400g",
+      "publisher": "Chedraui",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.chedraui.com.mx/pulpa-de-tomate-mutti-finamente-picado-de-400g-3246253/p",
+      "supports": "Mutti Polpa Italy 400 g can product image.",
+      "market": "Italy"
+    },
+    {
+      "id": "image-yakult-new-yakult-japan-65ml",
+      "productId": "yakult-new-yakult-japan-65ml",
+      "publisher": "Costco Japan",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.costco.co.jp/Fresh-Frozen-Chilled/Dairy/New-Yakult-65ml-x-50/p/70174",
+      "supports": "New Yakult Japan 65 ml bottle product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-pringles-paprika-germany-165g",
+      "productId": "pringles-paprika-germany-165g",
+      "publisher": "Discount Dragon",
+      "sourceType": "retailer_product_image",
+      "url": "https://discountdragon.co.uk/products/pringles-paprika-165g",
+      "supports": "Pringles Paprika 165 g canister product image.",
+      "market": "Germany"
+    },
+    {
+      "id": "image-oreo-vanilla-uk-154g",
+      "productId": "oreo-vanilla-uk-154g",
+      "publisher": "Grocefully / Sainsbury's",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.grocefully.com/uk/product/oreo-original-vanilla-sandwich-cookies-14-cookies-154-g-7622300315283",
+      "supports": "OREO Vanilla UK 154 g package image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-shin-ramyun-original-cup-us-75g",
+      "productId": "shin-ramyun-original-cup-us-75g",
+      "publisher": "Nongshim USA",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://nongshimusa.com/product-detail?pid=45",
+      "supports": "Official Nongshim Shin Ramyun Original Cup US 75 g product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-nissin-cup-noodles-chicken-us-64g",
+      "productId": "nissin-cup-noodles-chicken-us-64g",
+      "publisher": "FoodMaxx",
+      "sourceType": "retailer_product_image",
+      "url": "https://shop.foodmaxx.com/store/foodmaxx/products/34599-nissin-soup-ramen-noodle-chicken-flavor-2-25-oz",
+      "supports": "Nissin Cup Noodles Chicken US 64 g paper cup product image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
