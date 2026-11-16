@@ -4667,3 +4667,461 @@ Water, sugar, skim milk powder, yeast, acidity regulators (330, 331), flavour, t
 **Fuente / Source:** [Woolworths Australia](https://www.woolworths.com.au/shop/productdetails/6057799/asahi-calpis-water)  
 **Tipo / Type:** `retailer_label_transcription`  
 **Alcance / Supports:** Australian retailer listing identifies a 500 ml bottle, ingredient declaration and explicitly labels the product as Product of Taiwan.
+
+
+---
+
+### Heinz Baked Beanz / Heinz Baked Beanz
+
+- **ID:** `heinz-baked-beanz-uk-415g`
+- **Marca / Brand:** Heinz
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 415 g can
+- **Categoría / Category:** `canned_beans`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Porotos blancos horneados en salsa de tomate, versión británica.
+- **Description (EN):** British baked white beans in tomato sauce.
+
+**Ingredientes declarados / Declared ingredients**
+
+Beans (51%), Tomatoes (34%), Water, Sugar, Spirit Vinegar, Modified Corn Flour, Salt, Spice Extracts, Herb Extract.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| porotos | beans | porotos, beans, alubias, judías |
+| tomate | tomatoes | tomate, tomatoes, tomates |
+| agua | water | agua, water |
+| azúcar | sugar | azúcar, sugar |
+| vinagre de alcohol | spirit vinegar | vinagre de alcohol, spirit vinegar, vinagre destilado |
+| harina de maíz modificada | modified corn flour | harina de maíz modificada, modified corn flour, almidón de maíz modificado |
+| sal | salt | sal, salt |
+| extractos de especias | spice extracts | extractos de especias, spice extracts |
+| extracto de hierbas | herb extract | extracto de hierbas, herb extract |
+
+**Fuente / Source:** [Heinz UK](https://www.heinz.com/en-GB/products/05000157024671-baked-beanz)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Heinz UK page lists the 415 g product and the ingredient declaration. The formula is the UK Baked Beanz, not other regional Heinz baked-bean recipes.
+
+
+---
+
+### Cadbury Lunch Bar / Cadbury Lunch Bar
+
+- **ID:** `cadbury-lunch-bar-south-africa-48g`
+- **Marca / Brand:** Cadbury
+- **País / Country:** South Africa
+- **Mercado / Market:** South Africa
+- **Envase / Package:** 48 g bar (official page lists 23 g, 48 g and 62 g sizes)
+- **Categoría / Category:** `chocolate_bar`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Barra sudafricana con oblea, caramelo, maní y arroz crocante, cubierta de chocolate.
+- **Description (EN):** South African wafer bar with chewy caramel, peanuts and crisped rice, coated in chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, Glucose Syrup, Vegetable Fats [Palm Fruit, Sunflower Seed (Antioxidant-TBHQ), Shea Nut, Illipe Seed, Sal Seed (Soya) (Citric Acid)], Peanuts (9%), Cocoa Butter, Wheat Flour, Full Cream Milk Powder, Cocoa Mass, Rice Flour, Whey Permeate, Invert Sugar, Whey Powder, Emulsifiers (E442, E471, E476, E322-Soya), Humectant (Glycerol), Salt, Flavourings, Raising Agent (E500), Colourants (E122, E142, E104, E110), Barley Malt, Acidifying Agent (E334), Preservative (E223).
+
+**Respuestas aceptadas / Accepted answers (34)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| grasa vegetal | vegetable fat | grasa vegetal, vegetable fat |
+| fruto de palma | palm fruit | fruto de palma, palm fruit |
+| semilla de girasol | sunflower seed | semilla de girasol, sunflower seed |
+| TBHQ | TBHQ | TBHQ, TBHQ, tertiary butylhydroquinone |
+| nuez de karité | shea nut | nuez de karité, shea nut |
+| semilla de illipe | illipe seed | semilla de illipe, illipe seed |
+| sal seed | sal seed | sal seed, sal seed |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| maní | peanuts | maní, peanuts, cacahuetes |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| leche entera en polvo | full cream milk powder | leche entera en polvo, full cream milk powder |
+| pasta de cacao | cocoa mass | pasta de cacao, cocoa mass |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| permeado de suero | whey permeate | permeado de suero, whey permeate |
+| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| emulsionante E442 | emulsifier E442 | emulsionante E442, emulsifier E442 |
+| emulsionante E471 | emulsifier E471 | emulsionante E471, emulsifier E471 |
+| polirricinoleato de poliglicerol E476 | polyglycerol polyricinoleate E476 | polirricinoleato de poliglicerol E476, polyglycerol polyricinoleate E476, E476 |
+| lecitina de soja E322 | soy lecithin E322 | lecitina de soja E322, soy lecithin E322, E322 |
+| glicerol | glycerol | glicerol, glycerol, glycerin |
+| sal | salt | sal, salt |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| gasificante E500 | raising agent E500 | gasificante E500, raising agent E500, carbonato de sodio, sodium carbonate |
+| colorante E122 | colour E122 | colorante E122, colour E122, azorubina |
+| colorante E142 | colour E142 | colorante E142, colour E142, verde S |
+| colorante E104 | colour E104 | colorante E104, colour E104, amarillo de quinoleína |
+| colorante E110 | colour E110 | colorante E110, colour E110, amarillo ocaso |
+| malta de cebada | barley malt | malta de cebada, barley malt |
+| ácido tartárico E334 | tartaric acid E334 | ácido tartárico E334, tartaric acid E334, E334 |
+| metabisulfito de sodio E223 | sodium metabisulphite E223 | metabisulfito de sodio E223, sodium metabisulphite E223, E223 |
+
+**Fuente / Source:** [Cadbury South Africa](https://www.cadbury.co.za/product/cadbury-lunch-bar)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Cadbury South Africa product page lists available sizes including 48 g and the full ingredient declaration. Precautionary may-contain statements are excluded.
+
+
+---
+
+### Gyoza Ajinomoto / Ajinomoto Gyoza
+
+- **ID:** `ajinomoto-gyoza-japan-276g`
+- **Marca / Brand:** Ajinomoto
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 276 g pack (12 pieces)
+- **Categoría / Category:** `frozen_dumplings`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Empanaditas japonesas congeladas rellenas de vegetales y carnes, con masa fina.
+- **Description (EN):** Japanese frozen pan-fried dumplings filled with vegetables and meat in a thin wrapper.
+
+**Ingredientes declarados / Declared ingredients**
+
+Vegetables (cabbage, onion, Chinese chive, garlic), meats (chicken, pork), textured soy protein, pork fat, sugar, soy sauce, oyster sauce, binder (textured soy protein, egg white), salt, hydrolyzed protein, vegetable oil, spices, flavour oil, wrapper (wheat flour, vegetable oil, starch, dextrin, salt, soy flour); seasonings (amino acids, etc.), emulsifier, thickening polysaccharides, sodium caseinate.
+
+**Respuestas aceptadas / Accepted answers (25)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| repollo | cabbage | repollo, cabbage |
+| cebolla | onion | cebolla, onion |
+| cebollino chino | Chinese chive | cebollino chino, Chinese chive, nira |
+| ajo | garlic | ajo, garlic |
+| pollo | chicken | pollo, chicken |
+| cerdo | pork | cerdo, pork |
+| proteína de soja texturizada | textured soy protein | proteína de soja texturizada, textured soy protein, soya texturizada |
+| grasa de cerdo | pork fat | grasa de cerdo, pork fat |
+| azúcar | sugar | azúcar, sugar |
+| salsa de soja | soy sauce | salsa de soja, soy sauce |
+| salsa de ostras | oyster sauce | salsa de ostras, oyster sauce |
+| clara de huevo | egg white | clara de huevo, egg white |
+| sal | salt | sal, salt |
+| proteína hidrolizada | hydrolyzed protein | proteína hidrolizada, hydrolyzed protein |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| especias | spices | especias, spices |
+| aceite saborizante | flavour oil | aceite saborizante, flavour oil, flavor oil |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| almidón | starch | almidón, starch |
+| dextrina | dextrin | dextrina, dextrin |
+| harina de soja | soy flour | harina de soja, soy flour |
+| potenciadores del sabor (aminoácidos) | flavour enhancers (amino acids) | potenciadores del sabor (aminoácidos), flavour enhancers (amino acids), seasonings |
+| emulsionante | emulsifier | emulsionante, emulsifier |
+| polisacáridos espesantes | thickening polysaccharides | polisacáridos espesantes, thickening polysaccharides |
+| caseinato de sodio | sodium caseinate | caseinato de sodio, sodium caseinate |
+
+**Fuente / Source:** [Ajinomoto Frozen Foods Japan](https://www.ffa.ajinomoto.com/products/detail/id/293)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Ajinomoto page identifies the 12-piece 276 g pack, JAN code and detailed Japanese ingredient declaration. Ingredient names are translated from the manufacturer listing.
+
+
+---
+
+### Koala's March Chocolate / Koala's March Chocolate
+
+- **ID:** `lotte-koalas-march-chocolate-japan-48g`
+- **Marca / Brand:** Lotte
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 48 g box
+- **Categoría / Category:** `filled_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pequeñas galletitas japonesas rellenas de chocolate.
+- **Description (EN):** Japanese bite-size biscuits filled with chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, wheat flour, vegetable oil, cacao mass, starch, shortening, lactose, whole milk powder, liquid egg, cocoa powder, whey powder, salt, cream powder, cocoa butter, calcium carbonate, leavening agent, trehalose, emulsifier (soy-derived), caramel colour, seasoning (amino acids), flavouring.
+
+**Respuestas aceptadas / Accepted answers (21)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| pasta de cacao | cacao mass | pasta de cacao, cacao mass, cocoa mass |
+| almidón | starch | almidón, starch |
+| grasa vegetal | shortening | grasa vegetal, shortening |
+| lactosa | lactose | lactosa, lactose |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| huevo líquido | liquid egg | huevo líquido, liquid egg |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| sal | salt | sal, salt |
+| crema en polvo | cream powder | crema en polvo, cream powder |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| carbonato de calcio | calcium carbonate | carbonato de calcio, calcium carbonate, E170 |
+| gasificante | leavening agent | gasificante, leavening agent, raising agent |
+| trehalosa | trehalose | trehalosa, trehalose |
+| emulsionante de soja | soy-derived emulsifier | emulsionante de soja, soy-derived emulsifier, soy emulsifier |
+| colorante caramelo | caramel colour | colorante caramelo, caramel colour, caramel color |
+| potenciador del sabor (aminoácidos) | seasoning (amino acids) | potenciador del sabor (aminoácidos), seasoning (amino acids) |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+
+**Fuente / Source:** [Lotte Japan](https://www.lotte.co.jp/products/catalogue/choco/04/detail01.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Lotte product page identifies Koala's March Chocolate 48 g and the full ingredient declaration in Japanese.
+
+
+---
+
+### Koala's March Strawberry / Koala's March Strawberry
+
+- **ID:** `lotte-koalas-march-strawberry-japan-46g`
+- **Marca / Brand:** Lotte
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 46 g box
+- **Categoría / Category:** `filled_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas japonesas de color rosa rellenas de chocolate sabor frutilla.
+- **Description (EN):** Japanese pink biscuits filled with strawberry-flavoured chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, wheat flour, vegetable oil, lactose, starch, shortening, cocoa butter, whole milk powder, whey powder, liquid egg, maltitol, strawberry powder, cream powder, salt, calcium carbonate, leavening agent, colours (caramel, red yeast rice, beet red), flavouring, emulsifier (soy-derived).
+
+**Respuestas aceptadas / Accepted answers (21)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| lactosa | lactose | lactosa, lactose |
+| almidón | starch | almidón, starch |
+| grasa vegetal | shortening | grasa vegetal, shortening |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| huevo líquido | liquid egg | huevo líquido, liquid egg |
+| maltitol | maltitol | maltitol, maltitol |
+| frutilla en polvo | strawberry powder | frutilla en polvo, strawberry powder, fresa en polvo |
+| crema en polvo | cream powder | crema en polvo, cream powder |
+| sal | salt | sal, salt |
+| carbonato de calcio | calcium carbonate | carbonato de calcio, calcium carbonate, E170 |
+| gasificante | leavening agent | gasificante, leavening agent |
+| colorante caramelo | caramel colour | colorante caramelo, caramel colour, caramel color |
+| arroz de levadura roja | red yeast rice | arroz de levadura roja, red yeast rice |
+| rojo de remolacha | beet red | rojo de remolacha, beet red |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+| emulsionante de soja | soy-derived emulsifier | emulsionante de soja, soy-derived emulsifier, soy emulsifier |
+
+**Fuente / Source:** [Lotte Japan](https://www.lotte.co.jp/products/catalogue/choco/04/detail10.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Lotte product page identifies Koala's March Strawberry 46 g and its distinct ingredient declaration. It is a separate formulation from the chocolate variant.
+
+
+---
+
+### Pasta de especias Tikka Masala Patak's / Patak's Tikka Masala Spice Paste
+
+- **ID:** `pataks-tikka-masala-paste-uk`
+- **Marca / Brand:** Patak's
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** Product page does not specify pack size
+- **Categoría / Category:** `curry_paste`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pasta de especias para preparar tikka masala, con cúrcuma, pimentón, comino y cilantro.
+- **Description (EN):** Spice paste for tikka masala with turmeric, paprika, cumin and coriander.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, Ground Spices (19%) [Turmeric, Paprika (4%), Cumin (3%), Coriander (3%), Spices], Rapeseed Oil, Salt, Maize Flour, Acids (Acetic Acid, Citric Acid), Tamarind, Garlic Powder, Cumin Seed, Paprika Extract, Dried Fenugreek Leaf, Dried Coriander Leaf.
+
+**Respuestas aceptadas / Accepted answers (17)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| cúrcuma | turmeric | cúrcuma, turmeric |
+| pimentón | paprika | pimentón, paprika |
+| comino | cumin | comino, cumin |
+| cilantro | coriander | cilantro, coriander, coriandro |
+| especias | spices | especias, spices |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| sal | salt | sal, salt |
+| harina de maíz | maize flour | harina de maíz, maize flour, corn flour |
+| ácido acético | acetic acid | ácido acético, acetic acid, E260 |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| tamarindo | tamarind | tamarindo, tamarind |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| semillas de comino | cumin seed | semillas de comino, cumin seed |
+| extracto de pimentón | paprika extract | extracto de pimentón, paprika extract |
+| hoja seca de fenogreco | dried fenugreek leaf | hoja seca de fenogreco, dried fenugreek leaf, hoja de methi |
+| hoja seca de cilantro | dried coriander leaf | hoja seca de cilantro, dried coriander leaf |
+
+**Fuente / Source:** [Patak's UK](https://www.pataks.co.uk/products/spice-pastes/tikka-masala-paste)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Patak's UK page gives the complete ingredient statement and notes possible mustard, peanut and nut traces; precautionary traces are excluded.
+
+
+---
+
+### Salsa TABASCO Original / TABASCO Original Red Sauce
+
+- **ID:** `tabasco-original-red-sauce-us-148ml`
+- **Marca / Brand:** TABASCO
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 5 fl oz (148 ml) bottle
+- **Categoría / Category:** `condiment_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa picante clásica de Luisiana elaborada con vinagre, chile rojo y sal.
+- **Description (EN):** Classic Louisiana hot sauce made with vinegar, red pepper and salt.
+
+**Ingredientes declarados / Declared ingredients**
+
+Distilled vinegar, red pepper and salt.
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| vinagre destilado | distilled vinegar | vinagre destilado, distilled vinegar |
+| chile rojo | red pepper | chile rojo, red pepper, ají rojo |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [TABASCO / McIlhenny Company](https://shop.tabasco.com/products/original-red-sauce/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official TABASCO store page identifies the 5 fl oz bottle and the three ingredients: distilled vinegar, red pepper and salt.
+
+
+---
+
+### Papas fritas Walkers Cheese & Onion / Walkers Cheese & Onion Crisps
+
+- **ID:** `walkers-cheese-onion-crisps-uk`
+- **Marca / Brand:** Walkers
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** Single retail bag; size not specified on product page
+- **Categoría / Category:** `potato_chips`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Papas fritas británicas sabor queso y cebolla.
+- **Description (EN):** British potato crisps flavoured with cheese and onion.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Cheese & Onion Seasoning [Dried Onion, Salt, Dried Milk Whey, Lactose (from Milk), Sugar, Flavouring (contains Milk), Cheese Powder (from Milk), Dried Yeast, Acids (Citric Acid, Malic Acid), Whey Protein (from Milk), Dried Garlic, Colours (Annatto Bixin, Paprika Extract)], Antioxidants (Rosemary Extract, Ascorbic Acid, Tocopherol Rich Extract, Citric Acid).
+
+**Respuestas aceptadas / Accepted answers (20)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papas | potatoes | papas, potatoes, patatas |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| cebolla seca | dried onion | cebolla seca, dried onion |
+| sal | salt | sal, salt |
+| suero de leche en polvo | dried milk whey | suero de leche en polvo, dried milk whey |
+| lactosa | lactose | lactosa, lactose |
+| azúcar | sugar | azúcar, sugar |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+| queso en polvo | cheese powder | queso en polvo, cheese powder |
+| levadura seca | dried yeast | levadura seca, dried yeast |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| ácido málico | malic acid | ácido málico, malic acid, E296 |
+| proteína de suero | whey protein | proteína de suero, whey protein |
+| ajo seco | dried garlic | ajo seco, dried garlic |
+| bixina de achiote | annatto bixin | bixina de achiote, annatto bixin |
+| extracto de pimentón | paprika extract | extracto de pimentón, paprika extract |
+| extracto de romero | rosemary extract | extracto de romero, rosemary extract |
+| ácido ascórbico | ascorbic acid | ácido ascórbico, ascorbic acid, vitamina C, vitamin C |
+| extracto rico en tocoferoles | tocopherol rich extract | extracto rico en tocoferoles, tocopherol rich extract, vitamin E |
+
+**Fuente / Source:** [Walkers UK](https://www.walkers.co.uk/our-range/walkers-crisps/cheese-and-onion)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Walkers UK product page provides the complete ingredient statement, including seasoning components and antioxidants. Precautionary may-contain allergens are excluded.
+
+
+---
+
+### Sopa miso vegetariana Marukome Ryotei No Aji con tofu / Marukome Ryotei No Aji Tofu Vegetarian Miso Soup
+
+- **ID:** `marukome-ryotei-no-aji-tofu-vegetarian-152g`
+- **Marca / Brand:** Marukome
+- **País / Country:** Japan
+- **Mercado / Market:** International foodservice / export listing
+- **Envase / Package:** 152 g pack
+- **Categoría / Category:** `instant_soup`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Sopa instantánea japonesa de miso con tofu, wakame y cebolla de verdeo; sin gluten y sin MSG añadido.
+- **Description (EN):** Japanese instant miso soup with tofu, wakame and green onion; gluten-free and no added MSG.
+
+**Ingredientes declarados / Declared ingredients**
+
+Soup base: Rice Miso (Filtered Water, Soybeans, Rice, Salt), Filtered Water, Alcohol, Sugar, Hydrolyzed Protein, Powdered Yeast Extract, Salt, Onion Extract, Kelp Extract, Shiitake Mushroom Extract Powder. Garnish: Dried Tofu (Soybeans, Calcium Sulfate), Dried Wakame Seaweed, Dried Green Onion.
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua filtrada | filtered water | agua filtrada, filtered water |
+| soja | soybeans | soja, soybeans, soya |
+| arroz | rice | arroz, rice |
+| sal | salt | sal, salt |
+| alcohol | alcohol | alcohol, alcohol |
+| azúcar | sugar | azúcar, sugar |
+| proteína hidrolizada | hydrolyzed protein | proteína hidrolizada, hydrolyzed protein |
+| extracto de levadura en polvo | powdered yeast extract | extracto de levadura en polvo, powdered yeast extract |
+| extracto de cebolla | onion extract | extracto de cebolla, onion extract |
+| extracto de alga kombu | kelp extract | extracto de alga kombu, kelp extract, kombu |
+| polvo de extracto de shiitake | shiitake mushroom extract powder | polvo de extracto de shiitake, shiitake mushroom extract powder, hongo shiitake |
+| tofu seco | dried tofu | tofu seco, dried tofu |
+| sulfato de calcio | calcium sulfate | sulfato de calcio, calcium sulfate, E516 |
+| alga wakame seca | dried wakame seaweed | alga wakame seca, dried wakame seaweed |
+| cebolla de verdeo seca | dried green onion | cebolla de verdeo seca, dried green onion, spring onion |
+
+**Fuente / Source:** [Marukome Global](https://www.marukome.co.jp/global/en/products_post/instant_035/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Marukome Global page lists the 152 g vegetarian tofu miso soup and separate soup-base and garnish ingredient declarations.
+
+
+---
+
+### Chicle Lotte Xylitol sabor cola / Lotte Xylitol Gum Cola
+
+- **ID:** `lotte-xylitol-cola-gum-japan-14pcs`
+- **Marca / Brand:** Lotte
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 14-piece pack
+- **Categoría / Category:** `chewing_gum`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Chicle japonés sin azúcar sabor cola, endulzado con xilitol y maltitol.
+- **Description (EN):** Japanese sugar-free cola gum sweetened with xylitol and maltitol.
+
+**Ingredientes declarados / Declared ingredients**
+
+Maltitol, vegetable oil / sweeteners (xylitol, aspartame-L-phenylalanine compound), gum base, thickener (gum arabic), vitamin C, flavouring, glazing agent, colours (gardenia, safflower yellow), hesperidin; contains gelatin.
+
+**Respuestas aceptadas / Accepted answers (13)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| maltitol | maltitol | maltitol, maltitol |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| xilitol | xylitol | xilitol, xylitol |
+| aspartamo | aspartame | aspartamo, aspartame, E951 |
+| base de goma | gum base | base de goma, gum base |
+| goma arábiga | gum arabic | goma arábiga, gum arabic, E414 |
+| vitamina C | vitamin C | vitamina C, vitamin C, ácido ascórbico |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+| agente de glaseado | glazing agent | agente de glaseado, glazing agent |
+| colorante de gardenia | gardenia colour | colorante de gardenia, gardenia colour, gardenia color |
+| amarillo de cártamo | safflower yellow | amarillo de cártamo, safflower yellow |
+| hesperidina | hesperidin | hesperidina, hesperidin |
+| gelatina | gelatin | gelatina, gelatin |
+
+**Fuente / Source:** [Lotte Japan](https://www.lotte.co.jp/products/catalogue/gum/04/detail123.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Lotte Japan page identifies Xylitol Gum Cola, 14 pieces, and the ingredient declaration in Japanese.
