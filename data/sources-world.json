@@ -2080,6 +2080,69 @@
       "url": "https://www.tajimaya-cc.net/products/240962",
       "supports": "Lotte Xylitol Soda Gum Japan 14-piece pack product image.",
       "market": "Japan"
+    },
+    {
+      "id": "image-mms-peanut-butter-us-283oz",
+      "productId": "mms-peanut-butter-us-283oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/38253472",
+      "supports": "M&M'S Peanut Butter US 2.83 oz sharing-size bag product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-chupa-chups-fruit-lollipops-spain-300g",
+      "productId": "chupa-chups-fruit-lollipops-spain-300g",
+      "publisher": "Treats From Oz",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.treatsfromoz.com/products/chupa-chups-lollipops-best-of-25-pack-300g",
+      "supports": "Chupa Chups assorted fruit lollipops 300 g bag product image.",
+      "market": "Spain / assorted fruit flavours"
+    },
+    {
+      "id": "image-colacao-original-spain-383g",
+      "productId": "colacao-original-spain-383g",
+      "publisher": "PoliChollo Market",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.polichollo.com/products/colacao-original-383-gr",
+      "supports": "ColaCao Original Spain 383 g tin product image.",
+      "market": "Spain"
+    },
+    {
+      "id": "image-calpis-water-taiwan-australia-500ml",
+      "productId": "calpis-water-taiwan-australia-500ml",
+      "publisher": "Kufu-ya",
+      "sourceType": "retailer_product_image",
+      "url": "https://kufu-ya.com/products/a00000438a",
+      "supports": "Asahi Calpis Water 500 ml regular bottle product image.",
+      "market": "Australia"
+    },
+    {
+      "id": "image-heinz-saucy-sauce-uk-415ml",
+      "productId": "heinz-saucy-sauce-uk-415ml",
+      "publisher": "Grocefully / Tesco",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.grocefully.com/uk/product/heinz-saucy-sauce-mayonnaise-ketchup-sauce-5000157143365",
+      "supports": "Heinz Saucy Sauce UK 415 ml bottle product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-calbee-kappa-ebisen-japan-130g",
+      "productId": "calbee-kappa-ebisen-japan-130g",
+      "publisher": "CookingSan",
+      "sourceType": "retailer_product_image",
+      "url": "https://cookingsan.com/en/snacks/1257-calbee-kappa-ebisen-shrimp-snack-4901330106720.html",
+      "supports": "Calbee Kappa Ebisen Japan shrimp snack bag product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-pocky-almond-crush-us-41g",
+      "productId": "pocky-almond-crush-us-41g",
+      "publisher": "Smoke2Snack",
+      "sourceType": "retailer_product_image",
+      "url": "https://smoke2snack.com/products/buy-now-pocky-almond-crush-41g-best-cookies-shop-in-canada",
+      "supports": "Glico Pocky Almond Crush US 41 g box product image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
