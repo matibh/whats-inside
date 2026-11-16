@@ -73,3 +73,8 @@ Added 10 World records: Whittaker's Peanut Slab (New Zealand), Ouma Buttermilk R
 ## World catalog expansion — 16 November 2026 (10-product batch)
 
 Added Heinz Baked Beanz (UK), Cadbury Lunch Bar (South Africa), Ajinomoto Gyoza (Japan), Lotte Koala's March Chocolate and Strawberry (Japan; distinct official formulations), Patak's Tikka Masala Spice Paste (UK), TABASCO Original Red Sauce (US), Walkers Cheese & Onion Crisps (UK), Marukome Ryotei No Aji Tofu Vegetarian Miso Soup (Japanese manufacturer export listing), and Lotte Xylitol Gum Cola (Japan). Ingredient statements are taken from official manufacturer product pages. Precautionary allergen traces are excluded from accepted ingredient answers. Package size is omitted or qualified where the source page does not specify a fixed retail pack.
+
+
+## World catalog expansion — 16 November 2026 (10-product batch; 110-product milestone)
+
+Added Branston Original Pickle (UK), Pocky Almond Crush (US-market Glico formula), Chocapic (France; METRO product specification, not manufacturer-hosted), Lotus Biscoff Speculoos (Belgium), Kraft Dinner Original (Canada), Barilla Pesto alla Genovese (190 g regional page, produced in Italy), Monster Munch Pickled Onion (UK), Cadbury Wispa Gold (UK), HP Brown Sauce (UK recipe listed by Heinz France), and Heinz Saucy Sauce (UK). Source type, market and formula scope are recorded per item. Chocapic is explicitly sourced to a METRO product sheet, not described as a manufacturer source. Precautionary may-contain statements are excluded from accepted ingredients.
