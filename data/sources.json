@@ -181,6 +181,51 @@
       "url": "https://www.jumbo.com.ar/postre-de-mani-x-111-gr-mantecol/p",
       "supports": "Ingredient declaration for Mantecol clásico 111 g; listing identifies Argentine origin.",
       "market": "Argentina"
+    },
+    {
+      "id": "pepitos-jumbo-119",
+      "productId": "pepitos-chocolate-ar-119g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-pepitos-119g/p",
+      "supports": "Ingredient declaration for Pepitos 119 g; listing identifies Argentine origin.",
+      "market": "Argentina"
+    },
+    {
+      "id": "havanna-semilia-jumbo",
+      "productId": "havanna-semilia-ar-55g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p",
+      "supports": "Ingredient declaration for Havanna Semilia; listing identifies Argentine origin.",
+      "market": "Argentina"
+    },
+    {
+      "id": "gallo-queso-jumbo",
+      "productId": "gallo-snacks-queso-ar-50g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p",
+      "supports": "Ingredient declaration for Gallo rice snack cheese flavor 50 g; listing identifies Argentine origin.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cachafaz-maizena-jumbo",
+      "productId": "cachafaz-alfajor-maizena-ar-456g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/alfajor-de-maizena-cachafaz-456-gr/p",
+      "supports": "Ingredient declaration for Cachafaz Maizena alfajores 456 g; listing identifies Argentine origin.",
+      "market": "Argentina"
+    },
+    {
+      "id": "santa-maria-mechaditas-jumbo",
+      "productId": "santa-maria-mechaditas-ar-200g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-santa-maria-mechaditas-200-gr/p",
+      "supports": "Ingredient declaration for Santa María Mechaditas 200 g; listing identifies Argentine origin.",
+      "market": "Argentina"
     }
   ]
 }
