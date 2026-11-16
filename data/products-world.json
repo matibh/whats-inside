@@ -184,7 +184,7 @@
       "region": "world",
       "category": "sandwich_cookies",
       "package": "Family size (US label)",
-      "image": null,
+      "image": "https://i5.walmartimages.com/asr/5a54ae04-be18-4412-b0bf-d93a53e18527.e015c66aea4879efe562fd98f3a9ee54.jpeg",
       "description": {
         "es": "Galletitas sándwich de cacao · versión estadounidense.",
         "en": "Chocolate sandwich cookies · United States-market version."
@@ -351,7 +351,8 @@
       "nameI18n": {
         "es": "Oreo Original",
         "en": "Oreo Original"
-      }
+      },
+      "imageSourceId": "image-oreo-original-us-family"
     },
     {
       "id": "pringles-original-us-5-2oz",
@@ -732,7 +733,7 @@
       "region": "world",
       "category": "milk_chocolate",
       "package": "100 g",
-      "image": null,
+      "image": "https://cdn11.bigcommerce.com/s-tgrcca6nho/images/stencil/1280w/products/18166/39707/toblerone-milk100g__20572.1749289381.jpg",
       "description": {
         "es": "Chocolate con leche, miel y nougat de almendras · versión suiza.",
         "en": "Milk chocolate with honey and almond nougat · Swiss-market version."
@@ -830,7 +831,8 @@
       "nameI18n": {
         "es": "Toblerone chocolate con leche",
         "en": "Toblerone Milk Chocolate"
-      }
+      },
+      "imageSourceId": "image-toblerone-milk-switzerland-100g"
     },
     {
       "id": "kitkat-milk-chocolate-us-1-5oz",
@@ -1411,7 +1413,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "17.3 oz",
-      "image": null,
+      "image": "https://storage.googleapis.com/images-prs-prd-c7e7986.prs.prd.v8.commerce.mi9cloud.com/product-images/zoom/00038000281907_596",
       "description": {
         "es": "Copos de maíz azucarados · versión estadounidense.",
         "en": "Frosted corn flakes · US version."
@@ -1525,7 +1527,8 @@
       "nameI18n": {
         "es": "Kellogg's Frosted Flakes",
         "en": "Kellogg's Frosted Flakes"
-      }
+      },
+      "imageSourceId": "image-frosted-flakes-us-17-3oz"
     },
     {
       "id": "campbells-tomato-soup-us-10-75oz",
@@ -3383,7 +3386,7 @@
       "region": "world",
       "category": "chocolate_biscuit_sticks",
       "package": "2 bags (29 g per bag)",
-      "image": null,
+      "image": "https://gorodtokyo.ru/upload/goods_pic_large/23377.jpg",
       "description": {
         "es": "Palitos de pretzel con cobertura de chocolate, fórmula japonesa.",
         "en": "Pretzel biscuit sticks coated in chocolate, Japanese-market formula."
@@ -3497,7 +3500,8 @@
       ],
       "sourceId": "pocky-chocolate-japan-2pack-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pocky-chocolate-japan-2pack"
     },
     {
       "id": "haribo-goldbears-us-5oz",
@@ -3635,8 +3639,8 @@
       "market": "United Kingdom",
       "region": "world",
       "category": "plain_cookies",
-      "package": "Original pack (24 biscuits typical)",
-      "image": null,
+      "package": "355 g retail pack (image-matched)",
+      "image": "https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/41c67d602d8b42ad87c49c8d6839441c~tplv-fhlh96nyum-crop-webp%3A1080%3A1080.webp?dr=12190&from=2378011839&idc=useast5&ps=933b5bde&shcp=607f11de&shp=8dbd94bf&t=555f072d",
       "description": {
         "es": "Galletitas Digestive originales de trigo, receta británica.",
         "en": "Original British wheat Digestive biscuits."
@@ -3750,7 +3754,8 @@
       ],
       "sourceId": "mcvities-digestives-uk-original-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mcvities-digestives-uk-original"
     },
     {
       "id": "walkers-ready-salted-uk",
@@ -3857,7 +3862,7 @@
       "region": "world",
       "category": "milk_chocolate",
       "package": "45 g bar",
-      "image": null,
+      "image": "https://www.cadburygiftsdirect.co.uk/media/catalog/product/cache/dd4850ad4231b6306bceadf38a0bbeed/c/d/cdm_45g_mob_opt.jpg",
       "description": {
         "es": "Chocolate con leche clásico británico, barra de 45 gramos.",
         "en": "Classic British milk chocolate, 45-gram bar."
@@ -3939,7 +3944,8 @@
       ],
       "sourceId": "cadbury-dairy-milk-uk-45g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-cadbury-dairy-milk-uk-45g"
     },
     {
       "id": "ferrero-rocher-us-3pack",
@@ -3955,7 +3961,7 @@
       "region": "world",
       "category": "chocolate_candy",
       "package": "3 pieces",
-      "image": null,
+      "image": "https://142127960.cdn6.editmysite.com/uploads/1/4/2/1/142127960/Y5RA27S777GOOW263K6YLBKR.jpeg",
       "description": {
         "es": "Bombones de chocolate con leche y avellanas, versión estadounidense.",
         "en": "Milk chocolate and hazelnut pralines, United States-market version."
@@ -4077,7 +4083,8 @@
       ],
       "sourceId": "ferrero-rocher-us-3pack-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-ferrero-rocher-us-3pack"
     },
     {
       "id": "nescau-cereal-brazil-210g",
