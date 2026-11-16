@@ -1603,6 +1603,78 @@
       "url": "https://www.trythesweetspot.com/product/ferrero-rocher-shelf-pack-3-pc/735",
       "supports": "Ferrero Rocher US 3-piece shelf pack product image.",
       "market": "United States"
+    },
+    {
+      "id": "image-kitkat-milk-chocolate-us-1-5oz",
+      "productId": "kitkat-milk-chocolate-us-1-5oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/6603374254",
+      "supports": "KIT KAT Milk Chocolate US 1.5 oz wrapper product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-pocari-sweat-japan-500ml",
+      "productId": "pocari-sweat-japan-500ml",
+      "publisher": "Wing On",
+      "sourceType": "retailer_product_image",
+      "url": "https://shop.wingon.hk/en/Product/EshopDetail/4925/class-0/product-297399/cm-19670/d-0",
+      "supports": "POCARI SWEAT Japan 500 ml bottle product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-walkers-quavers-cheese-uk",
+      "productId": "walkers-quavers-cheese-uk",
+      "publisher": "eBay UK",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.ebay.co.uk/itm/116116380862",
+      "supports": "Walkers Quavers Cheese UK 16 g pack product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-barilla-arrabbiata-sauce-italy-400g",
+      "productId": "barilla-arrabbiata-sauce-italy-400g",
+      "publisher": "Coupang",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.coupang.com/vp/products/2347357",
+      "supports": "Barilla Arrabbiata 400 g jar product image.",
+      "market": "Latin America product page / Italian-style recipe"
+    },
+    {
+      "id": "image-lotus-biscoff-spread-foodservice-8kg",
+      "productId": "lotus-biscoff-spread-foodservice-8kg",
+      "publisher": "La Salamería",
+      "sourceType": "retailer_product_image",
+      "url": "https://lasalameriadeli.com/products/crema-lotus-biscoff-8kg",
+      "supports": "Lotus Biscoff 8 kg foodservice tub product image.",
+      "market": "International foodservice"
+    },
+    {
+      "id": "image-knorr-gemuse-bouillon-germany-1kg",
+      "productId": "knorr-gemuse-bouillon-germany-1kg",
+      "publisher": "RZ Onlinehandel",
+      "sourceType": "retailer_product_image",
+      "url": "https://rzonlinehandel.at/Lebensmittel-RZOnlinehandel/Nahrungsmittel-RZOnlinehandel/fertiggerichte-RZOnlinehandel/Knorr-Gemuesegold-Bouillon-1kg.html",
+      "supports": "Knorr Gemüse Bouillon Germany 1 kg tub product image.",
+      "market": "Germany"
+    },
+    {
+      "id": "image-samyang-buldak-original-korea-us-140g",
+      "productId": "samyang-buldak-original-korea-us-140g",
+      "publisher": "Ramen Crate NZ",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.ramencrate.co.nz/products/samyang-original-hot-chicken-ramen",
+      "supports": "Samyang Buldak Original 140 g package image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-vegemite-australia-220g",
+      "productId": "vegemite-australia-220g",
+      "publisher": "Instacart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g",
+      "supports": "VEGEMITE Australia 220 g jar product image.",
+      "market": "Australia"
     }
   ],
   "lastUpdated": "2026-11-16"
