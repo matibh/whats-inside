@@ -1846,6 +1846,78 @@
       "url": "https://mcbaigs.com/",
       "supports": "McBaigs Pure Maple Syrup Canada 250 ml bottle image; product record package size updated to match.",
       "market": "Canada"
+    },
+    {
+      "id": "image-doritos-nacho-cheese-us-foodservice-1-4oz",
+      "productId": "doritos-nacho-cheese-us-foodservice-1-4oz",
+      "publisher": "FoodServiceDirect",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.foodservicedirect.com/doritos-nacho-cheese-tortilla-chips-1-75-ounce-64-per-case-21204082.html",
+      "supports": "Doritos Nacho Cheese US foodservice 1.4 oz single bag product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-lu-petit-beurre-france-25g",
+      "productId": "lu-petit-beurre-france-25g",
+      "publisher": "Transgourmet France",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.transgourmet.fr/restauration-commerciale/produit/lu-veritable-petit-beurre-x3--277437.html",
+      "supports": "LU Véritable Petit Beurre France 3-biscuit sleeve product image.",
+      "market": "France"
+    },
+    {
+      "id": "image-ouma-buttermilk-rusks-south-africa-500g",
+      "productId": "ouma-buttermilk-rusks-south-africa-500g",
+      "publisher": "Bokkies Biltong",
+      "sourceType": "retailer_product_image",
+      "url": "https://bokkiesbiltong.com/products/ouma-rusks",
+      "supports": "Ouma Buttermilk Rusks South Africa 500 g box product image.",
+      "market": "South Africa"
+    },
+    {
+      "id": "image-heinz-baked-beanz-uk-415g",
+      "productId": "heinz-baked-beanz-uk-415g",
+      "publisher": "Armstrong Country Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.armstrongcountryfoods.com/products/heinz-baked-beans",
+      "supports": "Heinz Beanz UK 415 g can product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-cadbury-lunch-bar-south-africa-48g",
+      "productId": "cadbury-lunch-bar-south-africa-48g",
+      "publisher": "Pantry Plus",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.pantry-plus.com/product-page/cadbury-lunch-bar-48g-1-x-40",
+      "supports": "Cadbury Lunch Bar South Africa 48 g wrapper product image.",
+      "market": "South Africa"
+    },
+    {
+      "id": "image-bourbon-alfort-mini-chocolate-japan-61g",
+      "productId": "bourbon-alfort-mini-chocolate-japan-61g",
+      "publisher": "NTUC FairPrice",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.fairprice.com.sg/product/bourbon-alfort-mini-chocolate-2",
+      "supports": "Bourbon Alfort Mini Chocolate Japan 61 g box product image.",
+      "market": "Thailand retail listing"
+    },
+    {
+      "id": "image-want-want-shelly-senbei-china-122g",
+      "productId": "want-want-shelly-senbei-china-122g",
+      "publisher": "Tasty Snack Asia",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.tastysnack.asia/products/want-want-shelley-senbei-122g-1",
+      "supports": "Want Want Shelly Senbei Original 122 g package image.",
+      "market": "Singapore retail pack"
+    },
+    {
+      "id": "image-parle-g-biscuits-india",
+      "productId": "parle-g-biscuits-india",
+      "publisher": "JioMart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.jiomart.com/p/groceries/parle-g-biscuits-110-g-get-20-g-extra/491539619",
+      "supports": "Parle-G Original India 100 g packet product image.",
+      "market": "India"
     }
   ],
   "lastUpdated": "2026-11-16"
