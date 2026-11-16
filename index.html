@@ -183,6 +183,7 @@ async function loadProductCatalog(){
   }
   $('productDesc').textContent=currentProduct.description[lang]||currentProduct.description.en;
   updateDailyLabel();
+  $('startBtn').textContent=lang==='en'?'START PLAYING ↗':'EMPEZAR A JUGAR ↗';
   $('startBtn').disabled=false;
  }catch(error){
   $('startBtn').textContent=lang==='en'?'CATALOG UNAVAILABLE':'CATÁLOGO NO DISPONIBLE';
