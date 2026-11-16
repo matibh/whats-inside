@@ -523,6 +523,97 @@
       "url": "https://www.barilla.com/es-la/productos/salsas/salsas-rojas/salsa-arrabbiata",
       "supports": "Official Barilla product page lists 400 g and ingredient declaration.",
       "market": "Latin America product page / Italian-style recipe"
+    },
+    {
+      "id": "kikkoman-soy-sauce-india",
+      "productId": "kikkoman-soy-sauce-india-500ml",
+      "publisher": "Kikkoman India",
+      "sourceType": "manufacturer_website",
+      "url": "https://kikkomanindia.com/products/kikkoman-soy-sauce",
+      "supports": "Official Kikkoman India product page lists the ingredients and available 500 ml pack size.",
+      "market": "India"
+    },
+    {
+      "id": "yakult-new-japan",
+      "productId": "yakult-new-yakult-japan-65ml",
+      "publisher": "Yakult Honsha",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.yakult.co.jp/english/inbound/yakult/",
+      "supports": "Official Yakult Japan page lists New Yakult 65 ml and its ingredient declaration.",
+      "market": "Japan"
+    },
+    {
+      "id": "nissin-cup-noodles-chicken-us",
+      "productId": "nissin-cup-noodles-chicken-us-64g",
+      "publisher": "Nissin Foods USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.nissinfoods.com/product/cup-noodles/cup-noodles-chicken/",
+      "supports": "Official Nissin USA page publishes the 64 g serving and full ingredient statement for Chicken Cup Noodles.",
+      "market": "United States"
+    },
+    {
+      "id": "oishi-prawn-crackers-original",
+      "productId": "oishi-prawn-crackers-philippines-original-24g",
+      "publisher": "Oishi Philippines / Liwayway Marketing Corporation",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.oishi.com.ph/products/oishi-prawn-crackers/",
+      "supports": "Official Oishi Philippines product page lists Original flavor, pack sizes and ingredients; precautionary facility statements are excluded.",
+      "market": "Philippines"
+    },
+    {
+      "id": "sanpellegrino-aranciata-italy",
+      "productId": "sanpellegrino-aranciata-italy-330ml",
+      "publisher": "Sanpellegrino",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.sanpellegrino.com/beverages/aranciata",
+      "supports": "Official Sanpellegrino product page lists the 330 ml can and ingredient statement.",
+      "market": "Italy"
+    },
+    {
+      "id": "pringles-paprika-germany",
+      "productId": "pringles-paprika-germany-165g",
+      "publisher": "Pringles Germany",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.pringles.com/de/products/flavours/pringles-paprika.html",
+      "supports": "Official Pringles Germany page provides the German-market ingredient list; may-contain soy statement is not treated as an ingredient.",
+      "market": "Germany"
+    },
+    {
+      "id": "glico-tomato-pretz-japan",
+      "productId": "glico-tomato-pretz-japan-53g",
+      "publisher": "Ezaki Glico",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.glico.com/jp/product/snack_biscuit_cookie/pretz/46436/",
+      "supports": "Official Glico Japan product page lists Tomato Pretz, 53 g, JAN 4901005521315 and its Japanese raw-material declaration.",
+      "market": "Japan"
+    },
+    {
+      "id": "milo-powder-australia",
+      "productId": "milo-powder-australia-200g",
+      "publisher": "Nestlé Australia / MILO Australia",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.milo.com.au/powder",
+      "supports": "Official MILO Australia page lists package sizes including 200 g and the ingredient statement.",
+      "market": "Australia"
+    },
+    {
+      "id": "chupa-chups-fruit-lollipops-spain",
+      "productId": "chupa-chups-fruit-lollipops-spain-300g",
+      "publisher": "Chupa Chups SAU / Alimentium product specification",
+      "sourceType": "manufacturer_product_specification",
+      "url": "https://gestiona.alimentiumconnect.com/Multimedia/Data_52214/ce966f4e-cc7d-4985-a4d9-6636f024c207.pdf",
+      "supports": "Chupa Chups supplier technical specification identifies Spanish origin and a separate fruit-flavour ingredient declaration; this record represents fruit flavours only, not the strawberry-and-cream variant.",
+      "market": "Spain / assorted fruit flavours"
+    },
+    {
+      "id": "maggi-hot-sweet-chilli-india",
+      "productId": "maggi-hot-sweet-tomato-chilli-india-200g",
+      "publisher": "BigBasket (Nestlé India product listing)",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://business.bigbasket.com/pd/266058/maggi-hot-sweet-tomato-chilli-sauce-200-g-bottle/",
+      "supports": "Retailer listing transcribes the ingredient declaration, identifies Nestlé India and a 200 g pack; manufacturer brand page confirms product identity but not full ingredients.",
+      "market": "India"
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-16"
 }
