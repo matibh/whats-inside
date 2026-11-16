@@ -36,3 +36,8 @@ The Argentina catalog currently contains 20 products. The source register makes 
 - Never merge two regional recipes merely because the brand/product name matches. A separate market/package record and source are required when ingredients differ.
 - The World catalog currently starts with 8 products from Italy, the United States and Switzerland. It is a curated starter set, not a claim of worldwide coverage.
 - World products are sourced from manufacturer/brand ingredient pages. Package size is included when the source identifies it; where a product page is variant-based, the package is marked as a market reference and must be rechecked against a physical label before expanding.
+
+
+## World catalog expansion — 16 November 2026
+
+The World catalog now contains 18 product records. New US-market products include Cheerios, Froot Loops, Frosted Flakes, Campbell's Tomato Soup, Campbell's Chicken Noodle Soup, SNICKERS, RITZ, Lay's Classic, Doritos Nacho Cheese (explicitly a school-foodservice formulation), and REESE'S Snack Size Cups. Ingredient source quality is recorded per product; some entries use retailer label transcription or foodservice documentation and must not be generalized to every package or market. All game answers include Spanish and English labels and aliases.
