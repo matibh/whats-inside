@@ -5,9 +5,9 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-16
-- **Productos / Products:** 58
+- **Productos / Products:** 68
 - **Argentina:** 20
-- **World:** 38
+- **World:** 48
 - **Idiomas / Languages:** Español + English
 
 ## Reglas / Rules
@@ -2522,6 +2522,431 @@ Speisesalz, Hefeextrakt, Maltodextrin, Kaliumchlorid, Zucker, Zwiebeln (4,4%), S
 **Fuente / Source:** [Unilever Germany Food Solutions product data sheet (PDF hosted by retailer)](https://shop.tila-lachenmaier.de/files/downloads/Artikelpass4007801104681.pdf)  
 **Tipo / Type:** `manufacturer_product_specification_via_distributor_pdf`  
 **Alcance / Supports:** Knorr Professional Gemüse Kraftbouillon 1 kg; GTIN 4007801104681; manufacturer Unilever Germany Food Solutions; product data sheet dated 14 Feb 2026.
+
+---
+
+### Chocolate con leche Meiji 50 g / Meiji Milk Chocolate 50 g
+
+- **ID:** `meiji-milk-chocolate-japan-50g`
+- **Marca / Brand:** Meiji
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 50 g
+- **Categoría / Category:** `milk_chocolate`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Chocolate japonés de leche con cacao, leche entera en polvo y lecitina.
+- **Description (EN):** Japanese milk chocolate made with cocoa, whole milk powder and lecithin.
+
+**Ingredientes declarados / Declared ingredients**
+
+砂糖（外国製造）、カカオマス、全粉乳、ココアバター／レシチン、香料
+
+**Respuestas aceptadas / Accepted answers (6)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| lecitina | lecithin | lecitina, lecithin |
+| saborizante | flavouring | saborizante, flavouring |
+
+**Fuente / Source:** [Meiji Co., Ltd.](https://www.meiji.co.jp/products/chocolate/04777.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Japanese Meiji Milk Chocolate 50 g ingredient declaration. Allergy statement is not counted as ingredients.
+
+---
+
+### Samyang Buldak Original / Samyang Buldak Original
+
+- **ID:** `samyang-buldak-original-korea-us-140g`
+- **Marca / Brand:** Samyang
+- **País / Country:** South Korea
+- **Mercado / Market:** United States
+- **Envase / Package:** 140 g (4.94 oz) pack
+- **Categoría / Category:** `instant_noodles`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Fideos instantáneos coreanos picantes con salsa de pollo, versión estadounidense.
+- **Description (EN):** Spicy Korean instant noodles with chicken-style sauce, US-market declaration.
+
+**Ingredientes declarados / Declared ingredients**
+
+Noodles: Wheat Flour, Food Starch-Modified, Palm Oil, Less than 2% of: Wheat Gluten, Salt, Glycerin, Soy Lecithin, Polyglycerol Esters of Fatty Acids, Potassium Carbonate, Sodium Carbonate, Sodium Phosphate Dibasic, Guar Gum, Tocopherols, Riboflavin (Color). Sauce: Water, Artificial Chicken Flavor Powder (Artificial Flavor, Dextrin, Wheat Starch, Sugar, Salt, Yeast Extract, Natural Flavor, Disodium 5'-Ribonucleotide, Maltodextrin, Corn Starch), Soy Sauce Seasoning (Soybeans, Water, Salt, Wheat, Sodium Carbonate, High Fructose Corn Syrup, Disodium 5'-Ribonucleotide, Garlic, Steviol Glycoside, Maltodextrin, Sugar), Sugar, Hot Pepper Seasoning (Red Pepper, Dextrin, Salt, Sugar, Onion Powder, Artificial Flavor, Garlic Powder, Silicon Dioxide, Soy Sauce, Capsicum Oleoresin, Paprika Oleoresin, Monosodium Glutamate, Disodium Inosinate, Disodium Guanylate), Soybean Oil, Onion, Red Pepper Seed Oil, Garlic, Modified Food Starch, Capsicum Oleoresin, Paprika Oleoresin, Black Pepper Powder, Natural and Artificial Curry Flavor (Cumin, Salt, Maltodextrin, Artificial Flavor). Flake: Sesame, Dried Seaweed.
+
+**Respuestas aceptadas / Accepted answers (43)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| almidón alimentario modificado | modified food starch | almidón alimentario modificado, modified food starch |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| gluten de trigo | wheat gluten | gluten de trigo, wheat gluten |
+| sal | salt | sal, salt |
+| glicerina | glycerin | glicerina, glycerin |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| ésteres de poliglicerol de ácidos grasos | polyglycerol esters of fatty acids | ésteres de poliglicerol de ácidos grasos, polyglycerol esters of fatty acids |
+| carbonato de potasio | potassium carbonate | carbonato de potasio, potassium carbonate |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| fosfato disódico | disodium phosphate | fosfato disódico, disodium phosphate |
+| goma guar | guar gum | goma guar, guar gum |
+| tocoferoles | tocopherols | tocoferoles, tocopherols |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| agua | water | agua, water |
+| sabor artificial de pollo | artificial chicken flavor | sabor artificial de pollo, artificial chicken flavor |
+| dextrina | dextrin | dextrina, dextrin |
+| azúcar | sugar | azúcar, sugar |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| sabor natural | natural flavor | sabor natural, natural flavor |
+| ribonucleótido disódico | disodium ribonucleotide | ribonucleótido disódico, disodium ribonucleotide |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| almidón de maíz | corn starch | almidón de maíz, corn starch |
+| soja | soybeans | soja, soybeans |
+| jarabe de maíz de alta fructosa | high-fructose corn syrup | jarabe de maíz de alta fructosa, high-fructose corn syrup |
+| ajo | garlic | ajo, garlic |
+| glucósido de esteviol | steviol glycoside | glucósido de esteviol, steviol glycoside |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| chile rojo | red pepper | chile rojo, red pepper |
+| dióxido de silicio | silicon dioxide | dióxido de silicio, silicon dioxide |
+| salsa de soja | soy sauce | salsa de soja, soy sauce |
+| oleorresina de capsicum | capsicum oleoresin | oleorresina de capsicum, capsicum oleoresin |
+| oleorresina de paprika | paprika oleoresin | oleorresina de paprika, paprika oleoresin |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| aceite de soja | soybean oil | aceite de soja, soybean oil |
+| cebolla | onion | cebolla, onion |
+| aceite de semilla de chile rojo | red pepper seed oil | aceite de semilla de chile rojo, red pepper seed oil |
+| pimienta negra en polvo | black pepper powder | pimienta negra en polvo, black pepper powder |
+| comino | cumin | comino, cumin |
+| semillas de sésamo | sesame | semillas de sésamo, sesame |
+| algas secas | dried seaweed | algas secas, dried seaweed |
+
+**Fuente / Source:** [Samyang America](https://beta.samyangamerica.com/buldak/original)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official US Buldak Original product page ingredient declaration. Compound ingredients are flattened into accepted ingredient answers.
+
+---
+
+### Heinz Baked Beanz 150 g / Heinz Baked Beanz 150 g
+
+- **ID:** `heinz-baked-beanz-uk-150g`
+- **Marca / Brand:** Heinz
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 150 g
+- **Categoría / Category:** `canned_beans`
+- **Barcode:** 5000157004017
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Porotos horneados en salsa de tomate, presentación británica individual.
+- **Description (EN):** Baked beans in tomato sauce, UK single-serve pack.
+
+**Ingredientes declarados / Declared ingredients**
+
+Beans (49%), Tomatoes (35%), Water, Sugar, Modified Cornflour, Spirit Vinegar, Salt, Spice Extracts, Herb Extract.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| porotos | beans | porotos, beans |
+| tomates | tomatoes | tomates, tomatoes |
+| agua | water | agua, water |
+| azúcar | sugar | azúcar, sugar |
+| almidón de maíz modificado | modified cornflour | almidón de maíz modificado, modified cornflour |
+| vinagre de alcohol | spirit vinegar | vinagre de alcohol, spirit vinegar |
+| sal | salt | sal, salt |
+| extractos de especias | spice extracts | extractos de especias, spice extracts |
+| extracto de hierbas | herb extract | extracto de hierbas, herb extract |
+
+**Fuente / Source:** [Heinz UK](https://www.heinz.com/en-GB/products/05000157004017-baked-beanz)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Heinz UK Baked Beanz 150 g product page and ingredients.
+
+---
+
+### Néctar de mango Jumex 960 ml / Jumex Mango Nectar 960 ml
+
+- **ID:** `jumex-mango-nectar-mexico-960ml`
+- **Marca / Brand:** Jumex
+- **País / Country:** Mexico
+- **Mercado / Market:** Mexico
+- **Envase / Package:** 960 ml carton
+- **Categoría / Category:** `fruit_juice`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_product_label`
+- **Descripción (ES):** Néctar mexicano de mango con pulpa de mango y jarabe de maíz de alta fructosa.
+- **Description (EN):** Mexican mango nectar with mango pulp and high-fructose corn syrup.
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua, azúcares añadidos (pulpa de mango de concentrado (20%), jarabe de maíz de alta fructosa), ácido cítrico y ácido ascórbico.
+
+**Respuestas aceptadas / Accepted answers (5)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| pulpa de mango concentrada | mango puree from concentrate | pulpa de mango concentrada, mango puree from concentrate |
+| jarabe de maíz de alta fructosa | high-fructose corn syrup | jarabe de maíz de alta fructosa, high-fructose corn syrup |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| ácido ascórbico | ascorbic acid | ácido ascórbico, ascorbic acid |
+
+**Fuente / Source:** [HEB México](https://www.heb.com.mx/jumex-nectar-de-mango-1-l-3949/p)  
+**Tipo / Type:** `retailer_product_label`  
+**Alcance / Supports:** Retailer ingredient transcription for Jumex Mango Nectar 960 ml; physical package remains definitive.
+
+---
+
+### MAGGI Masala Twist 75 g / MAGGI Masala Twist 75 g
+
+- **ID:** `maggi-masala-twist-india-75g`
+- **Marca / Brand:** MAGGI
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** 75 g prepared-product reference
+- **Categoría / Category:** `instant_noodles`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Fideos instantáneos indios con mezcla de especias, vegetales deshidratados y tomate.
+- **Description (EN):** Indian instant noodles with spice mix, dehydrated vegetables and tomato.
+
+**Ingredientes declarados / Declared ingredients**
+
+Refined wheat flour (Maida), Palm oil, Iodised salt, Thickeners (412 & 508), Humectant (451(i)) and Acidity Regulators (501(i), 500(i) & 330). Tastemaker: Mixed spice (18.9%), Sugar, Dehydrated vegetables (12.7%) [Dehydrated carrot bits (6.8%), Sweetcorn starch (5.9%)], starch, iodised salt, nature identical flavouring substances, Tomato paste (5.8%), Toasted onion flakes (4.3%), Refined wheat flour (Maida), Roasted garlic flakes, Thickeners (508 & 415), Onion powder (2.9%), Palm oil, Herbs, Natural flavouring substance, Yeast extract powder, Flavour enhancer (635), Tamarind powder, Acidity regulator (330), Wheat gluten.
+
+**Respuestas aceptadas / Accepted answers (26)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo refinada (maida) | refined wheat flour (maida) | harina de trigo refinada (maida), refined wheat flour (maida) |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| sal yodada | iodised salt | sal yodada, iodised salt |
+| goma guar (412) | guar gum (412) | goma guar (412), guar gum (412) |
+| cloruro de potasio (508) | potassium chloride (508) | cloruro de potasio (508), potassium chloride (508) |
+| humectante E451(i) | humectant E451(i) | humectante E451(i), humectant E451(i) |
+| acetato de potasio (501(i)) | potassium acetate (501(i)) | acetato de potasio (501(i)), potassium acetate (501(i)) |
+| carbonato de sodio (500(i)) | sodium carbonate (500(i)) | carbonato de sodio (500(i)), sodium carbonate (500(i)) |
+| ácido cítrico (330) | citric acid (330) | ácido cítrico (330), citric acid (330) |
+| mezcla de especias | mixed spice | mezcla de especias, mixed spice |
+| azúcar | sugar | azúcar, sugar |
+| zanahoria deshidratada | dehydrated carrot | zanahoria deshidratada, dehydrated carrot |
+| almidón de maíz dulce | sweetcorn starch | almidón de maíz dulce, sweetcorn starch |
+| almidón | starch | almidón, starch |
+| saborizantes idénticos a los naturales | nature-identical flavouring substances | saborizantes idénticos a los naturales, nature-identical flavouring substances |
+| pasta de tomate | tomato paste | pasta de tomate, tomato paste |
+| cebolla tostada en escamas | toasted onion flakes | cebolla tostada en escamas, toasted onion flakes |
+| ajo tostado en escamas | roasted garlic flakes | ajo tostado en escamas, roasted garlic flakes |
+| goma xantana (415) | xanthan gum (415) | goma xantana (415), xanthan gum (415) |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| hierbas | herbs | hierbas, herbs |
+| saborizante natural | natural flavouring substance | saborizante natural, natural flavouring substance |
+| extracto de levadura en polvo | yeast extract powder | extracto de levadura en polvo, yeast extract powder |
+| potenciador del sabor E635 | flavour enhancer E635 | potenciador del sabor E635, flavour enhancer E635 |
+| tamarindo en polvo | tamarind powder | tamarindo en polvo, tamarind powder |
+| gluten de trigo | wheat gluten | gluten de trigo, wheat gluten |
+
+**Fuente / Source:** [Nestlé Professional India](https://www.nestleprofessional.in/foods/maggi-masala-twist)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Nestlé Professional India 75 g MAGGI Masala Twist ingredient declaration. Compound seasoning components normalized as accepted answers.
+
+---
+
+### Parle-G Original 79,9 g / Parle-G Original 79.9 g
+
+- **ID:** `parle-g-original-india-uk-799g`
+- **Marca / Brand:** Parle
+- **País / Country:** India
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 79.9 g import pack
+- **Categoría / Category:** `plain_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_product_label`
+- **Descripción (ES):** Galletitas dulces de trigo de la marca india Parle, paquete importado vendido en Reino Unido.
+- **Description (EN):** Sweet wheat glucose biscuits from Indian brand Parle, imported pack sold in the UK.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat Flour (68.3%), Sugar, Vegetable Oil (Palm Oil), Glucose-Fructose Syrup, Salt, Raising Agents [Ammonium Carbonates, Sodium Hydrogen Carbonate], Skimmed Milk (0.3%), Artificial Flavouring and Emulsifier [Mono- and Diacetyl Tartaric Acid Esters of Mono- and Diglycerides of Fatty Acids].
+
+**Respuestas aceptadas / Accepted answers (10)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| sal | salt | sal, salt |
+| carbonato de amonio | ammonium carbonate | carbonato de amonio, ammonium carbonate |
+| bicarbonato de sodio | sodium hydrogen carbonate | bicarbonato de sodio, sodium hydrogen carbonate |
+| leche descremada | skimmed milk | leche descremada, skimmed milk |
+| saborizante artificial | artificial flavouring | saborizante artificial, artificial flavouring |
+| ésteres de ácido diacetil tartárico de mono y diglicéridos | mono- and diacetyl tartaric acid esters of mono- and diglycerides | ésteres de ácido diacetil tartárico de mono y diglicéridos, mono- and diacetyl tartaric acid esters of mono- and diglycerides |
+
+**Fuente / Source:** [Tesco UK](https://www.tesco.com/shop/en-GB/products/284903874)  
+**Tipo / Type:** `retailer_product_label`  
+**Alcance / Supports:** Tesco UK label transcription for 79.9 g Parle-G; product of India. Imported/export pack, not assumed identical to every Indian domestic pack.
+
+---
+
+### Galletitas de manteca LEIBNIZ Original 200 g / LEIBNIZ Original Butter Biscuits 200 g
+
+- **ID:** `leibniz-original-butter-biscuits-germany-200g`
+- **Marca / Brand:** LEIBNIZ
+- **País / Country:** Germany
+- **Mercado / Market:** Germany
+- **Envase / Package:** 200 g
+- **Categoría / Category:** `plain_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas alemanas clásicas de trigo y manteca, con 52 bordes dentados.
+- **Description (EN):** Classic German wheat and butter biscuits with 52 scalloped edges.
+
+**Ingredientes declarados / Declared ingredients**
+
+WHEAT flour (70%), sugar, BUTTER (12%), invert sugar syrup, raising agents: sodium carbonates, diphosphates; whey products (MILK), whole MILK powder, salt, emulsifier: lecithins; acid: citric acid; flavourings (MILK), whole hen's EGG powder.
+
+**Respuestas aceptadas / Accepted answers (13)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| manteca | butter | manteca, butter |
+| jarabe de azúcar invertido | invert sugar syrup | jarabe de azúcar invertido, invert sugar syrup |
+| carbonatos de sodio | sodium carbonates | carbonatos de sodio, sodium carbonates |
+| difosfatos | diphosphates | difosfatos, diphosphates |
+| productos de suero de leche | whey products | productos de suero de leche, whey products |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| sal | salt | sal, salt |
+| lecitinas | lecithins | lecitinas, lecithins |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| saborizantes | flavourings | saborizantes, flavourings |
+| huevo entero en polvo | whole egg powder | huevo entero en polvo, whole egg powder |
+
+**Fuente / Source:** [Bahlsen / LEIBNIZ](https://www.leibniz.com/en/keks-original)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official LEIBNIZ Original product page; 200 g package and ingredient declaration. EU/Germany formulation.
+
+---
+
+### Britannia Good Day Butter 90 g / Britannia Good Day Butter 90 g
+
+- **ID:** `britannia-good-day-butter-india-90g`
+- **Marca / Brand:** Britannia
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** 90 g pack option
+- **Categoría / Category:** `plain_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas indias de manteca con aceite de palma, leche y vainilla.
+- **Description (EN):** Indian butter cookies with palm oil, milk and vanilla.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat Flour, Sugar, Vegetable Fat (Palm), Butter (From Cow’s or Buffalo’s Milk), Invert Sugar, Whole Milk Powder (From Cow’s or Buffalo’s Milk), Ammonium Bicarbonate (E503(ii)) & Sodium Bicarbonate (E500(ii)) (Raising Agents), Salt, Soya Lecithin (E322), Mono & Diglycerides of Fatty Acids (Palm) (E471) & Diacetyl Tartaric Acid Esters of Mono & Diglycerides (Palm) (E472e) (Emulsifiers), Butter, Vanilla & Milk (Natural, Nature Identical & Artificial Flavours).
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| grasa vegetal de palma | vegetable fat (palm) | grasa vegetal de palma, vegetable fat (palm) |
+| manteca | butter | manteca, butter |
+| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| sal | salt | sal, salt |
+| lecitina de soja | soya lecithin | lecitina de soja, soya lecithin |
+| mono y diglicéridos de ácidos grasos | mono- and diglycerides of fatty acids | mono y diglicéridos de ácidos grasos, mono- and diglycerides of fatty acids |
+| ésteres de ácido diacetil tartárico de mono y diglicéridos | diacetyl tartaric acid esters of mono- and diglycerides | ésteres de ácido diacetil tartárico de mono y diglicéridos, diacetyl tartaric acid esters of mono- and diglycerides |
+| saborizante de manteca | butter flavour | saborizante de manteca, butter flavour |
+| saborizante de vainilla | vanilla flavour | saborizante de vainilla, vanilla flavour |
+| saborizante de leche | milk flavour | saborizante de leche, milk flavour |
+
+**Fuente / Source:** [Britannia International](https://britannia-international.com/products/product-type/cookies/good-day-butter/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Britannia International product page lists 90 g size and ingredient declaration. Pack formula may vary by domestic SKU.
+
+---
+
+### Guaraná Antarctica 350 ml / Guaraná Antarctica 350 ml
+
+- **ID:** `guarana-antarctica-brazil-350ml`
+- **Marca / Brand:** Guaraná Antarctica
+- **País / Country:** Brazil
+- **Mercado / Market:** Brazil
+- **Envase / Package:** 350 ml can
+- **Categoría / Category:** `soft_drink`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_product_label`
+- **Descripción (ES):** Gaseosa brasileña sabor guaraná, elaborada con extracto de guaraná amazónico.
+- **Description (EN):** Brazilian guarana-flavoured soft drink made with Amazonian guarana extract.
+
+**Ingredientes declarados / Declared ingredients**
+
+Água gaseificada, açúcar, extrato de guaraná, acidulante ácido cítrico, conservadores: benzoato de sódio e sorbato de potássio, aromatizante e corante caramelo IV.
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua carbonatada | carbonated water | agua carbonatada, carbonated water |
+| azúcar | sugar | azúcar, sugar |
+| extracto de guaraná | guarana extract | extracto de guaraná, guarana extract |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| benzoato de sodio | sodium benzoate | benzoato de sodio, sodium benzoate |
+| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate |
+| saborizante | flavouring | saborizante, flavouring |
+| colorante caramelo IV | caramel colour IV | colorante caramelo IV, caramel colour IV |
+
+**Fuente / Source:** [Carrefour Brasil](https://newsitefood.cloud.carrefour.com.br/refrigerante-antarctica-guarana-lata-350ml-1036645/p)  
+**Tipo / Type:** `retailer_product_label`  
+**Alcance / Supports:** Carrefour Brazil ingredient transcription for Guaraná Antarctica 350 ml can; corroborated against Brazilian brand description.
+
+---
+
+### VEGEMITE 220 g / VEGEMITE 220 g
+
+- **ID:** `vegemite-australia-220g`
+- **Marca / Brand:** VEGEMITE
+- **País / Country:** Australia
+- **Mercado / Market:** Australia
+- **Envase / Package:** 220 g jar
+- **Categoría / Category:** `yeast_spread`
+- **Barcode:** 9352042000281
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_specification`
+- **Descripción (ES):** Pasta australiana concentrada de extracto de levadura, sal y vitaminas B.
+- **Description (EN):** Australian concentrated yeast extract spread with salt and B vitamins.
+
+**Ingredientes declarados / Declared ingredients**
+
+YEAST EXTRACT (WHEAT, BARLEY), SALT, MINERAL SALT (508), MALT EXTRACT (BARLEY), COLOUR (150c), FLAVOURS, NIACIN, THIAMINE, RIBOFLAVIN, FOLATE.
+
+**Respuestas aceptadas / Accepted answers (10)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| sal | salt | sal, salt |
+| sal mineral (508) | mineral salt (508) | sal mineral (508), mineral salt (508) |
+| extracto de malta | malt extract | extracto de malta, malt extract |
+| colorante 150c | colour 150c | colorante 150c, colour 150c |
+| saborizantes | flavours | saborizantes, flavours |
+| niacina | niacin | niacina, niacin |
+| tiamina | thiamine | tiamina, thiamine |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| folato | folate | folato, folate |
+
+**Fuente / Source:** [Bega Foods (manufacturer product data sheet)](https://superiorfs.com.au/documents/PDF/KV220_1.pdf)  
+**Tipo / Type:** `manufacturer_product_specification`  
+**Alcance / Supports:** Bega Foods product data sheet for VEGEMITE 220 g, GTIN 9352042000281; manufacturer-issued specification hosted by foodservice distributor.
 
 ---
 
