@@ -41,3 +41,10 @@ The Argentina catalog currently contains 20 products. The source register makes 
 ## World catalog expansion — 16 November 2026
 
 The World catalog now contains 18 product records. New US-market products include Cheerios, Froot Loops, Frosted Flakes, Campbell's Tomato Soup, Campbell's Chicken Noodle Soup, SNICKERS, RITZ, Lay's Classic, Doritos Nacho Cheese (explicitly a school-foodservice formulation), and REESE'S Snack Size Cups. Ingredient source quality is recorded per product; some entries use retailer label transcription or foodservice documentation and must not be generalized to every package or market. All game answers include Spanish and English labels and aliases.
+
+
+## Registro maestro / Master register
+
+El archivo [`catalog-master.md`](./catalog-master.md) reúne todas las fichas de productos de Argentina y World, sus ingredientes declarados, las respuestas aceptadas en español e inglés, alias y fuentes. Actualizarlo en cada tanda junto con los JSON.
+
+The [`catalog-master.md`](./catalog-master.md) file consolidates every Argentina and World product, declared ingredients, accepted Spanish and English answers, aliases, and sources. Update it with every new batch alongside the JSON files.
