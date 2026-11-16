@@ -14796,6 +14796,1568 @@
       "sourceId": "lotte-xylitol-cola-gum-japan",
       "verification": "manufacturer_website",
       "status": "ready"
+    },
+    {
+      "id": "branston-original-pickle-uk-360g",
+      "barcode": null,
+      "name": "Branston Original Pickle",
+      "nameI18n": {
+        "es": "Branston Original Pickle",
+        "en": "Branston Original Pickle"
+      },
+      "brand": "Branston",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "pickle",
+      "package": "360 g jar",
+      "image": null,
+      "description": {
+        "es": "Pickle británico agridulce de verduras, vinagre y especias.",
+        "en": "British sweet-and-tangy vegetable pickle with vinegar and spices."
+      },
+      "ingredientsText": "Vegetables in variable proportions (52%) (carrot, rutabaga, onion, cauliflower), sugar, barley malt vinegar, water, spirit vinegar, tomato purée, date paste (dates, rice flour), salt, apple pulp, modified maize starch, colour (sulphite ammonia caramel), onion powder, concentrated lemon juice, spices, colouring food (roasted barley malt extract), herb and spice extracts.",
+      "ingredients": [
+        {
+          "es": "zanahoria",
+          "en": "carrot",
+          "aliases": [
+            "zanahoria",
+            "carrot"
+          ]
+        },
+        {
+          "es": "nabo sueco",
+          "en": "swede",
+          "aliases": [
+            "nabo sueco",
+            "swede",
+            "rutabaga"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "coliflor",
+          "en": "cauliflower",
+          "aliases": [
+            "coliflor",
+            "cauliflower"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "vinagre de malta de cebada",
+          "en": "barley malt vinegar",
+          "aliases": [
+            "vinagre de malta de cebada",
+            "barley malt vinegar"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "spirit vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "spirit vinegar"
+          ]
+        },
+        {
+          "es": "puré de tomate",
+          "en": "tomato purée",
+          "aliases": [
+            "puré de tomate",
+            "tomato purée",
+            "tomato puree"
+          ]
+        },
+        {
+          "es": "pasta de dátiles",
+          "en": "date paste",
+          "aliases": [
+            "pasta de dátiles",
+            "date paste"
+          ]
+        },
+        {
+          "es": "dátiles",
+          "en": "dates",
+          "aliases": [
+            "dátiles",
+            "dates"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "pulpa de manzana",
+          "en": "apple pulp",
+          "aliases": [
+            "pulpa de manzana",
+            "apple pulp"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified maize starch",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified maize starch",
+            "modified corn starch"
+          ]
+        },
+        {
+          "es": "colorante caramelo de sulfito amónico",
+          "en": "sulphite ammonia caramel colour",
+          "aliases": [
+            "colorante caramelo de sulfito amónico",
+            "sulphite ammonia caramel colour",
+            "sulphite ammonia caramel color"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "jugo concentrado de limón",
+          "en": "concentrated lemon juice",
+          "aliases": [
+            "jugo concentrado de limón",
+            "concentrated lemon juice"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "extracto de malta de cebada tostada",
+          "en": "roasted barley malt extract",
+          "aliases": [
+            "extracto de malta de cebada tostada",
+            "roasted barley malt extract"
+          ]
+        },
+        {
+          "es": "extractos de hierbas y especias",
+          "en": "herb and spice extracts",
+          "aliases": [
+            "extractos de hierbas y especias",
+            "herb and spice extracts"
+          ]
+        }
+      ],
+      "sourceId": "branston-original-pickle-uk-360g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "pocky-almond-crush-us-41g",
+      "barcode": null,
+      "name": "Pocky Almond Crush",
+      "nameI18n": {
+        "es": "Pocky Almond Crush",
+        "en": "Pocky Almond Crush"
+      },
+      "brand": "Glico",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_biscuit_sticks",
+      "package": "1.45 oz (41 g) box",
+      "image": null,
+      "description": {
+        "es": "Palitos de galleta cubiertos con chocolate con leche y almendras.",
+        "en": "Biscuit sticks coated with milk chocolate and roasted almonds."
+      },
+      "ingredientsText": "Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate, riboflavin, folic acid), sugar, almond, whole milk powder, cacao butter equivalent (palm oil, sunflower oil, lecithin, tocopherol concentrate (preservative)), chocolate liquor, cacao butter, whole wheat flour, vegetable shortening (palm oil, fully hydrogenated palm oil), artificial flavor, salt, soy lecithin, PGPR, baker's yeast.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "fumarato ferroso",
+          "en": "ferrous fumarate",
+          "aliases": [
+            "fumarato ferroso",
+            "ferrous fumarate"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamin mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamin mononitrate",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "almendras",
+          "en": "almond",
+          "aliases": [
+            "almendras",
+            "almond",
+            "almendra"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "lecitina",
+          "en": "lecithin",
+          "aliases": [
+            "lecitina",
+            "lecithin"
+          ]
+        },
+        {
+          "es": "concentrado de tocoferoles",
+          "en": "tocopherol concentrate",
+          "aliases": [
+            "concentrado de tocoferoles",
+            "tocopherol concentrate"
+          ]
+        },
+        {
+          "es": "licor de chocolate",
+          "en": "chocolate liquor",
+          "aliases": [
+            "licor de chocolate",
+            "chocolate liquor"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cacao butter",
+          "aliases": [
+            "manteca de cacao",
+            "cacao butter",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "harina integral de trigo",
+          "en": "whole wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "whole wheat flour"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable shortening",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable shortening"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavor",
+            "artificial flavour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "PGPR",
+          "en": "PGPR",
+          "aliases": [
+            "PGPR",
+            "PGPR",
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate"
+          ]
+        },
+        {
+          "es": "levadura de panadería",
+          "en": "baker's yeast",
+          "aliases": [
+            "levadura de panadería",
+            "baker's yeast",
+            "baker yeast"
+          ]
+        }
+      ],
+      "sourceId": "pocky-almond-crush-us-41g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "chocapic-cereal-france-1kg",
+      "barcode": null,
+      "name": "Nestlé Chocapic",
+      "nameI18n": {
+        "es": "Nestlé Chocapic",
+        "en": "Nestlé Chocapic"
+      },
+      "brand": "Nestlé",
+      "country": "France",
+      "market": "France",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "1 kg foodservice pack (French product sheet)",
+      "image": null,
+      "description": {
+        "es": "Cereal de trigo integral con chocolate, según ficha de producto francesa.",
+        "en": "Whole-wheat chocolate breakfast cereal, per a French product specification."
+      },
+      "ingredientsText": "Whole wheat flour 37.5%, wheat flour 18.5%, chocolate powder 18.1% (sugar, cocoa powder), corn semolina, glucose syrup, barley malt extract (barley, malted barley), sunflower oil, calcium carbonate, sugar, malted barley flour, emulsifier (lecithins), salt, natural flavours, iron, vitamins B3, B5, D, B6, B1, B2 and B9.",
+      "ingredients": [
+        {
+          "es": "harina integral de trigo",
+          "en": "whole wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "whole wheat flour"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sémola de maíz",
+          "en": "corn semolina",
+          "aliases": [
+            "sémola de maíz",
+            "corn semolina"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "extracto de malta de cebada",
+          "en": "barley malt extract",
+          "aliases": [
+            "extracto de malta de cebada",
+            "barley malt extract"
+          ]
+        },
+        {
+          "es": "cebada",
+          "en": "barley",
+          "aliases": [
+            "cebada",
+            "barley"
+          ]
+        },
+        {
+          "es": "cebada malteada",
+          "en": "malted barley",
+          "aliases": [
+            "cebada malteada",
+            "malted barley"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate",
+            "E170"
+          ]
+        },
+        {
+          "es": "harina de cebada malteada",
+          "en": "malted barley flour",
+          "aliases": [
+            "harina de cebada malteada",
+            "malted barley flour"
+          ]
+        },
+        {
+          "es": "lecitinas",
+          "en": "lecithins",
+          "aliases": [
+            "lecitinas",
+            "lecithins",
+            "lecitina",
+            "lecithin"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "aromas naturales",
+          "en": "natural flavours",
+          "aliases": [
+            "aromas naturales",
+            "natural flavours",
+            "natural flavors"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "ácido pantoténico",
+          "en": "pantothenic acid",
+          "aliases": [
+            "ácido pantoténico",
+            "pantothenic acid",
+            "vitamina B5",
+            "vitamin B5"
+          ]
+        },
+        {
+          "es": "vitamina D",
+          "en": "vitamin D",
+          "aliases": [
+            "vitamina D",
+            "vitamin D"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1",
+            "tiamina",
+            "thiamin"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "vitamina B9",
+          "en": "vitamin B9",
+          "aliases": [
+            "vitamina B9",
+            "vitamin B9",
+            "ácido fólico",
+            "folic acid"
+          ]
+        }
+      ],
+      "sourceId": "chocapic-cereal-france-1kg",
+      "verification": "retailer_specification",
+      "status": "ready"
+    },
+    {
+      "id": "lotus-biscoff-speculoos-belgium-250g",
+      "barcode": null,
+      "name": "Lotus Biscoff Speculoos",
+      "nameI18n": {
+        "es": "Lotus Biscoff Speculoos",
+        "en": "Lotus Biscoff Speculoos"
+      },
+      "brand": "Lotus Bakeries",
+      "country": "Belgium",
+      "market": "Belgium",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "250 g pack",
+      "image": null,
+      "description": {
+        "es": "Galletitas especiadas belgas tipo speculoos.",
+        "en": "Belgian spiced speculoos biscuits."
+      },
+      "ingredientsText": "Wheat flour, sugar, vegetable oils (palm oil, rapeseed oil), candy sugar syrup, raising agent (sodium hydrogen carbonate), soya flour, salt, cinnamon.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar candi",
+          "en": "candy sugar syrup",
+          "aliases": [
+            "jarabe de azúcar candi",
+            "candy sugar syrup",
+            "candi syrup"
+          ]
+        },
+        {
+          "es": "gasificante bicarbonato de sodio",
+          "en": "sodium hydrogen carbonate",
+          "aliases": [
+            "gasificante bicarbonato de sodio",
+            "sodium hydrogen carbonate",
+            "baking soda",
+            "bicarbonato de sodio"
+          ]
+        },
+        {
+          "es": "harina de soja",
+          "en": "soya flour",
+          "aliases": [
+            "harina de soja",
+            "soya flour",
+            "soy flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "canela",
+          "en": "cinnamon",
+          "aliases": [
+            "canela",
+            "cinnamon"
+          ]
+        }
+      ],
+      "sourceId": "lotus-biscoff-speculoos-belgium-250g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "kraft-dinner-original-canada-200g",
+      "barcode": null,
+      "name": "Kraft Dinner Original Macaroni & Cheese",
+      "nameI18n": {
+        "es": "Kraft Dinner Original Macaroni & Cheese",
+        "en": "Kraft Dinner Original Macaroni & Cheese"
+      },
+      "brand": "Kraft Heinz",
+      "country": "Canada",
+      "market": "Canada",
+      "region": "world",
+      "category": "boxed_macaroni",
+      "package": "200 g box",
+      "image": null,
+      "description": {
+        "es": "Macarrones con salsa de queso en polvo, versión canadiense.",
+        "en": "Macaroni with powdered cheese sauce, Canadian-market formula."
+      },
+      "ingredientsText": "Pasta (wheat), cheese sauce (whey powder, cheddar cheese, salt, butter, paprika, turmeric, annatto, natural flavours, citric acid (acidulant), sodium phosphate).",
+      "ingredients": [
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        },
+        {
+          "es": "pasta",
+          "en": "pasta",
+          "aliases": [
+            "pasta",
+            "pasta",
+            "macarrones",
+            "macaroni"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "queso cheddar",
+          "en": "cheddar cheese",
+          "aliases": [
+            "queso cheddar",
+            "cheddar cheese"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "manteca",
+          "en": "butter",
+          "aliases": [
+            "manteca",
+            "butter"
+          ]
+        },
+        {
+          "es": "pimentón",
+          "en": "paprika",
+          "aliases": [
+            "pimentón",
+            "paprika"
+          ]
+        },
+        {
+          "es": "cúrcuma",
+          "en": "turmeric",
+          "aliases": [
+            "cúrcuma",
+            "turmeric"
+          ]
+        },
+        {
+          "es": "achiote",
+          "en": "annatto",
+          "aliases": [
+            "achiote",
+            "annatto",
+            "roucou"
+          ]
+        },
+        {
+          "es": "aromas naturales",
+          "en": "natural flavours",
+          "aliases": [
+            "aromas naturales",
+            "natural flavours",
+            "natural flavors"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "fosfato de sodio",
+          "en": "sodium phosphate",
+          "aliases": [
+            "fosfato de sodio",
+            "sodium phosphate"
+          ]
+        }
+      ],
+      "sourceId": "kraft-dinner-original-canada-200g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "barilla-pesto-alla-genovese-italy-190g",
+      "barcode": null,
+      "name": "Barilla Pesto alla Genovese",
+      "nameI18n": {
+        "es": "Barilla Pesto alla Genovese",
+        "en": "Barilla Pesto alla Genovese"
+      },
+      "brand": "Barilla",
+      "country": "Italy",
+      "market": "Latin America product page; made in Italy",
+      "region": "world",
+      "category": "pesto",
+      "package": "190 g jar",
+      "image": null,
+      "description": {
+        "es": "Pesto con albahaca, anacardos y quesos italianos; fórmula de la ficha regional.",
+        "en": "Basil pesto with cashews and Italian cheeses, per the regional product page."
+      },
+      "ingredientsText": "Sunflower oil, basil 30%, cashew nuts, Parmigiano Reggiano DOP cheese 5% (milk), corn fibre, whey powder, salt, milk proteins, natural flavours (milk), extra virgin olive oil, sugar, acidity regulator (lactic acid), garlic.",
+      "ingredients": [
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "albahaca",
+          "en": "basil",
+          "aliases": [
+            "albahaca",
+            "basil"
+          ]
+        },
+        {
+          "es": "anacardos",
+          "en": "cashew nuts",
+          "aliases": [
+            "anacardos",
+            "cashew nuts",
+            "cashews",
+            "castañas de cajú"
+          ]
+        },
+        {
+          "es": "queso Parmigiano Reggiano",
+          "en": "Parmigiano Reggiano cheese",
+          "aliases": [
+            "queso Parmigiano Reggiano",
+            "Parmigiano Reggiano cheese"
+          ]
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "fibra de maíz",
+          "en": "corn fibre",
+          "aliases": [
+            "fibra de maíz",
+            "corn fibre",
+            "corn fiber"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "proteínas de leche",
+          "en": "milk proteins",
+          "aliases": [
+            "proteínas de leche",
+            "milk proteins"
+          ]
+        },
+        {
+          "es": "aromas naturales",
+          "en": "natural flavours",
+          "aliases": [
+            "aromas naturales",
+            "natural flavours",
+            "natural flavors"
+          ]
+        },
+        {
+          "es": "aceite de oliva virgen extra",
+          "en": "extra virgin olive oil",
+          "aliases": [
+            "aceite de oliva virgen extra",
+            "extra virgin olive oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid",
+            "E270"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        }
+      ],
+      "sourceId": "barilla-pesto-alla-genovese-italy-190g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "monster-munch-pickled-onion-uk",
+      "barcode": null,
+      "name": "Monster Munch Pickled Onion",
+      "nameI18n": {
+        "es": "Monster Munch Pickled Onion",
+        "en": "Monster Munch Pickled Onion"
+      },
+      "brand": "Walkers",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "corn_snack",
+      "package": "Pack size varies; individual snack bag",
+      "image": null,
+      "description": {
+        "es": "Snack inflado de maíz con sabor a cebolla encurtida.",
+        "en": "Puffed maize snack with pickled onion flavour."
+      },
+      "ingredientsText": "Maize, rapeseed oil, pickled onion seasoning (flavourings, whey permeate (from milk), onion powder, sugar, flavour enhancers (monosodium glutamate, disodium 5'-ribonucleotide), salt, potassium chloride, garlic powder, hydrolysed soya protein, citric acid, spices).",
+      "ingredients": [
+        {
+          "es": "maíz",
+          "en": "maize",
+          "aliases": [
+            "maíz",
+            "maize",
+            "corn"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "permeado de suero",
+          "en": "whey permeate",
+          "aliases": [
+            "permeado de suero",
+            "whey permeate"
+          ]
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG",
+            "E621"
+          ]
+        },
+        {
+          "es": "5'-ribonucleótido disódico",
+          "en": "disodium 5'-ribonucleotide",
+          "aliases": [
+            "5'-ribonucleótido disódico",
+            "disodium 5'-ribonucleotide",
+            "E635"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "cloruro de potasio",
+          "en": "potassium chloride",
+          "aliases": [
+            "cloruro de potasio",
+            "potassium chloride",
+            "E508"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "proteína de soja hidrolizada",
+          "en": "hydrolysed soya protein",
+          "aliases": [
+            "proteína de soja hidrolizada",
+            "hydrolysed soya protein",
+            "hydrolyzed soy protein"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        }
+      ],
+      "sourceId": "monster-munch-pickled-onion-uk",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "cadbury-wispa-gold-uk-48g",
+      "barcode": null,
+      "name": "Cadbury Wispa Gold",
+      "nameI18n": {
+        "es": "Cadbury Wispa Gold",
+        "en": "Cadbury Wispa Gold"
+      },
+      "brand": "Cadbury",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "chocolate_bar",
+      "package": "48 g bar",
+      "image": null,
+      "description": {
+        "es": "Barra de chocolate con leche aireado y caramelo.",
+        "en": "Aerated milk chocolate bar with caramel."
+      },
+      "ingredientsText": "Milk, sugar, glucose syrup, cocoa butter, vegetable fats (palm, shea), glucose-fructose syrup, cocoa mass, whey powder (from milk), emulsifiers (E442, E471), salt, sodium carbonate, flavourings.",
+      "ingredients": [
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "grasa de karité",
+          "en": "shea fat",
+          "aliases": [
+            "grasa de karité",
+            "shea fat"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa y fructosa",
+          "en": "glucose-fructose syrup",
+          "aliases": [
+            "jarabe de glucosa y fructosa",
+            "glucose-fructose syrup"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "emulsionante E442",
+          "en": "E442 emulsifier",
+          "aliases": [
+            "emulsionante E442",
+            "E442 emulsifier",
+            "amonio fosfátidos",
+            "ammonium phosphatides"
+          ]
+        },
+        {
+          "es": "emulsionante E471",
+          "en": "E471 emulsifier",
+          "aliases": [
+            "emulsionante E471",
+            "E471 emulsifier",
+            "mono y diglicéridos de ácidos grasos"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "cadbury-wispa-gold-uk-48g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "hp-brown-sauce-uk-255g",
+      "barcode": null,
+      "name": "HP Brown Sauce",
+      "nameI18n": {
+        "es": "HP Brown Sauce",
+        "en": "HP Brown Sauce"
+      },
+      "brand": "HP",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "brown_sauce",
+      "package": "255 g glass bottle",
+      "image": null,
+      "description": {
+        "es": "Salsa marrón británica con tomate, dátiles y tamarindo.",
+        "en": "British brown sauce with tomatoes, dates and tamarind."
+      },
+      "ingredientsText": "Tomatoes, malt vinegar (with barley), molasses, glucose-fructose syrup, spirit vinegar, sugar, dates, modified corn starch, rye flour, salt, spices, flavourings, tamarind.",
+      "ingredients": [
+        {
+          "es": "tomates",
+          "en": "tomatoes",
+          "aliases": [
+            "tomates",
+            "tomatoes",
+            "tomate"
+          ]
+        },
+        {
+          "es": "vinagre de malta",
+          "en": "malt vinegar",
+          "aliases": [
+            "vinagre de malta",
+            "malt vinegar"
+          ]
+        },
+        {
+          "es": "cebada",
+          "en": "barley",
+          "aliases": [
+            "cebada",
+            "barley"
+          ]
+        },
+        {
+          "es": "melaza",
+          "en": "molasses",
+          "aliases": [
+            "melaza",
+            "molasses"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa y fructosa",
+          "en": "glucose-fructose syrup",
+          "aliases": [
+            "jarabe de glucosa y fructosa",
+            "glucose-fructose syrup"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "spirit vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "spirit vinegar"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "dátiles",
+          "en": "dates",
+          "aliases": [
+            "dátiles",
+            "dates"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified corn starch",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified corn starch",
+            "modified maize starch"
+          ]
+        },
+        {
+          "es": "harina de centeno",
+          "en": "rye flour",
+          "aliases": [
+            "harina de centeno",
+            "rye flour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "tamarindo",
+          "en": "tamarind",
+          "aliases": [
+            "tamarindo",
+            "tamarind"
+          ]
+        }
+      ],
+      "sourceId": "hp-brown-sauce-uk-255g",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "heinz-saucy-sauce-uk-415ml",
+      "barcode": null,
+      "name": "Heinz Saucy Sauce",
+      "nameI18n": {
+        "es": "Heinz Saucy Sauce",
+        "en": "Heinz Saucy Sauce"
+      },
+      "brand": "Heinz",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "condiment_sauce",
+      "package": "415 ml bottle",
+      "image": null,
+      "description": {
+        "es": "Salsa que combina mayonesa Heinz y ketchup de tomate.",
+        "en": "Sauce combining Heinz mayonnaise and tomato ketchup."
+      },
+      "ingredientsText": "Rapeseed oil (40%), tomato purée (22%), spirit vinegar, sugar, egg yolk (3%), starch, salt, mustard seeds, spice and herb extract (contains celery), antioxidant (calcium disodium EDTA).",
+      "ingredients": [
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "puré de tomate",
+          "en": "tomato purée",
+          "aliases": [
+            "puré de tomate",
+            "tomato purée",
+            "tomato puree"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "spirit vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "spirit vinegar"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "yema de huevo",
+          "en": "egg yolk",
+          "aliases": [
+            "yema de huevo",
+            "egg yolk"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "semillas de mostaza",
+          "en": "mustard seeds",
+          "aliases": [
+            "semillas de mostaza",
+            "mustard seeds"
+          ]
+        },
+        {
+          "es": "extracto de especias y hierbas",
+          "en": "spice and herb extract",
+          "aliases": [
+            "extracto de especias y hierbas",
+            "spice and herb extract"
+          ]
+        },
+        {
+          "es": "apio",
+          "en": "celery",
+          "aliases": [
+            "apio",
+            "celery"
+          ]
+        },
+        {
+          "es": "EDTA cálcico disódico",
+          "en": "calcium disodium EDTA",
+          "aliases": [
+            "EDTA cálcico disódico",
+            "calcium disodium EDTA",
+            "E385"
+          ]
+        }
+      ],
+      "sourceId": "heinz-saucy-sauce-uk-415ml",
+      "verification": "manufacturer_website",
+      "status": "ready"
     }
   ]
 }
