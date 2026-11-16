@@ -1031,11 +1031,11 @@
     {
       "id": "pringles-sour-cream-onion-us-155g",
       "productId": "pringles-sour-cream-onion-us-155g",
-      "publisher": "Pringles US",
+      "publisher": "Pringles España",
       "sourceType": "manufacturer_website",
-      "url": "https://www.pringles.com/en-us/products/pringles-sour-cream-onion-product.html",
-      "supports": "Official Pringles US product page provides the US Sour Cream & Onion ingredient statement and a 5.5 oz pack nutrition panel.",
-      "market": "United States"
+      "url": "https://www.pringles.com/es/products/40g/pringles-sour-cream-and-onion-40g.html",
+      "supports": "Official Pringles Spain product page lists the 40 g Sour Cream and Onion product, its Spanish ingredient declaration and 40 g nutrition panel; precautionary may-contain soy excluded.",
+      "market": "Spain"
     },
     {
       "id": "calbee-kappa-ebisen-japan-130g",
