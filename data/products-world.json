@@ -14840,7 +14840,7 @@
       "region": "world",
       "category": "pickle",
       "package": "360 g jar",
-      "image": null,
+      "image": "https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/r/branston_pickle_360g-1670931748.jpg",
       "description": {
         "es": "Pickle británico agridulce de verduras, vinagre y especias.",
         "en": "British sweet-and-tangy vegetable pickle with vinegar and spices."
@@ -15022,7 +15022,8 @@
       ],
       "sourceId": "branston-original-pickle-uk-360g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-branston-original-pickle-uk-360g"
     },
     {
       "id": "pocky-almond-crush-us-41g",
@@ -15474,7 +15475,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "250 g pack",
-      "image": null,
+      "image": "https://www.baktotaal.nl/media/catalog/product/cache/eb002657933dbd4c15eb7abaeee5f499/L/o/Lotus_Biscoff_Speculoos_Koekjes_250g_20d6.jpg",
       "description": {
         "es": "Galletitas especiadas belgas tipo speculoos.",
         "en": "Belgian spiced speculoos biscuits."
@@ -15561,7 +15562,8 @@
       ],
       "sourceId": "lotus-biscoff-speculoos-belgium-250g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lotus-biscoff-speculoos-belgium-250g"
     },
     {
       "id": "kraft-dinner-original-canada-200g",
@@ -15577,7 +15579,7 @@
       "region": "world",
       "category": "boxed_macaroni",
       "package": "200 g box",
-      "image": null,
+      "image": "https://i.ebayimg.com/images/g/QO0AAOSwMONlxhfH/s-l1200.jpg",
       "description": {
         "es": "Macarrones con salsa de queso en polvo, versión canadiense.",
         "en": "Macaroni with powdered cheese sauce, Canadian-market formula."
@@ -15688,7 +15690,8 @@
       ],
       "sourceId": "kraft-dinner-original-canada-200g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-kraft-dinner-original-canada-200g"
     },
     {
       "id": "barilla-pesto-alla-genovese-italy-190g",
@@ -15704,7 +15707,7 @@
       "region": "world",
       "category": "pesto",
       "package": "190 g jar",
-      "image": null,
+      "image": "https://www.londonfoodhall.co.uk/cdn/shop/files/71klFCMgGwL.jpg?v=1771342205&width=1946",
       "description": {
         "es": "Pesto con albahaca, anacardos y quesos italianos; fórmula de la ficha regional.",
         "en": "Basil pesto with cashews and Italian cheeses, per the regional product page."
@@ -15831,7 +15834,8 @@
       ],
       "sourceId": "barilla-pesto-alla-genovese-italy-190g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-barilla-pesto-alla-genovese-italy-190g"
     },
     {
       "id": "monster-munch-pickled-onion-uk",
@@ -15847,7 +15851,7 @@
       "region": "world",
       "category": "corn_snack",
       "package": "Pack size varies; individual snack bag",
-      "image": null,
+      "image": "https://www.walkers.co.uk/prod/s3fs-public/2026-04/2515_Walkers%20Monster%20Munch%20Pickled%20Onion%2040g_Beauty.png",
       "description": {
         "es": "Snack inflado de maíz con sabor a cebolla encurtida.",
         "en": "Puffed maize snack with pickled onion flavour."
@@ -15986,7 +15990,8 @@
       ],
       "sourceId": "monster-munch-pickled-onion-uk",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-monster-munch-pickled-onion-uk"
     },
     {
       "id": "cadbury-wispa-gold-uk-48g",
@@ -16002,7 +16007,7 @@
       "region": "world",
       "category": "chocolate_bar",
       "package": "48 g bar",
-      "image": null,
+      "image": "https://assets.iceland.co.uk/i/iceland/cadbury_wispa_gold_chocolate_bar_48g_86639_T596.jpg",
       "description": {
         "es": "Barra de chocolate con leche aireado y caramelo.",
         "en": "Aerated milk chocolate bar with caramel."
@@ -16128,7 +16133,8 @@
       ],
       "sourceId": "cadbury-wispa-gold-uk-48g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-cadbury-wispa-gold-uk-48g"
     },
     {
       "id": "hp-brown-sauce-uk-255g",
@@ -16402,7 +16408,7 @@
       "region": "world",
       "category": "namkeen_snack",
       "package": "400 g pack",
-      "image": null,
+      "image": "https://shubhamfoods.co.uk/cdn/shop/files/Buy_haldiram_aloo_bhujia_online_UK.jpg?v=1748007853",
       "description": {
         "es": "Snack indio crujiente de papa y harina de garbanzo, sazonado con especias.",
         "en": "Indian crispy potato and gram-flour snack seasoned with spices."
@@ -16561,7 +16567,8 @@
       ],
       "sourceId": "haldiram-aloo-bhujia-india-400g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-haldiram-aloo-bhujia-india-400g"
     },
     {
       "id": "mcvities-jaffa-cakes-uk-110g",
@@ -16577,7 +16584,7 @@
       "region": "world",
       "category": "snack_cake",
       "package": "110 g pack",
-      "image": null,
+      "image": "https://www.britsuperstore.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/c/mcvities_jaffa_cakes_10_pack_-1749470185.jpg",
       "description": {
         "es": "Bizcochitos británicos con centro de naranja y cobertura de chocolate negro.",
         "en": "British sponge cakes with an orange centre and dark chocolate topping."
@@ -16858,7 +16865,8 @@
       ],
       "sourceId": "mcvities-jaffa-cakes-uk-110g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mcvities-jaffa-cakes-uk-110g"
     },
     {
       "id": "jello-strawberry-gelatin-us-6oz",
