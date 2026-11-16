@@ -311,7 +311,7 @@ AGUA CARBONATADA, AZÚCAR O JMAF, JUGO DE LIMÓN, ARO, ACREG 331 iii, CONS BENZO
 
 **Ingredientes declarados / Declared ingredients**
 
-Leche parcialmente descremada pasteurizada, solución de sacarosa, gelatina, cultivos lácticos, cultivos probióticos (Lactobacillus casei DN-114 001, Bifidobacterium lactis DN-173 010), vitaminas A, D y B12, estabilizante (pectina extraída de cítricos), aromas, colorante natural carmín. CONTIENE LECHE.
+Leche parcialmente descremada pasteurizada, solución de sacarosa, gelatina, cultivos lácticos, cultivos probióticos (Lactobacillus casei DN-114 001, Bifidobacterium lactis DN-173 010), vitaminas A, D y B12, estabilizante (pectina extraída de cítricos), aromas, cúrcuma (INS 100i) carmín. CONTIENE LECHE.
 
 **Respuestas aceptadas / Accepted answers (12)**
 
@@ -907,7 +907,7 @@ Harina de trigo enriquecida, azúcar, aceite vegetal, cacao en polvo, dextrosa, 
 - **Marca / Brand:** Havanna
 - **País / Country:** Argentina
 - **Mercado / Market:** Argentina
-- **Envase / Package:** 55 g (unidad; referencia de ficha comercial)
+- **Envase / Package:** Pack x4 (peso unitario no especificado en la fuente)
 - **Categoría / Category:** `chocolate_alfajor`
 - **Barcode:** No registrado / Not recorded
 - **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
@@ -1045,7 +1045,7 @@ Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato
 | fosfato tricálcico | tricalcium phosphate | fosfato tricálcico, tricalcium phosphate, INS 341iii |
 | celulosa microcristalina | microcrystalline cellulose | celulosa microcristalina, microcrystalline cellulose, INS 460ii |
 | propionato de calcio | calcium propionate | propionato de calcio, calcium propionate, INS 282 |
-| colorante natural | natural coloring | colorante natural, natural coloring, colorante |
+| cúrcuma | turmeric | cúrcuma, turmeric, curcumin, INS 100i |
 | coco rallado | shredded coconut | coco rallado, shredded coconut |
 
 **Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/alfajor-de-maizena-cachafaz-456-gr/p)  
