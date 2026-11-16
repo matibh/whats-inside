@@ -10086,7 +10086,7 @@
       "region": "world",
       "category": "lollipop",
       "package": "300 g assorted bag (25 lollipops)",
-      "image": null,
+      "image": "https://www.treatsfromoz.com/cdn/shop/files/379909_2_1200x.jpg?v=1714640114",
       "description": {
         "es": "Bolsa surtida de chupetines frutales; se usa la declaración específica de sabores frutales.",
         "en": "Assorted fruit lollipops; uses the fruit-flavour ingredient declaration."
@@ -10289,7 +10289,8 @@
       ],
       "sourceId": "chupa-chups-fruit-lollipops-spain",
       "verification": "manufacturer_product_specification",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-chupa-chups-fruit-lollipops-spain-300g"
     },
     {
       "id": "maggi-hot-sweet-tomato-chilli-india-200g",
@@ -10432,7 +10433,7 @@
       "region": "world",
       "category": "malt_cocoa_powder",
       "package": "383 g tin",
-      "image": null,
+      "image": "https://www.polichollo.com/cdn/shop/files/6239.jpg?v=1758785698",
       "description": {
         "es": "Preparado español de cacao con cereal kola-malteado.",
         "en": "Spanish cocoa drink powder with malted kola cereal."
@@ -10523,7 +10524,8 @@
       ],
       "sourceId": "colacao-original-spain",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-colacao-original-spain-383g"
     },
     {
       "id": "goya-black-beans-us-15-5oz",
@@ -13059,7 +13061,7 @@
       "region": "world",
       "category": "fermented_drink",
       "package": "500 ml bottle",
-      "image": null,
+      "image": "https://kufu-ya.com/cdn/shop/files/image-73f4392c-f609-4b05-aff2-b9fcab77346c.jpg?v=1720337151",
       "description": {
         "es": "Bebida láctea dulce y ligeramente ácida de la marca Calpis, versión de origen taiwanés vendida en Australia.",
         "en": "Sweet, lightly tangy Calpis milk drink, Taiwan-origin version sold in Australia."
@@ -13137,7 +13139,8 @@
       ],
       "sourceId": "calpis-water-taiwan-australia",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-calpis-water-taiwan-australia-500ml"
     },
     {
       "id": "heinz-baked-beanz-uk-415g",
@@ -15105,7 +15108,7 @@
       "region": "world",
       "category": "chocolate_biscuit_sticks",
       "package": "1.45 oz (41 g) box",
-      "image": null,
+      "image": "https://smoke2snack.com/cdn/shop/files/L9536806.jpg?v=1714817390",
       "description": {
         "es": "Palitos de galleta cubiertos con chocolate con leche y almendras.",
         "en": "Biscuit sticks coated with milk chocolate and roasted almonds."
@@ -15301,7 +15304,8 @@
       ],
       "sourceId": "pocky-almond-crush-us-41g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pocky-almond-crush-us-41g"
     },
     {
       "id": "chocapic-cereal-france-1kg",
@@ -16359,7 +16363,7 @@
       "region": "world",
       "category": "condiment_sauce",
       "package": "415 ml bottle",
-      "image": null,
+      "image": "https://cdn.grocefully.com/storage/v1/object/public/images/tesco/304408612/1.jpeg",
       "description": {
         "es": "Salsa que combina mayonesa Heinz y ketchup de tomate.",
         "en": "Sauce combining Heinz mayonnaise and tomato ketchup."
@@ -16460,7 +16464,8 @@
       ],
       "sourceId": "heinz-saucy-sauce-uk-415ml",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-heinz-saucy-sauce-uk-415ml"
     },
     {
       "id": "haldiram-aloo-bhujia-india-400g",
@@ -17423,7 +17428,7 @@
       "region": "world",
       "category": "shrimp_snack",
       "package": "130 g bag (regional availability varies)",
-      "image": null,
+      "image": "https://cookingsan.com/9149-product_hd/calbee-kappa-ebisen-shrimp-snack.jpg",
       "description": {
         "es": "Snack japonés crocante de camarón elaborado con harina de trigo.",
         "en": "Japanese crunchy shrimp snack made with wheat flour and shrimp."
@@ -17517,7 +17522,8 @@
       ],
       "sourceId": "calbee-kappa-ebisen-japan-130g",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-calbee-kappa-ebisen-japan-130g"
     },
     {
       "id": "walkers-wotsits-really-cheesy-uk-22g",
@@ -17904,7 +17910,7 @@
       "region": "world",
       "category": "chocolate_candy",
       "package": "2.83 oz (80 g) sharing-size pack",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/M-M-s-Peanut-Butter-Milk-Chocolate-Candy-Share-Size-2-83-oz-Bag_4296b78c-9638-4554-aed1-8fde2e3a6d73.b346b704c898a3201e068b7bc10d6f45.jpeg",
       "description": {
         "es": "Confites M&M'S con chocolate con leche y centro de mantequilla de maní.",
         "en": "M&M'S milk chocolate candies with a peanut butter centre."
@@ -18118,7 +18124,8 @@
       ],
       "sourceId": "mms-peanut-butter-us-283oz",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-mms-peanut-butter-us-283oz"
     }
   ]
 }
