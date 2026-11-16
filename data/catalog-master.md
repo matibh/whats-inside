@@ -1,18 +1,18 @@
 # WHAT'S INSIDE? — Registro maestro de productos / Master product register
 
-Documento humano de control editorial. Se actualiza junto con los JSON cada vez que se agrega o modifica un producto. Los JSON siguen siendo los datos que consume el juego; este Markdown permite auditar los productos, ingredientes aceptados y fuentes.
+Documento humano de control editorial. Los JSON siguen siendo los datos que consume el juego; este Markdown permite auditar productos, ingredientes aceptados y fuentes. Actualizarlo en cada tanda.
 
-Human-readable editorial register. Update alongside the JSON files whenever products are added or changed. JSON remains the game's data source; this file provides an audit trail.
+Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-16
-- **Productos / Products:** 38
+- **Productos / Products:** 48
 - **Argentina:** 20
-- **World:** 18
+- **World:** 28
 - **Idiomas / Languages:** Español + English
 
 ## Reglas / Rules
 
-1. Una ficha representa una presentación y mercado concretos; no mezclar fórmulas de países distintos.
+1. Cada ficha representa una presentación y mercado concretos; no mezclar fórmulas de países distintos.
 2. Conservar el texto de etiqueta en `ingredientsText`; las respuestas normalizadas están en `ingredients`.
 3. No incluir advertencias de trazas o “puede contener” como ingredientes.
 4. Cada respuesta aceptada debe tener español, inglés y alias útiles.
@@ -1647,6 +1647,450 @@ Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Milk Fat, Lactose, Le
 **Fuente / Source:** [Hershey SmartLabel / REESE'S](https://smartlabel.hersheys.com/034000451708-0052-en-US/index.html)  
 **Tipo / Type:** `manufacturer_smartlabel_plus_retailer_crosscheck`  
 **Alcance / Supports:** Official Hershey SmartLabel product identity and UPC; ingredient text cross-checked against retailer transcription.
+
+---
+
+### Takis Fuego 70 g / Takis Fuego 70 g
+
+- **ID:** `takis-fuego-mexico-70g`
+- **Marca / Brand:** Barcel
+- **País / Country:** Mexico
+- **Mercado / Market:** Mexico
+- **Envase / Package:** 70 g
+- **Categoría / Category:** `tortilla_chips`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Rollitos de maíz enrollados con sazonador picante de chile y limón, versión mexicana.
+- **Description (EN):** Rolled corn snacks with spicy chili-lime seasoning, Mexican-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+HARINA DE MAÍZ, ACEITE VEGETAL, SAZONADOR (SAL YODADA, MALTODEXTRINA, AZÚCARES AÑADIDOS (AZÚCAR), ÁCIDO CÍTRICO, GMS, PROTEÍNA VEGETAL, ANTOCIANINAS, CEBOLLA, BICARBONATO DE SODIO, EXTRACTO DE LEVADURA, ACEITE VEGETAL, SABORIZANTES NATURALES E IDÉNTICOS AL NATURAL, EXTRACTO DE CHILE).
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de maíz | corn flour | harina de maíz, corn flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| sal yodada | iodized salt | sal yodada, iodized salt |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| azúcar | sugar | azúcar, sugar |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate |
+| proteína vegetal | vegetable protein | proteína vegetal, vegetable protein |
+| antocianinas | anthocyanins | antocianinas, anthocyanins |
+| cebolla | onion | cebolla, onion |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| saborizantes | flavorings | saborizantes, flavorings |
+| extracto de chile | chili extract | extracto de chile, chili extract |
+
+**Fuente / Source:** [Barcel México](https://www.barcel.com.mx/marcas/takis/fuego)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Mexican Takis Fuego product page; ingredient declaration and 70 g package option.
+
+---
+
+### Gansito 50 g / Gansito 50 g
+
+- **ID:** `gansito-marinela-mexico-50g`
+- **Marca / Brand:** Marinela
+- **País / Country:** Mexico
+- **Mercado / Market:** Mexico
+- **Envase / Package:** 50 g (1 pieza)
+- **Categoría / Category:** `snack_cake`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_document`
+- **Descripción (ES):** Pastelito relleno de fresa, cubierto con chocolate y granillo, versión mexicana.
+- **Description (EN):** Strawberry-filled snack cake with chocolate coating and sprinkles, Mexican-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+AZÚCARES AÑADIDOS (AZÚCAR, JARABE DE MAÍZ DE ALTA FRUCTOSA, AZÚCAR INVERTIDO, GLUCOSA, MALTOSA, JUGO CONCENTRADO DE MANZANA), GRASA Y ACEITE VEGETAL, HARINA DE TRIGO (GLUTEN), LECHE RECONSTITUIDA, HUEVO, PURÉ DE FRESA (5%), COCOA, GRASA BUTÍRICA, GLICERINA, ALMIDÓN MODIFICADO, ÉSTERES DE PROPILENGLICOL DE ÁCIDOS GRASOS, ESTEAROIL LACTILATO DE SODIO, SAL YODADA, PROPIONATO SÓDICO, MONO Y DIGLICÉRIDOS, MONOESTEARATO DE SORBITÁN, POLISORBATO 60, ALMIDÓN, ÁCIDO SÓRBICO, BENZOATO DE SODIO, SORBATO DE POTASIO, SABORIZANTE ARTIFICIAL Y NATURAL, LECITINA DE SOYA, CANELA, TRIESTEARATO DE SORBITÁN, VAINILLINA, ENZIMAS, GOMA XANTANA, GOMA GUAR, GOMA DE ALGARROBO, GOMA ARÁBIGA, CARRAGENINA, CMC SÓDICA, ÁCIDO CÍTRICO, ROJO 40, ROJO 3.
+
+**Respuestas aceptadas / Accepted answers (42)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| jarabe de maíz de alta fructosa | high-fructose corn syrup | jarabe de maíz de alta fructosa, high-fructose corn syrup |
+| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
+| glucosa | glucose | glucosa, glucose |
+| maltosa | maltose | maltosa, maltose |
+| jugo concentrado de manzana | apple juice concentrate | jugo concentrado de manzana, apple juice concentrate |
+| grasa vegetal | vegetable fat | grasa vegetal, vegetable fat |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| leche reconstituida | reconstituted milk | leche reconstituida, reconstituted milk |
+| huevo | egg | huevo, egg |
+| puré de fresa | strawberry puree | puré de fresa, strawberry puree |
+| cocoa | cocoa | cocoa, cocoa |
+| grasa butírica | butterfat | grasa butírica, butterfat |
+| glicerina | glycerin | glicerina, glycerin |
+| almidón modificado | modified starch | almidón modificado, modified starch |
+| ésteres de propilenglicol de ácidos grasos | propylene glycol esters of fatty acids | ésteres de propilenglicol de ácidos grasos, propylene glycol esters of fatty acids |
+| estearoil lactilato de sodio | sodium stearoyl lactylate | estearoil lactilato de sodio, sodium stearoyl lactylate |
+| sal yodada | iodized salt | sal yodada, iodized salt |
+| propionato sódico | sodium propionate | propionato sódico, sodium propionate |
+| mono y diglicéridos | mono- and diglycerides | mono y diglicéridos, mono- and diglycerides |
+| monoestearato de sorbitán | sorbitan monostearate | monoestearato de sorbitán, sorbitan monostearate |
+| polisorbato 60 | polysorbate 60 | polisorbato 60, polysorbate 60 |
+| almidón | starch | almidón, starch |
+| ácido sórbico | sorbic acid | ácido sórbico, sorbic acid |
+| benzoato de sodio | sodium benzoate | benzoato de sodio, sodium benzoate |
+| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate |
+| saborizantes | flavorings | saborizantes, flavorings |
+| lecitina de soya | soy lecithin | lecitina de soya, soy lecithin |
+| canela | cinnamon | canela, cinnamon |
+| triestearato de sorbitán | sorbitan tristearate | triestearato de sorbitán, sorbitan tristearate |
+| vainillina | vanillin | vainillina, vanillin |
+| enzimas | enzymes | enzimas, enzymes |
+| goma xantana | xanthan gum | goma xantana, xanthan gum |
+| goma guar | guar gum | goma guar, guar gum |
+| goma de algarrobo | locust bean gum | goma de algarrobo, locust bean gum |
+| goma arábiga | gum arabic | goma arábiga, gum arabic |
+| carragenina | carrageenan | carragenina, carrageenan |
+| CMC sódica | sodium carboxymethyl cellulose | CMC sódica, sodium carboxymethyl cellulose |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| rojo 40 | Red 40 | rojo 40, Red 40 |
+| rojo 3 | Red 3 | rojo 3, Red 3 |
+
+**Fuente / Source:** [Grupo Bimbo / Marinela product label PDF](https://d2g10w8g19lwbg.cloudfront.net/s3fs-public/files/2023-10/info-nutri-Gansito-50g_0.pdf?VersionId=SHuPS.dynsbYtZ8WH2_Z86cjgxE1L0Ab)  
+**Tipo / Type:** `manufacturer_product_document`  
+**Alcance / Supports:** Ingredient declaration for Mexican Marinela Gansito, 50 g; official-looking manufacturer label document.
+
+---
+
+### Pocky de chocolate (Japón) / Pocky Chocolate (Japan)
+
+- **ID:** `pocky-chocolate-japan-2pack`
+- **Marca / Brand:** Glico
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 2 bags (29 g per bag)
+- **Categoría / Category:** `chocolate_biscuit_sticks`
+- **Barcode:** 4901005009158
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Palitos de pretzel con cobertura de chocolate, fórmula japonesa.
+- **Description (EN):** Pretzel biscuit sticks coated in chocolate, Japanese-market formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+小麦粉（国内製造）、砂糖、カカオマス、植物油脂、全粉乳、小麦全粒粉、モルトエキス、ココアバター、発酵バター、食塩、イースト／乳化剤、香料（一部に乳成分・小麦・大豆を含む）
+
+**Respuestas aceptadas / Accepted answers (13)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| harina integral de trigo | whole wheat flour | harina integral de trigo, whole wheat flour |
+| extracto de malta | malt extract | extracto de malta, malt extract |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| manteca fermentada | cultured butter | manteca fermentada, cultured butter |
+| sal | salt | sal, salt |
+| levadura | yeast | levadura, yeast |
+| emulsionante | emulsifier | emulsionante, emulsifier |
+| saborizante | flavoring | saborizante, flavoring |
+
+**Fuente / Source:** [Ezaki Glico Japan](https://www.glico.com/jp/product/chocolate/pocky/47143/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Japanese Glico product page; Japanese ingredient declaration and JAN code.
+
+---
+
+### HARIBO Goldbears 5 oz / HARIBO Goldbears 5 oz
+
+- **ID:** `haribo-goldbears-us-5oz`
+- **Marca / Brand:** HARIBO
+- **País / Country:** Germany
+- **Mercado / Market:** United States
+- **Envase / Package:** 5 oz (141 g)
+- **Categoría / Category:** `gummy_candy`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Ositos de goma en cinco colores, fórmula del mercado estadounidense.
+- **Description (EN):** Five-color gummy bears, United States-market formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+GLUCOSE SYRUP (FROM WHEAT OR CORN), SUGAR, GELATIN, DEXTROSE (FROM WHEAT OR CORN), CONTAINS LESS THAN 2% OF: CITRIC ACID, ARTIFICIAL AND NATURAL FLAVORS, SUNFLOWER OIL, WHITE BEESWAX, YELLOW BEESWAX, YELLOW 5, RED 40, BLUE 1.
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| azúcar | sugar | azúcar, sugar |
+| gelatina | gelatin | gelatina, gelatin |
+| dextrosa | dextrose | dextrosa, dextrose |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| sabores artificiales y naturales | artificial and natural flavors | sabores artificiales y naturales, artificial and natural flavors |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| cera blanca de abeja | white beeswax | cera blanca de abeja, white beeswax |
+| cera amarilla de abeja | yellow beeswax | cera amarilla de abeja, yellow beeswax |
+| amarillo 5 | Yellow 5 | amarillo 5, Yellow 5 |
+| rojo 40 | Red 40 | rojo 40, Red 40 |
+| azul 1 | Blue 1 | azul 1, Blue 1 |
+
+**Fuente / Source:** [HARIBO USA](https://www.haribo.com/en-us/products/goldbears)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official US Goldbears page; ingredients and US-market formulation.
+
+---
+
+### McVitie's Digestives Original / McVitie's Digestives Original
+
+- **ID:** `mcvities-digestives-uk-original`
+- **Marca / Brand:** McVitie's
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** Original pack (24 biscuits typical)
+- **Categoría / Category:** `plain_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas Digestive originales de trigo, receta británica.
+- **Description (EN):** Original British wheat Digestive biscuits.
+
+**Ingredientes declarados / Declared ingredients**
+
+Flour (55%) (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Vegetable Oil (Palm), Wholemeal Wheat Flour (16%), Sugar, Partially Inverted Sugar Syrup, Raising Agents (Sodium Bicarbonate, Malic Acid, Ammonium Bicarbonate), Salt.
+
+**Respuestas aceptadas / Accepted answers (13)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| calcio | calcium | calcio, calcium |
+| hierro | iron | hierro, iron |
+| niacina | niacin | niacina, niacin |
+| tiamina | thiamin | tiamina, thiamin |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| harina integral de trigo | wholemeal wheat flour | harina integral de trigo, wholemeal wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| jarabe de azúcar parcialmente invertido | partially inverted sugar syrup | jarabe de azúcar parcialmente invertido, partially inverted sugar syrup |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| ácido málico | malic acid | ácido málico, malic acid |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [McVitie's UK](https://mcvities.com/en-gb/original)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official McVitie's UK product page; ingredient declaration and pack reference.
+
+---
+
+### Papas fritas Walkers sabor salado / Walkers Ready Salted Crisps
+
+- **ID:** `walkers-ready-salted-uk`
+- **Marca / Brand:** Walkers
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** Standard single-serve pack (25 g nutrition serving)
+- **Categoría / Category:** `potato_chips`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Papas fritas clásicas con sal, hechas con papas británicas.
+- **Description (EN):** Classic salted potato crisps made with British potatoes.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Salt, Antioxidants (Rosemary Extract, Ascorbic Acid, Tocopherol Rich Extract, Citric acid).
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papas | potatoes | papas, potatoes |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil |
+| sal | salt | sal, salt |
+| extracto de romero | rosemary extract | extracto de romero, rosemary extract |
+| ácido ascórbico | ascorbic acid | ácido ascórbico, ascorbic acid |
+| extracto rico en tocoferoles | tocopherol-rich extract | extracto rico en tocoferoles, tocopherol-rich extract |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+
+**Fuente / Source:** [Walkers UK](https://www.walkers.co.uk/our-range/walkers-crisps/ready-salted)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Walkers UK Ready Salted product page; ingredient declaration.
+
+---
+
+### Cadbury Dairy Milk 45 g / Cadbury Dairy Milk 45 g
+
+- **ID:** `cadbury-dairy-milk-uk-45g`
+- **Marca / Brand:** Cadbury
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 45 g bar
+- **Categoría / Category:** `milk_chocolate`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Chocolate con leche clásico británico, barra de 45 gramos.
+- **Description (EN):** Classic British milk chocolate, 45-gram bar.
+
+**Ingredientes declarados / Declared ingredients**
+
+MILK, sugar, cocoa butter, cocoa mass, vegetable fats (palm, shea), emulsifiers (E442, E476), flavourings.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| leche | milk | leche, milk |
+| azúcar | sugar | azúcar, sugar |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| grasa de palma | palm fat | grasa de palma, palm fat |
+| grasa de karité | shea fat | grasa de karité, shea fat |
+| emulsionante E442 | emulsifier E442 | emulsionante E442, emulsifier E442 |
+| emulsionante E476 | emulsifier E476 | emulsionante E476, emulsifier E476 |
+| saborizantes | flavourings | saborizantes, flavourings |
+
+**Fuente / Source:** [Mondelez Away From Home UK](https://www.mondelez-afh.co.uk/products/cadbury-dairy-milk-45g-40032/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official UK product specification for 45 g Cadbury Dairy Milk.
+
+---
+
+### Ferrero Rocher pack de 3 (EE. UU.) / Ferrero Rocher 3-Piece Pack (US)
+
+- **ID:** `ferrero-rocher-us-3pack`
+- **Marca / Brand:** Ferrero
+- **País / Country:** Italy
+- **Mercado / Market:** United States
+- **Envase / Package:** 3 pieces
+- **Categoría / Category:** `chocolate_candy`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bombones de chocolate con leche y avellanas, versión estadounidense.
+- **Description (EN):** Milk chocolate and hazelnut pralines, United States-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk Chocolate (Sugar, Cocoa Butter, Cocoa Mass, Skim Milk Powder, Butteroil, Soy Lecithin as Emulsifier, Vanillin: An Artificial Flavor), Hazelnuts, Sugar, Palm Oil, Wheat Flour, Whey, Lowfat Cocoa Powder, Soy Lecithin as Emulsifier, Sodium Bicarbonate as Leavening Agent, Salt, Vanillin: An Artificial Flavor.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| leche descremada en polvo | skim milk powder | leche descremada en polvo, skim milk powder |
+| grasa láctea anhidra | butteroil | grasa láctea anhidra, butteroil |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| vainillina | vanillin | vainillina, vanillin |
+| avellanas | hazelnuts | avellanas, hazelnuts |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| suero de leche | whey | suero de leche, whey |
+| cacao bajo en grasa | lowfat cocoa powder | cacao bajo en grasa, lowfat cocoa powder |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [Ferrero Rocher US](https://www.ferrerorocher.com/us/en/our-products/ferrero-rocher/3-piece-pack)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official US Ferrero Rocher ingredient declaration.
+
+---
+
+### Cereal Nescau 210 g / Nescau Cereal 210 g
+
+- **ID:** `nescau-cereal-brazil-210g`
+- **Marca / Brand:** Nestlé
+- **País / Country:** Brazil
+- **Mercado / Market:** Brazil
+- **Envase / Package:** 210 g
+- **Categoría / Category:** `breakfast_cereal`
+- **Barcode:** 7891000111161
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Cereal de bolitas de maíz integral con cacao, versión brasileña.
+- **Description (EN):** Whole-corn and cocoa cereal balls, Brazilian-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+Farinha de milho integral, açúcar, farinha de milho enriquecida com ferro e ácido fólico, xarope de glicose, cacau em pó, oleína de palma, minerais [cálcio (carbonato de cálcio), ferro (ferro eletrolítico) e zinco (óxido de zinco)] e vitaminas [vitamina B3 (niacina), vitamina B5 (ácido pantotênico), vitamina B2 (riboflavina), vitamina B6 (cloridrato de piridoxina) e vitamina B9 (ácido fólico)], sal, aromatizantes, antiumectante fosfato dicálcico, corante caramelo IV, estabilizante fosfato trissódico e antioxidante tocoferol.
+
+**Respuestas aceptadas / Accepted answers (20)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina integral de maíz | whole corn flour | harina integral de maíz, whole corn flour |
+| azúcar | sugar | azúcar, sugar |
+| harina de maíz enriquecida con hierro y ácido fólico | iron- and folic-acid-enriched corn flour | harina de maíz enriquecida con hierro y ácido fólico, iron- and folic-acid-enriched corn flour |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| oleína de palma | palm olein | oleína de palma, palm olein |
+| carbonato de calcio | calcium carbonate | carbonato de calcio, calcium carbonate |
+| hierro electrolítico | electrolytic iron | hierro electrolítico, electrolytic iron |
+| óxido de zinc | zinc oxide | óxido de zinc, zinc oxide |
+| niacina (vitamina B3) | niacin (vitamin B3) | niacina (vitamina B3), niacin (vitamin B3) |
+| ácido pantoténico (vitamina B5) | pantothenic acid (vitamin B5) | ácido pantoténico (vitamina B5), pantothenic acid (vitamin B5) |
+| riboflavina (vitamina B2) | riboflavin (vitamin B2) | riboflavina (vitamina B2), riboflavin (vitamin B2) |
+| clorhidrato de piridoxina (vitamina B6) | pyridoxine hydrochloride (vitamin B6) | clorhidrato de piridoxina (vitamina B6), pyridoxine hydrochloride (vitamin B6) |
+| ácido fólico (vitamina B9) | folic acid (vitamin B9) | ácido fólico (vitamina B9), folic acid (vitamin B9) |
+| sal | salt | sal, salt |
+| aromatizantes | flavorings | aromatizantes, flavorings |
+| fosfato dicálcico | dicalcium phosphate | fosfato dicálcico, dicalcium phosphate |
+| caramelo IV | caramel IV | caramelo IV, caramel IV |
+| fosfato trisódico | trisodium phosphate | fosfato trisódico, trisodium phosphate |
+| tocoferol | tocopherol | tocoferol, tocopherol |
+
+**Fuente / Source:** [Nestlé Brasil](https://www.nescau.com.br/produtos/cereal-matinal/nescau)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Nestlé Nescau page; 210 g package option and ingredient declaration. Page declaration lists minerals and vitamins.
+
+---
+
+### Trakinas Chocolate 126 g / Trakinas Chocolate 126 g
+
+- **ID:** `trakinas-chocolate-brazil-126g`
+- **Marca / Brand:** Mondelēz
+- **País / Country:** Brazil
+- **Mercado / Market:** Brazil
+- **Envase / Package:** 126 g
+- **Categoría / Category:** `filled_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_product_label`
+- **Descripción (ES):** Galletitas rellenas sabor chocolate, presentación brasileña de 126 g.
+- **Description (EN):** Chocolate-flavored sandwich cookies, Brazilian 126 g pack.
+
+**Ingredientes declarados / Declared ingredients**
+
+Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal, gordura vegetal interesterificada, açúcar invertido, carbonato de cálcio, sal, cacau em pó, corantes: caramelo III, carmim e beta-caroteno sintético, fermentos químicos: bicarbonato de sódio, fosfato monocálcico e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico.
+
+**Respuestas aceptadas / Accepted answers (19)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo enriquecida con hierro y ácido fólico | iron- and folic-acid-enriched wheat flour | harina de trigo enriquecida con hierro y ácido fólico, iron- and folic-acid-enriched wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| grasa vegetal | vegetable fat | grasa vegetal, vegetable fat |
+| grasa vegetal interesterificada | interesterified vegetable fat | grasa vegetal interesterificada, interesterified vegetable fat |
+| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
+| carbonato de calcio | calcium carbonate | carbonato de calcio, calcium carbonate |
+| sal | salt | sal, salt |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| caramelo III | caramel III | caramelo III, caramel III |
+| carmín | carmine | carmín, carmine |
+| beta-caroteno sintético | synthetic beta-carotene | beta-caroteno sintético, synthetic beta-carotene |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| ésteres de ácido diacetil tartárico | diacetyl tartaric acid esters | ésteres de ácido diacetil tartárico, diacetyl tartaric acid esters |
+| mono y diglicéridos | mono- and diglycerides | mono y diglicéridos, mono- and diglycerides |
+| aromatizantes | flavorings | aromatizantes, flavorings |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+
+**Fuente / Source:** [Pão de Açúcar Brazil](https://www.paodeacucar.com/produto/444497/biscoito-recheio-chocolate-trakinas-126g)  
+**Tipo / Type:** `retailer_product_label`  
+**Alcance / Supports:** Retailer ingredient transcription for Trakinas Chocolate 126 g; corroborated with IDEC label analysis (2020), formula may have changed.
 
 ---
 
