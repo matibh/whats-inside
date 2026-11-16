@@ -114,7 +114,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 <section class="intro" id="intro"><div class="eyebrow" data-i18n="kicker">THE 15-SECOND FOOD GAME</div><h1 data-i18n="headline">YOU KNOW<br>WHAT'S <em>INSIDE?</em></h1><p data-i18n="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
 <section class="start-panel" id="startPanel"><div class="eyebrow" data-i18n="daily">TODAY'S CHALLENGE · #001</div><button class="btn primary" id="startBtn" data-i18n="start" disabled>START PLAYING ↗</button><div class="rules"><span class="rule"><i class="dot"></i><span data-i18n="rule1">15 SECONDS</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule2">ENGLISH + ESPAÑOL</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule3">TYPE A COMMA TO ADD</span></span></div></section>
 <section class="game" id="game">
-<div class="product-card"><div class="product-photo"><img id="productImage" src="" alt="Nutella hazelnut cocoa spread jar" onerror="this.style.display='none';this.parentElement.textContent='🍫'"></div><div class="product-info"><div class="eyebrow" data-i18n="productLabel">MYSTERY PRODUCT</div><h2 id="productName">Nutella</h2><p data-i18n="productDesc">Hazelnut cocoa spread · Can you guess what's inside?</p></div></div>
+<div class="product-card"><div class="product-photo"><img id="productImage" src="" alt="Product package" style="display:none"><span class="product-placeholder" id="productPlaceholder">🍫</span></div><div class="product-info"><div class="eyebrow" data-i18n="productLabel">MYSTERY PRODUCT</div><h2 id="productName">Nutella</h2><p data-i18n="productDesc">Hazelnut cocoa spread · Can you guess what's inside?</p></div></div>
 <div class="timer-row"><div class="timer" id="timerRing"><strong id="timer">15</strong></div><div class="timer-copy"><b data-i18n="timeLeft">Time left</b><small data-i18n="commaHint">Type an ingredient, then a comma</small></div><div class="score"><strong id="score">000</strong><small data-i18n="points">POINTS</small></div></div>
 <div class="prompt" data-i18n="prompt">What's inside?</div>
 <div class="input-wrap"><div class="chips" id="chips"></div><input id="ingredientInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sugar, azúcar, milk..." aria-label="Type an ingredient"></div>
@@ -156,7 +156,8 @@ async function loadProductCatalog(){
   const catalog=await response.json();
   const playableProducts=catalog.products.filter(product=>product.status==='ready');
   if(!playableProducts.length)throw new Error('No playable products');
-  const epochDay=Math.floor(Date.now()/86400000);
+  const argentinaNow=new Date(Date.now()-3*60*60*1000);
+  const epochDay=Math.floor(Date.UTC(argentinaNow.getUTCFullYear(),argentinaNow.getUTCMonth(),argentinaNow.getUTCDate())/86400000);
   const catalogStartDay=Math.floor(Date.UTC(2026,10,16)/86400000);
   const dailyIndex=((epochDay-catalogStartDay)%playableProducts.length+playableProducts.length)%playableProducts.length;
   currentProduct=playableProducts[dailyIndex];
@@ -167,10 +168,12 @@ async function loadProductCatalog(){
    $('productImage').style.display='';
    $('productImage').src=currentProduct.image;
    $('productImage').alt=currentProduct.name+' product package';
+   $('productPlaceholder').style.display='none';
   }else{
    $('productImage').style.display='none';
-   const icons={chocolate_spread:'🍫',chocolate_cookies:'🍪',filled_cookies:'🍪',potato_chips:'🥔',breakfast_cereal:'🥣',soft_drink:'🥤',yogurt:'🥛',plain_cookies:'🍪'};
-   photo.textContent=icons[currentProduct.category]||'🥫';
+   const icons={chocolate_spread:'🍫',chocolate_cookies:'🍪',filled_cookies:'🍪',potato_chips:'🥔',breakfast_cereal:'🥣',soft_drink:'🥤',yogurt:'🥛',plain_cookies:'🍪',milk_chocolate:'🍫',assorted_cookies:'🍪',chocolate_alfajor:'🍫',white_alfajor:'🍬',white_chocolate_alfajor:'🍫',orange_soda:'🥤',grapefruit_soda:'🥤',orange_juice_drink:'🧃',peanut_nougat:'🥜'};
+   $('productPlaceholder').textContent=icons[currentProduct.category]||'🥫';
+   $('productPlaceholder').style.display='';
   }
   $('productDesc').textContent=currentProduct.description[lang]||currentProduct.description.en;
   $('dailyChallenge').textContent=(lang==='en'?"TODAY'S CHALLENGE · #":"DESAFÍO DE HOY · #")+String(dailyIndex+1).padStart(3,'0');
