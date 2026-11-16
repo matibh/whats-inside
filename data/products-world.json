@@ -2854,6 +2854,1578 @@
         "es": "Tazas REESE'S de chocolate y mantequilla de maní",
         "en": "REESE'S Peanut Butter Cups Snack Size"
       }
+    },
+    {
+      "id": "takis-fuego-mexico-70g",
+      "barcode": null,
+      "name": "Takis Fuego 70 g",
+      "nameI18n": {
+        "es": "Takis Fuego 70 g",
+        "en": "Takis Fuego 70 g"
+      },
+      "brand": "Barcel",
+      "country": "Mexico",
+      "market": "Mexico",
+      "region": "world",
+      "category": "tortilla_chips",
+      "package": "70 g",
+      "image": null,
+      "description": {
+        "es": "Rollitos de maíz enrollados con sazonador picante de chile y limón, versión mexicana.",
+        "en": "Rolled corn snacks with spicy chili-lime seasoning, Mexican-market version."
+      },
+      "ingredientsText": "HARINA DE MAÍZ, ACEITE VEGETAL, SAZONADOR (SAL YODADA, MALTODEXTRINA, AZÚCARES AÑADIDOS (AZÚCAR), ÁCIDO CÍTRICO, GMS, PROTEÍNA VEGETAL, ANTOCIANINAS, CEBOLLA, BICARBONATO DE SODIO, EXTRACTO DE LEVADURA, ACEITE VEGETAL, SABORIZANTES NATURALES E IDÉNTICOS AL NATURAL, EXTRACTO DE CHILE).",
+      "ingredients": [
+        {
+          "es": "harina de maíz",
+          "en": "corn flour",
+          "aliases": [
+            "harina de maíz",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodized salt",
+          "aliases": [
+            "sal yodada",
+            "iodized salt"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate"
+          ]
+        },
+        {
+          "es": "proteína vegetal",
+          "en": "vegetable protein",
+          "aliases": [
+            "proteína vegetal",
+            "vegetable protein"
+          ]
+        },
+        {
+          "es": "antocianinas",
+          "en": "anthocyanins",
+          "aliases": [
+            "antocianinas",
+            "anthocyanins"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavorings",
+          "aliases": [
+            "saborizantes",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "extracto de chile",
+          "en": "chili extract",
+          "aliases": [
+            "extracto de chile",
+            "chili extract"
+          ]
+        }
+      ],
+      "sourceId": "takis-fuego-mexico-70g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "gansito-marinela-mexico-50g",
+      "barcode": null,
+      "name": "Gansito 50 g",
+      "nameI18n": {
+        "es": "Gansito 50 g",
+        "en": "Gansito 50 g"
+      },
+      "brand": "Marinela",
+      "country": "Mexico",
+      "market": "Mexico",
+      "region": "world",
+      "category": "snack_cake",
+      "package": "50 g (1 pieza)",
+      "image": null,
+      "description": {
+        "es": "Pastelito relleno de fresa, cubierto con chocolate y granillo, versión mexicana.",
+        "en": "Strawberry-filled snack cake with chocolate coating and sprinkles, Mexican-market version."
+      },
+      "ingredientsText": "AZÚCARES AÑADIDOS (AZÚCAR, JARABE DE MAÍZ DE ALTA FRUCTOSA, AZÚCAR INVERTIDO, GLUCOSA, MALTOSA, JUGO CONCENTRADO DE MANZANA), GRASA Y ACEITE VEGETAL, HARINA DE TRIGO (GLUTEN), LECHE RECONSTITUIDA, HUEVO, PURÉ DE FRESA (5%), COCOA, GRASA BUTÍRICA, GLICERINA, ALMIDÓN MODIFICADO, ÉSTERES DE PROPILENGLICOL DE ÁCIDOS GRASOS, ESTEAROIL LACTILATO DE SODIO, SAL YODADA, PROPIONATO SÓDICO, MONO Y DIGLICÉRIDOS, MONOESTEARATO DE SORBITÁN, POLISORBATO 60, ALMIDÓN, ÁCIDO SÓRBICO, BENZOATO DE SODIO, SORBATO DE POTASIO, SABORIZANTE ARTIFICIAL Y NATURAL, LECITINA DE SOYA, CANELA, TRIESTEARATO DE SORBITÁN, VAINILLINA, ENZIMAS, GOMA XANTANA, GOMA GUAR, GOMA DE ALGARROBO, GOMA ARÁBIGA, CARRAGENINA, CMC SÓDICA, ÁCIDO CÍTRICO, ROJO 40, ROJO 3.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "maltosa",
+          "en": "maltose",
+          "aliases": [
+            "maltosa",
+            "maltose"
+          ]
+        },
+        {
+          "es": "jugo concentrado de manzana",
+          "en": "apple juice concentrate",
+          "aliases": [
+            "jugo concentrado de manzana",
+            "apple juice concentrate"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable fat",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable fat"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "leche reconstituida",
+          "en": "reconstituted milk",
+          "aliases": [
+            "leche reconstituida",
+            "reconstituted milk"
+          ]
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "aliases": [
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "puré de fresa",
+          "en": "strawberry puree",
+          "aliases": [
+            "puré de fresa",
+            "strawberry puree"
+          ]
+        },
+        {
+          "es": "cocoa",
+          "en": "cocoa",
+          "aliases": [
+            "cocoa",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "grasa butírica",
+          "en": "butterfat",
+          "aliases": [
+            "grasa butírica",
+            "butterfat"
+          ]
+        },
+        {
+          "es": "glicerina",
+          "en": "glycerin",
+          "aliases": [
+            "glicerina",
+            "glycerin"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified starch",
+          "aliases": [
+            "almidón modificado",
+            "modified starch"
+          ]
+        },
+        {
+          "es": "ésteres de propilenglicol de ácidos grasos",
+          "en": "propylene glycol esters of fatty acids",
+          "aliases": [
+            "ésteres de propilenglicol de ácidos grasos",
+            "propylene glycol esters of fatty acids"
+          ]
+        },
+        {
+          "es": "estearoil lactilato de sodio",
+          "en": "sodium stearoyl lactylate",
+          "aliases": [
+            "estearoil lactilato de sodio",
+            "sodium stearoyl lactylate"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodized salt",
+          "aliases": [
+            "sal yodada",
+            "iodized salt"
+          ]
+        },
+        {
+          "es": "propionato sódico",
+          "en": "sodium propionate",
+          "aliases": [
+            "propionato sódico",
+            "sodium propionate"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "monoestearato de sorbitán",
+          "en": "sorbitan monostearate",
+          "aliases": [
+            "monoestearato de sorbitán",
+            "sorbitan monostearate"
+          ]
+        },
+        {
+          "es": "polisorbato 60",
+          "en": "polysorbate 60",
+          "aliases": [
+            "polisorbato 60",
+            "polysorbate 60"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "ácido sórbico",
+          "en": "sorbic acid",
+          "aliases": [
+            "ácido sórbico",
+            "sorbic acid"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavorings",
+          "aliases": [
+            "saborizantes",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "lecitina de soya",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soya",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "canela",
+          "en": "cinnamon",
+          "aliases": [
+            "canela",
+            "cinnamon"
+          ]
+        },
+        {
+          "es": "triestearato de sorbitán",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "triestearato de sorbitán",
+            "sorbitan tristearate"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "enzimas",
+          "en": "enzymes",
+          "aliases": [
+            "enzimas",
+            "enzymes"
+          ]
+        },
+        {
+          "es": "goma xantana",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xantana",
+            "xanthan gum"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum"
+          ]
+        },
+        {
+          "es": "goma de algarrobo",
+          "en": "locust bean gum",
+          "aliases": [
+            "goma de algarrobo",
+            "locust bean gum"
+          ]
+        },
+        {
+          "es": "goma arábiga",
+          "en": "gum arabic",
+          "aliases": [
+            "goma arábiga",
+            "gum arabic"
+          ]
+        },
+        {
+          "es": "carragenina",
+          "en": "carrageenan",
+          "aliases": [
+            "carragenina",
+            "carrageenan"
+          ]
+        },
+        {
+          "es": "CMC sódica",
+          "en": "sodium carboxymethyl cellulose",
+          "aliases": [
+            "CMC sódica",
+            "sodium carboxymethyl cellulose"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "Red 40",
+          "aliases": [
+            "rojo 40",
+            "Red 40"
+          ]
+        },
+        {
+          "es": "rojo 3",
+          "en": "Red 3",
+          "aliases": [
+            "rojo 3",
+            "Red 3"
+          ]
+        }
+      ],
+      "sourceId": "gansito-marinela-mexico-50g-source",
+      "verification": "manufacturer_product_document",
+      "status": "ready"
+    },
+    {
+      "id": "pocky-chocolate-japan-2pack",
+      "barcode": "4901005009158",
+      "name": "Pocky Chocolate (Japan)",
+      "nameI18n": {
+        "es": "Pocky de chocolate (Japón)",
+        "en": "Pocky Chocolate (Japan)"
+      },
+      "brand": "Glico",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "chocolate_biscuit_sticks",
+      "package": "2 bags (29 g per bag)",
+      "image": null,
+      "description": {
+        "es": "Palitos de pretzel con cobertura de chocolate, fórmula japonesa.",
+        "en": "Pretzel biscuit sticks coated in chocolate, Japanese-market formula."
+      },
+      "ingredientsText": "小麦粉（国内製造）、砂糖、カカオマス、植物油脂、全粉乳、小麦全粒粉、モルトエキス、ココアバター、発酵バター、食塩、イースト／乳化剤、香料（一部に乳成分・小麦・大豆を含む）",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "harina integral de trigo",
+          "en": "whole wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "whole wheat flour"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "manteca fermentada",
+          "en": "cultured butter",
+          "aliases": [
+            "manteca fermentada",
+            "cultured butter"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "emulsionante",
+          "en": "emulsifier",
+          "aliases": [
+            "emulsionante",
+            "emulsifier"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavoring",
+          "aliases": [
+            "saborizante",
+            "flavoring"
+          ]
+        }
+      ],
+      "sourceId": "pocky-chocolate-japan-2pack-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "haribo-goldbears-us-5oz",
+      "barcode": null,
+      "name": "HARIBO Goldbears 5 oz",
+      "nameI18n": {
+        "es": "HARIBO Goldbears 5 oz",
+        "en": "HARIBO Goldbears 5 oz"
+      },
+      "brand": "HARIBO",
+      "country": "Germany",
+      "market": "United States",
+      "region": "world",
+      "category": "gummy_candy",
+      "package": "5 oz (141 g)",
+      "image": null,
+      "description": {
+        "es": "Ositos de goma en cinco colores, fórmula del mercado estadounidense.",
+        "en": "Five-color gummy bears, United States-market formula."
+      },
+      "ingredientsText": "GLUCOSE SYRUP (FROM WHEAT OR CORN), SUGAR, GELATIN, DEXTROSE (FROM WHEAT OR CORN), CONTAINS LESS THAN 2% OF: CITRIC ACID, ARTIFICIAL AND NATURAL FLAVORS, SUNFLOWER OIL, WHITE BEESWAX, YELLOW BEESWAX, YELLOW 5, RED 40, BLUE 1.",
+      "ingredients": [
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "sabores artificiales y naturales",
+          "en": "artificial and natural flavors",
+          "aliases": [
+            "sabores artificiales y naturales",
+            "artificial and natural flavors"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "cera blanca de abeja",
+          "en": "white beeswax",
+          "aliases": [
+            "cera blanca de abeja",
+            "white beeswax"
+          ]
+        },
+        {
+          "es": "cera amarilla de abeja",
+          "en": "yellow beeswax",
+          "aliases": [
+            "cera amarilla de abeja",
+            "yellow beeswax"
+          ]
+        },
+        {
+          "es": "amarillo 5",
+          "en": "Yellow 5",
+          "aliases": [
+            "amarillo 5",
+            "Yellow 5"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "Red 40",
+          "aliases": [
+            "rojo 40",
+            "Red 40"
+          ]
+        },
+        {
+          "es": "azul 1",
+          "en": "Blue 1",
+          "aliases": [
+            "azul 1",
+            "Blue 1"
+          ]
+        }
+      ],
+      "sourceId": "haribo-goldbears-us-5oz-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "mcvities-digestives-uk-original",
+      "barcode": null,
+      "name": "McVitie's Digestives Original",
+      "nameI18n": {
+        "es": "McVitie's Digestives Original",
+        "en": "McVitie's Digestives Original"
+      },
+      "brand": "McVitie's",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "Original pack (24 biscuits typical)",
+      "image": null,
+      "description": {
+        "es": "Galletitas Digestive originales de trigo, receta británica.",
+        "en": "Original British wheat Digestive biscuits."
+      },
+      "ingredientsText": "Flour (55%) (Wheat Flour, Calcium, Iron, Niacin, Thiamin), Vegetable Oil (Palm), Wholemeal Wheat Flour (16%), Sugar, Partially Inverted Sugar Syrup, Raising Agents (Sodium Bicarbonate, Malic Acid, Ammonium Bicarbonate), Salt.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "calcio",
+          "en": "calcium",
+          "aliases": [
+            "calcio",
+            "calcium"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamin",
+          "aliases": [
+            "tiamina",
+            "thiamin"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "harina integral de trigo",
+          "en": "wholemeal wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "wholemeal wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar parcialmente invertido",
+          "en": "partially inverted sugar syrup",
+          "aliases": [
+            "jarabe de azúcar parcialmente invertido",
+            "partially inverted sugar syrup"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "ácido málico",
+          "en": "malic acid",
+          "aliases": [
+            "ácido málico",
+            "malic acid"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "mcvities-digestives-uk-original-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "walkers-ready-salted-uk",
+      "barcode": null,
+      "name": "Walkers Ready Salted Crisps",
+      "nameI18n": {
+        "es": "Papas fritas Walkers sabor salado",
+        "en": "Walkers Ready Salted Crisps"
+      },
+      "brand": "Walkers",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "Standard single-serve pack (25 g nutrition serving)",
+      "image": null,
+      "description": {
+        "es": "Papas fritas clásicas con sal, hechas con papas británicas.",
+        "en": "Classic salted potato crisps made with British potatoes."
+      },
+      "ingredientsText": "Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Salt, Antioxidants (Rosemary Extract, Ascorbic Acid, Tocopherol Rich Extract, Citric acid).",
+      "ingredients": [
+        {
+          "es": "papas",
+          "en": "potatoes",
+          "aliases": [
+            "papas",
+            "potatoes"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "extracto de romero",
+          "en": "rosemary extract",
+          "aliases": [
+            "extracto de romero",
+            "rosemary extract"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid"
+          ]
+        },
+        {
+          "es": "extracto rico en tocoferoles",
+          "en": "tocopherol-rich extract",
+          "aliases": [
+            "extracto rico en tocoferoles",
+            "tocopherol-rich extract"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        }
+      ],
+      "sourceId": "walkers-ready-salted-uk-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "cadbury-dairy-milk-uk-45g",
+      "barcode": null,
+      "name": "Cadbury Dairy Milk 45 g",
+      "nameI18n": {
+        "es": "Cadbury Dairy Milk 45 g",
+        "en": "Cadbury Dairy Milk 45 g"
+      },
+      "brand": "Cadbury",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "milk_chocolate",
+      "package": "45 g bar",
+      "image": null,
+      "description": {
+        "es": "Chocolate con leche clásico británico, barra de 45 gramos.",
+        "en": "Classic British milk chocolate, 45-gram bar."
+      },
+      "ingredientsText": "MILK, sugar, cocoa butter, cocoa mass, vegetable fats (palm, shea), emulsifiers (E442, E476), flavourings.",
+      "ingredients": [
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "grasa de palma",
+          "en": "palm fat",
+          "aliases": [
+            "grasa de palma",
+            "palm fat"
+          ]
+        },
+        {
+          "es": "grasa de karité",
+          "en": "shea fat",
+          "aliases": [
+            "grasa de karité",
+            "shea fat"
+          ]
+        },
+        {
+          "es": "emulsionante E442",
+          "en": "emulsifier E442",
+          "aliases": [
+            "emulsionante E442",
+            "emulsifier E442"
+          ]
+        },
+        {
+          "es": "emulsionante E476",
+          "en": "emulsifier E476",
+          "aliases": [
+            "emulsionante E476",
+            "emulsifier E476"
+          ]
+        },
+        {
+          "es": "saborizantes",
+          "en": "flavourings",
+          "aliases": [
+            "saborizantes",
+            "flavourings"
+          ]
+        }
+      ],
+      "sourceId": "cadbury-dairy-milk-uk-45g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "ferrero-rocher-us-3pack",
+      "barcode": null,
+      "name": "Ferrero Rocher 3-Piece Pack (US)",
+      "nameI18n": {
+        "es": "Ferrero Rocher pack de 3 (EE. UU.)",
+        "en": "Ferrero Rocher 3-Piece Pack (US)"
+      },
+      "brand": "Ferrero",
+      "country": "Italy",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_candy",
+      "package": "3 pieces",
+      "image": null,
+      "description": {
+        "es": "Bombones de chocolate con leche y avellanas, versión estadounidense.",
+        "en": "Milk chocolate and hazelnut pralines, United States-market version."
+      },
+      "ingredientsText": "Milk Chocolate (Sugar, Cocoa Butter, Cocoa Mass, Skim Milk Powder, Butteroil, Soy Lecithin as Emulsifier, Vanillin: An Artificial Flavor), Hazelnuts, Sugar, Palm Oil, Wheat Flour, Whey, Lowfat Cocoa Powder, Soy Lecithin as Emulsifier, Sodium Bicarbonate as Leavening Agent, Salt, Vanillin: An Artificial Flavor.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skim milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "grasa láctea anhidra",
+          "en": "butteroil",
+          "aliases": [
+            "grasa láctea anhidra",
+            "butteroil"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "avellanas",
+          "en": "hazelnuts",
+          "aliases": [
+            "avellanas",
+            "hazelnuts"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "suero de leche",
+          "en": "whey",
+          "aliases": [
+            "suero de leche",
+            "whey"
+          ]
+        },
+        {
+          "es": "cacao bajo en grasa",
+          "en": "lowfat cocoa powder",
+          "aliases": [
+            "cacao bajo en grasa",
+            "lowfat cocoa powder"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "ferrero-rocher-us-3pack-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "nescau-cereal-brazil-210g",
+      "barcode": "7891000111161",
+      "name": "Nescau Cereal 210 g",
+      "nameI18n": {
+        "es": "Cereal Nescau 210 g",
+        "en": "Nescau Cereal 210 g"
+      },
+      "brand": "Nestlé",
+      "country": "Brazil",
+      "market": "Brazil",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "210 g",
+      "image": null,
+      "description": {
+        "es": "Cereal de bolitas de maíz integral con cacao, versión brasileña.",
+        "en": "Whole-corn and cocoa cereal balls, Brazilian-market version."
+      },
+      "ingredientsText": "Farinha de milho integral, açúcar, farinha de milho enriquecida com ferro e ácido fólico, xarope de glicose, cacau em pó, oleína de palma, minerais [cálcio (carbonato de cálcio), ferro (ferro eletrolítico) e zinco (óxido de zinco)] e vitaminas [vitamina B3 (niacina), vitamina B5 (ácido pantotênico), vitamina B2 (riboflavina), vitamina B6 (cloridrato de piridoxina) e vitamina B9 (ácido fólico)], sal, aromatizantes, antiumectante fosfato dicálcico, corante caramelo IV, estabilizante fosfato trissódico e antioxidante tocoferol.",
+      "ingredients": [
+        {
+          "es": "harina integral de maíz",
+          "en": "whole corn flour",
+          "aliases": [
+            "harina integral de maíz",
+            "whole corn flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de maíz enriquecida con hierro y ácido fólico",
+          "en": "iron- and folic-acid-enriched corn flour",
+          "aliases": [
+            "harina de maíz enriquecida con hierro y ácido fólico",
+            "iron- and folic-acid-enriched corn flour"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "oleína de palma",
+          "en": "palm olein",
+          "aliases": [
+            "oleína de palma",
+            "palm olein"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate"
+          ]
+        },
+        {
+          "es": "hierro electrolítico",
+          "en": "electrolytic iron",
+          "aliases": [
+            "hierro electrolítico",
+            "electrolytic iron"
+          ]
+        },
+        {
+          "es": "óxido de zinc",
+          "en": "zinc oxide",
+          "aliases": [
+            "óxido de zinc",
+            "zinc oxide"
+          ]
+        },
+        {
+          "es": "niacina (vitamina B3)",
+          "en": "niacin (vitamin B3)",
+          "aliases": [
+            "niacina (vitamina B3)",
+            "niacin (vitamin B3)"
+          ]
+        },
+        {
+          "es": "ácido pantoténico (vitamina B5)",
+          "en": "pantothenic acid (vitamin B5)",
+          "aliases": [
+            "ácido pantoténico (vitamina B5)",
+            "pantothenic acid (vitamin B5)"
+          ]
+        },
+        {
+          "es": "riboflavina (vitamina B2)",
+          "en": "riboflavin (vitamin B2)",
+          "aliases": [
+            "riboflavina (vitamina B2)",
+            "riboflavin (vitamin B2)"
+          ]
+        },
+        {
+          "es": "clorhidrato de piridoxina (vitamina B6)",
+          "en": "pyridoxine hydrochloride (vitamin B6)",
+          "aliases": [
+            "clorhidrato de piridoxina (vitamina B6)",
+            "pyridoxine hydrochloride (vitamin B6)"
+          ]
+        },
+        {
+          "es": "ácido fólico (vitamina B9)",
+          "en": "folic acid (vitamin B9)",
+          "aliases": [
+            "ácido fólico (vitamina B9)",
+            "folic acid (vitamin B9)"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavorings",
+          "aliases": [
+            "aromatizantes",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "fosfato dicálcico",
+          "en": "dicalcium phosphate",
+          "aliases": [
+            "fosfato dicálcico",
+            "dicalcium phosphate"
+          ]
+        },
+        {
+          "es": "caramelo IV",
+          "en": "caramel IV",
+          "aliases": [
+            "caramelo IV",
+            "caramel IV"
+          ]
+        },
+        {
+          "es": "fosfato trisódico",
+          "en": "trisodium phosphate",
+          "aliases": [
+            "fosfato trisódico",
+            "trisodium phosphate"
+          ]
+        },
+        {
+          "es": "tocoferol",
+          "en": "tocopherol",
+          "aliases": [
+            "tocoferol",
+            "tocopherol"
+          ]
+        }
+      ],
+      "sourceId": "nescau-cereal-brazil-210g-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "trakinas-chocolate-brazil-126g",
+      "barcode": null,
+      "name": "Trakinas Chocolate 126 g",
+      "nameI18n": {
+        "es": "Trakinas Chocolate 126 g",
+        "en": "Trakinas Chocolate 126 g"
+      },
+      "brand": "Mondelēz",
+      "country": "Brazil",
+      "market": "Brazil",
+      "region": "world",
+      "category": "filled_cookies",
+      "package": "126 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas rellenas sabor chocolate, presentación brasileña de 126 g.",
+        "en": "Chocolate-flavored sandwich cookies, Brazilian 126 g pack."
+      },
+      "ingredientsText": "Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura vegetal, gordura vegetal interesterificada, açúcar invertido, carbonato de cálcio, sal, cacau em pó, corantes: caramelo III, carmim e beta-caroteno sintético, fermentos químicos: bicarbonato de sódio, fosfato monocálcico e bicarbonato de amônio, emulsificantes: lecitina de soja e ésteres de ácido diacetil tartárico e mono e diglicerídeos, aromatizantes e acidulante ácido cítrico.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida con hierro y ácido fólico",
+          "en": "iron- and folic-acid-enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida con hierro y ácido fólico",
+            "iron- and folic-acid-enriched wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable fat",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable fat"
+          ]
+        },
+        {
+          "es": "grasa vegetal interesterificada",
+          "en": "interesterified vegetable fat",
+          "aliases": [
+            "grasa vegetal interesterificada",
+            "interesterified vegetable fat"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "caramelo III",
+          "en": "caramel III",
+          "aliases": [
+            "caramelo III",
+            "caramel III"
+          ]
+        },
+        {
+          "es": "carmín",
+          "en": "carmine",
+          "aliases": [
+            "carmín",
+            "carmine"
+          ]
+        },
+        {
+          "es": "beta-caroteno sintético",
+          "en": "synthetic beta-carotene",
+          "aliases": [
+            "beta-caroteno sintético",
+            "synthetic beta-carotene"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "ésteres de ácido diacetil tartárico",
+          "en": "diacetyl tartaric acid esters",
+          "aliases": [
+            "ésteres de ácido diacetil tartárico",
+            "diacetyl tartaric acid esters"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos",
+          "en": "mono- and diglycerides",
+          "aliases": [
+            "mono y diglicéridos",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavorings",
+          "aliases": [
+            "aromatizantes",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        }
+      ],
+      "sourceId": "trakinas-chocolate-brazil-126g-source",
+      "verification": "retailer_product_label",
+      "status": "ready"
     }
   ]
 }
