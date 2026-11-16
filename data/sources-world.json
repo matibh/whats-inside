@@ -991,6 +991,96 @@
       "url": "https://www.heinz.com/en-GB/products/05000157143365-saucy-sauce",
       "supports": "Official Heinz UK page lists Saucy Sauce 415 ml and ingredients, including celery in spice and herb extract.",
       "market": "United Kingdom"
+    },
+    {
+      "id": "haldiram-aloo-bhujia-india-400g",
+      "productId": "haldiram-aloo-bhujia-india-400g",
+      "publisher": "Haldiram Foods",
+      "sourceType": "manufacturer_website",
+      "url": "https://haldiramfoods.com/product/aloo-bhujia-400-gms/",
+      "supports": "Official Haldiram Foods India product page lists Aloo Bhujia 400 g, full ingredients, peanut allergen and Product of India statement.",
+      "market": "India"
+    },
+    {
+      "id": "mcvities-jaffa-cakes-uk-110g",
+      "productId": "mcvities-jaffa-cakes-uk-110g",
+      "publisher": "McVitie's",
+      "sourceType": "manufacturer_website",
+      "url": "https://mcvities.com/en-gb/jaffa-cakes",
+      "supports": "Official McVitie's UK page lists the Jaffa Cakes ingredient declaration and selectable pack sizes including 110 g.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "jello-strawberry-gelatin-us-6oz",
+      "productId": "jello-strawberry-gelatin-us-6oz",
+      "publisher": "Kraft Heinz / Jell-O",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.kraftheinz.com/jell-o/products/00043000200513-strawberry-gelatin-dessert-mix",
+      "supports": "Official Kraft Heinz Jell-O US page identifies the Strawberry Gelatin Dessert Mix 6 oz pouch and its ingredient list.",
+      "market": "United States"
+    },
+    {
+      "id": "kikkoman-teriyaki-marinade-us-296ml",
+      "productId": "kikkoman-teriyaki-marinade-us-296ml",
+      "publisher": "Kikkoman USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://kikkomanusa.com/products/teriyaki-marinade-sauce/",
+      "supports": "Official Kikkoman USA product page identifies the 10 fl oz (296 ml) Teriyaki Marinade & Sauce and provides the ingredient list.",
+      "market": "United States"
+    },
+    {
+      "id": "pringles-sour-cream-onion-us-155g",
+      "productId": "pringles-sour-cream-onion-us-155g",
+      "publisher": "Pringles US",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.pringles.com/en-us/products/pringles-sour-cream-onion-product.html",
+      "supports": "Official Pringles US product page provides the US Sour Cream & Onion ingredient statement and a 5.5 oz pack nutrition panel.",
+      "market": "United States"
+    },
+    {
+      "id": "calbee-kappa-ebisen-japan-130g",
+      "productId": "calbee-kappa-ebisen-japan-130g",
+      "publisher": "Calbee Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.calbee.co.jp/products/detail/?p=20230410102049",
+      "supports": "Official Calbee Japan page lists Kappa Ebisen ingredients in Japanese, including wheat, vegetable oil, starch, shrimp, sugar and salt; 130 g pack listed for selected regions.",
+      "market": "Japan"
+    },
+    {
+      "id": "walkers-wotsits-really-cheesy-uk-22g",
+      "productId": "walkers-wotsits-really-cheesy-uk-22g",
+      "publisher": "Walkers UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.walkers.co.uk/our-range/family-snacks/99-calorie/wotsits-really-cheesy-pkg",
+      "supports": "Official Walkers UK page gives Wotsits Really Cheesy ingredient declaration and 22.5 g serving details.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "campbells-chicken-broth-latam-298ml",
+      "productId": "campbells-chicken-broth-latam-298ml",
+      "publisher": "The Campbell's Company Latin America",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.campbells.com/es/products/sopas-condensadas/caldo-de-pollo/",
+      "supports": "Official Campbell's Latin America product page gives Chicken Broth ingredients and nutrition; page does not identify a fixed can size.",
+      "market": "Latin America regional product page"
+    },
+    {
+      "id": "gatorade-lemon-lime-us-828ml",
+      "productId": "gatorade-lemon-lime-us-828ml",
+      "publisher": "PepsiCo / Gatorade",
+      "sourceType": "manufacturer_specification_pdf",
+      "url": "https://digitalassets.pepsico.com/m/bcda87d0d381017/original/00052000135152_L1.pdf",
+      "supports": "PepsiCo-hosted product label PDF for Gatorade Lemon Lime 28 fl oz (828 ml), with ingredient statement and nutrition panel.",
+      "market": "United States"
+    },
+    {
+      "id": "mms-peanut-butter-us-283oz",
+      "productId": "mms-peanut-butter-us-283oz",
+      "publisher": "Mars Foodservices",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.marsfoodservices.com/product/m-ms-brand-peanut-butter-chocolate-candies",
+      "supports": "Official Mars Foodservices product page identifies M&M'S Peanut Butter sharing-size 2.83 oz packs and provides the ready-to-eat ingredient declaration.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
