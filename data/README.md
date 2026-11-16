@@ -48,3 +48,8 @@ The World catalog now contains 18 product records. New US-market products includ
 El archivo [`catalog-master.md`](./catalog-master.md) reúne todas las fichas de productos de Argentina y World, sus ingredientes declarados, las respuestas aceptadas en español e inglés, alias y fuentes. Actualizarlo en cada tanda junto con los JSON.
 
 The [`catalog-master.md`](./catalog-master.md) file consolidates every Argentina and World product, declared ingredients, accepted Spanish and English answers, aliases, and sources. Update it with every new batch alongside the JSON files.
+
+
+## World catalog expansion — 16 November 2026 (continued)
+
+Added 10 further World records: Kikkoman Soy Sauce (India-market), New Yakult (Japan), Nissin Cup Noodles Chicken (US), Oishi Prawn Crackers Original (Philippines), Sanpellegrino Aranciata (Italy), Pringles Paprika (Germany), Glico Tomato Pretz (Japan), MILO Powder (Australia), Chupa Chups Fruit Lollipops (Spain), and MAGGI Hot & Sweet Tomato Chilli Sauce (India). Source types are recorded per item. Nissin's compound flour enrichment and flavour subcomponents are represented in accepted answers; Chupa Chups record applies only to fruit flavours; Oishi precautionary facility statements and Pringles may-contain soy are excluded. MAGGI ingredients rely on a retailer transcription, not a complete manufacturer ingredient page.
