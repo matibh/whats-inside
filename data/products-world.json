@@ -942,6 +942,1854 @@
       "sourceId": "kitkat-us-hershey",
       "verification": "manufacturer_website",
       "status": "ready"
+    },
+    {
+      "id": "cheerios-original-us-8-9oz",
+      "barcode": null,
+      "name": "Original Cheerios",
+      "brand": "General Mills",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "8.9 oz",
+      "image": null,
+      "description": {
+        "es": "Cereal de avena integral tostada · versión estadounidense.",
+        "en": "Toasted whole-grain oat cereal · US version."
+      },
+      "ingredientsText": "Whole Grain Oats, Corn Starch, Sugar, Salt, Tripotassium Phosphate. Vitamin E (mixed tocopherols) Added to Preserve Freshness. Vitamins and Minerals: Calcium Carbonate, Iron and Zinc, Vitamin C (sodium ascorbate), niacinamide, Vitamin B6, Vitamin A (palmitate), Vitamin B1, folic acid, Vitamin B12, Vitamin D3.",
+      "ingredients": [
+        {
+          "es": "avena integral",
+          "en": "whole grain oats",
+          "aliases": [
+            "avena integral",
+            "whole grain oats"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fosfato tripotásico",
+          "en": "tripotassium phosphate",
+          "aliases": [
+            "fosfato tripotásico",
+            "tripotassium phosphate"
+          ]
+        },
+        {
+          "es": "tocoferoles mixtos",
+          "en": "mixed tocopherols",
+          "aliases": [
+            "tocoferoles mixtos",
+            "mixed tocopherols",
+            "vitamin e"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "zinc",
+          "en": "zinc",
+          "aliases": [
+            "zinc"
+          ]
+        },
+        {
+          "es": "ascorbato de sodio",
+          "en": "sodium ascorbate",
+          "aliases": [
+            "ascorbato de sodio",
+            "sodium ascorbate",
+            "vitamin c"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide",
+            "vitamin b3"
+          ]
+        },
+        {
+          "es": "clorhidrato de piridoxina",
+          "en": "pyridoxine hydrochloride",
+          "aliases": [
+            "clorhidrato de piridoxina",
+            "pyridoxine hydrochloride",
+            "vitamin b6"
+          ]
+        },
+        {
+          "es": "palmitato de vitamina A",
+          "en": "vitamin A palmitate",
+          "aliases": [
+            "palmitato de vitamina A",
+            "vitamin A palmitate"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamin mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamin mononitrate",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        },
+        {
+          "es": "vitamina D3",
+          "en": "vitamin D3",
+          "aliases": [
+            "vitamina D3",
+            "vitamin D3"
+          ]
+        }
+      ],
+      "sourceId": "cheerios-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "froot-loops-us-13-2oz",
+      "barcode": "00038000017674",
+      "name": "Kellogg's Froot Loops",
+      "brand": "WK Kellogg Co",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "13.2 oz",
+      "image": null,
+      "description": {
+        "es": "Cereal multigrano de colores y sabor frutal · versión estadounidense.",
+        "en": "Colorful fruit-flavored multigrain cereal · US version."
+      },
+      "ingredientsText": "Corn flour blend (whole grain yellow corn flour, degerminated yellow corn flour), sugar, wheat flour, whole grain oat flour, modified food starch, vegetable oil (hydrogenated coconut, soybean and/or cottonseed), oat fiber, maltodextrin, salt, soluble corn fiber, natural flavor, red 40, yellow 5, blue 1, yellow 6. Vitamins and Minerals: Vitamin C, reduced iron, niacinamide, vitamin B6, vitamin B2, vitamin B1, folic acid, vitamin D3, vitamin B12. BHT added to packaging for freshness.",
+      "ingredients": [
+        {
+          "es": "harina de maíz amarillo integral",
+          "en": "whole grain yellow corn flour",
+          "aliases": [
+            "harina de maíz amarillo integral",
+            "whole grain yellow corn flour"
+          ]
+        },
+        {
+          "es": "harina de maíz desgerminada",
+          "en": "degerminated yellow corn flour",
+          "aliases": [
+            "harina de maíz desgerminada",
+            "degerminated yellow corn flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "harina de avena integral",
+          "en": "whole grain oat flour",
+          "aliases": [
+            "harina de avena integral",
+            "whole grain oat flour"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified food starch",
+          "aliases": [
+            "almidón modificado",
+            "modified food starch"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de coco hidrogenado",
+          "en": "hydrogenated coconut oil",
+          "aliases": [
+            "aceite de coco hidrogenado",
+            "hydrogenated coconut oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "aceite de algodón",
+          "en": "cottonseed oil",
+          "aliases": [
+            "aceite de algodón",
+            "cottonseed oil"
+          ]
+        },
+        {
+          "es": "fibra de avena",
+          "en": "oat fiber",
+          "aliases": [
+            "fibra de avena",
+            "oat fiber"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fibra soluble de maíz",
+          "en": "soluble corn fiber",
+          "aliases": [
+            "fibra soluble de maíz",
+            "soluble corn fiber"
+          ]
+        },
+        {
+          "es": "aroma natural",
+          "en": "natural flavor",
+          "aliases": [
+            "aroma natural",
+            "natural flavor"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "red 40",
+          "aliases": [
+            "rojo 40",
+            "red 40"
+          ]
+        },
+        {
+          "es": "amarillo 5",
+          "en": "yellow 5",
+          "aliases": [
+            "amarillo 5",
+            "yellow 5"
+          ]
+        },
+        {
+          "es": "azul 1",
+          "en": "blue 1",
+          "aliases": [
+            "azul 1",
+            "blue 1"
+          ]
+        },
+        {
+          "es": "amarillo 6",
+          "en": "yellow 6",
+          "aliases": [
+            "amarillo 6",
+            "yellow 6"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid",
+            "vitamin c"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide"
+          ]
+        },
+        {
+          "es": "clorhidrato de piridoxina",
+          "en": "pyridoxine hydrochloride",
+          "aliases": [
+            "clorhidrato de piridoxina",
+            "pyridoxine hydrochloride",
+            "vitamin b6"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin b2"
+          ]
+        },
+        {
+          "es": "clorhidrato de tiamina",
+          "en": "thiamin hydrochloride",
+          "aliases": [
+            "clorhidrato de tiamina",
+            "thiamin hydrochloride",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina D3",
+          "en": "vitamin D3",
+          "aliases": [
+            "vitamina D3",
+            "vitamin D3"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        },
+        {
+          "es": "BHT",
+          "en": "BHT",
+          "aliases": [
+            "BHT",
+            "butilhidroxitolueno"
+          ]
+        }
+      ],
+      "sourceId": "froot-loops-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "frosted-flakes-us-17-3oz",
+      "barcode": null,
+      "name": "Kellogg's Frosted Flakes",
+      "brand": "WK Kellogg Co",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "breakfast_cereal",
+      "package": "17.3 oz",
+      "image": null,
+      "description": {
+        "es": "Copos de maíz azucarados · versión estadounidense.",
+        "en": "Frosted corn flakes · US version."
+      },
+      "ingredientsText": "Milled corn, sugar, malt flavor, contains 2% or less of salt. Vitamins and Minerals: Iron (ferric phosphate), niacinamide, vitamin B6, vitamin B2, vitamin B1, folic acid, vitamin D3, vitamin B12.",
+      "ingredients": [
+        {
+          "es": "maíz molido",
+          "en": "milled corn",
+          "aliases": [
+            "maíz molido",
+            "milled corn"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sabor malta",
+          "en": "malt flavor",
+          "aliases": [
+            "sabor malta",
+            "malt flavor",
+            "malt flavour"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fosfato férrico",
+          "en": "ferric phosphate",
+          "aliases": [
+            "fosfato férrico",
+            "ferric phosphate"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide"
+          ]
+        },
+        {
+          "es": "clorhidrato de piridoxina",
+          "en": "pyridoxine hydrochloride",
+          "aliases": [
+            "clorhidrato de piridoxina",
+            "pyridoxine hydrochloride",
+            "vitamin b6"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin b2"
+          ]
+        },
+        {
+          "es": "clorhidrato de tiamina",
+          "en": "thiamin hydrochloride",
+          "aliases": [
+            "clorhidrato de tiamina",
+            "thiamin hydrochloride",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina D3",
+          "en": "vitamin D3",
+          "aliases": [
+            "vitamina D3",
+            "vitamin D3"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        }
+      ],
+      "sourceId": "frosted-flakes-us-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "campbells-tomato-soup-us-10-75oz",
+      "barcode": null,
+      "name": "Campbell's Condensed Tomato Soup",
+      "brand": "Campbell's",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "tomato_soup",
+      "package": "10.75 oz can",
+      "image": null,
+      "description": {
+        "es": "Sopa condensada de tomate · versión estadounidense.",
+        "en": "Condensed tomato soup · US version."
+      },
+      "ingredientsText": "Tomato Puree (Water, Tomato Paste), Water, Wheat Flour, Sugar, Contains Less Than 2% Of: Salt, Potassium Salt, Natural Flavoring, Citric Acid, Ascorbic Acid (Vitamin C), Celery Extract, Garlic Oil.",
+      "ingredients": [
+        {
+          "es": "puré de tomate",
+          "en": "tomato puree",
+          "aliases": [
+            "puré de tomate",
+            "tomato puree"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sal de potasio",
+          "en": "potassium salt",
+          "aliases": [
+            "sal de potasio",
+            "potassium salt"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavoring",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavoring"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid",
+            "vitamin c"
+          ]
+        },
+        {
+          "es": "extracto de apio",
+          "en": "celery extract",
+          "aliases": [
+            "extracto de apio",
+            "celery extract"
+          ]
+        },
+        {
+          "es": "aceite de ajo",
+          "en": "garlic oil",
+          "aliases": [
+            "aceite de ajo",
+            "garlic oil"
+          ]
+        }
+      ],
+      "sourceId": "campbells-tomato-soup-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "campbells-chicken-noodle-us-10-75oz",
+      "barcode": null,
+      "name": "Campbell's Condensed Chicken Noodle Soup",
+      "brand": "Campbell's",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chicken_soup",
+      "package": "10.75 oz can",
+      "image": null,
+      "description": {
+        "es": "Sopa condensada de pollo con fideos · versión estadounidense.",
+        "en": "Condensed chicken noodle soup · US version."
+      },
+      "ingredientsText": "Chicken Stock, Enriched Egg Noodles (Wheat Flour, Eggs, Niacin, Ferrous Sulfate, Thiamine Mononitrate, Riboflavin, Folic Acid), Chicken Meat, Salt, Chicken Fat, Water, Monosodium Glutamate, Cornstarch, Flavoring, Modified Cornstarch, Dried Chicken Broth, Sugar, Beta Carotene, Onion Powder, Yeast Extract, Sodium Phosphate, Soy Protein Isolate, Dried Chicken, Garlic Extract.",
+      "ingredients": [
+        {
+          "es": "caldo de pollo",
+          "en": "chicken stock",
+          "aliases": [
+            "caldo de pollo",
+            "chicken stock"
+          ]
+        },
+        {
+          "es": "fideos de huevo enriquecidos",
+          "en": "enriched egg noodles",
+          "aliases": [
+            "fideos de huevo enriquecidos",
+            "enriched egg noodles"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "huevos",
+          "en": "eggs",
+          "aliases": [
+            "huevos",
+            "eggs"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "sulfato ferroso",
+          "en": "ferrous sulfate",
+          "aliases": [
+            "sulfato ferroso",
+            "ferrous sulfate"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamine mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamine mononitrate"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "carne de pollo",
+          "en": "chicken meat",
+          "aliases": [
+            "carne de pollo",
+            "chicken meat"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "grasa de pollo",
+          "en": "chicken fat",
+          "aliases": [
+            "grasa de pollo",
+            "chicken fat"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "cornstarch",
+          "aliases": [
+            "almidón de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified cornstarch",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified cornstarch"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavoring",
+          "aliases": [
+            "saborizante",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "caldo de pollo deshidratado",
+          "en": "dried chicken broth",
+          "aliases": [
+            "caldo de pollo deshidratado",
+            "dried chicken broth"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta carotene"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "fosfato de sodio",
+          "en": "sodium phosphate",
+          "aliases": [
+            "fosfato de sodio",
+            "sodium phosphate"
+          ]
+        },
+        {
+          "es": "proteína aislada de soja",
+          "en": "soy protein isolate",
+          "aliases": [
+            "proteína aislada de soja",
+            "soy protein isolate"
+          ]
+        },
+        {
+          "es": "pollo deshidratado",
+          "en": "dried chicken",
+          "aliases": [
+            "pollo deshidratado",
+            "dried chicken"
+          ]
+        },
+        {
+          "es": "extracto de ajo",
+          "en": "garlic extract",
+          "aliases": [
+            "extracto de ajo",
+            "garlic extract"
+          ]
+        }
+      ],
+      "sourceId": "campbells-chicken-noodle-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "snickers-original-us-1-86oz",
+      "barcode": null,
+      "name": "SNICKERS Bar",
+      "brand": "Mars",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_bar",
+      "package": "1.86 oz (52.7 g)",
+      "image": null,
+      "description": {
+        "es": "Barra de chocolate con leche, maní, caramelo y nougat · versión estadounidense.",
+        "en": "Milk chocolate, peanut, caramel and nougat bar · US version."
+      },
+      "ingredientsText": "Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Lactose, Skim Milk, Milkfat, Soy Lecithin, Artificial Flavor), Peanuts, Corn Syrup, Sugar, Skim Milk, Butter, Milkfat, Partially Hydrogenated Soybean Oil, Lactose, Salt, Egg Whites, Artificial Flavor.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "chocolate",
+          "en": "chocolate",
+          "aliases": [
+            "chocolate"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk"
+          ]
+        },
+        {
+          "es": "grasa láctea",
+          "en": "milkfat",
+          "aliases": [
+            "grasa láctea",
+            "milkfat",
+            "milk fat"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavor"
+          ]
+        },
+        {
+          "es": "maní",
+          "en": "peanuts",
+          "aliases": [
+            "maní",
+            "peanuts",
+            "peanut"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "manteca",
+          "en": "butter",
+          "aliases": [
+            "manteca",
+            "butter"
+          ]
+        },
+        {
+          "es": "aceite de soja parcialmente hidrogenado",
+          "en": "partially hydrogenated soybean oil",
+          "aliases": [
+            "aceite de soja parcialmente hidrogenado",
+            "partially hydrogenated soybean oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "claras de huevo",
+          "en": "egg whites",
+          "aliases": [
+            "claras de huevo",
+            "egg whites"
+          ]
+        }
+      ],
+      "sourceId": "snickers-us-mars",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "ritz-original-us-10-3oz",
+      "barcode": "00044000031121",
+      "name": "RITZ Original Crackers",
+      "brand": "Mondelēz / Nabisco",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "crackers",
+      "package": "10.3 oz",
+      "image": null,
+      "description": {
+        "es": "Galletitas saladas tipo cracker · versión estadounidense.",
+        "en": "Original savory crackers · US version."
+      },
+      "ingredientsText": "Unbleached Enriched Flour (Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin, Folic Acid), Soybean and/or Canola Oil, Palm Oil, Sugar, Salt, Leavening (Calcium Phosphate, Baking Soda), High Fructose Corn Syrup, Soy Lecithin, Natural Flavor.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "unbleached enriched flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "unbleached enriched flour"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamine mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamine mononitrate",
+            "vitamin b1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin b2"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fosfato de calcio",
+          "en": "calcium phosphate",
+          "aliases": [
+            "fosfato de calcio",
+            "calcium phosphate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "baking soda",
+          "aliases": [
+            "bicarbonato de sodio",
+            "baking soda",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "sabor natural",
+          "en": "natural flavor",
+          "aliases": [
+            "sabor natural",
+            "natural flavor"
+          ]
+        }
+      ],
+      "sourceId": "ritz-us-snackworks",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lays-classic-us-1-5oz",
+      "barcode": "00028400743761",
+      "name": "Lay's Classic Potato Chips",
+      "brand": "Frito-Lay",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "1.5 oz (42.5 g)",
+      "image": null,
+      "description": {
+        "es": "Papas fritas clásicas · versión estadounidense.",
+        "en": "Classic potato chips · US version."
+      },
+      "ingredientsText": "Potatoes, Vegetable Oil (Canola, Corn, Soybean, and/or Sunflower Oil), and Salt.",
+      "ingredients": [
+        {
+          "es": "papas",
+          "en": "potatoes",
+          "aliases": [
+            "papas",
+            "potatoes",
+            "potato"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de maíz",
+          "en": "corn oil",
+          "aliases": [
+            "aceite de maíz",
+            "corn oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "lays-classic-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "doritos-nacho-cheese-us-foodservice-1-4oz",
+      "barcode": null,
+      "name": "Doritos Nacho Cheese",
+      "brand": "Frito-Lay",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "tortilla_chips",
+      "package": "1.4 oz (40 g) · school foodservice label",
+      "image": null,
+      "description": {
+        "es": "Totopos sabor queso nacho · etiqueta estadounidense de foodservice escolar.",
+        "en": "Nacho cheese tortilla chips · US school-foodservice label."
+      },
+      "ingredientsText": "Whole Corn, Corn, Vegetable Oil (Corn, Canola, And/Or Sunflower Oil), Maltodextrin, Corn Bran, Salt, Cheddar Cheese (Milk, Cheese Cultures, Salt, Enzymes), Whey, Monosodium Glutamate, Buttermilk, Romano Cheese, Whey Protein Concentrate, Onion Powder, Corn Flour, Natural and Artificial Flavors, Dextrose, Tomato Powder, Lactose, Spices, Yellow 6, Yellow 5, Red 40, Lactic Acid, Citric Acid, Sugar, Garlic Powder, Skim Milk, Red and Green Bell Pepper Powder, Disodium Inosinate, Disodium Guanylate.",
+      "ingredients": [
+        {
+          "es": "maíz entero",
+          "en": "whole corn",
+          "aliases": [
+            "maíz entero",
+            "whole corn"
+          ]
+        },
+        {
+          "es": "maíz",
+          "en": "corn",
+          "aliases": [
+            "maíz",
+            "corn"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de maíz",
+          "en": "corn oil",
+          "aliases": [
+            "aceite de maíz",
+            "corn oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "salvado de maíz",
+          "en": "corn bran",
+          "aliases": [
+            "salvado de maíz",
+            "corn bran"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "queso cheddar",
+          "en": "cheddar cheese",
+          "aliases": [
+            "queso cheddar",
+            "cheddar cheese"
+          ]
+        },
+        {
+          "es": "cultivos de queso",
+          "en": "cheese cultures",
+          "aliases": [
+            "cultivos de queso",
+            "cheese cultures"
+          ]
+        },
+        {
+          "es": "enzimas",
+          "en": "enzymes",
+          "aliases": [
+            "enzimas",
+            "enzymes"
+          ]
+        },
+        {
+          "es": "suero",
+          "en": "whey",
+          "aliases": [
+            "suero",
+            "whey"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG"
+          ]
+        },
+        {
+          "es": "suero de leche",
+          "en": "buttermilk",
+          "aliases": [
+            "suero de leche",
+            "buttermilk"
+          ]
+        },
+        {
+          "es": "queso romano",
+          "en": "Romano cheese",
+          "aliases": [
+            "queso romano",
+            "Romano cheese"
+          ]
+        },
+        {
+          "es": "concentrado de proteína de suero",
+          "en": "whey protein concentrate",
+          "aliases": [
+            "concentrado de proteína de suero",
+            "whey protein concentrate"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "harina de maíz",
+          "en": "corn flour",
+          "aliases": [
+            "harina de maíz",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "sabores naturales y artificiales",
+          "en": "natural and artificial flavors",
+          "aliases": [
+            "sabores naturales y artificiales",
+            "natural and artificial flavors"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "tomate en polvo",
+          "en": "tomato powder",
+          "aliases": [
+            "tomate en polvo",
+            "tomato powder"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "amarillo 6",
+          "en": "yellow 6",
+          "aliases": [
+            "amarillo 6",
+            "yellow 6"
+          ]
+        },
+        {
+          "es": "amarillo 5",
+          "en": "yellow 5",
+          "aliases": [
+            "amarillo 5",
+            "yellow 5"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "red 40",
+          "aliases": [
+            "rojo 40",
+            "red 40"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk"
+          ]
+        },
+        {
+          "es": "pimiento rojo en polvo",
+          "en": "red bell pepper powder",
+          "aliases": [
+            "pimiento rojo en polvo",
+            "red bell pepper powder"
+          ]
+        },
+        {
+          "es": "pimiento verde en polvo",
+          "en": "green bell pepper powder",
+          "aliases": [
+            "pimiento verde en polvo",
+            "green bell pepper powder"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        }
+      ],
+      "sourceId": "doritos-nacho-cheese-school-source",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "reeses-peanut-butter-cups-us-4-4oz",
+      "barcode": "034000451708",
+      "name": "REESE'S Peanut Butter Cups Snack Size",
+      "brand": "The Hershey Company",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_candy",
+      "package": "4.4 oz (124 g)",
+      "image": null,
+      "description": {
+        "es": "Tazas de chocolate con leche y mantequilla de maní · versión estadounidense.",
+        "en": "Milk chocolate and peanut butter cups · US version."
+      },
+      "ingredientsText": "Milk Chocolate (Sugar, Cocoa Butter, Chocolate, Skim Milk, Milk Fat, Lactose, Lecithin (Soy), PGPR), Sugar, Peanuts, Vegetable Oil (Palm Oil, Shea Oil, Sunflower Oil, Palm Kernel Oil, Soybean Oil, Canola Oil, and/or Safflower Oil), Skim Milk, Dextrose, Corn Syrup Solids, Lactose, Salt, Tapioca Starch, White Rice Flour, Lecithin, Artificial Flavor, Baking Soda, Chocolate, Cocoa Processed With Alkali, Cornstarch, Invert Sugar, Oat Flour, Xanthan Gum, PGPR, TBHQ and Citric Acid.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "chocolate",
+          "en": "chocolate",
+          "aliases": [
+            "chocolate"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk"
+          ]
+        },
+        {
+          "es": "grasa láctea",
+          "en": "milk fat",
+          "aliases": [
+            "grasa láctea",
+            "milk fat"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "PGPR",
+          "en": "PGPR",
+          "aliases": [
+            "PGPR",
+            "polirricinoleato de poliglicerol"
+          ]
+        },
+        {
+          "es": "maní",
+          "en": "peanuts",
+          "aliases": [
+            "maní",
+            "peanuts",
+            "peanut"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "aceite de karité",
+          "en": "shea oil",
+          "aliases": [
+            "aceite de karité",
+            "shea oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aceite de palmiste",
+          "en": "palm kernel oil",
+          "aliases": [
+            "aceite de palmiste",
+            "palm kernel oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de cártamo",
+          "en": "safflower oil",
+          "aliases": [
+            "aceite de cártamo",
+            "safflower oil"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "sólidos de jarabe de maíz",
+          "en": "corn syrup solids",
+          "aliases": [
+            "sólidos de jarabe de maíz",
+            "corn syrup solids"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "almidón de tapioca",
+          "en": "tapioca starch",
+          "aliases": [
+            "almidón de tapioca",
+            "tapioca starch"
+          ]
+        },
+        {
+          "es": "harina de arroz blanco",
+          "en": "white rice flour",
+          "aliases": [
+            "harina de arroz blanco",
+            "white rice flour"
+          ]
+        },
+        {
+          "es": "saborizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "saborizante artificial",
+            "artificial flavor"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "baking soda",
+          "aliases": [
+            "bicarbonato de sodio",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "cacao procesado con álcali",
+          "en": "cocoa processed with alkali",
+          "aliases": [
+            "cacao procesado con álcali",
+            "cocoa processed with alkali"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "cornstarch",
+          "aliases": [
+            "almidón de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "harina de avena",
+          "en": "oat flour",
+          "aliases": [
+            "harina de avena",
+            "oat flour"
+          ]
+        },
+        {
+          "es": "goma xantana",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xantana",
+            "xanthan gum"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        }
+      ],
+      "sourceId": "reeses-us-hershey",
+      "verification": "manufacturer_website",
+      "status": "ready"
     }
   ]
 }
