@@ -2831,7 +2831,7 @@
       "country": "Argentina",
       "market": "Argentina",
       "category": "chocolate_alfajor",
-      "package": "55 g (unidad; referencia de ficha comercial)",
+      "package": "Pack x4 (peso unitario no especificado en la fuente)",
       "image": null,
       "description": {
         "es": "Alfajor sin TACC con semillas, dulce de leche y chocolate 70% cacao.",
@@ -3297,7 +3297,7 @@
         "es": "Alfajores de maicena con dulce de leche y coco rallado.",
         "en": "Cornstarch alfajores with dulce de leche and shredded coconut."
       },
-      "ingredientsText": "Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato de sodio, sorbato de potasio, harina de trigo enriquecida, aceite vegetal interesterificado, fécula, huevo en polvo, leche entera en polvo, sal, bicarbonato de amonio, fosfatos (INS 450i, INS 341i e INS 341iii), celulosa microcristalina, propionato de calcio, colorante natural, coco rallado.",
+      "ingredientsText": "Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato de sodio, sorbato de potasio, harina de trigo enriquecida, aceite vegetal interesterificado, fécula, huevo en polvo, leche entera en polvo, sal, bicarbonato de amonio, fosfatos (INS 450i, INS 341i e INS 341iii), celulosa microcristalina, propionato de calcio, cúrcuma (INS 100i), coco rallado.",
       "ingredients": [
         {
           "es": "leche entera",
@@ -3466,12 +3466,13 @@
           ]
         },
         {
-          "es": "colorante natural",
-          "en": "natural coloring",
+          "es": "cúrcuma",
+          "en": "turmeric",
           "aliases": [
-            "colorante natural",
-            "natural coloring",
-            "colorante"
+            "cúrcuma",
+            "turmeric",
+            "curcumin",
+            "INS 100i"
           ]
         },
         {
