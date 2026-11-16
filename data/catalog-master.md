@@ -5,9 +5,9 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-16
-- **Productos / Products:** 48
+- **Productos / Products:** 58
 - **Argentina:** 20
-- **World:** 28
+- **World:** 38
 - **Idiomas / Languages:** Español + English
 
 ## Reglas / Rules
@@ -2091,6 +2091,437 @@ Farinha de trigo enriquecida com ferro e ácido fólico, açúcar, gordura veget
 **Fuente / Source:** [Pão de Açúcar Brazil](https://www.paodeacucar.com/produto/444497/biscoito-recheio-chocolate-trakinas-126g)  
 **Tipo / Type:** `retailer_product_label`  
 **Alcance / Supports:** Retailer ingredient transcription for Trakinas Chocolate 126 g; corroborated with IDEC label analysis (2020), formula may have changed.
+
+---
+
+### Sabritas Original / Sabritas Original
+
+- **ID:** `sabritas-original-mexico-45g`
+- **Marca / Brand:** Sabritas
+- **País / Country:** Mexico
+- **Mercado / Market:** Mexico
+- **Envase / Package:** 45 g (market pack reference)
+- **Categoría / Category:** `potato_chips`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Papas fritas clásicas mexicanas con solo tres ingredientes.
+- **Description (EN):** Classic Mexican potato chips made with only three ingredients.
+
+**Ingredientes declarados / Declared ingredients**
+
+Papas 100% mexicanas, aceite vegetal y sal.
+
+**Respuestas aceptadas / Accepted answers (3)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papas | potatoes | papas, potatoes |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [PepsiCo México](https://www.pepsico.com.mx/nuestro-impacto/sustentabilidad/sabritas-naturalidad)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official PepsiCo Mexico FAQ: Sabritas Original contains Mexican potatoes, oil and salt.
+
+---
+
+### Ritter Sport Leche Alpina / Ritter Sport Alpine Milk
+
+- **ID:** `ritter-sport-alpenmilch-germany-100g`
+- **Marca / Brand:** Ritter Sport
+- **País / Country:** Germany
+- **Mercado / Market:** Germany
+- **Envase / Package:** 100 g
+- **Categoría / Category:** `milk_chocolate`
+- **Barcode:** 4000417018007
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_specification_via_retailer_pdf`
+- **Descripción (ES):** Chocolate con leche alpina y pasta de avellanas, versión alemana.
+- **Description (EN):** Alpine milk chocolate with hazelnut paste, German-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+Zucker, VollMILCHpulver (20 %), Kakaobutter, Kakaomasse, HASELNUSSmasse, Emulgator: Lecithine (SOJA).
+
+**Respuestas aceptadas / Accepted answers (6)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| pasta de avellanas | hazelnut paste | pasta de avellanas, hazelnut paste |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+
+**Fuente / Source:** [Alfred Ritter GmbH product specification (PDF hosted by retailer)](https://wietholt-shop.de/media/10/ff/1f/1768478784/ritter_sport_29188.pdf)  
+**Tipo / Type:** `manufacturer_specification_via_retailer_pdf`  
+**Alcance / Supports:** Product specification for Alpenmilch 100 g; GTIN 4000417018007 and ingredient list. Precautionary traces excluded.
+
+---
+
+### Shin Ramyun Original en vaso / Shin Ramyun Original Cup
+
+- **ID:** `shin-ramyun-original-cup-us-75g`
+- **Marca / Brand:** Nongshim
+- **País / Country:** South Korea
+- **Mercado / Market:** United States
+- **Envase / Package:** 1 cup · 75 g
+- **Categoría / Category:** `instant_noodles`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Fideos instantáneos picantes con caldo sabor carne, versión estadounidense en vaso.
+- **Description (EN):** Spicy instant noodles with beef-flavored broth, US cup version.
+
+**Ingredientes declarados / Declared ingredients**
+
+ENRICHED WHEAT FLOUR (WHEAT FLOUR, NIACIN, REDUCED IRON, THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID), POTATO STARCH, PALM OIL, MODIFIED POTATO STARCH, DRIED FLAKES [CARROT (CARROT, DEXTROSE), MUSHROOM, GREEN ONION, RED CHILI PEPPER], SALT, CONTAINS LESS THAN 2% OF: ARTIFICIAL FLAVOR, BEEF BONE EXTRACT, BEEF FAT, BLACK PEPPER, CITRIC ACID, CORN SYRUP, DEXTROSE, DISODIUM GUANYLATE, DISODIUM INOSINATE, DISODIUM SUCCINATE, FLAVOR ENHANCER (MALTODEXTRIN, DEXTROSE, GLYCINE, SODIUM PHOSPHATE TRIBASIC, D-XYLOSE), GARLIC, GLYCERIN, GUM ARABIC, HYDROLYZED CORN PROTEIN, HYDROLYZED SOY PROTEIN, HYDROLYZED WHEAT PROTEIN, MALTODEXTRIN, MONOSODIUM GLUTAMATE, MUSHROOM, NATURAL FLAVORS (CONTAINS SESAME), ONION, POTASSIUM CARBONATE, RED CHILI PEPPER, RIBOFLAVIN (COLOR), RICE FLOUR, SODIUM CARBONATE, SODIUM PHOSPHATES, SOY LECITHIN, SOYBEAN PASTE (SOY, WHEAT, SALT), SOYBEAN SPROUT EXTRACT, SUGAR, TOCOPHEROLS (ANTIOXIDANT), VEGETABLE MIXTURE (ONION, CORN SYRUP, CABBAGE, SPINACH, PUMPKIN, CARROT, TOMATO PASTE), WHEAT STARCH, YEAST EXTRACT, YELLOW CORN FLOUR.
+
+**Respuestas aceptadas / Accepted answers (51)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour |
+| niacina | niacin | niacina, niacin |
+| hierro reducido | reduced iron | hierro reducido, reduced iron |
+| mononitrato de tiamina | thiamine mononitrate | mononitrato de tiamina, thiamine mononitrate |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| almidón de papa | potato starch | almidón de papa, potato starch |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| almidón de papa modificado | modified potato starch | almidón de papa modificado, modified potato starch |
+| zanahoria | carrot | zanahoria, carrot |
+| dextrosa | dextrose | dextrosa, dextrose |
+| champiñones | mushrooms | champiñones, mushrooms |
+| cebolla de verdeo | green onion | cebolla de verdeo, green onion |
+| chile rojo | red chili pepper | chile rojo, red chili pepper |
+| sal | salt | sal, salt |
+| sabor artificial | artificial flavor | sabor artificial, artificial flavor |
+| extracto de hueso de res | beef bone extract | extracto de hueso de res, beef bone extract |
+| grasa vacuna | beef fat | grasa vacuna, beef fat |
+| pimienta negra | black pepper | pimienta negra, black pepper |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| succinato disódico | disodium succinate | succinato disódico, disodium succinate |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| glicina | glycine | glicina, glycine |
+| fosfato trisódico | sodium phosphate tribasic | fosfato trisódico, sodium phosphate tribasic |
+| ajo | garlic | ajo, garlic |
+| glicerina | glycerin | glicerina, glycerin |
+| goma arábiga | gum arabic | goma arábiga, gum arabic |
+| proteína de maíz hidrolizada | hydrolyzed corn protein | proteína de maíz hidrolizada, hydrolyzed corn protein |
+| proteína de soja hidrolizada | hydrolyzed soy protein | proteína de soja hidrolizada, hydrolyzed soy protein |
+| proteína de trigo hidrolizada | hydrolyzed wheat protein | proteína de trigo hidrolizada, hydrolyzed wheat protein |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate |
+| sabores naturales | natural flavors | sabores naturales, natural flavors |
+| carbonato de potasio | potassium carbonate | carbonato de potasio, potassium carbonate |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| fosfatos de sodio | sodium phosphates | fosfatos de sodio, sodium phosphates |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| pasta de soja | soybean paste | pasta de soja, soybean paste |
+| extracto de brotes de soja | soybean sprout extract | extracto de brotes de soja, soybean sprout extract |
+| azúcar | sugar | azúcar, sugar |
+| tocoferoles | tocopherols | tocoferoles, tocopherols |
+| repollo | cabbage | repollo, cabbage |
+| espinaca | spinach | espinaca, spinach |
+| calabaza | pumpkin | calabaza, pumpkin |
+| pasta de tomate | tomato paste | pasta de tomate, tomato paste |
+| almidón de trigo | wheat starch | almidón de trigo, wheat starch |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| harina de maíz amarillo | yellow corn flour | harina de maíz amarillo, yellow corn flour |
+
+**Fuente / Source:** [Nongshim USA](https://nongshimusa.com/product-detail?pid=45)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official US Shin Ramyun Original Cup 75 g ingredient declaration. The page warns formulas can change; package remains definitive.
+
+---
+
+### OREO Vainilla 154 g / OREO Vanilla 154 g
+
+- **ID:** `oreo-vanilla-uk-154g`
+- **Marca / Brand:** Mondelēz
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 154 g
+- **Categoría / Category:** `sandwich_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas sándwich de cacao y crema sabor vainilla, versión británica.
+- **Description (EN):** Cocoa sandwich biscuits with vanilla-flavoured filling, UK-market version.
+
+**Ingredientes declarados / Declared ingredients**
+
+WHEAT flour, sugar, palm oil, rapeseed oil, fat reduced cocoa powder (4.3%), WHEAT starch, glucose-fructose syrup, raising agents (ammonium carbonates, potassium carbonates, sodium carbonates), salt, emulsifier (SOYA lecithins), acidity regulator (sodium hydroxide), flavouring.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil |
+| cacao bajo en grasa | fat-reduced cocoa | cacao bajo en grasa, fat-reduced cocoa |
+| almidón de trigo | wheat starch | almidón de trigo, wheat starch |
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| carbonato de amonio | ammonium carbonate | carbonato de amonio, ammonium carbonate |
+| carbonato de potasio | potassium carbonate | carbonato de potasio, potassium carbonate |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| sal | salt | sal, salt |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| hidróxido de sodio | sodium hydroxide | hidróxido de sodio, sodium hydroxide |
+| saborizante | flavouring | saborizante, flavouring |
+
+**Fuente / Source:** [OREO UK / Mondelēz](https://www.oreo.co.uk/products/index.html?p=31197)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official UK product listing for OREO Vanilla 154 g; ingredients from product detail.
+
+---
+
+### Barilla Pesto alla Genovese / Barilla Pesto alla Genovese
+
+- **ID:** `barilla-pesto-genovese-italy-190g`
+- **Marca / Brand:** Barilla
+- **País / Country:** Italy
+- **Mercado / Market:** Italy
+- **Envase / Package:** 190 g
+- **Categoría / Category:** `pasta_sauce`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa pesto italiana con albahaca fresca, anacardos y Parmigiano Reggiano.
+- **Description (EN):** Italian pesto sauce with fresh basil, cashews and Parmigiano Reggiano.
+
+**Ingredientes declarados / Declared ingredients**
+
+Olio di girasole, basilico fresco 30%, ANACARDI, Parmigiano Reggiano DOP 5% (LATTE), fibra di mais, siero di LATTE in polvere, sale, proteine del LATTE, olio extra vergine di oliva, zucchero, estratto di basilico, aromi naturali (LATTE), correttore di acidità: acido lattico, aglio.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| albahaca fresca | fresh basil | albahaca fresca, fresh basil |
+| anacardos | cashews | anacardos, cashews |
+| queso Parmigiano Reggiano | Parmigiano Reggiano cheese | queso Parmigiano Reggiano, Parmigiano Reggiano cheese |
+| fibra de maíz | maize fibre | fibra de maíz, maize fibre |
+| suero de leche en polvo | whey powder | suero de leche en polvo, whey powder |
+| sal | salt | sal, salt |
+| proteínas de leche | milk protein | proteínas de leche, milk protein |
+| aceite de oliva virgen extra | extra virgin olive oil | aceite de oliva virgen extra, extra virgin olive oil |
+| azúcar | sugar | azúcar, sugar |
+| extracto de albahaca | basil extract | extracto de albahaca, basil extract |
+| aromas naturales | natural flavourings | aromas naturales, natural flavourings |
+| ácido láctico | lactic acid | ácido láctico, lactic acid |
+| ajo | garlic | ajo, garlic |
+
+**Fuente / Source:** [Barilla Italia](https://www.barilla.com/it-it/prodotti/pesti/pesti/pesto-alla-genovese)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Italian Barilla Pesto alla Genovese 190 g ingredient list. Precautionary traces excluded.
+
+---
+
+### Arnott's Tim Tam Original 200 g / Arnott's Tim Tam Original 200 g
+
+- **ID:** `tim-tam-original-australia-200g`
+- **Marca / Brand:** Arnott's
+- **País / Country:** Australia
+- **Mercado / Market:** Australia
+- **Envase / Package:** 200 g
+- **Categoría / Category:** `chocolate_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_product_label`
+- **Descripción (ES):** Galletitas australianas de chocolate con cobertura de chocolate con leche.
+- **Description (EN):** Australian chocolate biscuits coated in milk chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk Chocolate (38%) (Sugar, Milk Solids, Cocoa Butter, Cocoa Mass, Vegetable Oil, Emulsifiers (Soy Lecithin, E476), Flavour), Wheat Flour, Sugar, Vegetable Oil (Emulsifier (Soy Lecithin), Antioxidant (E307b From Soy)), Golden Syrup, Food Colours (Caramel III, Beet Red, Cochineal, Annatto), Wheat Starch, Cocoa Powder, Salt, Baking Powder, Emulsifier (Soy Lecithin), Flavour.
+
+**Respuestas aceptadas / Accepted answers (19)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| sólidos de leche | milk solids | sólidos de leche, milk solids |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| emulsionante E476 | emulsifier E476 | emulsionante E476, emulsifier E476 |
+| saborizante | flavour | saborizante, flavour |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| jarabe dorado | golden syrup | jarabe dorado, golden syrup |
+| caramelo III | caramel III | caramelo III, caramel III |
+| rojo de remolacha | beet red | rojo de remolacha, beet red |
+| carmín | cochineal | carmín, cochineal |
+| achiote | annatto | achiote, annatto |
+| almidón de trigo | wheat starch | almidón de trigo, wheat starch |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| sal | salt | sal, salt |
+| polvo de hornear | baking powder | polvo de hornear, baking powder |
+| antioxidante E307b | antioxidant E307b | antioxidante E307b, antioxidant E307b |
+
+**Fuente / Source:** [Woolworths Australia](https://www.woolworths.com.au/shop/productdetails/36066/arnott-s-tim-tam-original-chocolate-biscuits)  
+**Tipo / Type:** `retailer_product_label`  
+**Alcance / Supports:** Australian retailer ingredient transcription for Arnott's Tim Tam Original 200 g; product stated made in Australia.
+
+---
+
+### Chocolate Amul Dark / Amul Dark Chocolate
+
+- **ID:** `amul-dark-chocolate-india-150g`
+- **Marca / Brand:** Amul
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** 150 g
+- **Categoría / Category:** `dark_chocolate`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Chocolate amargo indio con 55% de cacao, sin sólidos lácteos.
+- **Description (EN):** Indian dark chocolate with 55% cocoa and no milk solids.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, Cocoa Solids, Cocoa Butter, Permitted Emulsifiers (E322, E476). Contains Added Flavours (Artificial Flavouring Substances - Cocoa and Vanilla).
+
+**Respuestas aceptadas / Accepted answers (7)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| sólidos de cacao | cocoa solids | sólidos de cacao, cocoa solids |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| emulsionante E322 | emulsifier E322 | emulsionante E322, emulsifier E322 |
+| emulsionante E476 | emulsifier E476 | emulsionante E476, emulsifier E476 |
+| saborizante artificial de cacao | artificial cocoa flavouring | saborizante artificial de cacao, artificial cocoa flavouring |
+| saborizante artificial de vainilla | artificial vanilla flavouring | saborizante artificial de vainilla, artificial vanilla flavouring |
+
+**Fuente / Source:** [Amul](https://old.amul.com/products/amul-dark-chocolate-info.php)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Amul Dark Chocolate composition and pack-size listing (150 g among available sizes).
+
+---
+
+### Orion Choco Pie / Orion Choco Pie
+
+- **ID:** `orion-choco-pie-korea-468g`
+- **Marca / Brand:** Orion
+- **País / Country:** South Korea
+- **Mercado / Market:** South Korea
+- **Envase / Package:** 468 g box
+- **Categoría / Category:** `snack_cake`
+- **Barcode:** 880117534912
+- **Estado / Status:** `ready` · **Verificación:** `government_label_database_via_specialist_index`
+- **Descripción (ES):** Pastelito coreano con relleno de malvavisco y cobertura de cacao.
+- **Description (EN):** Korean snack cake with marshmallow filling and cocoa coating.
+
+**Ingredientes declarados / Declared ingredients**
+
+밀가루, 백설탕, 물엿, 쇼트닝, 식물성유지, 코코아프리퍼레이션, 코코아분말, 산도조절제, 포도당, 젤라틴, 전란액, 식염, 코코아매스, 합성향료, 혼합제제(유화제, 산도조절제, 아라비아검), 잔탄검, 유화제.
+
+**Respuestas aceptadas / Accepted answers (17)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| jarabe de almidón | starch syrup | jarabe de almidón, starch syrup |
+| shortening | shortening | shortening, shortening |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| preparado de cacao | cocoa preparation | preparado de cacao, cocoa preparation |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| regulador de acidez | acidity regulator | regulador de acidez, acidity regulator |
+| glucosa | glucose | glucosa, glucose |
+| gelatina | gelatin | gelatina, gelatin |
+| huevo entero líquido | liquid whole egg | huevo entero líquido, liquid whole egg |
+| sal | salt | sal, salt |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| saborizante artificial | artificial flavor | saborizante artificial, artificial flavor |
+| emulsionante | emulsifier | emulsionante, emulsifier |
+| goma arábiga | gum arabic | goma arábiga, gum arabic |
+| goma xantana | xanthan gum | goma xantana, xanthan gum |
+
+**Fuente / Source:** [K-Food Label (Korea MFDS HACCP product-report label data)](https://kfoodlabel.com/p/orion-choco-pie-4912/)  
+**Tipo / Type:** `government_label_database_via_specialist_index`  
+**Alcance / Supports:** Korean domestic Orion Choco Pie 468 g / barcode 880117534912. Page attributes source to Korean HACCP product-report data; ingredient names translated from Korean label.
+
+---
+
+### Bonne Maman Mermelada Extra de Frutilla / Bonne Maman Strawberry Extra Jam
+
+- **ID:** `bonne-maman-strawberry-jam-france-370g`
+- **Marca / Brand:** Bonne Maman
+- **País / Country:** France
+- **Mercado / Market:** France
+- **Envase / Package:** 370 g jar
+- **Categoría / Category:** `fruit_jam`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_supplier_technical_sheet`
+- **Descripción (ES):** Mermelada extra francesa de frutillas con azúcar y jugo de limón.
+- **Description (EN):** French extra strawberry jam with sugar and lemon juice.
+
+**Ingredientes declarados / Declared ingredients**
+
+Fraises, sucre, sucre roux de canne, jus de citrons concentré, gélifiant : pectines de fruits.
+
+**Respuestas aceptadas / Accepted answers (5)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| frutillas | strawberries | frutillas, strawberries |
+| azúcar | sugar | azúcar, sugar |
+| azúcar rubia de caña | brown cane sugar | azúcar rubia de caña, brown cane sugar |
+| jugo concentrado de limón | concentrated lemon juice | jugo concentrado de limón, concentrated lemon juice |
+| pectinas de frutas | fruit pectins | pectinas de frutas, fruit pectins |
+
+**Fuente / Source:** [Groupe Pomona product technical sheet](https://cdn.api.groupe-pomona.fr/public/products/0045259/branch/es/medias/confiture-extra-de-fraise-en-bocal-370-g-bonne-maman_0045259_es_technical.pdf)  
+**Tipo / Type:** `manufacturer_supplier_technical_sheet`  
+**Alcance / Supports:** Technical sheet for Bonne Maman strawberry extra jam 370 g; transformation in France; ingredients listed. Supplier technical sheet, not the consumer-facing manufacturer page.
+
+---
+
+### Knorr Professional Caldo de Verduras / Knorr Professional Vegetable Bouillon
+
+- **ID:** `knorr-gemuse-bouillon-germany-1kg`
+- **Marca / Brand:** Knorr
+- **País / Country:** Germany
+- **Mercado / Market:** Germany
+- **Envase / Package:** 1 kg professional pack
+- **Categoría / Category:** `bouillon`
+- **Barcode:** 4007801104681
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_specification_via_distributor_pdf`
+- **Descripción (ES):** Caldo concentrado alemán de verduras con extracto de levadura y hortalizas.
+- **Description (EN):** German concentrated vegetable bouillon with yeast extract and vegetables.
+
+**Ingredientes declarados / Declared ingredients**
+
+Speisesalz, Hefeextrakt, Maltodextrin, Kaliumchlorid, Zucker, Zwiebeln (4,4%), Stärke, Lauch (2,7%), Pastinakenpulver (2,4%), Petersilienwurzelpulver (1,7%), Säuerungsmittel: Citronensäure, Karotten (0,5%), Kräuter, Gewürze, Kürbispulver (0,3%).
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| sal | salt | sal, salt |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride |
+| azúcar | sugar | azúcar, sugar |
+| cebolla | onion | cebolla, onion |
+| almidón | starch | almidón, starch |
+| puerro | leek | puerro, leek |
+| polvo de chirivía | parsnip powder | polvo de chirivía, parsnip powder |
+| polvo de raíz de perejil | parsley root powder | polvo de raíz de perejil, parsley root powder |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| zanahoria | carrot | zanahoria, carrot |
+| hierbas | herbs | hierbas, herbs |
+| especias | spices | especias, spices |
+| polvo de calabaza | pumpkin powder | polvo de calabaza, pumpkin powder |
+
+**Fuente / Source:** [Unilever Germany Food Solutions product data sheet (PDF hosted by retailer)](https://shop.tila-lachenmaier.de/files/downloads/Artikelpass4007801104681.pdf)  
+**Tipo / Type:** `manufacturer_product_specification_via_distributor_pdf`  
+**Alcance / Supports:** Knorr Professional Gemüse Kraftbouillon 1 kg; GTIN 4007801104681; manufacturer Unilever Germany Food Solutions; product data sheet dated 14 Feb 2026.
 
 ---
 
