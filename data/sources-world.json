@@ -1414,6 +1414,69 @@
       "url": "https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g",
       "supports": "Barilla Pesto alla Genovese 190 g jar product image.",
       "market": "Latin America product page; made in Italy"
+    },
+    {
+      "id": "image-guarana-antarctica-brazil-350ml",
+      "productId": "guarana-antarctica-brazil-350ml",
+      "publisher": "Super Kan",
+      "sourceType": "retailer_product_image",
+      "url": "https://superkan.com.br/refrigerante-guarana-antarctica-lata-350ml/7891991000826/d",
+      "supports": "Guaraná Antarctica Brazil 350 ml can product image.",
+      "market": "Brazil"
+    },
+    {
+      "id": "image-bonne-maman-strawberry-jam-france-370g",
+      "productId": "bonne-maman-strawberry-jam-france-370g",
+      "publisher": "Casa Santa Luzia",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.santaluzia.com.br/geleia-bonne-maman-morango-370g-1068032/p",
+      "supports": "Bonne Maman Strawberry France 370 g jar product image.",
+      "market": "France"
+    },
+    {
+      "id": "image-jumex-mango-nectar-mexico-960ml",
+      "productId": "jumex-mango-nectar-mexico-960ml",
+      "publisher": "El Sabor Market",
+      "sourceType": "retailer_product_image",
+      "url": "https://elsabormarket.com/products/jumex-mango-nectar-34-oz",
+      "supports": "Jumex Mango Nectar Mexico 960 ml carton product image.",
+      "market": "Mexico"
+    },
+    {
+      "id": "image-meiji-milk-chocolate-japan-50g",
+      "productId": "meiji-milk-chocolate-japan-50g",
+      "publisher": "V Drug / Rakuten",
+      "sourceType": "retailer_product_image",
+      "url": "https://item.rakuten.co.jp/v-drug/0270030_4902777015927x10/",
+      "supports": "Meiji Milk Chocolate Japan 50 g wrapper product image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-orion-choco-pie-korea-468g",
+      "productId": "orion-choco-pie-korea-468g",
+      "publisher": "Shopee Philippines",
+      "sourceType": "retailer_product_image",
+      "url": "https://shopee.ph/Korean-Snacks-choco-pie-Ori-orion-468g-%2812pcs%29-i.1186353823.25373644511",
+      "supports": "Orion Choco Pie Korea 468 g box product image.",
+      "market": "South Korea"
+    },
+    {
+      "id": "image-parle-g-original-india-uk-799g",
+      "productId": "parle-g-original-india-uk-799g",
+      "publisher": "Gayatri Store",
+      "sourceType": "retailer_product_image",
+      "url": "https://gayatristore.co.uk/products/parle-g-glucose-biscuits-79-9g",
+      "supports": "Parle-G Original 79.9 g UK import pack product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-heinz-baked-beanz-uk-150g",
+      "productId": "heinz-baked-beanz-uk-150g",
+      "publisher": "British Essentials",
+      "sourceType": "retailer_product_image",
+      "url": "https://ca.britishessentials.com/products/heinz-baked-beanz-150g",
+      "supports": "Heinz Baked Beanz UK 150 g can product image.",
+      "market": "United Kingdom"
     }
   ],
   "lastUpdated": "2026-11-16"
