@@ -325,6 +325,51 @@
       "url": "https://rojasglutenfree.com/productos/galletitas-dulces-mechaditos-santa-maria/",
       "supports": "Santa María Mechaditos Argentina 200 g package image.",
       "market": "Argentina"
+    },
+    {
+      "id": "image-chocolinas-ar-150g",
+      "productId": "chocolinas-ar-150g",
+      "publisher": "Gaucho Store",
+      "sourceType": "retailer_product_image",
+      "url": "https://gauchostore.com/chocolinas-galletitas-de-chocolate-150-g-5-29-oz/",
+      "supports": "Bagley Chocolinas Original Argentina 150 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-baggio-pronto-naranja-200ml",
+      "productId": "baggio-pronto-naranja-200ml",
+      "publisher": "La Golosinería",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.lagolosineria.com.ar/productos/jugo-baggio-200ml-sin-azucar-ag-x18u-barata-la-golosineria/",
+      "supports": "Baggio Pronto Naranja 200 ml carton product image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-jorgito-alfajor-choco-negro-55g",
+      "productId": "jorgito-alfajor-choco-negro-55g",
+      "publisher": "Guirao Mayorista",
+      "sourceType": "retailer_product_image",
+      "url": "https://guiraomayorista.com.ar/productos/alfajor-jorgito-negro-6u-x-55gr/",
+      "supports": "Jorgito Negro 55 g wrapper product image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-jorgelin-blanco-85g",
+      "productId": "jorgelin-blanco-85g",
+      "publisher": "Clan SRL",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.clansrl.com.ar/shop/13650-alf-jorgelin-blanco-art-25-x24-84",
+      "supports": "Jorgelín Blanco 85 g wrapper product image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-coca-cola-original-ar",
+      "productId": "coca-cola-original-ar",
+      "publisher": "Hiper Libertad",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.hiperlibertad.com.ar/coca-cola-sabor-original-500-ml/p",
+      "supports": "Coca-Cola Sabor Original Argentina 500 ml bottle product image.",
+      "market": "Argentina"
     }
   ]
 }
