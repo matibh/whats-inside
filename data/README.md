@@ -78,3 +78,8 @@ Added Heinz Baked Beanz (UK), Cadbury Lunch Bar (South Africa), Ajinomoto Gyoza 
 ## World catalog expansion — 16 November 2026 (10-product batch; 110-product milestone)
 
 Added Branston Original Pickle (UK), Pocky Almond Crush (US-market Glico formula), Chocapic (France; METRO product specification, not manufacturer-hosted), Lotus Biscoff Speculoos (Belgium), Kraft Dinner Original (Canada), Barilla Pesto alla Genovese (190 g regional page, produced in Italy), Monster Munch Pickled Onion (UK), Cadbury Wispa Gold (UK), HP Brown Sauce (UK recipe listed by Heinz France), and Heinz Saucy Sauce (UK). Source type, market and formula scope are recorded per item. Chocapic is explicitly sourced to a METRO product sheet, not described as a manufacturer source. Precautionary may-contain statements are excluded from accepted ingredients.
+
+
+## World catalog expansion — 16 November 2026 (10-product batch; 120-product milestone)
+
+Added Haldiram's Aloo Bhujia (India), McVitie's Jaffa Cakes (UK), Jell-O Strawberry Gelatin Dessert Mix (US), Kikkoman Teriyaki Marinade & Sauce (US), Pringles Sour Cream & Onion (US formulation), Calbee Kappa Ebisen (Japan), Walkers Wotsits Really Cheesy (UK), Campbell's Chicken Broth (Latin America regional page; package size not stated), Gatorade Lemon Lime (US; PepsiCo-hosted label PDF), and M&M'S Peanut Butter Chocolate Candies (US; Mars Foodservices). Source type and market/formula scope are recorded per item. Precautionary may-contain statements are excluded from accepted answers.
