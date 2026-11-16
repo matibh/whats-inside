@@ -7684,7 +7684,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "UK retail pack; size not specified on source page",
-      "image": null,
+      "image": "https://centra.ie/thumbnail/800x800/var/files/brandbank/5059319028958-16066-6a0930-Kellogg-s-Coco-Pops-420g.jpg",
       "description": {
         "es": "Cereal de arroz inflado con cacao y vitaminas, formulación británica.",
         "en": "Puffed rice cereal with cocoa and vitamins, UK formulation."
@@ -7822,7 +7822,8 @@
       ],
       "sourceId": "kelloggs-coco-pops-uk-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-kelloggs-coco-pops-uk"
     },
     {
       "id": "a1-original-steak-sauce-us-10oz",
@@ -7838,7 +7839,7 @@
       "region": "world",
       "category": "condiment_sauce",
       "package": "10 oz bottle",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/A-1-Original-Steak-Sauce-Bottle-10-oz-3-Pack_2d6c1e88-78a1-43c9-9273-a5e7cccfdc0a.1157d855937abc18d28ae06342a4b6fc.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
       "description": {
         "es": "Salsa estadounidense agridulce para carnes, con tomate, naranja y especias.",
         "en": "American tangy steak sauce with tomato, orange and spices."
@@ -7960,7 +7961,8 @@
       ],
       "sourceId": "a1-original-steak-sauce-us-10oz-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-a1-original-steak-sauce-us-10oz"
     },
     {
       "id": "mutti-polpa-italy-400g",
@@ -8132,7 +8134,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "85 g pack (common retail size; source record does not state size)",
-      "image": null,
+      "image": "https://www.toko360.com/product/100009/104625/1672023663/26/6e49560710ff85f49f3c913783af7a21.jpeg",
       "description": {
         "es": "Fideos instantáneos indonesios salteados con salsa dulce de soja, chile y condimentos.",
         "en": "Indonesian instant stir-fry noodles with sweet soy sauce, chilli and seasonings."
@@ -8438,7 +8440,8 @@
       ],
       "sourceId": "indomie-mi-goreng-indonesia-source",
       "verification": "regulatory_database_transcription",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-indomie-mi-goreng-indonesia"
     },
     {
       "id": "fanta-orange-japan-500ml",
@@ -8454,7 +8457,7 @@
       "region": "world",
       "category": "orange_soda",
       "package": "500 ml PET (manufacturer-listed size)",
-      "image": null,
+      "image": "https://tshop.r10s.jp/nozomi-market/cabinet/202509_20/f16-74-1.jpg",
       "description": {
         "es": "Gaseosa Fanta de naranja del mercado japonés, con edulcorantes y colorante caroteno.",
         "en": "Japanese-market Fanta orange soda with sweeteners and carotene colour."
@@ -8536,7 +8539,8 @@
       ],
       "sourceId": "fanta-orange-japan-500ml-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-fanta-orange-japan-500ml"
     },
     {
       "id": "barilla-basilico-sauce-italy-400g",
@@ -8552,7 +8556,7 @@
       "region": "world",
       "category": "pasta_sauce",
       "package": "400 g jar",
-      "image": null,
+      "image": "https://www.gosupps.com/media/catalog/product/7/1/71uJ9hp7EFL.jpg",
       "description": {
         "es": "Salsa italiana de tomate y albahaca con cebolla y aceite de girasol.",
         "en": "Italian-style tomato and basil pasta sauce with onion and sunflower oil."
@@ -8626,7 +8630,8 @@
       ],
       "sourceId": "barilla-basilico-sauce-italy-400g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-barilla-basilico-sauce-italy-400g"
     },
     {
       "id": "barilla-arrabbiata-sauce-italy-400g",
@@ -9209,7 +9214,7 @@
       "region": "world",
       "category": "shrimp_crackers",
       "package": "24 g pack (also listed in 60 g and 90 g sizes)",
-      "image": null,
+      "image": "https://zbga.shopsuki.ph/cdn/shop/files/4891208040143_800x.jpg?v=1753152481",
       "description": {
         "es": "Snack crocante de camarón, tapioca y maíz · versión original filipina.",
         "en": "Crispy shrimp, tapioca and corn snack · Philippine Original version."
@@ -9377,7 +9382,8 @@
       ],
       "sourceId": "oishi-prawn-crackers-original",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-oishi-prawn-crackers-philippines-original-24g"
     },
     {
       "id": "sanpellegrino-aranciata-italy-330ml",
@@ -9393,7 +9399,7 @@
       "region": "world",
       "category": "orange_soda",
       "package": "330 ml can",
-      "image": null,
+      "image": "https://shopping.c.yimg.jp/lib/tokyo-syusui/20241119nbkk052.jpg",
       "description": {
         "es": "Bebida gasificada de naranja con 16% de jugo de naranja de concentrado.",
         "en": "Sparkling orange drink with 16% orange juice from concentrate."
@@ -9461,7 +9467,8 @@
       ],
       "sourceId": "sanpellegrino-aranciata-italy",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-sanpellegrino-aranciata-italy-330ml"
     },
     {
       "id": "pringles-paprika-germany-165g",
