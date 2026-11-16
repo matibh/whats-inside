@@ -2561,7 +2561,7 @@
       "category": "peanut_nougat",
       "package": "111 g",
       "barcode": null,
-      "image": null,
+      "image": "https://www.delimart.com.ar/user-content/53c37205-e740-4515-851d-599fffd104a2.jpg",
       "description": {
         "es": "Turrón de maní · ¿Cuántos ingredientes encontrás?",
         "en": "Peanut nougat · How many ingredients can you find?"
@@ -2656,7 +2656,8 @@
       "sourceId": "mantecol-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-mantecol-clasico-111g"
     },
     {
       "id": "pepitos-chocolate-ar-119g",
