@@ -1,19 +1,28 @@
-# Product catalog
+# WHAT'S INSIDE? — Curated product catalog
 
-The game loads its playable products from `products.json`. A product is playable only when its `status` is `ready`.
+The game reads playable products from `products.json`. A product is eligible when `status` is `ready`.
 
-## Curation rules
+## Editorial policy
 
-- Prefer the exact market/packaging variant shown in the game.
-- Record the full ingredient statement as printed by the manufacturer.
-- Keep ingredient answers aligned with the label; do not infer ingredients from nutrition data, allergens, or similar products.
-- Add English and Spanish aliases only when they are genuinely equivalent to a printed ingredient.
-- Do not accept broad guesses that are not on the label (for example, an allergen is not automatically an ingredient answer).
-- Save the manufacturer/source URL and image source for every product.
-- Keep products with incomplete or ambiguous labels out of gameplay using `status: "pending"`.
+- Catalog products are tied to a specific market and, whenever possible, an exact package size / barcode.
+- Use manufacturer sources first. Retailer pages are acceptable when they reproduce the product's ingredient declaration and no better manufacturer source is available.
+- Open Food Facts is a discovery aid, not the source of truth for our curated ingredient statements.
+- Preserve the ingredient statement in `ingredientsText`; `ingredients` is the normalized answer list used by the game.
+- Ingredient answers include English and Spanish names. Aliases must be genuine synonyms, not broad guesses.
+- Do not mix ingredients, allergens, traces, nutrition facts, or taxonomy tags. “May contain” statements are not game answers.
+- Keep country, package size, source, and source quality explicit. A brand name alone is not a sufficiently precise product identity.
+- If the source does not identify a complete ingredient statement, mark the product `pending` until it is researched further.
+- Ingredient order follows the source statement. Subcomponents inside compound ingredients should be captured in the raw statement and progressively modeled as nested components; do not silently invent them.
 
-## Current product
+## Data files
 
-Nutella is the first playable entry. Its ingredient wording is based on Ferrero's Cono Sur product page. The package image is sourced from Open Food Facts; the barcode currently identifies the image record and should not be treated as proof that the photographed package is the exact Argentine-market variant.
+- `products.json`: product identity, source transcription, ingredient answer list and game metadata.
+- `sources.json`: source register, publisher, URL, source type, and the claims each source supports.
 
-Open Food Facts is a community-maintained database. Its API is useful for discovery and images, but each product must be checked against a manufacturer label before being marked ready.
+## Source quality labels
+
+- `manufacturer_website`: manufacturer-published information.
+- `retailer_label_transcription`: retailer listing that reproduces the label.
+- `packaging_transcription_secondary`: secondary transcription of packaging / Open Food Facts data.
+
+The first batch contains 10 Argentine-market products. The products are useful as a working catalog, but the source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
