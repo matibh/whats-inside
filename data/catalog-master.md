@@ -5531,3 +5531,421 @@ Rapeseed oil (40%), tomato purée (22%), spirit vinegar, sugar, egg yolk (3%), s
 **Fuente / Source:** [Heinz UK](https://www.heinz.com/en-GB/products/05000157143365-saucy-sauce)  
 **Tipo / Type:** `manufacturer_website`  
 **Alcance / Supports:** Official Heinz UK page lists Saucy Sauce 415 ml and ingredients, including celery in spice and herb extract.
+
+### Haldiram's Aloo Bhujia
+
+- **ID:** `haldiram-aloo-bhujia-india-400g`
+- **Marca / Brand:** Haldiram's
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** 400 g pack
+- **Categoría / Category:** `namkeen_snack`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack indio crujiente de papa y harina de garbanzo, sazonado con especias.
+- **Description (EN):** Indian crispy potato and gram-flour snack seasoned with spices.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potatoes (44%), vegetable oil (peanut and corn), gram pulse flour (4%), tepary beans flour (2%), starch (sago), salt, coriander powder, cumin powder, mango powder, ginger powder, red chilli powder, mace powder, nutmeg powder, mint leaves powder, citric acid powder; natural, nature-identical and artificial flavouring substances.
+
+**Respuestas aceptadas / Accepted answers (17)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papa | potatoes | papa, potatoes |
+| aceite de maní | peanut oil | aceite de maní, peanut oil, groundnut oil |
+| aceite de maíz | corn oil | aceite de maíz, corn oil, maize oil |
+| harina de garbanzo | gram pulse flour | harina de garbanzo, gram pulse flour, besan, chickpea flour |
+| harina de frijol tepary | tepary beans flour | harina de frijol tepary, tepary beans flour |
+| almidón de sagú | sago starch | almidón de sagú, sago starch, sago |
+| sal | salt | sal, salt |
+| cilantro en polvo | coriander powder | cilantro en polvo, coriander powder, ground coriander |
+| comino en polvo | cumin powder | comino en polvo, cumin powder, ground cumin |
+| mango en polvo | mango powder | mango en polvo, mango powder, amchur, dried mango powder |
+| jengibre en polvo | ginger powder | jengibre en polvo, ginger powder |
+| chile rojo en polvo | red chilli powder | chile rojo en polvo, red chilli powder, red chili powder |
+| macis | mace | macis, mace |
+| nuez moscada en polvo | nutmeg powder | nuez moscada en polvo, nutmeg powder |
+| hojas de menta en polvo | mint leaves powder | hojas de menta en polvo, mint leaves powder, mint powder |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| saborizantes | flavouring substances | saborizantes, flavouring substances, flavoring substances |
+
+**Fuente / Source:** [Haldiram Foods](https://haldiramfoods.com/product/aloo-bhujia-400-gms/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Haldiram Foods India product page lists Aloo Bhujia 400 g, full ingredients, peanut allergen and Product of India statement.
+
+### McVitie's Jaffa Cakes
+
+- **ID:** `mcvities-jaffa-cakes-uk-110g`
+- **Marca / Brand:** McVitie's
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 110 g pack
+- **Categoría / Category:** `snack_cake`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bizcochitos británicos con centro de naranja y cobertura de chocolate negro.
+- **Description (EN):** British sponge cakes with an orange centre and dark chocolate topping.
+
+**Ingredientes declarados / Declared ingredients**
+
+Glucose-fructose syrup, dark chocolate (19%) [sugar, cocoa mass, vegetable fats (palm, shea), butter oil (milk), cocoa butter, emulsifiers (soya lecithin, E476), natural flavouring], sugar, flour (wheat flour, calcium, iron, niacin, thiamin), whole egg, water, dextrose, concentrated orange juice, glucose syrup, vegetable oils (sunflower, palm), humectant (glycerine), citric acid, pectin, raising agents (disodium diphosphate, ammonium bicarbonate, sodium bicarbonate), dried whole egg, sodium citrates, natural orange flavouring, curcumin, soya lecithin.
+
+**Respuestas aceptadas / Accepted answers (32)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| azúcar | sugar | azúcar, sugar |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| grasa de palma | palm fat | grasa de palma, palm fat, palm oil |
+| grasa de karité | shea fat | grasa de karité, shea fat |
+| aceite de manteca de leche | butter oil | aceite de manteca de leche, butter oil |
+| leche | milk | leche, milk |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| lecitina de soja | soya lecithin | lecitina de soja, soya lecithin, soy lecithin |
+| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate, E476, PGPR |
+| aroma natural | natural flavouring | aroma natural, natural flavouring, natural flavoring |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| calcio | calcium | calcio, calcium |
+| hierro | iron | hierro, iron |
+| niacina | niacin | niacina, niacin |
+| tiamina | thiamin | tiamina, thiamin |
+| huevo entero | whole egg | huevo entero, whole egg |
+| agua | water | agua, water |
+| dextrosa | dextrose | dextrosa, dextrose |
+| jugo concentrado de naranja | concentrated orange juice | jugo concentrado de naranja, concentrated orange juice |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| glicerina | glycerine | glicerina, glycerine, glycerin, E422 |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| pectina | pectin | pectina, pectin, E440 |
+| difosfato disódico | disodium diphosphate | difosfato disódico, disodium diphosphate, E450 |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, E503 |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, baking soda, E500 |
+| huevo entero deshidratado | dried whole egg | huevo entero deshidratado, dried whole egg |
+| citratos de sodio | sodium citrates | citratos de sodio, sodium citrates |
+| aroma natural de naranja | natural orange flavouring | aroma natural de naranja, natural orange flavouring, natural orange flavoring |
+| curcumina | curcumin | curcumina, curcumin, E100 |
+
+**Fuente / Source:** [McVitie's](https://mcvities.com/en-gb/jaffa-cakes)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official McVitie's UK page lists the Jaffa Cakes ingredient declaration and selectable pack sizes including 110 g.
+
+### Jell-O Strawberry Gelatin Dessert Mix
+
+- **ID:** `jello-strawberry-gelatin-us-6oz`
+- **Marca / Brand:** Jell-O
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 6 oz (170 g) pouch
+- **Categoría / Category:** `gelatin_dessert`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Postre de gelatina sabor frutilla artificial, mezcla en polvo.
+- **Description (EN):** Artificially strawberry-flavoured powdered gelatin dessert mix.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, gelatin, adipic acid, contains less than 2% of artificial flavor, disodium phosphate, sodium citrate, fumaric acid, Red 40.
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| gelatina | gelatin | gelatina, gelatin |
+| ácido adípico | adipic acid | ácido adípico, adipic acid, E355 |
+| sabor artificial | artificial flavor | sabor artificial, artificial flavor, artificial flavour |
+| fosfato disódico | disodium phosphate | fosfato disódico, disodium phosphate, E339 |
+| citrato de sodio | sodium citrate | citrato de sodio, sodium citrate, E331 |
+| ácido fumárico | fumaric acid | ácido fumárico, fumaric acid, E297 |
+| rojo 40 | Red 40 | rojo 40, Red 40, Allura Red AC, E129 |
+
+**Fuente / Source:** [Kraft Heinz / Jell-O](https://www.kraftheinz.com/jell-o/products/00043000200513-strawberry-gelatin-dessert-mix)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kraft Heinz Jell-O US page identifies the Strawberry Gelatin Dessert Mix 6 oz pouch and its ingredient list.
+
+### Kikkoman Teriyaki Marinade & Sauce
+
+- **ID:** `kikkoman-teriyaki-marinade-us-296ml`
+- **Marca / Brand:** Kikkoman
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 10 fl oz (296 ml) bottle
+- **Categoría / Category:** `teriyaki_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa y marinada teriyaki estadounidense a base de salsa de soja, azúcar y vino.
+- **Description (EN):** US teriyaki marinade and sauce made with soy sauce, sugar and wine.
+
+**Ingredientes declarados / Declared ingredients**
+
+Soy sauce (water, soybeans, wheat, salt), sugar, wine, water, vinegar, salt, sodium benzoate (preservative), onion powder, natural flavours, succinic acid, garlic powder.
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| soja | soybeans | soja, soybeans, soy, soya |
+| trigo | wheat | trigo, wheat |
+| sal | salt | sal, salt |
+| azúcar | sugar | azúcar, sugar |
+| vino | wine | vino, wine |
+| vinagre | vinegar | vinagre, vinegar |
+| benzoato de sodio | sodium benzoate | benzoato de sodio, sodium benzoate, E211 |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| aromas naturales | natural flavours | aromas naturales, natural flavours, natural flavors |
+| ácido succínico | succinic acid | ácido succínico, succinic acid, E363 |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+
+**Fuente / Source:** [Kikkoman USA](https://kikkomanusa.com/products/teriyaki-marinade-sauce/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kikkoman USA product page identifies the 10 fl oz (296 ml) Teriyaki Marinade & Sauce and provides the ingredient list.
+
+### Pringles Sour Cream & Onion
+
+- **ID:** `pringles-sour-cream-onion-us-155g`
+- **Marca / Brand:** Pringles
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 5.5 oz (155 g) can
+- **Categoría / Category:** `potato_chips`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Papas apilables sabor crema agria y cebolla, fórmula estadounidense.
+- **Description (EN):** Stackable sour cream and onion potato crisps, US formulation.
+
+**Ingredientes declarados / Declared ingredients**
+
+Dried potatoes, vegetable oil (corn, cottonseed, canola, soybean and/or sunflower), degerminated yellow corn flour, cornstarch, rice flour, maltodextrin, mono- and diglycerides. Contains 2% or less of salt, whey, monosodium glutamate, onion powder, sugar, coconut oil, nonfat milk, sour cream (cream, nonfat milk, cultures), natural flavors, buttermilk, citric acid, cream, lactic acid, cultured nonfat milk, disodium inosinate, disodium guanylate, invert sugar, malic acid, yeast extract, wheat starch.
+
+**Respuestas aceptadas / Accepted answers (31)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| papas deshidratadas | dried potatoes | papas deshidratadas, dried potatoes |
+| aceite de maíz | corn oil | aceite de maíz, corn oil |
+| aceite de algodón | cottonseed oil | aceite de algodón, cottonseed oil |
+| aceite de colza | canola oil | aceite de colza, canola oil, rapeseed oil |
+| aceite de soja | soybean oil | aceite de soja, soybean oil |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| harina de maíz amarillo | yellow corn flour | harina de maíz amarillo, yellow corn flour |
+| almidón de maíz | cornstarch | almidón de maíz, cornstarch, maize starch |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| mono y diglicéridos | mono- and diglycerides | mono y diglicéridos, mono- and diglycerides, E471 |
+| sal | salt | sal, salt |
+| suero | whey | suero, whey |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| azúcar | sugar | azúcar, sugar |
+| aceite de coco | coconut oil | aceite de coco, coconut oil |
+| leche descremada | nonfat milk | leche descremada, nonfat milk, skim milk |
+| crema | cream | crema, cream |
+| cultivos lácticos | cultures | cultivos lácticos, cultures, dairy cultures |
+| aromas naturales | natural flavors | aromas naturales, natural flavors, natural flavourings |
+| suero de mantequilla | buttermilk | suero de mantequilla, buttermilk |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| ácido láctico | lactic acid | ácido láctico, lactic acid, E270 |
+| leche cultivada descremada | cultured nonfat milk | leche cultivada descremada, cultured nonfat milk |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate, E631 |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate, E627 |
+| azúcar invertido | invert sugar | azúcar invertido, invert sugar |
+| ácido málico | malic acid | ácido málico, malic acid, E296 |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| almidón de trigo | wheat starch | almidón de trigo, wheat starch |
+
+**Fuente / Source:** [Pringles US](https://www.pringles.com/en-us/products/pringles-sour-cream-onion-product.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Pringles US product page provides the US Sour Cream & Onion ingredient statement and a 5.5 oz pack nutrition panel.
+
+### Calbee Kappa Ebisen
+
+- **ID:** `calbee-kappa-ebisen-japan-130g`
+- **Marca / Brand:** Calbee
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 130 g bag (regional availability varies)
+- **Categoría / Category:** `shrimp_snack`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack japonés crocante de camarón elaborado con harina de trigo.
+- **Description (EN):** Japanese crunchy shrimp snack made with wheat flour and shrimp.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat flour (made in Japan), vegetable oil, starch, shrimp, sugar, salt; leavening agent, seasoning (amino acids, etc.), sweetener (licorice).
+
+**Respuestas aceptadas / Accepted answers (10)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| almidón | starch | almidón, starch |
+| camarón | shrimp | camarón, shrimp, prawn |
+| azúcar | sugar | azúcar, sugar |
+| sal | salt | sal, salt |
+| gasificante | leavening agent | gasificante, leavening agent, raising agent |
+| potenciadores del sabor | flavour enhancers | potenciadores del sabor, flavour enhancers, flavor enhancers |
+| aminoácidos | amino acids | aminoácidos, amino acids |
+| regaliz | licorice | regaliz, licorice, liquorice |
+
+**Fuente / Source:** [Calbee Japan](https://www.calbee.co.jp/products/detail/?p=20230410102049)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Calbee Japan page lists Kappa Ebisen ingredients in Japanese, including wheat, vegetable oil, starch, shrimp, sugar and salt; 130 g pack listed for selected regions.
+
+### Walkers Wotsits Really Cheesy
+
+- **ID:** `walkers-wotsits-really-cheesy-uk-22g`
+- **Marca / Brand:** Walkers
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 22.5 g individual pack (99 Calorie range)
+- **Categoría / Category:** `cheese_puffs`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack inflado de maíz con sabor a queso, horneado y vegetariano.
+- **Description (EN):** Baked vegetarian maize snack with a cheesy flavour.
+
+**Ingredientes declarados / Declared ingredients**
+
+Maize, rapeseed oil, cheese flavour [dried cheese (from milk) (7%), milk lactose, flavour enhancer (disodium 5'-ribonucleotide), acid (lactic acid), colours (paprika extract, annatto), natural flavourings, salt, potassium chloride].
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| maíz | maize | maíz, maize, corn |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| queso deshidratado | dried cheese | queso deshidratado, dried cheese |
+| leche | milk | leche, milk |
+| lactosa | lactose | lactosa, lactose |
+| 5'-ribonucleótido disódico | disodium 5'-ribonucleotide | 5'-ribonucleótido disódico, disodium 5'-ribonucleotide, E635 |
+| ácido láctico | lactic acid | ácido láctico, lactic acid, E270 |
+| extracto de pimentón | paprika extract | extracto de pimentón, paprika extract |
+| achiote | annatto | achiote, annatto, E160b |
+| aromatizantes naturales | natural flavourings | aromatizantes naturales, natural flavourings, natural flavorings |
+| sal | salt | sal, salt |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride, E508 |
+
+**Fuente / Source:** [Walkers UK](https://www.walkers.co.uk/our-range/family-snacks/99-calorie/wotsits-really-cheesy-pkg)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Walkers UK page gives Wotsits Really Cheesy ingredient declaration and 22.5 g serving details.
+
+### Campbell's Chicken Broth
+
+- **ID:** `campbells-chicken-broth-latam-298ml`
+- **Marca / Brand:** Campbell's
+- **País / Country:** United States
+- **Mercado / Market:** Latin America regional product page
+- **Envase / Package:** Can; page does not specify net weight
+- **Categoría / Category:** `chicken_broth`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Caldo de pollo Campbell's con extracto de apio y proteína de soja.
+- **Description (EN):** Campbell's chicken broth with celery extract and soy protein.
+
+**Ingredientes declarados / Declared ingredients**
+
+Chicken broth, contains less than 2% of chicken fat, salt, yeast extract, monosodium glutamate, corn oil, natural flavour, soy protein concentrate, dehydrated chicken, celery extract.
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| caldo de pollo | chicken broth | caldo de pollo, chicken broth |
+| grasa de pollo | chicken fat | grasa de pollo, chicken fat |
+| sal | salt | sal, salt |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| aceite de maíz | corn oil | aceite de maíz, corn oil |
+| saborizante natural | natural flavour | saborizante natural, natural flavour, natural flavor |
+| concentrado de proteína de soja | soy protein concentrate | concentrado de proteína de soja, soy protein concentrate |
+| pollo deshidratado | dehydrated chicken | pollo deshidratado, dehydrated chicken |
+| extracto de apio | celery extract | extracto de apio, celery extract |
+| apio | celery | apio, celery |
+
+**Fuente / Source:** [The Campbell's Company Latin America](https://www.campbells.com/es/products/sopas-condensadas/caldo-de-pollo/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Campbell's Latin America product page gives Chicken Broth ingredients and nutrition; page does not identify a fixed can size.
+
+### Gatorade Thirst Quencher Lemon Lime
+
+- **ID:** `gatorade-lemon-lime-us-828ml`
+- **Marca / Brand:** Gatorade
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 28 fl oz (828 ml) bottle
+- **Categoría / Category:** `sports_drink`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_specification_pdf`
+- **Descripción (ES):** Bebida deportiva sabor lima-limón, fórmula estadounidense con colorante amarillo 5.
+- **Description (EN):** US lemon-lime sports drink with Yellow 5 colouring.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, sugar, dextrose, citric acid, sodium citrate, monopotassium phosphate, gum arabic, glycerol ester of rosin, natural flavour, salt, Yellow 5.
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| azúcar | sugar | azúcar, sugar |
+| dextrosa | dextrose | dextrosa, dextrose |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| citrato de sodio | sodium citrate | citrato de sodio, sodium citrate, E331 |
+| fosfato monopotásico | monopotassium phosphate | fosfato monopotásico, monopotassium phosphate, E340 |
+| goma arábiga | gum arabic | goma arábiga, gum arabic, E414 |
+| éster de glicerol de colofonia | glycerol ester of rosin | éster de glicerol de colofonia, glycerol ester of rosin, ester gum, E445 |
+| aroma natural | natural flavour | aroma natural, natural flavour, natural flavor |
+| sal | salt | sal, salt |
+| amarillo 5 | Yellow 5 | amarillo 5, Yellow 5, E102 |
+
+**Fuente / Source:** [PepsiCo / Gatorade](https://digitalassets.pepsico.com/m/bcda87d0d381017/original/00052000135152_L1.pdf)  
+**Tipo / Type:** `manufacturer_specification_pdf`  
+**Alcance / Supports:** PepsiCo-hosted product label PDF for Gatorade Lemon Lime 28 fl oz (828 ml), with ingredient statement and nutrition panel.
+
+### M&M'S Peanut Butter Chocolate Candies
+
+- **ID:** `mms-peanut-butter-us-283oz`
+- **Marca / Brand:** M&M'S
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 2.83 oz (80 g) sharing-size pack
+- **Categoría / Category:** `chocolate_candy`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Confites M&M'S con chocolate con leche y centro de mantequilla de maní.
+- **Description (EN):** M&M'S milk chocolate candies with a peanut butter centre.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk chocolate (sugar, cocoa butter, chocolate, skim milk, milkfat, lactose, peanuts, soy lecithin, salt, artificial flavors), sugar, partially defatted peanuts, partially hydrogenated palm kernel oil, less than 2% of cornstarch, dextrose, corn syrup, natural flavor, salt, gum acacia, colours (Red 40 Lake, Blue 2 Lake, Blue 1 Lake, Yellow 5, Yellow 6, Red 40, Blue 1, Blue 2, Yellow 5 Lake, Yellow 6 Lake), dextrin, propyl gallate.
+
+**Respuestas aceptadas / Accepted answers (24)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| chocolate | chocolate | chocolate, chocolate |
+| leche descremada | skim milk | leche descremada, skim milk |
+| grasa láctea | milkfat | grasa láctea, milkfat |
+| lactosa | lactose | lactosa, lactose |
+| maní | peanuts | maní, peanuts, peanut, cacahuate |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| sal | salt | sal, salt |
+| saborizantes artificiales | artificial flavors | saborizantes artificiales, artificial flavors, artificial flavourings |
+| maní parcialmente desgrasado | partially defatted peanuts | maní parcialmente desgrasado, partially defatted peanuts |
+| aceite de palmiste parcialmente hidrogenado | partially hydrogenated palm kernel oil | aceite de palmiste parcialmente hidrogenado, partially hydrogenated palm kernel oil |
+| almidón de maíz | cornstarch | almidón de maíz, cornstarch, maize starch |
+| dextrosa | dextrose | dextrosa, dextrose |
+| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
+| sabor natural | natural flavor | sabor natural, natural flavor, natural flavour |
+| goma arábiga | gum acacia | goma arábiga, gum acacia, E414 |
+| rojo 40 | Red 40 | rojo 40, Red 40, E129 |
+| azul 2 | Blue 2 | azul 2, Blue 2, E132 |
+| azul 1 | Blue 1 | azul 1, Blue 1, E133 |
+| amarillo 5 | Yellow 5 | amarillo 5, Yellow 5, E102 |
+| amarillo 6 | Yellow 6 | amarillo 6, Yellow 6, E110 |
+| dextrina | dextrin | dextrina, dextrin |
+| galato de propilo | propyl gallate | galato de propilo, propyl gallate, E310 |
+
+**Fuente / Source:** [Mars Foodservices](https://www.marsfoodservices.com/product/m-ms-brand-peanut-butter-chocolate-candies)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Mars Foodservices product page identifies M&M'S Peanut Butter sharing-size 2.83 oz packs and provides the ready-to-eat ingredient declaration.
