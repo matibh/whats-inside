@@ -17,7 +17,7 @@
       "region": "world",
       "category": "chocolate_spread",
       "package": "400 g (market reference; verify exact jar label)",
-      "image": null,
+      "image": "https://www.nutella.com/it/sites/nutella_it/files/2026-10/card_all_sizes_spread_400g_glass.png?t=1794584322",
       "description": {
         "es": "Crema de cacao y avellanas · versión italiana.",
         "en": "Hazelnut cocoa spread · Italian-market version."
@@ -93,7 +93,8 @@
       "nameI18n": {
         "es": "Nutella",
         "en": "Nutella"
-      }
+      },
+      "imageSourceId": "image-nutella-italy-400g"
     },
     {
       "id": "coca-cola-original-us",
@@ -105,7 +106,7 @@
       "region": "world",
       "category": "soft_drink",
       "package": "20 fl oz bottle (US label)",
-      "image": null,
+      "image": "https://mobileimages.lowes.com/productimages/87e12d74-32fe-4bb0-a737-7a3d5c3fc2b4/69707301.jpeg",
       "description": {
         "es": "Gaseosa cola · fórmula del mercado estadounidense.",
         "en": "Cola soft drink · United States-market formula."
@@ -170,7 +171,8 @@
       "nameI18n": {
         "es": "Coca-Cola sabor original",
         "en": "Coca-Cola Original Taste"
-      }
+      },
+      "imageSourceId": "image-coca-cola-original-us"
     },
     {
       "id": "oreo-original-us-family",
@@ -1154,7 +1156,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "13.2 oz",
-      "image": null,
+      "image": "https://storage.googleapis.com/images-prs-prd-c7e7986.prs.prd.v8.commerce.mi9cloud.com/product-images/zoom/00038000281860_596",
       "description": {
         "es": "Cereal multigrano de colores y sabor frutal · versión estadounidense.",
         "en": "Colorful fruit-flavored multigrain cereal · US version."
@@ -1396,7 +1398,8 @@
       "nameI18n": {
         "es": "Kellogg's Froot Loops",
         "en": "Kellogg's Froot Loops"
-      }
+      },
+      "imageSourceId": "image-froot-loops-us-13-2oz"
     },
     {
       "id": "frosted-flakes-us-17-3oz",
@@ -2201,7 +2204,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "1.5 oz (42.5 g)",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Lay-s-Classic-Potato-Chips-Snack-Chips-1-5oz-Bag_d8bfdbcd-0227-4e78-a58d-ad4d4a4520cd.f3e2bdab9e9e86d934abf967ee0aff8a.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
       "description": {
         "es": "Papas fritas clásicas · versión estadounidense.",
         "en": "Classic potato chips · US version."
@@ -2272,7 +2275,8 @@
       "nameI18n": {
         "es": "Papas fritas Lay's clásicas",
         "en": "Lay's Classic Potato Chips"
-      }
+      },
+      "imageSourceId": "image-lays-classic-us-1-5oz"
     },
     {
       "id": "doritos-nacho-cheese-us-foodservice-1-4oz",
@@ -2599,7 +2603,7 @@
       "region": "world",
       "category": "chocolate_candy",
       "package": "4.4 oz (124 g)",
-      "image": null,
+      "image": "https://i5.peapod.com/c/71/71B9L.png",
       "description": {
         "es": "Tazas de chocolate con leche y mantequilla de maní · versión estadounidense.",
         "en": "Milk chocolate and peanut butter cups · US version."
@@ -2860,7 +2864,8 @@
       "nameI18n": {
         "es": "Tazas REESE'S de chocolate y mantequilla de maní",
         "en": "REESE'S Peanut Butter Cups Snack Size"
-      }
+      },
+      "imageSourceId": "image-reeses-peanut-butter-cups-us-4-4oz"
     },
     {
       "id": "takis-fuego-mexico-70g",
@@ -2876,7 +2881,7 @@
       "region": "world",
       "category": "tortilla_chips",
       "package": "70 g",
-      "image": null,
+      "image": "https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750081000367L.jpg",
       "description": {
         "es": "Rollitos de maíz enrollados con sazonador picante de chile y limón, versión mexicana.",
         "en": "Rolled corn snacks with spicy chili-lime seasoning, Mexican-market version."
@@ -2998,7 +3003,8 @@
       ],
       "sourceId": "takis-fuego-mexico-70g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-takis-fuego-mexico-70g"
     },
     {
       "id": "gansito-marinela-mexico-50g",
@@ -3014,7 +3020,7 @@
       "region": "world",
       "category": "snack_cake",
       "package": "50 g (1 pieza)",
-      "image": null,
+      "image": "https://i5-mx.walmartimages.com/gr/images/product-images/img_large/00750100015310L.jpg",
       "description": {
         "es": "Pastelito relleno de fresa, cubierto con chocolate y granillo, versión mexicana.",
         "en": "Strawberry-filled snack cake with chocolate coating and sprinkles, Mexican-market version."
@@ -3360,7 +3366,8 @@
       ],
       "sourceId": "gansito-marinela-mexico-50g-source",
       "verification": "manufacturer_product_document",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-gansito-marinela-mexico-50g"
     },
     {
       "id": "pocky-chocolate-japan-2pack",
