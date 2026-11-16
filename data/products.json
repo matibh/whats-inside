@@ -1,105 +1,1839 @@
 {
-  "version": 1,
-  "attribution": "Product ingredient information: Ferrero official website (Cono Sur). Product image: Open Food Facts.",
+  "version": 2,
+  "description": "Curated WHAT'S INSIDE? product catalog. Ingredient answers are transcribed from the cited product source for the specified market and pack variant. Open Food Facts is used for discovery only, not as the source of truth.",
+  "language": "es-AR",
+  "lastUpdated": "2026-11-16",
   "products": [
     {
       "id": "nutella-ar",
-      "barcode": "3017620422003",
+      "barcode": null,
       "name": "Nutella",
       "brand": "Ferrero",
       "country": "Argentina",
-      "image": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.400.jpg",
-      "imageSource": "https://world.openfoodfacts.org/product/3017620422003",
+      "market": "Argentina",
+      "category": "chocolate_spread",
+      "package": "Presentación argentina; tamaño no especificado en fuente",
+      "image": null,
       "description": {
         "en": "Hazelnut cocoa spread · Can you guess what's inside?",
         "es": "Crema de cacao y avellanas · ¿Qué ingredientes tiene?"
       },
-      "ingredientsText": "Azúcar, aceite vegetal, avellanas, leche descremada en polvo, cacao en polvo desgrasado, emulsificante (lecitinas), saborizante.",
+      "ingredientsText": "La página oficial argentina identifica 7 ingredientes: azúcar, aceite de palma, avellanas, cacao, leche, lecitinas y vainillina.",
       "ingredients": [
         {
-          "en": "sugar",
           "es": "azúcar",
+          "en": "sugar",
           "aliases": [
+            "azúcar",
             "sugar",
-            "sugars",
-            "azucar",
-            "azúcar"
+            "sugars"
           ]
         },
         {
-          "en": "vegetable oil",
-          "es": "aceite vegetal",
+          "es": "aceite de palma",
+          "en": "palm oil",
           "aliases": [
-            "vegetable oil",
-            "vegetable oils",
-            "aceite vegetal",
-            "aceites vegetales",
-            "oil",
-            "aceite"
+            "aceite de palma",
+            "palm oil"
           ]
         },
         {
-          "en": "hazelnuts",
           "es": "avellanas",
+          "en": "hazelnuts",
           "aliases": [
-            "hazelnut",
+            "avellanas",
             "hazelnuts",
-            "avellana",
-            "avellanas"
+            "h",
+            "a",
+            "z",
+            "e",
+            "l",
+            "n",
+            "u",
+            "t"
           ]
         },
         {
-          "en": "skimmed milk powder",
-          "es": "leche descremada en polvo",
+          "es": "cacao",
+          "en": "cocoa",
           "aliases": [
-            "skimmed milk powder",
-            "skim milk powder",
-            "milk powder",
-            "leche descremada en polvo",
-            "leche en polvo descremada",
-            "leche descremada"
+            "cacao",
+            "cocoa",
+            "c",
+            "o",
+            "c",
+            "o",
+            "a",
+            " ",
+            "p",
+            "o",
+            "w",
+            "d",
+            "e",
+            "r"
           ]
         },
         {
-          "en": "fat-reduced cocoa",
-          "es": "cacao en polvo desgrasado",
+          "es": "leche",
+          "en": "milk",
           "aliases": [
-            "fat reduced cocoa",
-            "fat-reduced cocoa",
-            "cocoa powder",
-            "cacao en polvo desgrasado",
-            "cacao desgrasado"
+            "leche",
+            "milk"
           ]
         },
         {
-          "en": "lecithins",
           "es": "lecitinas",
+          "en": "lecithins",
           "aliases": [
-            "lecithin",
+            "lecitinas",
             "lecithins",
-            "soya lecithin",
-            "soy lecithin",
-            "lecitina",
-            "lecitinas"
+            "l",
+            "e",
+            "c",
+            "i",
+            "t",
+            "h",
+            "i",
+            "n"
           ]
         },
         {
-          "en": "flavouring",
-          "es": "saborizante",
+          "es": "vainillina",
+          "en": "vanillin",
           "aliases": [
-            "flavouring",
-            "flavoring",
-            "flavourings",
-            "flavorings",
-            "saborizante",
-            "saborizantes",
-            "aroma",
-            "aromas"
+            "vainillina",
+            "vanillin"
           ]
         }
       ],
-      "sourceUrl": "https://www.ferrero.com/cono/es/nuestras-marcas/nutella",
-      "verification": "official_brand_source",
+      "sourceId": "nutella-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "chocolinas-ar-150g",
+      "barcode": "7790040139398",
+      "name": "Chocolinas",
+      "brand": "Bagley",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_cookies",
+      "package": "150 g",
+      "image": null,
+      "description": {
+        "en": "Chocolate cookies · Can you name the ingredients?",
+        "es": "Galletitas de chocolate · ¿Podés nombrar sus ingredientes?"
+      },
+      "ingredientsText": "HARINA DE TRIGO ENRIQUECIDA SEGUN LEY 25630 (harina de trigo, hierro, ácido fólico, tiamina, riboflavina) ; AZÚCAR; GRASA BOVINA REFINADA; CACAO EN POLVO; JARABE DE GLUCOSA; SAL; LEUDANTES QUÍMICOS: BICARBONATO DE SODIO, BICARBONATO DE AMONIO; COLORANTE: CARAMELO (E150d); EMULSIONANTE: LECITINA DE SOJA/SOYA; MEJORADOR DE HARINA: METABISULFITO DE SODIO: AROMATIZANTE ARTIFICIAL: VAINILLINA",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "w",
+            "h",
+            "e",
+            "a",
+            "t",
+            " ",
+            "f",
+            "l",
+            "o",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "b",
+            "e",
+            "e",
+            "f",
+            " ",
+            "f",
+            "a",
+            "t"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "b",
+            "a",
+            "k",
+            "i",
+            "n",
+            "g",
+            " ",
+            "s",
+            "o",
+            "d",
+            "a"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "caramelo",
+          "en": "caramel",
+          "aliases": [
+            "caramelo",
+            "caramel",
+            "c",
+            "a",
+            "r",
+            "a",
+            "m",
+            "e",
+            "l",
+            " ",
+            "c",
+            "o",
+            "l",
+            "o",
+            "r"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "s",
+            "o",
+            "y",
+            "a",
+            " ",
+            "l",
+            "e",
+            "c",
+            "i",
+            "t",
+            "h",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "chocolinas-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready"
+    },
+    {
+      "id": "oreo-original-ar-118g",
+      "barcode": null,
+      "name": "Oreo Original",
+      "brand": "Oreo · Mondelez",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "filled_cookies",
+      "package": "118 g",
+      "image": null,
+      "description": {
+        "en": "Chocolate sandwich cookies · What's inside?",
+        "es": "Galletitas rellenas de chocolate · ¿Qué tienen?"
+      },
+      "ingredientsText": "Azúcar, harina de trigo enriquecida, aceite vegetal, cacao en polvo, jarabe de maíz de alta fructosa, almidón, sal, leudantes químicos (bicarbonato de sodio, bicarbonato de amonio), emulsionante lecitina de soja, aromatizante idéntico al natural vainillina. La harina enriquecida contiene hierro, ácido fólico, vitamina B1, vitamina B2 y niacina.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "w",
+            "h",
+            "e",
+            "a",
+            "t",
+            " ",
+            "f",
+            "l",
+            "o",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "s",
+            "y",
+            "r",
+            "u",
+            "p"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "b",
+            "a",
+            "k",
+            "i",
+            "n",
+            "g",
+            " ",
+            "s",
+            "o",
+            "d",
+            "a"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "s",
+            "o",
+            "y",
+            "a",
+            " ",
+            "l",
+            "e",
+            "c",
+            "i",
+            "t",
+            "h",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "oreo-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "lays-clasicas-ar-40g",
+      "barcode": null,
+      "name": "Papas Lay's Clásicas",
+      "brand": "Lay's · PepsiCo",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "potato_chips",
+      "package": "40 g",
+      "image": null,
+      "description": {
+        "en": "Classic potato chips · Only a few ingredients?",
+        "es": "Papas fritas clásicas · ¿Cuántos ingredientes tienen?"
+      },
+      "ingredientsText": "Papa, aceite vegetal, sal.",
+      "ingredients": [
+        {
+          "es": "papa",
+          "en": "potato",
+          "aliases": [
+            "papa",
+            "potato",
+            "p",
+            "o",
+            "t",
+            "a",
+            "t",
+            "o",
+            "e",
+            "s"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "lays-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "nesquik-cereal-ar-230g",
+      "barcode": null,
+      "name": "Cereal Nesquik",
+      "brand": "Nestlé · Nesquik",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "breakfast_cereal",
+      "package": "230 g",
+      "image": null,
+      "description": {
+        "en": "Chocolate breakfast cereal · Name what's inside.",
+        "es": "Cereal de chocolate · Nombrá sus ingredientes."
+      },
+      "ingredientsText": "Harina integral de maíz, sémola fina de maíz, azúcar, jarabe de glucosa, cacao en polvo, aceite de palma, antioxidante palmitato de ascorbilo, carbonato de calcio, malta, sal, maltodextrina, niacina, óxido de zinc, pantotenato de calcio, hierro reducido, vitamina B1, vitamina B6, vitamina B2, ácido fólico, antihumectante fosfato dicálcico, saborizante vainilla, colorante caramelo, estabilizante fosfato trisódico, derivados de cebada.",
+      "ingredients": [
+        {
+          "es": "harina integral de maíz",
+          "en": "whole corn flour",
+          "aliases": [
+            "harina integral de maíz",
+            "whole corn flour",
+            "w",
+            "h",
+            "o",
+            "l",
+            "e",
+            "g",
+            "r",
+            "a",
+            "i",
+            "n",
+            " ",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "f",
+            "l",
+            "o",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "es": "sémola fina de maíz",
+          "en": "fine corn semolina",
+          "aliases": [
+            "sémola fina de maíz",
+            "fine corn semolina",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "g",
+            "r",
+            "i",
+            "t",
+            "s"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "palmitato de ascorbilo",
+          "en": "ascorbyl palmitate",
+          "aliases": [
+            "palmitato de ascorbilo",
+            "ascorbyl palmitate"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate"
+          ]
+        },
+        {
+          "es": "malta",
+          "en": "malt",
+          "aliases": [
+            "malta",
+            "malt"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "óxido de zinc",
+          "en": "zinc oxide",
+          "aliases": [
+            "óxido de zinc",
+            "zinc oxide"
+          ]
+        },
+        {
+          "es": "pantotenato de calcio",
+          "en": "calcium pantothenate",
+          "aliases": [
+            "pantotenato de calcio",
+            "calcium pantothenate"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1",
+            "t",
+            "h",
+            "i",
+            "a",
+            "m",
+            "i",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "r",
+            "i",
+            "b",
+            "o",
+            "f",
+            "l",
+            "a",
+            "v",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "fosfato dicálcico",
+          "en": "dicalcium phosphate",
+          "aliases": [
+            "fosfato dicálcico",
+            "dicalcium phosphate"
+          ]
+        },
+        {
+          "es": "saborizante vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "saborizante vainilla",
+            "vanilla flavouring",
+            "v",
+            "a",
+            "n",
+            "i",
+            "l",
+            "l",
+            "a",
+            " ",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g"
+          ]
+        },
+        {
+          "es": "caramelo",
+          "en": "caramel",
+          "aliases": [
+            "caramelo",
+            "caramel",
+            "c",
+            "a",
+            "r",
+            "a",
+            "m",
+            "e",
+            "l",
+            " ",
+            "c",
+            "o",
+            "l",
+            "o",
+            "r"
+          ]
+        },
+        {
+          "es": "fosfato trisódico",
+          "en": "trisodium phosphate",
+          "aliases": [
+            "fosfato trisódico",
+            "trisodium phosphate"
+          ]
+        },
+        {
+          "es": "derivados de cebada",
+          "en": "barley derivatives",
+          "aliases": [
+            "derivados de cebada",
+            "barley derivatives",
+            "b",
+            "a",
+            "r",
+            "l",
+            "e",
+            "y"
+          ]
+        }
+      ],
+      "sourceId": "nesquik-vea",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "coca-cola-original-ar",
+      "barcode": null,
+      "name": "Coca-Cola Sabor Original",
+      "brand": "Coca-Cola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "soft_drink",
+      "package": "Presentación argentina; tamaño no especificado",
+      "image": null,
+      "description": {
+        "en": "Original cola · Can you guess the formula?",
+        "es": "Gaseosa cola original · ¿Podés adivinar la fórmula?"
+      },
+      "ingredientsText": "AGUA CARBONATADA, AZÚCAR o JMAF, COL 150 d, ACI 338, ARO, EDU SUCRALOSA (4,3 mg/100 ml). CONTIENE CAFEÍNA.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water",
+            "c",
+            "a",
+            "r",
+            "b",
+            "o",
+            "n",
+            "a",
+            "t",
+            "e",
+            "d",
+            " ",
+            "w",
+            "a",
+            "t",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "es": "azúcar o jarabe de maíz de alta fructosa",
+          "en": "sugar or high-fructose corn syrup",
+          "aliases": [
+            "azúcar o jarabe de maíz de alta fructosa",
+            "sugar or high-fructose corn syrup",
+            "h",
+            "i",
+            "g",
+            "h",
+            " ",
+            "f",
+            "r",
+            "u",
+            "c",
+            "t",
+            "o",
+            "s",
+            "e",
+            " ",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "s",
+            "y",
+            "r",
+            "u",
+            "p"
+          ]
+        },
+        {
+          "es": "colorante caramelo (E150d)",
+          "en": "caramel color (E150d)",
+          "aliases": [
+            "colorante caramelo (E150d)",
+            "caramel color (E150d)",
+            "c",
+            "a",
+            "r",
+            "a",
+            "m",
+            "e",
+            "l",
+            " ",
+            "c",
+            "o",
+            "l",
+            "o",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "es": "ácido fosfórico (E338)",
+          "en": "phosphoric acid (E338)",
+          "aliases": [
+            "ácido fosfórico (E338)",
+            "phosphoric acid (E338)"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g",
+            "s"
+          ]
+        },
+        {
+          "es": "sucralosa",
+          "en": "sucralose",
+          "aliases": [
+            "sucralosa",
+            "sucralose"
+          ]
+        }
+      ],
+      "labelNotes": "La fuente oficial también declara que contiene cafeína; se conserva como nota de etiqueta y no como ingrediente separado.",
+      "sourceId": "cocacola-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "sprite-lima-limon-ar",
+      "barcode": null,
+      "name": "Sprite Sabor Lima-Limón",
+      "brand": "Sprite · Coca-Cola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "soft_drink",
+      "package": "Presentación argentina; tamaño no especificado",
+      "image": null,
+      "description": {
+        "en": "Lemon-lime soda · What's in the new formula?",
+        "es": "Gaseosa lima-limón · ¿Qué tiene su fórmula?"
+      },
+      "ingredientsText": "AGUA CARBONATADA, AZÚCAR O JMAF, JUGO DE LIMÓN, ARO, ACREG 331 iii, CONS BENZOATO DE SODIO - SORBATO DE POTASIO, EDU ACESULFAME K - SUCRALOSA, ACI 330.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "azúcar o jarabe de maíz de alta fructosa",
+          "en": "sugar or high-fructose corn syrup",
+          "aliases": [
+            "azúcar o jarabe de maíz de alta fructosa",
+            "sugar or high-fructose corn syrup",
+            "s",
+            "u",
+            "g",
+            "a",
+            "r"
+          ]
+        },
+        {
+          "es": "jugo de limón",
+          "en": "lemon juice",
+          "aliases": [
+            "jugo de limón",
+            "lemon juice"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g",
+            "s"
+          ]
+        },
+        {
+          "es": "citrato de sodio (E331)",
+          "en": "sodium citrate (E331)",
+          "aliases": [
+            "citrato de sodio (E331)",
+            "sodium citrate (E331)"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate"
+          ]
+        },
+        {
+          "es": "acesulfame K",
+          "en": "acesulfame K",
+          "aliases": [
+            "acesulfame K",
+            "acesulfame K"
+          ]
+        },
+        {
+          "es": "sucralosa",
+          "en": "sucralose",
+          "aliases": [
+            "sucralosa",
+            "sucralose"
+          ]
+        },
+        {
+          "es": "ácido cítrico (E330)",
+          "en": "citric acid (E330)",
+          "aliases": [
+            "ácido cítrico (E330)",
+            "citric acid (E330)"
+          ]
+        }
+      ],
+      "sourceId": "sprite-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "la-serenisima-yogur-frutilla-bebible-1300g",
+      "barcode": null,
+      "name": "Yogur bebible La Serenísima Frutilla",
+      "brand": "La Serenísima",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "yogurt",
+      "package": "1300 g",
+      "image": null,
+      "description": {
+        "en": "Strawberry drinkable yogurt · What's inside?",
+        "es": "Yogur bebible de frutilla · ¿Qué ingredientes tiene?"
+      },
+      "ingredientsText": "Leche parcialmente descremada pasteurizada, solución de sacarosa, gelatina, cultivos lácticos, cultivos probióticos (Lactobacillus casei DN-114 001, Bifidobacterium lactis DN-173 010), vitaminas A, D y B12, estabilizante (pectina extraída de cítricos), aromas, colorante natural carmín. CONTIENE LECHE.",
+      "ingredients": [
+        {
+          "es": "leche parcialmente descremada pasteurizada",
+          "en": "pasteurized semi-skimmed milk",
+          "aliases": [
+            "leche parcialmente descremada pasteurizada",
+            "pasteurized semi-skimmed milk",
+            "p",
+            "a",
+            "r",
+            "t",
+            "i",
+            "a",
+            "l",
+            "l",
+            "y",
+            " ",
+            "s",
+            "k",
+            "i",
+            "m",
+            "m",
+            "e",
+            "d",
+            " ",
+            "m",
+            "i",
+            "l",
+            "k"
+          ]
+        },
+        {
+          "es": "solución de sacarosa",
+          "en": "sucrose solution",
+          "aliases": [
+            "solución de sacarosa",
+            "sucrose solution",
+            "s",
+            "u",
+            "c",
+            "r",
+            "o",
+            "s",
+            "e"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "cultivos lácticos",
+          "en": "lactic cultures",
+          "aliases": [
+            "cultivos lácticos",
+            "lactic cultures",
+            "s",
+            "t",
+            "a",
+            "r",
+            "t",
+            "e",
+            "r",
+            " ",
+            "c",
+            "u",
+            "l",
+            "t",
+            "u",
+            "r",
+            "e",
+            "s"
+          ]
+        },
+        {
+          "es": "Lactobacillus casei",
+          "en": "Lactobacillus casei",
+          "aliases": [
+            "Lactobacillus casei",
+            "Lactobacillus casei"
+          ]
+        },
+        {
+          "es": "Bifidobacterium lactis",
+          "en": "Bifidobacterium lactis",
+          "aliases": [
+            "Bifidobacterium lactis",
+            "Bifidobacterium lactis"
+          ]
+        },
+        {
+          "es": "vitamina A",
+          "en": "vitamin A",
+          "aliases": [
+            "vitamina A",
+            "vitamin A"
+          ]
+        },
+        {
+          "es": "vitamina D",
+          "en": "vitamin D",
+          "aliases": [
+            "vitamina D",
+            "vitamin D"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        },
+        {
+          "es": "pectina",
+          "en": "pectin",
+          "aliases": [
+            "pectina",
+            "pectin"
+          ]
+        },
+        {
+          "es": "aromas",
+          "en": "flavourings",
+          "aliases": [
+            "aromas",
+            "flavourings",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g",
+            "s"
+          ]
+        },
+        {
+          "es": "carmín",
+          "en": "carmine",
+          "aliases": [
+            "carmín",
+            "carmine",
+            "n",
+            "a",
+            "t",
+            "u",
+            "r",
+            "a",
+            "l",
+            " ",
+            "c",
+            "a",
+            "r",
+            "m",
+            "i",
+            "n",
+            "e"
+          ]
+        }
+      ],
+      "sourceId": "serenisima-official",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "toddy-galletitas-chocolate-ar-126g",
+      "barcode": null,
+      "name": "Galletitas Toddy Clásicas Chocolate",
+      "brand": "Toddy",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_cookies",
+      "package": "126 g",
+      "image": null,
+      "description": {
+        "en": "Chocolate cookies with chips · Guess the ingredients.",
+        "es": "Galletitas Toddy de chocolate · Adiviná los ingredientes."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, niacina), azúcar, aceite vegetal hidrogenado, cacao en polvo, emulsionante INS 442, aromatizante/saborizante, aceite de girasol, suero de leche, harina de avena, jarabe de maíz de alta fructosa, sal, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio, fosfato tricálcico), emulsionante lecitina de soja, aromatizante artificial vainillina.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "w",
+            "h",
+            "e",
+            "a",
+            "t",
+            " ",
+            "f",
+            "l",
+            "o",
+            "u",
+            "r"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1",
+            "t",
+            "h",
+            "i",
+            "a",
+            "m",
+            "i",
+            "n",
+            "e"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "r",
+            "i",
+            "b",
+            "o",
+            "f",
+            "l",
+            "a",
+            "v",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite vegetal hidrogenado",
+          "en": "hydrogenated vegetable oil",
+          "aliases": [
+            "aceite vegetal hidrogenado",
+            "hydrogenated vegetable oil"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "emulsionante INS 442",
+          "en": "emulsifier INS 442",
+          "aliases": [
+            "emulsionante INS 442",
+            "emulsifier INS 442"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "suero de leche",
+          "en": "whey",
+          "aliases": [
+            "suero de leche",
+            "whey",
+            "w",
+            "h",
+            "e",
+            "y",
+            " ",
+            "p",
+            "o",
+            "w",
+            "d",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "es": "harina de avena",
+          "en": "oat flour",
+          "aliases": [
+            "harina de avena",
+            "oat flour"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "s",
+            "y",
+            "r",
+            "u",
+            "p"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "b",
+            "a",
+            "k",
+            "i",
+            "n",
+            "g",
+            " ",
+            "s",
+            "o",
+            "d",
+            "a"
+          ]
+        },
+        {
+          "es": "fosfato tricálcico",
+          "en": "tricalcium phosphate",
+          "aliases": [
+            "fosfato tricálcico",
+            "tricalcium phosphate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "s",
+            "o",
+            "y",
+            "a",
+            " ",
+            "l",
+            "e",
+            "c",
+            "i",
+            "t",
+            "h",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "toddy-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "mana-con-leche-ar-136g",
+      "barcode": null,
+      "name": "Galletitas Maná con Leche",
+      "brand": "Maná · Bagley",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "plain_cookies",
+      "package": "136 g",
+      "image": null,
+      "description": {
+        "en": "Milk cookies · Can you name every ingredient?",
+        "es": "Galletitas con leche · ¿Podés nombrar cada ingrediente?"
+      },
+      "ingredientsText": "Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar, aceite de girasol alto oleico, jarabe de maíz de alta fructosa, leche descremada en polvo (3%), sal, almidón, bicarbonato de amonio, bicarbonato de sodio, mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con poliglicerol, sales de ácidos grasos con potasio, lecitina de soja, metabisulfito de sodio, vainillina, aroma leche, aroma dulce de leche.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "v",
+            "i",
+            "t",
+            "a",
+            "m",
+            "i",
+            "n",
+            " ",
+            "B",
+            "1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "v",
+            "i",
+            "t",
+            "a",
+            "m",
+            "i",
+            "n",
+            " ",
+            "B",
+            "2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "s",
+            "u",
+            "n",
+            "f",
+            "l",
+            "o",
+            "w",
+            "e",
+            "r",
+            " ",
+            "o",
+            "i",
+            "l"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "c",
+            "o",
+            "r",
+            "n",
+            " ",
+            "s",
+            "y",
+            "r",
+            "u",
+            "p"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "s",
+            "k",
+            "i",
+            "m",
+            " ",
+            "m",
+            "i",
+            "l",
+            "k",
+            " ",
+            "p",
+            "o",
+            "w",
+            "d",
+            "e",
+            "r"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "b",
+            "a",
+            "k",
+            "i",
+            "n",
+            "g",
+            " ",
+            "s",
+            "o",
+            "d",
+            "a"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "m",
+            "o",
+            "n",
+            "o",
+            " ",
+            "a",
+            "n",
+            "d",
+            " ",
+            "d",
+            "i",
+            "g",
+            "l",
+            "y",
+            "c",
+            "e",
+            "r",
+            "i",
+            "d",
+            "e",
+            "s"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con poliglicerol",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con poliglicerol",
+            "polyglycerol esters of fatty acids"
+          ]
+        },
+        {
+          "es": "sales de ácidos grasos con potasio",
+          "en": "potassium salts of fatty acids",
+          "aliases": [
+            "sales de ácidos grasos con potasio",
+            "potassium salts of fatty acids"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "s",
+            "o",
+            "y",
+            "a",
+            " ",
+            "l",
+            "e",
+            "c",
+            "i",
+            "t",
+            "h",
+            "i",
+            "n"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "aroma leche",
+          "en": "milk flavouring",
+          "aliases": [
+            "aroma leche",
+            "milk flavouring",
+            "m",
+            "i",
+            "l",
+            "k",
+            " ",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g"
+          ]
+        },
+        {
+          "es": "aroma dulce de leche",
+          "en": "dulce de leche flavouring",
+          "aliases": [
+            "aroma dulce de leche",
+            "dulce de leche flavouring",
+            "d",
+            "u",
+            "l",
+            "c",
+            "e",
+            " ",
+            "d",
+            "e",
+            " ",
+            "l",
+            "e",
+            "c",
+            "h",
+            "e",
+            " ",
+            "f",
+            "l",
+            "a",
+            "v",
+            "o",
+            "r",
+            "i",
+            "n",
+            "g"
+          ]
+        }
+      ],
+      "sourceId": "mana-jumbo",
+      "verification": "retailer_label_transcription",
       "status": "ready"
     }
   ]
