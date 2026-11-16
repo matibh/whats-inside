@@ -811,6 +811,96 @@
       "url": "https://www.woolworths.com.au/shop/productdetails/6057799/asahi-calpis-water",
       "supports": "Australian retailer listing identifies a 500 ml bottle, ingredient declaration and explicitly labels the product as Product of Taiwan.",
       "market": "Australia"
+    },
+    {
+      "id": "heinz-baked-beanz-uk",
+      "productId": "heinz-baked-beanz-uk-415g",
+      "publisher": "Heinz UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.heinz.com/en-GB/products/05000157024671-baked-beanz",
+      "supports": "Official Heinz UK page lists the 415 g product and the ingredient declaration. The formula is the UK Baked Beanz, not other regional Heinz baked-bean recipes.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "cadbury-lunch-bar-south-africa",
+      "productId": "cadbury-lunch-bar-south-africa-48g",
+      "publisher": "Cadbury South Africa",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.cadbury.co.za/product/cadbury-lunch-bar",
+      "supports": "Official Cadbury South Africa product page lists available sizes including 48 g and the full ingredient declaration. Precautionary may-contain statements are excluded.",
+      "market": "South Africa"
+    },
+    {
+      "id": "ajinomoto-gyoza-japan",
+      "productId": "ajinomoto-gyoza-japan-276g",
+      "publisher": "Ajinomoto Frozen Foods Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.ffa.ajinomoto.com/products/detail/id/293",
+      "supports": "Official Ajinomoto page identifies the 12-piece 276 g pack, JAN code and detailed Japanese ingredient declaration. Ingredient names are translated from the manufacturer listing.",
+      "market": "Japan"
+    },
+    {
+      "id": "lotte-koalas-march-chocolate-japan",
+      "productId": "lotte-koalas-march-chocolate-japan-48g",
+      "publisher": "Lotte Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.lotte.co.jp/products/catalogue/choco/04/detail01.html",
+      "supports": "Official Lotte product page identifies Koala's March Chocolate 48 g and the full ingredient declaration in Japanese.",
+      "market": "Japan"
+    },
+    {
+      "id": "lotte-koalas-march-strawberry-japan",
+      "productId": "lotte-koalas-march-strawberry-japan-46g",
+      "publisher": "Lotte Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.lotte.co.jp/products/catalogue/choco/04/detail10.html",
+      "supports": "Official Lotte product page identifies Koala's March Strawberry 46 g and its distinct ingredient declaration. It is a separate formulation from the chocolate variant.",
+      "market": "Japan"
+    },
+    {
+      "id": "pataks-tikka-masala-paste-uk",
+      "productId": "pataks-tikka-masala-paste-uk",
+      "publisher": "Patak's UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.pataks.co.uk/products/spice-pastes/tikka-masala-paste",
+      "supports": "Official Patak's UK page gives the complete ingredient statement and notes possible mustard, peanut and nut traces; precautionary traces are excluded.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "tabasco-original-red-sauce-us",
+      "productId": "tabasco-original-red-sauce-us-148ml",
+      "publisher": "TABASCO / McIlhenny Company",
+      "sourceType": "manufacturer_website",
+      "url": "https://shop.tabasco.com/products/original-red-sauce/",
+      "supports": "Official TABASCO store page identifies the 5 fl oz bottle and the three ingredients: distilled vinegar, red pepper and salt.",
+      "market": "United States"
+    },
+    {
+      "id": "walkers-cheese-onion-uk",
+      "productId": "walkers-cheese-onion-crisps-uk",
+      "publisher": "Walkers UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.walkers.co.uk/our-range/walkers-crisps/cheese-and-onion",
+      "supports": "Official Walkers UK product page provides the complete ingredient statement, including seasoning components and antioxidants. Precautionary may-contain allergens are excluded.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "marukome-ryotei-tofu-miso-japan",
+      "productId": "marukome-ryotei-no-aji-tofu-vegetarian-152g",
+      "publisher": "Marukome Global",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.marukome.co.jp/global/en/products_post/instant_035/",
+      "supports": "Official Marukome Global page lists the 152 g vegetarian tofu miso soup and separate soup-base and garnish ingredient declarations.",
+      "market": "International export listing; product by Japanese manufacturer"
+    },
+    {
+      "id": "lotte-xylitol-cola-gum-japan",
+      "productId": "lotte-xylitol-cola-gum-japan-14pcs",
+      "publisher": "Lotte Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.lotte.co.jp/products/catalogue/gum/04/detail123.html",
+      "supports": "Official Lotte Japan page identifies Xylitol Gum Cola, 14 pieces, and the ingredient declaration in Japanese.",
+      "market": "Japan"
     }
   ],
   "lastUpdated": "2026-11-16"
