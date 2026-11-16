@@ -433,6 +433,24 @@
       "url": "https://www.delimart.com.ar/postre_tradicional_mantecol_111_gr",
       "supports": "Mantecol Clásico Argentina 111 g wrapper product image.",
       "market": "Argentina"
+    },
+    {
+      "id": "image-jorgito-alfajor-blanco-merengue-50g",
+      "productId": "jorgito-alfajor-blanco-merengue-50g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://tiendajorgito.com.ar/producto/jorgito-blanco",
+      "supports": "Official Jorgito Blanco Merengue 50 g product image from the manufacturer.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-jorgito-alfajor-choco-blanco-55g",
+      "productId": "jorgito-alfajor-choco-blanco-55g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://tiendajorgito.com.ar/producto/jorgito-choco-blanco",
+      "supports": "Official Jorgito Choco Blanco 55 g product image from the manufacturer.",
+      "market": "Argentina"
     }
   ]
 }
