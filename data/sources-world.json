@@ -1747,6 +1747,51 @@
       "url": "https://shop.foodmaxx.com/store/foodmaxx/products/34599-nissin-soup-ramen-noodle-chicken-flavor-2-25-oz",
       "supports": "Nissin Cup Noodles Chicken US 64 g paper cup product image.",
       "market": "United States"
+    },
+    {
+      "id": "image-goya-black-beans-us-15-5oz",
+      "productId": "goya-black-beans-us-15-5oz",
+      "publisher": "Goya Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://shop.goya.com/products/goya-black-beans",
+      "supports": "Goya Black Beans US 15.5 oz can product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-maggi-hot-sweet-tomato-chilli-india-200g",
+      "productId": "maggi-hot-sweet-tomato-chilli-india-200g",
+      "publisher": "BigBasket",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.bigbasket.com/pd/266058/maggi-hot-sweet-tomato-chilli-sauce-200-g-bottle/",
+      "supports": "MAGGI Hot & Sweet Tomato Chilli Sauce India 200 g bottle product image.",
+      "market": "India"
+    },
+    {
+      "id": "image-tajin-clasico-mexico-142g",
+      "productId": "tajin-clasico-mexico-142g",
+      "publisher": "AVAIL",
+      "sourceType": "retailer_product_image",
+      "url": "https://availmru.com/products/tajin-clasico-seasoning",
+      "supports": "Tajín Clásico 5 oz (142 g) bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-want-want-seaweed-rice-crackers-tw-102g",
+      "productId": "want-want-seaweed-rice-crackers-tw-102g",
+      "publisher": "Soda Mall",
+      "sourceType": "retailer_product_image",
+      "url": "https://eorder.soda-mall.com/hung-hom/want-want-seaweed-rice-cracker-102g.html",
+      "supports": "Want Want Seaweed Rice Crackers 102 g package image.",
+      "market": "Taiwan / China"
+    },
+    {
+      "id": "image-skittles-original-us-61-5g",
+      "productId": "skittles-original-us-61-5g",
+      "publisher": "Lolly Hood",
+      "sourceType": "retailer_product_image",
+      "url": "https://lollyhood.com.au/products/skittles-original-61-5g",
+      "supports": "SKITTLES Original US 61.5 g pack product image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
