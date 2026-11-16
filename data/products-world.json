@@ -5550,7 +5550,7 @@
       "region": "world",
       "category": "snack_cake",
       "package": "468 g box",
-      "image": null,
+      "image": "https://down-ph.img.susercontent.com/file/th-11134207-7r98q-ltz6tzygt3up72",
       "description": {
         "es": "Pastelito coreano con relleno de malvavisco y cobertura de cacao.",
         "en": "Korean snack cake with marshmallow filling and cocoa coating."
@@ -5696,7 +5696,8 @@
       ],
       "sourceId": "orion-choco-pie-korea-468g-source",
       "verification": "government_label_database_via_specialist_index",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-orion-choco-pie-korea-468g"
     },
     {
       "id": "bonne-maman-strawberry-jam-france-370g",
@@ -5712,7 +5713,7 @@
       "region": "world",
       "category": "fruit_jam",
       "package": "370 g jar",
-      "image": null,
+      "image": "https://santaluzia.vtexassets.com/arquivos/ids/968553/1068032.jpg?v=637385268009600000",
       "description": {
         "es": "Mermelada extra francesa de frutillas con azúcar y jugo de limón.",
         "en": "French extra strawberry jam with sugar and lemon juice."
@@ -5762,7 +5763,8 @@
       ],
       "sourceId": "bonne-maman-strawberry-jam-france-370g-source",
       "verification": "manufacturer_supplier_technical_sheet",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-bonne-maman-strawberry-jam-france-370g"
     },
     {
       "id": "knorr-gemuse-bouillon-germany-1kg",
@@ -5924,7 +5926,7 @@
       "region": "world",
       "category": "milk_chocolate",
       "package": "50 g",
-      "image": null,
+      "image": "https://tshop.r10s.jp/v-drug/cabinet/0519/4902777015927.jpg?fitin=720%3A720",
       "description": {
         "es": "Chocolate japonés de leche con cacao, leche entera en polvo y lecitina.",
         "en": "Japanese milk chocolate made with cocoa, whole milk powder and lecithin."
@@ -5982,7 +5984,8 @@
       ],
       "sourceId": "meiji-milk-chocolate-japan-50g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-meiji-milk-chocolate-japan-50g"
     },
     {
       "id": "samyang-buldak-original-korea-us-140g",
@@ -6368,7 +6371,7 @@
       "region": "world",
       "category": "canned_beans",
       "package": "150 g",
-      "image": null,
+      "image": "https://ca.britishessentials.com/cdn/shop/products/July022203_1024x1024.jpg?v=1656726102",
       "description": {
         "es": "Porotos horneados en salsa de tomate, presentación británica individual.",
         "en": "Baked beans in tomato sauce, UK single-serve pack."
@@ -6450,7 +6453,8 @@
       ],
       "sourceId": "heinz-baked-beanz-uk-150g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-heinz-baked-beanz-uk-150g"
     },
     {
       "id": "jumex-mango-nectar-mexico-960ml",
@@ -6466,7 +6470,7 @@
       "region": "world",
       "category": "fruit_juice",
       "package": "960 ml carton",
-      "image": null,
+      "image": "https://elsabormarket.com/cdn/shop/files/0e5478d99f659b278e66e816b0dad67a.jpg?v=1721465941",
       "description": {
         "es": "Néctar mexicano de mango con pulpa de mango y jarabe de maíz de alta fructosa.",
         "en": "Mexican mango nectar with mango pulp and high-fructose corn syrup."
@@ -6516,7 +6520,8 @@
       ],
       "sourceId": "jumex-mango-nectar-mexico-960ml-source",
       "verification": "retailer_product_label",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-jumex-mango-nectar-mexico-960ml"
     },
     {
       "id": "maggi-masala-twist-india-75g",
@@ -6766,7 +6771,7 @@
       "region": "world",
       "category": "plain_cookies",
       "package": "79.9 g import pack",
-      "image": null,
+      "image": "https://gayatristore.co.uk/cdn/shop/files/parle-g-glucose-biscuits-799g-8901719925139.png?v=1759436502&width=560",
       "description": {
         "es": "Galletitas dulces de trigo de la marca india Parle, paquete importado vendido en Reino Unido.",
         "en": "Sweet wheat glucose biscuits from Indian brand Parle, imported pack sold in the UK."
@@ -6856,7 +6861,8 @@
       ],
       "sourceId": "parle-g-original-india-uk-799g-source",
       "verification": "retailer_product_label",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-parle-g-original-india-uk-799g"
     },
     {
       "id": "leibniz-original-butter-biscuits-germany-200g",
@@ -7148,7 +7154,7 @@
       "region": "world",
       "category": "soft_drink",
       "package": "350 ml can",
-      "image": null,
+      "image": "https://img.superhoje.com/img.produtos/7891991000826/img_1200_1.png",
       "description": {
         "es": "Gaseosa brasileña sabor guaraná, elaborada con extracto de guaraná amazónico.",
         "en": "Brazilian guarana-flavoured soft drink made with Amazonian guarana extract."
@@ -7222,7 +7228,8 @@
       ],
       "sourceId": "guarana-antarctica-brazil-350ml-source",
       "verification": "retailer_product_label",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-guarana-antarctica-brazil-350ml"
     },
     {
       "id": "vegemite-australia-220g",
