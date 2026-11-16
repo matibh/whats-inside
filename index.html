@@ -148,19 +148,32 @@ function renderTimer(){$('timer').textContent=time;$('timerRing').style.setPrope
 function begin(){if(timerId)clearInterval(timerId);found.clear();score=0;mistakes=0;time=15;$('score').textContent='000';$('foundCount').textContent='0';$('found').innerHTML='<span class="empty">'+tr('nothingYet')+'</span>';$('chips').innerHTML='';$('feedback').textContent='';$('ingredientInput').value='';$('startPanel').classList.add('hidden');$('intro').classList.add('hidden');$('result').classList.remove('active');$('game').classList.remove('active');$('countdown').classList.remove('hidden');let n=3;$('countdown').textContent=n;const cd=setInterval(()=>{n--;if(n>0){$('countdown').textContent=n}else{clearInterval(cd);$('countdown').classList.add('hidden');$('game').classList.add('active');running=true;$('ingredientInput').focus();renderTimer();timerId=setInterval(()=>{time--;renderTimer();if(time<=0)end()},1000)}},650)}
 function end(){if(!running)return;const pending=$('ingredientInput').value.trim();if(pending)processTerm(pending);$('ingredientInput').value='';running=false;clearInterval(timerId);const correct=[...found].sort((a,b)=>a-b);const missed=ingredients.map((_,i)=>i).filter(i=>!found.has(i));$('game').classList.remove('active');$('result').classList.add('active');$('percent').textContent=Math.round(found.size/ingredients.length*100)+'%';$('resultSub').textContent=tr('foundCount',found.size);$('correctList').innerHTML=correct.length?correct.map(i=>'<span class="answer">'+ingredients[i][lang]+'</span>').join(''):'<span class="empty">—</span>';$('missedList').innerHTML=missed.map(i=>'<span class="answer missed">'+ingredients[i][lang]+'</span>').join('');$('finalScore').textContent=tr('score',score)}
 $('startBtn').onclick=begin;$('finishBtn').onclick=end;$('againBtn').onclick=()=>{$('result').classList.remove('active');$('intro').classList.remove('hidden');$('startPanel').classList.remove('hidden')};
-$('shareBtn').onclick=async()=>{const text='WHAT\'S INSIDE?\n'+found.size+'/7 ingredients · '+score+' points\nCan you beat me?';try{if(navigator.share)await navigator.share({title:'WHAT\'S INSIDE?',text});else{await navigator.clipboard.writeText(text);$('shareBtn').textContent=tr('shared')}}catch(e){}};
+$('shareBtn').onclick=async()=>{const text='WHAT\'S INSIDE?\n'+found.size+'/'+ingredients.length+' ingredients · '+score+' points\nCan you beat me?';try{if(navigator.share)await navigator.share({title:'WHAT\'S INSIDE?',text});else{await navigator.clipboard.writeText(text);$('shareBtn').textContent=tr('shared')}}catch(e){}};
 async function loadProductCatalog(){
  try{
   const response=await fetch('./data/products.json');
   if(!response.ok)throw new Error('Catalog unavailable');
   const catalog=await response.json();
-  currentProduct=catalog.products.find(product=>product.status==='ready');
-  if(!currentProduct)throw new Error('No playable products');
+  const playableProducts=catalog.products.filter(product=>product.status==='ready');
+  if(!playableProducts.length)throw new Error('No playable products');
+  const epochDay=Math.floor(Date.now()/86400000);
+  const catalogStartDay=Math.floor(Date.UTC(2026,10,16)/86400000);
+  const dailyIndex=((epochDay-catalogStartDay)%playableProducts.length+playableProducts.length)%playableProducts.length;
+  currentProduct=playableProducts[dailyIndex];
   ingredients=currentProduct.ingredients;
   $('productName').textContent=currentProduct.name;
-  $('productImage').src=currentProduct.image;
-  $('productImage').alt=currentProduct.name+' product package';
+  const photo=$('productImage').parentElement;
+  if(currentProduct.image){
+   $('productImage').style.display='';
+   $('productImage').src=currentProduct.image;
+   $('productImage').alt=currentProduct.name+' product package';
+  }else{
+   $('productImage').style.display='none';
+   const icons={chocolate_spread:'🍫',chocolate_cookies:'🍪',filled_cookies:'🍪',potato_chips:'🥔',breakfast_cereal:'🥣',soft_drink:'🥤',yogurt:'🥛',plain_cookies:'🍪'};
+   photo.textContent=icons[currentProduct.category]||'🥫';
+  }
   $('productDesc').textContent=currentProduct.description[lang]||currentProduct.description.en;
+  $('dailyChallenge').textContent=(lang==='en'?"TODAY'S CHALLENGE · #":"DESAFÍO DE HOY · #")+String(dailyIndex+1).padStart(3,'0');
   $('startBtn').disabled=false;
  }catch(error){
   $('startBtn').textContent=lang==='en'?'CATALOG UNAVAILABLE':'CATÁLOGO NO DISPONIBLE';
