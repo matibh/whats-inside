@@ -226,6 +226,105 @@
       "url": "https://www.jumbo.com.ar/galletitas-santa-maria-mechaditas-200-gr/p",
       "supports": "Ingredient declaration for Santa María Mechaditas 200 g; listing identifies Argentine origin.",
       "market": "Argentina"
+    },
+    {
+      "id": "image-nutella-ar",
+      "productId": "nutella-ar",
+      "publisher": "Nutella Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.nutella.com/ar/es/productos/nutella",
+      "supports": "Official Nutella Argentina 350 g jar image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-oreo-original-ar-118g",
+      "productId": "oreo-original-ar-118g",
+      "publisher": "Tua Supermercado",
+      "sourceType": "retailer_product_image",
+      "url": "https://tuasupermercado.com.ar/productos/galletitas-oreo-regular-x-118-gramos/",
+      "supports": "Oreo Original Argentina 118 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-lays-clasicas-ar-40g",
+      "productId": "lays-clasicas-ar-40g",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.masonline.com.ar/papas-fritas-lays-clasicas-40g-2/p",
+      "supports": "Lay's Clásicas Argentina 40 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-nesquik-cereal-ar-230g",
+      "productId": "nesquik-cereal-ar-230g",
+      "publisher": "Súper La Violeta",
+      "sourceType": "retailer_product_image",
+      "url": "https://superlavioleta.com/products/cereal-nestle",
+      "supports": "Nesquik cereal Argentina 230 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-sprite-lima-limon-ar",
+      "productId": "sprite-lima-limon-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/sprite/productos",
+      "supports": "Official Sprite Sabor Lima-Limón Argentina bottle image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-fanta-naranja-ar",
+      "productId": "fanta-naranja-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/fanta/productos",
+      "supports": "Official Fanta Naranja Argentina bottle image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-fanta-pomelo-ar",
+      "productId": "fanta-pomelo-ar",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.jumbo.com.ar/gaseosa-pomelo-x-600-ml-fanta/p",
+      "supports": "Fanta Pomelo Argentina 600 ml bottle image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-milka-chocolate-leche-55g-ar",
+      "productId": "milka-chocolate-leche-55g-ar",
+      "publisher": "Universo Binario",
+      "sourceType": "retailer_product_image",
+      "url": "https://universobinario.com/catalogo/tableta-de-chocolate-milka-de-leche-55g_7622210745224_001",
+      "supports": "Milka milk chocolate Argentina 55 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-terrabusi-variedad-chocolate-310g",
+      "productId": "terrabusi-variedad-chocolate-310g",
+      "publisher": "Pero Bien Argentino",
+      "sourceType": "retailer_product_image",
+      "url": "https://perobienargentino.com/products/galletitas-terrabusi-variedad-chocolate-310-g",
+      "supports": "Terrabusi Variedad Chocolate Argentina 310 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-pepitos-chocolate-ar-119g",
+      "productId": "pepitos-chocolate-ar-119g",
+      "publisher": "Universo Binario",
+      "sourceType": "retailer_product_image",
+      "url": "https://universobinario.com/catalogo/galletas-pepitos-754-con-chispas-de-chocolate-119gr-azul_7622201735906_001",
+      "supports": "Pepitos Argentina 119 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-santa-maria-mechaditas-ar-200g",
+      "productId": "santa-maria-mechaditas-ar-200g",
+      "publisher": "Rojas Gluten Free",
+      "sourceType": "retailer_product_image",
+      "url": "https://rojasglutenfree.com/productos/galletitas-dulces-mechaditos-santa-maria/",
+      "supports": "Santa María Mechaditos Argentina 200 g package image.",
+      "market": "Argentina"
     }
   ]
 }
