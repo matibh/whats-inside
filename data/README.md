@@ -58,3 +58,8 @@ Added 10 further World records: Kikkoman Soy Sauce (India-market), New Yakult (J
 ## World catalog expansion — 16 November 2026 (milestone batch)
 
 Added 10 records: ColaCao Original (Spain), Goya Black Beans (US), Calbee Jagabee Plain (Japan), Tajín Clásico (Mexico brand / US market), Want Want Seaweed Rice Crackers (Taiwan/China), Want Want Shelly Senbei (China-origin Singapore retail listing), SKITTLES Original (US), Ülker Halley (Turkey), Marmite Yeast Extract (UK), and Pure Canadian Maple Syrup (Canada). Source quality is item-specific. Want Want Shelly Senbei and Ülker Halley use retailer label transcriptions; SKITTLES uses a Mars Wrigley specification PDF hosted by a foodservice retailer. The maple syrup record intentionally does not claim a package size.
+
+
+## World catalog expansion — 16 November 2026 (100-product milestone)
+
+Added KEWPIE Japanese Mayonnaise (Japan; official KEWPIE shop ingredient listing for the 450 g Japanese-origin product) and Parle-G (India; detailed ingredient declaration from a secondary pack transcription, with the brand family confirmed on Parle's official site). The KEWPIE record is specifically the Japanese-origin formulation, not the separate US-made recipe. Parle-G's package size is not fixed in the catalog because pack sizes vary. Both products include Spanish and English accepted answers and aliases; source quality is explicitly recorded per product.
