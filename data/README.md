@@ -53,3 +53,8 @@ The [`catalog-master.md`](./catalog-master.md) file consolidates every Argentina
 ## World catalog expansion — 16 November 2026 (continued)
 
 Added 10 further World records: Kikkoman Soy Sauce (India-market), New Yakult (Japan), Nissin Cup Noodles Chicken (US), Oishi Prawn Crackers Original (Philippines), Sanpellegrino Aranciata (Italy), Pringles Paprika (Germany), Glico Tomato Pretz (Japan), MILO Powder (Australia), Chupa Chups Fruit Lollipops (Spain), and MAGGI Hot & Sweet Tomato Chilli Sauce (India). Source types are recorded per item. Nissin's compound flour enrichment and flavour subcomponents are represented in accepted answers; Chupa Chups record applies only to fruit flavours; Oishi precautionary facility statements and Pringles may-contain soy are excluded. MAGGI ingredients rely on a retailer transcription, not a complete manufacturer ingredient page.
+
+
+## World catalog expansion — 16 November 2026 (milestone batch)
+
+Added 10 records: ColaCao Original (Spain), Goya Black Beans (US), Calbee Jagabee Plain (Japan), Tajín Clásico (Mexico brand / US market), Want Want Seaweed Rice Crackers (Taiwan/China), Want Want Shelly Senbei (China-origin Singapore retail listing), SKITTLES Original (US), Ülker Halley (Turkey), Marmite Yeast Extract (UK), and Pure Canadian Maple Syrup (Canada). Source quality is item-specific. Want Want Shelly Senbei and Ülker Halley use retailer label transcriptions; SKITTLES uses a Mars Wrigley specification PDF hosted by a foodservice retailer. The maple syrup record intentionally does not claim a package size.
