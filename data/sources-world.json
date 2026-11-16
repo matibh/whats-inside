@@ -901,6 +901,96 @@
       "url": "https://www.lotte.co.jp/products/catalogue/gum/04/detail123.html",
       "supports": "Official Lotte Japan page identifies Xylitol Gum Cola, 14 pieces, and the ingredient declaration in Japanese.",
       "market": "Japan"
+    },
+    {
+      "id": "branston-original-pickle-uk-360g",
+      "productId": "branston-original-pickle-uk-360g",
+      "publisher": "Branston",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.bringoutthebranston.co.uk/range/pickle/original-pickle/",
+      "supports": "Official Branston UK product page lists the Original Pickle ingredients, vegetable composition and available jar sizes.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "pocky-almond-crush-us-41g",
+      "productId": "pocky-almond-crush-us-41g",
+      "publisher": "Ezaki Glico USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.glico.com/us/product/pocky/18957/",
+      "supports": "Official Glico USA product page gives Pocky Almond Crush 1.45 oz and full US-market ingredients; may-contain statement excluded.",
+      "market": "United States"
+    },
+    {
+      "id": "chocapic-cereal-france-1kg",
+      "productId": "chocapic-cereal-france-1kg",
+      "publisher": "METRO France product specification",
+      "sourceType": "retailer_specification",
+      "url": "https://cdn.metro-group.com/fr/fr_psh_164572001001_02.pdf",
+      "supports": "French METRO product specification for Chocapic 1 kg, GTIN 7613032779566, states French origin and ingredient list; not manufacturer-hosted.",
+      "market": "France"
+    },
+    {
+      "id": "lotus-biscoff-speculoos-belgium-250g",
+      "productId": "lotus-biscoff-speculoos-belgium-250g",
+      "publisher": "Lotus Bakeries Belgium",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.lotusbakeries.be/nl/producten/speculoos",
+      "supports": "Official Lotus Bakeries Belgium product page lists Speculoos 250 g and its ingredient declaration in Dutch.",
+      "market": "Belgium"
+    },
+    {
+      "id": "kraft-dinner-original-canada-200g",
+      "productId": "kraft-dinner-original-canada-200g",
+      "publisher": "Kraft Heinz Canada",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.kraftheinz.com/en-CA/kraft-dinner/products/00068100904826-original-macaroni-and-cheese-dinner",
+      "supports": "Official Kraft Heinz Canada page lists Original Macaroni and Cheese Dinner, 200 g size, and Canadian ingredient declaration.",
+      "market": "Canada"
+    },
+    {
+      "id": "barilla-pesto-alla-genovese-italy-190g",
+      "productId": "barilla-pesto-alla-genovese-italy-190g",
+      "publisher": "Barilla",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.barilla.com/es-la/productos/pestos/pesto/pesto-alla-genovese",
+      "supports": "Official Barilla Spanish-language regional page lists 190 g, ingredient details and says produced in Italy; this is the specific regional recipe.",
+      "market": "Latin America product page; made in Italy"
+    },
+    {
+      "id": "monster-munch-pickled-onion-uk",
+      "productId": "monster-munch-pickled-onion-uk",
+      "publisher": "Walkers UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.walkers.co.uk/our-range/family-snacks/monster-munch-pickled-onion",
+      "supports": "Official Walkers UK product page gives Pickled Onion Monster Munch ingredients; exact retail pack size varies.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "cadbury-wispa-gold-uk-48g",
+      "productId": "cadbury-wispa-gold-uk-48g",
+      "publisher": "Cadbury UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.cadbury.co.uk/products/cadbury-wispa-gold-chocolate-bar-48g/",
+      "supports": "Official Cadbury UK page identifies Wispa Gold 48 g and its UK ingredients; may-contain nuts is precautionary and excluded.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "hp-brown-sauce-uk-255g",
+      "productId": "hp-brown-sauce-uk-255g",
+      "publisher": "Heinz / HP",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.heinz.com/fr-FR/produits/05000111001007-hp-brown-flacon-verre-255-g-x-12",
+      "supports": "Official Heinz France listing for HP Brown 255 g glass bottle gives ingredients in French; product is the UK-style HP Brown Sauce.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "heinz-saucy-sauce-uk-415ml",
+      "productId": "heinz-saucy-sauce-uk-415ml",
+      "publisher": "Heinz UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.heinz.com/en-GB/products/05000157143365-saucy-sauce",
+      "supports": "Official Heinz UK page lists Saucy Sauce 415 ml and ingredients, including celery in spice and herb extract.",
+      "market": "United Kingdom"
     }
   ],
   "lastUpdated": "2026-11-16"
