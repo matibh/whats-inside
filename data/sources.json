@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "lastReviewed": "2026-11-16",
+  "sources": [
+    {
+      "id": "nutella-official",
+      "productId": "nutella-ar",
+      "publisher": "Nutella Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.nutella.com/ar/es/dentro-de-nutella/calidad-e-ingredientes",
+      "supports": "The seven ingredients named for Nutella.",
+      "market": "Argentina"
+    },
+    {
+      "id": "chocolinas-shelfpedia",
+      "productId": "chocolinas-ar-150g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790040139398-chocolinas/",
+      "supports": "Full ingredient statement transcribed for 150 g Chocolinas; barcode 7790040139398.",
+      "market": "Argentina"
+    },
+    {
+      "id": "oreo-jumbo",
+      "productId": "oreo-original-ar-118g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-oreo-original-x-118g/p",
+      "supports": "Ingredient statement for Oreo Original 118 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "lays-jumbo",
+      "productId": "lays-clasicas-ar-40g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/papas-fritas-lays-clasicas-40-g/p",
+      "supports": "Ingredient statement for Lay's Clásicas 40 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "nesquik-vea",
+      "productId": "nesquik-cereal-ar-230g",
+      "publisher": "Vea Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.vea.com.ar/nesquik-cereal-x-230gr/p",
+      "supports": "Ingredient statement for Nesquik cereal 230 g; listing identifies Argentine origin.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cocacola-official",
+      "productId": "coca-cola-original-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/coca-cola",
+      "supports": "Official ingredient declaration for Coca-Cola Sabor Original.",
+      "market": "Argentina"
+    },
+    {
+      "id": "sprite-official",
+      "productId": "sprite-lima-limon-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/sprite/productos",
+      "supports": "Official ingredient declaration for Sprite Sabor Lima-Limón.",
+      "market": "Argentina"
+    },
+    {
+      "id": "serenisima-official",
+      "productId": "la-serenisima-yogur-frutilla-bebible-1300g",
+      "publisher": "La Serenísima Nutrición",
+      "sourceType": "manufacturer_website",
+      "url": "https://laserenisimanutricion.com.ar/productos/yogures/bebibles/frutilla-1300g/",
+      "supports": "Ingredient statement for drinkable strawberry yogurt 1300 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "toddy-jumbo",
+      "productId": "toddy-galletitas-chocolate-ar-126g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-chips-de-chocolate-126-gr-toddy-2/p",
+      "supports": "Ingredient statement for Toddy chocolate cookies 126 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mana-jumbo",
+      "productId": "mana-con-leche-ar-136g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-mana-con-leche-136g/p",
+      "supports": "Ingredient statement for Maná con leche 136 g.",
+      "market": "Argentina"
+    }
+  ]
+}
