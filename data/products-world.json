@@ -17056,7 +17056,7 @@
       "status": "ready"
     },
     {
-      "id": "pringles-sour-cream-onion-us-155g",
+      "id": "pringles-sour-cream-onion-spain-40g",
       "barcode": null,
       "name": "Pringles Sour Cream & Onion",
       "nameI18n": {
@@ -17297,7 +17297,7 @@
           ]
         }
       ],
-      "sourceId": "pringles-sour-cream-onion-us-155g",
+      "sourceId": "pringles-sour-cream-onion-spain-40g",
       "verification": "manufacturer_website",
       "status": "ready"
     },
