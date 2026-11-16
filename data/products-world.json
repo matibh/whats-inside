@@ -1349,14 +1349,6 @@
             "vitamina B12",
             "vitamin B12"
           ]
-        },
-        {
-          "es": "BHT",
-          "en": "BHT",
-          "aliases": [
-            "BHT",
-            "butilhidroxitolueno"
-          ]
         }
       ],
       "sourceId": "froot-loops-us-official",
@@ -2208,7 +2200,7 @@
         }
       ],
       "sourceId": "lays-classic-us",
-      "verification": "manufacturer_website",
+      "verification": "retailer_transcription",
       "status": "ready"
     },
     {
@@ -2519,7 +2511,7 @@
         }
       ],
       "sourceId": "doritos-nacho-cheese-school-source",
-      "verification": "manufacturer_website",
+      "verification": "manufacturer_foodservice_document",
       "status": "ready"
     },
     {
@@ -2788,7 +2780,7 @@
         }
       ],
       "sourceId": "reeses-us-hershey",
-      "verification": "manufacturer_website",
+      "verification": "manufacturer_smartlabel_plus_retailer_crosscheck",
       "status": "ready"
     }
   ]
