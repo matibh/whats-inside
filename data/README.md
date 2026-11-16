@@ -68,3 +68,8 @@ Added KEWPIE Japanese Mayonnaise (Japan; official KEWPIE shop ingredient listing
 ## World catalog expansion — 16 November 2026 (10-product batch)
 
 Added 10 World records: Whittaker's Peanut Slab (New Zealand), Ouma Buttermilk Rusks (South Africa), Mae Ploy Red Curry Paste (Thai product / UK foodservice listing), VEGEMITE Original (Australia), LU Véritable Petit Beurre (France), Pocky Matcha (US-market Glico formula), Samyang Buldak Original (US-market formula), Lao Gan Ma Spicy Chili Crisp (Canada retail listing), Bourbon Alfort Mini Chocolate Biscuits (Japanese product / Thailand retail listing), and Asahi Calpis Water (Taiwan-origin product / Australia retail listing). Source types and market/formula limitations are recorded per item. Precautionary may-contain statements are not treated as ingredients. Secondary retailer transcriptions are clearly identified and not presented as manufacturer specifications.
+
+
+## World catalog expansion — 16 November 2026 (10-product batch)
+
+Added Heinz Baked Beanz (UK), Cadbury Lunch Bar (South Africa), Ajinomoto Gyoza (Japan), Lotte Koala's March Chocolate and Strawberry (Japan; distinct official formulations), Patak's Tikka Masala Spice Paste (UK), TABASCO Original Red Sauce (US), Walkers Cheese & Onion Crisps (UK), Marukome Ryotei No Aji Tofu Vegetarian Miso Soup (Japanese manufacturer export listing), and Lotte Xylitol Gum Cola (Japan). Ingredient statements are taken from official manufacturer product pages. Precautionary allergen traces are excluded from accepted ingredient answers. Package size is omitted or qualified where the source page does not specify a fixed retail pack.
