@@ -1,0 +1,28 @@
+name: Test Open Food Facts API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/test-openfoodfacts.mjs"
+      - ".github/workflows/test-openfoodfacts.yml"
+  workflow_dispatch:
+    inputs:
+      barcode:
+        description: "Product barcode to test"
+        required: false
+        default: "3017620422003"
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Test Open Food Facts API v3
+        run: node scripts/test-openfoodfacts.mjs
+        env:
+          OFF_BARCODE: ${{ inputs.barcode || '3017620422003' }}
