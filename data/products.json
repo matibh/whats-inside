@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "description": "Curated WHAT'S INSIDE? product catalog. Ingredient answers are transcribed from the cited product source for the specified market and pack variant. Open Food Facts is used for discovery only, not as the source of truth.",
+  "description": "Curated Argentina-market products. See products-world.json for the international catalog.",
   "language": "es-AR",
   "lastUpdated": "2026-11-16",
   "products": [
@@ -43,14 +43,8 @@
           "aliases": [
             "avellanas",
             "hazelnuts",
-            "h",
-            "a",
-            "z",
-            "e",
-            "l",
-            "n",
-            "u",
-            "t"
+            "hazelnut",
+            "hazelnuts"
           ]
         },
         {
@@ -59,18 +53,7 @@
           "aliases": [
             "cacao",
             "cocoa",
-            "c",
-            "o",
-            "c",
-            "o",
-            "a",
-            " ",
-            "p",
-            "o",
-            "w",
-            "d",
-            "e",
-            "r"
+            "cocoa powder"
           ]
         },
         {
@@ -87,14 +70,8 @@
           "aliases": [
             "lecitinas",
             "lecithins",
-            "l",
-            "e",
-            "c",
-            "i",
-            "t",
-            "h",
-            "i",
-            "n"
+            "lecithin",
+            "soy lecithin"
           ]
         },
         {
@@ -131,18 +108,7 @@
           "en": "enriched wheat flour",
           "aliases": [
             "harina de trigo enriquecida",
-            "enriched wheat flour",
-            "w",
-            "h",
-            "e",
-            "a",
-            "t",
-            " ",
-            "f",
-            "l",
-            "o",
-            "u",
-            "r"
+            "enriched wheat flour"
           ]
         },
         {
@@ -158,15 +124,7 @@
           "en": "refined beef fat",
           "aliases": [
             "grasa bovina refinada",
-            "refined beef fat",
-            "b",
-            "e",
-            "e",
-            "f",
-            " ",
-            "f",
-            "a",
-            "t"
+            "refined beef fat"
           ]
         },
         {
@@ -198,18 +156,7 @@
           "en": "sodium bicarbonate",
           "aliases": [
             "bicarbonato de sodio",
-            "sodium bicarbonate",
-            "b",
-            "a",
-            "k",
-            "i",
-            "n",
-            "g",
-            " ",
-            "s",
-            "o",
-            "d",
-            "a"
+            "sodium bicarbonate"
           ]
         },
         {
@@ -225,20 +172,7 @@
           "en": "caramel",
           "aliases": [
             "caramelo",
-            "caramel",
-            "c",
-            "a",
-            "r",
-            "a",
-            "m",
-            "e",
-            "l",
-            " ",
-            "c",
-            "o",
-            "l",
-            "o",
-            "r"
+            "caramel"
           ]
         },
         {
@@ -246,20 +180,7 @@
           "en": "soy lecithin",
           "aliases": [
             "lecitina de soja",
-            "soy lecithin",
-            "s",
-            "o",
-            "y",
-            "a",
-            " ",
-            "l",
-            "e",
-            "c",
-            "i",
-            "t",
-            "h",
-            "i",
-            "n"
+            "soy lecithin"
           ]
         },
         {
@@ -312,18 +233,7 @@
           "en": "enriched wheat flour",
           "aliases": [
             "harina de trigo enriquecida",
-            "enriched wheat flour",
-            "w",
-            "h",
-            "e",
-            "a",
-            "t",
-            " ",
-            "f",
-            "l",
-            "o",
-            "u",
-            "r"
+            "enriched wheat flour"
           ]
         },
         {
@@ -347,17 +257,7 @@
           "en": "high-fructose corn syrup",
           "aliases": [
             "jarabe de maíz de alta fructosa",
-            "high-fructose corn syrup",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "s",
-            "y",
-            "r",
-            "u",
-            "p"
+            "high-fructose corn syrup"
           ]
         },
         {
@@ -381,18 +281,7 @@
           "en": "sodium bicarbonate",
           "aliases": [
             "bicarbonato de sodio",
-            "sodium bicarbonate",
-            "b",
-            "a",
-            "k",
-            "i",
-            "n",
-            "g",
-            " ",
-            "s",
-            "o",
-            "d",
-            "a"
+            "sodium bicarbonate"
           ]
         },
         {
@@ -408,20 +297,7 @@
           "en": "soy lecithin",
           "aliases": [
             "lecitina de soja",
-            "soy lecithin",
-            "s",
-            "o",
-            "y",
-            "a",
-            " ",
-            "l",
-            "e",
-            "c",
-            "i",
-            "t",
-            "h",
-            "i",
-            "n"
+            "soy lecithin"
           ]
         },
         {
@@ -458,15 +334,7 @@
           "en": "potato",
           "aliases": [
             "papa",
-            "potato",
-            "p",
-            "o",
-            "t",
-            "a",
-            "t",
-            "o",
-            "e",
-            "s"
+            "potato"
           ]
         },
         {
@@ -511,28 +379,7 @@
           "en": "whole corn flour",
           "aliases": [
             "harina integral de maíz",
-            "whole corn flour",
-            "w",
-            "h",
-            "o",
-            "l",
-            "e",
-            "g",
-            "r",
-            "a",
-            "i",
-            "n",
-            " ",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "f",
-            "l",
-            "o",
-            "u",
-            "r"
+            "whole corn flour"
           ]
         },
         {
@@ -540,17 +387,7 @@
           "en": "fine corn semolina",
           "aliases": [
             "sémola fina de maíz",
-            "fine corn semolina",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "g",
-            "r",
-            "i",
-            "t",
-            "s"
+            "fine corn semolina"
           ]
         },
         {
@@ -662,15 +499,7 @@
           "en": "vitamin B1",
           "aliases": [
             "vitamina B1",
-            "vitamin B1",
-            "t",
-            "h",
-            "i",
-            "a",
-            "m",
-            "i",
-            "n",
-            "e"
+            "vitamin B1"
           ]
         },
         {
@@ -686,17 +515,7 @@
           "en": "vitamin B2",
           "aliases": [
             "vitamina B2",
-            "vitamin B2",
-            "r",
-            "i",
-            "b",
-            "o",
-            "f",
-            "l",
-            "a",
-            "v",
-            "i",
-            "n"
+            "vitamin B2"
           ]
         },
         {
@@ -720,24 +539,7 @@
           "en": "vanilla flavouring",
           "aliases": [
             "saborizante vainilla",
-            "vanilla flavouring",
-            "v",
-            "a",
-            "n",
-            "i",
-            "l",
-            "l",
-            "a",
-            " ",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g"
+            "vanilla flavouring"
           ]
         },
         {
@@ -745,20 +547,7 @@
           "en": "caramel",
           "aliases": [
             "caramelo",
-            "caramel",
-            "c",
-            "a",
-            "r",
-            "a",
-            "m",
-            "e",
-            "l",
-            " ",
-            "c",
-            "o",
-            "l",
-            "o",
-            "r"
+            "caramel"
           ]
         },
         {
@@ -774,13 +563,7 @@
           "en": "barley derivatives",
           "aliases": [
             "derivados de cebada",
-            "barley derivatives",
-            "b",
-            "a",
-            "r",
-            "l",
-            "e",
-            "y"
+            "barley derivatives"
           ]
         }
       ],
@@ -809,23 +592,7 @@
           "en": "carbonated water",
           "aliases": [
             "agua carbonatada",
-            "carbonated water",
-            "c",
-            "a",
-            "r",
-            "b",
-            "o",
-            "n",
-            "a",
-            "t",
-            "e",
-            "d",
-            " ",
-            "w",
-            "a",
-            "t",
-            "e",
-            "r"
+            "carbonated water"
           ]
         },
         {
@@ -833,31 +600,7 @@
           "en": "sugar or high-fructose corn syrup",
           "aliases": [
             "azúcar o jarabe de maíz de alta fructosa",
-            "sugar or high-fructose corn syrup",
-            "h",
-            "i",
-            "g",
-            "h",
-            " ",
-            "f",
-            "r",
-            "u",
-            "c",
-            "t",
-            "o",
-            "s",
-            "e",
-            " ",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "s",
-            "y",
-            "r",
-            "u",
-            "p"
+            "sugar or high-fructose corn syrup"
           ]
         },
         {
@@ -865,21 +608,7 @@
           "en": "caramel color (E150d)",
           "aliases": [
             "colorante caramelo (E150d)",
-            "caramel color (E150d)",
-            "c",
-            "a",
-            "r",
-            "a",
-            "m",
-            "e",
-            "l",
-            " ",
-            "c",
-            "o",
-            "l",
-            "o",
-            "u",
-            "r"
+            "caramel color (E150d)"
           ]
         },
         {
@@ -895,17 +624,7 @@
           "en": "flavourings",
           "aliases": [
             "aromatizantes",
-            "flavourings",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g",
-            "s"
+            "flavourings"
           ]
         },
         {
@@ -951,12 +670,7 @@
           "en": "sugar or high-fructose corn syrup",
           "aliases": [
             "azúcar o jarabe de maíz de alta fructosa",
-            "sugar or high-fructose corn syrup",
-            "s",
-            "u",
-            "g",
-            "a",
-            "r"
+            "sugar or high-fructose corn syrup"
           ]
         },
         {
@@ -972,17 +686,7 @@
           "en": "flavourings",
           "aliases": [
             "aromatizantes",
-            "flavourings",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g",
-            "s"
+            "flavourings"
           ]
         },
         {
@@ -1013,7 +717,6 @@
           "es": "acesulfame K",
           "en": "acesulfame K",
           "aliases": [
-            "acesulfame K",
             "acesulfame K"
           ]
         },
@@ -1059,29 +762,7 @@
           "en": "pasteurized semi-skimmed milk",
           "aliases": [
             "leche parcialmente descremada pasteurizada",
-            "pasteurized semi-skimmed milk",
-            "p",
-            "a",
-            "r",
-            "t",
-            "i",
-            "a",
-            "l",
-            "l",
-            "y",
-            " ",
-            "s",
-            "k",
-            "i",
-            "m",
-            "m",
-            "e",
-            "d",
-            " ",
-            "m",
-            "i",
-            "l",
-            "k"
+            "pasteurized semi-skimmed milk"
           ]
         },
         {
@@ -1089,14 +770,7 @@
           "en": "sucrose solution",
           "aliases": [
             "solución de sacarosa",
-            "sucrose solution",
-            "s",
-            "u",
-            "c",
-            "r",
-            "o",
-            "s",
-            "e"
+            "sucrose solution"
           ]
         },
         {
@@ -1112,30 +786,13 @@
           "en": "lactic cultures",
           "aliases": [
             "cultivos lácticos",
-            "lactic cultures",
-            "s",
-            "t",
-            "a",
-            "r",
-            "t",
-            "e",
-            "r",
-            " ",
-            "c",
-            "u",
-            "l",
-            "t",
-            "u",
-            "r",
-            "e",
-            "s"
+            "lactic cultures"
           ]
         },
         {
           "es": "Lactobacillus casei",
           "en": "Lactobacillus casei",
           "aliases": [
-            "Lactobacillus casei",
             "Lactobacillus casei"
           ]
         },
@@ -1143,7 +800,6 @@
           "es": "Bifidobacterium lactis",
           "en": "Bifidobacterium lactis",
           "aliases": [
-            "Bifidobacterium lactis",
             "Bifidobacterium lactis"
           ]
         },
@@ -1184,17 +840,7 @@
           "en": "flavourings",
           "aliases": [
             "aromas",
-            "flavourings",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g",
-            "s"
+            "flavourings"
           ]
         },
         {
@@ -1202,22 +848,7 @@
           "en": "carmine",
           "aliases": [
             "carmín",
-            "carmine",
-            "n",
-            "a",
-            "t",
-            "u",
-            "r",
-            "a",
-            "l",
-            " ",
-            "c",
-            "a",
-            "r",
-            "m",
-            "i",
-            "n",
-            "e"
+            "carmine"
           ]
         }
       ],
@@ -1246,18 +877,7 @@
           "en": "enriched wheat flour",
           "aliases": [
             "harina de trigo enriquecida",
-            "enriched wheat flour",
-            "w",
-            "h",
-            "e",
-            "a",
-            "t",
-            " ",
-            "f",
-            "l",
-            "o",
-            "u",
-            "r"
+            "enriched wheat flour"
           ]
         },
         {
@@ -1281,15 +901,7 @@
           "en": "vitamin B1",
           "aliases": [
             "vitamina B1",
-            "vitamin B1",
-            "t",
-            "h",
-            "i",
-            "a",
-            "m",
-            "i",
-            "n",
-            "e"
+            "vitamin B1"
           ]
         },
         {
@@ -1297,17 +909,7 @@
           "en": "vitamin B2",
           "aliases": [
             "vitamina B2",
-            "vitamin B2",
-            "r",
-            "i",
-            "b",
-            "o",
-            "f",
-            "l",
-            "a",
-            "v",
-            "i",
-            "n"
+            "vitamin B2"
           ]
         },
         {
@@ -1355,16 +957,7 @@
           "en": "flavouring",
           "aliases": [
             "aromatizante",
-            "flavouring",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g"
+            "flavouring"
           ]
         },
         {
@@ -1380,18 +973,7 @@
           "en": "whey",
           "aliases": [
             "suero de leche",
-            "whey",
-            "w",
-            "h",
-            "e",
-            "y",
-            " ",
-            "p",
-            "o",
-            "w",
-            "d",
-            "e",
-            "r"
+            "whey"
           ]
         },
         {
@@ -1407,17 +989,7 @@
           "en": "high-fructose corn syrup",
           "aliases": [
             "jarabe de maíz de alta fructosa",
-            "high-fructose corn syrup",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "s",
-            "y",
-            "r",
-            "u",
-            "p"
+            "high-fructose corn syrup"
           ]
         },
         {
@@ -1441,18 +1013,7 @@
           "en": "sodium bicarbonate",
           "aliases": [
             "bicarbonato de sodio",
-            "sodium bicarbonate",
-            "b",
-            "a",
-            "k",
-            "i",
-            "n",
-            "g",
-            " ",
-            "s",
-            "o",
-            "d",
-            "a"
+            "sodium bicarbonate"
           ]
         },
         {
@@ -1468,20 +1029,7 @@
           "en": "soy lecithin",
           "aliases": [
             "lecitina de soja",
-            "soy lecithin",
-            "s",
-            "o",
-            "y",
-            "a",
-            " ",
-            "l",
-            "e",
-            "c",
-            "i",
-            "t",
-            "h",
-            "i",
-            "n"
+            "soy lecithin"
           ]
         },
         {
@@ -1542,17 +1090,7 @@
           "en": "thiamine",
           "aliases": [
             "tiamina",
-            "thiamine",
-            "v",
-            "i",
-            "t",
-            "a",
-            "m",
-            "i",
-            "n",
-            " ",
-            "B",
-            "1"
+            "thiamine"
           ]
         },
         {
@@ -1560,17 +1098,7 @@
           "en": "riboflavin",
           "aliases": [
             "riboflavina",
-            "riboflavin",
-            "v",
-            "i",
-            "t",
-            "a",
-            "m",
-            "i",
-            "n",
-            " ",
-            "B",
-            "2"
+            "riboflavin"
           ]
         },
         {
@@ -1594,20 +1122,7 @@
           "en": "high-oleic sunflower oil",
           "aliases": [
             "aceite de girasol alto oleico",
-            "high-oleic sunflower oil",
-            "s",
-            "u",
-            "n",
-            "f",
-            "l",
-            "o",
-            "w",
-            "e",
-            "r",
-            " ",
-            "o",
-            "i",
-            "l"
+            "high-oleic sunflower oil"
           ]
         },
         {
@@ -1615,17 +1130,7 @@
           "en": "high-fructose corn syrup",
           "aliases": [
             "jarabe de maíz de alta fructosa",
-            "high-fructose corn syrup",
-            "c",
-            "o",
-            "r",
-            "n",
-            " ",
-            "s",
-            "y",
-            "r",
-            "u",
-            "p"
+            "high-fructose corn syrup"
           ]
         },
         {
@@ -1633,23 +1138,7 @@
           "en": "skimmed milk powder",
           "aliases": [
             "leche descremada en polvo",
-            "skimmed milk powder",
-            "s",
-            "k",
-            "i",
-            "m",
-            " ",
-            "m",
-            "i",
-            "l",
-            "k",
-            " ",
-            "p",
-            "o",
-            "w",
-            "d",
-            "e",
-            "r"
+            "skimmed milk powder"
           ]
         },
         {
@@ -1681,18 +1170,7 @@
           "en": "sodium bicarbonate",
           "aliases": [
             "bicarbonato de sodio",
-            "sodium bicarbonate",
-            "b",
-            "a",
-            "k",
-            "i",
-            "n",
-            "g",
-            " ",
-            "s",
-            "o",
-            "d",
-            "a"
+            "sodium bicarbonate"
           ]
         },
         {
@@ -1700,28 +1178,7 @@
           "en": "mono- and diglycerides of fatty acids",
           "aliases": [
             "mono y diglicéridos de ácidos grasos",
-            "mono- and diglycerides of fatty acids",
-            "m",
-            "o",
-            "n",
-            "o",
-            " ",
-            "a",
-            "n",
-            "d",
-            " ",
-            "d",
-            "i",
-            "g",
-            "l",
-            "y",
-            "c",
-            "e",
-            "r",
-            "i",
-            "d",
-            "e",
-            "s"
+            "mono- and diglycerides of fatty acids"
           ]
         },
         {
@@ -1745,20 +1202,7 @@
           "en": "soy lecithin",
           "aliases": [
             "lecitina de soja",
-            "soy lecithin",
-            "s",
-            "o",
-            "y",
-            "a",
-            " ",
-            "l",
-            "e",
-            "c",
-            "i",
-            "t",
-            "h",
-            "i",
-            "n"
+            "soy lecithin"
           ]
         },
         {
@@ -1782,21 +1226,7 @@
           "en": "milk flavouring",
           "aliases": [
             "aroma leche",
-            "milk flavouring",
-            "m",
-            "i",
-            "l",
-            "k",
-            " ",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g"
+            "milk flavouring"
           ]
         },
         {
@@ -1804,31 +1234,7 @@
           "en": "dulce de leche flavouring",
           "aliases": [
             "aroma dulce de leche",
-            "dulce de leche flavouring",
-            "d",
-            "u",
-            "l",
-            "c",
-            "e",
-            " ",
-            "d",
-            "e",
-            " ",
-            "l",
-            "e",
-            "c",
-            "h",
-            "e",
-            " ",
-            "f",
-            "l",
-            "a",
-            "v",
-            "o",
-            "r",
-            "i",
-            "n",
-            "g"
+            "dulce de leche flavouring"
           ]
         }
       ],
@@ -1873,7 +1279,6 @@
           "en": "whole milk powder",
           "aliases": [
             "leche entera en polvo",
-            "whole milk powder",
             "whole milk powder"
           ]
         },
@@ -2225,7 +1630,6 @@
           "en": "potassium sorbate",
           "aliases": [
             "sorbato de potasio (INS 202)",
-            "potassium sorbate",
             "potassium sorbate"
           ]
         },
