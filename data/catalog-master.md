@@ -854,6 +854,248 @@ Pasta de maní, jarabe de glucosa, azúcar, aceite de palma, claras de huevo, ac
 
 ---
 
+
+### Galletitas Pepitos / Galletitas Pepitos
+
+- **ID:** `pepitos-chocolate-ar-119g`
+- **Marca / Brand:** Pepitos · Mondelez
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 119 g
+- **Categoría / Category:** `chocolate_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas dulces con perlitas a base de cacao · ¿Qué ingredientes tienen?
+- **Description (EN):** Sweet cookies with cocoa-based chips · Can you guess what's inside?
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida, azúcar, aceite vegetal, cacao en polvo, dextrosa, licor de cacao, manteca de cacao, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio, fosfato monocálcico), emulsionantes (sodio estearoil lactilato, lecitina de soja, polirricinoleato de poliglicerol, sorbitán triestearato, lecitina de girasol), aromatizantes artificiales de vainilla y almendra, colorante betacaroteno. Puede contener leche.
+
+**Respuestas aceptadas / Accepted answers (18)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| dextrosa | dextrose | dextrosa, dextrose |
+| licor de cacao | chocolate liquor | licor de cacao, chocolate liquor, cocoa liquor |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503 |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, baking soda, INS 500 |
+| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341 |
+| sodio estearoil lactilato | sodium stearoyl lactylate | sodio estearoil lactilato, sodium stearoyl lactylate, SSL |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate, PGPR, INS 476 |
+| sorbitán triestearato | sorbitan tristearate | sorbitán triestearato, sorbitan tristearate, INS 492 |
+| lecitina de girasol | sunflower lecithin | lecitina de girasol, sunflower lecithin |
+| aromatizante de vainilla | vanilla flavoring | aromatizante de vainilla, vanilla flavoring, vainilla, vanilla |
+| aromatizante de almendra | almond flavoring | aromatizante de almendra, almond flavoring, almendra, almond |
+| betacaroteno | beta-carotene | betacaroteno, beta-carotene, INS 160a |
+
+**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-pepitos-119g/p)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Ingredient declaration for Pepitos 119 g; listing identifies Argentine origin.
+
+
+
+### Alfajor Havanna Semilia / Alfajor Havanna Semilia
+
+- **ID:** `havanna-semilia-ar-55g`
+- **Marca / Brand:** Havanna
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 55 g (unidad; referencia de ficha comercial)
+- **Categoría / Category:** `chocolate_alfajor`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Alfajor sin TACC con semillas, dulce de leche y chocolate 70% cacao.
+- **Description (EN):** Gluten-free alfajor with seeds, dulce de leche and 70% cocoa chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche descremada, azúcar, glucosa, bicarbonato de sodio, sorbato de potasio, vainillina, chocolate amargo, lecitina de girasol, estabilizante INS 476, harina de arroz, azúcar mascabo, margarina, semillas de chía, sésamo blanco y girasol, fécula de papa, almidón de maíz, suero de leche, semillas de amapola y lino, fibra de celulosa, huevo entero en polvo, quinoa inflada, jarabe de maíz, fécula de mandioca, miel, yema de huevo en polvo, cacao en polvo, sal, sorbitol, bicarbonato de amonio, esencia natural de limón y esencia de galletita.
+
+**Respuestas aceptadas / Accepted answers (33)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| leche descremada | skim milk | leche descremada, skim milk |
+| azúcar | sugar | azúcar, sugar |
+| glucosa | glucose | glucosa, glucose |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500ii |
+| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate, INS 202 |
+| vainillina | vanillin | vainillina, vanillin |
+| chocolate amargo | dark chocolate | chocolate amargo, dark chocolate |
+| lecitina de girasol | sunflower lecithin | lecitina de girasol, sunflower lecithin, INS 322 |
+| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate, PGPR, INS 476 |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| azúcar mascabo | muscovado sugar | azúcar mascabo, muscovado sugar |
+| margarina | margarine | margarina, margarine |
+| semillas de chía | chia seeds | semillas de chía, chia seeds, chía |
+| semillas de sésamo | sesame seeds | semillas de sésamo, sesame seeds, sésamo, sesame |
+| semillas de girasol | sunflower seeds | semillas de girasol, sunflower seeds |
+| fécula de papa | potato starch | fécula de papa, potato starch |
+| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
+| suero de leche | whey | suero de leche, whey |
+| semillas de amapola | poppy seeds | semillas de amapola, poppy seeds, amapola |
+| fibra de celulosa | cellulose fiber | fibra de celulosa, cellulose fiber |
+| huevo entero en polvo | whole egg powder | huevo entero en polvo, whole egg powder |
+| semillas de lino | flax seeds | semillas de lino, flax seeds, lino, linseed |
+| quinoa inflada | puffed quinoa | quinoa inflada, puffed quinoa |
+| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
+| fécula de mandioca | cassava starch | fécula de mandioca, cassava starch, tapioca starch |
+| miel | honey | miel, honey |
+| yema de huevo en polvo | egg yolk powder | yema de huevo en polvo, egg yolk powder |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| sal | salt | sal, salt |
+| sorbitol | sorbitol | sorbitol, INS 420 |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503ii |
+| esencia natural de limón | natural lemon flavor | esencia natural de limón, natural lemon flavor, limón, lemon |
+| esencia de galletita | cookie flavoring | esencia de galletita, cookie flavoring, galletita, biscuit flavor |
+
+**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Ingredient declaration for Havanna Semilia; listing identifies Argentine origin.
+
+
+
+### Gallo Snacks Queso / Gallo Snacks Queso
+
+- **ID:** `gallo-snacks-queso-ar-50g`
+- **Marca / Brand:** Gallo
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 50 g
+- **Categoría / Category:** `rice_crackers`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Snack crocante de arroz sabor queso.
+- **Description (EN):** Crunchy rice snack with cheese flavor.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, colorantes betacaroteno y amarillo ocaso, emulsionantes ésteres de ácidos grasos con poliglicerol, mono y diglicéridos de ácidos grasos y polioxietilen sorbitán monooleato, antioxidantes tocoferoles concentrados y ter butil hidroquinona. Puede contener derivados de soja.
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| grasa vacuna refinada | refined beef fat | grasa vacuna refinada, refined beef fat, beef fat |
+| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
+| leche descremada | skim milk | leche descremada, skim milk |
+| sal | salt | sal, salt |
+| azúcar | sugar | azúcar, sugar |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| aromatizante/saborizante | flavoring | aromatizante/saborizante, flavoring, aromatizante, saborizante, flavor |
+| betacaroteno | beta-carotene | betacaroteno, beta-carotene, INS 160a |
+| amarillo ocaso | sunset yellow | amarillo ocaso, sunset yellow, Yellow 6, INS 110 |
+| ésteres de ácidos grasos con poliglicerol | polyglycerol esters of fatty acids | ésteres de ácidos grasos con poliglicerol, polyglycerol esters of fatty acids |
+| mono y diglicéridos de ácidos grasos | mono- and diglycerides of fatty acids | mono y diglicéridos de ácidos grasos, mono- and diglycerides of fatty acids, mono y diglicéridos |
+| polioxietilen sorbitán monooleato | polysorbate 80 | polioxietilen sorbitán monooleato, polysorbate 80, INS 433 |
+| tocoferoles concentrados | mixed tocopherols | tocoferoles concentrados, mixed tocopherols, tocoferoles, tocopherols |
+| ter butil hidroquinona | tertiary butylhydroquinone | ter butil hidroquinona, tertiary butylhydroquinone, TBHQ, INS 319 |
+
+**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Ingredient declaration for Gallo rice snack cheese flavor 50 g; listing identifies Argentine origin.
+
+
+
+### Alfajor de Maizena Cachafaz / Alfajor de Maizena Cachafaz
+
+- **ID:** `cachafaz-alfajor-maizena-ar-456g`
+- **Marca / Brand:** Cachafaz
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 456 g (caja de 6 unidades)
+- **Categoría / Category:** `white_alfajor`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Alfajores de maicena con dulce de leche y coco rallado.
+- **Description (EN):** Cornstarch alfajores with dulce de leche and shredded coconut.
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato de sodio, sorbato de potasio, harina de trigo enriquecida, aceite vegetal interesterificado, fécula, huevo en polvo, leche entera en polvo, sal, bicarbonato de amonio, fosfatos (INS 450i, INS 341i e INS 341iii), celulosa microcristalina, propionato de calcio, colorante natural, coco rallado.
+
+**Respuestas aceptadas / Accepted answers (21)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| leche entera | whole milk | leche entera, whole milk |
+| azúcar | sugar | azúcar, sugar |
+| glucosa | glucose | glucosa, glucose |
+| pectina | pectin | pectina, pectin, INS 406 |
+| aroma a vainilla | vanilla flavoring | aroma a vainilla, vanilla flavoring, vainilla, vanilla |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500ii, baking soda |
+| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate, INS 202 |
+| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour |
+| aceite vegetal interesterificado | interesterified vegetable oil | aceite vegetal interesterificado, interesterified vegetable oil |
+| fécula | starch | fécula, starch |
+| huevo en polvo | egg powder | huevo en polvo, egg powder |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| sal | salt | sal, salt |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503ii |
+| pirofosfato ácido de sodio | sodium acid pyrophosphate | pirofosfato ácido de sodio, sodium acid pyrophosphate, INS 450i |
+| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341i |
+| fosfato tricálcico | tricalcium phosphate | fosfato tricálcico, tricalcium phosphate, INS 341iii |
+| celulosa microcristalina | microcrystalline cellulose | celulosa microcristalina, microcrystalline cellulose, INS 460ii |
+| propionato de calcio | calcium propionate | propionato de calcio, calcium propionate, INS 282 |
+| colorante natural | natural coloring | colorante natural, natural coloring, colorante |
+| coco rallado | shredded coconut | coco rallado, shredded coconut |
+
+**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/alfajor-de-maizena-cachafaz-456-gr/p)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Ingredient declaration for Cachafaz Maizena alfajores 456 g; listing identifies Argentine origin.
+
+
+
+### Galletitas Santa María Mechaditas / Galletitas Santa María Mechaditas
+
+- **ID:** `santa-maria-mechaditas-ar-200g`
+- **Marca / Brand:** Santa María
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 200 g
+- **Categoría / Category:** `chocolate_cookies`
+- **Barcode:** No registrado / Not recorded
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas sin gluten con chips de chocolate.
+- **Description (EN):** Gluten-free cookies with chocolate chips.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de arroz, azúcar, almidón de maíz, aceite vegetal, chips de chocolate, huevo, bicarbonato de sodio, fosfato monocálcico, bicarbonato de amonio, sal, goma xántica, goma guar, esencia de vainilla, tartrazina y lecitina de soja. Puede contener leche.
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| azúcar | sugar | azúcar, sugar |
+| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| chips de chocolate | chocolate chips | chips de chocolate, chocolate chips, chispas de chocolate |
+| huevo | egg | huevo, egg |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500 |
+| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341 |
+| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503 |
+| sal | salt | sal, salt |
+| goma xántica | xanthan gum | goma xántica, xanthan gum, INS 415 |
+| goma guar | guar gum | goma guar, guar gum, INS 412 |
+| esencia de vainilla | vanilla essence | esencia de vainilla, vanilla essence, vainilla, vanilla |
+| tartrazina | tartrazine | tartrazina, tartrazine, Yellow 5, INS 102 |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+
+**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-santa-maria-mechaditas-200-gr/p)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Ingredient declaration for Santa María Mechaditas 200 g; listing identifies Argentine origin.
+
+
 ## World
 
 ### Nutella / Nutella
@@ -5944,239 +6186,3 @@ Milk chocolate (sugar, cocoa butter, chocolate, skim milk, milkfat, lactose, pea
 **Fuente / Source:** [Mars Foodservices](https://www.marsfoodservices.com/product/m-ms-brand-peanut-butter-chocolate-candies)  
 **Tipo / Type:** `manufacturer_website`  
 **Alcance / Supports:** Official Mars Foodservices product page identifies M&M'S Peanut Butter sharing-size 2.83 oz packs and provides the ready-to-eat ingredient declaration.
-
-### Galletitas Pepitos / Galletitas Pepitos
-
-- **ID:** `pepitos-chocolate-ar-119g`
-- **Marca / Brand:** Pepitos · Mondelez
-- **País / Country:** Argentina
-- **Mercado / Market:** Argentina
-- **Envase / Package:** 119 g
-- **Categoría / Category:** `chocolate_cookies`
-- **Barcode:** No registrado / Not recorded
-- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
-- **Descripción (ES):** Galletitas dulces con perlitas a base de cacao · ¿Qué ingredientes tienen?
-- **Description (EN):** Sweet cookies with cocoa-based chips · Can you guess what's inside?
-
-**Ingredientes declarados / Declared ingredients**
-
-Harina de trigo enriquecida, azúcar, aceite vegetal, cacao en polvo, dextrosa, licor de cacao, manteca de cacao, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio, fosfato monocálcico), emulsionantes (sodio estearoil lactilato, lecitina de soja, polirricinoleato de poliglicerol, sorbitán triestearato, lecitina de girasol), aromatizantes artificiales de vainilla y almendra, colorante betacaroteno. Puede contener leche.
-
-**Respuestas aceptadas / Accepted answers (18)**
-
-| Español | English | Alias / Aliases |
-|---|---|---|
-| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour |
-| azúcar | sugar | azúcar, sugar |
-| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
-| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
-| dextrosa | dextrose | dextrosa, dextrose |
-| licor de cacao | chocolate liquor | licor de cacao, chocolate liquor, cocoa liquor |
-| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
-| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503 |
-| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, baking soda, INS 500 |
-| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341 |
-| sodio estearoil lactilato | sodium stearoyl lactylate | sodio estearoil lactilato, sodium stearoyl lactylate, SSL |
-| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
-| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate, PGPR, INS 476 |
-| sorbitán triestearato | sorbitan tristearate | sorbitán triestearato, sorbitan tristearate, INS 492 |
-| lecitina de girasol | sunflower lecithin | lecitina de girasol, sunflower lecithin |
-| aromatizante de vainilla | vanilla flavoring | aromatizante de vainilla, vanilla flavoring, vainilla, vanilla |
-| aromatizante de almendra | almond flavoring | aromatizante de almendra, almond flavoring, almendra, almond |
-| betacaroteno | beta-carotene | betacaroteno, beta-carotene, INS 160a |
-
-**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-pepitos-119g/p)  
-**Tipo / Type:** `retailer_label_transcription`  
-**Alcance / Supports:** Ingredient declaration for Pepitos 119 g; listing identifies Argentine origin.
-
-
-### Alfajor Havanna Semilia / Alfajor Havanna Semilia
-
-- **ID:** `havanna-semilia-ar-55g`
-- **Marca / Brand:** Havanna
-- **País / Country:** Argentina
-- **Mercado / Market:** Argentina
-- **Envase / Package:** 55 g (unidad; referencia de ficha comercial)
-- **Categoría / Category:** `chocolate_alfajor`
-- **Barcode:** No registrado / Not recorded
-- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
-- **Descripción (ES):** Alfajor sin TACC con semillas, dulce de leche y chocolate 70% cacao.
-- **Description (EN):** Gluten-free alfajor with seeds, dulce de leche and 70% cocoa chocolate.
-
-**Ingredientes declarados / Declared ingredients**
-
-Leche descremada, azúcar, glucosa, bicarbonato de sodio, sorbato de potasio, vainillina, chocolate amargo, lecitina de girasol, estabilizante INS 476, harina de arroz, azúcar mascabo, margarina, semillas de chía, sésamo blanco y girasol, fécula de papa, almidón de maíz, suero de leche, semillas de amapola y lino, fibra de celulosa, huevo entero en polvo, quinoa inflada, jarabe de maíz, fécula de mandioca, miel, yema de huevo en polvo, cacao en polvo, sal, sorbitol, bicarbonato de amonio, esencia natural de limón y esencia de galletita.
-
-**Respuestas aceptadas / Accepted answers (33)**
-
-| Español | English | Alias / Aliases |
-|---|---|---|
-| leche descremada | skim milk | leche descremada, skim milk |
-| azúcar | sugar | azúcar, sugar |
-| glucosa | glucose | glucosa, glucose |
-| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500ii |
-| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate, INS 202 |
-| vainillina | vanillin | vainillina, vanillin |
-| chocolate amargo | dark chocolate | chocolate amargo, dark chocolate |
-| lecitina de girasol | sunflower lecithin | lecitina de girasol, sunflower lecithin, INS 322 |
-| polirricinoleato de poliglicerol | polyglycerol polyricinoleate | polirricinoleato de poliglicerol, polyglycerol polyricinoleate, PGPR, INS 476 |
-| harina de arroz | rice flour | harina de arroz, rice flour |
-| azúcar mascabo | muscovado sugar | azúcar mascabo, muscovado sugar |
-| margarina | margarine | margarina, margarine |
-| semillas de chía | chia seeds | semillas de chía, chia seeds, chía |
-| semillas de sésamo | sesame seeds | semillas de sésamo, sesame seeds, sésamo, sesame |
-| semillas de girasol | sunflower seeds | semillas de girasol, sunflower seeds |
-| fécula de papa | potato starch | fécula de papa, potato starch |
-| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
-| suero de leche | whey | suero de leche, whey |
-| semillas de amapola | poppy seeds | semillas de amapola, poppy seeds, amapola |
-| fibra de celulosa | cellulose fiber | fibra de celulosa, cellulose fiber |
-| huevo entero en polvo | whole egg powder | huevo entero en polvo, whole egg powder |
-| semillas de lino | flax seeds | semillas de lino, flax seeds, lino, linseed |
-| quinoa inflada | puffed quinoa | quinoa inflada, puffed quinoa |
-| jarabe de maíz | corn syrup | jarabe de maíz, corn syrup |
-| fécula de mandioca | cassava starch | fécula de mandioca, cassava starch, tapioca starch |
-| miel | honey | miel, honey |
-| yema de huevo en polvo | egg yolk powder | yema de huevo en polvo, egg yolk powder |
-| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
-| sal | salt | sal, salt |
-| sorbitol | sorbitol | sorbitol, INS 420 |
-| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503ii |
-| esencia natural de limón | natural lemon flavor | esencia natural de limón, natural lemon flavor, limón, lemon |
-| esencia de galletita | cookie flavoring | esencia de galletita, cookie flavoring, galletita, biscuit flavor |
-
-**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/alfajor-semilia-sin-tacc-havanna-4u/p)  
-**Tipo / Type:** `retailer_label_transcription`  
-**Alcance / Supports:** Ingredient declaration for Havanna Semilia; listing identifies Argentine origin.
-
-
-### Gallo Snacks Queso / Gallo Snacks Queso
-
-- **ID:** `gallo-snacks-queso-ar-50g`
-- **Marca / Brand:** Gallo
-- **País / Country:** Argentina
-- **Mercado / Market:** Argentina
-- **Envase / Package:** 50 g
-- **Categoría / Category:** `rice_crackers`
-- **Barcode:** No registrado / Not recorded
-- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
-- **Descripción (ES):** Snack crocante de arroz sabor queso.
-- **Description (EN):** Crunchy rice snack with cheese flavor.
-
-**Ingredientes declarados / Declared ingredients**
-
-Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, colorantes betacaroteno y amarillo ocaso, emulsionantes ésteres de ácidos grasos con poliglicerol, mono y diglicéridos de ácidos grasos y polioxietilen sorbitán monooleato, antioxidantes tocoferoles concentrados y ter butil hidroquinona. Puede contener derivados de soja.
-
-**Respuestas aceptadas / Accepted answers (15)**
-
-| Español | English | Alias / Aliases |
-|---|---|---|
-| harina de arroz | rice flour | harina de arroz, rice flour |
-| grasa vacuna refinada | refined beef fat | grasa vacuna refinada, refined beef fat, beef fat |
-| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
-| leche descremada | skim milk | leche descremada, skim milk |
-| sal | salt | sal, salt |
-| azúcar | sugar | azúcar, sugar |
-| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
-| aromatizante/saborizante | flavoring | aromatizante/saborizante, flavoring, aromatizante, saborizante, flavor |
-| betacaroteno | beta-carotene | betacaroteno, beta-carotene, INS 160a |
-| amarillo ocaso | sunset yellow | amarillo ocaso, sunset yellow, Yellow 6, INS 110 |
-| ésteres de ácidos grasos con poliglicerol | polyglycerol esters of fatty acids | ésteres de ácidos grasos con poliglicerol, polyglycerol esters of fatty acids |
-| mono y diglicéridos de ácidos grasos | mono- and diglycerides of fatty acids | mono y diglicéridos de ácidos grasos, mono- and diglycerides of fatty acids, mono y diglicéridos |
-| polioxietilen sorbitán monooleato | polysorbate 80 | polioxietilen sorbitán monooleato, polysorbate 80, INS 433 |
-| tocoferoles concentrados | mixed tocopherols | tocoferoles concentrados, mixed tocopherols, tocoferoles, tocopherols |
-| ter butil hidroquinona | tertiary butylhydroquinone | ter butil hidroquinona, tertiary butylhydroquinone, TBHQ, INS 319 |
-
-**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p)  
-**Tipo / Type:** `retailer_label_transcription`  
-**Alcance / Supports:** Ingredient declaration for Gallo rice snack cheese flavor 50 g; listing identifies Argentine origin.
-
-
-### Alfajor de Maizena Cachafaz / Alfajor de Maizena Cachafaz
-
-- **ID:** `cachafaz-alfajor-maizena-ar-456g`
-- **Marca / Brand:** Cachafaz
-- **País / Country:** Argentina
-- **Mercado / Market:** Argentina
-- **Envase / Package:** 456 g (caja de 6 unidades)
-- **Categoría / Category:** `white_alfajor`
-- **Barcode:** No registrado / Not recorded
-- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
-- **Descripción (ES):** Alfajores de maicena con dulce de leche y coco rallado.
-- **Description (EN):** Cornstarch alfajores with dulce de leche and shredded coconut.
-
-**Ingredientes declarados / Declared ingredients**
-
-Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato de sodio, sorbato de potasio, harina de trigo enriquecida, aceite vegetal interesterificado, fécula, huevo en polvo, leche entera en polvo, sal, bicarbonato de amonio, fosfatos (INS 450i, INS 341i e INS 341iii), celulosa microcristalina, propionato de calcio, colorante natural, coco rallado.
-
-**Respuestas aceptadas / Accepted answers (21)**
-
-| Español | English | Alias / Aliases |
-|---|---|---|
-| leche entera | whole milk | leche entera, whole milk |
-| azúcar | sugar | azúcar, sugar |
-| glucosa | glucose | glucosa, glucose |
-| pectina | pectin | pectina, pectin, INS 406 |
-| aroma a vainilla | vanilla flavoring | aroma a vainilla, vanilla flavoring, vainilla, vanilla |
-| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500ii, baking soda |
-| sorbato de potasio | potassium sorbate | sorbato de potasio, potassium sorbate, INS 202 |
-| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour |
-| aceite vegetal interesterificado | interesterified vegetable oil | aceite vegetal interesterificado, interesterified vegetable oil |
-| fécula | starch | fécula, starch |
-| huevo en polvo | egg powder | huevo en polvo, egg powder |
-| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
-| sal | salt | sal, salt |
-| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503ii |
-| pirofosfato ácido de sodio | sodium acid pyrophosphate | pirofosfato ácido de sodio, sodium acid pyrophosphate, INS 450i |
-| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341i |
-| fosfato tricálcico | tricalcium phosphate | fosfato tricálcico, tricalcium phosphate, INS 341iii |
-| celulosa microcristalina | microcrystalline cellulose | celulosa microcristalina, microcrystalline cellulose, INS 460ii |
-| propionato de calcio | calcium propionate | propionato de calcio, calcium propionate, INS 282 |
-| colorante natural | natural coloring | colorante natural, natural coloring, colorante |
-| coco rallado | shredded coconut | coco rallado, shredded coconut |
-
-**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/alfajor-de-maizena-cachafaz-456-gr/p)  
-**Tipo / Type:** `retailer_label_transcription`  
-**Alcance / Supports:** Ingredient declaration for Cachafaz Maizena alfajores 456 g; listing identifies Argentine origin.
-
-
-### Galletitas Santa María Mechaditas / Galletitas Santa María Mechaditas
-
-- **ID:** `santa-maria-mechaditas-ar-200g`
-- **Marca / Brand:** Santa María
-- **País / Country:** Argentina
-- **Mercado / Market:** Argentina
-- **Envase / Package:** 200 g
-- **Categoría / Category:** `chocolate_cookies`
-- **Barcode:** No registrado / Not recorded
-- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
-- **Descripción (ES):** Galletitas sin gluten con chips de chocolate.
-- **Description (EN):** Gluten-free cookies with chocolate chips.
-
-**Ingredientes declarados / Declared ingredients**
-
-Harina de arroz, azúcar, almidón de maíz, aceite vegetal, chips de chocolate, huevo, bicarbonato de sodio, fosfato monocálcico, bicarbonato de amonio, sal, goma xántica, goma guar, esencia de vainilla, tartrazina y lecitina de soja. Puede contener leche.
-
-**Respuestas aceptadas / Accepted answers (15)**
-
-| Español | English | Alias / Aliases |
-|---|---|---|
-| harina de arroz | rice flour | harina de arroz, rice flour |
-| azúcar | sugar | azúcar, sugar |
-| almidón de maíz | corn starch | almidón de maíz, corn starch, maize starch |
-| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
-| chips de chocolate | chocolate chips | chips de chocolate, chocolate chips, chispas de chocolate |
-| huevo | egg | huevo, egg |
-| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate, INS 500 |
-| fosfato monocálcico | monocalcium phosphate | fosfato monocálcico, monocalcium phosphate, INS 341 |
-| bicarbonato de amonio | ammonium bicarbonate | bicarbonato de amonio, ammonium bicarbonate, INS 503 |
-| sal | salt | sal, salt |
-| goma xántica | xanthan gum | goma xántica, xanthan gum, INS 415 |
-| goma guar | guar gum | goma guar, guar gum, INS 412 |
-| esencia de vainilla | vanilla essence | esencia de vainilla, vanilla essence, vainilla, vanilla |
-| tartrazina | tartrazine | tartrazina, tartrazine, Yellow 5, INS 102 |
-| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
-
-**Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-santa-maria-mechaditas-200-gr/p)  
-**Tipo / Type:** `retailer_label_transcription`  
-**Alcance / Supports:** Ingredient declaration for Santa María Mechaditas 200 g; listing identifies Argentine origin.
