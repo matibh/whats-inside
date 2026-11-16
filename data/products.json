@@ -98,7 +98,7 @@
       "market": "Argentina",
       "category": "chocolate_cookies",
       "package": "150 g",
-      "image": null,
+      "image": "https://cdn11.bigcommerce.com/s-b156nxvmdp/images/stencil/1280x1280/products/875/1287/318999-800-450__66603.1692200350.jpg?c=1",
       "description": {
         "en": "Chocolate cookies · Can you name the ingredients?",
         "es": "Galletitas de chocolate · ¿Podés nombrar sus ingredientes?"
@@ -205,7 +205,8 @@
       "sourceId": "chocolinas-shelfpedia",
       "verification": "packaging_transcription_secondary",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-chocolinas-ar-150g"
     },
     {
       "id": "oreo-original-ar-118g",
@@ -589,7 +590,7 @@
       "market": "Argentina",
       "category": "soft_drink",
       "package": "Presentación argentina; tamaño no especificado",
-      "image": null,
+      "image": "https://hiperlibertad.vtexassets.com/arquivos/ids/210159-800-auto?aspect=true&height=auto&v=638210685969170000&width=800",
       "description": {
         "en": "Original cola · Can you guess the formula?",
         "es": "Gaseosa cola original · ¿Podés adivinar la fórmula?"
@@ -649,7 +650,8 @@
       "sourceId": "cocacola-official",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-coca-cola-original-ar"
     },
     {
       "id": "sprite-lima-limon-ar",
@@ -1613,7 +1615,7 @@
       "category": "chocolate_alfajor",
       "package": "55 g",
       "barcode": null,
-      "image": null,
+      "image": "https://dcdn-us.mitiendanube.com/stores/005/091/765/products/image2025041913264298723-965f9fb99e7fd9e65317476720110422-1024-1024.webp",
       "description": {
         "es": "Alfajor clásico · ¿Cuántos ingredientes podés descubrir?",
         "en": "Classic chocolate alfajor · How many ingredients can you find?"
@@ -1784,7 +1786,8 @@
       "sourceId": "jorgito-negro",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-jorgito-alfajor-choco-negro-55g"
     },
     {
       "id": "jorgito-alfajor-blanco-merengue-50g",
@@ -2125,7 +2128,7 @@
       "category": "white_alfajor",
       "package": "85 g",
       "barcode": null,
-      "image": null,
+      "image": "https://www.clansrl.com.ar/web/image/product.template/84/image_1024?unique=208f864",
       "description": {
         "es": "Alfajor triple blanco · ¿Podés identificar todos sus ingredientes?",
         "en": "Triple white alfajor · Can you identify all its ingredients?"
@@ -2262,7 +2265,8 @@
       "sourceId": "jorgelin-blanco",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-jorgelin-blanco-85g"
     },
     {
       "id": "fanta-naranja-ar",
@@ -2455,7 +2459,7 @@
       "category": "orange_juice_drink",
       "package": "200 ml",
       "barcode": null,
-      "image": null,
+      "image": "https://acdn-us.mitiendanube.com/stores/006/912/754/products/d_735552-mla94035179792_102025-b-b8bf32a6e12e68b2d817623860729078-1024-1024.webp",
       "description": {
         "es": "Jugo listo de naranja · ¿Qué ingredientes tiene?",
         "en": "Ready-to-drink orange juice · What's inside?"
@@ -2542,7 +2546,8 @@
       "sourceId": "baggio-pronto",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-baggio-pronto-naranja-200ml"
     },
     {
       "id": "mantecol-clasico-111g",
