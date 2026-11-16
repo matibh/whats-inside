@@ -764,7 +764,7 @@
       "market": "Argentina",
       "category": "yogurt",
       "package": "1300 g",
-      "image": null,
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/375170/Yogur-Bebible-La-Seren-sima-Nutrici-n-Activa-Sabor-Frutilla-1300-G-0779133701051-1.jpg?v=639058172179630000",
       "description": {
         "en": "Strawberry drinkable yogurt · What's inside?",
         "es": "Yogur bebible de frutilla · ¿Qué ingredientes tiene?"
@@ -869,7 +869,8 @@
       "sourceId": "serenisima-official",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-la-serenisima-yogur-frutilla-bebible-1300g"
     },
     {
       "id": "toddy-galletitas-chocolate-ar-126g",
@@ -880,7 +881,7 @@
       "market": "Argentina",
       "category": "chocolate_cookies",
       "package": "126 g",
-      "image": null,
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/549702/Galletitas-Toddy-Chips-De-Chocolate-126-Gr-1-541589.jpg?v=637051080881430000",
       "description": {
         "en": "Chocolate cookies with chips · Guess the ingredients.",
         "es": "Galletitas Toddy de chocolate · Adiviná los ingredientes."
@@ -1059,7 +1060,8 @@
       "sourceId": "toddy-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-toddy-galletitas-chocolate-ar-126g"
     },
     {
       "id": "mana-con-leche-ar-136g",
@@ -1070,7 +1072,7 @@
       "market": "Argentina",
       "category": "plain_cookies",
       "package": "136 g",
-      "image": null,
+      "image": "https://atomoconviene.com/atomo-ecommerce/66258-large_default/galletas-dulces-mana-con-leche-136-grs-.jpg",
       "description": {
         "en": "Milk cookies · Can you name every ingredient?",
         "es": "Galletitas con leche · ¿Podés nombrar cada ingrediente?"
@@ -1257,7 +1259,8 @@
       "sourceId": "mana-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-mana-con-leche-ar-136g"
     },
     {
       "id": "milka-chocolate-leche-55g-ar",
@@ -2847,7 +2850,7 @@
       "market": "Argentina",
       "category": "chocolate_alfajor",
       "package": "Pack x4 (peso unitario no especificado en la fuente)",
-      "image": null,
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/625950-800-600?aspect=true&height=600&v=637533674717830000&width=800",
       "description": {
         "es": "Alfajor sin TACC con semillas, dulce de leche y chocolate 70% cacao.",
         "en": "Gluten-free alfajor with seeds, dulce de leche and 70% cocoa chocolate."
@@ -3140,7 +3143,8 @@
       "sourceId": "havanna-semilia-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-havanna-semilia-ar-55g"
     },
     {
       "id": "gallo-snacks-queso-ar-50g",
@@ -3151,7 +3155,7 @@
       "market": "Argentina",
       "category": "rice_crackers",
       "package": "50 g",
-      "image": null,
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/791507/Chips-Gallo-Snacks-Arroz-Queso-X50g-1-986996.jpg?v=638288338176470000",
       "description": {
         "es": "Snack crocante de arroz sabor queso.",
         "en": "Crunchy rice snack with cheese flavor."
@@ -3296,7 +3300,8 @@
       "sourceId": "gallo-queso-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-gallo-snacks-queso-ar-50g"
     },
     {
       "id": "cachafaz-alfajor-maizena-ar-456g",
@@ -3307,7 +3312,7 @@
       "market": "Argentina",
       "category": "white_alfajor",
       "package": "456 g (caja de 6 unidades)",
-      "image": null,
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/829050/11840186003.jpg?v=638575999926530000",
       "description": {
         "es": "Alfajores de maicena con dulce de leche y coco rallado.",
         "en": "Cornstarch alfajores with dulce de leche and shredded coconut."
@@ -3502,7 +3507,8 @@
       "sourceId": "cachafaz-maizena-jumbo",
       "verification": "retailer_label_transcription",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-cachafaz-alfajor-maizena-ar-456g"
     },
     {
       "id": "santa-maria-mechaditas-ar-200g",
