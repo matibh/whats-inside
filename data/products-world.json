@@ -17060,21 +17060,21 @@
       "barcode": null,
       "name": "Pringles Sour Cream & Onion",
       "nameI18n": {
-        "es": "Pringles Sour Cream & Onion",
+        "es": "Pringles Crema Agria y Cebolla",
         "en": "Pringles Sour Cream & Onion"
       },
       "brand": "Pringles",
-      "country": "United States",
-      "market": "United States",
+      "country": "Spain",
+      "market": "Spain",
       "region": "world",
       "category": "potato_chips",
-      "package": "5.5 oz (155 g) can",
+      "package": "40 g pack",
       "image": null,
       "description": {
-        "es": "Papas apilables sabor crema agria y cebolla, fórmula estadounidense.",
-        "en": "Stackable sour cream and onion potato crisps, US formulation."
+        "es": "Papas apilables sabor crema agria y cebolla, fórmula comercializada en España.",
+        "en": "Stackable sour cream and onion potato crisps, Spanish-market formulation."
       },
-      "ingredientsText": "Dried potatoes, vegetable oil (corn, cottonseed, canola, soybean and/or sunflower), degerminated yellow corn flour, cornstarch, rice flour, maltodextrin, mono- and diglycerides. Contains 2% or less of salt, whey, monosodium glutamate, onion powder, sugar, coconut oil, nonfat milk, sour cream (cream, nonfat milk, cultures), natural flavors, buttermilk, citric acid, cream, lactic acid, cultured nonfat milk, disodium inosinate, disodium guanylate, invert sugar, malic acid, yeast extract, wheat starch.",
+      "ingredientsText": "Dried potatoes, sunflower oil, corn flour, wheat flour, rice flour, sour cream and onion seasoning (wheat starch, flavour enhancers {monosodium glutamate, disodium guanylate, disodium inosinate}, onion powder, dextrose, sunflower oil, salt, modified corn starch, milk flavourings, maltodextrin, sugar, sweet whey powder (milk), sour cream powder (milk), glucose syrup powder, acids (citric acid, malic acid), milk proteins), maltodextrin, emulsifier (E471), rapeseed oil, salt, colour (annatto norbixin).",
       "ingredients": [
         {
           "es": "papas deshidratadas",
@@ -17082,39 +17082,6 @@
           "aliases": [
             "papas deshidratadas",
             "dried potatoes"
-          ]
-        },
-        {
-          "es": "aceite de maíz",
-          "en": "corn oil",
-          "aliases": [
-            "aceite de maíz",
-            "corn oil"
-          ]
-        },
-        {
-          "es": "aceite de algodón",
-          "en": "cottonseed oil",
-          "aliases": [
-            "aceite de algodón",
-            "cottonseed oil"
-          ]
-        },
-        {
-          "es": "aceite de colza",
-          "en": "canola oil",
-          "aliases": [
-            "aceite de colza",
-            "canola oil",
-            "rapeseed oil"
-          ]
-        },
-        {
-          "es": "aceite de soja",
-          "en": "soybean oil",
-          "aliases": [
-            "aceite de soja",
-            "soybean oil"
           ]
         },
         {
@@ -17126,20 +17093,20 @@
           ]
         },
         {
-          "es": "harina de maíz amarillo",
-          "en": "yellow corn flour",
+          "es": "harina de maíz",
+          "en": "corn flour",
           "aliases": [
-            "harina de maíz amarillo",
-            "yellow corn flour"
+            "harina de maíz",
+            "corn flour",
+            "maize flour"
           ]
         },
         {
-          "es": "almidón de maíz",
-          "en": "cornstarch",
+          "es": "harina de trigo",
+          "en": "wheat flour",
           "aliases": [
-            "almidón de maíz",
-            "cornstarch",
-            "maize starch"
+            "harina de trigo",
+            "wheat flour"
           ]
         },
         {
@@ -17151,36 +17118,11 @@
           ]
         },
         {
-          "es": "maltodextrina",
-          "en": "maltodextrin",
+          "es": "almidón de trigo",
+          "en": "wheat starch",
           "aliases": [
-            "maltodextrina",
-            "maltodextrin"
-          ]
-        },
-        {
-          "es": "mono y diglicéridos",
-          "en": "mono- and diglycerides",
-          "aliases": [
-            "mono y diglicéridos",
-            "mono- and diglycerides",
-            "E471"
-          ]
-        },
-        {
-          "es": "sal",
-          "en": "salt",
-          "aliases": [
-            "sal",
-            "salt"
-          ]
-        },
-        {
-          "es": "suero",
-          "en": "whey",
-          "aliases": [
-            "suero",
-            "whey"
+            "almidón de trigo",
+            "wheat starch"
           ]
         },
         {
@@ -17194,96 +17136,12 @@
           ]
         },
         {
-          "es": "cebolla en polvo",
-          "en": "onion powder",
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
           "aliases": [
-            "cebolla en polvo",
-            "onion powder"
-          ]
-        },
-        {
-          "es": "azúcar",
-          "en": "sugar",
-          "aliases": [
-            "azúcar",
-            "sugar"
-          ]
-        },
-        {
-          "es": "aceite de coco",
-          "en": "coconut oil",
-          "aliases": [
-            "aceite de coco",
-            "coconut oil"
-          ]
-        },
-        {
-          "es": "leche descremada",
-          "en": "nonfat milk",
-          "aliases": [
-            "leche descremada",
-            "nonfat milk",
-            "skim milk"
-          ]
-        },
-        {
-          "es": "crema",
-          "en": "cream",
-          "aliases": [
-            "crema",
-            "cream"
-          ]
-        },
-        {
-          "es": "cultivos lácticos",
-          "en": "cultures",
-          "aliases": [
-            "cultivos lácticos",
-            "cultures",
-            "dairy cultures"
-          ]
-        },
-        {
-          "es": "aromas naturales",
-          "en": "natural flavors",
-          "aliases": [
-            "aromas naturales",
-            "natural flavors",
-            "natural flavourings"
-          ]
-        },
-        {
-          "es": "suero de mantequilla",
-          "en": "buttermilk",
-          "aliases": [
-            "suero de mantequilla",
-            "buttermilk"
-          ]
-        },
-        {
-          "es": "ácido cítrico",
-          "en": "citric acid",
-          "aliases": [
-            "ácido cítrico",
-            "citric acid",
-            "E330"
-          ]
-        },
-        {
-          "es": "ácido láctico",
-          "en": "lactic acid",
-          "aliases": [
-            "ácido láctico",
-            "lactic acid",
-            "E270"
-          ]
-        },
-        {
-          "es": "leche cultivada descremada",
-          "en": "cultured nonfat milk",
-          "aliases": [
-            "leche cultivada descremada",
-            "cultured nonfat milk"
+            "guanilato disódico",
+            "disodium guanylate",
+            "E627"
           ]
         },
         {
@@ -17296,20 +17154,102 @@
           ]
         },
         {
-          "es": "guanilato disódico",
-          "en": "disodium guanylate",
+          "es": "cebolla en polvo",
+          "en": "onion powder",
           "aliases": [
-            "guanilato disódico",
-            "disodium guanylate",
-            "E627"
+            "cebolla en polvo",
+            "onion powder"
           ]
         },
         {
-          "es": "azúcar invertido",
-          "en": "invert sugar",
+          "es": "dextrosa",
+          "en": "dextrose",
           "aliases": [
-            "azúcar invertido",
-            "invert sugar"
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "almidón de maíz modificado",
+          "en": "modified corn starch",
+          "aliases": [
+            "almidón de maíz modificado",
+            "modified corn starch",
+            "modified maize starch"
+          ]
+        },
+        {
+          "es": "aromas de leche",
+          "en": "milk flavourings",
+          "aliases": [
+            "aromas de leche",
+            "milk flavourings",
+            "milk flavorings"
+          ]
+        },
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "suero de leche dulce en polvo",
+          "en": "sweet whey powder",
+          "aliases": [
+            "suero de leche dulce en polvo",
+            "sweet whey powder"
+          ]
+        },
+        {
+          "es": "nata acidificada en polvo",
+          "en": "sour cream powder",
+          "aliases": [
+            "nata acidificada en polvo",
+            "sour cream powder"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa en polvo",
+          "en": "glucose syrup powder",
+          "aliases": [
+            "jarabe de glucosa en polvo",
+            "glucose syrup powder"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
           ]
         },
         {
@@ -17322,19 +17262,38 @@
           ]
         },
         {
-          "es": "extracto de levadura",
-          "en": "yeast extract",
+          "es": "proteínas de leche",
+          "en": "milk proteins",
           "aliases": [
-            "extracto de levadura",
-            "yeast extract"
+            "proteínas de leche",
+            "milk proteins"
           ]
         },
         {
-          "es": "almidón de trigo",
-          "en": "wheat starch",
+          "es": "emulsionante E471",
+          "en": "E471 emulsifier",
           "aliases": [
-            "almidón de trigo",
-            "wheat starch"
+            "emulsionante E471",
+            "E471 emulsifier",
+            "mono y diglicéridos"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "norbixina de achiote",
+          "en": "annatto norbixin",
+          "aliases": [
+            "norbixina de achiote",
+            "annatto norbixin",
+            "E160b"
           ]
         }
       ],
