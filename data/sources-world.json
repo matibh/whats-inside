@@ -343,6 +343,96 @@
       "url": "https://shop.tila-lachenmaier.de/files/downloads/Artikelpass4007801104681.pdf",
       "supports": "Knorr Professional Gemüse Kraftbouillon 1 kg; GTIN 4007801104681; manufacturer Unilever Germany Food Solutions; product data sheet dated 14 Feb 2026.",
       "market": "Germany"
+    },
+    {
+      "id": "meiji-milk-chocolate-japan-50g-source",
+      "productId": "meiji-milk-chocolate-japan-50g",
+      "publisher": "Meiji Co., Ltd.",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.meiji.co.jp/products/chocolate/04777.html",
+      "supports": "Official Japanese Meiji Milk Chocolate 50 g ingredient declaration. Allergy statement is not counted as ingredients.",
+      "market": "Japan"
+    },
+    {
+      "id": "samyang-buldak-original-korea-us-140g-source",
+      "productId": "samyang-buldak-original-korea-us-140g",
+      "publisher": "Samyang America",
+      "sourceType": "manufacturer_website",
+      "url": "https://beta.samyangamerica.com/buldak/original",
+      "supports": "Official US Buldak Original product page ingredient declaration. Compound ingredients are flattened into accepted ingredient answers.",
+      "market": "United States"
+    },
+    {
+      "id": "heinz-baked-beanz-uk-150g-source",
+      "productId": "heinz-baked-beanz-uk-150g",
+      "publisher": "Heinz UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.heinz.com/en-GB/products/05000157004017-baked-beanz",
+      "supports": "Official Heinz UK Baked Beanz 150 g product page and ingredients.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "jumex-mango-nectar-mexico-960ml-source",
+      "productId": "jumex-mango-nectar-mexico-960ml",
+      "publisher": "HEB México",
+      "sourceType": "retailer_product_label",
+      "url": "https://www.heb.com.mx/jumex-nectar-de-mango-1-l-3949/p",
+      "supports": "Retailer ingredient transcription for Jumex Mango Nectar 960 ml; physical package remains definitive.",
+      "market": "Mexico"
+    },
+    {
+      "id": "maggi-masala-twist-india-75g-source",
+      "productId": "maggi-masala-twist-india-75g",
+      "publisher": "Nestlé Professional India",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.nestleprofessional.in/foods/maggi-masala-twist",
+      "supports": "Official Nestlé Professional India 75 g MAGGI Masala Twist ingredient declaration. Compound seasoning components normalized as accepted answers.",
+      "market": "India"
+    },
+    {
+      "id": "parle-g-original-india-uk-799g-source",
+      "productId": "parle-g-original-india-uk-799g",
+      "publisher": "Tesco UK",
+      "sourceType": "retailer_product_label",
+      "url": "https://www.tesco.com/shop/en-GB/products/284903874",
+      "supports": "Tesco UK label transcription for 79.9 g Parle-G; product of India. Imported/export pack, not assumed identical to every Indian domestic pack.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "leibniz-original-butter-biscuits-germany-200g-source",
+      "productId": "leibniz-original-butter-biscuits-germany-200g",
+      "publisher": "Bahlsen / LEIBNIZ",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.leibniz.com/en/keks-original",
+      "supports": "Official LEIBNIZ Original product page; 200 g package and ingredient declaration. EU/Germany formulation.",
+      "market": "Germany"
+    },
+    {
+      "id": "britannia-good-day-butter-india-90g-source",
+      "productId": "britannia-good-day-butter-india-90g",
+      "publisher": "Britannia International",
+      "sourceType": "manufacturer_website",
+      "url": "https://britannia-international.com/products/product-type/cookies/good-day-butter/",
+      "supports": "Official Britannia International product page lists 90 g size and ingredient declaration. Pack formula may vary by domestic SKU.",
+      "market": "India"
+    },
+    {
+      "id": "guarana-antarctica-brazil-350ml-source",
+      "productId": "guarana-antarctica-brazil-350ml",
+      "publisher": "Carrefour Brasil",
+      "sourceType": "retailer_product_label",
+      "url": "https://newsitefood.cloud.carrefour.com.br/refrigerante-antarctica-guarana-lata-350ml-1036645/p",
+      "supports": "Carrefour Brazil ingredient transcription for Guaraná Antarctica 350 ml can; corroborated against Brazilian brand description.",
+      "market": "Brazil"
+    },
+    {
+      "id": "vegemite-australia-220g-source",
+      "productId": "vegemite-australia-220g",
+      "publisher": "Bega Foods (manufacturer product data sheet)",
+      "sourceType": "manufacturer_product_specification",
+      "url": "https://superiorfs.com.au/documents/PDF/KV220_1.pdf",
+      "supports": "Bega Foods product data sheet for VEGEMITE 220 g, GTIN 9352042000281; manufacturer-issued specification hosted by foodservice distributor.",
+      "market": "Australia"
     }
   ]
 }
