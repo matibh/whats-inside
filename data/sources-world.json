@@ -613,6 +613,96 @@
       "url": "https://business.bigbasket.com/pd/266058/maggi-hot-sweet-tomato-chilli-sauce-200-g-bottle/",
       "supports": "Retailer listing transcribes the ingredient declaration, identifies Nestlé India and a 200 g pack; manufacturer brand page confirms product identity but not full ingredients.",
       "market": "India"
+    },
+    {
+      "id": "colacao-original-spain",
+      "productId": "colacao-original-spain-383g",
+      "publisher": "Idilia Foods / ColaCao",
+      "sourceType": "manufacturer_website",
+      "url": "https://colacao.es/productos/colacao-original",
+      "supports": "Official ColaCao Spain product page lists the 383 g format and ingredient declaration.",
+      "market": "Spain"
+    },
+    {
+      "id": "goya-black-beans-us",
+      "productId": "goya-black-beans-us-15-5oz",
+      "publisher": "Goya Foods",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.goya.com/en/products/black-beans-can/",
+      "supports": "Official Goya product page lists the 15.5 oz format among available sizes and gives the three-ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "calbee-jagabee-plain-japan",
+      "productId": "calbee-jagabee-plain-japan-38g",
+      "publisher": "Calbee Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.calbee.co.jp/products/detail/?p=20250121145024",
+      "supports": "Official Calbee Japan page lists the 38 g Plain product and its three-item ingredient declaration.",
+      "market": "Japan"
+    },
+    {
+      "id": "tajin-clasico",
+      "productId": "tajin-clasico-mexico-142g",
+      "publisher": "Tajín USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.tajin.com/us/tajin-clasico-seasoning-new/",
+      "supports": "Official Tajín page lists the Clásico ingredient trio and available pack sizes.",
+      "market": "United States"
+    },
+    {
+      "id": "want-want-seaweed-rice-crackers",
+      "productId": "want-want-seaweed-rice-crackers-tw-102g",
+      "publisher": "I Lan Foods / Taiwantrade product specification",
+      "sourceType": "manufacturer_product_specification",
+      "url": "https://wantwant.en.taiwantrade.com/product/seaweed-rice-crackers-202147.html",
+      "supports": "Product specification identifies Want Want seaweed rice crackers, place of origin Taiwan/China, ingredient list and 102 g / 136 g pack sizes.",
+      "market": "Taiwan / China"
+    },
+    {
+      "id": "want-want-shelly-senbei",
+      "productId": "want-want-shelly-senbei-china-122g",
+      "publisher": "NTUC FairPrice (retailer label transcription)",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.fairprice.com.sg/product/want-want-shelly-senbei-rice-cracker-original-122g-420042",
+      "supports": "Retailer product page gives 122 g pack, China origin and ingredient declaration; precautionary traces are excluded.",
+      "market": "Singapore retail pack"
+    },
+    {
+      "id": "skittles-original-us",
+      "productId": "skittles-original-us-61-5g",
+      "publisher": "Mars Wrigley (manufacturer product specification)",
+      "sourceType": "manufacturer_product_specification",
+      "url": "https://www.webstaurantstore.com/documents/nutrition/mars_full_size_milk_chocolate_candy_bar_variety_pack_nutrition_information.pdf",
+      "supports": "Mars Wrigley product specification PDF includes the SKITTLES Original ingredient statement and 61.5 g single pack; source is manufacturer documentation hosted by a foodservice retailer.",
+      "market": "United States"
+    },
+    {
+      "id": "ulker-halley-turkey",
+      "productId": "ulker-halley-turkey-30g",
+      "publisher": "Cepte Şok (retailer label transcription)",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.sokmarket.com.tr/ulker-halley-30-g-p-4650",
+      "supports": "Retailer label transcription identifies 30 g pack, Turkish origin and the detailed ingredient declaration. Precautionary sesame traces are excluded.",
+      "market": "Turkey"
+    },
+    {
+      "id": "marmite-yeast-extract-uk",
+      "productId": "marmite-yeast-extract-uk-250g",
+      "publisher": "Unilever UK / Marmite",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.unileverfoodsolutions.co.uk/product/null-1-EN-592258.html",
+      "supports": "Official Unilever Food Solutions UK product page provides the Marmite ingredient declaration; 250 g retail format cross-checked against Tesco.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "mcbaigs-maple-syrup-canada",
+      "productId": "mcbaigs-pure-maple-syrup-canada",
+      "publisher": "McBaigs",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.mcbaigs.com/nutrition-fact/",
+      "supports": "Producer page identifies the product as 100% pure Canadian maple syrup; no package size is claimed.",
+      "market": "Canada"
     }
   ],
   "lastUpdated": "2026-11-16"
