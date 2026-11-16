@@ -91,6 +91,96 @@
       "url": "https://www.jumbo.com.ar/galletitas-mana-con-leche-136g/p",
       "supports": "Ingredient statement for Maná con leche 136 g.",
       "market": "Argentina"
+    },
+    {
+      "id": "milka-jumbo",
+      "productId": "milka-chocolate-leche-55g-ar",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/chocolate-milka-con-leche-55-gr/p",
+      "supports": "Ingredient declaration for Milka milk chocolate 55 g; page states country of origin Brazil.",
+      "market": "Argentina"
+    },
+    {
+      "id": "terrabusi-jumbo",
+      "productId": "terrabusi-variedad-chocolate-310g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-variedad-chocolate-terrabusi-310gr/p",
+      "supports": "Ingredient declaration for Terrabusi Variedad Chocolate 310 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "jorgito-negro",
+      "productId": "jorgito-alfajor-choco-negro-55g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_website",
+      "url": "https://tiendajorgito.com.ar/producto/jorgito-choco-negro",
+      "supports": "Official ingredient declaration for Jorgito Negro 55 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "jorgito-blanco",
+      "productId": "jorgito-alfajor-blanco-merengue-50g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_website",
+      "url": "https://tiendajorgito.com.ar/producto/jorgito-blanco",
+      "supports": "Official ingredient declaration for Jorgito Blanco Merengue 50 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "jorgito-chocoblanco",
+      "productId": "jorgito-alfajor-choco-blanco-55g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_website",
+      "url": "https://tiendajorgito.com.ar/producto/jorgito-choco-blanco",
+      "supports": "Official ingredient declaration for Jorgito Choco Blanco 55 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "jorgelin-blanco",
+      "productId": "jorgelin-blanco-85g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_website",
+      "url": "https://tiendajorgito.com.ar/producto/jorgelin-blanco",
+      "supports": "Official ingredient declaration for Jorgelín Blanco 85 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "fanta-ar",
+      "productId": "fanta-naranja-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/fanta/productos",
+      "supports": "Official ingredient declaration for Fanta Naranja.",
+      "market": "Argentina"
+    },
+    {
+      "id": "fanta-pomelo-ar",
+      "productId": "fanta-pomelo-ar",
+      "publisher": "Coca-Cola Argentina",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/ar/es/brands/fanta/productos",
+      "supports": "Official ingredient declaration for Fanta Pomelo.",
+      "market": "Argentina"
+    },
+    {
+      "id": "baggio-pronto",
+      "productId": "baggio-pronto-naranja-200ml",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/jugo-listo-baggio-pronto-naranja-200cc/p",
+      "supports": "Ingredient declaration for Baggio Pronto Naranja 200 ml.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mantecol-jumbo",
+      "productId": "mantecol-clasico-111g",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/postre-de-mani-x-111-gr-mantecol/p",
+      "supports": "Ingredient declaration for Mantecol clásico 111 g; listing identifies Argentine origin.",
+      "market": "Argentina"
     }
   ]
 }
