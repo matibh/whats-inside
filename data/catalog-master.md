@@ -5125,3 +5125,409 @@ Maltitol, vegetable oil / sweeteners (xylitol, aspartame-L-phenylalanine compoun
 **Fuente / Source:** [Lotte Japan](https://www.lotte.co.jp/products/catalogue/gum/04/detail123.html)  
 **Tipo / Type:** `manufacturer_website`  
 **Alcance / Supports:** Official Lotte Japan page identifies Xylitol Gum Cola, 14 pieces, and the ingredient declaration in Japanese.
+
+
+### Branston Original Pickle / Branston Original Pickle
+
+- **ID:** `branston-original-pickle-uk-360g`
+- **Marca / Brand:** Branston
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 360 g jar
+- **Categoría / Category:** `pickle`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pickle británico agridulce de verduras, vinagre y especias.
+- **Description (EN):** British sweet-and-tangy vegetable pickle with vinegar and spices.
+
+**Ingredientes declarados / Declared ingredients**
+
+Vegetables in variable proportions (52%) (carrot, rutabaga, onion, cauliflower), sugar, barley malt vinegar, water, spirit vinegar, tomato purée, date paste (dates, rice flour), salt, apple pulp, modified maize starch, colour (sulphite ammonia caramel), onion powder, concentrated lemon juice, spices, colouring food (roasted barley malt extract), herb and spice extracts.
+
+**Respuestas aceptadas / Accepted answers (21)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| zanahoria | carrot | zanahoria, carrot |
+| nabo sueco | swede | nabo sueco, swede, rutabaga |
+| cebolla | onion | cebolla, onion |
+| coliflor | cauliflower | coliflor, cauliflower |
+| azúcar | sugar | azúcar, sugar |
+| vinagre de malta de cebada | barley malt vinegar | vinagre de malta de cebada, barley malt vinegar |
+| agua | water | agua, water |
+| vinagre de alcohol | spirit vinegar | vinagre de alcohol, spirit vinegar |
+| puré de tomate | tomato purée | puré de tomate, tomato purée, tomato puree |
+| pasta de dátiles | date paste | pasta de dátiles, date paste |
+| dátiles | dates | dátiles, dates |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| sal | salt | sal, salt |
+| pulpa de manzana | apple pulp | pulpa de manzana, apple pulp |
+| almidón de maíz modificado | modified maize starch | almidón de maíz modificado, modified maize starch, modified corn starch |
+| colorante caramelo de sulfito amónico | sulphite ammonia caramel colour | colorante caramelo de sulfito amónico, sulphite ammonia caramel colour, sulphite ammonia caramel color |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| jugo concentrado de limón | concentrated lemon juice | jugo concentrado de limón, concentrated lemon juice |
+| especias | spices | especias, spices |
+| extracto de malta de cebada tostada | roasted barley malt extract | extracto de malta de cebada tostada, roasted barley malt extract |
+| extractos de hierbas y especias | herb and spice extracts | extractos de hierbas y especias, herb and spice extracts |
+
+**Fuente / Source:** [Branston](https://www.bringoutthebranston.co.uk/range/pickle/original-pickle/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Branston UK product page lists the Original Pickle ingredients, vegetable composition and available jar sizes.
+
+### Pocky Almond Crush / Pocky Almond Crush
+
+- **ID:** `pocky-almond-crush-us-41g`
+- **Marca / Brand:** Glico
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 1.45 oz (41 g) box
+- **Categoría / Category:** `chocolate_biscuit_sticks`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Palitos de galleta cubiertos con chocolate con leche y almendras.
+- **Description (EN):** Biscuit sticks coated with milk chocolate and roasted almonds.
+
+**Ingredientes declarados / Declared ingredients**
+
+Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate, riboflavin, folic acid), sugar, almond, whole milk powder, cacao butter equivalent (palm oil, sunflower oil, lecithin, tocopherol concentrate (preservative)), chocolate liquor, cacao butter, whole wheat flour, vegetable shortening (palm oil, fully hydrogenated palm oil), artificial flavor, salt, soy lecithin, PGPR, baker's yeast.
+
+**Respuestas aceptadas / Accepted answers (22)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| fumarato ferroso | ferrous fumarate | fumarato ferroso, ferrous fumarate |
+| niacinamida | niacinamide | niacinamida, niacinamide |
+| mononitrato de tiamina | thiamin mononitrate | mononitrato de tiamina, thiamin mononitrate, vitamina B1, vitamin B1 |
+| riboflavina | riboflavin | riboflavina, riboflavin, vitamina B2, vitamin B2 |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| azúcar | sugar | azúcar, sugar |
+| almendras | almond | almendras, almond, almendra |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| lecitina | lecithin | lecitina, lecithin |
+| concentrado de tocoferoles | tocopherol concentrate | concentrado de tocoferoles, tocopherol concentrate |
+| licor de chocolate | chocolate liquor | licor de chocolate, chocolate liquor |
+| manteca de cacao | cacao butter | manteca de cacao, cacao butter, cocoa butter |
+| harina integral de trigo | whole wheat flour | harina integral de trigo, whole wheat flour |
+| grasa vegetal | vegetable shortening | grasa vegetal, vegetable shortening |
+| saborizante artificial | artificial flavor | saborizante artificial, artificial flavor, artificial flavour |
+| sal | salt | sal, salt |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| PGPR | PGPR | PGPR, PGPR, polirricinoleato de poliglicerol, polyglycerol polyricinoleate |
+| levadura de panadería | baker's yeast | levadura de panadería, baker's yeast, baker yeast |
+
+**Fuente / Source:** [Ezaki Glico USA](https://www.glico.com/us/product/pocky/18957/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Glico USA product page gives Pocky Almond Crush 1.45 oz and full US-market ingredients; may-contain statement excluded.
+
+### Nestlé Chocapic / Nestlé Chocapic
+
+- **ID:** `chocapic-cereal-france-1kg`
+- **Marca / Brand:** Nestlé
+- **País / Country:** France
+- **Mercado / Market:** France
+- **Envase / Package:** 1 kg foodservice pack (French product sheet)
+- **Categoría / Category:** `breakfast_cereal`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_specification`
+- **Descripción (ES):** Cereal de trigo integral con chocolate, según ficha de producto francesa.
+- **Description (EN):** Whole-wheat chocolate breakfast cereal, per a French product specification.
+
+**Ingredientes declarados / Declared ingredients**
+
+Whole wheat flour 37.5%, wheat flour 18.5%, chocolate powder 18.1% (sugar, cocoa powder), corn semolina, glucose syrup, barley malt extract (barley, malted barley), sunflower oil, calcium carbonate, sugar, malted barley flour, emulsifier (lecithins), salt, natural flavours, iron, vitamins B3, B5, D, B6, B1, B2 and B9.
+
+**Respuestas aceptadas / Accepted answers (23)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina integral de trigo | whole wheat flour | harina integral de trigo, whole wheat flour |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| cacao en polvo | cocoa powder | cacao en polvo, cocoa powder |
+| sémola de maíz | corn semolina | sémola de maíz, corn semolina |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| extracto de malta de cebada | barley malt extract | extracto de malta de cebada, barley malt extract |
+| cebada | barley | cebada, barley |
+| cebada malteada | malted barley | cebada malteada, malted barley |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| carbonato de calcio | calcium carbonate | carbonato de calcio, calcium carbonate, E170 |
+| harina de cebada malteada | malted barley flour | harina de cebada malteada, malted barley flour |
+| lecitinas | lecithins | lecitinas, lecithins, lecitina, lecithin |
+| sal | salt | sal, salt |
+| aromas naturales | natural flavours | aromas naturales, natural flavours, natural flavors |
+| hierro | iron | hierro, iron |
+| niacina | niacin | niacina, niacin, vitamina B3, vitamin B3 |
+| ácido pantoténico | pantothenic acid | ácido pantoténico, pantothenic acid, vitamina B5, vitamin B5 |
+| vitamina D | vitamin D | vitamina D, vitamin D |
+| vitamina B6 | vitamin B6 | vitamina B6, vitamin B6 |
+| vitamina B1 | vitamin B1 | vitamina B1, vitamin B1, tiamina, thiamin |
+| vitamina B2 | vitamin B2 | vitamina B2, vitamin B2, riboflavina, riboflavin |
+| vitamina B9 | vitamin B9 | vitamina B9, vitamin B9, ácido fólico, folic acid |
+
+**Fuente / Source:** [METRO France product specification](https://cdn.metro-group.com/fr/fr_psh_164572001001_02.pdf)  
+**Tipo / Type:** `retailer_specification`  
+**Alcance / Supports:** French METRO product specification for Chocapic 1 kg, GTIN 7613032779566, states French origin and ingredient list; not manufacturer-hosted.
+
+### Lotus Biscoff Speculoos / Lotus Biscoff Speculoos
+
+- **ID:** `lotus-biscoff-speculoos-belgium-250g`
+- **Marca / Brand:** Lotus Bakeries
+- **País / Country:** Belgium
+- **Mercado / Market:** Belgium
+- **Envase / Package:** 250 g pack
+- **Categoría / Category:** `plain_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas especiadas belgas tipo speculoos.
+- **Description (EN):** Belgian spiced speculoos biscuits.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat flour, sugar, vegetable oils (palm oil, rapeseed oil), candy sugar syrup, raising agent (sodium hydrogen carbonate), soya flour, salt, cinnamon.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| jarabe de azúcar candi | candy sugar syrup | jarabe de azúcar candi, candy sugar syrup, candi syrup |
+| gasificante bicarbonato de sodio | sodium hydrogen carbonate | gasificante bicarbonato de sodio, sodium hydrogen carbonate, baking soda, bicarbonato de sodio |
+| harina de soja | soya flour | harina de soja, soya flour, soy flour |
+| sal | salt | sal, salt |
+| canela | cinnamon | canela, cinnamon |
+
+**Fuente / Source:** [Lotus Bakeries Belgium](https://www.lotusbakeries.be/nl/producten/speculoos)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Lotus Bakeries Belgium product page lists Speculoos 250 g and its ingredient declaration in Dutch.
+
+### Kraft Dinner Original Macaroni & Cheese / Kraft Dinner Original Macaroni & Cheese
+
+- **ID:** `kraft-dinner-original-canada-200g`
+- **Marca / Brand:** Kraft Heinz
+- **País / Country:** Canada
+- **Mercado / Market:** Canada
+- **Envase / Package:** 200 g box
+- **Categoría / Category:** `boxed_macaroni`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Macarrones con salsa de queso en polvo, versión canadiense.
+- **Description (EN):** Macaroni with powdered cheese sauce, Canadian-market formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+Pasta (wheat), cheese sauce (whey powder, cheddar cheese, salt, butter, paprika, turmeric, annatto, natural flavours, citric acid (acidulant), sodium phosphate).
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| trigo | wheat | trigo, wheat |
+| pasta | pasta | pasta, pasta, macarrones, macaroni |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| queso cheddar | cheddar cheese | queso cheddar, cheddar cheese |
+| sal | salt | sal, salt |
+| manteca | butter | manteca, butter |
+| pimentón | paprika | pimentón, paprika |
+| cúrcuma | turmeric | cúrcuma, turmeric |
+| achiote | annatto | achiote, annatto, roucou |
+| aromas naturales | natural flavours | aromas naturales, natural flavours, natural flavors |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| fosfato de sodio | sodium phosphate | fosfato de sodio, sodium phosphate |
+
+**Fuente / Source:** [Kraft Heinz Canada](https://www.kraftheinz.com/en-CA/kraft-dinner/products/00068100904826-original-macaroni-and-cheese-dinner)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kraft Heinz Canada page lists Original Macaroni and Cheese Dinner, 200 g size, and Canadian ingredient declaration.
+
+### Barilla Pesto alla Genovese / Barilla Pesto alla Genovese
+
+- **ID:** `barilla-pesto-alla-genovese-italy-190g`
+- **Marca / Brand:** Barilla
+- **País / Country:** Italy
+- **Mercado / Market:** Latin America product page; made in Italy
+- **Envase / Package:** 190 g jar
+- **Categoría / Category:** `pesto`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pesto con albahaca, anacardos y quesos italianos; fórmula de la ficha regional.
+- **Description (EN):** Basil pesto with cashews and Italian cheeses, per the regional product page.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sunflower oil, basil 30%, cashew nuts, Parmigiano Reggiano DOP cheese 5% (milk), corn fibre, whey powder, salt, milk proteins, natural flavours (milk), extra virgin olive oil, sugar, acidity regulator (lactic acid), garlic.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| albahaca | basil | albahaca, basil |
+| anacardos | cashew nuts | anacardos, cashew nuts, cashews, castañas de cajú |
+| queso Parmigiano Reggiano | Parmigiano Reggiano cheese | queso Parmigiano Reggiano, Parmigiano Reggiano cheese |
+| leche | milk | leche, milk |
+| fibra de maíz | corn fibre | fibra de maíz, corn fibre, corn fiber |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| sal | salt | sal, salt |
+| proteínas de leche | milk proteins | proteínas de leche, milk proteins |
+| aromas naturales | natural flavours | aromas naturales, natural flavours, natural flavors |
+| aceite de oliva virgen extra | extra virgin olive oil | aceite de oliva virgen extra, extra virgin olive oil |
+| azúcar | sugar | azúcar, sugar |
+| ácido láctico | lactic acid | ácido láctico, lactic acid, E270 |
+| ajo | garlic | ajo, garlic |
+
+**Fuente / Source:** [Barilla](https://www.barilla.com/es-la/productos/pestos/pesto/pesto-alla-genovese)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Barilla Spanish-language regional page lists 190 g, ingredient details and says produced in Italy; this is the specific regional recipe.
+
+### Monster Munch Pickled Onion / Monster Munch Pickled Onion
+
+- **ID:** `monster-munch-pickled-onion-uk`
+- **Marca / Brand:** Walkers
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** Pack size varies; individual snack bag
+- **Categoría / Category:** `corn_snack`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack inflado de maíz con sabor a cebolla encurtida.
+- **Description (EN):** Puffed maize snack with pickled onion flavour.
+
+**Ingredientes declarados / Declared ingredients**
+
+Maize, rapeseed oil, pickled onion seasoning (flavourings, whey permeate (from milk), onion powder, sugar, flavour enhancers (monosodium glutamate, disodium 5'-ribonucleotide), salt, potassium chloride, garlic powder, hydrolysed soya protein, citric acid, spices).
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| maíz | maize | maíz, maize, corn |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| permeado de suero | whey permeate | permeado de suero, whey permeate |
+| leche | milk | leche, milk |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| azúcar | sugar | azúcar, sugar |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| 5'-ribonucleótido disódico | disodium 5'-ribonucleotide | 5'-ribonucleótido disódico, disodium 5'-ribonucleotide, E635 |
+| sal | salt | sal, salt |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride, E508 |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| proteína de soja hidrolizada | hydrolysed soya protein | proteína de soja hidrolizada, hydrolysed soya protein, hydrolyzed soy protein |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| especias | spices | especias, spices |
+
+**Fuente / Source:** [Walkers UK](https://www.walkers.co.uk/our-range/family-snacks/monster-munch-pickled-onion)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Walkers UK product page gives Pickled Onion Monster Munch ingredients; exact retail pack size varies.
+
+### Cadbury Wispa Gold / Cadbury Wispa Gold
+
+- **ID:** `cadbury-wispa-gold-uk-48g`
+- **Marca / Brand:** Cadbury
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 48 g bar
+- **Categoría / Category:** `chocolate_bar`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Barra de chocolate con leche aireado y caramelo.
+- **Description (EN):** Aerated milk chocolate bar with caramel.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk, sugar, glucose syrup, cocoa butter, vegetable fats (palm, shea), glucose-fructose syrup, cocoa mass, whey powder (from milk), emulsifiers (E442, E471), salt, sodium carbonate, flavourings.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| leche | milk | leche, milk |
+| azúcar | sugar | azúcar, sugar |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| grasa de karité | shea fat | grasa de karité, shea fat |
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| masa de cacao | cocoa mass | masa de cacao, cocoa mass |
+| suero en polvo | whey powder | suero en polvo, whey powder |
+| emulsionante E442 | E442 emulsifier | emulsionante E442, E442 emulsifier, amonio fosfátidos, ammonium phosphatides |
+| emulsionante E471 | E471 emulsifier | emulsionante E471, E471 emulsifier, mono y diglicéridos de ácidos grasos |
+| sal | salt | sal, salt |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+
+**Fuente / Source:** [Cadbury UK](https://www.cadbury.co.uk/products/cadbury-wispa-gold-chocolate-bar-48g/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Cadbury UK page identifies Wispa Gold 48 g and its UK ingredients; may-contain nuts is precautionary and excluded.
+
+### HP Brown Sauce / HP Brown Sauce
+
+- **ID:** `hp-brown-sauce-uk-255g`
+- **Marca / Brand:** HP
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 255 g glass bottle
+- **Categoría / Category:** `brown_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa marrón británica con tomate, dátiles y tamarindo.
+- **Description (EN):** British brown sauce with tomatoes, dates and tamarind.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tomatoes, malt vinegar (with barley), molasses, glucose-fructose syrup, spirit vinegar, sugar, dates, modified corn starch, rye flour, salt, spices, flavourings, tamarind.
+
+**Respuestas aceptadas / Accepted answers (14)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| tomates | tomatoes | tomates, tomatoes, tomate |
+| vinagre de malta | malt vinegar | vinagre de malta, malt vinegar |
+| cebada | barley | cebada, barley |
+| melaza | molasses | melaza, molasses |
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| vinagre de alcohol | spirit vinegar | vinagre de alcohol, spirit vinegar |
+| azúcar | sugar | azúcar, sugar |
+| dátiles | dates | dátiles, dates |
+| almidón de maíz modificado | modified corn starch | almidón de maíz modificado, modified corn starch, modified maize starch |
+| harina de centeno | rye flour | harina de centeno, rye flour |
+| sal | salt | sal, salt |
+| especias | spices | especias, spices |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| tamarindo | tamarind | tamarindo, tamarind |
+
+**Fuente / Source:** [Heinz / HP](https://www.heinz.com/fr-FR/produits/05000111001007-hp-brown-flacon-verre-255-g-x-12)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Heinz France listing for HP Brown 255 g glass bottle gives ingredients in French; product is the UK-style HP Brown Sauce.
+
+### Heinz Saucy Sauce / Heinz Saucy Sauce
+
+- **ID:** `heinz-saucy-sauce-uk-415ml`
+- **Marca / Brand:** Heinz
+- **País / Country:** United Kingdom
+- **Mercado / Market:** United Kingdom
+- **Envase / Package:** 415 ml bottle
+- **Categoría / Category:** `condiment_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa que combina mayonesa Heinz y ketchup de tomate.
+- **Description (EN):** Sauce combining Heinz mayonnaise and tomato ketchup.
+
+**Ingredientes declarados / Declared ingredients**
+
+Rapeseed oil (40%), tomato purée (22%), spirit vinegar, sugar, egg yolk (3%), starch, salt, mustard seeds, spice and herb extract (contains celery), antioxidant (calcium disodium EDTA).
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| puré de tomate | tomato purée | puré de tomate, tomato purée, tomato puree |
+| vinagre de alcohol | spirit vinegar | vinagre de alcohol, spirit vinegar |
+| azúcar | sugar | azúcar, sugar |
+| yema de huevo | egg yolk | yema de huevo, egg yolk |
+| almidón | starch | almidón, starch |
+| sal | salt | sal, salt |
+| semillas de mostaza | mustard seeds | semillas de mostaza, mustard seeds |
+| extracto de especias y hierbas | spice and herb extract | extracto de especias y hierbas, spice and herb extract |
+| apio | celery | apio, celery |
+| EDTA cálcico disódico | calcium disodium EDTA | EDTA cálcico disódico, calcium disodium EDTA, E385 |
+
+**Fuente / Source:** [Heinz UK](https://www.heinz.com/en-GB/products/05000157143365-saucy-sauce)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Heinz UK page lists Saucy Sauce 415 ml and ingredients, including celery in spice and herb extract.
