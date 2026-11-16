@@ -1081,6 +1081,69 @@
       "url": "https://www.marsfoodservices.com/product/m-ms-brand-peanut-butter-chocolate-candies",
       "supports": "Official Mars Foodservices product page identifies M&M'S Peanut Butter sharing-size 2.83 oz packs and provides the ready-to-eat ingredient declaration.",
       "market": "United States"
+    },
+    {
+      "id": "image-heinz-tomato-ketchup-us-38oz",
+      "productId": "heinz-tomato-ketchup-us-38oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/15474017983",
+      "supports": "Heinz Tomato Ketchup US 38 oz bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-kelloggs-corn-flakes-us-9-6oz",
+      "productId": "kelloggs-corn-flakes-us-9-6oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/Kellogg-s-Corn-Flakes-Breakfast-Cereal-8-Vitamins-and-Minerals-Healthy-Snacks-Original-9-6oz-Box-1-Box/745853764",
+      "supports": "Kellogg's Corn Flakes US 9.6 oz box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-pringles-original-us-5-2oz",
+      "productId": "pringles-original-us-5-2oz",
+      "publisher": "Dollar General",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.dollargeneral.com/p/pringles-original-potato-crisps-chips-lunch-snacks-5-2-oz/038000138416",
+      "supports": "Pringles Original US 5.2 oz can product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-campbells-tomato-soup-us-10-75oz",
+      "productId": "campbells-tomato-soup-us-10-75oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/519481778",
+      "supports": "Campbell's Condensed Tomato Soup US 10.75 oz can product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-campbells-chicken-noodle-us-10-75oz",
+      "productId": "campbells-chicken-noodle-us-10-75oz",
+      "publisher": "Instacart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.instacart.com/products/16548089-campbell-s-chicken-noodle-soup-10-75-oz",
+      "supports": "Campbell's Condensed Chicken Noodle Soup US 10.75 oz can product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-snickers-original-us-1-86oz",
+      "productId": "snickers-original-us-1-86oz",
+      "publisher": "Instacart",
+      "sourceType": "retailer_product_image",
+      "url": "https://sameday.dollartree.com/store/dollar-tree/products/16753683-snickers-chocolate-candy-bar-single-1-86-oz",
+      "supports": "SNICKERS US 1.86 oz bar product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-ritz-original-us-10-3oz",
+      "productId": "ritz-original-us-10-3oz",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/34632325",
+      "supports": "RITZ Original US 10.3 oz box product image.",
+      "market": "United States"
     }
   ],
   "lastUpdated": "2026-11-16"
