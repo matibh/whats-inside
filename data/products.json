@@ -2640,6 +2640,1006 @@
       "verification": "retailer_label_transcription",
       "status": "ready",
       "region": "argentina"
+    },
+    {
+      "id": "pepitos-chocolate-ar-119g",
+      "barcode": null,
+      "name": "Galletitas Pepitos",
+      "brand": "Pepitos · Mondelez",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_cookies",
+      "package": "119 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas dulces con perlitas a base de cacao · ¿Qué ingredientes tienen?",
+        "en": "Sweet cookies with cocoa-based chips · Can you guess what's inside?"
+      },
+      "ingredientsText": "Harina de trigo enriquecida, azúcar, aceite vegetal, cacao en polvo, dextrosa, licor de cacao, manteca de cacao, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio, fosfato monocálcico), emulsionantes (sodio estearoil lactilato, lecitina de soja, polirricinoleato de poliglicerol, sorbitán triestearato, lecitina de girasol), aromatizantes artificiales de vainilla y almendra, colorante betacaroteno. Puede contener leche.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "licor de cacao",
+          "en": "chocolate liquor",
+          "aliases": [
+            "licor de cacao",
+            "chocolate liquor",
+            "cocoa liquor"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "baking soda",
+            "INS 500"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "INS 341"
+          ]
+        },
+        {
+          "es": "sodio estearoil lactilato",
+          "en": "sodium stearoyl lactylate",
+          "aliases": [
+            "sodio estearoil lactilato",
+            "sodium stearoyl lactylate",
+            "SSL"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "INS 476"
+          ]
+        },
+        {
+          "es": "sorbitán triestearato",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "sorbitán triestearato",
+            "sorbitan tristearate",
+            "INS 492"
+          ]
+        },
+        {
+          "es": "lecitina de girasol",
+          "en": "sunflower lecithin",
+          "aliases": [
+            "lecitina de girasol",
+            "sunflower lecithin"
+          ]
+        },
+        {
+          "es": "aromatizante de vainilla",
+          "en": "vanilla flavoring",
+          "aliases": [
+            "aromatizante de vainilla",
+            "vanilla flavoring",
+            "vainilla",
+            "vanilla"
+          ]
+        },
+        {
+          "es": "aromatizante de almendra",
+          "en": "almond flavoring",
+          "aliases": [
+            "aromatizante de almendra",
+            "almond flavoring",
+            "almendra",
+            "almond"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta-carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta-carotene",
+            "INS 160a"
+          ]
+        }
+      ],
+      "sourceId": "pepitos-jumbo-119",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina"
+    },
+    {
+      "id": "havanna-semilia-ar-55g",
+      "barcode": null,
+      "name": "Alfajor Havanna Semilia",
+      "brand": "Havanna",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_alfajor",
+      "package": "55 g (unidad; referencia de ficha comercial)",
+      "image": null,
+      "description": {
+        "es": "Alfajor sin TACC con semillas, dulce de leche y chocolate 70% cacao.",
+        "en": "Gluten-free alfajor with seeds, dulce de leche and 70% cocoa chocolate."
+      },
+      "ingredientsText": "Leche descremada, azúcar, glucosa, bicarbonato de sodio, sorbato de potasio, vainillina, chocolate amargo, lecitina de girasol, estabilizante INS 476, harina de arroz, azúcar mascabo, margarina, semillas de chía, sésamo blanco y girasol, fécula de papa, almidón de maíz, suero de leche, semillas de amapola y lino, fibra de celulosa, huevo entero en polvo, quinoa inflada, jarabe de maíz, fécula de mandioca, miel, yema de huevo en polvo, cacao en polvo, sal, sorbitol, bicarbonato de amonio, esencia natural de limón y esencia de galletita.",
+      "ingredients": [
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "chocolate amargo",
+          "en": "dark chocolate",
+          "aliases": [
+            "chocolate amargo",
+            "dark chocolate"
+          ]
+        },
+        {
+          "es": "lecitina de girasol",
+          "en": "sunflower lecithin",
+          "aliases": [
+            "lecitina de girasol",
+            "sunflower lecithin",
+            "INS 322"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "INS 476"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "azúcar mascabo",
+          "en": "muscovado sugar",
+          "aliases": [
+            "azúcar mascabo",
+            "muscovado sugar"
+          ]
+        },
+        {
+          "es": "margarina",
+          "en": "margarine",
+          "aliases": [
+            "margarina",
+            "margarine"
+          ]
+        },
+        {
+          "es": "semillas de chía",
+          "en": "chia seeds",
+          "aliases": [
+            "semillas de chía",
+            "chia seeds",
+            "chía"
+          ]
+        },
+        {
+          "es": "semillas de sésamo",
+          "en": "sesame seeds",
+          "aliases": [
+            "semillas de sésamo",
+            "sesame seeds",
+            "sésamo",
+            "sesame"
+          ]
+        },
+        {
+          "es": "semillas de girasol",
+          "en": "sunflower seeds",
+          "aliases": [
+            "semillas de girasol",
+            "sunflower seeds"
+          ]
+        },
+        {
+          "es": "fécula de papa",
+          "en": "potato starch",
+          "aliases": [
+            "fécula de papa",
+            "potato starch"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "maize starch"
+          ]
+        },
+        {
+          "es": "suero de leche",
+          "en": "whey",
+          "aliases": [
+            "suero de leche",
+            "whey"
+          ]
+        },
+        {
+          "es": "semillas de amapola",
+          "en": "poppy seeds",
+          "aliases": [
+            "semillas de amapola",
+            "poppy seeds",
+            "amapola"
+          ]
+        },
+        {
+          "es": "fibra de celulosa",
+          "en": "cellulose fiber",
+          "aliases": [
+            "fibra de celulosa",
+            "cellulose fiber"
+          ]
+        },
+        {
+          "es": "huevo entero en polvo",
+          "en": "whole egg powder",
+          "aliases": [
+            "huevo entero en polvo",
+            "whole egg powder"
+          ]
+        },
+        {
+          "es": "semillas de lino",
+          "en": "flax seeds",
+          "aliases": [
+            "semillas de lino",
+            "flax seeds",
+            "lino",
+            "linseed"
+          ]
+        },
+        {
+          "es": "quinoa inflada",
+          "en": "puffed quinoa",
+          "aliases": [
+            "quinoa inflada",
+            "puffed quinoa"
+          ]
+        },
+        {
+          "es": "jarabe de maíz",
+          "en": "corn syrup",
+          "aliases": [
+            "jarabe de maíz",
+            "corn syrup"
+          ]
+        },
+        {
+          "es": "fécula de mandioca",
+          "en": "cassava starch",
+          "aliases": [
+            "fécula de mandioca",
+            "cassava starch",
+            "tapioca starch"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "yema de huevo en polvo",
+          "en": "egg yolk powder",
+          "aliases": [
+            "yema de huevo en polvo",
+            "egg yolk powder"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sorbitol",
+          "en": "sorbitol",
+          "aliases": [
+            "sorbitol",
+            "INS 420"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii"
+          ]
+        },
+        {
+          "es": "esencia natural de limón",
+          "en": "natural lemon flavor",
+          "aliases": [
+            "esencia natural de limón",
+            "natural lemon flavor",
+            "limón",
+            "lemon"
+          ]
+        },
+        {
+          "es": "esencia de galletita",
+          "en": "cookie flavoring",
+          "aliases": [
+            "esencia de galletita",
+            "cookie flavoring",
+            "galletita",
+            "biscuit flavor"
+          ]
+        }
+      ],
+      "sourceId": "havanna-semilia-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina"
+    },
+    {
+      "id": "gallo-snacks-queso-ar-50g",
+      "barcode": null,
+      "name": "Gallo Snacks Queso",
+      "brand": "Gallo",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "rice_crackers",
+      "package": "50 g",
+      "image": null,
+      "description": {
+        "es": "Snack crocante de arroz sabor queso.",
+        "en": "Crunchy rice snack with cheese flavor."
+      },
+      "ingredientsText": "Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, colorantes betacaroteno y amarillo ocaso, emulsionantes ésteres de ácidos grasos con poliglicerol, mono y diglicéridos de ácidos grasos y polioxietilen sorbitán monooleato, antioxidantes tocoferoles concentrados y ter butil hidroquinona. Puede contener derivados de soja.",
+      "ingredients": [
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "maize starch"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skim milk",
+          "aliases": [
+            "leche descremada",
+            "skim milk"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aromatizante/saborizante",
+          "en": "flavoring",
+          "aliases": [
+            "aromatizante/saborizante",
+            "flavoring",
+            "aromatizante",
+            "saborizante",
+            "flavor"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta-carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta-carotene",
+            "INS 160a"
+          ]
+        },
+        {
+          "es": "amarillo ocaso",
+          "en": "sunset yellow",
+          "aliases": [
+            "amarillo ocaso",
+            "sunset yellow",
+            "Yellow 6",
+            "INS 110"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con poliglicerol",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con poliglicerol",
+            "polyglycerol esters of fatty acids"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "mono y diglicéridos"
+          ]
+        },
+        {
+          "es": "polioxietilen sorbitán monooleato",
+          "en": "polysorbate 80",
+          "aliases": [
+            "polioxietilen sorbitán monooleato",
+            "polysorbate 80",
+            "INS 433"
+          ]
+        },
+        {
+          "es": "tocoferoles concentrados",
+          "en": "mixed tocopherols",
+          "aliases": [
+            "tocoferoles concentrados",
+            "mixed tocopherols",
+            "tocoferoles",
+            "tocopherols"
+          ]
+        },
+        {
+          "es": "ter butil hidroquinona",
+          "en": "tertiary butylhydroquinone",
+          "aliases": [
+            "ter butil hidroquinona",
+            "tertiary butylhydroquinone",
+            "TBHQ",
+            "INS 319"
+          ]
+        }
+      ],
+      "sourceId": "gallo-queso-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina"
+    },
+    {
+      "id": "cachafaz-alfajor-maizena-ar-456g",
+      "barcode": null,
+      "name": "Alfajor de Maizena Cachafaz",
+      "brand": "Cachafaz",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "white_alfajor",
+      "package": "456 g (caja de 6 unidades)",
+      "image": null,
+      "description": {
+        "es": "Alfajores de maicena con dulce de leche y coco rallado.",
+        "en": "Cornstarch alfajores with dulce de leche and shredded coconut."
+      },
+      "ingredientsText": "Leche entera, azúcar, glucosa, pectina (INS 406), aroma a vainilla, bicarbonato de sodio, sorbato de potasio, harina de trigo enriquecida, aceite vegetal interesterificado, fécula, huevo en polvo, leche entera en polvo, sal, bicarbonato de amonio, fosfatos (INS 450i, INS 341i e INS 341iii), celulosa microcristalina, propionato de calcio, colorante natural, coco rallado.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "pectina",
+          "en": "pectin",
+          "aliases": [
+            "pectina",
+            "pectin",
+            "INS 406"
+          ]
+        },
+        {
+          "es": "aroma a vainilla",
+          "en": "vanilla flavoring",
+          "aliases": [
+            "aroma a vainilla",
+            "vanilla flavoring",
+            "vainilla",
+            "vanilla"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii",
+            "baking soda"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal interesterificado",
+          "en": "interesterified vegetable oil",
+          "aliases": [
+            "aceite vegetal interesterificado",
+            "interesterified vegetable oil"
+          ]
+        },
+        {
+          "es": "fécula",
+          "en": "starch",
+          "aliases": [
+            "fécula",
+            "starch"
+          ]
+        },
+        {
+          "es": "huevo en polvo",
+          "en": "egg powder",
+          "aliases": [
+            "huevo en polvo",
+            "egg powder"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii"
+          ]
+        },
+        {
+          "es": "pirofosfato ácido de sodio",
+          "en": "sodium acid pyrophosphate",
+          "aliases": [
+            "pirofosfato ácido de sodio",
+            "sodium acid pyrophosphate",
+            "INS 450i"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "INS 341i"
+          ]
+        },
+        {
+          "es": "fosfato tricálcico",
+          "en": "tricalcium phosphate",
+          "aliases": [
+            "fosfato tricálcico",
+            "tricalcium phosphate",
+            "INS 341iii"
+          ]
+        },
+        {
+          "es": "celulosa microcristalina",
+          "en": "microcrystalline cellulose",
+          "aliases": [
+            "celulosa microcristalina",
+            "microcrystalline cellulose",
+            "INS 460ii"
+          ]
+        },
+        {
+          "es": "propionato de calcio",
+          "en": "calcium propionate",
+          "aliases": [
+            "propionato de calcio",
+            "calcium propionate",
+            "INS 282"
+          ]
+        },
+        {
+          "es": "colorante natural",
+          "en": "natural coloring",
+          "aliases": [
+            "colorante natural",
+            "natural coloring",
+            "colorante"
+          ]
+        },
+        {
+          "es": "coco rallado",
+          "en": "shredded coconut",
+          "aliases": [
+            "coco rallado",
+            "shredded coconut"
+          ]
+        }
+      ],
+      "sourceId": "cachafaz-maizena-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina"
+    },
+    {
+      "id": "santa-maria-mechaditas-ar-200g",
+      "barcode": null,
+      "name": "Galletitas Santa María Mechaditas",
+      "brand": "Santa María",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_cookies",
+      "package": "200 g",
+      "image": null,
+      "description": {
+        "es": "Galletitas sin gluten con chips de chocolate.",
+        "en": "Gluten-free cookies with chocolate chips."
+      },
+      "ingredientsText": "Harina de arroz, azúcar, almidón de maíz, aceite vegetal, chips de chocolate, huevo, bicarbonato de sodio, fosfato monocálcico, bicarbonato de amonio, sal, goma xántica, goma guar, esencia de vainilla, tartrazina y lecitina de soja. Puede contener leche.",
+      "ingredients": [
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "maize starch"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "chips de chocolate",
+          "en": "chocolate chips",
+          "aliases": [
+            "chips de chocolate",
+            "chocolate chips",
+            "chispas de chocolate"
+          ]
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "aliases": [
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "INS 341"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "INS 415"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum",
+            "INS 412"
+          ]
+        },
+        {
+          "es": "esencia de vainilla",
+          "en": "vanilla essence",
+          "aliases": [
+            "esencia de vainilla",
+            "vanilla essence",
+            "vainilla",
+            "vanilla"
+          ]
+        },
+        {
+          "es": "tartrazina",
+          "en": "tartrazine",
+          "aliases": [
+            "tartrazina",
+            "tartrazine",
+            "Yellow 5",
+            "INS 102"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        }
+      ],
+      "sourceId": "santa-maria-mechaditas-jumbo",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina"
     }
   ]
 }
