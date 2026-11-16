@@ -89,7 +89,11 @@
       ],
       "sourceId": "nutella-italy-ferrero",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Nutella",
+        "en": "Nutella"
+      }
     },
     {
       "id": "coca-cola-original-us",
@@ -162,7 +166,11 @@
       ],
       "sourceId": "coca-cola-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Coca-Cola sabor original",
+        "en": "Coca-Cola Original Taste"
+      }
     },
     {
       "id": "oreo-original-us-family",
@@ -337,7 +345,11 @@
       ],
       "sourceId": "oreo-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Oreo Original",
+        "en": "Oreo Original"
+      }
     },
     {
       "id": "pringles-original-us-5-2oz",
@@ -475,7 +487,11 @@
       ],
       "sourceId": "pringles-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Pringles Original",
+        "en": "Pringles The Original"
+      }
     },
     {
       "id": "heinz-tomato-ketchup-us-38oz",
@@ -566,7 +582,11 @@
       ],
       "sourceId": "heinz-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Ketchup de tomate Heinz",
+        "en": "Heinz Tomato Ketchup"
+      }
     },
     {
       "id": "kelloggs-corn-flakes-us-9-6oz",
@@ -691,7 +711,11 @@
       ],
       "sourceId": "kelloggs-cornflakes-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Kellogg's Corn Flakes",
+        "en": "Kellogg's Corn Flakes"
+      }
     },
     {
       "id": "toblerone-milk-switzerland-100g",
@@ -797,7 +821,11 @@
       ],
       "sourceId": "toblerone-switzerland-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Toblerone chocolate con leche",
+        "en": "Toblerone Milk Chocolate"
+      }
     },
     {
       "id": "kitkat-milk-chocolate-us-1-5oz",
@@ -941,7 +969,11 @@
       ],
       "sourceId": "kitkat-us-hershey",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Kit Kat chocolate con leche",
+        "en": "Kit Kat Milk Chocolate"
+      }
     },
     {
       "id": "cheerios-original-us-8-9oz",
@@ -1103,7 +1135,11 @@
       ],
       "sourceId": "cheerios-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Cheerios Original",
+        "en": "Original Cheerios"
+      }
     },
     {
       "id": "froot-loops-us-13-2oz",
@@ -1353,7 +1389,11 @@
       ],
       "sourceId": "froot-loops-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Kellogg's Froot Loops",
+        "en": "Kellogg's Froot Loops"
+      }
     },
     {
       "id": "frosted-flakes-us-17-3oz",
@@ -1475,7 +1515,11 @@
       ],
       "sourceId": "frosted-flakes-us-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Kellogg's Frosted Flakes",
+        "en": "Kellogg's Frosted Flakes"
+      }
     },
     {
       "id": "campbells-tomato-soup-us-10-75oz",
@@ -1594,7 +1638,11 @@
       ],
       "sourceId": "campbells-tomato-soup-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Sopa condensada de tomate Campbell's",
+        "en": "Campbell's Condensed Tomato Soup"
+      }
     },
     {
       "id": "campbells-chicken-noodle-us-10-75oz",
@@ -1825,7 +1873,11 @@
       ],
       "sourceId": "campbells-chicken-noodle-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Sopa condensada de pollo con fideos Campbell's",
+        "en": "Campbell's Condensed Chicken Noodle Soup"
+      }
     },
     {
       "id": "snickers-original-us-1-86oz",
@@ -1960,7 +2012,11 @@
       ],
       "sourceId": "snickers-us-mars",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Barra SNICKERS",
+        "en": "SNICKERS Bar"
+      }
     },
     {
       "id": "ritz-original-us-10-3oz",
@@ -2122,7 +2178,11 @@
       ],
       "sourceId": "ritz-us-snackworks",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Galletitas RITZ Original",
+        "en": "RITZ Original Crackers"
+      }
     },
     {
       "id": "lays-classic-us-1-5oz",
@@ -2201,7 +2261,11 @@
       ],
       "sourceId": "lays-classic-us",
       "verification": "retailer_transcription",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Papas fritas Lay's clásicas",
+        "en": "Lay's Classic Potato Chips"
+      }
     },
     {
       "id": "doritos-nacho-cheese-us-foodservice-1-4oz",
@@ -2512,7 +2576,11 @@
       ],
       "sourceId": "doritos-nacho-cheese-school-source",
       "verification": "manufacturer_foodservice_document",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Doritos sabor queso nacho",
+        "en": "Doritos Nacho Cheese"
+      }
     },
     {
       "id": "reeses-peanut-butter-cups-us-4-4oz",
@@ -2781,7 +2849,11 @@
       ],
       "sourceId": "reeses-us-hershey",
       "verification": "manufacturer_smartlabel_plus_retailer_crosscheck",
-      "status": "ready"
+      "status": "ready",
+      "nameI18n": {
+        "es": "Tazas REESE'S de chocolate y mantequilla de maní",
+        "en": "REESE'S Peanut Butter Cups Snack Size"
+      }
     }
   ]
 }
