@@ -1144,6 +1144,78 @@
       "url": "https://www.walmart.com/ip/34632325",
       "supports": "RITZ Original US 10.3 oz box product image.",
       "market": "United States"
+    },
+    {
+      "id": "image-haribo-goldbears-us-5oz",
+      "productId": "haribo-goldbears-us-5oz",
+      "publisher": "Stevenson's Toys & Games",
+      "sourceType": "retailer_product_image",
+      "url": "https://stevensonstoys.com/products/1003931",
+      "supports": "HARIBO Gold-Bears 5 oz US bag product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-walkers-ready-salted-uk",
+      "productId": "walkers-ready-salted-uk",
+      "publisher": "Automatic Refreshments",
+      "sourceType": "retailer_product_image",
+      "url": "https://automaticrefreshments.com/collections/crisps",
+      "supports": "Walkers Ready Salted UK bag product image; pictured 32.5 g retail pack.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-sabritas-original-mexico-45g",
+      "productId": "sabritas-original-mexico-45g",
+      "publisher": "Walmart México",
+      "sourceType": "retailer_product_image",
+      "url": "https://despensa.bodegaaurrera.com.mx/ip/papas-fritas-sabritas-original-45-g/00750101110145",
+      "supports": "Sabritas Original Mexico 45 g bag product image.",
+      "market": "Mexico"
+    },
+    {
+      "id": "image-nescau-cereal-brazil-210g",
+      "productId": "nescau-cereal-brazil-210g",
+      "publisher": "Cordeiro Supermercado",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.supercordeiro.com.br/11225-cer-nestle-210g-cx-nescau-choc/p",
+      "supports": "Nestlé Nescau Cereal Brazil 210 g box product image.",
+      "market": "Brazil"
+    },
+    {
+      "id": "image-barilla-pesto-genovese-italy-190g",
+      "productId": "barilla-pesto-genovese-italy-190g",
+      "publisher": "London Food Hall",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.londonfoodhall.co.uk/products/barilla-pesto-genovese-sauce-190g",
+      "supports": "Barilla Pesto alla Genovese 190 g jar product image.",
+      "market": "Italy"
+    },
+    {
+      "id": "image-tim-tam-original-australia-200g",
+      "productId": "tim-tam-original-australia-200g",
+      "publisher": "Aussie Pharma Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.aussiepharmadirect.com.au/products/tim-tam-original",
+      "supports": "Arnott's Tim Tam Original Australia 200 g pack product image.",
+      "market": "Australia"
+    },
+    {
+      "id": "image-ritter-sport-alpenmilch-germany-100g",
+      "productId": "ritter-sport-alpenmilch-germany-100g",
+      "publisher": "Our Sweet Indulgence",
+      "sourceType": "retailer_product_image",
+      "url": "https://oursweetindulgence.net/collections/german",
+      "supports": "Ritter Sport Alpine Milk Germany 100 g package image.",
+      "market": "Germany"
+    },
+    {
+      "id": "image-trakinas-chocolate-brazil-126g",
+      "productId": "trakinas-chocolate-brazil-126g",
+      "publisher": "Marché Brésil",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.marchebresil.com/en/products/trakinas-chocolate-120g",
+      "supports": "Trakinas Chocolate Brazil 126 g package image.",
+      "market": "Brazil"
     }
   ],
   "lastUpdated": "2026-11-16"
