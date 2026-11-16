@@ -361,7 +361,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "5.2 oz (US label)",
-      "image": null,
+      "image": "https://s7d1.scene7.com/is/image/dolgen/dg-00907205-1",
       "description": {
         "es": "Snack de papa apilable · versión estadounidense.",
         "en": "Stackable potato crisps · United States-market version."
@@ -491,7 +491,8 @@
       "nameI18n": {
         "es": "Pringles Original",
         "en": "Pringles The Original"
-      }
+      },
+      "imageSourceId": "image-pringles-original-us-5-2oz"
     },
     {
       "id": "heinz-tomato-ketchup-us-38oz",
@@ -503,7 +504,7 @@
       "region": "world",
       "category": "ketchup",
       "package": "38 oz",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Heinz-Tomato-Ketchup-38-oz-Bottle-Pack-of-6_0d427dd6-05b7-4464-bb4e-3ff07a427245.b18ed410cd6cb754ae5cb2a78dcee416.jpeg",
       "description": {
         "es": "Ketchup de tomate · versión estadounidense.",
         "en": "Tomato ketchup · United States-market version."
@@ -586,7 +587,8 @@
       "nameI18n": {
         "es": "Ketchup de tomate Heinz",
         "en": "Heinz Tomato Ketchup"
-      }
+      },
+      "imageSourceId": "image-heinz-tomato-ketchup-us-38oz"
     },
     {
       "id": "kelloggs-corn-flakes-us-9-6oz",
@@ -598,7 +600,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "9.6 oz (US label)",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Kellogg-s-Corn-Flakes-Breakfast-Cereal-8-Vitamins-and-Minerals-Healthy-Snacks-Original-9-6oz-Box-1-Box_31a6a23d-8574-4bad-bcc3-a9ffc7930f60.51b5f1373aeb8754fb7849a33d0fd791.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
       "description": {
         "es": "Cereal de copos de maíz · versión estadounidense.",
         "en": "Corn flakes cereal · United States-market version."
@@ -715,7 +717,8 @@
       "nameI18n": {
         "es": "Kellogg's Corn Flakes",
         "en": "Kellogg's Corn Flakes"
-      }
+      },
+      "imageSourceId": "image-kelloggs-corn-flakes-us-9-6oz"
     },
     {
       "id": "toblerone-milk-switzerland-100g",
@@ -1531,7 +1534,7 @@
       "region": "world",
       "category": "tomato_soup",
       "package": "10.75 oz can",
-      "image": null,
+      "image": "https://i5.walmartimages.com/seo/Campbell-s-Red-White-Tomato-Soup-10-75-Ounce-Cans-Pack-of-12_08aed42f-6393-416f-95c2-7962622480aa.2061dd9db7a3001668f03c4148289ce8.jpeg?odnBg=FFFFFF&odnHeight=768&odnWidth=768",
       "description": {
         "es": "Sopa condensada de tomate · versión estadounidense.",
         "en": "Condensed tomato soup · US version."
@@ -1642,7 +1645,8 @@
       "nameI18n": {
         "es": "Sopa condensada de tomate Campbell's",
         "en": "Campbell's Condensed Tomato Soup"
-      }
+      },
+      "imageSourceId": "image-campbells-tomato-soup-us-10-75oz"
     },
     {
       "id": "campbells-chicken-noodle-us-10-75oz",
@@ -1654,7 +1658,7 @@
       "region": "world",
       "category": "chicken_soup",
       "package": "10.75 oz can",
-      "image": null,
+      "image": "https://www.instacart.com/assets/domains/product-image/file/large_2ee05523-219f-4fcf-b93a-a63d30cccf77.jpg",
       "description": {
         "es": "Sopa condensada de pollo con fideos · versión estadounidense.",
         "en": "Condensed chicken noodle soup · US version."
@@ -1877,7 +1881,8 @@
       "nameI18n": {
         "es": "Sopa condensada de pollo con fideos Campbell's",
         "en": "Campbell's Condensed Chicken Noodle Soup"
-      }
+      },
+      "imageSourceId": "image-campbells-chicken-noodle-us-10-75oz"
     },
     {
       "id": "snickers-original-us-1-86oz",
@@ -1889,7 +1894,7 @@
       "region": "world",
       "category": "chocolate_bar",
       "package": "1.86 oz (52.7 g)",
-      "image": null,
+      "image": "https://www.instacart.com/assets/domains/product-image/file/large_c486d74c-b0b9-4fb2-ad05-930566c5b114.jpg",
       "description": {
         "es": "Barra de chocolate con leche, maní, caramelo y nougat · versión estadounidense.",
         "en": "Milk chocolate, peanut, caramel and nougat bar · US version."
@@ -2016,7 +2021,8 @@
       "nameI18n": {
         "es": "Barra SNICKERS",
         "en": "SNICKERS Bar"
-      }
+      },
+      "imageSourceId": "image-snickers-original-us-1-86oz"
     },
     {
       "id": "ritz-original-us-10-3oz",
@@ -2028,7 +2034,7 @@
       "region": "world",
       "category": "crackers",
       "package": "10.3 oz",
-      "image": null,
+      "image": "https://i5.walmartimages.com/asr/aa82044c-64ec-4911-beee-2dbd44777ecf.3a6159a4ecdb315e49d2fecb5247c3bf.jpeg",
       "description": {
         "es": "Galletitas saladas tipo cracker · versión estadounidense.",
         "en": "Original savory crackers · US version."
@@ -2182,7 +2188,8 @@
       "nameI18n": {
         "es": "Galletitas RITZ Original",
         "en": "RITZ Original Crackers"
-      }
+      },
+      "imageSourceId": "image-ritz-original-us-10-3oz"
     },
     {
       "id": "lays-classic-us-1-5oz",
