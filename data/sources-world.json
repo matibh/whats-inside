@@ -2035,6 +2035,51 @@
       "url": "https://www.clic-shopping.com/petit-dejeuner/cereales-enfants-ados-adultes/nestle-cereales-petales-au-chocolat-chocapic-430g-750g-ou-1-kg.html",
       "supports": "Nestlé Chocapic France 1 kg foodservice box product image.",
       "market": "France"
+    },
+    {
+      "id": "image-walkers-wotsits-really-cheesy-uk-22g",
+      "productId": "walkers-wotsits-really-cheesy-uk-22g",
+      "publisher": "Vending Warehouse",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.vendingwarehouse.co.uk/walkers-wotsits-really-cheesy-crisps-225g-32-pack",
+      "supports": "Walkers Wotsits Really Cheesy UK 22.5 g single bag product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-gatorade-lemon-lime-us-828ml",
+      "productId": "gatorade-lemon-lime-us-828ml",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/45081813",
+      "supports": "Gatorade Thirst Quencher Lemon-Lime US 28 fl oz (828 ml) bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-campbells-chicken-broth-latam-298ml",
+      "productId": "campbells-chicken-broth-latam-298ml",
+      "publisher": "La Torre Guatemala",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.latorre.com.gt/caldo-pollo-campbells-lata-68661/p",
+      "supports": "Campbell's Condensed Chicken Broth Latin America can image; package size updated to 10.5 oz (298 g).",
+      "market": "Latin America regional product page"
+    },
+    {
+      "id": "image-marukome-ryotei-no-aji-tofu-vegetarian-152g",
+      "productId": "marukome-ryotei-no-aji-tofu-vegetarian-152g",
+      "publisher": "NikanKitchen",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.nikankitchen.com/ja/products/91/marukome-ryotei-no-aji-instant-miso-soup-with-tofu-152g",
+      "supports": "Marukome Ryotei No Aji Tofu Vegetarian Miso Soup 152 g pack image.",
+      "market": "International foodservice / export listing"
+    },
+    {
+      "id": "image-lotte-xylitol-cola-gum-japan-14pcs",
+      "productId": "lotte-xylitol-cola-gum-japan-14pcs",
+      "publisher": "Tajimaya Japan",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.tajimaya-cc.net/products/240962",
+      "supports": "Lotte Xylitol Soda Gum Japan 14-piece pack product image.",
+      "market": "Japan"
     }
   ],
   "lastUpdated": "2026-11-16"
