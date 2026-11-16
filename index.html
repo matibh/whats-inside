@@ -177,7 +177,7 @@ async function loadProductCatalog(){
    $('productPlaceholder').style.display='none';
   }else{
    $('productImage').style.display='none';
-   const icons={instant_noodles:'🍜',pasta_sauce:'🍝',dark_chocolate:'🍫',fruit_jam:'🍓',bouillon:'🥣',snack_cake:'🧁',chocolate_biscuit_sticks:'🍫',gummy_candy:'🐻',chocolate_candy:'🍫',chocolate_spread:'🍫',chocolate_cookies:'🍪',filled_cookies:'🍪',potato_chips:'🥔',breakfast_cereal:'🥣',soft_drink:'🥤',yogurt:'🥛',plain_cookies:'🍪',milk_chocolate:'🍫',assorted_cookies:'🍪',chocolate_alfajor:'🍫',white_alfajor:'🍬',white_chocolate_alfajor:'🍫',orange_soda:'🥤',grapefruit_soda:'🥤',orange_juice_drink:'🧃',peanut_nougat:'🥜',sandwich_cookies:'🍪',ketchup:'🍅',chocolate_bar:'🍫',tomato_soup:'🥫',chicken_soup:'🥣',crackers:'🍘',tortilla_chips:'🌽',chocolate_candy:'🍫'};
+   const icons={canned_beans:'🥫',fruit_juice:'🧃',yeast_spread:'🥫',instant_noodles:'🍜',pasta_sauce:'🍝',dark_chocolate:'🍫',fruit_jam:'🍓',bouillon:'🥣',snack_cake:'🧁',chocolate_biscuit_sticks:'🍫',gummy_candy:'🐻',chocolate_candy:'🍫',chocolate_spread:'🍫',chocolate_cookies:'🍪',filled_cookies:'🍪',potato_chips:'🥔',breakfast_cereal:'🥣',soft_drink:'🥤',yogurt:'🥛',plain_cookies:'🍪',milk_chocolate:'🍫',assorted_cookies:'🍪',chocolate_alfajor:'🍫',white_alfajor:'🍬',white_chocolate_alfajor:'🍫',orange_soda:'🥤',grapefruit_soda:'🥤',orange_juice_drink:'🧃',peanut_nougat:'🥜',sandwich_cookies:'🍪',ketchup:'🍅',chocolate_bar:'🍫',tomato_soup:'🥫',chicken_soup:'🥣',crackers:'🍘',tortilla_chips:'🌽',chocolate_candy:'🍫'};
    $('productPlaceholder').textContent=icons[currentProduct.category]||'🥫';
    $('productPlaceholder').style.display='';
   }
