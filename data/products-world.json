@@ -11590,6 +11590,1468 @@
       "sourceId": "parle-g-biscuits-india",
       "verification": "retailer_label_transcription",
       "status": "ready"
+    },
+    {
+      "id": "whittakers-peanut-slab-new-zealand-50g",
+      "barcode": null,
+      "name": "Whittaker's Peanut Slab",
+      "nameI18n": {
+        "es": "Whittaker's Peanut Slab",
+        "en": "Whittaker's Peanut Slab"
+      },
+      "brand": "Whittaker's",
+      "country": "New Zealand",
+      "market": "New Zealand",
+      "region": "world",
+      "category": "chocolate_bar",
+      "package": "50 g slab",
+      "image": null,
+      "description": {
+        "es": "Chocolate con leche neozelandés con maní tostado.",
+        "en": "New Zealand milk chocolate with roasted peanuts."
+      },
+      "ingredientsText": "Milk chocolate [sugar, cocoa solids 33% (pure cocoa butter and cocoa mass), New Zealand milk powder 17%, emulsifier (soy lecithin), vanilla flavour]; roasted peanuts 35%.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "pasta de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "leche en polvo",
+          "en": "milk powder",
+          "aliases": [
+            "leche en polvo",
+            "milk powder"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "aromatizante de vainilla",
+          "en": "vanilla flavour",
+          "aliases": [
+            "aromatizante de vainilla",
+            "vanilla flavour",
+            "vanilla flavor"
+          ]
+        },
+        {
+          "es": "maní tostado",
+          "en": "roasted peanuts",
+          "aliases": [
+            "maní tostado",
+            "roasted peanuts",
+            "cacahuetes tostados",
+            "peanuts"
+          ]
+        }
+      ],
+      "sourceId": "whittakers-peanut-slab-new-zealand",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "ouma-buttermilk-rusks-south-africa-500g",
+      "barcode": null,
+      "name": "Ouma Buttermilk Rusks",
+      "nameI18n": {
+        "es": "Ouma Buttermilk Rusks",
+        "en": "Ouma Buttermilk Rusks"
+      },
+      "brand": "Ouma",
+      "country": "South Africa",
+      "market": "South Africa",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "500 g pack",
+      "image": null,
+      "description": {
+        "es": "Bizcochos secos sudafricanos tradicionales con suero de leche.",
+        "en": "Traditional South African buttermilk rusks."
+      },
+      "ingredientsText": "Wheat flour (gluten), sugar, vegetable fat (palm fruit, TBHQ), buttermilk powder (3%) (cow's milk), raising agents (E450, E500, E170), flavourings (contains milk and soy), salt.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour",
+            "gluten"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable fat",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable fat"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil",
+            "palm fruit"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ",
+            "TBHQ",
+            "tertiary butylhydroquinone"
+          ]
+        },
+        {
+          "es": "suero de leche en polvo",
+          "en": "buttermilk powder",
+          "aliases": [
+            "suero de leche en polvo",
+            "buttermilk powder"
+          ]
+        },
+        {
+          "es": "gasificante E450",
+          "en": "raising agent E450",
+          "aliases": [
+            "gasificante E450",
+            "raising agent E450",
+            "difosfatos",
+            "diphosphates"
+          ]
+        },
+        {
+          "es": "gasificante E500",
+          "en": "raising agent E500",
+          "aliases": [
+            "gasificante E500",
+            "raising agent E500",
+            "carbonatos de sodio",
+            "sodium carbonates"
+          ]
+        },
+        {
+          "es": "carbonato de calcio E170",
+          "en": "calcium carbonate E170",
+          "aliases": [
+            "carbonato de calcio E170",
+            "calcium carbonate E170",
+            "E170"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "ouma-buttermilk-rusks-south-africa",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "mae-ploy-red-curry-paste-thailand-1kg",
+      "barcode": null,
+      "name": "Mae Ploy Red Curry Paste",
+      "nameI18n": {
+        "es": "Pasta de curry rojo Mae Ploy",
+        "en": "Mae Ploy Red Curry Paste"
+      },
+      "brand": "Mae Ploy",
+      "country": "Thailand",
+      "market": "United Kingdom foodservice listing",
+      "region": "world",
+      "category": "curry_paste",
+      "package": "1 kg foodservice pouch",
+      "image": null,
+      "description": {
+        "es": "Pasta tailandesa de curry rojo con hierbas, especias y pasta de camarón.",
+        "en": "Thai red curry paste with herbs, spices and shrimp paste."
+      },
+      "ingredientsText": "Garlic 21.5%, dried red chilli 19.0%, lemongrass 18.5%, shallot 14.5%, salt 13.0%, galangal 6.0%, shrimp paste (shrimp 80%, salt) 4.5%, kaffir lime peel 2.5%, pepper 0.5%.",
+      "ingredients": [
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "chile rojo seco",
+          "en": "dried red chilli",
+          "aliases": [
+            "chile rojo seco",
+            "dried red chilli",
+            "dried red chili",
+            "ají rojo seco"
+          ]
+        },
+        {
+          "es": "hierba limón",
+          "en": "lemongrass",
+          "aliases": [
+            "hierba limón",
+            "lemongrass",
+            "limoncillo"
+          ]
+        },
+        {
+          "es": "chalota",
+          "en": "shallot",
+          "aliases": [
+            "chalota",
+            "shallot"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "galanga",
+          "en": "galangal",
+          "aliases": [
+            "galanga",
+            "galangal"
+          ]
+        },
+        {
+          "es": "pasta de camarón",
+          "en": "shrimp paste",
+          "aliases": [
+            "pasta de camarón",
+            "shrimp paste",
+            "pasta de gambas"
+          ]
+        },
+        {
+          "es": "camarón",
+          "en": "shrimp",
+          "aliases": [
+            "camarón",
+            "shrimp",
+            "gamba"
+          ]
+        },
+        {
+          "es": "piel de lima kaffir",
+          "en": "kaffir lime peel",
+          "aliases": [
+            "piel de lima kaffir",
+            "kaffir lime peel",
+            "cáscara de lima kaffir"
+          ]
+        },
+        {
+          "es": "pimienta",
+          "en": "pepper",
+          "aliases": [
+            "pimienta",
+            "pepper"
+          ]
+        }
+      ],
+      "sourceId": "mae-ploy-red-curry-paste-thailand",
+      "verification": "foodservice_specification",
+      "status": "ready"
+    },
+    {
+      "id": "vegemite-original-australia-220g",
+      "barcode": "9352042000298",
+      "name": "VEGEMITE Original",
+      "nameI18n": {
+        "es": "VEGEMITE Original",
+        "en": "VEGEMITE Original"
+      },
+      "brand": "VEGEMITE",
+      "country": "Australia",
+      "market": "Australia",
+      "region": "world",
+      "category": "yeast_spread",
+      "package": "220 g jar",
+      "image": null,
+      "description": {
+        "es": "Pasta australiana salada de extracto de levadura, enriquecida con vitaminas B.",
+        "en": "Australian savoury yeast extract spread enriched with B vitamins."
+      },
+      "ingredientsText": "Yeast extract (from yeast grown on barley and wheat), salt, mineral salt (508), malt extract (from barley), colour (150c), flavours, niacin, thiamine, riboflavin, folate.",
+      "ingredients": [
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "cebada",
+          "en": "barley",
+          "aliases": [
+            "cebada",
+            "barley"
+          ]
+        },
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "cloruro de potasio (INS 508)",
+          "en": "potassium chloride (INS 508)",
+          "aliases": [
+            "cloruro de potasio (INS 508)",
+            "potassium chloride (INS 508)",
+            "E508"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "caramelo (INS 150c)",
+          "en": "caramel colour (INS 150c)",
+          "aliases": [
+            "caramelo (INS 150c)",
+            "caramel colour (INS 150c)",
+            "caramel color",
+            "E150c"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavours",
+          "aliases": [
+            "aromatizantes",
+            "flavours",
+            "flavors"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "folato",
+          "en": "folate",
+          "aliases": [
+            "folato",
+            "folate",
+            "ácido fólico",
+            "folic acid"
+          ]
+        }
+      ],
+      "sourceId": "vegemite-original-australia",
+      "verification": "manufacturer_data_sheet",
+      "status": "ready"
+    },
+    {
+      "id": "lu-petit-beurre-france-25g",
+      "barcode": null,
+      "name": "LU Véritable Petit Beurre",
+      "nameI18n": {
+        "es": "LU Véritable Petit Beurre",
+        "en": "LU Véritable Petit Beurre"
+      },
+      "brand": "LU",
+      "country": "France",
+      "market": "France",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "25 g sleeve (3 biscuits)",
+      "image": null,
+      "description": {
+        "es": "Galletitas francesas de manteca tipo petit beurre.",
+        "en": "French butter petit-beurre biscuits."
+      },
+      "ingredientsText": "Wheat flour 73%, sugar, butter 13%, skimmed milk powder, salt, raising agents (ammonium hydrogen carbonate, sodium hydrogen carbonate), acidity regulator (citric acid), flavouring. May contain eggs and sesame.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca",
+          "en": "butter",
+          "aliases": [
+            "manteca",
+            "butter"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "nonfat dry milk"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium hydrogen carbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium hydrogen carbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium hydrogen carbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        }
+      ],
+      "sourceId": "lu-petit-beurre-france",
+      "verification": "manufacturer_technical_sheet",
+      "status": "ready"
+    },
+    {
+      "id": "pocky-matcha-us-40g",
+      "barcode": null,
+      "name": "Pocky Matcha",
+      "nameI18n": {
+        "es": "Pocky Matcha",
+        "en": "Pocky Matcha"
+      },
+      "brand": "Glico",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "chocolate_biscuit_sticks",
+      "package": "40 g box",
+      "image": null,
+      "description": {
+        "es": "Palitos de galletita cubiertos con sabor a té verde matcha, versión comercializada en Estados Unidos.",
+        "en": "Biscuit sticks with matcha green tea flavour, US-market formulation."
+      },
+      "ingredientsText": "Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate, riboflavin, folic acid), sugar, fully hydrogenated palm oil, whole milk powder, lactose, modified food starch, inulin, vegetable shortening (palm oil, fully hydrogenated palm oil), whole wheat flour, malt extract, green tea powder, artificial flavor, soy lecithin, salt, sodium bicarbonate, baker's yeast.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "fumarato ferroso",
+          "en": "ferrous fumarate",
+          "aliases": [
+            "fumarato ferroso",
+            "ferrous fumarate"
+          ]
+        },
+        {
+          "es": "niacinamida",
+          "en": "niacinamide",
+          "aliases": [
+            "niacinamida",
+            "niacinamide"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamin mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamin mononitrate"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma totalmente hidrogenado",
+          "en": "fully hydrogenated palm oil",
+          "aliases": [
+            "aceite de palma totalmente hidrogenado",
+            "fully hydrogenated palm oil"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "almidón alimentario modificado",
+          "en": "modified food starch",
+          "aliases": [
+            "almidón alimentario modificado",
+            "modified food starch"
+          ]
+        },
+        {
+          "es": "inulina",
+          "en": "inulin",
+          "aliases": [
+            "inulina",
+            "inulin"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable shortening",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable shortening"
+          ]
+        },
+        {
+          "es": "harina integral de trigo",
+          "en": "whole wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "whole wheat flour"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "té verde en polvo",
+          "en": "green tea powder",
+          "aliases": [
+            "té verde en polvo",
+            "green tea powder",
+            "matcha"
+          ]
+        },
+        {
+          "es": "aromatizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "aromatizante artificial",
+            "artificial flavor",
+            "artificial flavour"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "levadura de panadería",
+          "en": "baker's yeast",
+          "aliases": [
+            "levadura de panadería",
+            "baker's yeast"
+          ]
+        }
+      ],
+      "sourceId": "pocky-matcha-us-glico",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "samyang-buldak-original-us",
+      "barcode": null,
+      "name": "Samyang Buldak Original",
+      "nameI18n": {
+        "es": "Samyang Buldak Original",
+        "en": "Samyang Buldak Original"
+      },
+      "brand": "Samyang",
+      "country": "South Korea",
+      "market": "United States",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "Single retail pack; size not specified on source page",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos coreanos picantes con salsa sabor pollo.",
+        "en": "Korean spicy instant noodles with chicken-flavoured sauce."
+      },
+      "ingredientsText": "Noodles: Wheat flour, food starch-modified, palm oil, less than 2% of wheat gluten, salt, glycerin, soy lecithin, polyglycerol esters of fatty acids, potassium carbonate, sodium carbonate, sodium phosphate dibasic, guar gum, tocopherols, riboflavin (color). Sauce: Water, artificial chicken flavor powder (artificial flavor, dextrin, wheat starch, sugar, salt, yeast extract, natural flavor, disodium 5'-ribonucleotide, maltodextrin, corn starch), soy sauce seasoning (soybeans, water, salt, wheat, sodium carbonate, high fructose corn syrup, disodium 5'-ribonucleotide, garlic, steviol glycoside, maltodextrin, sugar), sugar, hot pepper seasoning [red pepper, dextrin, salt, sugar, onion powder, artificial flavor, garlic powder, silicon dioxide, soy sauce (water, soybeans, wheat, salt), capsicum oleoresin, paprika oleoresin, monosodium glutamate, disodium inosinate, disodium guanylate], soybean oil, onion, red pepper seed oil, garlic, food starch-modified, capsicum oleoresin, paprika oleoresin, black pepper powder, natural and artificial curry flavor (cumin, salt, maltodextrin, artificial flavor). Flake: sesame, dried seaweed.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "almidón alimentario modificado",
+          "en": "modified food starch",
+          "aliases": [
+            "almidón alimentario modificado",
+            "modified food starch"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "gluten de trigo",
+          "en": "wheat gluten",
+          "aliases": [
+            "gluten de trigo",
+            "wheat gluten"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "glicerina",
+          "en": "glycerin",
+          "aliases": [
+            "glicerina",
+            "glycerin"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "ésteres de poliglicerol de ácidos grasos",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de poliglicerol de ácidos grasos",
+            "polyglycerol esters of fatty acids"
+          ]
+        },
+        {
+          "es": "carbonato de potasio",
+          "en": "potassium carbonate",
+          "aliases": [
+            "carbonato de potasio",
+            "potassium carbonate"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "fosfato disódico",
+          "en": "sodium phosphate dibasic",
+          "aliases": [
+            "fosfato disódico",
+            "sodium phosphate dibasic"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum"
+          ]
+        },
+        {
+          "es": "tocoferoles",
+          "en": "tocopherols",
+          "aliases": [
+            "tocoferoles",
+            "tocopherols"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "aromatizante artificial",
+          "en": "artificial flavor",
+          "aliases": [
+            "aromatizante artificial",
+            "artificial flavor"
+          ]
+        },
+        {
+          "es": "dextrina",
+          "en": "dextrin",
+          "aliases": [
+            "dextrina",
+            "dextrin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "extracto de levadura",
+          "en": "yeast extract",
+          "aliases": [
+            "extracto de levadura",
+            "yeast extract"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavor",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavor"
+          ]
+        },
+        {
+          "es": "5'-ribonucleótido disódico",
+          "en": "disodium 5'-ribonucleotide",
+          "aliases": [
+            "5'-ribonucleótido disódico",
+            "disodium 5'-ribonucleotide"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybeans",
+          "aliases": [
+            "soja",
+            "soybeans",
+            "soya"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high fructose corn syrup"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "glucósido de esteviol",
+          "en": "steviol glycoside",
+          "aliases": [
+            "glucósido de esteviol",
+            "steviol glycoside"
+          ]
+        },
+        {
+          "es": "chile rojo",
+          "en": "red pepper",
+          "aliases": [
+            "chile rojo",
+            "red pepper"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "dióxido de silicio",
+          "en": "silicon dioxide",
+          "aliases": [
+            "dióxido de silicio",
+            "silicon dioxide"
+          ]
+        },
+        {
+          "es": "oleorresina de capsicum",
+          "en": "capsicum oleoresin",
+          "aliases": [
+            "oleorresina de capsicum",
+            "capsicum oleoresin"
+          ]
+        },
+        {
+          "es": "oleorresina de pimentón",
+          "en": "paprika oleoresin",
+          "aliases": [
+            "oleorresina de pimentón",
+            "paprika oleoresin"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG",
+            "E621"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate",
+            "E631"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate",
+            "E627"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "aceite de semilla de chile rojo",
+          "en": "red pepper seed oil",
+          "aliases": [
+            "aceite de semilla de chile rojo",
+            "red pepper seed oil"
+          ]
+        },
+        {
+          "es": "pimienta negra en polvo",
+          "en": "black pepper powder",
+          "aliases": [
+            "pimienta negra en polvo",
+            "black pepper powder"
+          ]
+        },
+        {
+          "es": "comino",
+          "en": "cumin",
+          "aliases": [
+            "comino",
+            "cumin"
+          ]
+        },
+        {
+          "es": "sésamo",
+          "en": "sesame",
+          "aliases": [
+            "sésamo",
+            "sesame",
+            "ajonjolí"
+          ]
+        },
+        {
+          "es": "algas marinas secas",
+          "en": "dried seaweed",
+          "aliases": [
+            "algas marinas secas",
+            "dried seaweed"
+          ]
+        }
+      ],
+      "sourceId": "samyang-buldak-original-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lao-gan-ma-spicy-chili-crisp-canada-210g",
+      "barcode": "6921804700126",
+      "name": "Lao Gan Ma Spicy Chili Crisp",
+      "nameI18n": {
+        "es": "Lao Gan Ma Chili Crisp picante",
+        "en": "Lao Gan Ma Spicy Chili Crisp"
+      },
+      "brand": "Lao Gan Ma",
+      "country": "China",
+      "market": "Canada",
+      "region": "world",
+      "category": "condiment_sauce",
+      "package": "210 g jar",
+      "image": null,
+      "description": {
+        "es": "Condimento chino de aceite con chile, cebolla, frijoles negros y pimienta de Sichuan.",
+        "en": "Chinese chilli oil condiment with chilli, onion, black beans and Sichuan pepper."
+      },
+      "ingredientsText": "Soybean oil, chili, onion, black bean, salt, sugar, Chinese prickly ash, monosodium glutamate (E621).",
+      "ingredients": [
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil",
+            "soy oil"
+          ]
+        },
+        {
+          "es": "chile",
+          "en": "chili",
+          "aliases": [
+            "chile",
+            "chili",
+            "chilli",
+            "ají"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "frijoles negros",
+          "en": "black beans",
+          "aliases": [
+            "frijoles negros",
+            "black beans",
+            "porotos negros"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "pimienta de Sichuan",
+          "en": "Chinese prickly ash",
+          "aliases": [
+            "pimienta de Sichuan",
+            "Chinese prickly ash",
+            "Sichuan pepper"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG",
+            "E621"
+          ]
+        }
+      ],
+      "sourceId": "lao-gan-ma-chili-crisp-canada",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "bourbon-alfort-mini-chocolate-japan-61g",
+      "barcode": "4901360245567",
+      "name": "Bourbon Alfort Mini Chocolate Biscuits",
+      "nameI18n": {
+        "es": "Galletitas Bourbon Alfort Mini Chocolate",
+        "en": "Bourbon Alfort Mini Chocolate Biscuits"
+      },
+      "brand": "Bourbon",
+      "country": "Japan",
+      "market": "Thailand retail listing",
+      "region": "world",
+      "category": "chocolate_cookies",
+      "package": "61 g box",
+      "image": null,
+      "description": {
+        "es": "Mini galletitas japonesas de trigo integral cubiertas con chocolate con leche.",
+        "en": "Japanese mini whole-wheat biscuits topped with milk chocolate."
+      },
+      "ingredientsText": "Sugar, wheat flour, whole milk powder, cacao mass, shortening, vegetable oil, cocoa butter, whole wheat flour, wheat bran, salt, wheat germ, modified starch, emulsifier (from soy), baking powder, flavourings.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cacao mass",
+          "aliases": [
+            "pasta de cacao",
+            "cacao mass",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "shortening",
+          "aliases": [
+            "grasa vegetal",
+            "shortening"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "harina integral de trigo",
+          "en": "whole wheat flour",
+          "aliases": [
+            "harina integral de trigo",
+            "whole wheat flour"
+          ]
+        },
+        {
+          "es": "salvado de trigo",
+          "en": "wheat bran",
+          "aliases": [
+            "salvado de trigo",
+            "wheat bran"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "germen de trigo",
+          "en": "wheat germ",
+          "aliases": [
+            "germen de trigo",
+            "wheat germ"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified starch",
+          "aliases": [
+            "almidón modificado",
+            "modified starch"
+          ]
+        },
+        {
+          "es": "emulsionante de soja",
+          "en": "emulsifier from soy",
+          "aliases": [
+            "emulsionante de soja",
+            "emulsifier from soy",
+            "soy emulsifier"
+          ]
+        },
+        {
+          "es": "polvo de hornear",
+          "en": "baking powder",
+          "aliases": [
+            "polvo de hornear",
+            "baking powder",
+            "raising agent"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "bourbon-alfort-mini-japan",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
+    },
+    {
+      "id": "calpis-water-taiwan-australia-500ml",
+      "barcode": null,
+      "name": "Asahi Calpis Water",
+      "nameI18n": {
+        "es": "Asahi Calpis Water",
+        "en": "Asahi Calpis Water"
+      },
+      "brand": "Calpis / Asahi",
+      "country": "Taiwan",
+      "market": "Australia",
+      "region": "world",
+      "category": "fermented_drink",
+      "package": "500 ml bottle",
+      "image": null,
+      "description": {
+        "es": "Bebida láctea dulce y ligeramente ácida de la marca Calpis, versión de origen taiwanés vendida en Australia.",
+        "en": "Sweet, lightly tangy Calpis milk drink, Taiwan-origin version sold in Australia."
+      },
+      "ingredientsText": "Water, sugar, skim milk powder, yeast, acidity regulators (330, 331), flavour, thickener (soybean starch).",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skim milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "ácido cítrico (INS 330)",
+          "en": "citric acid (INS 330)",
+          "aliases": [
+            "ácido cítrico (INS 330)",
+            "citric acid (INS 330)",
+            "E330"
+          ]
+        },
+        {
+          "es": "citrato de sodio (INS 331)",
+          "en": "sodium citrate (INS 331)",
+          "aliases": [
+            "citrato de sodio (INS 331)",
+            "sodium citrate (INS 331)",
+            "E331"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavour",
+          "aliases": [
+            "aromatizante",
+            "flavour",
+            "flavor"
+          ]
+        },
+        {
+          "es": "almidón de soja",
+          "en": "soybean starch",
+          "aliases": [
+            "almidón de soja",
+            "soybean starch",
+            "soya starch"
+          ]
+        }
+      ],
+      "sourceId": "calpis-water-taiwan-australia",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
     }
   ]
 }
