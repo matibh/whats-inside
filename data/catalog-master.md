@@ -3372,3 +3372,441 @@ Pulpa de tomate 82%, concentrado de tomate 7,9%, aceite de girasol, pimientos ro
 
 ---
 
+### Salsa de soja Kikkoman / Kikkoman Soy Sauce
+
+- **ID:** `kikkoman-soy-sauce-india-500ml`
+- **Marca / Brand:** Kikkoman
+- **País / Country:** Japan
+- **Mercado / Market:** India
+- **Envase / Package:** 500 ml (one of the manufacturer-listed pack sizes)
+- **Categoría / Category:** `soy_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Salsa de soja naturalmente fermentada, comercializada en India.
+- **Description (EN):** Naturally brewed soy sauce sold in India.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, Soybeans (24%), Wheat, Salt.
+
+**Respuestas aceptadas / Accepted answers (4)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| soja | soybeans | soja, soybeans, soybean |
+| trigo | wheat | trigo, wheat |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [Kikkoman India](https://kikkomanindia.com/products/kikkoman-soy-sauce)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Kikkoman India product page lists the ingredients and available 500 ml pack size.
+
+---
+
+### New Yakult / New Yakult
+
+- **ID:** `yakult-new-yakult-japan-65ml`
+- **Marca / Brand:** Yakult
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 65 ml bottle
+- **Categoría / Category:** `fermented_drink`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bebida láctea fermentada probiótica de la línea japonesa New Yakult.
+- **Description (EN):** Probiotic fermented milk drink from Japan's New Yakult line.
+
+**Ingredientes declarados / Declared ingredients**
+
+Glucose-fructose syrup (made in Japan), sugar, skimmed milk powder / flavorings.
+
+**Respuestas aceptadas / Accepted answers (4)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| jarabe de glucosa y fructosa | glucose-fructose syrup | jarabe de glucosa y fructosa, glucose-fructose syrup |
+| azúcar | sugar | azúcar, sugar |
+| leche descremada en polvo | skimmed milk powder | leche descremada en polvo, skimmed milk powder, skim milk powder |
+| aromatizantes | flavorings | aromatizantes, flavorings, flavourings |
+
+**Fuente / Source:** [Yakult Honsha](https://www.yakult.co.jp/english/inbound/yakult/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Yakult Japan page lists New Yakult 65 ml and its ingredient declaration.
+
+---
+
+### Nissin Cup Noodles sabor pollo / Nissin Cup Noodles Chicken
+
+- **ID:** `nissin-cup-noodles-chicken-us-64g`
+- **Marca / Brand:** Nissin
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 64 g paper cup
+- **Categoría / Category:** `instant_noodles`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Fideos instantáneos sabor pollo · fórmula estadounidense.
+- **Description (EN):** Chicken-flavored instant noodles · United States formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+Enriched flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), palm oil, salt, dried carrot flake, autolyzed yeast extract, citric acid, concentrated green cabbage juice, dextrose, disodium guanylate, disodium inosinate, disodium succinate, dried corn, dried parsley, egg white, garlic powder, hydrolyzed corn protein, hydrolyzed soy protein, lactose, maltodextrin, natural and artificial flavor, onion powder, potassium carbonate, potassium chloride, powdered chicken, rendered chicken fat, silicon dioxide, sodium alginate, sodium carbonate, sodium tripolyphosphate, soybean, spice and color, sugar, TBHQ, wheat.
+
+**Respuestas aceptadas / Accepted answers (40)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo enriquecida | enriched wheat flour | harina de trigo enriquecida, enriched wheat flour, harina enriquecida |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| niacina | niacin | niacina, niacin |
+| hierro reducido | reduced iron | hierro reducido, reduced iron |
+| mononitrato de tiamina | thiamine mononitrate | mononitrato de tiamina, thiamine mononitrate |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| sal | salt | sal, salt |
+| zanahoria deshidratada | dried carrot | zanahoria deshidratada, dried carrot |
+| extracto de levadura autolizada | autolyzed yeast extract | extracto de levadura autolizada, autolyzed yeast extract |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| jugo concentrado de repollo verde | concentrated green cabbage juice | jugo concentrado de repollo verde, concentrated green cabbage juice |
+| dextrosa | dextrose | dextrosa, dextrose |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| succinato disódico | disodium succinate | succinato disódico, disodium succinate |
+| maíz deshidratado | dried corn | maíz deshidratado, dried corn |
+| perejil deshidratado | dried parsley | perejil deshidratado, dried parsley |
+| clara de huevo | egg white | clara de huevo, egg white |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| proteína de maíz hidrolizada | hydrolyzed corn protein | proteína de maíz hidrolizada, hydrolyzed corn protein |
+| proteína de soja hidrolizada | hydrolyzed soy protein | proteína de soja hidrolizada, hydrolyzed soy protein |
+| lactosa | lactose | lactosa, lactose |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| aroma natural y artificial | natural and artificial flavor | aroma natural y artificial, natural and artificial flavor |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| carbonato de potasio | potassium carbonate | carbonato de potasio, potassium carbonate |
+| cloruro de potasio | potassium chloride | cloruro de potasio, potassium chloride |
+| pollo en polvo | powdered chicken | pollo en polvo, powdered chicken |
+| grasa de pollo | chicken fat | grasa de pollo, chicken fat, rendered chicken fat |
+| dióxido de silicio | silicon dioxide | dióxido de silicio, silicon dioxide |
+| alginato de sodio | sodium alginate | alginato de sodio, sodium alginate |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| trifosfato de sodio | sodium tripolyphosphate | trifosfato de sodio, sodium tripolyphosphate |
+| soja | soybean | soja, soybean, soybeans |
+| especias y colorantes | spice and color | especias y colorantes, spice and color |
+| azúcar | sugar | azúcar, sugar |
+| TBHQ | TBHQ | TBHQ, TBHQ, tertiary butylhydroquinone |
+| trigo | wheat | trigo, wheat |
+
+**Fuente / Source:** [Nissin Foods USA](https://www.nissinfoods.com/product/cup-noodles/cup-noodles-chicken/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Nissin USA page publishes the 64 g serving and full ingredient statement for Chicken Cup Noodles.
+
+---
+
+### Oishi Prawn Crackers Original / Oishi Prawn Crackers Original
+
+- **ID:** `oishi-prawn-crackers-philippines-original-24g`
+- **Marca / Brand:** Oishi
+- **País / Country:** Philippines
+- **Mercado / Market:** Philippines
+- **Envase / Package:** 24 g pack (also listed in 60 g and 90 g sizes)
+- **Categoría / Category:** `shrimp_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack crocante de camarón, tapioca y maíz · versión original filipina.
+- **Description (EN):** Crispy shrimp, tapioca and corn snack · Philippine Original version.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat, Tapioca Starch, Corn Starch, Vegetable Oil (may consist of Coconut Oil and/or Palm Olein), Sugar, Iodized Salt (Salt with Potassium Iodide), Shrimp, Flavor Enhancers (Monosodium Glutamate, Disodium Inosinate, Disodium Guanylate), FD&C Yellow No. 5 (Tartrazine), Vitamin A Palmitate, FD&C Red No. 40, TBHQ and/or BHA/BHT Antioxidant.
+
+**Respuestas aceptadas / Accepted answers (19)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| trigo | wheat | trigo, wheat |
+| almidón de tapioca | tapioca starch | almidón de tapioca, tapioca starch |
+| almidón de maíz | corn starch | almidón de maíz, corn starch |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| aceite de coco | coconut oil | aceite de coco, coconut oil |
+| oleína de palma | palm olein | oleína de palma, palm olein |
+| azúcar | sugar | azúcar, sugar |
+| sal yodada | iodized salt | sal yodada, iodized salt |
+| yodo de potasio | potassium iodide | yodo de potasio, potassium iodide |
+| camarón | shrimp | camarón, shrimp, prawn |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| tartrazina | tartrazine | tartrazina, tartrazine, FD&C Yellow No. 5 |
+| palmitato de vitamina A | vitamin A palmitate | palmitato de vitamina A, vitamin A palmitate |
+| rojo 40 | Red 40 | rojo 40, Red 40, FD&C Red No. 40 |
+| TBHQ | TBHQ | TBHQ, TBHQ |
+| BHA | BHA | BHA, BHA, butylated hydroxyanisole |
+| BHT | BHT | BHT, BHT, butylated hydroxytoluene |
+
+**Fuente / Source:** [Oishi Philippines / Liwayway Marketing Corporation](https://www.oishi.com.ph/products/oishi-prawn-crackers/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Oishi Philippines product page lists Original flavor, pack sizes and ingredients; precautionary facility statements are excluded.
+
+---
+
+### Sanpellegrino Aranciata / Sanpellegrino Aranciata
+
+- **ID:** `sanpellegrino-aranciata-italy-330ml`
+- **Marca / Brand:** Sanpellegrino
+- **País / Country:** Italy
+- **Mercado / Market:** Italy
+- **Envase / Package:** 330 ml can
+- **Categoría / Category:** `orange_soda`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Bebida gasificada de naranja con 16% de jugo de naranja de concentrado.
+- **Description (EN):** Sparkling orange drink with 16% orange juice from concentrate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, orange juice from concentrate (16%), sugar, carbon dioxide, lemon juice concentrate, orange extract (0.1%), natural orange flavouring.
+
+**Respuestas aceptadas / Accepted answers (7)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| jugo de naranja concentrado | orange juice from concentrate | jugo de naranja concentrado, orange juice from concentrate |
+| azúcar | sugar | azúcar, sugar |
+| dióxido de carbono | carbon dioxide | dióxido de carbono, carbon dioxide, CO2 |
+| jugo de limón concentrado | lemon juice concentrate | jugo de limón concentrado, lemon juice concentrate |
+| extracto de naranja | orange extract | extracto de naranja, orange extract |
+| aroma natural de naranja | natural orange flavouring | aroma natural de naranja, natural orange flavouring, natural orange flavoring |
+
+**Fuente / Source:** [Sanpellegrino](https://www.sanpellegrino.com/beverages/aranciata)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Sanpellegrino product page lists the 330 ml can and ingredient statement.
+
+---
+
+### Pringles Paprika / Pringles Paprika
+
+- **ID:** `pringles-paprika-germany-165g`
+- **Marca / Brand:** Pringles
+- **País / Country:** Germany
+- **Mercado / Market:** Germany
+- **Envase / Package:** 165 g canister
+- **Categoría / Category:** `potato_chips`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Snack de papa con condimento de pimentón · fórmula alemana.
+- **Description (EN):** Paprika-seasoned potato snack · German formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+Potato puree powder, sunflower oil, corn flour, wheat flour, paprika seasoning (sugar, paprika powder, monosodium glutamate, disodium guanylate, disodium inosinate, dextrose, yeast powder, onion powder, salt, granulated broth (salt, hydrolyzed vegetable protein, sunflower oil), flavourings, garlic powder, paprika extract, citric acid, sweet whey powder), rice flour, maltodextrin, emulsifier E471, rapeseed oil, salt, annatto norbixin.
+
+**Respuestas aceptadas / Accepted answers (24)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| polvo de puré de papa | potato puree powder | polvo de puré de papa, potato puree powder |
+| aceite de girasol | sunflower oil | aceite de girasol, sunflower oil |
+| harina de maíz | corn flour | harina de maíz, corn flour |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| pimentón en polvo | paprika powder | pimentón en polvo, paprika powder |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate |
+| dextrosa | dextrose | dextrosa, dextrose |
+| levadura en polvo | yeast powder | levadura en polvo, yeast powder |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| sal | salt | sal, salt |
+| proteína vegetal hidrolizada | hydrolyzed vegetable protein | proteína vegetal hidrolizada, hydrolyzed vegetable protein |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| extracto de pimentón | paprika extract | extracto de pimentón, paprika extract |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| suero dulce en polvo | sweet whey powder | suero dulce en polvo, sweet whey powder |
+| harina de arroz | rice flour | harina de arroz, rice flour |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| emulsionante E471 | emulsifier E471 | emulsionante E471, emulsifier E471, mono- and diglycerides |
+| aceite de colza | rapeseed oil | aceite de colza, rapeseed oil, canola oil |
+| norbixina de annatto | annatto norbixin | norbixina de annatto, annatto norbixin |
+
+**Fuente / Source:** [Pringles Germany](https://www.pringles.com/de/products/flavours/pringles-paprika.html)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Pringles Germany page provides the German-market ingredient list; may-contain soy statement is not treated as an ingredient.
+
+---
+
+### Glico Pretz sabor tomate / Glico Tomato Pretz
+
+- **ID:** `glico-tomato-pretz-japan-53g`
+- **Marca / Brand:** Glico
+- **País / Country:** Japan
+- **Mercado / Market:** Japan
+- **Envase / Package:** 53 g pack
+- **Categoría / Category:** `tomato_pretzels`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Pretzels salados con tomate y vinagre de tomate · producto japonés.
+- **Description (EN):** Savory pretzel sticks with tomato and tomato vinegar · Japanese product.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat flour (made in Japan), vegetable oil, shortening, sugar, tomato paste, starch, brewed vinegar (tomato vinegar), yeast, vegetable paste, onion seasoning, salt, dried spinach, pepper; processed starch, seasoning (inorganic salts etc.), flavouring, emulsifier, acidulant, spice extract.
+
+**Respuestas aceptadas / Accepted answers (19)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| shortening | shortening | shortening, shortening, grasa vegetal |
+| azúcar | sugar | azúcar, sugar |
+| pasta de tomate | tomato paste | pasta de tomate, tomato paste |
+| almidón | starch | almidón, starch |
+| vinagre de tomate | tomato vinegar | vinagre de tomate, tomato vinegar |
+| levadura | yeast | levadura, yeast |
+| pasta de vegetales | vegetable paste | pasta de vegetales, vegetable paste |
+| condimento de cebolla | onion seasoning | condimento de cebolla, onion seasoning |
+| sal | salt | sal, salt |
+| espinaca deshidratada | dried spinach | espinaca deshidratada, dried spinach |
+| pimienta | pepper | pimienta, pepper |
+| almidón modificado | modified starch | almidón modificado, modified starch, processed starch |
+| sazonador | seasoning | sazonador, seasoning |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+| emulsionante | emulsifier | emulsionante, emulsifier |
+| acidulante | acidulant | acidulante, acidulant |
+| extracto de especias | spice extract | extracto de especias, spice extract |
+
+**Fuente / Source:** [Ezaki Glico](https://www.glico.com/jp/product/snack_biscuit_cookie/pretz/46436/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Glico Japan product page lists Tomato Pretz, 53 g, JAN 4901005521315 and its Japanese raw-material declaration.
+
+---
+
+### MILO en polvo / MILO Powder
+
+- **ID:** `milo-powder-australia-200g`
+- **Marca / Brand:** MILO
+- **País / Country:** Australia
+- **Mercado / Market:** Australia
+- **Envase / Package:** 200 g pack
+- **Categoría / Category:** `malt_drink_powder`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Preparado en polvo de malta y cacao · fórmula australiana.
+- **Description (EN):** Malted cocoa drink powder · Australian formula.
+
+**Ingredientes declarados / Declared ingredients**
+
+Extract of malt barley or malt barley and rice, milk solids, sugar, cocoa, choc malt blend (soy), minerals (calcium, iron), vitamins (C, B3, B6, B2, D, B12).
+
+**Respuestas aceptadas / Accepted answers (16)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| extracto de malta de cebada | extract of malt barley | extracto de malta de cebada, extract of malt barley |
+| malta de cebada | malt barley | malta de cebada, malt barley |
+| arroz | rice | arroz, rice |
+| sólidos de leche | milk solids | sólidos de leche, milk solids |
+| azúcar | sugar | azúcar, sugar |
+| cacao | cocoa | cacao, cocoa |
+| mezcla de malta y chocolate | choc malt blend | mezcla de malta y chocolate, choc malt blend |
+| soja | soy | soja, soy |
+| calcio | calcium | calcio, calcium |
+| hierro | iron | hierro, iron |
+| vitamina C | vitamin C | vitamina C, vitamin C |
+| niacina | niacin | niacina, niacin, vitamin B3 |
+| vitamina B6 | vitamin B6 | vitamina B6, vitamin B6 |
+| riboflavina | riboflavin | riboflavina, riboflavin, vitamin B2 |
+| vitamina D | vitamin D | vitamina D, vitamin D |
+| vitamina B12 | vitamin B12 | vitamina B12, vitamin B12 |
+
+**Fuente / Source:** [Nestlé Australia / MILO Australia](https://www.milo.com.au/powder)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official MILO Australia page lists package sizes including 200 g and the ingredient statement.
+
+---
+
+### Chupa Chups chupetines frutales / Chupa Chups Fruit Lollipops
+
+- **ID:** `chupa-chups-fruit-lollipops-spain-300g`
+- **Marca / Brand:** Chupa Chups
+- **País / Country:** Spain
+- **Mercado / Market:** Spain / assorted fruit flavours
+- **Envase / Package:** 300 g assorted bag (25 lollipops)
+- **Categoría / Category:** `lollipop`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_product_specification`
+- **Descripción (ES):** Bolsa surtida de chupetines frutales; se usa la declaración específica de sabores frutales.
+- **Description (EN):** Assorted fruit lollipops; uses the fruit-flavour ingredient declaration.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, glucose syrup, fruit puree from concentrate (apple, cherry, raspberry, pineapple, lime, lemon, strawberry, peach, banana, orange, blueberry, blackberry, mango, watermelon, kiwi) (3%), acids (citric acid, lactic acid, malic acid), flavourings, concentrates (beetroot, spirulina).
+
+**Respuestas aceptadas / Accepted answers (24)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| jarabe de glucosa | glucose syrup | jarabe de glucosa, glucose syrup |
+| puré de fruta concentrado | fruit puree from concentrate | puré de fruta concentrado, fruit puree from concentrate |
+| manzana | apple | manzana, apple |
+| cereza | cherry | cereza, cherry |
+| frambuesa | raspberry | frambuesa, raspberry |
+| ananá | pineapple | ananá, pineapple |
+| lima | lime | lima, lime |
+| limón | lemon | limón, lemon |
+| frutilla | strawberry | frutilla, strawberry |
+| durazno | peach | durazno, peach |
+| banana | banana | banana, banana |
+| naranja | orange | naranja, orange |
+| arándano | blueberry | arándano, blueberry |
+| mora | blackberry | mora, blackberry |
+| mango | mango | mango, mango |
+| sandía | watermelon | sandía, watermelon |
+| kiwi | kiwi | kiwi, kiwi |
+| ácido cítrico | citric acid | ácido cítrico, citric acid |
+| ácido láctico | lactic acid | ácido láctico, lactic acid |
+| ácido málico | malic acid | ácido málico, malic acid |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| concentrado de remolacha | beetroot concentrate | concentrado de remolacha, beetroot concentrate |
+| espirulina | spirulina | espirulina, spirulina |
+
+**Fuente / Source:** [Chupa Chups SAU / Alimentium product specification](https://gestiona.alimentiumconnect.com/Multimedia/Data_52214/ce966f4e-cc7d-4985-a4d9-6636f024c207.pdf)  
+**Tipo / Type:** `manufacturer_product_specification`  
+**Alcance / Supports:** Chupa Chups supplier technical specification identifies Spanish origin and a separate fruit-flavour ingredient declaration; this record represents fruit flavours only, not the strawberry-and-cream variant.
+
+---
+
+### MAGGI salsa de tomate, chile y sabor agridulce / MAGGI Hot & Sweet Tomato Chilli Sauce
+
+- **ID:** `maggi-hot-sweet-tomato-chilli-india-200g`
+- **Marca / Brand:** MAGGI
+- **País / Country:** India
+- **Mercado / Market:** India
+- **Envase / Package:** 200 g bottle
+- **Categoría / Category:** `chili_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Salsa india agridulce de tomate y chile · transcripción comercial de etiqueta.
+- **Description (EN):** Indian sweet-and-hot tomato chilli sauce · retailer label transcription.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, Sugar, Tomato paste (11.9%), Red chilli puree (6.6%), Iodized salt, Acidity regulator (260), Starch, Mixed Spices, Garlic powder, Thickener (415), Onion powder, Preservative (211).
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| azúcar | sugar | azúcar, sugar |
+| pasta de tomate | tomato paste | pasta de tomate, tomato paste |
+| puré de chile rojo | red chilli puree | puré de chile rojo, red chilli puree, red chili puree |
+| sal yodada | iodized salt | sal yodada, iodized salt |
+| regulador de acidez 260 | acidity regulator 260 | regulador de acidez 260, acidity regulator 260, acetic acid |
+| almidón | starch | almidón, starch |
+| mezcla de especias | mixed spices | mezcla de especias, mixed spices |
+| ajo en polvo | garlic powder | ajo en polvo, garlic powder |
+| espesante 415 | thickener 415 | espesante 415, thickener 415, xanthan gum |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| conservante 211 | preservative 211 | conservante 211, preservative 211, sodium benzoate |
+
+**Fuente / Source:** [BigBasket (Nestlé India product listing)](https://business.bigbasket.com/pd/266058/maggi-hot-sweet-tomato-chilli-sauce-200-g-bottle/)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Retailer listing transcribes the ingredient declaration, identifies Nestlé India and a 200 g pack; manufacturer brand page confirms product identity but not full ingredients.
+
+---
