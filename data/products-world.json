@@ -11913,7 +11913,7 @@
     },
     {
       "id": "vegemite-original-australia-220g",
-      "barcode": "9352042000298",
+      "barcode": "9352042000281",
       "name": "VEGEMITE Original",
       "nameI18n": {
         "es": "VEGEMITE Original",
@@ -12714,7 +12714,7 @@
     },
     {
       "id": "lao-gan-ma-spicy-chili-crisp-canada-210g",
-      "barcode": "6921804700126",
+      "barcode": null,
       "name": "Lao Gan Ma Spicy Chili Crisp",
       "nameI18n": {
         "es": "Lao Gan Ma Chili Crisp picante",
