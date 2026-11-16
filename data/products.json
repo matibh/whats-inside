@@ -85,7 +85,8 @@
       ],
       "sourceId": "nutella-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "chocolinas-ar-150g",
@@ -202,7 +203,8 @@
       ],
       "sourceId": "chocolinas-shelfpedia",
       "verification": "packaging_transcription_secondary",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "oreo-original-ar-118g",
@@ -311,7 +313,8 @@
       ],
       "sourceId": "oreo-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "lays-clasicas-ar-40g",
@@ -356,7 +359,8 @@
       ],
       "sourceId": "lays-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "nesquik-cereal-ar-230g",
@@ -569,7 +573,8 @@
       ],
       "sourceId": "nesquik-vea",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "coca-cola-original-ar",
@@ -639,7 +644,8 @@
       "labelNotes": "La fuente oficial también declara que contiene cafeína; se conserva como nota de etiqueta y no como ingrediente separado.",
       "sourceId": "cocacola-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "sprite-lima-limon-ar",
@@ -739,7 +745,8 @@
       ],
       "sourceId": "sprite-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "la-serenisima-yogur-frutilla-bebible-1300g",
@@ -854,7 +861,8 @@
       ],
       "sourceId": "serenisima-official",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "toddy-galletitas-chocolate-ar-126g",
@@ -1043,7 +1051,8 @@
       ],
       "sourceId": "toddy-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "mana-con-leche-ar-136g",
@@ -1240,7 +1249,8 @@
       ],
       "sourceId": "mana-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "milka-chocolate-leche-55g-ar",
@@ -1353,7 +1363,8 @@
       ],
       "sourceId": "milka-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "terrabusi-variedad-chocolate-310g",
@@ -1583,7 +1594,8 @@
       ],
       "sourceId": "terrabusi-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "jorgito-alfajor-choco-negro-55g",
@@ -1764,7 +1776,8 @@
       ],
       "sourceId": "jorgito-negro",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "jorgito-alfajor-blanco-merengue-50g",
@@ -1945,7 +1958,8 @@
       ],
       "sourceId": "jorgito-blanco",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "jorgito-alfajor-choco-blanco-55g",
@@ -2092,7 +2106,8 @@
       ],
       "sourceId": "jorgito-chocoblanco",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "jorgelin-blanco-85g",
@@ -2239,7 +2254,8 @@
       ],
       "sourceId": "jorgelin-blanco",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "fanta-naranja-ar",
@@ -2337,7 +2353,8 @@
       ],
       "sourceId": "fanta-ar",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "fanta-pomelo-ar",
@@ -2417,7 +2434,8 @@
       ],
       "sourceId": "fanta-pomelo-ar",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "baggio-pronto-naranja-200ml",
@@ -2514,7 +2532,8 @@
       ],
       "sourceId": "baggio-pronto",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     },
     {
       "id": "mantecol-clasico-111g",
@@ -2619,7 +2638,8 @@
       ],
       "sourceId": "mantecol-jumbo",
       "verification": "retailer_label_transcription",
-      "status": "ready"
+      "status": "ready",
+      "region": "argentina"
     }
   ]
 }
