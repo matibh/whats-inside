@@ -8710,6 +8710,1647 @@
       "sourceId": "barilla-arrabbiata-sauce-italy-400g-source",
       "verification": "manufacturer_website",
       "status": "ready"
+    },
+    {
+      "id": "kikkoman-soy-sauce-india-500ml",
+      "barcode": null,
+      "name": "Kikkoman Soy Sauce",
+      "nameI18n": {
+        "es": "Salsa de soja Kikkoman",
+        "en": "Kikkoman Soy Sauce"
+      },
+      "brand": "Kikkoman",
+      "country": "Japan",
+      "market": "India",
+      "region": "world",
+      "category": "soy_sauce",
+      "package": "500 ml (one of the manufacturer-listed pack sizes)",
+      "image": null,
+      "description": {
+        "es": "Salsa de soja naturalmente fermentada, comercializada en India.",
+        "en": "Naturally brewed soy sauce sold in India."
+      },
+      "ingredientsText": "Water, Soybeans (24%), Wheat, Salt.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybeans",
+          "aliases": [
+            "soja",
+            "soybeans",
+            "soybean"
+          ]
+        },
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "kikkoman-soy-sauce-india",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "yakult-new-yakult-japan-65ml",
+      "barcode": null,
+      "name": "New Yakult",
+      "nameI18n": {
+        "es": "New Yakult",
+        "en": "New Yakult"
+      },
+      "brand": "Yakult",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "fermented_drink",
+      "package": "65 ml bottle",
+      "image": null,
+      "description": {
+        "es": "Bebida láctea fermentada probiótica de la línea japonesa New Yakult.",
+        "en": "Probiotic fermented milk drink from Japan's New Yakult line."
+      },
+      "ingredientsText": "Glucose-fructose syrup (made in Japan), sugar, skimmed milk powder / flavorings.",
+      "ingredients": [
+        {
+          "es": "jarabe de glucosa y fructosa",
+          "en": "glucose-fructose syrup",
+          "aliases": [
+            "jarabe de glucosa y fructosa",
+            "glucose-fructose syrup"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavorings",
+          "aliases": [
+            "aromatizantes",
+            "flavorings",
+            "flavourings"
+          ]
+        }
+      ],
+      "sourceId": "yakult-new-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "nissin-cup-noodles-chicken-us-64g",
+      "barcode": null,
+      "name": "Nissin Cup Noodles Chicken",
+      "nameI18n": {
+        "es": "Nissin Cup Noodles sabor pollo",
+        "en": "Nissin Cup Noodles Chicken"
+      },
+      "brand": "Nissin",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "instant_noodles",
+      "package": "64 g paper cup",
+      "image": null,
+      "description": {
+        "es": "Fideos instantáneos sabor pollo · fórmula estadounidense.",
+        "en": "Chicken-flavored instant noodles · United States formula."
+      },
+      "ingredientsText": "Enriched flour (wheat flour, niacin, reduced iron, thiamine mononitrate, riboflavin, folic acid), palm oil, salt, dried carrot flake, autolyzed yeast extract, citric acid, concentrated green cabbage juice, dextrose, disodium guanylate, disodium inosinate, disodium succinate, dried corn, dried parsley, egg white, garlic powder, hydrolyzed corn protein, hydrolyzed soy protein, lactose, maltodextrin, natural and artificial flavor, onion powder, potassium carbonate, potassium chloride, powdered chicken, rendered chicken fat, silicon dioxide, sodium alginate, sodium carbonate, sodium tripolyphosphate, soybean, spice and color, sugar, TBHQ, wheat.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina enriquecida"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "hierro reducido",
+          "en": "reduced iron",
+          "aliases": [
+            "hierro reducido",
+            "reduced iron"
+          ]
+        },
+        {
+          "es": "mononitrato de tiamina",
+          "en": "thiamine mononitrate",
+          "aliases": [
+            "mononitrato de tiamina",
+            "thiamine mononitrate"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "aceite de palma",
+          "en": "palm oil",
+          "aliases": [
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "zanahoria deshidratada",
+          "en": "dried carrot",
+          "aliases": [
+            "zanahoria deshidratada",
+            "dried carrot"
+          ]
+        },
+        {
+          "es": "extracto de levadura autolizada",
+          "en": "autolyzed yeast extract",
+          "aliases": [
+            "extracto de levadura autolizada",
+            "autolyzed yeast extract"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "jugo concentrado de repollo verde",
+          "en": "concentrated green cabbage juice",
+          "aliases": [
+            "jugo concentrado de repollo verde",
+            "concentrated green cabbage juice"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "succinato disódico",
+          "en": "disodium succinate",
+          "aliases": [
+            "succinato disódico",
+            "disodium succinate"
+          ]
+        },
+        {
+          "es": "maíz deshidratado",
+          "en": "dried corn",
+          "aliases": [
+            "maíz deshidratado",
+            "dried corn"
+          ]
+        },
+        {
+          "es": "perejil deshidratado",
+          "en": "dried parsley",
+          "aliases": [
+            "perejil deshidratado",
+            "dried parsley"
+          ]
+        },
+        {
+          "es": "clara de huevo",
+          "en": "egg white",
+          "aliases": [
+            "clara de huevo",
+            "egg white"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "proteína de maíz hidrolizada",
+          "en": "hydrolyzed corn protein",
+          "aliases": [
+            "proteína de maíz hidrolizada",
+            "hydrolyzed corn protein"
+          ]
+        },
+        {
+          "es": "proteína de soja hidrolizada",
+          "en": "hydrolyzed soy protein",
+          "aliases": [
+            "proteína de soja hidrolizada",
+            "hydrolyzed soy protein"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "aroma natural y artificial",
+          "en": "natural and artificial flavor",
+          "aliases": [
+            "aroma natural y artificial",
+            "natural and artificial flavor"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "carbonato de potasio",
+          "en": "potassium carbonate",
+          "aliases": [
+            "carbonato de potasio",
+            "potassium carbonate"
+          ]
+        },
+        {
+          "es": "cloruro de potasio",
+          "en": "potassium chloride",
+          "aliases": [
+            "cloruro de potasio",
+            "potassium chloride"
+          ]
+        },
+        {
+          "es": "pollo en polvo",
+          "en": "powdered chicken",
+          "aliases": [
+            "pollo en polvo",
+            "powdered chicken"
+          ]
+        },
+        {
+          "es": "grasa de pollo",
+          "en": "chicken fat",
+          "aliases": [
+            "grasa de pollo",
+            "chicken fat",
+            "rendered chicken fat"
+          ]
+        },
+        {
+          "es": "dióxido de silicio",
+          "en": "silicon dioxide",
+          "aliases": [
+            "dióxido de silicio",
+            "silicon dioxide"
+          ]
+        },
+        {
+          "es": "alginato de sodio",
+          "en": "sodium alginate",
+          "aliases": [
+            "alginato de sodio",
+            "sodium alginate"
+          ]
+        },
+        {
+          "es": "carbonato de sodio",
+          "en": "sodium carbonate",
+          "aliases": [
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "trifosfato de sodio",
+          "en": "sodium tripolyphosphate",
+          "aliases": [
+            "trifosfato de sodio",
+            "sodium tripolyphosphate"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybean",
+          "aliases": [
+            "soja",
+            "soybean",
+            "soybeans"
+          ]
+        },
+        {
+          "es": "especias y colorantes",
+          "en": "spice and color",
+          "aliases": [
+            "especias y colorantes",
+            "spice and color"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ",
+            "TBHQ",
+            "tertiary butylhydroquinone"
+          ]
+        },
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        }
+      ],
+      "sourceId": "nissin-cup-noodles-chicken-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "oishi-prawn-crackers-philippines-original-24g",
+      "barcode": null,
+      "name": "Oishi Prawn Crackers Original",
+      "nameI18n": {
+        "es": "Oishi Prawn Crackers Original",
+        "en": "Oishi Prawn Crackers Original"
+      },
+      "brand": "Oishi",
+      "country": "Philippines",
+      "market": "Philippines",
+      "region": "world",
+      "category": "shrimp_crackers",
+      "package": "24 g pack (also listed in 60 g and 90 g sizes)",
+      "image": null,
+      "description": {
+        "es": "Snack crocante de camarón, tapioca y maíz · versión original filipina.",
+        "en": "Crispy shrimp, tapioca and corn snack · Philippine Original version."
+      },
+      "ingredientsText": "Wheat, Tapioca Starch, Corn Starch, Vegetable Oil (may consist of Coconut Oil and/or Palm Olein), Sugar, Iodized Salt (Salt with Potassium Iodide), Shrimp, Flavor Enhancers (Monosodium Glutamate, Disodium Inosinate, Disodium Guanylate), FD&C Yellow No. 5 (Tartrazine), Vitamin A Palmitate, FD&C Red No. 40, TBHQ and/or BHA/BHT Antioxidant.",
+      "ingredients": [
+        {
+          "es": "trigo",
+          "en": "wheat",
+          "aliases": [
+            "trigo",
+            "wheat"
+          ]
+        },
+        {
+          "es": "almidón de tapioca",
+          "en": "tapioca starch",
+          "aliases": [
+            "almidón de tapioca",
+            "tapioca starch"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de coco",
+          "en": "coconut oil",
+          "aliases": [
+            "aceite de coco",
+            "coconut oil"
+          ]
+        },
+        {
+          "es": "oleína de palma",
+          "en": "palm olein",
+          "aliases": [
+            "oleína de palma",
+            "palm olein"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodized salt",
+          "aliases": [
+            "sal yodada",
+            "iodized salt"
+          ]
+        },
+        {
+          "es": "yodo de potasio",
+          "en": "potassium iodide",
+          "aliases": [
+            "yodo de potasio",
+            "potassium iodide"
+          ]
+        },
+        {
+          "es": "camarón",
+          "en": "shrimp",
+          "aliases": [
+            "camarón",
+            "shrimp",
+            "prawn"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "tartrazina",
+          "en": "tartrazine",
+          "aliases": [
+            "tartrazina",
+            "tartrazine",
+            "FD&C Yellow No. 5"
+          ]
+        },
+        {
+          "es": "palmitato de vitamina A",
+          "en": "vitamin A palmitate",
+          "aliases": [
+            "palmitato de vitamina A",
+            "vitamin A palmitate"
+          ]
+        },
+        {
+          "es": "rojo 40",
+          "en": "Red 40",
+          "aliases": [
+            "rojo 40",
+            "Red 40",
+            "FD&C Red No. 40"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ",
+            "TBHQ"
+          ]
+        },
+        {
+          "es": "BHA",
+          "en": "BHA",
+          "aliases": [
+            "BHA",
+            "BHA",
+            "butylated hydroxyanisole"
+          ]
+        },
+        {
+          "es": "BHT",
+          "en": "BHT",
+          "aliases": [
+            "BHT",
+            "BHT",
+            "butylated hydroxytoluene"
+          ]
+        }
+      ],
+      "sourceId": "oishi-prawn-crackers-original",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "sanpellegrino-aranciata-italy-330ml",
+      "barcode": null,
+      "name": "Sanpellegrino Aranciata",
+      "nameI18n": {
+        "es": "Sanpellegrino Aranciata",
+        "en": "Sanpellegrino Aranciata"
+      },
+      "brand": "Sanpellegrino",
+      "country": "Italy",
+      "market": "Italy",
+      "region": "world",
+      "category": "orange_soda",
+      "package": "330 ml can",
+      "image": null,
+      "description": {
+        "es": "Bebida gasificada de naranja con 16% de jugo de naranja de concentrado.",
+        "en": "Sparkling orange drink with 16% orange juice from concentrate."
+      },
+      "ingredientsText": "Water, orange juice from concentrate (16%), sugar, carbon dioxide, lemon juice concentrate, orange extract (0.1%), natural orange flavouring.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jugo de naranja concentrado",
+          "en": "orange juice from concentrate",
+          "aliases": [
+            "jugo de naranja concentrado",
+            "orange juice from concentrate"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "dióxido de carbono",
+          "en": "carbon dioxide",
+          "aliases": [
+            "dióxido de carbono",
+            "carbon dioxide",
+            "CO2"
+          ]
+        },
+        {
+          "es": "jugo de limón concentrado",
+          "en": "lemon juice concentrate",
+          "aliases": [
+            "jugo de limón concentrado",
+            "lemon juice concentrate"
+          ]
+        },
+        {
+          "es": "extracto de naranja",
+          "en": "orange extract",
+          "aliases": [
+            "extracto de naranja",
+            "orange extract"
+          ]
+        },
+        {
+          "es": "aroma natural de naranja",
+          "en": "natural orange flavouring",
+          "aliases": [
+            "aroma natural de naranja",
+            "natural orange flavouring",
+            "natural orange flavoring"
+          ]
+        }
+      ],
+      "sourceId": "sanpellegrino-aranciata-italy",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "pringles-paprika-germany-165g",
+      "barcode": null,
+      "name": "Pringles Paprika",
+      "nameI18n": {
+        "es": "Pringles Paprika",
+        "en": "Pringles Paprika"
+      },
+      "brand": "Pringles",
+      "country": "Germany",
+      "market": "Germany",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "165 g canister",
+      "image": null,
+      "description": {
+        "es": "Snack de papa con condimento de pimentón · fórmula alemana.",
+        "en": "Paprika-seasoned potato snack · German formula."
+      },
+      "ingredientsText": "Potato puree powder, sunflower oil, corn flour, wheat flour, paprika seasoning (sugar, paprika powder, monosodium glutamate, disodium guanylate, disodium inosinate, dextrose, yeast powder, onion powder, salt, granulated broth (salt, hydrolyzed vegetable protein, sunflower oil), flavourings, garlic powder, paprika extract, citric acid, sweet whey powder), rice flour, maltodextrin, emulsifier E471, rapeseed oil, salt, annatto norbixin.",
+      "ingredients": [
+        {
+          "es": "polvo de puré de papa",
+          "en": "potato puree powder",
+          "aliases": [
+            "polvo de puré de papa",
+            "potato puree powder"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "harina de maíz",
+          "en": "corn flour",
+          "aliases": [
+            "harina de maíz",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "pimentón en polvo",
+          "en": "paprika powder",
+          "aliases": [
+            "pimentón en polvo",
+            "paprika powder"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG"
+          ]
+        },
+        {
+          "es": "guanilato disódico",
+          "en": "disodium guanylate",
+          "aliases": [
+            "guanilato disódico",
+            "disodium guanylate"
+          ]
+        },
+        {
+          "es": "inosinato disódico",
+          "en": "disodium inosinate",
+          "aliases": [
+            "inosinato disódico",
+            "disodium inosinate"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose"
+          ]
+        },
+        {
+          "es": "levadura en polvo",
+          "en": "yeast powder",
+          "aliases": [
+            "levadura en polvo",
+            "yeast powder"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "proteína vegetal hidrolizada",
+          "en": "hydrolyzed vegetable protein",
+          "aliases": [
+            "proteína vegetal hidrolizada",
+            "hydrolyzed vegetable protein"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "extracto de pimentón",
+          "en": "paprika extract",
+          "aliases": [
+            "extracto de pimentón",
+            "paprika extract"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "suero dulce en polvo",
+          "en": "sweet whey powder",
+          "aliases": [
+            "suero dulce en polvo",
+            "sweet whey powder"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "emulsionante E471",
+          "en": "emulsifier E471",
+          "aliases": [
+            "emulsionante E471",
+            "emulsifier E471",
+            "mono- and diglycerides"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "norbixina de annatto",
+          "en": "annatto norbixin",
+          "aliases": [
+            "norbixina de annatto",
+            "annatto norbixin"
+          ]
+        }
+      ],
+      "sourceId": "pringles-paprika-germany",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "glico-tomato-pretz-japan-53g",
+      "barcode": null,
+      "name": "Glico Tomato Pretz",
+      "nameI18n": {
+        "es": "Glico Pretz sabor tomate",
+        "en": "Glico Tomato Pretz"
+      },
+      "brand": "Glico",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "tomato_pretzels",
+      "package": "53 g pack",
+      "image": null,
+      "description": {
+        "es": "Pretzels salados con tomate y vinagre de tomate · producto japonés.",
+        "en": "Savory pretzel sticks with tomato and tomato vinegar · Japanese product."
+      },
+      "ingredientsText": "Wheat flour (made in Japan), vegetable oil, shortening, sugar, tomato paste, starch, brewed vinegar (tomato vinegar), yeast, vegetable paste, onion seasoning, salt, dried spinach, pepper; processed starch, seasoning (inorganic salts etc.), flavouring, emulsifier, acidulant, spice extract.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "shortening",
+          "en": "shortening",
+          "aliases": [
+            "shortening",
+            "shortening",
+            "grasa vegetal"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "vinagre de tomate",
+          "en": "tomato vinegar",
+          "aliases": [
+            "vinagre de tomate",
+            "tomato vinegar"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "pasta de vegetales",
+          "en": "vegetable paste",
+          "aliases": [
+            "pasta de vegetales",
+            "vegetable paste"
+          ]
+        },
+        {
+          "es": "condimento de cebolla",
+          "en": "onion seasoning",
+          "aliases": [
+            "condimento de cebolla",
+            "onion seasoning"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "espinaca deshidratada",
+          "en": "dried spinach",
+          "aliases": [
+            "espinaca deshidratada",
+            "dried spinach"
+          ]
+        },
+        {
+          "es": "pimienta",
+          "en": "pepper",
+          "aliases": [
+            "pimienta",
+            "pepper"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified starch",
+          "aliases": [
+            "almidón modificado",
+            "modified starch",
+            "processed starch"
+          ]
+        },
+        {
+          "es": "sazonador",
+          "en": "seasoning",
+          "aliases": [
+            "sazonador",
+            "seasoning"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "emulsionante",
+          "en": "emulsifier",
+          "aliases": [
+            "emulsionante",
+            "emulsifier"
+          ]
+        },
+        {
+          "es": "acidulante",
+          "en": "acidulant",
+          "aliases": [
+            "acidulante",
+            "acidulant"
+          ]
+        },
+        {
+          "es": "extracto de especias",
+          "en": "spice extract",
+          "aliases": [
+            "extracto de especias",
+            "spice extract"
+          ]
+        }
+      ],
+      "sourceId": "glico-tomato-pretz-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "milo-powder-australia-200g",
+      "barcode": null,
+      "name": "MILO Powder",
+      "nameI18n": {
+        "es": "MILO en polvo",
+        "en": "MILO Powder"
+      },
+      "brand": "MILO",
+      "country": "Australia",
+      "market": "Australia",
+      "region": "world",
+      "category": "malt_drink_powder",
+      "package": "200 g pack",
+      "image": null,
+      "description": {
+        "es": "Preparado en polvo de malta y cacao · fórmula australiana.",
+        "en": "Malted cocoa drink powder · Australian formula."
+      },
+      "ingredientsText": "Extract of malt barley or malt barley and rice, milk solids, sugar, cocoa, choc malt blend (soy), minerals (calcium, iron), vitamins (C, B3, B6, B2, D, B12).",
+      "ingredients": [
+        {
+          "es": "extracto de malta de cebada",
+          "en": "extract of malt barley",
+          "aliases": [
+            "extracto de malta de cebada",
+            "extract of malt barley"
+          ]
+        },
+        {
+          "es": "malta de cebada",
+          "en": "malt barley",
+          "aliases": [
+            "malta de cebada",
+            "malt barley"
+          ]
+        },
+        {
+          "es": "arroz",
+          "en": "rice",
+          "aliases": [
+            "arroz",
+            "rice"
+          ]
+        },
+        {
+          "es": "sólidos de leche",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos de leche",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "cacao",
+          "en": "cocoa",
+          "aliases": [
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "mezcla de malta y chocolate",
+          "en": "choc malt blend",
+          "aliases": [
+            "mezcla de malta y chocolate",
+            "choc malt blend"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soy",
+          "aliases": [
+            "soja",
+            "soy"
+          ]
+        },
+        {
+          "es": "calcio",
+          "en": "calcium",
+          "aliases": [
+            "calcio",
+            "calcium"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "vitamina D",
+          "en": "vitamin D",
+          "aliases": [
+            "vitamina D",
+            "vitamin D"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12"
+          ]
+        }
+      ],
+      "sourceId": "milo-powder-australia",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "chupa-chups-fruit-lollipops-spain-300g",
+      "barcode": null,
+      "name": "Chupa Chups Fruit Lollipops",
+      "nameI18n": {
+        "es": "Chupa Chups chupetines frutales",
+        "en": "Chupa Chups Fruit Lollipops"
+      },
+      "brand": "Chupa Chups",
+      "country": "Spain",
+      "market": "Spain / assorted fruit flavours",
+      "region": "world",
+      "category": "lollipop",
+      "package": "300 g assorted bag (25 lollipops)",
+      "image": null,
+      "description": {
+        "es": "Bolsa surtida de chupetines frutales; se usa la declaración específica de sabores frutales.",
+        "en": "Assorted fruit lollipops; uses the fruit-flavour ingredient declaration."
+      },
+      "ingredientsText": "Sugar, glucose syrup, fruit puree from concentrate (apple, cherry, raspberry, pineapple, lime, lemon, strawberry, peach, banana, orange, blueberry, blackberry, mango, watermelon, kiwi) (3%), acids (citric acid, lactic acid, malic acid), flavourings, concentrates (beetroot, spirulina).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "puré de fruta concentrado",
+          "en": "fruit puree from concentrate",
+          "aliases": [
+            "puré de fruta concentrado",
+            "fruit puree from concentrate"
+          ]
+        },
+        {
+          "es": "manzana",
+          "en": "apple",
+          "aliases": [
+            "manzana",
+            "apple"
+          ]
+        },
+        {
+          "es": "cereza",
+          "en": "cherry",
+          "aliases": [
+            "cereza",
+            "cherry"
+          ]
+        },
+        {
+          "es": "frambuesa",
+          "en": "raspberry",
+          "aliases": [
+            "frambuesa",
+            "raspberry"
+          ]
+        },
+        {
+          "es": "ananá",
+          "en": "pineapple",
+          "aliases": [
+            "ananá",
+            "pineapple"
+          ]
+        },
+        {
+          "es": "lima",
+          "en": "lime",
+          "aliases": [
+            "lima",
+            "lime"
+          ]
+        },
+        {
+          "es": "limón",
+          "en": "lemon",
+          "aliases": [
+            "limón",
+            "lemon"
+          ]
+        },
+        {
+          "es": "frutilla",
+          "en": "strawberry",
+          "aliases": [
+            "frutilla",
+            "strawberry"
+          ]
+        },
+        {
+          "es": "durazno",
+          "en": "peach",
+          "aliases": [
+            "durazno",
+            "peach"
+          ]
+        },
+        {
+          "es": "banana",
+          "en": "banana",
+          "aliases": [
+            "banana",
+            "banana"
+          ]
+        },
+        {
+          "es": "naranja",
+          "en": "orange",
+          "aliases": [
+            "naranja",
+            "orange"
+          ]
+        },
+        {
+          "es": "arándano",
+          "en": "blueberry",
+          "aliases": [
+            "arándano",
+            "blueberry"
+          ]
+        },
+        {
+          "es": "mora",
+          "en": "blackberry",
+          "aliases": [
+            "mora",
+            "blackberry"
+          ]
+        },
+        {
+          "es": "mango",
+          "en": "mango",
+          "aliases": [
+            "mango",
+            "mango"
+          ]
+        },
+        {
+          "es": "sandía",
+          "en": "watermelon",
+          "aliases": [
+            "sandía",
+            "watermelon"
+          ]
+        },
+        {
+          "es": "kiwi",
+          "en": "kiwi",
+          "aliases": [
+            "kiwi",
+            "kiwi"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid"
+          ]
+        },
+        {
+          "es": "ácido málico",
+          "en": "malic acid",
+          "aliases": [
+            "ácido málico",
+            "malic acid"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "concentrado de remolacha",
+          "en": "beetroot concentrate",
+          "aliases": [
+            "concentrado de remolacha",
+            "beetroot concentrate"
+          ]
+        },
+        {
+          "es": "espirulina",
+          "en": "spirulina",
+          "aliases": [
+            "espirulina",
+            "spirulina"
+          ]
+        }
+      ],
+      "sourceId": "chupa-chups-fruit-lollipops-spain",
+      "verification": "manufacturer_product_specification",
+      "status": "ready"
+    },
+    {
+      "id": "maggi-hot-sweet-tomato-chilli-india-200g",
+      "barcode": null,
+      "name": "MAGGI Hot & Sweet Tomato Chilli Sauce",
+      "nameI18n": {
+        "es": "MAGGI salsa de tomate, chile y sabor agridulce",
+        "en": "MAGGI Hot & Sweet Tomato Chilli Sauce"
+      },
+      "brand": "MAGGI",
+      "country": "India",
+      "market": "India",
+      "region": "world",
+      "category": "chili_sauce",
+      "package": "200 g bottle",
+      "image": null,
+      "description": {
+        "es": "Salsa india agridulce de tomate y chile · transcripción comercial de etiqueta.",
+        "en": "Indian sweet-and-hot tomato chilli sauce · retailer label transcription."
+      },
+      "ingredientsText": "Water, Sugar, Tomato paste (11.9%), Red chilli puree (6.6%), Iodized salt, Acidity regulator (260), Starch, Mixed Spices, Garlic powder, Thickener (415), Onion powder, Preservative (211).",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "pasta de tomate",
+          "en": "tomato paste",
+          "aliases": [
+            "pasta de tomate",
+            "tomato paste"
+          ]
+        },
+        {
+          "es": "puré de chile rojo",
+          "en": "red chilli puree",
+          "aliases": [
+            "puré de chile rojo",
+            "red chilli puree",
+            "red chili puree"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodized salt",
+          "aliases": [
+            "sal yodada",
+            "iodized salt"
+          ]
+        },
+        {
+          "es": "regulador de acidez 260",
+          "en": "acidity regulator 260",
+          "aliases": [
+            "regulador de acidez 260",
+            "acidity regulator 260",
+            "acetic acid"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "mezcla de especias",
+          "en": "mixed spices",
+          "aliases": [
+            "mezcla de especias",
+            "mixed spices"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "espesante 415",
+          "en": "thickener 415",
+          "aliases": [
+            "espesante 415",
+            "thickener 415",
+            "xanthan gum"
+          ]
+        },
+        {
+          "es": "cebolla en polvo",
+          "en": "onion powder",
+          "aliases": [
+            "cebolla en polvo",
+            "onion powder"
+          ]
+        },
+        {
+          "es": "conservante 211",
+          "en": "preservative 211",
+          "aliases": [
+            "conservante 211",
+            "preservative 211",
+            "sodium benzoate"
+          ]
+        }
+      ],
+      "sourceId": "maggi-hot-sweet-chilli-india",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
     }
   ]
 }
