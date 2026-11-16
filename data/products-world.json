@@ -3506,7 +3506,7 @@
       "region": "world",
       "category": "gummy_candy",
       "package": "5 oz (141 g)",
-      "image": null,
+      "image": "https://stevensonstoys.com/cdn/shop/files/haribo.jpg?v=1708381226",
       "description": {
         "es": "Ositos de goma en cinco colores, fórmula del mercado estadounidense.",
         "en": "Five-color gummy bears, United States-market formula."
@@ -3612,7 +3612,8 @@
       ],
       "sourceId": "haribo-goldbears-us-5oz-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-haribo-goldbears-us-5oz"
     },
     {
       "id": "mcvities-digestives-uk-original",
@@ -3758,7 +3759,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "Standard single-serve pack (25 g nutrition serving)",
-      "image": null,
+      "image": "https://automaticrefreshments.com/cdn/shop/files/19_7f026638-db48-4f85-974d-9e5c6e7d546f.png?v=1706094027&width=800",
       "description": {
         "es": "Papas fritas clásicas con sal, hechas con papas británicas.",
         "en": "Classic salted potato crisps made with British potatoes."
@@ -3832,7 +3833,8 @@
       ],
       "sourceId": "walkers-ready-salted-uk-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-walkers-ready-salted-uk"
     },
     {
       "id": "cadbury-dairy-milk-uk-45g",
@@ -4084,7 +4086,7 @@
       "region": "world",
       "category": "breakfast_cereal",
       "package": "210 g",
-      "image": null,
+      "image": "https://tdc01z.vteximg.com.br/arquivos/ids/157344-1000-1000/11225-cer-nestle-210g-cx-nescau-choc.png?v=637897717638530000",
       "description": {
         "es": "Cereal de bolitas de maíz integral con cacao, versión brasileña.",
         "en": "Whole-corn and cocoa cereal balls, Brazilian-market version."
@@ -4254,7 +4256,8 @@
       ],
       "sourceId": "nescau-cereal-brazil-210g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-nescau-cereal-brazil-210g"
     },
     {
       "id": "trakinas-chocolate-brazil-126g",
@@ -4270,7 +4273,7 @@
       "region": "world",
       "category": "filled_cookies",
       "package": "126 g",
-      "image": null,
+      "image": "https://www.marchebresil.com/cdn/shop/files/Trakinaschocolate126g.webp?v=1761758755&width=1500",
       "description": {
         "es": "Galletitas rellenas sabor chocolate, presentación brasileña de 126 g.",
         "en": "Chocolate-flavored sandwich cookies, Brazilian 126 g pack."
@@ -4432,7 +4435,8 @@
       ],
       "sourceId": "trakinas-chocolate-brazil-126g-source",
       "verification": "retailer_product_label",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-trakinas-chocolate-brazil-126g"
     },
     {
       "id": "sabritas-original-mexico-45g",
@@ -4448,7 +4452,7 @@
       "region": "world",
       "category": "potato_chips",
       "package": "45 g (market pack reference)",
-      "image": null,
+      "image": "https://i5.walmartimages.com.mx/gr/images/product-images/img_large/00750101110145L2.jpg",
       "description": {
         "es": "Papas fritas clásicas mexicanas con solo tres ingredientes.",
         "en": "Classic Mexican potato chips made with only three ingredients."
@@ -4482,7 +4486,8 @@
       ],
       "sourceId": "sabritas-original-mexico-45g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-sabritas-original-mexico-45g"
     },
     {
       "id": "ritter-sport-alpenmilch-germany-100g",
@@ -4498,7 +4503,7 @@
       "region": "world",
       "category": "milk_chocolate",
       "package": "100 g",
-      "image": null,
+      "image": "https://oursweetindulgence.net/cdn/shop/files/304975.avif?v=1768523620&width=533",
       "description": {
         "es": "Chocolate con leche alpina y pasta de avellanas, versión alemana.",
         "en": "Alpine milk chocolate with hazelnut paste, German-market version."
@@ -4556,7 +4561,8 @@
       ],
       "sourceId": "ritter-sport-alpenmilch-germany-100g-source",
       "verification": "manufacturer_specification_via_retailer_pdf",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-ritter-sport-alpenmilch-germany-100g"
     },
     {
       "id": "shin-ramyun-original-cup-us-75g",
@@ -5144,7 +5150,7 @@
       "region": "world",
       "category": "pasta_sauce",
       "package": "190 g",
-      "image": null,
+      "image": "https://www.londonfoodhall.co.uk/cdn/shop/files/71klFCMgGwL.jpg?v=1771342205&width=1946",
       "description": {
         "es": "Salsa pesto italiana con albahaca fresca, anacardos y Parmigiano Reggiano.",
         "en": "Italian pesto sauce with fresh basil, cashews and Parmigiano Reggiano."
@@ -5266,7 +5272,8 @@
       ],
       "sourceId": "barilla-pesto-genovese-italy-190g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-barilla-pesto-genovese-italy-190g"
     },
     {
       "id": "tim-tam-original-australia-200g",
@@ -5282,7 +5289,7 @@
       "region": "world",
       "category": "chocolate_cookies",
       "package": "200 g",
-      "image": null,
+      "image": "https://www.aussiepharmadirect.com.au/cdn/shop/files/TimTamOriginal_grande.png?v=1698207065",
       "description": {
         "es": "Galletitas australianas de chocolate con cobertura de chocolate con leche.",
         "en": "Australian chocolate biscuits coated in milk chocolate."
@@ -5444,7 +5451,8 @@
       ],
       "sourceId": "tim-tam-original-australia-200g-source",
       "verification": "retailer_product_label",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-tim-tam-original-australia-200g"
     },
     {
       "id": "amul-dark-chocolate-india-150g",
