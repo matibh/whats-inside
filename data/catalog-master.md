@@ -4244,3 +4244,426 @@ Refined wheat flour (maida) 68%, sugar, refined palm oil, invert sugar syrup (su
 **Fuente / Source:** [Parle official brand page](https://www.parleproducts.com/brands/parle-g) · [Secondary pack transcription](https://halalscan.app/p/parle-g)  
 **Tipo / Type:** `retailer_label_transcription`  
 **Alcance / Supports:** Parle's official page confirms the Parle-G product family; the detailed ingredient declaration is a secondary transcription of a retail pack. No single package weight is asserted because sizes vary.
+
+
+---
+
+### Whittaker's Peanut Slab / Whittaker's Peanut Slab
+
+- **ID:** `whittakers-peanut-slab-new-zealand-50g`
+- **Marca / Brand:** Whittaker's
+- **País / Country:** New Zealand
+- **Mercado / Market:** New Zealand
+- **Envase / Package:** 50 g slab
+- **Categoría / Category:** `chocolate_bar`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Chocolate con leche neozelandés con maní tostado.
+- **Description (EN):** New Zealand milk chocolate with roasted peanuts.
+
+**Ingredientes declarados / Declared ingredients**
+
+Milk chocolate [sugar, cocoa solids 33% (pure cocoa butter and cocoa mass), New Zealand milk powder 17%, emulsifier (soy lecithin), vanilla flavour]; roasted peanuts 35%.
+
+**Respuestas aceptadas / Accepted answers (7)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| pasta de cacao | cocoa mass | pasta de cacao, cocoa mass |
+| leche en polvo | milk powder | leche en polvo, milk powder |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| aromatizante de vainilla | vanilla flavour | aromatizante de vainilla, vanilla flavour, vanilla flavor |
+| maní tostado | roasted peanuts | maní tostado, roasted peanuts, cacahuetes tostados, peanuts |
+
+**Fuente / Source:** [Whittaker's](https://www.whittakers.co.nz/en_WW/products/peanut/slab)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Whittaker's product page identifies the New Zealand-made 50 g Peanut Slab and gives its full ingredient statement. Precautionary may-contain tree nuts and gluten are not treated as ingredients.
+
+
+---
+
+### Ouma Buttermilk Rusks / Ouma Buttermilk Rusks
+
+- **ID:** `ouma-buttermilk-rusks-south-africa-500g`
+- **Marca / Brand:** Ouma
+- **País / Country:** South Africa
+- **Mercado / Market:** South Africa
+- **Envase / Package:** 500 g pack
+- **Categoría / Category:** `plain_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Bizcochos secos sudafricanos tradicionales con suero de leche.
+- **Description (EN):** Traditional South African buttermilk rusks.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat flour (gluten), sugar, vegetable fat (palm fruit, TBHQ), buttermilk powder (3%) (cow's milk), raising agents (E450, E500, E170), flavourings (contains milk and soy), salt.
+
+**Respuestas aceptadas / Accepted answers (11)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour, gluten |
+| azúcar | sugar | azúcar, sugar |
+| grasa vegetal | vegetable fat | grasa vegetal, vegetable fat |
+| aceite de palma | palm oil | aceite de palma, palm oil, palm fruit |
+| TBHQ | TBHQ | TBHQ, TBHQ, tertiary butylhydroquinone |
+| suero de leche en polvo | buttermilk powder | suero de leche en polvo, buttermilk powder |
+| gasificante E450 | raising agent E450 | gasificante E450, raising agent E450, difosfatos, diphosphates |
+| gasificante E500 | raising agent E500 | gasificante E500, raising agent E500, carbonatos de sodio, sodium carbonates |
+| carbonato de calcio E170 | calcium carbonate E170 | carbonato de calcio E170, calcium carbonate E170, E170 |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+| sal | salt | sal, salt |
+
+**Fuente / Source:** [SaffaTrading](https://www.saffatrading.co.za/Ouma-Buttermilk-Rusks)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Retail listing provides the 500 g pack and an ingredient declaration. It is a secondary transcription, not an official manufacturer specification.
+
+
+---
+
+### Pasta de curry rojo Mae Ploy / Mae Ploy Red Curry Paste
+
+- **ID:** `mae-ploy-red-curry-paste-thailand-1kg`
+- **Marca / Brand:** Mae Ploy
+- **País / Country:** Thailand
+- **Mercado / Market:** United Kingdom foodservice listing
+- **Envase / Package:** 1 kg foodservice pouch
+- **Categoría / Category:** `curry_paste`
+- **Estado / Status:** `ready` · **Verificación:** `foodservice_specification`
+- **Descripción (ES):** Pasta tailandesa de curry rojo con hierbas, especias y pasta de camarón.
+- **Description (EN):** Thai red curry paste with herbs, spices and shrimp paste.
+
+**Ingredientes declarados / Declared ingredients**
+
+Garlic 21.5%, dried red chilli 19.0%, lemongrass 18.5%, shallot 14.5%, salt 13.0%, galangal 6.0%, shrimp paste (shrimp 80%, salt) 4.5%, kaffir lime peel 2.5%, pepper 0.5%.
+
+**Respuestas aceptadas / Accepted answers (10)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| ajo | garlic | ajo, garlic |
+| chile rojo seco | dried red chilli | chile rojo seco, dried red chilli, dried red chili, ají rojo seco |
+| hierba limón | lemongrass | hierba limón, lemongrass, limoncillo |
+| chalota | shallot | chalota, shallot |
+| sal | salt | sal, salt |
+| galanga | galangal | galanga, galangal |
+| pasta de camarón | shrimp paste | pasta de camarón, shrimp paste, pasta de gambas |
+| camarón | shrimp | camarón, shrimp, gamba |
+| piel de lima kaffir | kaffir lime peel | piel de lima kaffir, kaffir lime peel, cáscara de lima kaffir |
+| pimienta | pepper | pimienta, pepper |
+
+**Fuente / Source:** [Henderson Foodservice](https://www.henderson-foodservice.com/productpdf/download/file/id/987/name/Mae_Ploy_Red_Curry_Paste_BD_%252812x1kg%2529.pdf/)  
+**Tipo / Type:** `foodservice_specification`  
+**Alcance / Supports:** Foodservice specification identifies Mae Ploy Red Curry Paste in 1 kg pouches and provides ingredient percentages and subcomponents, including shrimp paste.
+
+
+---
+
+### VEGEMITE Original / VEGEMITE Original
+
+- **ID:** `vegemite-original-australia-220g`
+- **Marca / Brand:** VEGEMITE
+- **País / Country:** Australia
+- **Mercado / Market:** Australia
+- **Envase / Package:** 220 g jar
+- **Categoría / Category:** `yeast_spread`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_data_sheet`
+- **Descripción (ES):** Pasta australiana salada de extracto de levadura, enriquecida con vitaminas B.
+- **Description (EN):** Australian savoury yeast extract spread enriched with B vitamins.
+
+**Ingredientes declarados / Declared ingredients**
+
+Yeast extract (from yeast grown on barley and wheat), salt, mineral salt (508), malt extract (from barley), colour (150c), flavours, niacin, thiamine, riboflavin, folate.
+
+**Respuestas aceptadas / Accepted answers (12)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| cebada | barley | cebada, barley |
+| trigo | wheat | trigo, wheat |
+| sal | salt | sal, salt |
+| cloruro de potasio (INS 508) | potassium chloride (INS 508) | cloruro de potasio (INS 508), potassium chloride (INS 508), E508 |
+| extracto de malta | malt extract | extracto de malta, malt extract |
+| caramelo (INS 150c) | caramel colour (INS 150c) | caramelo (INS 150c), caramel colour (INS 150c), caramel color, E150c |
+| aromatizantes | flavours | aromatizantes, flavours, flavors |
+| niacina | niacin | niacina, niacin, vitamina B3, vitamin B3 |
+| tiamina | thiamine | tiamina, thiamine, vitamina B1, vitamin B1 |
+| riboflavina | riboflavin | riboflavina, riboflavin, vitamina B2, vitamin B2 |
+| folato | folate | folato, folate, ácido fólico, folic acid |
+
+**Fuente / Source:** [Bega Foods / Bega Foodservice](https://superiorfs.com.au/documents/PDF/KV220_1.pdf)  
+**Tipo / Type:** `manufacturer_data_sheet`  
+**Alcance / Supports:** Bega product data sheet identifies the 220 g jar, barcode and ingredient declaration. The manufacturer foodservice page independently confirms the formula and Australian origin.
+
+
+---
+
+### LU Véritable Petit Beurre / LU Véritable Petit Beurre
+
+- **ID:** `lu-petit-beurre-france-25g`
+- **Marca / Brand:** LU
+- **País / Country:** France
+- **Mercado / Market:** France
+- **Envase / Package:** 25 g sleeve (3 biscuits)
+- **Categoría / Category:** `plain_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_technical_sheet`
+- **Descripción (ES):** Galletitas francesas de manteca tipo petit beurre.
+- **Description (EN):** French butter petit-beurre biscuits.
+
+**Ingredientes declarados / Declared ingredients**
+
+Wheat flour 73%, sugar, butter 13%, skimmed milk powder, salt, raising agents (ammonium hydrogen carbonate, sodium hydrogen carbonate), acidity regulator (citric acid), flavouring. May contain eggs and sesame.
+
+**Respuestas aceptadas / Accepted answers (9)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| azúcar | sugar | azúcar, sugar |
+| manteca | butter | manteca, butter |
+| leche descremada en polvo | skimmed milk powder | leche descremada en polvo, skimmed milk powder, nonfat dry milk |
+| sal | salt | sal, salt |
+| bicarbonato de amonio | ammonium hydrogen carbonate | bicarbonato de amonio, ammonium hydrogen carbonate, E503 |
+| bicarbonato de sodio | sodium hydrogen carbonate | bicarbonato de sodio, sodium hydrogen carbonate, E500 |
+| ácido cítrico | citric acid | ácido cítrico, citric acid, E330 |
+| aromatizante | flavouring | aromatizante, flavouring, flavoring |
+
+**Fuente / Source:** [Groupe Pomona / LU](https://cdn.api.groupe-pomona.fr/public/products/0029760/branch/es/medias/veritable-petit-beurre-en-etui-25-g-lu_0029760_es_technical.pdf)  
+**Tipo / Type:** `manufacturer_technical_sheet`  
+**Alcance / Supports:** Technical sheet updated 25 September 2025 identifies the 25 g three-biscuit sleeve and detailed ingredients. Precautionary egg and sesame traces are excluded.
+
+
+---
+
+### Pocky Matcha / Pocky Matcha
+
+- **ID:** `pocky-matcha-us-40g`
+- **Marca / Brand:** Glico
+- **País / Country:** United States
+- **Mercado / Market:** United States
+- **Envase / Package:** 40 g box
+- **Categoría / Category:** `chocolate_biscuit_sticks`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Palitos de galletita cubiertos con sabor a té verde matcha, versión comercializada en Estados Unidos.
+- **Description (EN):** Biscuit sticks with matcha green tea flavour, US-market formulation.
+
+**Ingredientes declarados / Declared ingredients**
+
+Enriched flour (wheat flour, ferrous fumarate, niacinamide, thiamin mononitrate, riboflavin, folic acid), sugar, fully hydrogenated palm oil, whole milk powder, lactose, modified food starch, inulin, vegetable shortening (palm oil, fully hydrogenated palm oil), whole wheat flour, malt extract, green tea powder, artificial flavor, soy lecithin, salt, sodium bicarbonate, baker's yeast.
+
+**Respuestas aceptadas / Accepted answers (21)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| fumarato ferroso | ferrous fumarate | fumarato ferroso, ferrous fumarate |
+| niacinamida | niacinamide | niacinamida, niacinamide |
+| mononitrato de tiamina | thiamin mononitrate | mononitrato de tiamina, thiamin mononitrate |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| ácido fólico | folic acid | ácido fólico, folic acid |
+| azúcar | sugar | azúcar, sugar |
+| aceite de palma totalmente hidrogenado | fully hydrogenated palm oil | aceite de palma totalmente hidrogenado, fully hydrogenated palm oil |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| lactosa | lactose | lactosa, lactose |
+| almidón alimentario modificado | modified food starch | almidón alimentario modificado, modified food starch |
+| inulina | inulin | inulina, inulin |
+| grasa vegetal | vegetable shortening | grasa vegetal, vegetable shortening |
+| harina integral de trigo | whole wheat flour | harina integral de trigo, whole wheat flour |
+| extracto de malta | malt extract | extracto de malta, malt extract |
+| té verde en polvo | green tea powder | té verde en polvo, green tea powder, matcha |
+| aromatizante artificial | artificial flavor | aromatizante artificial, artificial flavor, artificial flavour |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| sal | salt | sal, salt |
+| bicarbonato de sodio | sodium bicarbonate | bicarbonato de sodio, sodium bicarbonate |
+| levadura de panadería | baker's yeast | levadura de panadería, baker's yeast |
+
+**Fuente / Source:** [Ezaki Glico USA](https://www.glico.com/us/product/pocky/18857/)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Glico USA product page lists Pocky Matcha 1.41 oz (40 g) and the US-market ingredient statement. This is not asserted to be the Japanese-market formula.
+
+
+---
+
+### Samyang Buldak Original / Samyang Buldak Original
+
+- **ID:** `samyang-buldak-original-us`
+- **Marca / Brand:** Samyang
+- **País / Country:** South Korea
+- **Mercado / Market:** United States
+- **Envase / Package:** Single retail pack; size not specified on source page
+- **Categoría / Category:** `instant_noodles`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Fideos instantáneos coreanos picantes con salsa sabor pollo.
+- **Description (EN):** Korean spicy instant noodles with chicken-flavoured sauce.
+
+**Ingredientes declarados / Declared ingredients**
+
+Noodles: Wheat flour, food starch-modified, palm oil, less than 2% of wheat gluten, salt, glycerin, soy lecithin, polyglycerol esters of fatty acids, potassium carbonate, sodium carbonate, sodium phosphate dibasic, guar gum, tocopherols, riboflavin (color). Sauce: Water, artificial chicken flavor powder (artificial flavor, dextrin, wheat starch, sugar, salt, yeast extract, natural flavor, disodium 5'-ribonucleotide, maltodextrin, corn starch), soy sauce seasoning (soybeans, water, salt, wheat, sodium carbonate, high fructose corn syrup, disodium 5'-ribonucleotide, garlic, steviol glycoside, maltodextrin, sugar), sugar, hot pepper seasoning [red pepper, dextrin, salt, sugar, onion powder, artificial flavor, garlic powder, silicon dioxide, soy sauce (water, soybeans, wheat, salt), capsicum oleoresin, paprika oleoresin, monosodium glutamate, disodium inosinate, disodium guanylate], soybean oil, onion, red pepper seed oil, garlic, food starch-modified, capsicum oleoresin, paprika oleoresin, black pepper powder, natural and artificial curry flavor (cumin, salt, maltodextrin, artificial flavor). Flake: sesame, dried seaweed.
+
+**Respuestas aceptadas / Accepted answers (42)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| almidón alimentario modificado | modified food starch | almidón alimentario modificado, modified food starch |
+| aceite de palma | palm oil | aceite de palma, palm oil |
+| gluten de trigo | wheat gluten | gluten de trigo, wheat gluten |
+| sal | salt | sal, salt |
+| glicerina | glycerin | glicerina, glycerin |
+| lecitina de soja | soy lecithin | lecitina de soja, soy lecithin |
+| ésteres de poliglicerol de ácidos grasos | polyglycerol esters of fatty acids | ésteres de poliglicerol de ácidos grasos, polyglycerol esters of fatty acids |
+| carbonato de potasio | potassium carbonate | carbonato de potasio, potassium carbonate |
+| carbonato de sodio | sodium carbonate | carbonato de sodio, sodium carbonate |
+| fosfato disódico | sodium phosphate dibasic | fosfato disódico, sodium phosphate dibasic |
+| goma guar | guar gum | goma guar, guar gum |
+| tocoferoles | tocopherols | tocoferoles, tocopherols |
+| riboflavina | riboflavin | riboflavina, riboflavin |
+| agua | water | agua, water |
+| aromatizante artificial | artificial flavor | aromatizante artificial, artificial flavor |
+| dextrina | dextrin | dextrina, dextrin |
+| azúcar | sugar | azúcar, sugar |
+| extracto de levadura | yeast extract | extracto de levadura, yeast extract |
+| aromatizante natural | natural flavor | aromatizante natural, natural flavor |
+| 5'-ribonucleótido disódico | disodium 5'-ribonucleotide | 5'-ribonucleótido disódico, disodium 5'-ribonucleotide |
+| maltodextrina | maltodextrin | maltodextrina, maltodextrin |
+| almidón de maíz | corn starch | almidón de maíz, corn starch |
+| soja | soybeans | soja, soybeans, soya |
+| jarabe de maíz de alta fructosa | high fructose corn syrup | jarabe de maíz de alta fructosa, high fructose corn syrup |
+| ajo | garlic | ajo, garlic |
+| glucósido de esteviol | steviol glycoside | glucósido de esteviol, steviol glycoside |
+| chile rojo | red pepper | chile rojo, red pepper |
+| cebolla en polvo | onion powder | cebolla en polvo, onion powder |
+| dióxido de silicio | silicon dioxide | dióxido de silicio, silicon dioxide |
+| oleorresina de capsicum | capsicum oleoresin | oleorresina de capsicum, capsicum oleoresin |
+| oleorresina de pimentón | paprika oleoresin | oleorresina de pimentón, paprika oleoresin |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+| inosinato disódico | disodium inosinate | inosinato disódico, disodium inosinate, E631 |
+| guanilato disódico | disodium guanylate | guanilato disódico, disodium guanylate, E627 |
+| aceite de soja | soybean oil | aceite de soja, soybean oil |
+| cebolla | onion | cebolla, onion |
+| aceite de semilla de chile rojo | red pepper seed oil | aceite de semilla de chile rojo, red pepper seed oil |
+| pimienta negra en polvo | black pepper powder | pimienta negra en polvo, black pepper powder |
+| comino | cumin | comino, cumin |
+| sésamo | sesame | sésamo, sesame, ajonjolí |
+| algas marinas secas | dried seaweed | algas marinas secas, dried seaweed |
+
+**Fuente / Source:** [Samyang America](https://beta.samyangamerica.com/buldak/original)  
+**Tipo / Type:** `manufacturer_website`  
+**Alcance / Supports:** Official Samyang America product page supplies ingredient declarations for noodles, sauce and flakes for the US-market Buldak Original product. Package size is not stated in the catalog.
+
+
+---
+
+### Lao Gan Ma Chili Crisp picante / Lao Gan Ma Spicy Chili Crisp
+
+- **ID:** `lao-gan-ma-spicy-chili-crisp-canada-210g`
+- **Marca / Brand:** Lao Gan Ma
+- **País / Country:** China
+- **Mercado / Market:** Canada
+- **Envase / Package:** 210 g jar
+- **Categoría / Category:** `condiment_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Condimento chino de aceite con chile, cebolla, frijoles negros y pimienta de Sichuan.
+- **Description (EN):** Chinese chilli oil condiment with chilli, onion, black beans and Sichuan pepper.
+
+**Ingredientes declarados / Declared ingredients**
+
+Soybean oil, chili, onion, black bean, salt, sugar, Chinese prickly ash, monosodium glutamate (E621).
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| aceite de soja | soybean oil | aceite de soja, soybean oil, soy oil |
+| chile | chili | chile, chili, chilli, ají |
+| cebolla | onion | cebolla, onion |
+| frijoles negros | black beans | frijoles negros, black beans, porotos negros |
+| sal | salt | sal, salt |
+| azúcar | sugar | azúcar, sugar |
+| pimienta de Sichuan | Chinese prickly ash | pimienta de Sichuan, Chinese prickly ash, Sichuan pepper |
+| glutamato monosódico | monosodium glutamate | glutamato monosódico, monosodium glutamate, MSG, E621 |
+
+**Fuente / Source:** [Voilà by Sobeys](https://voila.ca/products/lao-gan-ma-spicy-chilli-crisp-210-g/597325EA)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Canadian retailer listing identifies the 210 g jar and ingredient list. The Chinese country of origin is attributed to the product brand and should be treated as a market/product identification rather than a manufacturer-issued technical sheet.
+
+
+---
+
+### Galletitas Bourbon Alfort Mini Chocolate / Bourbon Alfort Mini Chocolate Biscuits
+
+- **ID:** `bourbon-alfort-mini-chocolate-japan-61g`
+- **Marca / Brand:** Bourbon
+- **País / Country:** Japan
+- **Mercado / Market:** Thailand retail listing
+- **Envase / Package:** 61 g box
+- **Categoría / Category:** `chocolate_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Mini galletitas japonesas de trigo integral cubiertas con chocolate con leche.
+- **Description (EN):** Japanese mini whole-wheat biscuits topped with milk chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sugar, wheat flour, whole milk powder, cacao mass, shortening, vegetable oil, cocoa butter, whole wheat flour, wheat bran, salt, wheat germ, modified starch, emulsifier (from soy), baking powder, flavourings.
+
+**Respuestas aceptadas / Accepted answers (15)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| azúcar | sugar | azúcar, sugar |
+| harina de trigo | wheat flour | harina de trigo, wheat flour |
+| leche entera en polvo | whole milk powder | leche entera en polvo, whole milk powder |
+| pasta de cacao | cacao mass | pasta de cacao, cacao mass, cocoa mass |
+| grasa vegetal | shortening | grasa vegetal, shortening |
+| aceite vegetal | vegetable oil | aceite vegetal, vegetable oil |
+| manteca de cacao | cocoa butter | manteca de cacao, cocoa butter |
+| harina integral de trigo | whole wheat flour | harina integral de trigo, whole wheat flour |
+| salvado de trigo | wheat bran | salvado de trigo, wheat bran |
+| sal | salt | sal, salt |
+| germen de trigo | wheat germ | germen de trigo, wheat germ |
+| almidón modificado | modified starch | almidón modificado, modified starch |
+| emulsionante de soja | emulsifier from soy | emulsionante de soja, emulsifier from soy, soy emulsifier |
+| polvo de hornear | baking powder | polvo de hornear, baking powder, raising agent |
+| aromatizantes | flavourings | aromatizantes, flavourings, flavorings |
+
+**Fuente / Source:** [TOPS Online](https://www.tops.co.th/en/bourbon-alfort-mini-chocolate-biscuit-61g-4901360245567)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Retail listing identifies the 61 g product, Japan as country of origin, barcode and ingredient declaration. Product packaging may be revised by the manufacturer.
+
+
+---
+
+### Asahi Calpis Water / Asahi Calpis Water
+
+- **ID:** `calpis-water-taiwan-australia-500ml`
+- **Marca / Brand:** Calpis / Asahi
+- **País / Country:** Taiwan
+- **Mercado / Market:** Australia
+- **Envase / Package:** 500 ml bottle
+- **Categoría / Category:** `fermented_drink`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Bebida láctea dulce y ligeramente ácida de la marca Calpis, versión de origen taiwanés vendida en Australia.
+- **Description (EN):** Sweet, lightly tangy Calpis milk drink, Taiwan-origin version sold in Australia.
+
+**Ingredientes declarados / Declared ingredients**
+
+Water, sugar, skim milk powder, yeast, acidity regulators (330, 331), flavour, thickener (soybean starch).
+
+**Respuestas aceptadas / Accepted answers (8)**
+
+| Español | English | Alias / Aliases |
+|---|---|---|
+| agua | water | agua, water |
+| azúcar | sugar | azúcar, sugar |
+| leche descremada en polvo | skim milk powder | leche descremada en polvo, skim milk powder |
+| levadura | yeast | levadura, yeast |
+| ácido cítrico (INS 330) | citric acid (INS 330) | ácido cítrico (INS 330), citric acid (INS 330), E330 |
+| citrato de sodio (INS 331) | sodium citrate (INS 331) | citrato de sodio (INS 331), sodium citrate (INS 331), E331 |
+| aromatizante | flavour | aromatizante, flavour, flavor |
+| almidón de soja | soybean starch | almidón de soja, soybean starch, soya starch |
+
+**Fuente / Source:** [Woolworths Australia](https://www.woolworths.com.au/shop/productdetails/6057799/asahi-calpis-water)  
+**Tipo / Type:** `retailer_label_transcription`  
+**Alcance / Supports:** Australian retailer listing identifies a 500 ml bottle, ingredient declaration and explicitly labels the product as Product of Taiwan.
