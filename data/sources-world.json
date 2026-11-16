@@ -433,6 +433,96 @@
       "url": "https://superiorfs.com.au/documents/PDF/KV220_1.pdf",
       "supports": "Bega Foods product data sheet for VEGEMITE 220 g, GTIN 9352042000281; manufacturer-issued specification hosted by foodservice distributor.",
       "market": "Australia"
+    },
+    {
+      "id": "walkers-quavers-cheese-uk-source",
+      "productId": "walkers-quavers-cheese-uk",
+      "publisher": "Walkers UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.walkers.co.uk/our-range/family-snacks/quavers-cheese",
+      "supports": "Official Walkers UK product page with ingredient list. Precautionary may-contain allergens excluded.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "pocari-sweat-japan-500ml-source",
+      "productId": "pocari-sweat-japan-500ml",
+      "publisher": "Otsuka Pharmaceutical",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.otsuka.co.jp/en/nutraceutical/products/pocarisweat/",
+      "supports": "Official Otsuka product page, ingredient declaration for 500 ml label-free bottle. Recipe shown for this bottle format.",
+      "market": "Japan"
+    },
+    {
+      "id": "kelloggs-coco-pops-uk-source",
+      "productId": "kelloggs-coco-pops-uk",
+      "publisher": "Kellogg's UK / Kellogg's Vantage",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.kelloggsvantage.co.uk/en_GB/products/coco-pops-original.html",
+      "supports": "Official Kellogg's UK product data page; ingredients and vitamin/mineral declaration. Package size not specified.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "a1-original-steak-sauce-us-10oz-source",
+      "productId": "a1-original-steak-sauce-us-10oz",
+      "publisher": "Kraft Heinz / A.1.",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.kraftheinz.com/a1/products/00054400000054-original-steak-sauce",
+      "supports": "Official Kraft Heinz US product page; ingredient declaration and 10 oz size.",
+      "market": "United States"
+    },
+    {
+      "id": "mutti-polpa-italy-400g-source",
+      "productId": "mutti-polpa-italy-400g",
+      "publisher": "Mutti",
+      "sourceType": "manufacturer_website",
+      "url": "https://mutti-parma.com/es/productos/polpa/",
+      "supports": "Official Mutti product page states the main ingredients as tomato 99.8% and salt; 400 g package is a market reference, not specified on this page.",
+      "market": "Italy"
+    },
+    {
+      "id": "lotus-biscoff-spread-foodservice-8kg-source",
+      "productId": "lotus-biscoff-spread-foodservice-8kg",
+      "publisher": "Lotus Biscoff Food Professionals",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.lotusbiscoff.com/en/foodprofessionals/products/biscoff-spread-8kg",
+      "supports": "Official Lotus Biscoff foodservice product page; ingredient declaration for 8 kg spread. Trace-allergen warnings excluded.",
+      "market": "International foodservice"
+    },
+    {
+      "id": "indomie-mi-goreng-indonesia-source",
+      "productId": "indomie-mi-goreng-indonesia",
+      "publisher": "Nilaigizi.id (BPOM registration transcription)",
+      "sourceType": "regulatory_database_transcription",
+      "url": "https://www.nilaigizi.id/product/indomie-mi-goreng",
+      "supports": "Indonesian ingredient transcription linked to BPOM registration MD240935004300027; third-party database, not manufacturer page. Formula/package must be checked against local wrapper.",
+      "market": "Indonesia"
+    },
+    {
+      "id": "fanta-orange-japan-500ml-source",
+      "productId": "fanta-orange-japan-500ml",
+      "publisher": "Coca-Cola Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.coca-cola.com/jp/ja/brands/fanta/products",
+      "supports": "Official Coca-Cola Japan product ingredient list for Fanta Orange. The 500 ml PET size is shown in official product announcements; formulation varies by market and revision.",
+      "market": "Japan"
+    },
+    {
+      "id": "barilla-basilico-sauce-italy-400g-source",
+      "productId": "barilla-basilico-sauce-italy-400g",
+      "publisher": "Barilla Latinoamérica",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.barilla.com/es-la/productos/salsas/salsas-rojas/salsa-basilico",
+      "supports": "Official Barilla product page lists 400 g and the complete ingredient declaration.",
+      "market": "Latin America product page / Italian-style recipe"
+    },
+    {
+      "id": "barilla-arrabbiata-sauce-italy-400g-source",
+      "productId": "barilla-arrabbiata-sauce-italy-400g",
+      "publisher": "Barilla Latinoamérica",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.barilla.com/es-la/productos/salsas/salsas-rojas/salsa-arrabbiata",
+      "supports": "Official Barilla product page lists 400 g and ingredient declaration.",
+      "market": "Latin America product page / Italian-style recipe"
     }
   ]
 }
