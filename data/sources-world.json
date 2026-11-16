@@ -1972,6 +1972,69 @@
       "url": "https://www.sayweee.com/zh/product/Lotte-Koala-Strawberry-Chocolate-Biscuit/2134227",
       "supports": "Lotte Koala's March Strawberry package image; image listing indicates 48 g, package size updated to match.",
       "market": "Japan"
+    },
+    {
+      "id": "image-glico-tomato-pretz-japan-53g",
+      "productId": "glico-tomato-pretz-japan-53g",
+      "publisher": "Glico Japan",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.glico.com/jp/product/snack_biscuit_cookie/pretz/46436/",
+      "supports": "Official Glico Tomato Pretz Japan 53 g box image.",
+      "market": "Japan"
+    },
+    {
+      "id": "image-milo-powder-australia-200g",
+      "productId": "milo-powder-australia-200g",
+      "publisher": "Australian Snacks",
+      "sourceType": "retailer_product_image",
+      "url": "https://australiansnacks.com/products/milo-small-tin",
+      "supports": "MILO Australian formula 200 g tin product image.",
+      "market": "Australia"
+    },
+    {
+      "id": "image-hp-brown-sauce-uk-255g",
+      "productId": "hp-brown-sauce-uk-255g",
+      "publisher": "BoroPantry",
+      "sourceType": "retailer_product_image",
+      "url": "https://boropantry.co.uk/products/hp-sauce-original-255g-classic-brown-sauce-for-meats-sausages",
+      "supports": "HP Original Brown Sauce UK 255 g bottle product image.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-jello-strawberry-gelatin-us-6oz",
+      "productId": "jello-strawberry-gelatin-us-6oz",
+      "publisher": "FoodServiceDirect",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.foodservicedirect.com/jello-strawberry-gelatin-6-ounce-24-case-40430.html",
+      "supports": "Jell-O Strawberry Gelatin Dessert Mix US 6 oz box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-kikkoman-teriyaki-marinade-us-296ml",
+      "productId": "kikkoman-teriyaki-marinade-us-296ml",
+      "publisher": "Sobeys",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.sobeys.com/products/kikkoman-teriyaki-marinade---sauce-296-ml",
+      "supports": "Kikkoman Teriyaki Marinade & Sauce 296 ml bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-pringles-sour-cream-onion-spain-40g",
+      "productId": "pringles-sour-cream-onion-spain-40g",
+      "publisher": "Supermercados Ruiz Galán",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.supermercadosruizgalan.es/detalle/-/Producto/pringles-sour-cream-onion-40g/224128",
+      "supports": "Pringles Sour Cream & Onion Spain 40 g can product image.",
+      "market": "Spain"
+    },
+    {
+      "id": "image-chocapic-cereal-france-1kg",
+      "productId": "chocapic-cereal-france-1kg",
+      "publisher": "Clic Shopping",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.clic-shopping.com/petit-dejeuner/cereales-enfants-ados-adultes/nestle-cereales-petales-au-chocolat-chocapic-430g-750g-ou-1-kg.html",
+      "supports": "Nestlé Chocapic France 1 kg foodservice box product image.",
+      "market": "France"
     }
   ],
   "lastUpdated": "2026-11-16"
