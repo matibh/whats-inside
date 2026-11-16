@@ -9,6 +9,103 @@
 :root{--paper:#f7f5ef;--ink:#20231f;--muted:#77796f;--line:#deded4;--lime:#d7f36a;--green:#2e7049;--red:#b34d43;--card:#fffefa}
 *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;min-height:100vh}button,input{font:inherit}button{cursor:pointer}.shell{max-width:760px;margin:auto;padding:24px 22px 42px}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);padding-bottom:18px}.brand{font-weight:900;letter-spacing:-1.5px;font-size:20px}.brand span{background:var(--lime);padding:2px 5px;border-radius:4px}.lang{border:1px solid var(--line);background:transparent;border-radius:99px;padding:7px 11px;font-size:11px;font-weight:800;letter-spacing:.08em}.eyebrow{font:11px 'DM Mono',monospace;color:var(--muted);letter-spacing:.13em;text-transform:uppercase}.intro{text-align:center;padding:40px 0 25px}.intro h1{font-size:clamp(42px,9vw,70px);line-height:.92;letter-spacing:-5px;margin:13px 0 14px;font-weight:900}.intro h1 em{font-style:normal;color:#8ca92e}.intro p{color:var(--muted);font-size:15px;line-height:1.6;margin:0 auto;max-width:390px}.game{display:none}.game.active{display:block}.product-card{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:grid;grid-template-columns: minmax(130px, .8fr) 1.2fr;min-height:220px}.product-photo{display:flex;align-items:center;justify-content:center;background:#f0eee5;padding:20px}.product-photo img{width:100%;height:190px;object-fit:contain}.product-info{padding:25px 22px;display:flex;flex-direction:column;justify-content:center}.product-info h2{font-size:26px;letter-spacing:-1px;margin:8px 0 5px}.product-info p{font-size:13px;color:var(--muted);margin:0;line-height:1.5}.timer-row{display:flex;align-items:center;gap:14px;margin:22px 0 15px}.timer{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--green) var(--progress,100%),#e5e5dc 0);position:relative;flex-shrink:0}.timer:before{content:"";position:absolute;inset:5px;background:var(--paper);border-radius:50%}.timer strong{position:relative;font:19px 'DM Mono',monospace}.timer-copy{flex:1}.timer-copy b{font-size:14px}.timer-copy small{display:block;color:var(--muted);font-size:12px;margin-top:3px}.score{margin-left:auto;text-align:right}.score strong{font:22px 'DM Mono',monospace;display:block}.score small{font:10px 'DM Mono',monospace;color:var(--muted);letter-spacing:.1em}.prompt{font-weight:800;font-size:19px;letter-spacing:-.5px;margin:18px 0 10px}.input-wrap{background:var(--card);border:1.5px solid var(--ink);border-radius:13px;padding:12px 14px;min-height:66px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;transition:.15s}.input-wrap:focus-within{box-shadow:4px 4px 0 var(--lime)}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{font-size:12px;border-radius:7px;padding:6px 9px;font-weight:700;background:#e5f0d9;color:var(--green);animation:pop .18s ease}.chip.bad{background:#f5e4df;color:var(--red)}@keyframes pop{from{transform:scale(.8);opacity:.3}to{transform:scale(1);opacity:1}}#ingredientInput{border:0;outline:0;background:transparent;min-width:130px;flex:1;font-size:15px;color:var(--ink);padding:5px 0}#ingredientInput::placeholder{color:#a4a49a}.hint{font-size:11px;color:var(--muted);margin:8px 2px 0}.feedback{height:23px;font-size:12px;font-weight:700;margin:8px 2px;color:var(--green)}.feedback.bad{color:var(--red)}.found-title{display:flex;justify-content:space-between;margin:16px 0 8px;font:10px 'DM Mono',monospace;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.found{min-height:37px;display:flex;gap:6px;flex-wrap:wrap}.empty{font-size:12px;color:#a3a398}.actions{display:flex;justify-content:space-between;align-items:center;margin-top:24px;gap:12px}.btn{border:0;border-radius:10px;background:var(--ink);color:white;padding:14px 22px;font-size:13px;font-weight:800;letter-spacing:.02em}.btn.primary{background:var(--lime);color:var(--ink);box-shadow:0 3px 0 #b6d24e}.btn:disabled{opacity:.5;cursor:not-allowed}.btn.ghost{background:transparent;color:var(--muted);border:1px solid var(--line);padding:12px 15px}.start-panel{text-align:center;padding:28px 0 38px}.start-panel .btn{margin-top:24px;min-width:190px}.rules{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;margin-top:25px;color:var(--muted);font:10px 'DM Mono',monospace}.rule{display:flex;gap:6px;align-items:center}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}.result{display:none;text-align:center;padding:32px 0}.result.active{display:block}.result h2{font-size:39px;letter-spacing:-2px;margin:8px 0}.percent{font:900 76px 'DM Sans',sans-serif;letter-spacing:-6px;color:var(--green);margin:10px 0 0}.result-sub{color:var(--muted);font-size:13px}.result-box{margin:24px 0;background:var(--card);border:1px solid var(--line);border-radius:15px;padding:18px;text-align:left}.result-box h3{font:10px 'DM Mono',monospace;color:var(--muted);letter-spacing:.12em;margin:0 0 12px}.answer-list{display:flex;flex-wrap:wrap;gap:7px}.answer{font-size:12px;padding:7px 9px;border-radius:7px;background:#e5f0d9;color:var(--green);font-weight:700}.answer.missed{background:#f1eee5;color:#747166}.result-actions{display:flex;justify-content:center;gap:9px;flex-wrap:wrap}.footer{border-top:1px solid var(--line);margin-top:38px;padding-top:17px;display:flex;justify-content:space-between;color:var(--muted);font:10px 'DM Mono',monospace}.countdown{font:900 clamp(80px,20vw,140px) 'DM Sans',sans-serif;letter-spacing:-8px;text-align:center;padding:60px 0;color:var(--green)}.hidden{display:none!important}
 @media(max-width:540px){.shell{padding:18px 15px 30px}.intro{padding:34px 0 20px}.intro h1{letter-spacing:-3px}.product-card{grid-template-columns:112px 1fr;min-height:155px}.product-photo{padding:10px}.product-photo img{height:135px}.product-info{padding:15px 13px}.product-info h2{font-size:20px}.product-info p{font-size:11px}.timer{width:51px;height:51px}.prompt{font-size:17px}.footer{font-size:9px}}
+
+/* Experience polish */
+:root{color-scheme:light}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{overscroll-behavior-y:none}
+button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offset:3px}
+.shell{max-width:700px;padding-left:clamp(16px,4vw,30px);padding-right:clamp(16px,4vw,30px)}
+.top{position:relative}
+.lang{min-height:38px;padding:8px 14px;transition:background .15s,border-color .15s}
+.lang:hover{background:#eeeedf;border-color:#b8b9a9}
+.intro{padding-top:clamp(34px,7vh,58px)}
+.intro h1{font-size:clamp(48px,9vw,76px);letter-spacing:-.065em}
+.start-panel{padding-top:24px}
+.start-panel .btn{min-height:54px;transition:transform .15s,box-shadow .15s}
+.btn:active{transform:translateY(2px);box-shadow:none}
+.game{max-width:590px;margin:0 auto}
+.product-card{grid-template-columns:minmax(150px,.9fr) 1.1fr;min-height:205px;box-shadow:0 5px 18px #34351d08}
+.product-photo{min-width:0}
+.product-photo img{max-width:100%;height:185px}
+.product-info h2{font-size:clamp(23px,4vw,30px)}
+.timer-row{margin:20px 0 19px;padding:0 2px}
+.timer{width:62px;height:62px;transition:background .2s}
+.timer.urgent{animation:urgentPulse .55s infinite alternate}
+@keyframes urgentPulse{to{transform:scale(1.07)}}
+.timer-copy b{font-size:15px}
+.prompt{font-size:21px;margin-top:22px}
+.input-wrap{min-height:72px;padding:13px 15px;gap:8px;box-shadow:0 2px 0 #20231f0b}
+.input-wrap:focus-within{box-shadow:0 0 0 3px #d7f36a}
+#ingredientInput{font-size:16px;min-height:34px}
+#ingredientInput::placeholder{font-size:14px}
+.hint{line-height:1.5}
+.feedback{min-height:23px}
+.found{gap:8px}
+.found .chip{font-size:13px;padding:7px 10px}
+.actions{margin-top:25px}
+.actions .eyebrow{font-size:9px;text-align:right}
+.result{max-width:590px;margin:0 auto}
+.result-box{box-shadow:0 5px 18px #34351d08}
+.answer{font-size:13px}
+.footer{max-width:590px;margin-left:auto;margin-right:auto}
+@media(max-width:600px){
+ .shell{padding:15px 14px 28px}
+ .top{padding-bottom:13px}
+ .brand{font-size:18px}
+ .intro{padding:31px 0 17px}
+ .intro h1{font-size:clamp(45px,13vw,62px);letter-spacing:-.07em;margin:12px 0}
+ .intro p{font-size:14px;max-width:310px}
+ .start-panel{padding:23px 0 30px}
+ .start-panel .btn{width:min(100%,320px)}
+ .rules{gap:10px 15px;margin-top:20px;font-size:9px}
+ .game{width:100%}
+ .product-card{grid-template-columns: minmax(104px,34%) 1fr;min-height:144px;border-radius:14px}
+ .product-photo{padding:9px}
+ .product-photo img{height:126px}
+ .product-info{padding:13px 12px}
+ .product-info h2{font-size:21px;letter-spacing:-.8px}
+ .product-info p{font-size:11px;line-height:1.4}
+ .eyebrow{font-size:9px;letter-spacing:.1em}
+ .timer-row{gap:11px;margin:17px 0 15px}
+ .timer{width:53px;height:53px}
+ .timer:before{inset:4px}
+ .timer strong{font-size:17px}
+ .timer-copy b{font-size:13px}
+ .timer-copy small{font-size:10px;line-height:1.35}
+ .score strong{font-size:20px}
+ .score small{font-size:9px}
+ .prompt{font-size:19px;margin:18px 0 9px}
+ .input-wrap{padding:10px 11px;min-height:64px;border-radius:11px;gap:6px}
+ #ingredientInput{min-width:100px;font-size:16px}
+ #ingredientInput::placeholder{font-size:13px}
+ .hint{font-size:10px;margin-top:7px}
+ .feedback{font-size:11px;margin-top:6px}
+ .found-title{margin-top:13px}
+ .found{min-height:32px}
+ .found .chip{font-size:11px;padding:6px 8px}
+ .actions{margin-top:18px;align-items:center}
+ .actions .btn{padding:11px 13px;font-size:11px}
+ .actions .eyebrow{max-width:125px;line-height:1.5}
+ .countdown{padding:18vh 0}
+ .result{padding:26px 0}
+ .result h2{font-size:34px}
+ .percent{font-size:68px}
+ .result-box{padding:15px;margin:19px 0}
+ .footer{margin-top:27px;padding-top:13px}
+}
+@media(max-width:360px){
+ .shell{padding-left:11px;padding-right:11px}
+ .brand{font-size:16px}
+ .product-card{grid-template-columns:98px 1fr}
+ .product-info h2{font-size:19px}
+ .rules{gap:9px}
+ .rules .rule:last-child{display:none}
+ .actions .eyebrow{max-width:105px}
+}
+@media(min-width:900px){.shell{padding-top:28px}.intro{padding-top:58px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
 </style>
 </head>
 <body>
@@ -32,8 +129,8 @@
 <script>
 const $=id=>document.getElementById(id);
 const words={
-en:{kicker:'THE 15-SECOND FOOD GAME',headline:'YOU KNOW<br>WHAT\'S <em>INSIDE?</em>',subhead:'One real product. Fifteen seconds. How many ingredients can you name?',daily:'TODAY\'S CHALLENGE · #001',start:'START PLAYING ↗',rule1:'15 SECONDS',rule2:'ENGLISH + ESPAÑOL',rule3:'TYPE A COMMA TO ADD',productLabel:'MYSTERY PRODUCT',productDesc:'Hazelnut cocoa spread · Can you guess what\'s inside?',timeLeft:'Time left',commaHint:'Type an ingredient, then a comma',points:'POINTS',prompt:'What\'s inside?',inputHint:'Separate each ingredient with a comma. English or Spanish both work.',found:'INGREDIENTS FOUND',nothingYet:'Nothing yet. Go!',finish:'FINISH EARLY',noPause:'NO PAUSES. JUST INSTINCT.',timeUp:'TIME\'S UP',resultTitle:'NICE TRY.',youFound:'YOU FOUND',youMissed:'YOU MISSED',share:'SHARE RESULT ↗',again:'PLAY AGAIN',foundCount:n=>n+' of 7 ingredients found',good:'Correct! +100',bad:'Not in this one',duplicate:'Already found!',shared:'Result copied!',score:n=>n+' POINTS',headlineUnused:''},
-es:{kicker:'EL JUEGO DE COMIDA DE 15 SEGUNDOS',headline:'¿SABÉS QUÉ<br>HAY <em>ADENTRO?</em>',subhead:'Un producto real. Quince segundos. ¿Cuántos ingredientes podés nombrar?',daily:'DESAFÍO DE HOY · #001',start:'EMPEZAR A JUGAR ↗',rule1:'15 SEGUNDOS',rule2:'ESPAÑOL + ENGLISH',rule3:'PONÉ UNA COMA PARA AGREGAR',productLabel:'PRODUCTO MISTERIOSO',productDesc:'Crema de cacao y avellanas · ¿Qué ingredientes tiene?',timeLeft:'Tiempo restante',commaHint:'Escribí un ingrediente y después una coma',points:'PUNTOS',prompt:'¿Qué hay adentro?',inputHint:'Separá cada ingrediente con una coma. Podés usar español o inglés.',found:'INGREDIENTES ENCONTRADOS',nothingYet:'Todavía ninguno. ¡Vamos!',finish:'TERMINAR',noPause:'SIN PAUSAS. SOLO INSTINTO.',timeUp:'SE ACABÓ EL TIEMPO',resultTitle:'¡BUEN INTENTO!',youFound:'ENCONTRASTE',youMissed:'TE FALTARON',share:'COMPARTIR RESULTADO ↗',again:'JUGAR DE NUEVO',foundCount:n=>n+' de 7 ingredientes encontrados',good:'¡Correcto! +100',bad:'Ese no está',duplicate:'¡Ya lo encontraste!',shared:'¡Resultado copiado!',score:n=>n+' PUNTOS'}
+en:{kicker:'THE 15-SECOND FOOD GAME',headline:'YOU KNOW<br>WHAT\'S <em>INSIDE?</em>',subhead:'One real product. Fifteen seconds. How many ingredients can you name?',daily:'TODAY\'S CHALLENGE · #001',start:'START PLAYING ↗',rule1:'15 SECONDS',rule2:'ENGLISH + ESPAÑOL',rule3:'TYPE A COMMA TO ADD',productLabel:'THE PRODUCT',productDesc:'Hazelnut cocoa spread · Can you guess what\'s inside?',timeLeft:'Time left',commaHint:'Type an ingredient, then a comma',points:'POINTS',prompt:'What\'s inside?',inputHint:'Separate each ingredient with a comma. English or Spanish both work.',found:'INGREDIENTS FOUND',nothingYet:'Nothing yet. Go!',finish:'FINISH EARLY',noPause:'NO PAUSES. JUST INSTINCT.',timeUp:'TIME\'S UP',resultTitle:'NICE TRY.',youFound:'YOU FOUND',youMissed:'YOU MISSED',share:'SHARE RESULT ↗',again:'PLAY AGAIN',foundCount:n=>n+' of 7 ingredients found',good:'Correct! +100',bad:'Not in this one',duplicate:'Already found!',shared:'Result copied!',score:n=>n+' POINTS',headlineUnused:''},
+es:{kicker:'EL JUEGO DE COMIDA DE 15 SEGUNDOS',headline:'¿SABÉS QUÉ<br>HAY <em>ADENTRO?</em>',subhead:'Un producto real. Quince segundos. ¿Cuántos ingredientes podés nombrar?',daily:'DESAFÍO DE HOY · #001',start:'EMPEZAR A JUGAR ↗',rule1:'15 SEGUNDOS',rule2:'ESPAÑOL + ENGLISH',rule3:'PONÉ UNA COMA PARA AGREGAR',productLabel:'EL PRODUCTO',productDesc:'Crema de cacao y avellanas · ¿Qué ingredientes tiene?',timeLeft:'Tiempo restante',commaHint:'Escribí un ingrediente y después una coma',points:'PUNTOS',prompt:'¿Qué hay adentro?',inputHint:'Separá cada ingrediente con una coma. Podés usar español o inglés.',found:'INGREDIENTES ENCONTRADOS',nothingYet:'Todavía ninguno. ¡Vamos!',finish:'TERMINAR',noPause:'SIN PAUSAS. SOLO INSTINTO.',timeUp:'SE ACABÓ EL TIEMPO',resultTitle:'¡BUEN INTENTO!',youFound:'ENCONTRASTE',youMissed:'TE FALTARON',share:'COMPARTIR RESULTADO ↗',again:'JUGAR DE NUEVO',foundCount:n=>n+' de 7 ingredientes encontrados',good:'¡Correcto! +100',bad:'Ese no está',duplicate:'¡Ya lo encontraste!',shared:'¡Resultado copiado!',score:n=>n+' PUNTOS'}
 };
 const ingredients=[
 {en:'sugar',es:'azúcar',aliases:['sugar','azucar','azúcar','sugars']},
@@ -49,14 +146,14 @@ function tr(key,...args){const v=words[lang][key];return typeof v==='function'?v
 function setLang(){document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(words[lang][k])el.innerHTML=words[lang][k]});$('langBtn').textContent=lang==='en'?'ESPAÑOL':'ENGLISH';$('ingredientInput').placeholder=lang==='en'?'sugar, azúcar, milk...':'azúcar, sugar, leche...';}
 $('langBtn').onclick=()=>{lang=lang==='en'?'es':'en';setLang()};
 function normalize(s){return s.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,' ').trim()}
-function processTerm(raw){const term=normalize(raw);if(!term)return;const idx=ingredients.findIndex(x=>x.aliases.some(a=>normalize(a)===term));if(idx<0){mistakes++;addChip(raw,false);feedback(tr('bad'),true);return}if(found.has(idx)){addChip(raw,false);feedback(tr('duplicate'),true);return}found.add(idx);score+=100;addChip(raw,true);feedback(tr('good'));$('score').textContent=String(score).padStart(3,'0');$('foundCount').textContent=found.size;$('found').innerHTML=[...found].map(i=>'<span class="chip">'+ingredients[i][lang]+'</span>').join('');}
+function processTerm(raw){if(!running)return;const term=normalize(raw);if(!term)return;const idx=ingredients.findIndex(x=>x.aliases.some(a=>normalize(a)===term));if(idx<0){mistakes++;addChip(raw,false);feedback(tr('bad'),true);return}if(found.has(idx)){addChip(raw,false);feedback(tr('duplicate'),true);return}found.add(idx);score+=100;addChip(raw,true);feedback(tr('good'));$('score').textContent=String(score).padStart(3,'0');$('foundCount').textContent=found.size;$('found').innerHTML=[...found].map(i=>'<span class="chip">'+ingredients[i][lang]+'</span>').join('');}
 function addChip(text,good){const el=document.createElement('span');el.className='chip'+(good?'':' bad');el.textContent=text;$('chips').appendChild(el);setTimeout(()=>el.remove(),1800)}
 function feedback(msg,bad=false){$('feedback').textContent=msg;$('feedback').classList.toggle('bad',bad)}
 $('ingredientInput').addEventListener('input',e=>{const val=e.target.value;const parts=val.split(',');if(parts.length>1){parts.slice(0,-1).forEach(processTerm);e.target.value=parts[parts.length-1];}});
 $('ingredientInput').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const v=e.target.value.trim();if(v){processTerm(v);e.target.value=''}}});
-function renderTimer(){$('timer').textContent=time;$('timerRing').style.setProperty('--progress',(time/15*100)+'%');$('timerRing').style.background='conic-gradient('+(time<=5?'#b34d43':'#2e7049')+' '+(time/15*100)+'%,#e5e5dc 0)'}
-function begin(){found.clear();score=0;mistakes=0;time=15;$('score').textContent='000';$('foundCount').textContent='0';$('found').innerHTML='<span class="empty">'+tr('nothingYet')+'</span>';$('chips').innerHTML='';$('feedback').textContent='';$('ingredientInput').value='';$('startPanel').classList.add('hidden');$('intro').classList.add('hidden');$('result').classList.remove('active');$('game').classList.remove('active');$('countdown').classList.remove('hidden');let n=3;$('countdown').textContent=n;const cd=setInterval(()=>{n--;if(n>0){$('countdown').textContent=n}else{clearInterval(cd);$('countdown').classList.add('hidden');$('game').classList.add('active');running=true;$('ingredientInput').focus();renderTimer();timerId=setInterval(()=>{time--;renderTimer();if(time<=0)end()},1000)}},650)}
-function end(){if(!running)return;running=false;clearInterval(timerId);const correct=[...found].sort((a,b)=>a-b);const missed=ingredients.map((_,i)=>i).filter(i=>!found.has(i));$('game').classList.remove('active');$('result').classList.add('active');$('percent').textContent=Math.round(found.size/ingredients.length*100)+'%';$('resultSub').textContent=tr('foundCount',found.size);$('correctList').innerHTML=correct.length?correct.map(i=>'<span class="answer">'+ingredients[i][lang]+'</span>').join(''):'<span class="empty">—</span>';$('missedList').innerHTML=missed.map(i=>'<span class="answer missed">'+ingredients[i][lang]+'</span>').join('');$('finalScore').textContent=tr('score',score)}
+function renderTimer(){$('timer').textContent=time;$('timerRing').style.setProperty('--progress',(time/15*100)+'%');$('timerRing').style.background='conic-gradient('+(time<=5?'#b34d43':'#2e7049')+' '+(time/15*100)+'%,#e5e5dc 0)';$('timerRing').classList.toggle('urgent',time<=5)}
+function begin(){if(timerId)clearInterval(timerId);found.clear();score=0;mistakes=0;time=15;$('score').textContent='000';$('foundCount').textContent='0';$('found').innerHTML='<span class="empty">'+tr('nothingYet')+'</span>';$('chips').innerHTML='';$('feedback').textContent='';$('ingredientInput').value='';$('startPanel').classList.add('hidden');$('intro').classList.add('hidden');$('result').classList.remove('active');$('game').classList.remove('active');$('countdown').classList.remove('hidden');let n=3;$('countdown').textContent=n;const cd=setInterval(()=>{n--;if(n>0){$('countdown').textContent=n}else{clearInterval(cd);$('countdown').classList.add('hidden');$('game').classList.add('active');running=true;$('ingredientInput').focus();renderTimer();timerId=setInterval(()=>{time--;renderTimer();if(time<=0)end()},1000)}},650)}
+function end(){if(!running)return;const pending=$('ingredientInput').value.trim();if(pending)processTerm(pending);$('ingredientInput').value='';running=false;clearInterval(timerId);const correct=[...found].sort((a,b)=>a-b);const missed=ingredients.map((_,i)=>i).filter(i=>!found.has(i));$('game').classList.remove('active');$('result').classList.add('active');$('percent').textContent=Math.round(found.size/ingredients.length*100)+'%';$('resultSub').textContent=tr('foundCount',found.size);$('correctList').innerHTML=correct.length?correct.map(i=>'<span class="answer">'+ingredients[i][lang]+'</span>').join(''):'<span class="empty">—</span>';$('missedList').innerHTML=missed.map(i=>'<span class="answer missed">'+ingredients[i][lang]+'</span>').join('');$('finalScore').textContent=tr('score',score)}
 $('startBtn').onclick=begin;$('finishBtn').onclick=end;$('againBtn').onclick=()=>{$('result').classList.remove('active');$('intro').classList.remove('hidden');$('startPanel').classList.remove('hidden')};
 $('shareBtn').onclick=async()=>{const text='WHAT\'S INSIDE?\n'+found.size+'/7 ingredients · '+score+' points\nCan you beat me?';try{if(navigator.share)await navigator.share({title:'WHAT\'S INSIDE?',text});else{await navigator.clipboard.writeText(text);$('shareBtn').textContent=tr('shared')}}catch(e){}};
 setLang();
