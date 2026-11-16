@@ -1801,7 +1801,7 @@
       "category": "white_alfajor",
       "package": "50 g",
       "barcode": null,
-      "image": null,
+      "image": "https://tiendajorgito.com.ar/media/170dbeec7049fe3935e4cdac0bf4103e.webp",
       "description": {
         "es": "Alfajor blanco con merengue · ¿Qué contiene?",
         "en": "White alfajor with meringue · What's inside?"
@@ -1972,7 +1972,8 @@
       "sourceId": "jorgito-blanco",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-jorgito-alfajor-blanco-merengue-50g"
     },
     {
       "id": "jorgito-alfajor-choco-blanco-55g",
@@ -1983,7 +1984,7 @@
       "category": "white_chocolate_alfajor",
       "package": "55 g",
       "barcode": null,
-      "image": null,
+      "image": "https://tiendajorgito.com.ar/media/d2f56f59c5a605062a03a4649b7df76c.webp",
       "description": {
         "es": "Alfajor de chocolate blanco · Adiviná sus ingredientes.",
         "en": "White chocolate alfajor · Guess its ingredients."
@@ -2120,7 +2121,8 @@
       "sourceId": "jorgito-chocoblanco",
       "verification": "manufacturer_website",
       "status": "ready",
-      "region": "argentina"
+      "region": "argentina",
+      "imageSourceId": "image-jorgito-alfajor-choco-blanco-55g"
     },
     {
       "id": "jorgelin-blanco-85g",
