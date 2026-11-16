@@ -2143,6 +2143,24 @@
       "url": "https://smoke2snack.com/products/buy-now-pocky-almond-crush-41g-best-cookies-shop-in-canada",
       "supports": "Glico Pocky Almond Crush US 41 g box product image.",
       "market": "United States"
+    },
+    {
+      "id": "image-britannia-good-day-butter-india-90g",
+      "productId": "britannia-good-day-butter-india-90g",
+      "publisher": "Britannia India",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.britannia.co.in/product/good-day",
+      "supports": "Official Britannia Good Day Butter Cookies package image; manufacturer lists 90 g as an available pack size.",
+      "market": "India"
+    },
+    {
+      "id": "image-ajinomoto-gyoza-japan-276g",
+      "productId": "ajinomoto-gyoza-japan-276g",
+      "publisher": "Youme Town / Ajinomoto",
+      "sourceType": "retailer_product_image",
+      "url": "https://delivery.youmetown.com/shop/g/g4901001397457/",
+      "supports": "Ajinomoto Gyoza Japan 276 g pack (12 pieces) product image.",
+      "market": "Japan"
     }
   ],
   "lastUpdated": "2026-11-16"
