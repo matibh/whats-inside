@@ -73,6 +73,96 @@
       "url": "https://www.hersheyland.com/products/kit-kat-milk-chocolate-candy-bar-1-5-oz.html",
       "supports": "Official US Kit Kat Milk Chocolate ingredient declaration and package size.",
       "market": "United States"
+    },
+    {
+      "id": "cheerios-us-official",
+      "productId": "cheerios-original-us-8-9oz",
+      "publisher": "Cheerios / General Mills",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.cheerios.com/products/original-cheerios",
+      "supports": "Official US Original Cheerios product page; ingredients and 8.9 oz box.",
+      "market": "United States"
+    },
+    {
+      "id": "froot-loops-us-official",
+      "productId": "froot-loops-us-13-2oz",
+      "publisher": "WK Kellogg Co",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.wkkellogg.com/products/froot-loops-cereal",
+      "supports": "Official US Froot Loops ingredients; selected 13.2 oz variant.",
+      "market": "United States"
+    },
+    {
+      "id": "frosted-flakes-us-official",
+      "productId": "frosted-flakes-us-17-3oz",
+      "publisher": "WK Kellogg Co",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.wkkellogg.com/products/kellogg-s-frosted-flakes-cereal-product",
+      "supports": "Official US Frosted Flakes ingredients; selected 17.3 oz variant.",
+      "market": "United States"
+    },
+    {
+      "id": "campbells-tomato-soup-us",
+      "productId": "campbells-tomato-soup-us-10-75oz",
+      "publisher": "The Campbell's Company",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.campbells.com/products/condensed/tomato-soup/",
+      "supports": "Official US condensed tomato soup ingredients; standard can size checked against retailer listing.",
+      "market": "United States"
+    },
+    {
+      "id": "campbells-chicken-noodle-us",
+      "productId": "campbells-chicken-noodle-us-10-75oz",
+      "publisher": "The Campbell's Company",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.campbells.com/products/condensed/chicken-noodle-soup/",
+      "supports": "Official US condensed Chicken Noodle Soup ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "snickers-us-mars",
+      "productId": "snickers-original-us-1-86oz",
+      "publisher": "Mars Foodservices",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.marsfoodservices.com/product/snickers-bar",
+      "supports": "Mars product ingredient declaration; size cross-checked against US retail listing.",
+      "market": "United States"
+    },
+    {
+      "id": "ritz-us-snackworks",
+      "productId": "ritz-original-us-10-3oz",
+      "publisher": "Snackworks / Mondelēz",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.snackworks.com/products/ritz-original-crackers-snacks-for-kids-and-adults-lunch-snacks-103-oz/index.html",
+      "supports": "Official Snackworks ingredient statement and 10.3 oz package.",
+      "market": "United States"
+    },
+    {
+      "id": "lays-classic-us",
+      "productId": "lays-classic-us-1-5oz",
+      "publisher": "Directions for Me / Frito-Lay label transcription",
+      "sourceType": "retailer_transcription",
+      "url": "https://www.directionsforme.org/product/36584",
+      "supports": "Retail label transcription with full ingredients, 1.5 oz package, UPC and manufacturer; not a direct manufacturer page.",
+      "market": "United States"
+    },
+    {
+      "id": "doritos-nacho-cheese-school-source",
+      "productId": "doritos-nacho-cheese-us-foodservice-1-4oz",
+      "publisher": "PepsiCo SchoolSource",
+      "sourceType": "manufacturer_foodservice_document",
+      "url": "https://www.pepsicoschoolsource.com/prod/s3fs-public/2023-03/PFS_WalkingTacoRFDoritosNachoCheese_%2820518%29_1.4oz_2023.pdf",
+      "supports": "PepsiCo foodservice formulation statement; this is a school-foodservice 1.4 oz formulation, not every retail bag.",
+      "market": "United States"
+    },
+    {
+      "id": "reeses-us-hershey",
+      "productId": "reeses-peanut-butter-cups-us-4-4oz",
+      "publisher": "Hershey SmartLabel / REESE'S",
+      "sourceType": "manufacturer_smartlabel_plus_retailer_crosscheck",
+      "url": "https://smartlabel.hersheys.com/034000451708-0052-en-US/index.html",
+      "supports": "Official Hershey SmartLabel product identity and UPC; ingredient text cross-checked against retailer transcription.",
+      "market": "United States"
     }
   ]
 }
