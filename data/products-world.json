@@ -11321,6 +11321,275 @@
       "sourceId": "mcbaigs-maple-syrup-canada",
       "verification": "manufacturer_website",
       "status": "ready"
+    },
+    {
+      "id": "kewpie-japanese-mayonnaise-japan-450g",
+      "barcode": "4901577092503",
+      "name": "KEWPIE Japanese Mayonnaise",
+      "nameI18n": {
+        "es": "Mayonesa japonesa KEWPIE",
+        "en": "KEWPIE Japanese Mayonnaise"
+      },
+      "brand": "KEWPIE",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "condiment_sauce",
+      "package": "450 g bottle",
+      "image": null,
+      "description": {
+        "es": "Mayonesa japonesa cremosa elaborada con yema de huevo y una mezcla de vinagres.",
+        "en": "Creamy Japanese mayonnaise made with egg yolks and a blend of vinegars."
+      },
+      "ingredientsText": "Vegetable oil (canola oil, soybean oil), egg yolk, vinegar, salt, monosodium glutamate, spice, natural flavour.",
+      "ingredients": [
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite de canola",
+          "en": "canola oil",
+          "aliases": [
+            "aceite de canola",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "aceite de soja",
+          "en": "soybean oil",
+          "aliases": [
+            "aceite de soja",
+            "soybean oil",
+            "aceite de soya",
+            "soy oil"
+          ]
+        },
+        {
+          "es": "yema de huevo",
+          "en": "egg yolk",
+          "aliases": [
+            "yema de huevo",
+            "egg yolk",
+            "yema"
+          ]
+        },
+        {
+          "es": "vinagre",
+          "en": "vinegar",
+          "aliases": [
+            "vinagre",
+            "vinegar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "glutamato monosódico",
+          "en": "monosodium glutamate",
+          "aliases": [
+            "glutamato monosódico",
+            "monosodium glutamate",
+            "MSG",
+            "E621"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spice",
+          "aliases": [
+            "especias",
+            "spice",
+            "especia"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavour",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavour",
+            "natural flavor",
+            "saborizante natural"
+          ]
+        }
+      ],
+      "sourceId": "kewpie-japanese-mayonnaise-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "parle-g-biscuits-india-100g",
+      "barcode": null,
+      "name": "Parle-G",
+      "nameI18n": {
+        "es": "Galletitas Parle-G",
+        "en": "Parle-G Biscuits"
+      },
+      "brand": "Parle",
+      "country": "India",
+      "market": "India",
+      "region": "world",
+      "category": "plain_cookies",
+      "package": "100 g pack (ingredient transcription; pack size varies by market)",
+      "image": null,
+      "description": {
+        "es": "Clásicas galletitas dulces de trigo de la India, con leche y sabor a vainilla.",
+        "en": "Classic Indian sweet wheat biscuits made with milk and vanilla flavour."
+      },
+      "ingredientsText": "Refined wheat flour (maida) 68%, sugar, refined palm oil, invert sugar syrup (sugar, citric acid), iodised salt, raising agents (INS 503(ii), INS 500(ii)), milk solids, flour treatment agent (INS 1101(i)), emulsifier of vegetable origin (INS 472e), added artificial vanilla flavour (dextrose/glucose, levulose/fructose).",
+      "ingredients": [
+        {
+          "es": "harina de trigo refinada",
+          "en": "refined wheat flour",
+          "aliases": [
+            "harina de trigo refinada",
+            "refined wheat flour",
+            "maida",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma refinado",
+          "en": "refined palm oil",
+          "aliases": [
+            "aceite de palma refinado",
+            "refined palm oil",
+            "aceite de palma",
+            "palm oil"
+          ]
+        },
+        {
+          "es": "jarabe de azúcar invertido",
+          "en": "invert sugar syrup",
+          "aliases": [
+            "jarabe de azúcar invertido",
+            "invert sugar syrup"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "sal yodada",
+          "en": "iodised salt",
+          "aliases": [
+            "sal yodada",
+            "iodised salt",
+            "iodized salt",
+            "sal"
+          ]
+        },
+        {
+          "es": "gasificante INS 503(ii)",
+          "en": "raising agent INS 503(ii)",
+          "aliases": [
+            "gasificante INS 503(ii)",
+            "raising agent INS 503(ii)",
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503(ii)"
+          ]
+        },
+        {
+          "es": "gasificante INS 500(ii)",
+          "en": "raising agent INS 500(ii)",
+          "aliases": [
+            "gasificante INS 500(ii)",
+            "raising agent INS 500(ii)",
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500(ii)"
+          ]
+        },
+        {
+          "es": "sólidos lácteos",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos lácteos",
+            "milk solids",
+            "leche en polvo",
+            "milk powder"
+          ]
+        },
+        {
+          "es": "agente de tratamiento de harina INS 1101(i)",
+          "en": "flour treatment agent INS 1101(i)",
+          "aliases": [
+            "agente de tratamiento de harina INS 1101(i)",
+            "flour treatment agent INS 1101(i)",
+            "INS 1101(i)"
+          ]
+        },
+        {
+          "es": "emulsionante INS 472e",
+          "en": "emulsifier INS 472e",
+          "aliases": [
+            "emulsionante INS 472e",
+            "emulsifier INS 472e",
+            "E472e",
+            "DATEM"
+          ]
+        },
+        {
+          "es": "aromatizante artificial de vainilla",
+          "en": "artificial vanilla flavour",
+          "aliases": [
+            "aromatizante artificial de vainilla",
+            "artificial vanilla flavour",
+            "artificial vanilla flavor",
+            "vainilla"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose",
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "levulosa",
+          "en": "levulose",
+          "aliases": [
+            "levulosa",
+            "levulose",
+            "fructosa",
+            "fructose"
+          ]
+        }
+      ],
+      "sourceId": "parle-g-biscuits-india",
+      "verification": "retailer_label_transcription",
+      "status": "ready"
     }
   ]
 }
