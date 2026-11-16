@@ -1918,6 +1918,60 @@
       "url": "https://www.jiomart.com/p/groceries/parle-g-biscuits-110-g-get-20-g-extra/491539619",
       "supports": "Parle-G Original India 100 g packet product image.",
       "market": "India"
+    },
+    {
+      "id": "image-maggi-masala-twist-india-75g",
+      "productId": "maggi-masala-twist-india-75g",
+      "publisher": "Nestlé Professional India",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.nestleprofessional.in/foods/maggi-masala-twist",
+      "supports": "Official MAGGI Masala Twist 75 g Cuppa package image.",
+      "market": "India"
+    },
+    {
+      "id": "image-kikkoman-soy-sauce-india-500ml",
+      "productId": "kikkoman-soy-sauce-india-500ml",
+      "publisher": "Lucky Store India",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.luckystore.in/products/kikkoman-soy-sauce-500ml-pet-bottle-500-ml",
+      "supports": "Kikkoman Soy Sauce India 500 ml bottle product image.",
+      "market": "India"
+    },
+    {
+      "id": "image-pataks-tikka-masala-paste-uk",
+      "productId": "pataks-tikka-masala-paste-uk",
+      "publisher": "Bestway Wholesale",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.bestwaywholesale.co.uk/product/135216-1",
+      "supports": "Patak's Tikka Masala Spice Paste UK 283 g jar; package size updated to match.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-tabasco-original-red-sauce-us-148ml",
+      "productId": "tabasco-original-red-sauce-us-148ml",
+      "publisher": "Coupang",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.tw.coupang.com/products/TABASCO-%E5%A1%94%E5%B7%B4%E6%96%AF%E7%A7%91%E8%BE%A3%E6%A4%92%E9%86%AC-21006242848276",
+      "supports": "TABASCO Original Red Sauce US 148 ml bottle product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-walkers-cheese-onion-crisps-uk",
+      "productId": "walkers-cheese-onion-crisps-uk",
+      "publisher": "Brakes Foodservice",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.brake.co.uk/drinks-snacks/snacks-confectionery/crisps-snacks-nuts/crisps/walkers-cheese-onion-crisps-32-5g/p/115408",
+      "supports": "Walkers Cheese & Onion UK 32.5 g pack; package size updated to match.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "image-lotte-koalas-march-strawberry-japan-46g",
+      "productId": "lotte-koalas-march-strawberry-japan-46g",
+      "publisher": "Weee!",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.sayweee.com/zh/product/Lotte-Koala-Strawberry-Chocolate-Biscuit/2134227",
+      "supports": "Lotte Koala's March Strawberry package image; image listing indicates 48 g, package size updated to match.",
+      "market": "Japan"
     }
   ],
   "lastUpdated": "2026-11-16"
