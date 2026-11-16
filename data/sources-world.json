@@ -1279,6 +1279,69 @@
       "url": "https://centra.ie/offers/kelloggs-coco-pops-cereal-420g",
       "supports": "Kellogg's Coco Pops UK cereal box product image (420 g pack).",
       "market": "United Kingdom"
+    },
+    {
+      "id": "image-whittakers-peanut-slab-new-zealand-50g",
+      "productId": "whittakers-peanut-slab-new-zealand-50g",
+      "publisher": "SPOIL",
+      "sourceType": "retailer_product_image",
+      "url": "https://spoil.co.nz/whittakers-peanut-slab-milk-chocolate-bar-50g/",
+      "supports": "Whittaker's Peanut Slab New Zealand 50 g wrapper product image.",
+      "market": "New Zealand"
+    },
+    {
+      "id": "image-vegemite-original-australia-220g",
+      "productId": "vegemite-original-australia-220g",
+      "publisher": "Instacart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.instacart.com/products/25576303-vegemite-yeast-extract-220-g",
+      "supports": "VEGEMITE Original Australia 220 g jar product image.",
+      "market": "Australia"
+    },
+    {
+      "id": "image-pocky-matcha-us-40g",
+      "productId": "pocky-matcha-us-40g",
+      "publisher": "Candy Blast Shop",
+      "sourceType": "retailer_product_image",
+      "url": "https://candyblastshop.com/products/glico-pocky-matcha-green-tea",
+      "supports": "Glico Pocky Matcha US 40 g box product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-samyang-buldak-original-us",
+      "productId": "samyang-buldak-original-us",
+      "publisher": "Ramen Crate NZ",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.ramencrate.co.nz/products/samyang-original-hot-chicken-ramen",
+      "supports": "Samyang Buldak Original 140 g packet product image.",
+      "market": "United States"
+    },
+    {
+      "id": "image-lao-gan-ma-spicy-chili-crisp-canada-210g",
+      "productId": "lao-gan-ma-spicy-chili-crisp-canada-210g",
+      "publisher": "Formosa Asian Market",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.formosamarket.com/products/lao-gan-ma-xiang-cui-la-granny-crispy-chili-oil",
+      "supports": "Lao Gan Ma Spicy Chili Crisp 210 g jar product image.",
+      "market": "Canada"
+    },
+    {
+      "id": "image-mae-ploy-red-curry-paste-thailand-1kg",
+      "productId": "mae-ploy-red-curry-paste-thailand-1kg",
+      "publisher": "Asian Pantry",
+      "sourceType": "retailer_product_image",
+      "url": "https://asianpantry.com.au/products/mae-ploy-red-curry-paste-1kg",
+      "supports": "Mae Ploy Red Curry Paste 1 kg tub product image.",
+      "market": "United Kingdom foodservice listing"
+    },
+    {
+      "id": "image-lotte-koalas-march-chocolate-japan-48g",
+      "productId": "lotte-koalas-march-chocolate-japan-48g",
+      "publisher": "Walmart",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.walmart.com/ip/Lotte-Koala-no-March-Chocolate-48g-10-pack-Made-in-JAPAN-Limited-Version-Tokyo-Sakura-Mall/13330713609",
+      "supports": "Lotte Koala's March Chocolate Japan 48 g box product image.",
+      "market": "Japan"
     }
   ],
   "lastUpdated": "2026-11-16"
