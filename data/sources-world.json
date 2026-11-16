@@ -703,6 +703,24 @@
       "url": "https://www.mcbaigs.com/nutrition-fact/",
       "supports": "Producer page identifies the product as 100% pure Canadian maple syrup; no package size is claimed.",
       "market": "Canada"
+    },
+    {
+      "id": "kewpie-japanese-mayonnaise-japan",
+      "productId": "kewpie-japanese-mayonnaise-japan-450g",
+      "publisher": "KEWPIE Corporation / official KEWPIE shop",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.kewpieshop.com/products/kewpie-mayonnaise-450-g-product-of-japan",
+      "supports": "Official KEWPIE shop listing identifies the 450 g Japanese-origin product and gives the ingredient statement. The record follows this Japanese product, not the separate US-made formulation.",
+      "market": "Japan"
+    },
+    {
+      "id": "parle-g-biscuits-india",
+      "productId": "parle-g-biscuits-india-100g",
+      "publisher": "Parle Products; HalalScan pack transcription",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://halalscan.app/p/parle-g",
+      "supports": "Parle's official brand page confirms the product family; the detailed ingredient declaration is a secondary transcription of a Parle-G pack and is not represented as a direct manufacturer specification. Pack size varies, so no single package weight is asserted.",
+      "market": "India"
     }
   ],
   "lastUpdated": "2026-11-16"
