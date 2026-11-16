@@ -6559,7 +6559,7 @@
       "region": "world",
       "category": "instant_noodles",
       "package": "75 g prepared-product reference",
-      "image": null,
+      "image": "https://www.nestleprofessional.in/sites/default/files/2023-09/723557%203D%20Maggi%20Masala%20Twist%20CUPPA%20%28400%20x%20380%20Px%29%20Front.png",
       "description": {
         "es": "Fideos instantáneos indios con mezcla de especias, vegetales deshidratados y tomate.",
         "en": "Indian instant noodles with spice mix, dehydrated vegetables and tomato."
@@ -6777,7 +6777,8 @@
       ],
       "sourceId": "maggi-masala-twist-india-75g-source",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-maggi-masala-twist-india-75g"
     },
     {
       "id": "parle-g-original-india-uk-799g",
@@ -8781,7 +8782,7 @@
       "region": "world",
       "category": "soy_sauce",
       "package": "500 ml (one of the manufacturer-listed pack sizes)",
-      "image": null,
+      "image": "https://www.luckystore.in/cdn/shop/files/Kikkoman-Soy-Sauce-Pet-Bottle_-500-ml-luckystore-59967512_1080x.png?v=1752232591",
       "description": {
         "es": "Salsa de soja naturalmente fermentada, comercializada en India.",
         "en": "Naturally brewed soy sauce sold in India."
@@ -8824,7 +8825,8 @@
       ],
       "sourceId": "kikkoman-soy-sauce-india",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-kikkoman-soy-sauce-india-500ml"
     },
     {
       "id": "yakult-new-yakult-japan-65ml",
@@ -13997,8 +13999,8 @@
       "market": "Japan",
       "region": "world",
       "category": "filled_cookies",
-      "package": "46 g box",
-      "image": null,
+      "package": "48 g box (image-matched)",
+      "image": "https://img06.weeecdn.com/item/image/157/702/581B86FB45799BAF.jpeg",
       "description": {
         "es": "Galletitas japonesas de color rosa rellenas de chocolate sabor frutilla.",
         "en": "Japanese pink biscuits filled with strawberry-flavoured chocolate."
@@ -14181,7 +14183,8 @@
       ],
       "sourceId": "lotte-koalas-march-strawberry-japan",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-lotte-koalas-march-strawberry-japan-46g"
     },
     {
       "id": "pataks-tikka-masala-paste-uk",
@@ -14196,8 +14199,8 @@
       "market": "United Kingdom",
       "region": "world",
       "category": "curry_paste",
-      "package": "Product page does not specify pack size",
-      "image": null,
+      "package": "283 g jar (image-matched)",
+      "image": "https://www.bestwaywholesale.co.uk/img/products/1000/4/5011308000994.jpg",
       "description": {
         "es": "Pasta de especias para preparar tikka masala, con cúrcuma, pimentón, comino y cilantro.",
         "en": "Spice paste for tikka masala with turmeric, paprika, cumin and coriander."
@@ -14349,7 +14352,8 @@
       ],
       "sourceId": "pataks-tikka-masala-paste-uk",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-pataks-tikka-masala-paste-uk"
     },
     {
       "id": "tabasco-original-red-sauce-us-148ml",
@@ -14365,7 +14369,7 @@
       "region": "world",
       "category": "condiment_sauce",
       "package": "5 fl oz (148 ml) bottle",
-      "image": null,
+      "image": "https://thumbnail.coupangcdn.com/thumbnails/remote/492x492ex/image/TW_vendor_inventory/5310/9c4b2baa92af18d54eac583d2de15dec1eaa769176554e4f85af051b7603.jpg",
       "description": {
         "es": "Salsa picante clásica de Luisiana elaborada con vinagre, chile rojo y sal.",
         "en": "Classic Louisiana hot sauce made with vinegar, red pepper and salt."
@@ -14400,7 +14404,8 @@
       ],
       "sourceId": "tabasco-original-red-sauce-us",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-tabasco-original-red-sauce-us-148ml"
     },
     {
       "id": "walkers-cheese-onion-crisps-uk",
@@ -14415,8 +14420,8 @@
       "market": "United Kingdom",
       "region": "world",
       "category": "potato_chips",
-      "package": "Single retail bag; size not specified on product page",
-      "image": null,
+      "package": "32.5 g single retail bag (image-matched)",
+      "image": "https://cdn.media.amplience.net/i/Brakes/115408_2?%24pdp-mobile%24=&fmt=auto&img404=image-not-available&locale=en-gb&v=1",
       "description": {
         "es": "Papas fritas británicas sabor queso y cebolla.",
         "en": "British potato crisps flavoured with cheese and onion."
@@ -14594,7 +14599,8 @@
       ],
       "sourceId": "walkers-cheese-onion-uk",
       "verification": "manufacturer_website",
-      "status": "ready"
+      "status": "ready",
+      "imageSourceId": "image-walkers-cheese-onion-crisps-uk"
     },
     {
       "id": "marukome-ryotei-no-aji-tofu-vegetarian-152g",
