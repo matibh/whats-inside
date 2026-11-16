@@ -13052,6 +13052,1750 @@
       "sourceId": "calpis-water-taiwan-australia",
       "verification": "retailer_label_transcription",
       "status": "ready"
+    },
+    {
+      "id": "heinz-baked-beanz-uk-415g",
+      "barcode": "5000157024671",
+      "name": "Heinz Baked Beanz",
+      "nameI18n": {
+        "es": "Heinz Baked Beanz",
+        "en": "Heinz Baked Beanz"
+      },
+      "brand": "Heinz",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "canned_beans",
+      "package": "415 g can",
+      "image": null,
+      "description": {
+        "es": "Porotos blancos horneados en salsa de tomate, versión británica.",
+        "en": "British baked white beans in tomato sauce."
+      },
+      "ingredientsText": "Beans (51%), Tomatoes (34%), Water, Sugar, Spirit Vinegar, Modified Corn Flour, Salt, Spice Extracts, Herb Extract.",
+      "ingredients": [
+        {
+          "es": "porotos",
+          "en": "beans",
+          "aliases": [
+            "porotos",
+            "beans",
+            "alubias",
+            "judías"
+          ]
+        },
+        {
+          "es": "tomate",
+          "en": "tomatoes",
+          "aliases": [
+            "tomate",
+            "tomatoes",
+            "tomates"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "spirit vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "spirit vinegar",
+            "vinagre destilado"
+          ]
+        },
+        {
+          "es": "harina de maíz modificada",
+          "en": "modified corn flour",
+          "aliases": [
+            "harina de maíz modificada",
+            "modified corn flour",
+            "almidón de maíz modificado"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "extractos de especias",
+          "en": "spice extracts",
+          "aliases": [
+            "extractos de especias",
+            "spice extracts"
+          ]
+        },
+        {
+          "es": "extracto de hierbas",
+          "en": "herb extract",
+          "aliases": [
+            "extracto de hierbas",
+            "herb extract"
+          ]
+        }
+      ],
+      "sourceId": "heinz-baked-beanz-uk",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "cadbury-lunch-bar-south-africa-48g",
+      "barcode": null,
+      "name": "Cadbury Lunch Bar",
+      "nameI18n": {
+        "es": "Cadbury Lunch Bar",
+        "en": "Cadbury Lunch Bar"
+      },
+      "brand": "Cadbury",
+      "country": "South Africa",
+      "market": "South Africa",
+      "region": "world",
+      "category": "chocolate_bar",
+      "package": "48 g bar (official page lists 23 g, 48 g and 62 g sizes)",
+      "image": null,
+      "description": {
+        "es": "Barra sudafricana con oblea, caramelo, maní y arroz crocante, cubierta de chocolate.",
+        "en": "South African wafer bar with chewy caramel, peanuts and crisped rice, coated in chocolate."
+      },
+      "ingredientsText": "Sugar, Glucose Syrup, Vegetable Fats [Palm Fruit, Sunflower Seed (Antioxidant-TBHQ), Shea Nut, Illipe Seed, Sal Seed (Soya) (Citric Acid)], Peanuts (9%), Cocoa Butter, Wheat Flour, Full Cream Milk Powder, Cocoa Mass, Rice Flour, Whey Permeate, Invert Sugar, Whey Powder, Emulsifiers (E442, E471, E476, E322-Soya), Humectant (Glycerol), Salt, Flavourings, Raising Agent (E500), Colourants (E122, E142, E104, E110), Barley Malt, Acidifying Agent (E334), Preservative (E223).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "vegetable fat",
+          "aliases": [
+            "grasa vegetal",
+            "vegetable fat"
+          ]
+        },
+        {
+          "es": "fruto de palma",
+          "en": "palm fruit",
+          "aliases": [
+            "fruto de palma",
+            "palm fruit"
+          ]
+        },
+        {
+          "es": "semilla de girasol",
+          "en": "sunflower seed",
+          "aliases": [
+            "semilla de girasol",
+            "sunflower seed"
+          ]
+        },
+        {
+          "es": "TBHQ",
+          "en": "TBHQ",
+          "aliases": [
+            "TBHQ",
+            "TBHQ",
+            "tertiary butylhydroquinone"
+          ]
+        },
+        {
+          "es": "nuez de karité",
+          "en": "shea nut",
+          "aliases": [
+            "nuez de karité",
+            "shea nut"
+          ]
+        },
+        {
+          "es": "semilla de illipe",
+          "en": "illipe seed",
+          "aliases": [
+            "semilla de illipe",
+            "illipe seed"
+          ]
+        },
+        {
+          "es": "sal seed",
+          "en": "sal seed",
+          "aliases": [
+            "sal seed",
+            "sal seed"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "maní",
+          "en": "peanuts",
+          "aliases": [
+            "maní",
+            "peanuts",
+            "cacahuetes"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "full cream milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "full cream milk powder"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "pasta de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "permeado de suero",
+          "en": "whey permeate",
+          "aliases": [
+            "permeado de suero",
+            "whey permeate"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "emulsionante E442",
+          "en": "emulsifier E442",
+          "aliases": [
+            "emulsionante E442",
+            "emulsifier E442"
+          ]
+        },
+        {
+          "es": "emulsionante E471",
+          "en": "emulsifier E471",
+          "aliases": [
+            "emulsionante E471",
+            "emulsifier E471"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol E476",
+          "en": "polyglycerol polyricinoleate E476",
+          "aliases": [
+            "polirricinoleato de poliglicerol E476",
+            "polyglycerol polyricinoleate E476",
+            "E476"
+          ]
+        },
+        {
+          "es": "lecitina de soja E322",
+          "en": "soy lecithin E322",
+          "aliases": [
+            "lecitina de soja E322",
+            "soy lecithin E322",
+            "E322"
+          ]
+        },
+        {
+          "es": "glicerol",
+          "en": "glycerol",
+          "aliases": [
+            "glicerol",
+            "glycerol",
+            "glycerin"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "gasificante E500",
+          "en": "raising agent E500",
+          "aliases": [
+            "gasificante E500",
+            "raising agent E500",
+            "carbonato de sodio",
+            "sodium carbonate"
+          ]
+        },
+        {
+          "es": "colorante E122",
+          "en": "colour E122",
+          "aliases": [
+            "colorante E122",
+            "colour E122",
+            "azorubina"
+          ]
+        },
+        {
+          "es": "colorante E142",
+          "en": "colour E142",
+          "aliases": [
+            "colorante E142",
+            "colour E142",
+            "verde S"
+          ]
+        },
+        {
+          "es": "colorante E104",
+          "en": "colour E104",
+          "aliases": [
+            "colorante E104",
+            "colour E104",
+            "amarillo de quinoleína"
+          ]
+        },
+        {
+          "es": "colorante E110",
+          "en": "colour E110",
+          "aliases": [
+            "colorante E110",
+            "colour E110",
+            "amarillo ocaso"
+          ]
+        },
+        {
+          "es": "malta de cebada",
+          "en": "barley malt",
+          "aliases": [
+            "malta de cebada",
+            "barley malt"
+          ]
+        },
+        {
+          "es": "ácido tartárico E334",
+          "en": "tartaric acid E334",
+          "aliases": [
+            "ácido tartárico E334",
+            "tartaric acid E334",
+            "E334"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio E223",
+          "en": "sodium metabisulphite E223",
+          "aliases": [
+            "metabisulfito de sodio E223",
+            "sodium metabisulphite E223",
+            "E223"
+          ]
+        }
+      ],
+      "sourceId": "cadbury-lunch-bar-south-africa",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "ajinomoto-gyoza-japan-276g",
+      "barcode": "4901001397457",
+      "name": "Ajinomoto Gyoza",
+      "nameI18n": {
+        "es": "Gyoza Ajinomoto",
+        "en": "Ajinomoto Gyoza"
+      },
+      "brand": "Ajinomoto",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "frozen_dumplings",
+      "package": "276 g pack (12 pieces)",
+      "image": null,
+      "description": {
+        "es": "Empanaditas japonesas congeladas rellenas de vegetales y carnes, con masa fina.",
+        "en": "Japanese frozen pan-fried dumplings filled with vegetables and meat in a thin wrapper."
+      },
+      "ingredientsText": "Vegetables (cabbage, onion, Chinese chive, garlic), meats (chicken, pork), textured soy protein, pork fat, sugar, soy sauce, oyster sauce, binder (textured soy protein, egg white), salt, hydrolyzed protein, vegetable oil, spices, flavour oil, wrapper (wheat flour, vegetable oil, starch, dextrin, salt, soy flour); seasonings (amino acids, etc.), emulsifier, thickening polysaccharides, sodium caseinate.",
+      "ingredients": [
+        {
+          "es": "repollo",
+          "en": "cabbage",
+          "aliases": [
+            "repollo",
+            "cabbage"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "cebollino chino",
+          "en": "Chinese chive",
+          "aliases": [
+            "cebollino chino",
+            "Chinese chive",
+            "nira"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "pollo",
+          "en": "chicken",
+          "aliases": [
+            "pollo",
+            "chicken"
+          ]
+        },
+        {
+          "es": "cerdo",
+          "en": "pork",
+          "aliases": [
+            "cerdo",
+            "pork"
+          ]
+        },
+        {
+          "es": "proteína de soja texturizada",
+          "en": "textured soy protein",
+          "aliases": [
+            "proteína de soja texturizada",
+            "textured soy protein",
+            "soya texturizada"
+          ]
+        },
+        {
+          "es": "grasa de cerdo",
+          "en": "pork fat",
+          "aliases": [
+            "grasa de cerdo",
+            "pork fat"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "salsa de soja",
+          "en": "soy sauce",
+          "aliases": [
+            "salsa de soja",
+            "soy sauce"
+          ]
+        },
+        {
+          "es": "salsa de ostras",
+          "en": "oyster sauce",
+          "aliases": [
+            "salsa de ostras",
+            "oyster sauce"
+          ]
+        },
+        {
+          "es": "clara de huevo",
+          "en": "egg white",
+          "aliases": [
+            "clara de huevo",
+            "egg white"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "proteína hidrolizada",
+          "en": "hydrolyzed protein",
+          "aliases": [
+            "proteína hidrolizada",
+            "hydrolyzed protein"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "aceite saborizante",
+          "en": "flavour oil",
+          "aliases": [
+            "aceite saborizante",
+            "flavour oil",
+            "flavor oil"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "dextrina",
+          "en": "dextrin",
+          "aliases": [
+            "dextrina",
+            "dextrin"
+          ]
+        },
+        {
+          "es": "harina de soja",
+          "en": "soy flour",
+          "aliases": [
+            "harina de soja",
+            "soy flour"
+          ]
+        },
+        {
+          "es": "potenciadores del sabor (aminoácidos)",
+          "en": "flavour enhancers (amino acids)",
+          "aliases": [
+            "potenciadores del sabor (aminoácidos)",
+            "flavour enhancers (amino acids)",
+            "seasonings"
+          ]
+        },
+        {
+          "es": "emulsionante",
+          "en": "emulsifier",
+          "aliases": [
+            "emulsionante",
+            "emulsifier"
+          ]
+        },
+        {
+          "es": "polisacáridos espesantes",
+          "en": "thickening polysaccharides",
+          "aliases": [
+            "polisacáridos espesantes",
+            "thickening polysaccharides"
+          ]
+        },
+        {
+          "es": "caseinato de sodio",
+          "en": "sodium caseinate",
+          "aliases": [
+            "caseinato de sodio",
+            "sodium caseinate"
+          ]
+        }
+      ],
+      "sourceId": "ajinomoto-gyoza-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lotte-koalas-march-chocolate-japan-48g",
+      "barcode": null,
+      "name": "Koala's March Chocolate",
+      "nameI18n": {
+        "es": "Koala's March Chocolate",
+        "en": "Koala's March Chocolate"
+      },
+      "brand": "Lotte",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "filled_cookies",
+      "package": "48 g box",
+      "image": null,
+      "description": {
+        "es": "Pequeñas galletitas japonesas rellenas de chocolate.",
+        "en": "Japanese bite-size biscuits filled with chocolate."
+      },
+      "ingredientsText": "Sugar, wheat flour, vegetable oil, cacao mass, starch, shortening, lactose, whole milk powder, liquid egg, cocoa powder, whey powder, salt, cream powder, cocoa butter, calcium carbonate, leavening agent, trehalose, emulsifier (soy-derived), caramel colour, seasoning (amino acids), flavouring.",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "pasta de cacao",
+          "en": "cacao mass",
+          "aliases": [
+            "pasta de cacao",
+            "cacao mass",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "shortening",
+          "aliases": [
+            "grasa vegetal",
+            "shortening"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "huevo líquido",
+          "en": "liquid egg",
+          "aliases": [
+            "huevo líquido",
+            "liquid egg"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "crema en polvo",
+          "en": "cream powder",
+          "aliases": [
+            "crema en polvo",
+            "cream powder"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate",
+            "E170"
+          ]
+        },
+        {
+          "es": "gasificante",
+          "en": "leavening agent",
+          "aliases": [
+            "gasificante",
+            "leavening agent",
+            "raising agent"
+          ]
+        },
+        {
+          "es": "trehalosa",
+          "en": "trehalose",
+          "aliases": [
+            "trehalosa",
+            "trehalose"
+          ]
+        },
+        {
+          "es": "emulsionante de soja",
+          "en": "soy-derived emulsifier",
+          "aliases": [
+            "emulsionante de soja",
+            "soy-derived emulsifier",
+            "soy emulsifier"
+          ]
+        },
+        {
+          "es": "colorante caramelo",
+          "en": "caramel colour",
+          "aliases": [
+            "colorante caramelo",
+            "caramel colour",
+            "caramel color"
+          ]
+        },
+        {
+          "es": "potenciador del sabor (aminoácidos)",
+          "en": "seasoning (amino acids)",
+          "aliases": [
+            "potenciador del sabor (aminoácidos)",
+            "seasoning (amino acids)"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        }
+      ],
+      "sourceId": "lotte-koalas-march-chocolate-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lotte-koalas-march-strawberry-japan-46g",
+      "barcode": null,
+      "name": "Koala's March Strawberry",
+      "nameI18n": {
+        "es": "Koala's March Strawberry",
+        "en": "Koala's March Strawberry"
+      },
+      "brand": "Lotte",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "filled_cookies",
+      "package": "46 g box",
+      "image": null,
+      "description": {
+        "es": "Galletitas japonesas de color rosa rellenas de chocolate sabor frutilla.",
+        "en": "Japanese pink biscuits filled with strawberry-flavoured chocolate."
+      },
+      "ingredientsText": "Sugar, wheat flour, vegetable oil, lactose, starch, shortening, cocoa butter, whole milk powder, whey powder, liquid egg, maltitol, strawberry powder, cream powder, salt, calcium carbonate, leavening agent, colours (caramel, red yeast rice, beet red), flavouring, emulsifier (soy-derived).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "grasa vegetal",
+          "en": "shortening",
+          "aliases": [
+            "grasa vegetal",
+            "shortening"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "suero en polvo",
+          "en": "whey powder",
+          "aliases": [
+            "suero en polvo",
+            "whey powder"
+          ]
+        },
+        {
+          "es": "huevo líquido",
+          "en": "liquid egg",
+          "aliases": [
+            "huevo líquido",
+            "liquid egg"
+          ]
+        },
+        {
+          "es": "maltitol",
+          "en": "maltitol",
+          "aliases": [
+            "maltitol",
+            "maltitol"
+          ]
+        },
+        {
+          "es": "frutilla en polvo",
+          "en": "strawberry powder",
+          "aliases": [
+            "frutilla en polvo",
+            "strawberry powder",
+            "fresa en polvo"
+          ]
+        },
+        {
+          "es": "crema en polvo",
+          "en": "cream powder",
+          "aliases": [
+            "crema en polvo",
+            "cream powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate",
+            "E170"
+          ]
+        },
+        {
+          "es": "gasificante",
+          "en": "leavening agent",
+          "aliases": [
+            "gasificante",
+            "leavening agent"
+          ]
+        },
+        {
+          "es": "colorante caramelo",
+          "en": "caramel colour",
+          "aliases": [
+            "colorante caramelo",
+            "caramel colour",
+            "caramel color"
+          ]
+        },
+        {
+          "es": "arroz de levadura roja",
+          "en": "red yeast rice",
+          "aliases": [
+            "arroz de levadura roja",
+            "red yeast rice"
+          ]
+        },
+        {
+          "es": "rojo de remolacha",
+          "en": "beet red",
+          "aliases": [
+            "rojo de remolacha",
+            "beet red"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "emulsionante de soja",
+          "en": "soy-derived emulsifier",
+          "aliases": [
+            "emulsionante de soja",
+            "soy-derived emulsifier",
+            "soy emulsifier"
+          ]
+        }
+      ],
+      "sourceId": "lotte-koalas-march-strawberry-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "pataks-tikka-masala-paste-uk",
+      "barcode": null,
+      "name": "Patak's Tikka Masala Spice Paste",
+      "nameI18n": {
+        "es": "Pasta de especias Tikka Masala Patak's",
+        "en": "Patak's Tikka Masala Spice Paste"
+      },
+      "brand": "Patak's",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "curry_paste",
+      "package": "Product page does not specify pack size",
+      "image": null,
+      "description": {
+        "es": "Pasta de especias para preparar tikka masala, con cúrcuma, pimentón, comino y cilantro.",
+        "en": "Spice paste for tikka masala with turmeric, paprika, cumin and coriander."
+      },
+      "ingredientsText": "Water, Ground Spices (19%) [Turmeric, Paprika (4%), Cumin (3%), Coriander (3%), Spices], Rapeseed Oil, Salt, Maize Flour, Acids (Acetic Acid, Citric Acid), Tamarind, Garlic Powder, Cumin Seed, Paprika Extract, Dried Fenugreek Leaf, Dried Coriander Leaf.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "cúrcuma",
+          "en": "turmeric",
+          "aliases": [
+            "cúrcuma",
+            "turmeric"
+          ]
+        },
+        {
+          "es": "pimentón",
+          "en": "paprika",
+          "aliases": [
+            "pimentón",
+            "paprika"
+          ]
+        },
+        {
+          "es": "comino",
+          "en": "cumin",
+          "aliases": [
+            "comino",
+            "cumin"
+          ]
+        },
+        {
+          "es": "cilantro",
+          "en": "coriander",
+          "aliases": [
+            "cilantro",
+            "coriander",
+            "coriandro"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "harina de maíz",
+          "en": "maize flour",
+          "aliases": [
+            "harina de maíz",
+            "maize flour",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "ácido acético",
+          "en": "acetic acid",
+          "aliases": [
+            "ácido acético",
+            "acetic acid",
+            "E260"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "tamarindo",
+          "en": "tamarind",
+          "aliases": [
+            "tamarindo",
+            "tamarind"
+          ]
+        },
+        {
+          "es": "ajo en polvo",
+          "en": "garlic powder",
+          "aliases": [
+            "ajo en polvo",
+            "garlic powder"
+          ]
+        },
+        {
+          "es": "semillas de comino",
+          "en": "cumin seed",
+          "aliases": [
+            "semillas de comino",
+            "cumin seed"
+          ]
+        },
+        {
+          "es": "extracto de pimentón",
+          "en": "paprika extract",
+          "aliases": [
+            "extracto de pimentón",
+            "paprika extract"
+          ]
+        },
+        {
+          "es": "hoja seca de fenogreco",
+          "en": "dried fenugreek leaf",
+          "aliases": [
+            "hoja seca de fenogreco",
+            "dried fenugreek leaf",
+            "hoja de methi"
+          ]
+        },
+        {
+          "es": "hoja seca de cilantro",
+          "en": "dried coriander leaf",
+          "aliases": [
+            "hoja seca de cilantro",
+            "dried coriander leaf"
+          ]
+        }
+      ],
+      "sourceId": "pataks-tikka-masala-paste-uk",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "tabasco-original-red-sauce-us-148ml",
+      "barcode": null,
+      "name": "TABASCO Original Red Sauce",
+      "nameI18n": {
+        "es": "Salsa TABASCO Original",
+        "en": "TABASCO Original Red Sauce"
+      },
+      "brand": "TABASCO",
+      "country": "United States",
+      "market": "United States",
+      "region": "world",
+      "category": "condiment_sauce",
+      "package": "5 fl oz (148 ml) bottle",
+      "image": null,
+      "description": {
+        "es": "Salsa picante clásica de Luisiana elaborada con vinagre, chile rojo y sal.",
+        "en": "Classic Louisiana hot sauce made with vinegar, red pepper and salt."
+      },
+      "ingredientsText": "Distilled vinegar, red pepper and salt.",
+      "ingredients": [
+        {
+          "es": "vinagre destilado",
+          "en": "distilled vinegar",
+          "aliases": [
+            "vinagre destilado",
+            "distilled vinegar"
+          ]
+        },
+        {
+          "es": "chile rojo",
+          "en": "red pepper",
+          "aliases": [
+            "chile rojo",
+            "red pepper",
+            "ají rojo"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "tabasco-original-red-sauce-us",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "walkers-cheese-onion-crisps-uk",
+      "barcode": null,
+      "name": "Walkers Cheese & Onion Crisps",
+      "nameI18n": {
+        "es": "Papas fritas Walkers Cheese & Onion",
+        "en": "Walkers Cheese & Onion Crisps"
+      },
+      "brand": "Walkers",
+      "country": "United Kingdom",
+      "market": "United Kingdom",
+      "region": "world",
+      "category": "potato_chips",
+      "package": "Single retail bag; size not specified on product page",
+      "image": null,
+      "description": {
+        "es": "Papas fritas británicas sabor queso y cebolla.",
+        "en": "British potato crisps flavoured with cheese and onion."
+      },
+      "ingredientsText": "Potatoes, Vegetable Oils (Sunflower, Rapeseed, in varying proportions), Cheese & Onion Seasoning [Dried Onion, Salt, Dried Milk Whey, Lactose (from Milk), Sugar, Flavouring (contains Milk), Cheese Powder (from Milk), Dried Yeast, Acids (Citric Acid, Malic Acid), Whey Protein (from Milk), Dried Garlic, Colours (Annatto Bixin, Paprika Extract)], Antioxidants (Rosemary Extract, Ascorbic Acid, Tocopherol Rich Extract, Citric Acid).",
+      "ingredients": [
+        {
+          "es": "papas",
+          "en": "potatoes",
+          "aliases": [
+            "papas",
+            "potatoes",
+            "patatas"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aceite de colza",
+          "en": "rapeseed oil",
+          "aliases": [
+            "aceite de colza",
+            "rapeseed oil",
+            "canola oil"
+          ]
+        },
+        {
+          "es": "cebolla seca",
+          "en": "dried onion",
+          "aliases": [
+            "cebolla seca",
+            "dried onion"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "suero de leche en polvo",
+          "en": "dried milk whey",
+          "aliases": [
+            "suero de leche en polvo",
+            "dried milk whey"
+          ]
+        },
+        {
+          "es": "lactosa",
+          "en": "lactose",
+          "aliases": [
+            "lactosa",
+            "lactose"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "queso en polvo",
+          "en": "cheese powder",
+          "aliases": [
+            "queso en polvo",
+            "cheese powder"
+          ]
+        },
+        {
+          "es": "levadura seca",
+          "en": "dried yeast",
+          "aliases": [
+            "levadura seca",
+            "dried yeast"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "ácido málico",
+          "en": "malic acid",
+          "aliases": [
+            "ácido málico",
+            "malic acid",
+            "E296"
+          ]
+        },
+        {
+          "es": "proteína de suero",
+          "en": "whey protein",
+          "aliases": [
+            "proteína de suero",
+            "whey protein"
+          ]
+        },
+        {
+          "es": "ajo seco",
+          "en": "dried garlic",
+          "aliases": [
+            "ajo seco",
+            "dried garlic"
+          ]
+        },
+        {
+          "es": "bixina de achiote",
+          "en": "annatto bixin",
+          "aliases": [
+            "bixina de achiote",
+            "annatto bixin"
+          ]
+        },
+        {
+          "es": "extracto de pimentón",
+          "en": "paprika extract",
+          "aliases": [
+            "extracto de pimentón",
+            "paprika extract"
+          ]
+        },
+        {
+          "es": "extracto de romero",
+          "en": "rosemary extract",
+          "aliases": [
+            "extracto de romero",
+            "rosemary extract"
+          ]
+        },
+        {
+          "es": "ácido ascórbico",
+          "en": "ascorbic acid",
+          "aliases": [
+            "ácido ascórbico",
+            "ascorbic acid",
+            "vitamina C",
+            "vitamin C"
+          ]
+        },
+        {
+          "es": "extracto rico en tocoferoles",
+          "en": "tocopherol rich extract",
+          "aliases": [
+            "extracto rico en tocoferoles",
+            "tocopherol rich extract",
+            "vitamin E"
+          ]
+        }
+      ],
+      "sourceId": "walkers-cheese-onion-uk",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "marukome-ryotei-no-aji-tofu-vegetarian-152g",
+      "barcode": "886518000943",
+      "name": "Marukome Ryotei No Aji Tofu Vegetarian Miso Soup",
+      "nameI18n": {
+        "es": "Sopa miso vegetariana Marukome Ryotei No Aji con tofu",
+        "en": "Marukome Ryotei No Aji Tofu Vegetarian Miso Soup"
+      },
+      "brand": "Marukome",
+      "country": "Japan",
+      "market": "International foodservice / export listing",
+      "region": "world",
+      "category": "instant_soup",
+      "package": "152 g pack",
+      "image": null,
+      "description": {
+        "es": "Sopa instantánea japonesa de miso con tofu, wakame y cebolla de verdeo; sin gluten y sin MSG añadido.",
+        "en": "Japanese instant miso soup with tofu, wakame and green onion; gluten-free and no added MSG."
+      },
+      "ingredientsText": "Soup base: Rice Miso (Filtered Water, Soybeans, Rice, Salt), Filtered Water, Alcohol, Sugar, Hydrolyzed Protein, Powdered Yeast Extract, Salt, Onion Extract, Kelp Extract, Shiitake Mushroom Extract Powder. Garnish: Dried Tofu (Soybeans, Calcium Sulfate), Dried Wakame Seaweed, Dried Green Onion.",
+      "ingredients": [
+        {
+          "es": "agua filtrada",
+          "en": "filtered water",
+          "aliases": [
+            "agua filtrada",
+            "filtered water"
+          ]
+        },
+        {
+          "es": "soja",
+          "en": "soybeans",
+          "aliases": [
+            "soja",
+            "soybeans",
+            "soya"
+          ]
+        },
+        {
+          "es": "arroz",
+          "en": "rice",
+          "aliases": [
+            "arroz",
+            "rice"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "alcohol",
+          "en": "alcohol",
+          "aliases": [
+            "alcohol",
+            "alcohol"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "proteína hidrolizada",
+          "en": "hydrolyzed protein",
+          "aliases": [
+            "proteína hidrolizada",
+            "hydrolyzed protein"
+          ]
+        },
+        {
+          "es": "extracto de levadura en polvo",
+          "en": "powdered yeast extract",
+          "aliases": [
+            "extracto de levadura en polvo",
+            "powdered yeast extract"
+          ]
+        },
+        {
+          "es": "extracto de cebolla",
+          "en": "onion extract",
+          "aliases": [
+            "extracto de cebolla",
+            "onion extract"
+          ]
+        },
+        {
+          "es": "extracto de alga kombu",
+          "en": "kelp extract",
+          "aliases": [
+            "extracto de alga kombu",
+            "kelp extract",
+            "kombu"
+          ]
+        },
+        {
+          "es": "polvo de extracto de shiitake",
+          "en": "shiitake mushroom extract powder",
+          "aliases": [
+            "polvo de extracto de shiitake",
+            "shiitake mushroom extract powder",
+            "hongo shiitake"
+          ]
+        },
+        {
+          "es": "tofu seco",
+          "en": "dried tofu",
+          "aliases": [
+            "tofu seco",
+            "dried tofu"
+          ]
+        },
+        {
+          "es": "sulfato de calcio",
+          "en": "calcium sulfate",
+          "aliases": [
+            "sulfato de calcio",
+            "calcium sulfate",
+            "E516"
+          ]
+        },
+        {
+          "es": "alga wakame seca",
+          "en": "dried wakame seaweed",
+          "aliases": [
+            "alga wakame seca",
+            "dried wakame seaweed"
+          ]
+        },
+        {
+          "es": "cebolla de verdeo seca",
+          "en": "dried green onion",
+          "aliases": [
+            "cebolla de verdeo seca",
+            "dried green onion",
+            "spring onion"
+          ]
+        }
+      ],
+      "sourceId": "marukome-ryotei-tofu-miso-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
+    },
+    {
+      "id": "lotte-xylitol-cola-gum-japan-14pcs",
+      "barcode": null,
+      "name": "Lotte Xylitol Gum Cola",
+      "nameI18n": {
+        "es": "Chicle Lotte Xylitol sabor cola",
+        "en": "Lotte Xylitol Gum Cola"
+      },
+      "brand": "Lotte",
+      "country": "Japan",
+      "market": "Japan",
+      "region": "world",
+      "category": "chewing_gum",
+      "package": "14-piece pack",
+      "image": null,
+      "description": {
+        "es": "Chicle japonés sin azúcar sabor cola, endulzado con xilitol y maltitol.",
+        "en": "Japanese sugar-free cola gum sweetened with xylitol and maltitol."
+      },
+      "ingredientsText": "Maltitol, vegetable oil / sweeteners (xylitol, aspartame-L-phenylalanine compound), gum base, thickener (gum arabic), vitamin C, flavouring, glazing agent, colours (gardenia, safflower yellow), hesperidin; contains gelatin.",
+      "ingredients": [
+        {
+          "es": "maltitol",
+          "en": "maltitol",
+          "aliases": [
+            "maltitol",
+            "maltitol"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "xilitol",
+          "en": "xylitol",
+          "aliases": [
+            "xilitol",
+            "xylitol"
+          ]
+        },
+        {
+          "es": "aspartamo",
+          "en": "aspartame",
+          "aliases": [
+            "aspartamo",
+            "aspartame",
+            "E951"
+          ]
+        },
+        {
+          "es": "base de goma",
+          "en": "gum base",
+          "aliases": [
+            "base de goma",
+            "gum base"
+          ]
+        },
+        {
+          "es": "goma arábiga",
+          "en": "gum arabic",
+          "aliases": [
+            "goma arábiga",
+            "gum arabic",
+            "E414"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C",
+            "ácido ascórbico"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "agente de glaseado",
+          "en": "glazing agent",
+          "aliases": [
+            "agente de glaseado",
+            "glazing agent"
+          ]
+        },
+        {
+          "es": "colorante de gardenia",
+          "en": "gardenia colour",
+          "aliases": [
+            "colorante de gardenia",
+            "gardenia colour",
+            "gardenia color"
+          ]
+        },
+        {
+          "es": "amarillo de cártamo",
+          "en": "safflower yellow",
+          "aliases": [
+            "amarillo de cártamo",
+            "safflower yellow"
+          ]
+        },
+        {
+          "es": "hesperidina",
+          "en": "hesperidin",
+          "aliases": [
+            "hesperidina",
+            "hesperidin"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        }
+      ],
+      "sourceId": "lotte-xylitol-cola-gum-japan",
+      "verification": "manufacturer_website",
+      "status": "ready"
     }
   ]
 }
