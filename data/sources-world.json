@@ -163,6 +163,96 @@
       "url": "https://smartlabel.hersheys.com/034000451708-0052-en-US/index.html",
       "supports": "Official Hershey SmartLabel product identity and UPC; ingredient text cross-checked against retailer transcription.",
       "market": "United States"
+    },
+    {
+      "id": "takis-fuego-mexico-70g-source",
+      "productId": "takis-fuego-mexico-70g",
+      "publisher": "Barcel México",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.barcel.com.mx/marcas/takis/fuego",
+      "supports": "Official Mexican Takis Fuego product page; ingredient declaration and 70 g package option.",
+      "market": "Mexico"
+    },
+    {
+      "id": "gansito-marinela-mexico-50g-source",
+      "productId": "gansito-marinela-mexico-50g",
+      "publisher": "Grupo Bimbo / Marinela product label PDF",
+      "sourceType": "manufacturer_product_document",
+      "url": "https://d2g10w8g19lwbg.cloudfront.net/s3fs-public/files/2023-10/info-nutri-Gansito-50g_0.pdf?VersionId=SHuPS.dynsbYtZ8WH2_Z86cjgxE1L0Ab",
+      "supports": "Ingredient declaration for Mexican Marinela Gansito, 50 g; official-looking manufacturer label document.",
+      "market": "Mexico"
+    },
+    {
+      "id": "pocky-chocolate-japan-2pack-source",
+      "productId": "pocky-chocolate-japan-2pack",
+      "publisher": "Ezaki Glico Japan",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.glico.com/jp/product/chocolate/pocky/47143/",
+      "supports": "Official Japanese Glico product page; Japanese ingredient declaration and JAN code.",
+      "market": "Japan"
+    },
+    {
+      "id": "haribo-goldbears-us-5oz-source",
+      "productId": "haribo-goldbears-us-5oz",
+      "publisher": "HARIBO USA",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.haribo.com/en-us/products/goldbears",
+      "supports": "Official US Goldbears page; ingredients and US-market formulation.",
+      "market": "United States"
+    },
+    {
+      "id": "mcvities-digestives-uk-original-source",
+      "productId": "mcvities-digestives-uk-original",
+      "publisher": "McVitie's UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://mcvities.com/en-gb/original",
+      "supports": "Official McVitie's UK product page; ingredient declaration and pack reference.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "walkers-ready-salted-uk-source",
+      "productId": "walkers-ready-salted-uk",
+      "publisher": "Walkers UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.walkers.co.uk/our-range/walkers-crisps/ready-salted",
+      "supports": "Official Walkers UK Ready Salted product page; ingredient declaration.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "cadbury-dairy-milk-uk-45g-source",
+      "productId": "cadbury-dairy-milk-uk-45g",
+      "publisher": "Mondelez Away From Home UK",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.mondelez-afh.co.uk/products/cadbury-dairy-milk-45g-40032/",
+      "supports": "Official UK product specification for 45 g Cadbury Dairy Milk.",
+      "market": "United Kingdom"
+    },
+    {
+      "id": "ferrero-rocher-us-3pack-source",
+      "productId": "ferrero-rocher-us-3pack",
+      "publisher": "Ferrero Rocher US",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.ferrerorocher.com/us/en/our-products/ferrero-rocher/3-piece-pack",
+      "supports": "Official US Ferrero Rocher ingredient declaration.",
+      "market": "United States"
+    },
+    {
+      "id": "nescau-cereal-brazil-210g-source",
+      "productId": "nescau-cereal-brazil-210g",
+      "publisher": "Nestlé Brasil",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.nescau.com.br/produtos/cereal-matinal/nescau",
+      "supports": "Official Nestlé Nescau page; 210 g package option and ingredient declaration. Page declaration lists minerals and vitamins.",
+      "market": "Brazil"
+    },
+    {
+      "id": "trakinas-chocolate-brazil-126g-source",
+      "productId": "trakinas-chocolate-brazil-126g",
+      "publisher": "Pão de Açúcar Brazil",
+      "sourceType": "retailer_product_label",
+      "url": "https://www.paodeacucar.com/produto/444497/biscoito-recheio-chocolate-trakinas-126g",
+      "supports": "Retailer ingredient transcription for Trakinas Chocolate 126 g; corroborated with IDEC label analysis (2020), formula may have changed.",
+      "market": "Brazil"
     }
   ]
 }
