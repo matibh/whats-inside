@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "attribution": "Product ingredient information: Ferrero official website (Cono Sur). Product image: Open Food Facts.",
+  "products": [
+    {
+      "id": "nutella-ar",
+      "barcode": "3017620422003",
+      "name": "Nutella",
+      "brand": "Ferrero",
+      "country": "Argentina",
+      "image": "https://images.openfoodfacts.org/images/products/301/762/042/2003/front_en.400.jpg",
+      "imageSource": "https://world.openfoodfacts.org/product/3017620422003",
+      "description": {
+        "en": "Hazelnut cocoa spread · Can you guess what's inside?",
+        "es": "Crema de cacao y avellanas · ¿Qué ingredientes tiene?"
+      },
+      "ingredientsText": "Azúcar, aceite vegetal, avellanas, leche descremada en polvo, cacao en polvo desgrasado, emulsificante (lecitinas), saborizante.",
+      "ingredients": [
+        {
+          "en": "sugar",
+          "es": "azúcar",
+          "aliases": [
+            "sugar",
+            "sugars",
+            "azucar",
+            "azúcar"
+          ]
+        },
+        {
+          "en": "vegetable oil",
+          "es": "aceite vegetal",
+          "aliases": [
+            "vegetable oil",
+            "vegetable oils",
+            "aceite vegetal",
+            "aceites vegetales",
+            "oil",
+            "aceite"
+          ]
+        },
+        {
+          "en": "hazelnuts",
+          "es": "avellanas",
+          "aliases": [
+            "hazelnut",
+            "hazelnuts",
+            "avellana",
+            "avellanas"
+          ]
+        },
+        {
+          "en": "skimmed milk powder",
+          "es": "leche descremada en polvo",
+          "aliases": [
+            "skimmed milk powder",
+            "skim milk powder",
+            "milk powder",
+            "leche descremada en polvo",
+            "leche en polvo descremada",
+            "leche descremada"
+          ]
+        },
+        {
+          "en": "fat-reduced cocoa",
+          "es": "cacao en polvo desgrasado",
+          "aliases": [
+            "fat reduced cocoa",
+            "fat-reduced cocoa",
+            "cocoa powder",
+            "cacao en polvo desgrasado",
+            "cacao desgrasado"
+          ]
+        },
+        {
+          "en": "lecithins",
+          "es": "lecitinas",
+          "aliases": [
+            "lecithin",
+            "lecithins",
+            "soya lecithin",
+            "soy lecithin",
+            "lecitina",
+            "lecitinas"
+          ]
+        },
+        {
+          "en": "flavouring",
+          "es": "saborizante",
+          "aliases": [
+            "flavouring",
+            "flavoring",
+            "flavourings",
+            "flavorings",
+            "saborizante",
+            "saborizantes",
+            "aroma",
+            "aromas"
+          ]
+        }
+      ],
+      "sourceUrl": "https://www.ferrero.com/cono/es/nuestras-marcas/nutella",
+      "verification": "official_brand_source",
+      "status": "ready"
+    }
+  ]
+}
