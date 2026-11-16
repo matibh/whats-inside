@@ -26,3 +26,13 @@ The game reads playable products from `products.json`. A product is eligible whe
 - `packaging_transcription_secondary`: secondary transcription of packaging / Open Food Facts data.
 
 The first batch contains 10 Argentine-market products. The products are useful as a working catalog, but the source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
+
+
+## Regional catalogs
+
+- `products.json` + `sources.json`: Argentina-market edition. The game presents this catalog under 🇦🇷 Argentina.
+- `products-world.json` + `sources-world.json`: international edition. Each record names the country/market whose label is represented (for example, US Coca-Cola is not interchangeable with Argentine Coca-Cola).
+- `region` is a game/catalog grouping (`argentina` or `world`); `country` and `market` preserve the actual origin and market of the specific label.
+- Never merge two regional recipes merely because the brand/product name matches. A separate market/package record and source are required when ingredients differ.
+- The World catalog currently starts with 8 products from Italy, the United States and Switzerland. It is a curated starter set, not a claim of worldwide coverage.
+- World products are sourced from manufacturer/brand ingredient pages. Package size is included when the source identifies it; where a product page is variant-based, the package is marked as a market reference and must be rechecked against a physical label before expanding.
