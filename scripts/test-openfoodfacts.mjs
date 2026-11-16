@@ -30,7 +30,7 @@ if (!response.ok) {
 
 const payload = await response.json();
 
-if (payload.status !== 1 || !payload.product) {
+if (payload.status !== "success" || !payload.product) {
   console.error(JSON.stringify(payload, null, 2));
   throw new Error("Product not found in Open Food Facts");
 }
