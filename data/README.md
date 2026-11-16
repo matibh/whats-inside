@@ -63,3 +63,8 @@ Added 10 records: ColaCao Original (Spain), Goya Black Beans (US), Calbee Jagabe
 ## World catalog expansion — 16 November 2026 (100-product milestone)
 
 Added KEWPIE Japanese Mayonnaise (Japan; official KEWPIE shop ingredient listing for the 450 g Japanese-origin product) and Parle-G (India; detailed ingredient declaration from a secondary pack transcription, with the brand family confirmed on Parle's official site). The KEWPIE record is specifically the Japanese-origin formulation, not the separate US-made recipe. Parle-G's package size is not fixed in the catalog because pack sizes vary. Both products include Spanish and English accepted answers and aliases; source quality is explicitly recorded per product.
+
+
+## World catalog expansion — 16 November 2026 (10-product batch)
+
+Added 10 World records: Whittaker's Peanut Slab (New Zealand), Ouma Buttermilk Rusks (South Africa), Mae Ploy Red Curry Paste (Thai product / UK foodservice listing), VEGEMITE Original (Australia), LU Véritable Petit Beurre (France), Pocky Matcha (US-market Glico formula), Samyang Buldak Original (US-market formula), Lao Gan Ma Spicy Chili Crisp (Canada retail listing), Bourbon Alfort Mini Chocolate Biscuits (Japanese product / Thailand retail listing), and Asahi Calpis Water (Taiwan-origin product / Australia retail listing). Source types and market/formula limitations are recorded per item. Precautionary may-contain statements are not treated as ingredients. Secondary retailer transcriptions are clearly identified and not presented as manufacturer specifications.
