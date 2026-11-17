@@ -273,6 +273,43 @@ body{
  .top-controls{gap:5px}
 }
 
+
+/* Signature Ingredora wordmark */
+.intro h1{
+ position:relative;display:inline-block;isolation:isolate;
+ font-weight:950;letter-spacing:-.095em;line-height:.94;
+ color:transparent;
+ background:linear-gradient(112deg,#244b30 4%,#4e8b3c 48%,#a0c943 100%);
+ -webkit-background-clip:text;background-clip:text;
+ text-shadow:0 8px 24px rgba(75,122,48,.10);
+ padding:0 5px 15px 0;margin-bottom:13px;
+}
+.intro h1:after{
+ content:"";position:absolute;left:2px;right:8%;bottom:0;height:7px;
+ border-radius:100% 35% 90% 45%;
+ background:linear-gradient(90deg,#d9fa68 0%,#a9d84d 58%,rgba(169,216,77,0) 100%);
+ transform:skewX(-17deg) rotate(-1.2deg);
+ z-index:-1;
+}
+.intro h1:before{
+ content:"✦";position:absolute;right:-25px;top:-10px;
+ color:#a4c94c;font-size:clamp(17px,2.5vw,25px);
+ line-height:1;text-shadow:0 3px 12px rgba(133,164,48,.22);
+ transform:rotate(12deg);
+}
+:root[data-theme="dark"] .intro h1{
+ background:linear-gradient(112deg,#eff8dc 0%,#c9ee83 52%,#91c64a 100%);
+ -webkit-background-clip:text;background-clip:text;
+}
+:root[data-theme="dark"] .intro h1:after{
+ background:linear-gradient(90deg,#8ebc45 0%,#628f39 58%,rgba(98,143,57,0) 100%);
+}
+@media(max-width:600px){
+ .intro h1{padding-bottom:13px}
+ .intro h1:before{right:-19px;top:-8px}
+ .intro h1:after{height:6px}
+}
+
 </style>
 </head>
 <body>
