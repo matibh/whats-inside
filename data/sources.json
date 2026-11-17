@@ -1423,6 +1423,24 @@
       "url": "https://acdn-us.mitiendanube.com/stores/093/780/products/smamspepasmembrillo-4797139780ec7b151e17533738307303-1024-1024.webp",
       "supports": "Real package photograph of Smams Pepas Membrillo 150 g, matching the product name and package size; listing: https://rojasglutenfree.com/productos/pepas-de-membrillo-150gr-smams/",
       "market": "Argentina"
+    },
+    {
+      "id": "tita-clasica-19g-ar-ingredients",
+      "productId": "tita-clasica-19g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletita-tita-clasica-19-gr/p",
+      "supports": "Ingredient declaration for the Argentina-market Tita Clásica 19 g product. The trailing milk/sulfites/wheat/soy wording is allergen declaration, not additional ingredients; the may-contain egg and peanut warning is excluded.",
+      "market": "Argentina"
+    },
+    {
+      "id": "tita-clasica-19g-ar-image",
+      "productId": "tita-clasica-19g-ar",
+      "publisher": "Disco",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/766232-800-600?aspect=true&height=600&v=638103549901430000&width=800",
+      "supports": "Real package photograph of Terrabusi Tita Clásica 19 g, matching the product name and net weight; listing: https://www.disco.com.ar/galletita-tita-clasica-19-gr/p",
+      "market": "Argentina"
     }
   ]
 }
