@@ -5,11 +5,11 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 192
-- **Argentina:** 72
+- **Productos / Products:** 200
+- **Argentina:** 80
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 186 / 186
+- **Fotos reales / Real product photos:** 200 / 200
 
 ## Reglas / Rules
 
@@ -1111,6 +1111,54 @@ Harina de arroz, azúcar, almidón de maíz, aceite vegetal, chips de chocolate,
 **Fuente / Source:** [Jumbo Argentina](https://www.jumbo.com.ar/galletitas-santa-maria-mechaditas-200-gr/p)  
 **Tipo / Type:** `retailer_label_transcription`  
 **Alcance / Supports:** Ingredient declaration for Santa María Mechaditas 200 g; listing identifies Argentine origin.
+
+
+### Galletita Tita Clásica
+
+- **ID:** `tita-clasica-19g-ar`
+- **Package photo:** [View package / Ver envase](https://www.disco.com.ar/galletita-tita-clasica-19-gr/p)
+- **Brand:** Terrabusi · Tita
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 19 g
+- **Category:** `filled_cookies`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Galletita dulce rellena con sabor a limón y baño de repostería.
+- **Description (EN):** Lemon-flavoured filled sweet biscuit with a confectionery coating.
+
+**Declared ingredients / Ingredientes declarados**
+
+Azúcar, harina de trigo, hierro, ácido fólico, vitamina B1, vitamina B2, niacina, aceite vegetal, grasa vacuna refinada, cacao en polvo, almidón, jarabe de maíz de alta fructosa, leche descremada en polvo, sal, emulsionante lecitina de soja, emulsionante polirricinoleato de poliglicerol, leudante químico bicarbonato de amonio, leudante químico bicarbonato de sodio, leudante químico fosfato monocálcico, aromatizante natural limón, aromatizante idéntico al natural vainillina, aromatizante artificial vainilla, mejorador de la harina metabisulfito de sodio, proteasa. La transcripción de la fuente continúa con una declaración de alérgenos (leche, sulfitos y derivados de trigo y soja), que no se incluye como ingredientes; también se excluye la advertencia «puede contener huevo y maní».
+
+**Accepted answers / Respuestas aceptadas**
+
+- azúcar / sugar · azúcar, sugar
+- harina de trigo / wheat flour · harina de trigo, wheat flour, flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folate
+- vitamina B1 / vitamin B1 · vitamina B1, vitamin B1, tiamina, thiamine
+- vitamina B2 / vitamin B2 · vitamina B2, vitamin B2, riboflavina, riboflavin
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- aceite vegetal / vegetable oil · aceite vegetal, vegetable oil
+- grasa vacuna refinada / refined beef fat · grasa vacuna refinada, refined beef fat, beef fat
+- cacao en polvo / cocoa powder · cacao en polvo, cocoa powder
+- almidón / starch · almidón, starch
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, HFCS, high fructose corn syrup
+- leche descremada en polvo / skim milk powder · leche descremada en polvo, skim milk powder, nonfat dry milk
+- sal / salt · sal, salt
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, lecitina de soya, soya lecithin
+- polirricinoleato de poliglicerol / polyglycerol polyricinoleate · polirricinoleato de poliglicerol, polyglycerol polyricinoleate, PGPR, E476
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503, E503(ii)
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, baking soda, E500, E500(ii)
+- fosfato monocálcico / monocalcium phosphate · fosfato monocálcico, monocalcium phosphate, E341(i)
+- aromatizante natural de limón / natural lemon flavouring · aromatizante natural limón, aromatizante natural de limón, natural lemon flavouring, natural lemon flavor
+- vainillina / vanillin · vainillina, vanillin
+- aromatizante artificial de vainilla / artificial vanilla flavouring · aromatizante artificial vainilla, aromatizante artificial de vainilla, artificial vanilla flavouring, artificial vanilla flavor
+- metabisulfito de sodio / sodium metabisulfite · metabisulfito de sodio, sodium metabisulfite, E223
+- proteasa / protease · proteasa, protease, protease enzyme
+
+**Ingredient source:** [Jumbo product listing](https://www.jumbo.com.ar/galletita-tita-clasica-19-gr/p)  
+**Image source:** [Disco product listing](https://www.disco.com.ar/galletita-tita-clasica-19-gr/p)
 
 
 ## World
