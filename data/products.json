@@ -6465,6 +6465,1284 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-aguila-60-cacao-ar-14g"
+    },
+    {
+      "id": "mermelada-durazno-ar-454g",
+      "barcode": "7795184119756",
+      "name": "Mermelada de Durazno Arcor",
+      "brand": "Arcor",
+      "category": "peach_jam",
+      "package": "454 g",
+      "image": "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/10/Arcor_Mermelada_de_Durazno_sin_TACC%2C_454_g.webp",
+      "imagePublisher": "XPallet",
+      "imagePage": "https://xpallet.com.ar/arcor-mermelada-de-durazno-sin-tacc-454-g/",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7795184119756-mermelada-de-durazno/",
+      "description": {
+        "es": "Mermelada de durazno en frasco, elaborada con pulpa de fruta.",
+        "en": "Peach jam in a glass jar, made with fruit pulp."
+      },
+      "ingredientsText": "Jarabe de glucosa, azúcar, pulpa de durazno, acidulante (ácido cítrico), gelificante (pectina), aromatizante artificial, conservador (sorbato de potasio), colorante (INS 150d), antiespumante (INS 900).",
+      "ingredients": [
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "pulpa de durazno",
+          "en": "peach pulp",
+          "aliases": [
+            "pulpa de durazno",
+            "peach pulp",
+            "durazno",
+            "peach"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "INS 330",
+            "E330"
+          ]
+        },
+        {
+          "es": "pectina",
+          "en": "pectin",
+          "aliases": [
+            "pectina",
+            "pectin",
+            "E440"
+          ]
+        },
+        {
+          "es": "aromatizante artificial",
+          "en": "artificial flavouring",
+          "aliases": [
+            "aromatizante artificial",
+            "artificial flavouring",
+            "artificial flavoring"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "E202",
+            "INS 202"
+          ]
+        },
+        {
+          "es": "colorante caramelo (INS 150d)",
+          "en": "caramel colour (INS 150d)",
+          "aliases": [
+            "colorante caramelo (INS 150d)",
+            "caramel colour (INS 150d)",
+            "caramel color",
+            "E150d"
+          ]
+        },
+        {
+          "es": "antiespumante (INS 900)",
+          "en": "anti-foaming agent (INS 900)",
+          "aliases": [
+            "antiespumante (INS 900)",
+            "anti-foaming agent (INS 900)",
+            "E900",
+            "dimetilpolisiloxano",
+            "dimethylpolysiloxane"
+          ]
+        }
+      ],
+      "sourceId": "mermelada-durazno-ar-454g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "mermelada-durazno-ar-454g-image"
+    },
+    {
+      "id": "polenta-instantanea-arcor-ar-500g",
+      "barcode": "7790580660000",
+      "name": "Polenta Instantánea Presto Pronta",
+      "brand": "Arcor · Presto Pronta",
+      "category": "instant_polenta",
+      "package": "500 g",
+      "image": "https://amazonasfoods.com/cdn/shop/files/ARC10.jpg?height=940&v=1710026440",
+      "imagePublisher": "Amazonas Foods",
+      "imagePage": "https://amazonasfoods.com/es/products/arcor-polenta-prestopronta-500-grs",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580660000-polenta-instantanea/",
+      "description": {
+        "es": "Harina de maíz precocida para preparar polenta instantánea.",
+        "en": "Pre-cooked corn flour for making instant polenta."
+      },
+      "ingredientsText": "Harina de maíz precocida.",
+      "ingredients": [
+        {
+          "es": "harina de maíz precocida",
+          "en": "precooked corn flour",
+          "aliases": [
+            "harina de maíz precocida",
+            "precooked corn flour",
+            "maíz",
+            "corn",
+            "corn flour"
+          ]
+        }
+      ],
+      "sourceId": "polenta-instantanea-arcor-ar-500g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "polenta-instantanea-arcor-ar-500g-image"
+    },
+    {
+      "id": "rocklets-arcor-ar-40g",
+      "barcode": "7790580327415",
+      "name": "Rocklets",
+      "brand": "Arcor · Rocklets",
+      "category": "candy_coated_milk_chocolate",
+      "package": "40 g",
+      "image": "https://www.rimoldimayorista.com.ar/datos/uploads/mod_catalogo/31308/rocklets-40g-604d0381cae06.png",
+      "imagePublisher": "Rimoldi Mayorista",
+      "imagePage": "https://www.rimoldimayorista.com.ar/categorias/rocklets-confites-40g-28386.html",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580327415-rocklets/",
+      "description": {
+        "es": "Confites de chocolate con leche recubiertos por una cobertura crocante de colores.",
+        "en": "Milk chocolate candies coated in a colourful crunchy shell."
+      },
+      "ingredientsText": "Chocolate con leche 68% (azúcar; masa de cacao; leche entera en polvo; manteca de cacao; grasa vegetal equivalente a la manteca de cacao; leche descremada en polvo; emulsionantes: lecitina de soja, poliglicerol polirricinoleato; aromatizante: vainillina); azúcar; estabilizante: goma arábiga; glaseante: cera carnauba; colorantes: dióxido de titanio (E171), tartrazina (E102), rojo allura (E129), amarillo ocaso (E110), azul brillante (E133), indigotina (E132).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass",
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder",
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "grasa vegetal equivalente a la manteca de cacao",
+          "en": "vegetable fat equivalent to cocoa butter",
+          "aliases": [
+            "grasa vegetal equivalente a la manteca de cacao",
+            "vegetable fat equivalent to cocoa butter",
+            "grasa vegetal",
+            "vegetable fat"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "lecitina",
+            "soy",
+            "soya",
+            "E322"
+          ]
+        },
+        {
+          "es": "poliglicerol polirricinoleato",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "poliglicerol polirricinoleato",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "E476"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "goma arábiga",
+          "en": "gum arabic",
+          "aliases": [
+            "goma arábiga",
+            "gum arabic",
+            "E414"
+          ]
+        },
+        {
+          "es": "cera carnauba",
+          "en": "carnauba wax",
+          "aliases": [
+            "cera carnauba",
+            "carnauba wax",
+            "E903"
+          ]
+        },
+        {
+          "es": "dióxido de titanio",
+          "en": "titanium dioxide",
+          "aliases": [
+            "dióxido de titanio",
+            "titanium dioxide",
+            "E171"
+          ]
+        },
+        {
+          "es": "tartrazina",
+          "en": "tartrazine",
+          "aliases": [
+            "tartrazina",
+            "tartrazine",
+            "E102"
+          ]
+        },
+        {
+          "es": "rojo allura",
+          "en": "allura red",
+          "aliases": [
+            "rojo allura",
+            "allura red",
+            "E129"
+          ]
+        },
+        {
+          "es": "amarillo ocaso",
+          "en": "sunset yellow",
+          "aliases": [
+            "amarillo ocaso",
+            "sunset yellow",
+            "E110"
+          ]
+        },
+        {
+          "es": "azul brillante",
+          "en": "brilliant blue",
+          "aliases": [
+            "azul brillante",
+            "brilliant blue",
+            "E133"
+          ]
+        },
+        {
+          "es": "indigotina",
+          "en": "indigotine",
+          "aliases": [
+            "indigotina",
+            "indigotine",
+            "E132"
+          ]
+        }
+      ],
+      "sourceId": "rocklets-arcor-ar-40g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "rocklets-arcor-ar-40g-image"
+    },
+    {
+      "id": "saladix-pizza-ar-30g",
+      "barcode": "7790580387006",
+      "name": "Saladix Horneados sabor Pizza",
+      "brand": "Arcor · Saladix",
+      "category": "pizza_flavoured_crackers",
+      "package": "30 g",
+      "image": "https://farmacityar.vtexassets.com/arquivos/ids/240113/210752_Saladix-Pizza-30-gr_imagen-1.jpg?v=638163168276500000",
+      "imagePublisher": "Farmacity",
+      "imagePage": "https://www.farmacity.com/galletitas-saladix-sabor-pizza-x-30-gr/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580387006-saladix-sabor-pizza/",
+      "description": {
+        "es": "Galletitas snack horneadas con sabor a pizza.",
+        "en": "Baked savoury snack crackers with pizza flavour."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), grasa bovina refinada, azúcar, jarabe de glucosa, tomate deshidratado, queso en polvo 2%, extracto de malta, aceite de girasol alto oleico, sal, orégano, leudantes químicos (bicarbonato de sodio, bicarbonato de amonio), emulsionante (lecitina de soja), aromatizantes artificiales (aroma pizza, aroma queso).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "grasa vacuna",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "tomate deshidratado",
+          "en": "dried tomato",
+          "aliases": [
+            "tomate deshidratado",
+            "dried tomato"
+          ]
+        },
+        {
+          "es": "queso en polvo",
+          "en": "cheese powder",
+          "aliases": [
+            "queso en polvo",
+            "cheese powder"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "orégano",
+          "en": "oregano",
+          "aliases": [
+            "orégano",
+            "oregano"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "lecitina",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "aroma pizza",
+          "en": "pizza flavouring",
+          "aliases": [
+            "aroma pizza",
+            "pizza flavouring",
+            "pizza flavoring"
+          ]
+        },
+        {
+          "es": "aroma queso",
+          "en": "cheese flavouring",
+          "aliases": [
+            "aroma queso",
+            "cheese flavouring",
+            "cheese flavoring"
+          ]
+        }
+      ],
+      "sourceId": "saladix-pizza-ar-30g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "saladix-pizza-ar-30g-image"
+    },
+    {
+      "id": "pure-tomate-arcor-ar-530g",
+      "barcode": "7790580138868",
+      "name": "Puré de Tomate Arcor",
+      "brand": "Arcor",
+      "category": "tomato_puree",
+      "package": "530 g",
+      "image": "https://toledodigitalar.vtexassets.com/arquivos/ids/161481/20356.jpg?v=638796780715830000",
+      "imagePublisher": "Toledo Digital",
+      "imagePage": "https://www.toledodigital.com.ar/pure-de-tomate-arcor-530g-20356/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580138868-pure-de-tomate/",
+      "description": {
+        "es": "Puré de tomate en envase de 530 gramos.",
+        "en": "Tomato purée in a 530-gram carton."
+      },
+      "ingredientsText": "Tomate, regulador de acidez (ácido cítrico).",
+      "ingredients": [
+        {
+          "es": "tomate",
+          "en": "tomato",
+          "aliases": [
+            "tomate",
+            "tomato"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "regulador de acidez",
+            "E330",
+            "INS 330"
+          ]
+        }
+      ],
+      "sourceId": "pure-tomate-arcor-ar-530g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "pure-tomate-arcor-ar-530g-image"
+    },
+    {
+      "id": "arvejas-secas-remojadas-arcor-ar-300g",
+      "barcode": "7790580132392",
+      "name": "Arvejas Secas Remojadas Arcor",
+      "brand": "Arcor",
+      "category": "canned_peas",
+      "package": "300 g (195 g peso escurrido)",
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6917/20310/Arvejas-Arcor-Secas-Remojadas-Al-Natural-300-Gr__00557.1661539115.jpg?c=3%3Fimbypass%3Don",
+      "imagePublisher": "Pampa Direct",
+      "imagePage": "https://pampadirect.com/arcor-arvejas-soaked-dry-peas-ideal-for-salads-no-preservatives-added-gluten-free-300-g-10-58-oz-can/",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580132392-arvejas-secas-remojadas/",
+      "description": {
+        "es": "Arvejas secas remojadas listas para usar en ensaladas y comidas.",
+        "en": "Soaked dried peas, ready to use in salads and meals."
+      },
+      "ingredientsText": "Arvejas secas remojadas.",
+      "ingredients": [
+        {
+          "es": "arvejas secas remojadas",
+          "en": "soaked dried peas",
+          "aliases": [
+            "arvejas secas remojadas",
+            "soaked dried peas",
+            "arvejas",
+            "peas",
+            "green peas"
+          ]
+        }
+      ],
+      "sourceId": "arvejas-secas-remojadas-arcor-ar-300g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "arvejas-secas-remojadas-arcor-ar-300g-image"
+    },
+    {
+      "id": "tomates-peritas-arcor-ar-400g",
+      "barcode": "7790580567903",
+      "name": "Tomates Peritas Arcor",
+      "brand": "Arcor",
+      "category": "canned_peeled_tomatoes",
+      "package": "400 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/581351/Tomate-Perita-En-Lata-Arcor-400-Gr-1-20524.jpg?v=637226034332730000",
+      "imagePublisher": "Disco / Jumbo",
+      "imagePage": "https://www.disco.com.ar/tomate-perita-en-lata-arcor-400-gr/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580567903-tomates-peritas/",
+      "description": {
+        "es": "Tomates peritas pelados conservados en jugo de tomate.",
+        "en": "Peeled pear tomatoes preserved in tomato juice."
+      },
+      "ingredientsText": "Tomate pelado, jugo de tomates, regulador de acidez (ácido cítrico).",
+      "ingredients": [
+        {
+          "es": "tomate pelado",
+          "en": "peeled tomato",
+          "aliases": [
+            "tomate pelado",
+            "peeled tomato",
+            "tomate",
+            "tomatoes"
+          ]
+        },
+        {
+          "es": "jugo de tomates",
+          "en": "tomato juice",
+          "aliases": [
+            "jugo de tomates",
+            "tomato juice",
+            "jugo de tomate",
+            "tomato juice"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "regulador de acidez",
+            "E330",
+            "INS 330"
+          ]
+        }
+      ],
+      "sourceId": "tomates-peritas-arcor-ar-400g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "tomates-peritas-arcor-ar-400g-image"
+    },
+    {
+      "id": "cereal-mix-semillas-chips-ar-207g",
+      "barcode": "7790040135758",
+      "name": "Cereal Mix Semillas & Chips",
+      "brand": "Arcor · Cereal Mix",
+      "category": "seed_chocolate_oat_cookies",
+      "package": "207 g",
+      "image": "https://d2eebw31vcx88p.cloudfront.net/ecomodico/uploads-r/p/5ee8acc17ea8f5fcea29d35cd20b5a884b3dd238.jpg",
+      "imagePublisher": "Ecomodico",
+      "imagePage": "https://ecomodico.com/p/galletitas-cereal-mix-de-semillas-y-chips-x-207-gr/6bf8b862-1caf-4fae-a8c9-b861cf63bcc7",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790040135758-cereal-mix-semillas-chips/",
+      "description": {
+        "es": "Galletitas de avena con mezcla de semillas y chips de chocolate.",
+        "en": "Oat cookies with a mix of seeds and chocolate chips."
+      },
+      "ingredientsText": "Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar, avena arrollada (12%), aceite de girasol alto oleico, baño de repostería (8%), lecitina de girasol, triestearato de sorbitán, aromatizante, semilla de quinoa, semilla de amaranto, semilla de chía, semilla de amapola, semilla de sésamo blanco tostado, semilla de sésamo negro, leche descremada en polvo, jarabe de glucosa, sal, mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, lecitina de soja, sales de ácidos grasos con potasio, ésteres de mono y diglicéridos de ácidos grasos con diacetil tartárico, estearoil lactilato de sodio, bicarbonato de amonio, bicarbonato de sodio, aroma Graham, aroma chocolate, metabisulfito de sodio. Puede contener almendra, cebada, centeno, huevo y maní.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "avena arrollada",
+          "en": "rolled oats",
+          "aliases": [
+            "avena arrollada",
+            "rolled oats",
+            "avena",
+            "oats"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "baño de repostería",
+          "en": "confectionery coating",
+          "aliases": [
+            "baño de repostería",
+            "confectionery coating",
+            "cobertura de repostería",
+            "compound coating"
+          ]
+        },
+        {
+          "es": "lecitina de girasol",
+          "en": "sunflower lecithin",
+          "aliases": [
+            "lecitina de girasol",
+            "sunflower lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "triestearato de sorbitán",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "triestearato de sorbitán",
+            "sorbitan tristearate",
+            "E492"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "quinoa",
+          "en": "quinoa",
+          "aliases": [
+            "quinoa",
+            "quinoa",
+            "semilla de quinoa"
+          ]
+        },
+        {
+          "es": "amaranto",
+          "en": "amaranth",
+          "aliases": [
+            "amaranto",
+            "amaranth",
+            "semilla de amaranto"
+          ]
+        },
+        {
+          "es": "chía",
+          "en": "chia",
+          "aliases": [
+            "chía",
+            "chia",
+            "semilla de chía"
+          ]
+        },
+        {
+          "es": "amapola",
+          "en": "poppy seeds",
+          "aliases": [
+            "amapola",
+            "poppy seeds",
+            "semilla de amapola"
+          ]
+        },
+        {
+          "es": "sésamo blanco tostado",
+          "en": "toasted white sesame",
+          "aliases": [
+            "sésamo blanco tostado",
+            "toasted white sesame",
+            "sésamo",
+            "sesame"
+          ]
+        },
+        {
+          "es": "sésamo negro",
+          "en": "black sesame",
+          "aliases": [
+            "sésamo negro",
+            "black sesame"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "E471"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con propilenglicol",
+          "en": "propylene glycol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con propilenglicol",
+            "propylene glycol esters of fatty acids",
+            "E477"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "sales de ácidos grasos con potasio",
+          "en": "potassium salts of fatty acids",
+          "aliases": [
+            "sales de ácidos grasos con potasio",
+            "potassium salts of fatty acids",
+            "E470a"
+          ]
+        },
+        {
+          "es": "ésteres de mono y diglicéridos con diacetil tartárico",
+          "en": "DATEM",
+          "aliases": [
+            "ésteres de mono y diglicéridos con diacetil tartárico",
+            "DATEM",
+            "E472e"
+          ]
+        },
+        {
+          "es": "estearoil lactilato de sodio",
+          "en": "sodium stearoyl lactylate",
+          "aliases": [
+            "estearoil lactilato de sodio",
+            "sodium stearoyl lactylate",
+            "E481"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "aroma Graham",
+          "en": "Graham flavouring",
+          "aliases": [
+            "aroma Graham",
+            "Graham flavouring",
+            "Graham flavoring"
+          ]
+        },
+        {
+          "es": "aroma chocolate",
+          "en": "chocolate flavouring",
+          "aliases": [
+            "aroma chocolate",
+            "chocolate flavouring",
+            "chocolate flavoring"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        }
+      ],
+      "sourceId": "cereal-mix-semillas-chips-ar-207g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "cereal-mix-semillas-chips-ar-207g-image"
+    },
+    {
+      "id": "mermelada-frutilla-arcor-ar-454g",
+      "barcode": "7790580509606",
+      "name": "Mermelada de Frutilla Arcor",
+      "brand": "Arcor",
+      "category": "strawberry_jam",
+      "package": "454 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/217693-800-auto?aspect=true&height=auto&v=637854086192500000&width=800",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/mermelada-arcor-de-frutilla-454gr-2/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790580509606-mermelada-de-frutilla/",
+      "description": {
+        "es": "Mermelada de frutilla en frasco de vidrio.",
+        "en": "Strawberry jam in a glass jar."
+      },
+      "ingredientsText": "Frutillas, azúcar, jarabe de glucosa, gelificante (pectina), acidulante (ácido cítrico), conservador (sorbato de potasio), antiespumante (INS 900).",
+      "ingredients": [
+        {
+          "es": "frutillas",
+          "en": "strawberries",
+          "aliases": [
+            "frutillas",
+            "strawberries",
+            "frutilla",
+            "strawberry"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "pectina",
+          "en": "pectin",
+          "aliases": [
+            "pectina",
+            "pectin",
+            "E440"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "E202"
+          ]
+        },
+        {
+          "es": "antiespumante (INS 900)",
+          "en": "anti-foaming agent (INS 900)",
+          "aliases": [
+            "antiespumante (INS 900)",
+            "anti-foaming agent (INS 900)",
+            "E900",
+            "dimetilpolisiloxano",
+            "dimethylpolysiloxane"
+          ]
+        }
+      ],
+      "sourceId": "mermelada-frutilla-arcor-ar-454g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "mermelada-frutilla-arcor-ar-454g-image"
+    },
+    {
+      "id": "cereal-mix-avena-manzana-ar-180g",
+      "barcode": "7790040135796",
+      "name": "Cereal Mix Avena & Manzana",
+      "brand": "Arcor · Cereal Mix",
+      "category": "oat_apple_cookies",
+      "package": "180 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/698155/Galletas-Cereal-Mix-Avena-Y-Manzana-X180g-1-887758.jpg?v=637866922207630000",
+      "imagePublisher": "Disco / Jumbo",
+      "imagePage": "https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790040135796-cereal-mix-avena-manzana/",
+      "description": {
+        "es": "Galletitas de avena con manzana deshidratada.",
+        "en": "Oat cookies with dried apple."
+      },
+      "ingredientsText": "Avena arrollada, harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, aceite de girasol alto oleico, manzana deshidratada, alimento a base de salvado y harina de maíz, jarabe de glucosa, sal, leudantes químicos (fosfato monocálcico, bicarbonato de sodio, bicarbonato de amonio), emulsionantes (mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, estearato de potasio, lecitina de soja), antioxidante (BHT), aromatizante artificial (aroma manzana).",
+      "ingredients": [
+        {
+          "es": "avena arrollada",
+          "en": "rolled oats",
+          "aliases": [
+            "avena arrollada",
+            "rolled oats",
+            "avena",
+            "oats"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "manzana deshidratada",
+          "en": "dried apple",
+          "aliases": [
+            "manzana deshidratada",
+            "dried apple",
+            "manzana",
+            "apple"
+          ]
+        },
+        {
+          "es": "alimento a base de salvado y harina de maíz",
+          "en": "bran and corn flour-based ingredient",
+          "aliases": [
+            "alimento a base de salvado y harina de maíz",
+            "bran and corn flour-based ingredient",
+            "salvado",
+            "bran",
+            "harina de maíz",
+            "corn flour"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "E341i"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "E471"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con propilenglicol",
+          "en": "propylene glycol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con propilenglicol",
+            "propylene glycol esters of fatty acids",
+            "E477"
+          ]
+        },
+        {
+          "es": "estearato de potasio",
+          "en": "potassium stearate",
+          "aliases": [
+            "estearato de potasio",
+            "potassium stearate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "BHT",
+          "en": "BHT",
+          "aliases": [
+            "BHT",
+            "BHT",
+            "butilhidroxitolueno",
+            "butylated hydroxytoluene",
+            "E321"
+          ]
+        },
+        {
+          "es": "aroma manzana",
+          "en": "apple flavouring",
+          "aliases": [
+            "aroma manzana",
+            "apple flavouring",
+            "apple flavoring"
+          ]
+        }
+      ],
+      "sourceId": "cereal-mix-avena-manzana-ar-180g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "cereal-mix-avena-manzana-ar-180g-image"
     }
   ]
 }
