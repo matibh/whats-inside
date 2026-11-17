@@ -1,4 +1,4 @@
-# WHAT'S INSIDE?
+# Ingredora
 
 A bilingual ingredient-discovery game: identify the ingredients listed on real food products.
 
