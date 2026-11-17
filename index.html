@@ -325,6 +325,33 @@ body{
  .intro h1{font-size:clamp(39px,12vw,58px);letter-spacing:-.075em}
  .intro p{font-size:14px;max-width:320px}
 }
+
+/* Mobile header spacing */
+@media(max-width:600px){
+ .top{gap:10px;align-items:center}
+ .brand{font-size:18px;letter-spacing:-.9px;gap:6px;flex:0 0 auto}
+ .brand:before{width:24px;height:24px;border-radius:8px}
+ .brand:after{margin-left:8px}
+ .top-controls{gap:8px;flex:0 0 auto}
+ .account{gap:6px;padding:5px 8px;border-radius:12px;white-space:nowrap}
+ .account #accountLabel{font-size:9px;letter-spacing:.035em}
+ .account button{font-size:9px;letter-spacing:.025em;padding:2px 0}
+ .lang{min-width:40px;min-height:36px;padding:7px 8px;font-size:10px;letter-spacing:.04em}
+ .theme-toggle{width:36px;min-width:36px;height:36px;min-height:36px;padding:0;border-radius:11px;font-size:15px}
+}
+@media(max-width:360px){
+ .top{gap:7px}
+ .brand{font-size:16px;letter-spacing:-.8px;gap:5px}
+ .brand:before{width:22px;height:22px}
+ .brand:after{width:8px;height:11px;margin-left:7px}
+ .top-controls{gap:6px}
+ .account{gap:4px;padding:4px 6px}
+ .account #accountLabel{font-size:8px}
+ .account button{font-size:8px}
+ .lang{min-width:36px;padding:6px 6px}
+ .theme-toggle{width:34px;min-width:34px;height:34px;min-height:34px}
+}
+
 </style>
 </head>
 <body>
@@ -334,7 +361,7 @@ body{
  <div class="top-controls">
   <div class="account"><span id="accountLabel">GUEST</span><button id="authOpen">SIGN IN</button></div>
   <button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button>
-  <button class="lang" id="langBtn">ESPAÑOL</button>
+  <button class="lang" id="langBtn" type="button" aria-label="Switch language">ES</button>
  </div>
 </header>
 <section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline" aria-label="INGREDORA"><span class="wordmark-text" aria-hidden="true"></span><span class="typing-caret" aria-hidden="true"></span><span class="typing-check" aria-hidden="true">✓</span></h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
