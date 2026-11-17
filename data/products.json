@@ -6374,6 +6374,97 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-natural-break-energia-arcor"
+    },
+    {
+      "id": "aguila-60-cacao-ar-14g",
+      "barcode": "7790580109882",
+      "name": "Águila Extra Fino 60% Cacao",
+      "brand": "Águila · Arcor",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "dark_chocolate",
+      "package": "14 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg",
+      "description": {
+        "en": "A 60% cocoa dark chocolate bar. Can you identify its ingredients?",
+        "es": "Chocolate amargo con 60% de cacao. ¿Podés identificar sus ingredientes?"
+      },
+      "ingredientsText": "Masa de cacao, azúcar, manteca de cacao, cacao en polvo, grasa anhidra de leche, emulsionante lecitina de soja, aromatizante artificial vainillina, aromatizante artificial etil vainillina.",
+      "ingredients": [
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass",
+            "cocoa liquor"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "grasa anhidra de leche",
+          "en": "anhydrous milk fat",
+          "aliases": [
+            "grasa anhidra de leche",
+            "anhydrous milk fat",
+            "milk fat"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "soya lecithin",
+            "lecithin"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "etilvainillina",
+          "en": "ethyl vanillin",
+          "aliases": [
+            "etilvainillina",
+            "ethyl vanillin"
+          ]
+        }
+      ],
+      "sourceId": "aguila-60-cacao-vea",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-aguila-60-cacao-ar-14g"
     }
   ]
 }
