@@ -274,14 +274,14 @@ body{
 }
 
 
-/* Ingredora identity — clear hierarchy and a bolder wordmark */
+/* Ingredora wordmark: type in, then resolve as a correct ingredient */
 .intro{
  display:flex;flex-direction:column;align-items:center;
  padding:clamp(38px,7vh,66px) 0 30px;
 }
 .intro .eyebrow{
  order:0;display:inline-flex;align-items:center;gap:9px;
- padding:8px 13px;margin:0 0 17px;
+ padding:8px 13px;margin:0 0 18px;
  border:1px solid #dce8cf;border-radius:999px;
  background:#f0f6e9;color:#54734a;
  font:800 10px "DM Mono",monospace;letter-spacing:.16em;
@@ -292,37 +292,62 @@ body{
 }
 .intro h1{
  order:1;position:relative;display:inline-block;
- margin:0 0 17px;padding:0 4px 12px 0;
- color:#193d2a;font-weight:1000;
- font-size:clamp(52px,10.5vw,86px);
- line-height:.88;letter-spacing:-.09em;
- text-shadow:0 3px 0 rgba(25,61,42,.07);
-}
-.intro h1:after{
- content:"";position:absolute;left:2px;right:5px;bottom:0;
- height:9px;border-radius:3px 14px 4px 12px;
- background:#b8e45d;transform:rotate(-1.3deg);
- z-index:-1;
+ width:max-content;max-width:100%;white-space:nowrap;overflow:hidden;
+ margin:0 0 17px;padding:9px 15px;
+ border:1px solid transparent;border-radius:7px;
+ background:transparent;color:#245d36;
+ font-size:clamp(27px,6vw,39px);font-weight:900;
+ line-height:1.15;letter-spacing:-.055em;
+ clip-path:inset(0 100% 0 0);
+ animation:ingredoraType 1.35s steps(9,end) .25s forwards,
+           ingredoraCorrect .28s ease 1.62s forwards;
 }
 .intro h1:before{
- content:"";position:absolute;right:-17px;top:-8px;
- width:12px;height:12px;border-radius:4px 9px 4px 9px;
- background:#8fbd43;transform:rotate(25deg);
+ content:"";position:absolute;right:7px;top:50%;
+ height:62%;width:2px;background:#4c9858;
+ transform:translateY(-50%);
+ animation:ingredoraCaret .65s steps(1,end) 3;
+}
+.intro h1:after{
+ content:"✓";position:absolute;right:-22px;top:50%;
+ color:#245d36;font-size:.52em;font-weight:900;
+ opacity:0;transform:translateY(-50%) scale(.5);
+ animation:ingredoraCheck .3s cubic-bezier(.2,.8,.2,1) 1.72s forwards;
+}
+@keyframes ingredoraType{
+ to{clip-path:inset(0 0 0 0)}
+}
+@keyframes ingredoraCorrect{
+ to{background:#e5f0d9;border-color:#79b889;box-shadow:0 2px 0 #d2e6c5}
+}
+@keyframes ingredoraCaret{
+ 0%,49%{opacity:1}50%,100%{opacity:0}
+}
+@keyframes ingredoraCheck{
+ to{opacity:1;right:9px;transform:translateY(-50%) scale(1)}
 }
 .intro p{order:2;margin:0 auto;max-width:420px;color:#69796d;font-size:15px;line-height:1.6}
 :root[data-theme="dark"] .intro .eyebrow{
  background:#263729;border-color:#3c5140;color:#c1dfa0;
 }
-:root[data-theme="dark"] .intro h1{color:#eff8e8;text-shadow:none}
-:root[data-theme="dark"] .intro h1:after{background:#8ebc45}
-:root[data-theme="dark"] .intro h1:before{background:#b7e65d}
+:root[data-theme="dark"] .intro h1{
+ color:#c5efa0;animation-name:ingredoraType,ingredoraCorrectDark;
+}
+@keyframes ingredoraCorrectDark{
+ to{background:#294632;border-color:#648d67;box-shadow:0 2px 0 #213a29}
+}
+:root[data-theme="dark"] .intro h1:before{background:#c5efa0}
+:root[data-theme="dark"] .intro h1:after{color:#c5efa0}
 @media(max-width:600px){
  .intro{padding:38px 0 22px}
  .intro .eyebrow{font-size:9px;margin-bottom:16px;padding:7px 11px}
- .intro h1{font-size:clamp(48px,13vw,68px);padding-bottom:10px}
- .intro h1:after{height:7px}
- .intro h1:before{right:-13px;top:-6px;width:9px;height:9px}
+ .intro h1{font-size:clamp(25px,7vw,33px);padding:8px 13px}
  .intro p{font-size:14px;max-width:320px}
+}
+@media(prefers-reduced-motion:reduce){
+ .intro h1{clip-path:none;animation:none;background:#e5f0d9;border-color:#79b889}
+ .intro h1:before{display:none}
+ .intro h1:after{opacity:1;right:9px;transform:translateY(-50%)}
 }
 </style>
 </head>
