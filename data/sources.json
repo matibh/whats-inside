@@ -1099,6 +1099,96 @@
       "url": "https://assets.unileversolutions.com/v1/144186463.png",
       "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058",
       "market": "Argentina"
+    },
+    {
+      "id": "chocolinas-bagley-ar-150g-ingredients",
+      "productId": "chocolinas-bagley-ar-150g",
+      "publisher": "Vea",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.vea.com.ar/galletitas-chocolinas-150-gr/p",
+      "supports": "Ingredient declaration published for the matching Argentina-market package. Precautionary may-contain statements and allergen summaries are not included as accepted game ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "chocolinas-bagley-ar-150g-image",
+      "productId": "chocolinas-bagley-ar-150g",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/817282/Galletitas-Chocolinas-150-Gr-1-940196.jpg?v=638478636721100000",
+      "supports": "Real product/package photograph for the matching product; product listing: https://www.jumbo.com.ar/galletitas-chocolinas-150-gr/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "criollitas-bagley-ar-100g-ingredients",
+      "productId": "criollitas-bagley-ar-100g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790040377707-criollitas-original/",
+      "supports": "Ingredient declaration published for the matching Argentina-market package. Precautionary may-contain statements and allergen summaries are not included as accepted game ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "criollitas-bagley-ar-100g-image",
+      "productId": "criollitas-bagley-ar-100g",
+      "publisher": "Frat Almacenar",
+      "sourceType": "retailer_product_image",
+      "url": "https://fratalmacenar.vtexassets.com/arquivos/ids/156364/7790040377707.jpg?v=638358479410130000",
+      "supports": "Real product/package photograph for the matching product; product listing: https://www.frat.com.ar/galleta-criollitas-original-100-gr/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "boca-de-dama-terrabusi-ar-170g-ingredients",
+      "productId": "boca-de-dama-terrabusi-ar-170g",
+      "publisher": "Vea",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.vea.com.ar/galletitas-dulces-boca-de-dama-terrabusi-170-gr/p",
+      "supports": "Ingredient declaration published for the matching Argentina-market package. Precautionary may-contain statements and allergen summaries are not included as accepted game ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "boca-de-dama-terrabusi-ar-170g-image",
+      "productId": "boca-de-dama-terrabusi-ar-170g",
+      "publisher": "Pampa Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/590x590/products/2416/15578/boca-de-dama-170g__85486.1655233129.jpg?c=2",
+      "supports": "Real product/package photograph for the matching product; product listing: https://pampadirect.com/galletitas-boca-de-dama-sweet-classic-argentinian-cookies-170-g-6-oz/",
+      "market": "Argentina"
+    },
+    {
+      "id": "anillos-terrabusi-ar-300g-ingredients",
+      "productId": "anillos-terrabusi-ar-300g",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-dulces-anillitos-terrabusi-300-gr/p",
+      "supports": "Ingredient declaration published for the matching Argentina-market package. Precautionary may-contain statements and allergen summaries are not included as accepted game ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "anillos-terrabusi-ar-300g-image",
+      "productId": "anillos-terrabusi-ar-300g",
+      "publisher": "Mi Tienda Mondelez Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://mdlzargentina.vtexassets.com/arquivos/ids/156424-800-800?aspect=true&height=800&v=639055433462870000&width=800",
+      "supports": "Real product/package photograph for the matching product; product listing: https://www.mitiendamondelez.com.ar/galletitas-anillitos-clasicos-terrabusi-300g-2028730/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "terrabusi-chips-ar-144g-ingredients",
+      "productId": "terrabusi-chips-ar-144g",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-dulces-variedad-terrabusi-144-gr/p",
+      "supports": "Ingredient declaration published for the matching Argentina-market package. Precautionary may-contain statements and allergen summaries are not included as accepted game ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "terrabusi-chips-ar-144g-image",
+      "productId": "terrabusi-chips-ar-144g",
+      "publisher": "Pampa Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6230/17799/Galletita-Terrabusi-con-Chips-144-Gr__04914.1657138631.jpg?c=2%3Fimbypass%3Don",
+      "supports": "Real product/package photograph for the matching product; product listing: https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/",
+      "market": "Argentina"
     }
   ]
 }
