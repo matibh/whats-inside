@@ -22,7 +22,7 @@ A bilingual 15-second food-ingredient game: see a real packaged product and name
 - Daily reads only published challenges and keeps answer keys server-side. An authenticated account is required for the one official attempt.
 - Practice reads the safe product catalog, supports Argentina / World and category filters, and submits guesses to the protected answer checker. Guests can practice; signed-in results are saved.
 - The Rankings tab opens today's Daily and all-time leaderboards.
-- The account `ingredora@gmail.com` sees a temporary Daily replay test button. Its replay is processed through Practice, bypasses the future-Daily reservation check only for that verified account, and is excluded from official Daily scores, streaks, Practice history, and ingredient mastery.
+- The account `ingredora@gmail.com` can preview the next scheduled Daily product before launch and sees a temporary replay test button. Its replay is processed through Practice, bypasses the future-Daily reservation check only for that verified account, and is excluded from official Daily scores, streaks, Practice history, and ingredient mastery.
 - The branch includes sign-in / sign-up, Daily and all-time leaderboards, bilingual UI, and the 15-second timer. This is development work; it has not been merged into `main` or deployed.
 
 ## Product roadmap
