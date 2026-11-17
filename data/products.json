@@ -8595,6 +8595,977 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "hellmanns-mayonesa-image"
+    },
+    {
+      "id": "chocolinas-bagley-ar-150g",
+      "barcode": "7790040139398",
+      "name": "Chocolinas",
+      "brand": "Bagley",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_cookies",
+      "package": "150 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/817282/Galletitas-Chocolinas-150-Gr-1-940196.jpg?v=638478636721100000",
+      "imagePublisher": "Jumbo",
+      "imagePage": "https://www.jumbo.com.ar/galletitas-chocolinas-150-gr/p",
+      "ingredientUrl": "https://www.vea.com.ar/galletitas-chocolinas-150-gr/p",
+      "description": {
+        "es": "Galletitas clásicas de chocolate, muy usadas para preparar chocotorta.",
+        "en": "Classic chocolate cookies, widely used to make chocotorta."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, grasa bovina refinada, cacao en polvo, jarabe de glucosa, sal, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), colorante caramelo (E150d), emulsionante (lecitina de soja), mejorador de harina (metabisulfito de sodio), aromatizante artificial (vainillina).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "grasa vacuna",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder",
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500",
+            "INS 500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503",
+            "INS 503"
+          ]
+        },
+        {
+          "es": "colorante caramelo E150d",
+          "en": "caramel colour E150d",
+          "aliases": [
+            "colorante caramelo E150d",
+            "caramel colour E150d",
+            "caramel color E150d",
+            "E150d"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "chocolinas-bagley-ar-150g-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "chocolinas-bagley-ar-150g-image"
+    },
+    {
+      "id": "criollitas-bagley-ar-100g",
+      "barcode": "7790040377707",
+      "name": "Criollitas Original",
+      "brand": "Bagley",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "savory_crackers",
+      "package": "100 g",
+      "image": "https://fratalmacenar.vtexassets.com/arquivos/ids/156364/7790040377707.jpg?v=638358479410130000",
+      "imagePublisher": "Frat Almacenar",
+      "imagePage": "https://www.frat.com.ar/galleta-criollitas-original-100-gr/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790040377707-criollitas-original/",
+      "description": {
+        "es": "Galletitas crackers originales de Bagley, de sabor salado.",
+        "en": "Bagley original savory crackers."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), grasa bovina refinada, sal, extracto de malta (cebada), jarabe de glucosa, levadura, leudante químico (bicarbonato de sodio), emulsionante (lecitina de soja).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "grasa vacuna",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract",
+            "malta",
+            "malt"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "levadura",
+          "en": "yeast",
+          "aliases": [
+            "levadura",
+            "yeast"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        }
+      ],
+      "sourceId": "criollitas-bagley-ar-100g-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "criollitas-bagley-ar-100g-image"
+    },
+    {
+      "id": "boca-de-dama-terrabusi-ar-170g",
+      "barcode": null,
+      "name": "Boca de Dama",
+      "brand": "Terrabusi",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "sweet_cookies",
+      "package": "170 g",
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/590x590/products/2416/15578/boca-de-dama-170g__85486.1655233129.jpg?c=2",
+      "imagePublisher": "Pampa Direct",
+      "imagePage": "https://pampadirect.com/galletitas-boca-de-dama-sweet-classic-argentinian-cookies-170-g-6-oz/",
+      "ingredientUrl": "https://www.vea.com.ar/galletitas-dulces-boca-de-dama-terrabusi-170-gr/p",
+      "description": {
+        "es": "Galletitas dulces clásicas con notas de almendra, limón y vainilla.",
+        "en": "Classic sweet biscuits with almond, lemon and vanilla notes."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, niacina), azúcar, grasa vacuna refinada, almidón, jarabe de maíz de alta fructosa, sal, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), emulsionante (lecitina de soja), aromatizante idéntico al natural almendra, aromatizante natural limón, aromatizante artificial vainilla.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "grasa bovina",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "aromatizante de almendra",
+          "en": "almond flavouring",
+          "aliases": [
+            "aromatizante de almendra",
+            "almond flavouring",
+            "almond flavoring"
+          ]
+        },
+        {
+          "es": "aromatizante natural de limón",
+          "en": "natural lemon flavouring",
+          "aliases": [
+            "aromatizante natural de limón",
+            "natural lemon flavouring",
+            "natural lemon flavoring"
+          ]
+        },
+        {
+          "es": "aromatizante artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "aromatizante artificial de vainilla",
+            "artificial vanilla flavouring",
+            "artificial vanilla flavoring",
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "boca-de-dama-terrabusi-ar-170g-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "boca-de-dama-terrabusi-ar-170g-image"
+    },
+    {
+      "id": "anillos-terrabusi-ar-300g",
+      "barcode": "7622201504007",
+      "name": "Anillos Terrabusi",
+      "brand": "Terrabusi",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "sweet_cookies",
+      "package": "300 g",
+      "image": "https://mdlzargentina.vtexassets.com/arquivos/ids/156424-800-800?aspect=true&height=800&v=639055433462870000&width=800",
+      "imagePublisher": "Mi Tienda Mondelez Argentina",
+      "imagePage": "https://www.mitiendamondelez.com.ar/galletitas-anillitos-clasicos-terrabusi-300g-2028730/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletitas-dulces-anillitos-terrabusi-300-gr/p",
+      "description": {
+        "es": "Galletitas dulces con forma de anillo y cobertura de colores.",
+        "en": "Sweet ring-shaped cookies with colourful icing."
+      },
+      "ingredientsText": "Harina de trigo, hierro, ácido fólico, vitamina B1, vitamina B2, niacina, azúcar, grasa vacuna refinada, jarabe de maíz de alta fructosa, cacao en polvo, sal, gelatina, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), fosfato monocálcico, colorante caramelo III, colorante carmín, colorante cúrcuma, emulsionante lecitina de soja, aromatizante artificial vainilla, aromatizante idéntico al natural cereza, aromatizante idéntico al natural limón, espesante goma guar, acidulante ácido cítrico.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "grasa bovina",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder",
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "E341"
+          ]
+        },
+        {
+          "es": "colorante caramelo III",
+          "en": "caramel colour III",
+          "aliases": [
+            "colorante caramelo III",
+            "caramel colour III",
+            "caramel color III",
+            "E150c"
+          ]
+        },
+        {
+          "es": "colorante carmín",
+          "en": "carmine colour",
+          "aliases": [
+            "colorante carmín",
+            "carmine colour",
+            "carmine color",
+            "E120"
+          ]
+        },
+        {
+          "es": "colorante cúrcuma",
+          "en": "turmeric colour",
+          "aliases": [
+            "colorante cúrcuma",
+            "turmeric colour",
+            "turmeric color",
+            "curcumin",
+            "E100"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "aromatizante artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "aromatizante artificial de vainilla",
+            "artificial vanilla flavouring",
+            "artificial vanilla flavoring",
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "aromatizante de cereza",
+          "en": "cherry flavouring",
+          "aliases": [
+            "aromatizante de cereza",
+            "cherry flavouring",
+            "cherry flavoring"
+          ]
+        },
+        {
+          "es": "aromatizante de limón",
+          "en": "lemon flavouring",
+          "aliases": [
+            "aromatizante de limón",
+            "lemon flavouring",
+            "lemon flavoring"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum",
+            "E412"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        }
+      ],
+      "sourceId": "anillos-terrabusi-ar-300g-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "anillos-terrabusi-ar-300g-image"
+    },
+    {
+      "id": "terrabusi-chips-ar-144g",
+      "barcode": null,
+      "name": "Terrabusi Chips",
+      "brand": "Terrabusi",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_chip_cookies",
+      "package": "144 g",
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6230/17799/Galletita-Terrabusi-con-Chips-144-Gr__04914.1657138631.jpg?c=2%3Fimbypass%3Don",
+      "imagePublisher": "Pampa Direct",
+      "imagePage": "https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletitas-dulces-variedad-terrabusi-144-gr/p",
+      "description": {
+        "es": "Galletitas dulces con chips de chocolate.",
+        "en": "Sweet cookies with chocolate chips."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, niacina), azúcar, aceite vegetal, aceite vegetal hidrogenado, cacao en polvo, jarabe de maíz de alta fructosa, sal, dextrosa, leche descremada en polvo, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), emulsionante lecitina de soja, emulsionante lecitina de girasol, sorbitán triestearato, aromatizante artificial vainillina.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "aceite vegetal hidrogenado",
+          "en": "hydrogenated vegetable oil",
+          "aliases": [
+            "aceite vegetal hidrogenado",
+            "hydrogenated vegetable oil"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder",
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "dextrosa",
+          "en": "dextrose",
+          "aliases": [
+            "dextrosa",
+            "dextrose",
+            "glucose"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "lecitina de girasol",
+          "en": "sunflower lecithin",
+          "aliases": [
+            "lecitina de girasol",
+            "sunflower lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "sorbitán triestearato",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "sorbitán triestearato",
+            "sorbitan tristearate",
+            "E492"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "terrabusi-chips-ar-144g-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "terrabusi-chips-ar-144g-image"
     }
   ]
 }
