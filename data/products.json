@@ -10767,20 +10767,24 @@
           ]
         },
         {
-          "es": "enzimas para panificación (INS 1100)",
-          "en": "enzymes for baking (INS 1100)",
+          "es": "amilasas (INS 1100)",
+          "en": "amylases (INS 1100)",
           "aliases": [
-            "enzimas para panificación (INS 1100)",
-            "enzymes for baking (INS 1100)",
+            "amilasas (INS 1100)",
+            "amylases (INS 1100)",
+            "amilasas",
+            "amylases",
             "INS 1100"
           ]
         },
         {
-          "es": "amilasa (INS 1101(i))",
-          "en": "amylase (INS 1101(i))",
+          "es": "proteasa (INS 1101(i))",
+          "en": "protease (INS 1101(i))",
           "aliases": [
-            "amilasa (INS 1101(i))",
-            "amylase (INS 1101(i))",
+            "proteasa (INS 1101(i))",
+            "protease (INS 1101(i))",
+            "proteasa",
+            "protease",
             "INS 1101(i)"
           ]
         },
