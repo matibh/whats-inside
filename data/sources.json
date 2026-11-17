@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastReviewed": "2026-11-16",
+  "lastReviewed": "2026-11-17",
   "sources": [
     {
       "id": "nutella-official",
@@ -450,6 +450,96 @@
       "sourceType": "manufacturer_product_image",
       "url": "https://tiendajorgito.com.ar/producto/jorgito-choco-blanco",
       "supports": "Official Jorgito Choco Blanco 55 g product image from the manufacturer.",
+      "market": "Argentina"
+    },
+    {
+      "id": "havanna-alfajor-chocolate-foodnutrifacts",
+      "productId": "havanna-alfajor-chocolate-clasico-ar-55g",
+      "publisher": "FoodNutriFacts / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://www.foodnutrifacts.com/products/havanna-alfajores-chocolate-cl-sico-7791875000440",
+      "supports": "Full ingredient declaration and barcode 7791875000440 for Havanna Alfajor Chocolate Clásico, 55 g unit / 660 g box.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-havanna-alfajor-chocolate-ar-55g",
+      "productId": "havanna-alfajor-chocolate-clasico-ar-55g",
+      "publisher": "Sabor Austral Market",
+      "sourceType": "retailer_product_image",
+      "url": "https://saboraustral.com.au/products/alfajor-havana-chocolate-clasico-x1-un",
+      "supports": "Real wrapper and product photo for the 55 g Havanna Chocolate Clásico alfajor.",
+      "market": "Argentina"
+    },
+    {
+      "id": "yogurisimo-frutilla-1l-shelfpedia",
+      "productId": "yogurisimo-bebible-frutilla-ar-1l",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790742567024-yogurt-bebible/",
+      "supports": "Ingredient statement and barcode 7790742567024 for La Serenísima drinkable strawberry yogurt.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-yogurisimo-frutilla-1l-ar",
+      "productId": "yogurisimo-bebible-frutilla-ar-1l",
+      "publisher": "Jumbo Argentina",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.jumbo.com.ar/yogur-entero-yogurisimo-bebible-tetra-frutilla-x-1litro/p",
+      "supports": "Real 1 L Yogurísimo Bebible Frutilla carton image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "vacalin-dulce-leche-400g-shelfpedia",
+      "productId": "vacalin-dulce-de-leche-original-ar-400g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790616000411-dulce-de-leche/",
+      "supports": "Ingredient declaration and barcode 7790616000411 for Vacalin Dulce de Leche 400 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-vacalin-dulce-leche-400g-ar",
+      "productId": "vacalin-dulce-de-leche-original-ar-400g",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.masonline.com.ar/dulce-de-leche-vacalin-400-g-2/p",
+      "supports": "Real 400 g Vacalin Original dulce de leche tub image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "arcor-turron-mani-shelfpedia",
+      "productId": "arcor-turron-mani-ar-25g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/77940131-turron-mani/",
+      "supports": "Ingredient declaration and EAN-8 77940131 for Arcor Turrón & Maní 25 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-arcor-turron-mani-25g-ar",
+      "productId": "arcor-turron-mani-ar-25g",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.masonline.com.ar/turron-de-mani-arcor-25-gr-2/p",
+      "supports": "Real Arcor Turrón & Maní 25 g wrapper image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "baggio-pronto-multifruta-shelfpedia",
+      "productId": "baggio-pronto-multifruta-ar-1l",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790036974453-pronto/",
+      "supports": "Ingredient declaration and barcode 7790036974453 for Baggio Pronto 1 L multifruit juice drink.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-baggio-pronto-multifruta-1l-ar",
+      "productId": "baggio-pronto-multifruta-ar-1l",
+      "publisher": "Super Astorga",
+      "sourceType": "retailer_product_image",
+      "url": "https://superastorga.com.ar/productos/baggio-x-1l-jugo-multifruta/",
+      "supports": "Real 1 L Baggio Pronto Multifruta carton image.",
       "market": "Argentina"
     }
   ]
