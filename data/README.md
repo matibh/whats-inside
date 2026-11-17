@@ -123,3 +123,8 @@ Added Cunnington Cola Classic (2.25 L), Cunnington Ginger Ale Classic (1.5 L), a
 ## Argentina catalog expansion — 17 November 2026 (eighth batch)
 
 Added BC La Campagnola Mayonnaise (500 g), La Campagnola Tuna Loin in Oil (170 g), and La Campagnola Napolitana Tomato Sauce (350 g). Each record has a separate ingredient-declaration source and a real package-image source.
+
+
+## Argentina catalog expansion — 17 November 2026 (ninth batch)
+
+Added Bagley Kesitas Queso (75 g), Gallo Snacks Chips Queso (50 g), and Cuisine & Co Galletitas Dulces Sabor Leche (260 g). Each product has a separate ingredient-declaration record and a real package-photo record. Allergen warnings are excluded from accepted answers.
