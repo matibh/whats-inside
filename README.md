@@ -28,7 +28,7 @@ A bilingual 15-second food-ingredient game: see a real packaged product and name
 
 ## Backend foundation
 
-The Supabase schema and setup notes are in `supabase/` and `docs/backend-setup.md`.
+The Supabase schema and setup notes are in `supabase/` and `docs/backend-setup.md`. The development project is provisioned in São Paulo (`sa-east-1`); credentials are configured locally and are not committed.
 
 **Important security note:** the existing static product JSON contains ingredient answers. A competitive Daily must not launch until answer keys are moved out of public assets and validation happens in a server-side Edge Function. Never commit database passwords, Supabase service-role keys, or other secrets.
 
