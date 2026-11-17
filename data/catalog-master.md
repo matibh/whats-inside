@@ -5,8 +5,8 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 150
-- **Argentina:** 30
+- **Productos / Products:** 154
+- **Argentina:** 34
 - **World:** 120
 - **Idiomas / Languages:** Español + English
 - **Fotos reales / Real product photos:** 150 / 150
@@ -6335,3 +6335,87 @@ Agua, puré de banana, pulpa concentrada de durazno, jugo concentrado de naranja
 **Fuente / Source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790036974453-pronto/)  
 **Tipo / Type:** `packaging_transcription_secondary`  
 **Alcance / Supports:** Ingredient declaration and barcode 7790036974453 for Baggio Pronto 1 L multifruit juice drink.
+
+
+### Galletitas Jorgito con Chips
+
+- **ID:** `jorgito-galletitas-chips-ar-120g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://alfajores-jorgito.com/media/8275694ddcaf0a1b6a9bb2cfc2522c86.webp)
+- **Marca / Brand:** Jorgito
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 120 g
+- **Categoría / Category:** `chocolate_chip_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Galletitas de vainilla con chips de chocolate semiamargo.
+- **Description (EN):** Vanilla cookies with semi-sweet chocolate chips.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida, azúcar, grasa vacuna, gotas de baño de repostería semiamargo (lecitina de soja INS 322, triestearato de sorbitán INS 492, aromatizante), gotas de chocolate semiamargo (lecitina de soja INS 322, polirricinoleato de poliglicerol INS 476, aromatizante), azúcar invertido, leche descremada en polvo, sal, bicarbonato de sodio INS 500ii, bicarbonato de amonio INS 503ii, lecitina de soja INS 322, esencia de vainilla, bixina INS 160b y curcumina INS 100i. La harina enriquecida aporta hierro, ácido fólico, tiamina, riboflavina y niacina.
+
+**Fuente de ingredientes / Ingredient source:** [Jorgito — fabricante / manufacturer](https://alfajores-jorgito.com/producto/galletitas-chips)  
+**Fuente de imagen / Image source:** [Imagen oficial / Official product image](https://alfajores-jorgito.com/media/8275694ddcaf0a1b6a9bb2cfc2522c86.webp)
+
+
+### Alfajor Smams Glorioso
+
+- **ID:** `smams-alfajor-glorioso-ar-75g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.smams.com.ar/images/stories/virtuemart/product/gloriosoWebSmams.jpg)
+- **Marca / Brand:** Smams
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 75 g
+- **Categoría / Category:** `gluten_free_alfajor`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Alfajor sin gluten de dulce de leche y chips de chocolate, bañado en chocolate semiamargo.
+- **Description (EN):** Gluten-free dulce de leche and chocolate-chip alfajor coated in semi-sweet compound chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tapa de galletita: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, aromatizantes de vainilla y limón. Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, sabor vainilla. Chips de chocolate. Baño de repostería semiamargo.
+
+**Fuente de ingredientes / Ingredient source:** [Smams — fabricante / manufacturer](https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-glorioso-detail)  
+**Fuente de imagen / Image source:** [Imagen oficial / Official product image](https://www.smams.com.ar/images/stories/virtuemart/product/gloriosoWebSmams.jpg)
+
+
+### Alfajor Smams Dulce de Leche Triple
+
+- **ID:** `smams-alfajor-dulce-leche-triple-ar-81g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.smams.com.ar/images/stories/virtuemart/product/alfajorTripleWeb68.jpg)
+- **Marca / Brand:** Smams
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 81 g
+- **Categoría / Category:** `gluten_free_triple_alfajor`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Alfajor triple sin gluten de dulce de leche bañado en chocolate semiamargo.
+- **Description (EN):** Triple gluten-free dulce de leche alfajor coated in semi-sweet compound chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tapa de galletita: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, espesante INS 415, emulsionante INS 322, leudantes INS 500ii e INS 503ii, conservante INS 282, aromatizantes de vainilla y limón. Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, estabilizante INS 406, leudante INS 500ii, sabor vainilla, conservante INS 202. Baño de repostería semiamargo.
+
+**Fuente de ingredientes / Ingredient source:** [Smams — fabricante / manufacturer](https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-dulce-de-leche-triple-detail)  
+**Fuente de imagen / Image source:** [Imagen oficial / Official product image](https://www.smams.com.ar/images/stories/virtuemart/product/alfajorTripleWeb68.jpg)
+
+
+### Alfajor Smams Dulce de Leche
+
+- **ID:** `smams-alfajor-dulce-leche-ar-50g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg)
+- **Marca / Brand:** Smams
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 50 g
+- **Categoría / Category:** `gluten_free_alfajor`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Alfajor sin gluten de dulce de leche bañado en chocolate semiamargo.
+- **Description (EN):** Gluten-free dulce de leche alfajor coated in semi-sweet compound chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, estabilizante INS 406, leudante INS 500ii, sabor vainilla, conservante INS 202. Tapas: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, espesante INS 415, emulsionante INS 322, leudantes INS 500ii e INS 503ii, conservante INS 282, aromatizantes de vainilla y limón. Baño de repostería semiamargo.
+
+**Fuente de ingredientes / Ingredient source:** [Smams — fabricante / manufacturer](https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-dulce-de-leche-detail)  
+**Fuente de imagen / Image source:** [Imagen oficial / Official product image](https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg)
