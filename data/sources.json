@@ -1243,6 +1243,60 @@
       "url": "https://laserenisimanutricion.com.ar/wp-content/uploads/2026/10/LSN_Prductos_firme_vainilla_190.webp",
       "supports": "Official package/product image for the 190 g firm vanilla yogurt, linked from the matching manufacturer product page.",
       "market": "Argentina"
+    },
+    {
+      "id": "bc-mayonesa-la-campagnola-500g-ar-ingredients",
+      "productId": "bc-mayonesa-la-campagnola-500g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/mayonesa-la-campagnola-500-gr-2/p",
+      "supports": "Full ingredient declaration for Argentina-market BC La Campagnola mayonnaise 500 g. The trailing repeated 'huevo' in the retailer page is treated as an allergen declaration, not a second ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "bc-mayonesa-la-campagnola-500g-ar-image",
+      "productId": "bc-mayonesa-la-campagnola-500g-ar",
+      "publisher": "Pampa Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/2209/5497/7793360674105_02__45078.1651002529.jpg?c=3",
+      "supports": "Real package photograph matching BC La Campagnola sunflower-oil mayonnaise 500 g; listing: https://pampadirect.com/bc-la-campagnola-mayonesa-classic-mayonnaise-made-with-sunflower-oil-gluten-free-500-g-1-1-lb-pouch-squeeze/",
+      "market": "Argentina"
+    },
+    {
+      "id": "la-campagnola-lomo-atun-aceite-170g-ar-ingredients",
+      "productId": "la-campagnola-lomo-atun-aceite-170g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/atun-la-campagnola-en-aceite-170gr/p",
+      "supports": "Ingredient declaration for La Campagnola tuna loin in oil 170 g. 'Pescado' appearing at the end is the allergen category and is not scored as a separate ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "la-campagnola-lomo-atun-aceite-170g-ar-image",
+      "productId": "la-campagnola-lomo-atun-aceite-170g-ar",
+      "publisher": "Pampa Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/14324/36128/La_Campagnola_Tuna_Loin_in_Oil_170_g_6.0_oz__22938.1759509231.jpg?c=2%3Fimbypass%3Don",
+      "supports": "Real package photograph of the matching 170 g La Campagnola tuna loin can; listing: https://pampadirect.com/la-campagnola-tuna-loin-in-oil-170-g-6-0-oz/",
+      "market": "Argentina"
+    },
+    {
+      "id": "la-campagnola-salsa-napolitana-350g-ar-ingredients",
+      "productId": "la-campagnola-salsa-napolitana-350g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/salsa-napol-premium-x-350-gr-la-campagnola/p",
+      "supports": "Ingredient declaration for La Campagnola Napolitana tomato sauce 350 g, Argentina.",
+      "market": "Argentina"
+    },
+    {
+      "id": "la-campagnola-salsa-napolitana-350g-ar-image",
+      "productId": "la-campagnola-salsa-napolitana-350g-ar",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/354406/Salsa-De-Tomate-La-Campagnola-Napolitana-350-G-0779058014419-1.jpg?v=638836386487530000",
+      "supports": "Real package photograph of La Campagnola Napolitana sauce 350 g; listing: https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p",
+      "market": "Argentina"
     }
   ]
 }
