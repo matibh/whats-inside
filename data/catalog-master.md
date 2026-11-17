@@ -5,8 +5,8 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 189
-- **Argentina:** 69
+- **Productos / Products:** 192
+- **Argentina:** 72
 - **World:** 120
 - **Idiomas / Languages:** Español + English
 - **Fotos reales / Real product photos:** 186 / 186
@@ -7391,3 +7391,114 @@ Leche parcialmente descremada pasteurizada, azúcar de caña, leche en polvo des
 
 **Fuente de ingredientes / Ingredient source:** [La Serenísima (fabricante)](https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/)  
 **Fuente de imagen / Image source:** [La Serenísima Nutrición (official)](https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/)
+
+
+---
+
+## Argentina catalog expansion — 17 November 2026 (eighth batch)
+
+Added three La Campagnola pantry products with separate, traceable ingredient and package-image sources: BC Mayonnaise (500 g), Tuna Loin in Sunflower Oil (170 g), and Napolitana Tomato Sauce (350 g). Retailer ingredient transcriptions were checked against the matching product listings; allergen-only trailing terms are not treated as scored ingredients.
+
+### Mayonesa BC La Campagnola
+
+- **ID:** `bc-mayonesa-la-campagnola-500g-ar`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://pampadirect.com/bc-la-campagnola-mayonesa-classic-mayonnaise-made-with-sunflower-oil-gluten-free-500-g-1-1-lb-pouch-squeeze/)
+- **Marca / Brand:** BC · La Campagnola
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 500 g
+- **Categoría / Category:** `mayonnaise`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Mayonesa clásica BC elaborada con aceite de girasol.
+- **Description (EN):** BC classic mayonnaise made with sunflower oil.
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua, aceite vegetal de girasol, almidón modificado, azúcar, vinagre de alcohol, sal, huevo entero deshidratado, jugo de limón concentrado, aromatizante idéntico al natural, acidulante ácido láctico, acidulante ácido fosfórico, estabilizante goma xántica, estabilizante goma guar, conservador sorbato de potasio, secuestrante EDTA, colorante betacaroteno (INS 160a(i)), antioxidante BHA, antioxidante BHT.
+
+**Respuestas aceptadas / Accepted answers**
+
+- agua / water · agua, water
+- aceite vegetal de girasol / sunflower vegetable oil · aceite vegetal de girasol, sunflower vegetable oil, aceite de girasol, sunflower oil
+- almidón modificado / modified starch · almidón modificado, modified starch
+- azúcar / sugar · azúcar, sugar
+- vinagre de alcohol / alcohol vinegar · vinagre de alcohol, alcohol vinegar
+- sal / salt · sal, salt
+- huevo entero deshidratado / dehydrated whole egg · huevo entero deshidratado, dehydrated whole egg, huevo en polvo, egg
+- jugo de limón concentrado / concentrated lemon juice · jugo de limón concentrado, concentrated lemon juice
+- aromatizante idéntico al natural / nature-identical flavouring · aromatizante idéntico al natural, nature-identical flavouring, aromatizante, flavoring
+- ácido láctico / lactic acid · ácido láctico, lactic acid, INS 270
+- ácido fosfórico / phosphoric acid · ácido fosfórico, phosphoric acid, INS 338
+- goma xántica / xanthan gum · goma xántica, xanthan gum, goma xantana, INS 415
+- goma guar / guar gum · goma guar, guar gum, I, N, S,  , 4, 1, 2
+- sorbato de potasio / potassium sorbate · sorbato de potasio, potassium sorbate, INS 202
+- EDTA / EDTA · EDTA, EDTA, edetato disódico, disodium EDTA
+- betacaroteno / beta-carotene · betacaroteno, beta-carotene, INS 160a(i)
+- BHA / BHA · BHA, BHA, butilhidroxianisol, butylated hydroxyanisole, INS 320
+- BHT / BHT · BHT, BHT, butilhidroxitolueno, butylated hydroxytoluene, INS 321
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/mayonesa-la-campagnola-500-gr-2/p)  
+**Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/bc-la-campagnola-mayonesa-classic-mayonnaise-made-with-sunflower-oil-gluten-free-500-g-1-1-lb-pouch-squeeze/)
+
+---
+
+### Lomo de Atún en Aceite La Campagnola
+
+- **ID:** `la-campagnola-lomo-atun-aceite-170g-ar`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://pampadirect.com/la-campagnola-tuna-loin-in-oil-170-g-6-0-oz/)
+- **Marca / Brand:** La Campagnola
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 170 g (125 g escurrido)
+- **Categoría / Category:** `canned_fish`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Lomos de atún conservados en aceite de girasol.
+- **Description (EN):** Tuna loins preserved in sunflower oil.
+
+**Ingredientes declarados / Declared ingredients**
+
+Atún, aceite vegetal (girasol), sal.
+
+**Respuestas aceptadas / Accepted answers**
+
+- atún / tuna · atún, tuna, atún listado, skipjack tuna
+- aceite vegetal de girasol / sunflower vegetable oil · aceite vegetal de girasol, sunflower vegetable oil, aceite de girasol, sunflower oil
+- sal / salt · sal, salt
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/atun-la-campagnola-en-aceite-170gr/p)  
+**Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/la-campagnola-tuna-loin-in-oil-170-g-6-0-oz/)
+
+---
+
+### Salsa Napolitana La Campagnola
+
+- **ID:** `la-campagnola-salsa-napolitana-350g-ar`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p)
+- **Marca / Brand:** La Campagnola
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 350 g
+- **Categoría / Category:** `pasta_sauce`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Salsa de tomate estilo napolitana con vegetales y especias.
+- **Description (EN):** Neapolitan-style tomato sauce with vegetables and spices.
+
+**Ingredientes declarados / Declared ingredients**
+
+Puré de tomates, tomate en cubos, cebolla, zanahoria, aceite vegetal de girasol, azúcar, sal (0,5%), especias, ajo, aromatizante natural.
+
+**Respuestas aceptadas / Accepted answers**
+
+- puré de tomates / tomato purée · puré de tomates, tomato purée, pure de tomate, tomato puree
+- tomate en cubos / diced tomatoes · tomate en cubos, diced tomatoes, tomates en cubos, tomato cubes
+- cebolla / onion · cebolla, onion
+- zanahoria / carrot · zanahoria, carrot
+- aceite vegetal de girasol / sunflower vegetable oil · aceite vegetal de girasol, sunflower vegetable oil, aceite de girasol, sunflower oil
+- azúcar / sugar · azúcar, sugar
+- sal / salt · sal, salt
+- especias / spices · especias, spices
+- ajo / garlic · ajo, garlic
+- aromatizante natural / natural flavouring · aromatizante natural, natural flavouring, aromatizante, natural flavoring
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/salsa-napol-premium-x-350-gr-la-campagnola/p)  
+**Fuente de imagen / Image source:** [Más Online](https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p)
