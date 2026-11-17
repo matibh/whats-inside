@@ -113,3 +113,8 @@ Added Águila Extra Fino 60% Cacao (14 g). The ingredient declaration is a retai
 ## Argentina catalog expansion — 17 November 2026 (sixth batch)
 
 Added 10 Argentina-market products: Arcor Peach Jam (454 g), Presto Pronta Instant Polenta (500 g), Rocklets (40 g), Saladix Pizza Baked Crackers (30 g), Arcor Tomato Purée (530 g), Arcor Soaked Dried Peas (300 g / 195 g drained), Arcor Tomates Peritas (400 g), Cereal Mix Semillas & Chips (207 g), Arcor Strawberry Jam (454 g), and Cereal Mix Avena & Manzana (180 g). Each has a separate package-transcription ingredient source and a separate real package-photo source. The Cereal Mix Semillas & Chips source's precautionary may-contain list is not scored as ingredients.
+
+
+## Argentina catalog expansion — 17 November 2026 (seventh batch)
+
+Added Cunnington Cola Classic (2.25 L), Cunnington Ginger Ale Classic (1.5 L), and La Serenísima Nutrición Activa Yogur Firme Vainilla (190 g). Each product has a separately recorded ingredient source and package-image source; the yogurt ingredients and image come from the manufacturer's product page.
