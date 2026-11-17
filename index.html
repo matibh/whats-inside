@@ -274,7 +274,7 @@ body{
 }
 
 
-/* Ingredora wordmark — real character-by-character typing with a live caret */
+/* Ingredora wordmark — clean text, real typing, success check */
 .intro{
  display:flex;flex-direction:column;align-items:center;
  padding:clamp(38px,7vh,66px) 0 30px;
@@ -291,39 +291,37 @@ body{
  background:#5caa39;box-shadow:0 0 0 3px #5caa3925;
 }
 .intro h1{
- order:1;display:flex;align-items:center;justify-content:center;
+ order:1;display:flex;align-items:baseline;justify-content:center;
  width:max-content;max-width:100%;white-space:nowrap;overflow:visible;
- margin:0 0 17px;padding:9px 15px;
- border:2px solid #287b3d;border-radius:8px;
- background:#e0f2d8;color:#174c29;
- font-size:clamp(29px,6.4vw,43px);font-weight:950;
- line-height:1.15;letter-spacing:0;
+ margin:0 0 17px;padding:0;
+ border:0;background:transparent;color:var(--ink);
+ font-size:clamp(42px,9vw,70px);font-weight:900;
+ line-height:1.12;letter-spacing:-.075em;
 }
-.intro .wordmark-text{
- display:inline-block;width:0;overflow:hidden;white-space:nowrap;
- font-family:"DM Mono",monospace;font-weight:700;letter-spacing:-.09em;
- animation:ingredoraTyping 2.7s steps(9,end) .4s forwards;
-}
+.intro .wordmark-text{display:inline;white-space:pre}
 .intro .typing-caret{
- display:inline-block;flex:0 0 3px;width:3px;height:.86em;
- margin-left:5px;border-radius:2px;background:#174c29;
- animation:ingredoraBlink .72s steps(1,end) .4s infinite;
+ display:inline-block;width:3px;height:.82em;flex:0 0 3px;
+ margin-left:5px;vertical-align:-.04em;border-radius:1px;
+ background:currentColor;animation:ingredoraBlink .65s steps(1,end) infinite;
 }
-@keyframes ingredoraTyping{from{width:0}to{width:9ch}}
+.intro .typing-check{
+ display:none;margin-left:10px;color:#238447;font-size:.52em;
+ font-weight:900;line-height:1;vertical-align:middle;
+}
+.intro h1.typing-complete .typing-caret{display:none}
+.intro h1.typing-complete .typing-check{display:inline-block}
 @keyframes ingredoraBlink{0%,49%{opacity:1}50%,100%{opacity:0}}
 .intro p{order:2;margin:0 auto;max-width:420px;color:#53665a;font-size:15px;line-height:1.6}
 :root[data-theme="dark"] .intro .eyebrow{
  background:#263d2a;border-color:#55784b;color:#e0f4ce;
 }
-:root[data-theme="dark"] .intro h1{
- background:#294b32;color:#e4ffd3;border-color:#83bd70;
-}
-:root[data-theme="dark"] .intro .typing-caret{background:#e4ffd3}
+:root[data-theme="dark"] .intro h1{color:#f0f4ec}
+:root[data-theme="dark"] .intro .typing-check{color:#8fda9d}
 :root[data-theme="dark"] .intro p{color:#b4c4b4}
 @media(max-width:600px){
  .intro{padding:38px 0 22px}
  .intro .eyebrow{font-size:9px;margin-bottom:16px;padding:7px 11px}
- .intro h1{font-size:clamp(27px,7.5vw,36px);padding:8px 12px}
+ .intro h1{font-size:clamp(39px,12vw,58px);letter-spacing:-.075em}
  .intro p{font-size:14px;max-width:320px}
 }
 </style>
@@ -338,7 +336,7 @@ body{
   <button class="lang" id="langBtn">ESPAÑOL</button>
  </div>
 </header>
-<section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline" aria-label="INGREDORA"><span class="wordmark-text" aria-hidden="true">INGREDORA</span><span class="typing-caret" aria-hidden="true"></span></h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
+<section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline" aria-label="INGREDORA"><span class="wordmark-text" aria-hidden="true"></span><span class="typing-caret" aria-hidden="true"></span><span class="typing-check" aria-hidden="true">✓</span></h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
 <nav class="mode-tabs" aria-label="Game mode">
  <button class="mode-tab active" id="dailyTab">DAILY CHALLENGE</button>
  <button class="mode-tab" id="practiceTab">PRACTICE</button>
@@ -374,6 +372,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-typewriter-20261117c"></script>
+<script type="module" src="./app.js?v=ingredora-typewriter-20261117d"></script>
 </body>
 </html>
