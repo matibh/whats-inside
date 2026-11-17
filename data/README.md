@@ -25,7 +25,7 @@ The game reads playable products from `products.json`. A product is eligible whe
 - `retailer_label_transcription`: retailer listing that reproduces the label.
 - `packaging_transcription_secondary`: secondary transcription of packaging / Open Food Facts data.
 
-The Argentina catalog currently contains 20 products. The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
+The Argentina catalog currently contains 61 products (53 prior entries plus the 8-product expansion dated 17 November 2026). The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
 
 
 ## Regional catalogs
@@ -34,7 +34,7 @@ The Argentina catalog currently contains 20 products. The source register makes 
 - `products-world.json` + `sources-world.json`: international edition. Each record names the country/market whose label is represented (for example, US Coca-Cola is not interchangeable with Argentine Coca-Cola).
 - `region` is a game/catalog grouping (`argentina` or `world`); `country` and `market` preserve the actual origin and market of the specific label.
 - Never merge two regional recipes merely because the brand/product name matches. A separate market/package record and source are required when ingredients differ.
-- The World catalog currently starts with 8 products from Italy, the United States and Switzerland. It is a curated starter set, not a claim of worldwide coverage.
+- The World catalog currently contains 120 products from multiple markets. It is a curated starter set, not a claim of worldwide coverage.
 - World products are sourced from manufacturer/brand ingredient pages. Package size is included when the source identifies it; where a product page is variant-based, the package is marked as a market reference and must be rechecked against a physical label before expanding.
 
 
