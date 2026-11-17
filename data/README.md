@@ -98,3 +98,8 @@ Added 4 products using manufacturer-published ingredient declarations and offici
 ## Argentina catalog expansion — 17 November 2026 (third batch)
 
 Added 4 additional Argentina-market products with real package images hosted by Arcor: Saladix Jamón (100 g), Maná Livianas Vainilla (145 g), Bon o Bon Leche (15 g unit), and Maná Bañada (23 g). Ingredient statements are explicitly marked as secondary package transcriptions; Arcor-hosted images are recorded separately. Mogul 50% Frutas was researched but held back because a complete ingredient statement could not be verified from an adequate source.
+
+
+## Argentina catalog expansion — 17 November 2026 (fourth batch)
+
+Added Cereal Mix Frutilla y Chía (207 g), Mogul 50% Frutas (50 g), Natural Break Nutritivo (27 g), and Natural Break Energía (30 g). Product photos are official Arcor images. Cereal Mix and Mogul ingredients are secondary package transcriptions; Natural Break mix components are listed in Arcor's manufacturer brochure (the brochure does not enumerate possible processing aids).
