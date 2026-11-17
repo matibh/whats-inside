@@ -40,6 +40,9 @@ Deno.serve(async (req: Request) => {
   const {data:challenge,error} = await admin.from("daily_challenges").select("id,challenge_date,market,product_id,product_name,image_url,description_es,description_en,starts_at,ends_at,status").eq("challenge_date",date).eq("status","published").maybeSingle();
   if (error) return reply({error:"Could not load today's challenge"},500);
   if (!challenge) return reply({error:"Today's challenge is not published yet",date},404);
+  const now = Date.now();
+  if (now < new Date(challenge.starts_at).getTime() || now >= new Date(challenge.ends_at).getTime())
+    return reply({error:"Today's challenge is outside its active window",date},404);
   const user = await requireUser(req);
   let played = false;
   if (user) {
