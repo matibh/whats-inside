@@ -6419,3 +6419,87 @@ Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, est
 
 **Fuente de ingredientes / Ingredient source:** [Smams — fabricante / manufacturer](https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-dulce-de-leche-detail)  
 **Fuente de imagen / Image source:** [Imagen oficial / Official product image](https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg)
+
+
+### Saladix Jamón
+
+- **ID:** `saladix-jamon-ar-100g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/90101003871.jpg)
+- **Marca / Brand:** Arcor / Saladix
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 100 g
+- **Categoría / Category:** `savory_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas snack saladas sabor jamón, con queso.
+- **Description (EN):** Ham-flavoured savoury snack crackers with cheese.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (harina de trigo, hierro, ácido fólico, tiamina, riboflavina); grasa bovina refinada; azúcar; jarabe de glucosa; queso en polvo 29%; extracto de malta; aceite de girasol alto oleico; sal; leudantes químicos (bicarbonato de sodio, bicarbonato de amonio); emulsionante (lecitina de soja/soya); aromatizantes artificiales (aromas jamón, aroma parmesano).
+
+**Fuente de ingredientes / Ingredient source:** [Transcripción de etiqueta / Package-label transcription](https://shelfpedia.com/es-ar/producto/7790580716707-saladix-jamon/)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/90101003871.jpg)
+
+
+### Maná Livianas Vainilla
+
+- **ID:** `mana-livianas-vainilla-ar-145g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/2874b9cbfc8afc12e8c31b5efc13439e.jpg)
+- **Marca / Brand:** Bagley / Arcor / Maná
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 145 g
+- **Categoría / Category:** `vanilla_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas livianas tipo María sabor vainilla.
+- **Description (EN):** Light vanilla tea biscuits.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, aceite de girasol alto oleico, jarabe de glucosa, extracto de malta, permeado de suero en polvo, sal, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio), emulsionantes (mono y diglicéridos de ácidos grasos, lecitina de soja), mejorador de la harina (metabisulfito de sodio), aromatizante artificial (vainillina).
+
+**Fuente de ingredientes / Ingredient source:** [Transcripción de etiqueta / Package-label transcription](https://shelfpedia.com/es-ar/producto/7790040720107-mana-livianas-sabor-vainilla/)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/2874b9cbfc8afc12e8c31b5efc13439e.jpg)
+
+
+### Bon o Bon Leche
+
+- **ID:** `bon-o-bon-leche-ar-15g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/90101004303.jpg)
+- **Marca / Brand:** Arcor / Bon o Bon
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 15 g por bombón
+- **Categoría / Category:** `peanut_chocolate_candy`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Bombón de chocolate con leche y oblea relleno con crema de maní.
+- **Description (EN):** Milk chocolate and wafer bonbon filled with peanut cream.
+
+**Ingredientes declarados / Declared ingredients**
+
+Azúcar, aceites vegetales (palma interesterificado y fraccionado, girasol alto oleico, soja hidrogenado), maní tostado 15%, leche descremada en polvo, harina de trigo enriquecida, manteca de cacao, cacao en polvo, leche entera en polvo, masa de cacao, sal, emulsionantes (lecitina de soja, poliglicerol polirricinoleato), bicarbonato de sodio, aromatizantes artificiales (aroma a avellana, etil vainillina), chocolate con leche 19%.
+
+**Fuente de ingredientes / Ingredient source:** [Transcripción de etiqueta / Package-label transcription](https://shelfpedia.com/es-ar/producto/7790580106959-bon-o-bon-leche/)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/90101004303.jpg)
+
+
+### Maná Bañada
+
+- **ID:** `mana-banada-ar-23g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg)
+- **Marca / Brand:** Bagley / Arcor / Maná
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 23 g
+- **Categoría / Category:** `chocolate_covered_filled_cookie`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletita de vainilla con relleno sabor limón, cubierta con chocolate semiamargo.
+- **Description (EN):** Vanilla biscuit with lemon-flavoured filling, coated in semi-sweet chocolate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida; chocolate semiamargo 32% (azúcar, masa de cacao, manteca de cacao, emulsionantes: lecitina de soja, poliglicerol polirricinoleato, triestearato de sorbitán; aromatizante); azúcar; grasa bovina refinada; aceite de girasol alto oleico; jarabe de glucosa; almidón; permeado de suero en polvo; sal; leudantes químicos (bicarbonato de amonio, bicarbonato de sodio); emulsionantes (lecitina de soja, mono y diglicéridos de ácidos grasos); acidulante (ácido cítrico); aromatizantes artificiales (vainillina, aroma limón).
+
+**Fuente de ingredientes / Ingredient source:** [Transcripción de etiqueta / Package-label transcription](https://www.youtube.com/watch?v=hfhOkS5YXlw)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg)
