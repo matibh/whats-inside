@@ -110,19 +110,18 @@ function preloadPracticeImage(url,timeoutMs=6500){
  });
 }
 async function preparePracticeSession({quiet=false}={}){
- if(practicePreparing||practicePrepared)return;
+ if(practicePreparing||practicePrepared||!catalog.length)return;
  practicePreparing=true;
- if(!quiet){$("practiceStart").disabled=true;status("practiceStatus",lang==="es"?"Preparando 10 productos e imágenes…":"Preloading 10 products and images…")}
+ if(!quiet){$("practiceStart").disabled=true;status("practiceStatus",lang==="es"?"Preparando la práctica…":"Preparing Practice…")}
  try{
   const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim()&&!/image-not-available|placeholder/i.test(p.image_url));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
-  const products=[],images={};
-  for(let offset=0;offset<pool.length&&products.length<10;offset+=10){
-   const batch=pool.slice(offset,offset+10);
-   const loaded=await Promise.all(batch.map(p=>preloadPracticeImage(p.image_url)));
-   loaded.forEach((image,index)=>{if(image&&products.length<10){const product=batch[index];products.push(product);images[product.id]=image}});
-  }
-  if(products.length<10)throw new Error(lang==="es"?"No se encontraron 10 productos con imágenes que carguen correctamente.":"Could not find 10 products with working images.");
+  const products=pool.slice(0,10);
+  if(products.length<10)throw new Error(lang==="es"?"No hay 10 productos con imagen disponibles.":"Not enough products with images.");
+  const images={};
+  Promise.all(products.map(p=>preloadPracticeImage(p.image_url,12000))).then(loaded=>{
+   loaded.forEach((image,index)=>{if(image)images[products[index].id]=image});
+  });
   const keyData=await call("practice-answer-key",{method:"POST",body:{product_ids:products.map(p=>p.id)},auth:false});
   const keys=keyData.answer_keys||{};
   if(products.some(p=>!Array.isArray(keys[p.id])||!keys[p.id].length))throw new Error(t("answersUnavailable"));
