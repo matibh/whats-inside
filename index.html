@@ -352,6 +352,25 @@ body{
  .theme-toggle{width:34px;min-width:34px;height:34px;min-height:34px}
 }
 
+
+
+/* Restore the familiar ingredient-entry field: clear outline, readable text, lime focus */
+.input-wrap{
+ border:1.5px solid #b9cbb5!important;border-radius:14px!important;
+ background:var(--card)!important;min-height:68px;padding:12px 14px!important;
+ box-shadow:0 2px 0 rgba(24,37,29,.04)!important;
+}
+.input-wrap:focus-within{
+ border-color:#8eae53!important;
+ box-shadow:0 0 0 4px rgba(217,250,104,.32)!important;
+}
+#ingredientInput{color:var(--ink)!important;font-size:16px!important;min-height:36px}
+#ingredientInput::placeholder{color:#7c897d!important;opacity:1}
+:root[data-theme="dark"] .input-wrap{background:var(--card)!important;border-color:#647566!important}
+:root[data-theme="dark"] .input-wrap:focus-within{box-shadow:0 0 0 4px rgba(113,139,59,.38)!important}
+:root[data-theme="dark"] #ingredientInput::placeholder{color:#a0afa1!important}
+@media(max-width:600px){.input-wrap{min-height:64px;padding:10px 12px!important}.input-wrap:focus-within{box-shadow:0 0 0 3px rgba(217,250,104,.32)!important}}
+
 </style>
 </head>
 <body>
@@ -400,6 +419,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-typewriter-20261117f"></script>
+<script type="module" src="./app.js?v=ingredora-repair-entry-20261117a"></script>
 </body>
 </html>
