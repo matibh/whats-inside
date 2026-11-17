@@ -4,12 +4,12 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
-- **Última actualización / Last updated:** 2026-11-16
-- **Productos / Products:** 145
-- **Argentina:** 25
+- **Última actualización / Last updated:** 2026-11-17
+- **Productos / Products:** 150
+- **Argentina:** 30
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 145 / 145
+- **Fotos reales / Real product photos:** 150 / 150
 
 ## Reglas / Rules
 
@@ -6225,3 +6225,7 @@ Milk chocolate (sugar, cocoa butter, chocolate, skim milk, milkfat, lactose, pea
 **Fuente / Source:** [Mars Foodservices](https://www.marsfoodservices.com/product/m-ms-brand-peanut-butter-chocolate-candies)  
 **Tipo / Type:** `manufacturer_website`  
 **Alcance / Supports:** Official Mars Foodservices product page identifies M&M'S Peanut Butter sharing-size 2.83 oz packs and provides the ready-to-eat ingredient declaration.
+
+## Argentina catalog expansion — 17 November 2026 (5-product batch; 30-product milestone)
+
+Added five Argentina-market products: Havanna Alfajor Chocolate Clásico (55 g unit; barcode 7791875000440), Yogurísimo Bebible Frutilla (1 L; barcode 7790742567024), Vacalin Dulce de Leche Original (400 g; barcode 7790616000411), Arcor Turrón & Maní (25 g; EAN-8 77940131), and Baggio Pronto Multifruta (1 L; barcode 7790036974453). Ingredient statements are transcribed from public Open Food Facts records surfaced through ShelfPedia / FoodNutriFacts; Vacalin's base recipe is also supported by the manufacturer's technical sheet. Product photos are real package images from retailers. Every record includes Spanish and English accepted answers, aliases, market, and separate ingredient/image source references. Packaging remains the final authority where formulations change.
