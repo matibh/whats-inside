@@ -159,6 +159,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 <nav class="mode-tabs" aria-label="Game mode">
  <button class="mode-tab active" id="dailyTab">DAILY CHALLENGE</button>
  <button class="mode-tab" id="practiceTab">PRACTICE</button>
+ <button class="mode-tab" id="rankingTab">RANKINGS</button>
 </nav>
 <section class="panel" id="dailyPanel">
  <div class="eyebrow" id="dailyEyebrow">TODAY'S CHALLENGE</div><h2 id="dailyTitle">One product. Everyone plays the same one.</h2>
@@ -167,12 +168,12 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
  <div class="status" id="dailyStatus">Checking today's challenge…</div>
  <button class="btn primary" id="dailyStart" disabled>LOADING…</button>
  <div class="rules"><span class="rule"><i class="dot"></i>15 SECONDS</span><span class="rule"><i class="dot"></i>100 POINTS / INGREDIENT</span><span class="rule"><i class="dot"></i>ONE OFFICIAL TRY</span></div>
- <div style="text-align:center;margin-top:12px"><button class="link-btn" id="showRanking">VIEW LEADERBOARD</button></div>
+ <div id="dailyReplayWrap" class="hidden" style="text-align:center;margin-top:16px"><button class="btn ghost" id="dailyReplayTest" type="button">↻ REPLAY DAILY (TEST)</button><div class="hint">Private test button · does not affect official score or streak.</div></div>
 </section>
 <section class="panel hidden" id="practicePanel">
  <div class="eyebrow">UNLIMITED PRACTICE</div><h2 id="practiceTitle">Train with the catalog</h2><p id="practiceDescription">Choose a market and category, then pick a product. Practice never changes your Daily score or streak.</p>
  <div class="filters">
-  <label>MARKET<select id="marketFilter"><option value="all">All markets</option><option value="argentina">Argentina</option><option value="world">World</option></select></label>
+  <label><span id="marketLabel">MARKET</span><select id="marketFilter"><option value="all">All markets</option><option value="argentina">Argentina</option><option value="world">World</option></select></label>
   <label>CATEGORY<select id="categoryFilter"><option value="all">All categories</option></select></label>
  </div>
  <label class="eyebrow" for="productSelect">PRODUCT</label><select id="productSelect" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:9px;background:var(--paper);color:var(--ink);margin:8px 0 15px"><option>Loading catalog…</option></select>
