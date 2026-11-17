@@ -7744,7 +7744,7 @@ Harina 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), niacina, mer
 - bicarbonato de amonio (INS 503(ii)) / ammonium bicarbonate (INS 503(ii)) · bicarbonato de amonio (INS 503(ii)), ammonium bicarbonate (INS 503(ii)), bicarbonato de amonio, ammonium bicarbonate, E503(ii), INS 503(ii)
 - lecitina (INS 322) / lecithin (INS 322) · lecitina (INS 322), lecithin (INS 322), lecitina, lecithin, E322, INS 322
 - curcumina (INS 100(i)) / curcumin (INS 100(i)) · curcumina (INS 100(i)), curcumin (INS 100(i)), curcumina, curcumin, E100(i), INS 100(i)
-- annatto (INS 160b) / annatto (INS 160b) · annatto (INS 160b), annatto (INS 160b), achiote, E160b, INS 160b
+- annatto (INS 160b) / annatto colour (INS 160b) · annatto (INS 160b), annatto colour (INS 160b), annatto, achiote, E160b, INS 160b
 
 **Ingredient source:** [Trio listing](https://www.jumbo.com.ar/pepas-trio-500-gr/p)  
 **Image source:** [Más Online](https://www.masonline.com.ar/galletitas-pepas-trio-500-gr-2/p)
