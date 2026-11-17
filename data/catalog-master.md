@@ -5,11 +5,11 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 154
-- **Argentina:** 34
+- **Productos / Products:** 173
+- **Argentina:** 53
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 150 / 150
+- **Fotos reales / Real product photos:** 173 / 173
 
 ## Reglas / Rules
 
