@@ -84,11 +84,11 @@ async function checkDaily(){
     renderChallenge();
    }else{dailyImageLoading=false;dailyImageReady=false;status("dailyStatus",t("imageMissing"),true);$("dailyStart").disabled=true}
   }else{
-   show("dailyProduct",false);show("dailyReplayWrap",false);setText("dailyTitle",t("daily"));
+   show("dailyProduct",false);show("dailyReplayWrap",!!session?.user);show("dailyReplayTest",false);setText("dailyTitle",t("daily"));
    const next=data.next_challenge_date?new Date(data.next_challenge_date+"T12:00:00").toLocaleDateString(lang==="es"?"es-AR":"en-US"):"";
    status("dailyStatus",next?t("noDaily")+" "+next:t("noDaily")+" soon.");$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))
   }
- }catch(e){challenge=null;show("dailyProduct",false);show("dailyReplayWrap",false);setText("dailyTitle",t("daily"));status("dailyStatus",t("wrong")+": "+e.message,true);$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}
+ }catch(e){challenge=null;show("dailyProduct",false);show("dailyReplayWrap",!!session?.user);show("dailyReplayTest",false);setText("dailyTitle",t("daily"));status("dailyStatus",t("wrong")+": "+e.message,true);$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}
 }
 async function loadCatalog(){
  try{
