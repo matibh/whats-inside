@@ -6608,3 +6608,217 @@ Masa de cacao, azúcar, manteca de cacao, cacao en polvo, grasa anhidra de leche
 
 **Fuente de ingredientes / Ingredient source:** [Vea / transcripción de etiqueta](https://www.vea.com.ar/barrita-chocolate-aguila-60cacao-x14g/p)  
 **Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg)
+
+
+## Argentina catalog expansion — 17 November 2026 (sixth batch)
+
+Added 10 products with complete package-transcribed ingredient declarations and real package photographs. Ingredient references point to ShelfPedia pages backed by Open Food Facts (ODbL); image references are recorded separately and point to retailer-hosted package photos. Precautionary may-contain statements are documented but excluded from ingredient answers.
+
+### Mermelada de Durazno Arcor
+
+- **ID:** `mermelada-durazno-ar-454g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://xpallet.com.ar/arcor-mermelada-de-durazno-sin-tacc-454-g/)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 454 g
+- **Categoría / Category:** `peach_jam`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Mermelada de durazno en frasco, elaborada con pulpa de fruta.
+- **Description (EN):** Peach jam in a glass jar, made with fruit pulp.
+
+**Ingredientes declarados / Declared ingredients**
+
+Jarabe de glucosa, azúcar, pulpa de durazno, acidulante (ácido cítrico), gelificante (pectina), aromatizante artificial, conservador (sorbato de potasio), colorante (INS 150d), antiespumante (INS 900).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7795184119756-mermelada-de-durazno/)  
+**Fuente de imagen / Image source:** [XPallet](https://xpallet.com.ar/arcor-mermelada-de-durazno-sin-tacc-454-g/)
+
+
+### Polenta Instantánea Presto Pronta
+
+- **ID:** `polenta-instantanea-arcor-ar-500g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://amazonasfoods.com/es/products/arcor-polenta-prestopronta-500-grs)
+- **Marca / Brand:** Arcor · Presto Pronta
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 500 g
+- **Categoría / Category:** `instant_polenta`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Harina de maíz precocida para preparar polenta instantánea.
+- **Description (EN):** Pre-cooked corn flour for making instant polenta.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de maíz precocida.
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580660000-polenta-instantanea/)  
+**Fuente de imagen / Image source:** [Amazonas Foods](https://amazonasfoods.com/es/products/arcor-polenta-prestopronta-500-grs)
+
+
+### Rocklets
+
+- **ID:** `rocklets-arcor-ar-40g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.rimoldimayorista.com.ar/categorias/rocklets-confites-40g-28386.html)
+- **Marca / Brand:** Arcor · Rocklets
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 40 g
+- **Categoría / Category:** `candy_coated_milk_chocolate`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Confites de chocolate con leche recubiertos por una cobertura crocante de colores.
+- **Description (EN):** Milk chocolate candies coated in a colourful crunchy shell.
+
+**Ingredientes declarados / Declared ingredients**
+
+Chocolate con leche 68% (azúcar; masa de cacao; leche entera en polvo; manteca de cacao; grasa vegetal equivalente a la manteca de cacao; leche descremada en polvo; emulsionantes: lecitina de soja, poliglicerol polirricinoleato; aromatizante: vainillina); azúcar; estabilizante: goma arábiga; glaseante: cera carnauba; colorantes: dióxido de titanio (E171), tartrazina (E102), rojo allura (E129), amarillo ocaso (E110), azul brillante (E133), indigotina (E132).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580327415-rocklets/)  
+**Fuente de imagen / Image source:** [Rimoldi Mayorista](https://www.rimoldimayorista.com.ar/categorias/rocklets-confites-40g-28386.html)
+
+
+### Saladix Horneados sabor Pizza
+
+- **ID:** `saladix-pizza-ar-30g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.farmacity.com/galletitas-saladix-sabor-pizza-x-30-gr/p)
+- **Marca / Brand:** Arcor · Saladix
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 30 g
+- **Categoría / Category:** `pizza_flavoured_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas snack horneadas con sabor a pizza.
+- **Description (EN):** Baked savoury snack crackers with pizza flavour.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), grasa bovina refinada, azúcar, jarabe de glucosa, tomate deshidratado, queso en polvo 2%, extracto de malta, aceite de girasol alto oleico, sal, orégano, leudantes químicos (bicarbonato de sodio, bicarbonato de amonio), emulsionante (lecitina de soja), aromatizantes artificiales (aroma pizza, aroma queso).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580387006-saladix-sabor-pizza/)  
+**Fuente de imagen / Image source:** [Farmacity](https://www.farmacity.com/galletitas-saladix-sabor-pizza-x-30-gr/p)
+
+
+### Puré de Tomate Arcor
+
+- **ID:** `pure-tomate-arcor-ar-530g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.toledodigital.com.ar/pure-de-tomate-arcor-530g-20356/p)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 530 g
+- **Categoría / Category:** `tomato_puree`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Puré de tomate en envase de 530 gramos.
+- **Description (EN):** Tomato purée in a 530-gram carton.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tomate, regulador de acidez (ácido cítrico).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580138868-pure-de-tomate/)  
+**Fuente de imagen / Image source:** [Toledo Digital](https://www.toledodigital.com.ar/pure-de-tomate-arcor-530g-20356/p)
+
+
+### Arvejas Secas Remojadas Arcor
+
+- **ID:** `arvejas-secas-remojadas-arcor-ar-300g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://pampadirect.com/arcor-arvejas-soaked-dry-peas-ideal-for-salads-no-preservatives-added-gluten-free-300-g-10-58-oz-can/)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 300 g (195 g peso escurrido)
+- **Categoría / Category:** `canned_peas`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Arvejas secas remojadas listas para usar en ensaladas y comidas.
+- **Description (EN):** Soaked dried peas, ready to use in salads and meals.
+
+**Ingredientes declarados / Declared ingredients**
+
+Arvejas secas remojadas.
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580132392-arvejas-secas-remojadas/)  
+**Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/arcor-arvejas-soaked-dry-peas-ideal-for-salads-no-preservatives-added-gluten-free-300-g-10-58-oz-can/)
+
+
+### Tomates Peritas Arcor
+
+- **ID:** `tomates-peritas-arcor-ar-400g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.disco.com.ar/tomate-perita-en-lata-arcor-400-gr/p)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 400 g
+- **Categoría / Category:** `canned_peeled_tomatoes`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Tomates peritas pelados conservados en jugo de tomate.
+- **Description (EN):** Peeled pear tomatoes preserved in tomato juice.
+
+**Ingredientes declarados / Declared ingredients**
+
+Tomate pelado, jugo de tomates, regulador de acidez (ácido cítrico).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580567903-tomates-peritas/)  
+**Fuente de imagen / Image source:** [Disco / Jumbo](https://www.disco.com.ar/tomate-perita-en-lata-arcor-400-gr/p)
+
+
+### Cereal Mix Semillas & Chips
+
+- **ID:** `cereal-mix-semillas-chips-ar-207g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://ecomodico.com/p/galletitas-cereal-mix-de-semillas-y-chips-x-207-gr/6bf8b862-1caf-4fae-a8c9-b861cf63bcc7)
+- **Marca / Brand:** Arcor · Cereal Mix
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 207 g
+- **Categoría / Category:** `seed_chocolate_oat_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas de avena con mezcla de semillas y chips de chocolate.
+- **Description (EN):** Oat cookies with a mix of seeds and chocolate chips.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar, avena arrollada (12%), aceite de girasol alto oleico, baño de repostería (8%), lecitina de girasol, triestearato de sorbitán, aromatizante, semilla de quinoa, semilla de amaranto, semilla de chía, semilla de amapola, semilla de sésamo blanco tostado, semilla de sésamo negro, leche descremada en polvo, jarabe de glucosa, sal, mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, lecitina de soja, sales de ácidos grasos con potasio, ésteres de mono y diglicéridos de ácidos grasos con diacetil tartárico, estearoil lactilato de sodio, bicarbonato de amonio, bicarbonato de sodio, aroma Graham, aroma chocolate, metabisulfito de sodio. Puede contener almendra, cebada, centeno, huevo y maní.
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790040135758-cereal-mix-semillas-chips/)  
+**Fuente de imagen / Image source:** [Ecomodico](https://ecomodico.com/p/galletitas-cereal-mix-de-semillas-y-chips-x-207-gr/6bf8b862-1caf-4fae-a8c9-b861cf63bcc7)
+
+
+### Mermelada de Frutilla Arcor
+
+- **ID:** `mermelada-frutilla-arcor-ar-454g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.masonline.com.ar/mermelada-arcor-de-frutilla-454gr-2/p)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 454 g
+- **Categoría / Category:** `strawberry_jam`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Mermelada de frutilla en frasco de vidrio.
+- **Description (EN):** Strawberry jam in a glass jar.
+
+**Ingredientes declarados / Declared ingredients**
+
+Frutillas, azúcar, jarabe de glucosa, gelificante (pectina), acidulante (ácido cítrico), conservador (sorbato de potasio), antiespumante (INS 900).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790580509606-mermelada-de-frutilla/)  
+**Fuente de imagen / Image source:** [Más Online](https://www.masonline.com.ar/mermelada-arcor-de-frutilla-454gr-2/p)
+
+
+### Cereal Mix Avena & Manzana
+
+- **ID:** `cereal-mix-avena-manzana-ar-180g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p)
+- **Marca / Brand:** Arcor · Cereal Mix
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 180 g
+- **Categoría / Category:** `oat_apple_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas de avena con manzana deshidratada.
+- **Description (EN):** Oat cookies with dried apple.
+
+**Ingredientes declarados / Declared ingredients**
+
+Avena arrollada, harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, aceite de girasol alto oleico, manzana deshidratada, alimento a base de salvado y harina de maíz, jarabe de glucosa, sal, leudantes químicos (fosfato monocálcico, bicarbonato de sodio, bicarbonato de amonio), emulsionantes (mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, estearato de potasio, lecitina de soja), antioxidante (BHT), aromatizante artificial (aroma manzana).
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790040135796-cereal-mix-avena-manzana/)  
+**Fuente de imagen / Image source:** [Disco / Jumbo](https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p)
