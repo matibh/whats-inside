@@ -62,7 +62,7 @@ let dailyImageReady=false,dailyImageObject=null,dailyImageLoading=false;
 function renderChallenge(){
  if(!challenge)return;
  show("dailyProduct",false);
- show("dailyReplayWrap",!!session?.user?.email&&["ingredora@gmail.com","matias.bellisario@gmail.com"].includes(session.user.email.toLowerCase()));
+ show("dailyReplayWrap",!!session?.user);
  setText("dailyName","");setText("dailyDesc","");setText("dailyMarket","");$("dailyImage").removeAttribute("src");$("dailyImage").style.display="none";$("dailyPlaceholder").style.display="";
  if(challenge.preview){setText("dailyTitle",t("previewDaily"));status("dailyStatus",t("previewOnly"));$("dailyStart").disabled=true;setText("dailyStart",t("previewButton"))}
  else if(dataPlayed()){setText("dailyTitle",t("already"));status("dailyStatus",t("already"));$("dailyStart").disabled=true;setText("dailyStart",t("already"))}
