@@ -955,6 +955,150 @@
       "url": "https://jumboargentina.vtexassets.com/arquivos/ids/698155/Galletas-Cereal-Mix-Avena-Y-Manzana-X180g-1-887758.jpg?v=637866922207630000",
       "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p",
       "market": "Argentina"
+    },
+    {
+      "id": "dos-anclas-sal-fina-ingredients",
+      "productId": "dos-anclas-sal-fina-ar-500g",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/sal-fina-dos-anclas-500-gr-3/p",
+      "supports": "Ingredient declaration transcribed from the matching 500 g product listing; precautionary statements are excluded.",
+      "market": "Argentina"
+    },
+    {
+      "id": "dos-anclas-sal-fina-image",
+      "productId": "dos-anclas-sal-fina-ar-500g",
+      "publisher": "Cordiez",
+      "sourceType": "retailer_product_image",
+      "url": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/158413/SAL-DOS-ANCLAS-FINA-PAQUETE-1-1437.jpg?v=637432191741800000",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.cordiez.com.ar/sal-fina-paquete-dos-anclas-500-gr/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "don-satur-bizcocho-salado-ingredients",
+      "productId": "don-satur-bizcocho-salado-ar-200g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7795735000328-bizcocho-salado/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "don-satur-bizcocho-salado-image",
+      "productId": "don-satur-bizcocho-salado-ar-200g",
+      "publisher": "Mercado de la Raza",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.mercadodelaraza.com/cdn/shop/files/FullSizeRender_203ef6b0-5cb3-41b5-a458-87ecb664500d.jpg?v=1708567453",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.mercadodelaraza.com/products/don-satur-bizcochos-salado-200-g",
+      "market": "Argentina"
+    },
+    {
+      "id": "chocolino-la-virginia-ingredients",
+      "productId": "chocolino-la-virginia-ar-180g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790150830857-chocolino/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "chocolino-la-virginia-image",
+      "productId": "chocolino-la-virginia-ar-180g",
+      "publisher": "Toledo Digital",
+      "sourceType": "retailer_product_image",
+      "url": "https://toledodigitalar.vtexassets.com/arquivos/ids/164285/16355.png?v=638796802170130000",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.toledodigital.com.ar/cacao-en-polvo-chocolino-bolsa-180g-16355/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "sonrisas-bagley-ingredients",
+      "productId": "sonrisas-bagley-ar-108g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/5796440133488-sonrisas/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "sonrisas-bagley-image",
+      "productId": "sonrisas-bagley-ar-108g",
+      "publisher": "Super MaMi / Dino Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/2142219_f.jpg",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.supermami.com.ar/super/producto/galletas-sonrisas-x-108-gr/_/A-2142219-2142219-s",
+      "market": "Argentina"
+    },
+    {
+      "id": "serenisima-dulce-leche-ingredients",
+      "productId": "serenisima-dulce-leche-clasico-ar-1kg",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790742104304-dulce-de-leche-clasico/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "serenisima-dulce-leche-image",
+      "productId": "serenisima-dulce-leche-clasico-ar-1kg",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/869632/D-leche-La-Serenisima-Clasico-1kg-1-1034562.jpg?v=638842270314700000",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.jumbo.com.ar/dulce-de-leche-clasico-x-1-kg-la-serenisima/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "playadito-yerba-mate-ingredients",
+      "productId": "playadito-yerba-mate-ar-500g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7793704000911-playadito/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "playadito-yerba-mate-image",
+      "productId": "playadito-yerba-mate-ar-500g",
+      "publisher": "Mate-UFA",
+      "sourceType": "retailer_product_image",
+      "url": "https://mate-ufa.com/174-thickbox_default/playadito-1kg.jpg",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://mate-ufa.com/mate/66-playadito-1kg.html",
+      "market": "Argentina"
+    },
+    {
+      "id": "amanda-yerba-mate-ingredients",
+      "productId": "amanda-yerba-mate-tradicional-ar-500g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7792710000182-yerba-mate-tradicional/",
+      "supports": "Complete ingredient declaration transcribed from the matching product package as recorded in Open Food Facts; precautionary may-contain statements are excluded from accepted answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "amanda-yerba-mate-image",
+      "productId": "amanda-yerba-mate-tradicional-ar-500g",
+      "publisher": "Cebate",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.cebate.pt/680-large_default/yerba-mate-tradicional-amanda-500gr.jpg",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.cebate.pt/pt/yerba-mate/139-yerba-mate-tradicional-amanda-500gr-7792710000182.html",
+      "market": "Argentina"
+    },
+    {
+      "id": "hellmanns-mayonesa-ingredients",
+      "productId": "hellmanns-mayonesa-clasica-ar",
+      "publisher": "Hellmann's Argentina / Unilever",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058",
+      "supports": "Manufacturer-published complete ingredient declaration for the Argentina-market classic mayonnaise.",
+      "market": "Argentina"
+    },
+    {
+      "id": "hellmanns-mayonesa-image",
+      "productId": "hellmanns-mayonesa-clasica-ar",
+      "publisher": "Hellmann's Argentina / Unilever",
+      "sourceType": "retailer_product_image",
+      "url": "https://assets.unileversolutions.com/v1/144186463.png",
+      "supports": "Real package/product photograph for the matching product shown on the linked product listing: https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058",
+      "market": "Argentina"
     }
   ]
 }
