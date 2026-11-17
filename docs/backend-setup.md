@@ -44,7 +44,7 @@ The function sources are committed under `supabase/functions/<function-name>/ind
 
 ## Catalog import and launch blocker
 
-**The product catalog has not been imported into Supabase yet.** The 200 existing catalog products (80 Argentina, 120 World) and their 2,933 ingredient records are imported. Safe metadata is in `public.products`; answer records are in `private.product_answers`. All imported products have `daily_eligible = false`, because their answer keys are already public in this repository. No Daily challenges or Daily answer keys have been seeded.
+**The existing Practice catalog is imported.** The 200 existing catalog products (80 Argentina, 120 World) and their 2,933 ingredient records are imported. Safe metadata is in `public.products`; answer records are in `private.product_answers`. All imported products have `daily_eligible = false`, because their answer keys are already public in this repository. No Daily challenges or Daily answer keys have been seeded.
 
 The repository is currently public and contains answer keys in `data/products.json`, `data/products-world.json`, `data/catalog-master.md`, and Git history. A private database does not protect answers that remain available in public GitHub files or old commits.
 
