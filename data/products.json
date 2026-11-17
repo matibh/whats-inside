@@ -4374,6 +4374,795 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-baggio-pronto-multifruta-1l-ar"
+    },
+    {
+      "id": "jorgito-galletitas-chips-ar-120g",
+      "barcode": null,
+      "name": "Galletitas Jorgito con Chips",
+      "brand": "Jorgito",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_chip_cookies",
+      "package": "120 g",
+      "image": "https://alfajores-jorgito.com/media/8275694ddcaf0a1b6a9bb2cfc2522c86.webp",
+      "description": {
+        "en": "Vanilla cookies with semi-sweet chocolate chips.",
+        "es": "Galletitas de vainilla con chips de chocolate semiamargo."
+      },
+      "ingredientsText": "Harina de trigo enriquecida, azúcar, grasa vacuna, gotas de baño de repostería semiamargo (lecitina de soja INS 322, triestearato de sorbitán INS 492, aromatizante), gotas de chocolate semiamargo (lecitina de soja INS 322, polirricinoleato de poliglicerol INS 476, aromatizante), azúcar invertido, leche descremada en polvo, sal, bicarbonato de sodio INS 500ii, bicarbonato de amonio INS 503ii, lecitina de soja INS 322, esencia de vainilla, bixina INS 160b y curcumina INS 100i. La harina enriquecida aporta hierro, ácido fólico, tiamina, riboflavina y niacina.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa vacuna",
+          "en": "beef fat",
+          "aliases": [
+            "grasa vacuna",
+            "beef fat",
+            "tallow"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "INS 322",
+            "E322"
+          ]
+        },
+        {
+          "es": "triestearato de sorbitán",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "triestearato de sorbitán",
+            "sorbitan tristearate",
+            "INS 492",
+            "E492"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "INS 476",
+            "E476"
+          ]
+        },
+        {
+          "es": "azúcar invertido",
+          "en": "invert sugar",
+          "aliases": [
+            "azúcar invertido",
+            "invert sugar"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii",
+            "E503"
+          ]
+        },
+        {
+          "es": "esencia de vainilla",
+          "en": "vanilla essence",
+          "aliases": [
+            "esencia de vainilla",
+            "vanilla essence"
+          ]
+        },
+        {
+          "es": "bixina",
+          "en": "bixin",
+          "aliases": [
+            "bixina",
+            "bixin",
+            "INS 160b",
+            "E160b"
+          ]
+        },
+        {
+          "es": "curcumina",
+          "en": "curcumin",
+          "aliases": [
+            "curcumina",
+            "curcumin",
+            "INS 100i",
+            "E100"
+          ]
+        }
+      ],
+      "sourceId": "jorgito-galletitas-chips-official",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-jorgito-galletitas-chips-official"
+    },
+    {
+      "id": "smams-alfajor-glorioso-ar-75g",
+      "barcode": null,
+      "name": "Alfajor Smams Glorioso",
+      "brand": "Smams",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "gluten_free_alfajor",
+      "package": "75 g",
+      "image": "https://www.smams.com.ar/images/stories/virtuemart/product/gloriosoWebSmams.jpg",
+      "description": {
+        "en": "Gluten-free dulce de leche and chocolate-chip alfajor coated in semi-sweet compound chocolate.",
+        "es": "Alfajor sin gluten de dulce de leche y chips de chocolate, bañado en chocolate semiamargo."
+      },
+      "ingredientsText": "Tapa de galletita: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, aromatizantes de vainilla y limón. Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, sabor vainilla. Chips de chocolate. Baño de repostería semiamargo.",
+      "ingredients": [
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "aromatizante de vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante de vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "aromatizante de limón",
+          "en": "lemon flavouring",
+          "aliases": [
+            "aromatizante de limón",
+            "lemon flavouring",
+            "lemon flavoring"
+          ]
+        },
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sólidos lácteos",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos lácteos",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "chips de chocolate",
+          "en": "chocolate chips",
+          "aliases": [
+            "chips de chocolate",
+            "chocolate chips"
+          ]
+        },
+        {
+          "es": "baño de repostería semiamargo",
+          "en": "semi-sweet compound coating",
+          "aliases": [
+            "baño de repostería semiamargo",
+            "semi-sweet compound coating",
+            "chocolate coating"
+          ]
+        }
+      ],
+      "sourceId": "smams-alfajor-glorioso-official",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-smams-alfajor-glorioso-official"
+    },
+    {
+      "id": "smams-alfajor-dulce-leche-triple-ar-81g",
+      "barcode": null,
+      "name": "Alfajor Smams Dulce de Leche Triple",
+      "brand": "Smams",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "gluten_free_triple_alfajor",
+      "package": "81 g",
+      "image": "https://www.smams.com.ar/images/stories/virtuemart/product/alfajorTripleWeb68.jpg",
+      "description": {
+        "en": "Triple gluten-free dulce de leche alfajor coated in semi-sweet compound chocolate.",
+        "es": "Alfajor triple sin gluten de dulce de leche bañado en chocolate semiamargo."
+      },
+      "ingredientsText": "Tapa de galletita: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, espesante INS 415, emulsionante INS 322, leudantes INS 500ii e INS 503ii, conservante INS 282, aromatizantes de vainilla y limón. Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, estabilizante INS 406, leudante INS 500ii, sabor vainilla, conservante INS 202. Baño de repostería semiamargo.",
+      "ingredients": [
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "INS 415",
+            "E415"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "INS 322",
+            "E322"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii",
+            "E503"
+          ]
+        },
+        {
+          "es": "propionato de calcio",
+          "en": "calcium propionate",
+          "aliases": [
+            "propionato de calcio",
+            "calcium propionate",
+            "INS 282",
+            "E282"
+          ]
+        },
+        {
+          "es": "aromatizante de vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante de vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "aromatizante de limón",
+          "en": "lemon flavouring",
+          "aliases": [
+            "aromatizante de limón",
+            "lemon flavouring",
+            "lemon flavoring"
+          ]
+        },
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sólidos lácteos",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos lácteos",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "goma garrofín",
+          "en": "locust bean gum",
+          "aliases": [
+            "goma garrofín",
+            "locust bean gum",
+            "INS 406",
+            "E406"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202",
+            "E202"
+          ]
+        },
+        {
+          "es": "baño de repostería semiamargo",
+          "en": "semi-sweet compound coating",
+          "aliases": [
+            "baño de repostería semiamargo",
+            "semi-sweet compound coating",
+            "chocolate coating"
+          ]
+        }
+      ],
+      "sourceId": "smams-alfajor-triple-official",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-smams-alfajor-triple-official"
+    },
+    {
+      "id": "smams-alfajor-dulce-leche-ar-50g",
+      "barcode": null,
+      "name": "Alfajor Smams Dulce de Leche",
+      "brand": "Smams",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "gluten_free_alfajor",
+      "package": "50 g",
+      "image": "https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg",
+      "description": {
+        "en": "Gluten-free dulce de leche alfajor coated in semi-sweet compound chocolate.",
+        "es": "Alfajor sin gluten de dulce de leche bañado en chocolate semiamargo."
+      },
+      "ingredientsText": "Dulce de leche: leche entera, azúcar, glucosa, sólidos lácteos, almidón, estabilizante INS 406, leudante INS 500ii, sabor vainilla, conservante INS 202. Tapas: almidón de maíz, harina de arroz, azúcar, aceite de girasol alto oleico, agua, jarabe de glucosa, cacao en polvo, sal, espesante INS 415, emulsionante INS 322, leudantes INS 500ii e INS 503ii, conservante INS 282, aromatizantes de vainilla y limón. Baño de repostería semiamargo.",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sólidos lácteos",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos lácteos",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "goma garrofín",
+          "en": "locust bean gum",
+          "aliases": [
+            "goma garrofín",
+            "locust bean gum",
+            "INS 406",
+            "E406"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii",
+            "E500"
+          ]
+        },
+        {
+          "es": "aromatizante de vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante de vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202",
+            "E202"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "INS 415",
+            "E415"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "INS 322",
+            "E322"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii",
+            "E503"
+          ]
+        },
+        {
+          "es": "propionato de calcio",
+          "en": "calcium propionate",
+          "aliases": [
+            "propionato de calcio",
+            "calcium propionate",
+            "INS 282",
+            "E282"
+          ]
+        },
+        {
+          "es": "aromatizante de limón",
+          "en": "lemon flavouring",
+          "aliases": [
+            "aromatizante de limón",
+            "lemon flavouring",
+            "lemon flavoring"
+          ]
+        },
+        {
+          "es": "baño de repostería semiamargo",
+          "en": "semi-sweet compound coating",
+          "aliases": [
+            "baño de repostería semiamargo",
+            "semi-sweet compound coating",
+            "chocolate coating"
+          ]
+        }
+      ],
+      "sourceId": "smams-alfajor-simple-official",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-smams-alfajor-simple-official"
     }
   ]
 }
