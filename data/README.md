@@ -1,4 +1,4 @@
-# WHAT'S INSIDE? — Curated product catalog
+# Ingredora — Curated product catalog
 
 The game reads playable products from `products.json`. A product is eligible when `status` is `ready`.
 
