@@ -10265,6 +10265,550 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "la-campagnola-salsa-napolitana-350g-ar-image"
+    },
+    {
+      "id": "kesitas-queso-75g-ar",
+      "barcode": "7790040003606",
+      "name": "Kesitas Queso",
+      "brand": "Bagley · Kesitas",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "cheese_crackers",
+      "package": "75 g",
+      "image": "https://aremsaprod.vtexassets.com/arquivos/ids/1005501/image-4c13366cf0a10d3cf2eff6048bcfda7c0.jpg?v=638960586951800000",
+      "imagePublisher": "OnCity",
+      "imagePage": "https://www.oncity.com/galletitas-kesitas-snack-saladas-con-queso-paquete-75-grs-95876/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletitas-kesitas-75-gr/p",
+      "description": {
+        "es": "Galletitas saladas horneadas con queso azul y sabor a queso.",
+        "en": "Baked savory crackers made with blue cheese and cheese flavour."
+      },
+      "ingredientsText": "Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso, sulfitos. La página también enumera derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.",
+      "ingredients": [
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "aceite alto oleico",
+            "high oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "queso azul",
+          "en": "blue cheese",
+          "aliases": [
+            "queso azul",
+            "blue cheese"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "paprika",
+          "en": "paprika",
+          "aliases": [
+            "paprika",
+            "paprika",
+            "pimentón"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite"
+          ]
+        },
+        {
+          "es": "aromatizante artificial sabor queso",
+          "en": "artificial cheese flavouring",
+          "aliases": [
+            "aromatizante artificial sabor queso",
+            "artificial cheese flavouring",
+            "aroma queso",
+            "cheese flavouring"
+          ]
+        },
+        {
+          "es": "sulfitos",
+          "en": "sulfites",
+          "aliases": [
+            "sulfitos",
+            "sulfites"
+          ]
+        }
+      ],
+      "sourceId": "kesitas-queso-75g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "kesitas-queso-75g-ar-image"
+    },
+    {
+      "id": "gallo-chips-queso-50g-ar",
+      "barcode": null,
+      "name": "Gallo Snacks Chips Queso",
+      "brand": "Gallo",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "rice_snacks",
+      "package": "50 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/589088/Galletitas-Gallo-Snacks-Queso-56x50-Gr-1-849863.jpg?v=637280471032000000",
+      "imagePublisher": "Jumbo",
+      "imagePage": "https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p",
+      "description": {
+        "es": "Snack horneado de arroz sabor queso.",
+        "en": "Cheese-flavoured baked rice snack."
+      },
+      "ingredientsText": "Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, colorante betacaroteno, colorante amarillo ocaso, emulsionante ésteres de ácidos grasos con poliglicerol, emulsionante mono y diglicéridos de ácidos grasos, emulsionante polioxietilen sorbitán monooleato, antioxidante tocoferoles concentrado mezcla, antioxidante ter butil hidroquinona. La mención final «leche» corresponde a la declaración de alérgeno y no se cuenta dos veces; «derivados de soja» aparece como puede contener.",
+      "ingredients": [
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "fécula de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skimmed milk",
+          "aliases": [
+            "leche descremada",
+            "skimmed milk",
+            "leche desnatada"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aromatizante/saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante/saborizante",
+            "flavouring",
+            "aromatizante",
+            "saborizante",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta-carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta-carotene",
+            "colorante betacaroteno"
+          ]
+        },
+        {
+          "es": "amarillo ocaso",
+          "en": "sunset yellow",
+          "aliases": [
+            "amarillo ocaso",
+            "sunset yellow",
+            "amarillo ocaso FCF",
+            "E110"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con poliglicerol",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con poliglicerol",
+            "polyglycerol esters of fatty acids",
+            "ésteres de poliglicerol"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "mono y diglicéridos"
+          ]
+        },
+        {
+          "es": "polisorbato 80",
+          "en": "polysorbate 80",
+          "aliases": [
+            "polisorbato 80",
+            "polysorbate 80",
+            "polioxietilen sorbitán monooleato"
+          ]
+        },
+        {
+          "es": "tocoferoles concentrados",
+          "en": "concentrated tocopherols",
+          "aliases": [
+            "tocoferoles concentrados",
+            "concentrated tocopherols",
+            "tocoferoles"
+          ]
+        },
+        {
+          "es": "terbutil hidroquinona",
+          "en": "tertiary butylhydroquinone",
+          "aliases": [
+            "terbutil hidroquinona",
+            "tertiary butylhydroquinone",
+            "TBHQ",
+            "ter butil hidroquinona"
+          ]
+        }
+      ],
+      "sourceId": "gallo-chips-queso-50g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "gallo-chips-queso-50g-ar-image"
+    },
+    {
+      "id": "cuisine-co-galletitas-leche-260g-ar",
+      "barcode": null,
+      "name": "Galletitas Dulces Sabor Leche Cuisine & Co",
+      "brand": "Cuisine & Co",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "sweet_cookies",
+      "package": "260 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/837595/Galletitas-Dulces-Sabor-Leche-Cuisine-Co-Nbe-Galletitas-Dulces-Sabor-Leche-Cuisine-X-260-Gr-1-1014935.jpg?v=638645169637670000",
+      "imagePublisher": "Vea",
+      "imagePage": "https://www.vea.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p",
+      "description": {
+        "es": "Galletitas dulces sabor leche, de industria argentina.",
+        "en": "Sweet milk-flavoured biscuits made in Argentina."
+      },
+      "ingredientsText": "Harina de trigo 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), niacina, azúcar, grasa bovina refinada, jarabe de alta fructosa, suero de leche, sal, leudante químico INS 503(ii), leudante químico INS 450(i), emulsionante INS 322, mejorador INS 223, mejorador INS 1100, mejorador INS 1101(i), esencia de leche condensada idéntica a natural, esencia artificial de vainilla. La página agrega derivados de trigo, leche y soja como declaración de alérgenos.",
+      "ingredients": [
+        {
+          "es": "harina de trigo 000",
+          "en": "wheat flour 000",
+          "aliases": [
+            "harina de trigo 000",
+            "wheat flour 000",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat"
+          ]
+        },
+        {
+          "es": "jarabe de alta fructosa",
+          "en": "high-fructose syrup",
+          "aliases": [
+            "jarabe de alta fructosa",
+            "high-fructose syrup",
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup"
+          ]
+        },
+        {
+          "es": "suero de leche",
+          "en": "whey",
+          "aliases": [
+            "suero de leche",
+            "whey",
+            "suero lácteo"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503(ii))",
+          "en": "ammonium bicarbonate (INS 503(ii))",
+          "aliases": [
+            "bicarbonato de amonio (INS 503(ii))",
+            "ammonium bicarbonate (INS 503(ii))",
+            "INS 503(ii)"
+          ]
+        },
+        {
+          "es": "difosfato disódico (INS 450(i))",
+          "en": "disodium diphosphate (INS 450(i))",
+          "aliases": [
+            "difosfato disódico (INS 450(i))",
+            "disodium diphosphate (INS 450(i))",
+            "INS 450(i)"
+          ]
+        },
+        {
+          "es": "lecitina (INS 322)",
+          "en": "lecithin (INS 322)",
+          "aliases": [
+            "lecitina (INS 322)",
+            "lecithin (INS 322)",
+            "INS 322"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio (INS 223)",
+          "en": "sodium metabisulfite (INS 223)",
+          "aliases": [
+            "metabisulfito de sodio (INS 223)",
+            "sodium metabisulfite (INS 223)",
+            "INS 223"
+          ]
+        },
+        {
+          "es": "enzimas para panificación (INS 1100)",
+          "en": "enzymes for baking (INS 1100)",
+          "aliases": [
+            "enzimas para panificación (INS 1100)",
+            "enzymes for baking (INS 1100)",
+            "INS 1100"
+          ]
+        },
+        {
+          "es": "amilasa (INS 1101(i))",
+          "en": "amylase (INS 1101(i))",
+          "aliases": [
+            "amilasa (INS 1101(i))",
+            "amylase (INS 1101(i))",
+            "INS 1101(i)"
+          ]
+        },
+        {
+          "es": "esencia de leche condensada idéntica a natural",
+          "en": "nature-identical condensed milk flavouring",
+          "aliases": [
+            "esencia de leche condensada idéntica a natural",
+            "nature-identical condensed milk flavouring",
+            "esencia de leche condensada"
+          ]
+        },
+        {
+          "es": "esencia artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "esencia artificial de vainilla",
+            "artificial vanilla flavouring",
+            "esencia de vainilla",
+            "vanilla essence"
+          ]
+        }
+      ],
+      "sourceId": "cuisine-co-galletitas-leche-260g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "cuisine-co-galletitas-leche-260g-ar-image"
     }
   ]
 }
