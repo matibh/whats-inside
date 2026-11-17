@@ -25,7 +25,7 @@ The game reads playable products from `products.json`. A product is eligible whe
 - `retailer_label_transcription`: retailer listing that reproduces the label.
 - `packaging_transcription_secondary`: secondary transcription of packaging / Open Food Facts data.
 
-The Argentina catalog currently contains 61 products (53 prior entries plus the 8-product expansion dated 17 November 2026). The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
+The Argentina catalog currently contains 66 products (including the latest 5-product expansion dated 17 November 2026). The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
 
 
 ## Regional catalogs
