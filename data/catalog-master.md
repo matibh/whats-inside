@@ -6587,3 +6587,24 @@ Chips de banana, pasas de uva, maní tostado, semillas de girasol peladas.
 
 **Fuente de ingredientes / Ingredient source:** [Arcor](https://www.arcor.com/ar/uploads/downloads/888b06bf766c4684d47217660a75a6b0.pdf)  
 **Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg)
+
+
+### Águila Extra Fino 60% Cacao
+
+- **ID:** `aguila-60-cacao-ar-14g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg)
+- **Marca / Brand:** Águila · Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 14 g
+- **Categoría / Category:** `dark_chocolate`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Chocolate amargo individual con 60% de cacao.
+- **Description (EN):** Individual dark chocolate bar with 60% cocoa.
+
+**Ingredientes declarados / Declared ingredients**
+
+Masa de cacao, azúcar, manteca de cacao, cacao en polvo, grasa anhidra de leche, emulsionante lecitina de soja, aromatizante artificial vainillina, aromatizante artificial etil vainillina.
+
+**Fuente de ingredientes / Ingredient source:** [Vea / transcripción de etiqueta](https://www.vea.com.ar/barrita-chocolate-aguila-60cacao-x14g/p)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg)
