@@ -40,15 +40,15 @@ Base URL: `https://xblqghhhchffuqkmzgta.supabase.co/functions/v1`
 | `submit-practice` | No | Validate a completed Practice round server-side; saves history if signed in |
 | `leaderboard` | No | Return today's ranking or all-time points |
 
-The function sources are committed under `supabase/functions/<function-name>/index.ts`.
+The function sources are committed under `supabase/functions/<function-name>/index.ts`. The 200 existing products are available to the Practice API; their answers are validated server-side and returned only after a Practice submission.
 
 ## Catalog import and launch blocker
 
-**The product catalog has not been imported into Supabase yet.** The public metadata table and private answer table are empty; no Daily challenges have been scheduled.
+**The product catalog has not been imported into Supabase yet.** The 200 existing catalog products (80 Argentina, 120 World) and their 2,933 ingredient records are imported. Safe metadata is in `public.products`; answer records are in `private.product_answers`. All imported products have `daily_eligible = false`, because their answer keys are already public in this repository. No Daily challenges or Daily answer keys have been seeded.
 
 The repository is currently public and contains answer keys in `data/products.json`, `data/products-world.json`, `data/catalog-master.md`, and Git history. A private database does not protect answers that remain available in public GitHub files or old commits.
 
-Before importing/scheduling a competitive Daily, choose one of these approaches:
+Before adding a separate Daily-eligible product pool and scheduling a competitive Daily, choose one of these approaches:
 
 1. Keep the code repository public and move the full answer catalog into a separate private source, removing public answer copies from the active site.
 2. Make the repository private and plan a separate, careful Git-history cleanup; changing visibility alone does not erase answers already copied or cached.
