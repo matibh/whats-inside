@@ -88,3 +88,8 @@ Added Haldiram's Aloo Bhujia (India), McVitie's Jaffa Cakes (UK), Jell-O Strawbe
 ## Argentina catalog expansion — 17 November 2026
 
 Added 5 Argentina-market records: Havanna Alfajor Chocolate Clásico, Yogurísimo Bebible Frutilla, Vacalin Dulce de Leche Original, Arcor Turrón & Maní, and Baggio Pronto Multifruta. Ingredient transcriptions and image references are recorded individually in `products.json` and `sources.json`; see `catalog-master.md` for the human-readable register.
+
+
+## Argentina catalog expansion — 17 November 2026 (second batch)
+
+Added 4 products using manufacturer-published ingredient declarations and official product images: Jorgito Galletitas con Chips (120 g), Smams Alfajor Glorioso (75 g), Smams Alfajor Dulce de Leche Triple (81 g), and Smams Alfajor Dulce de Leche (50 g). Product-specific ingredient and image references are stored in `sources.json`.
