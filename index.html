@@ -291,10 +291,11 @@ body{
  background:#5caa39;box-shadow:0 0 0 3px #5caa3925;
 }
 .intro h1{
- order:1;display:flex;align-items:baseline;justify-content:center;
+ order:1;display:flex;align-items:center;justify-content:center;
  width:max-content;max-width:100%;white-space:nowrap;overflow:visible;
- margin:0 0 17px;padding:0;
- border:0;background:transparent;color:var(--ink);
+ margin:0 0 17px;padding:8px 15px;
+ border:1px solid #79b889;border-radius:9px;
+ background:#e5f0d9;color:#245d36;
  font-size:clamp(42px,9vw,70px);font-weight:900;
  line-height:1.12;letter-spacing:-.075em;
 }
@@ -305,7 +306,7 @@ body{
  background:currentColor;animation:ingredoraBlink .65s steps(1,end) infinite;
 }
 .intro .typing-check{
- display:none;margin-left:10px;color:#238447;font-size:.52em;
+ display:none;margin-left:10px;color:#245d36;font-size:.52em;
  font-weight:900;line-height:1;vertical-align:middle;
 }
 .intro h1.typing-complete .typing-caret{display:none}
@@ -315,8 +316,8 @@ body{
 :root[data-theme="dark"] .intro .eyebrow{
  background:#263d2a;border-color:#55784b;color:#e0f4ce;
 }
-:root[data-theme="dark"] .intro h1{color:#f0f4ec}
-:root[data-theme="dark"] .intro .typing-check{color:#8fda9d}
+:root[data-theme="dark"] .intro h1{background:#294632;color:#c5efa0;border-color:#648d67}
+:root[data-theme="dark"] .intro .typing-check{color:#c5efa0}
 :root[data-theme="dark"] .intro p{color:#b4c4b4}
 @media(max-width:600px){
  .intro{padding:38px 0 22px}
@@ -372,6 +373,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-typewriter-20261117e"></script>
+<script type="module" src="./app.js?v=ingredora-typewriter-20261117f"></script>
 </body>
 </html>
