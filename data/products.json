@@ -9900,6 +9900,371 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "serenisima-yogur-firme-vainilla-190g-image"
+    },
+    {
+      "id": "bc-mayonesa-la-campagnola-500g-ar",
+      "barcode": null,
+      "name": "Mayonesa BC La Campagnola",
+      "brand": "BC · La Campagnola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "mayonnaise",
+      "package": "500 g",
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/2209/5497/7793360674105_02__45078.1651002529.jpg?c=3",
+      "imagePublisher": "Pampa Direct",
+      "imagePage": "https://pampadirect.com/bc-la-campagnola-mayonesa-classic-mayonnaise-made-with-sunflower-oil-gluten-free-500-g-1-1-lb-pouch-squeeze/",
+      "ingredientUrl": "https://www.jumbo.com.ar/mayonesa-la-campagnola-500-gr-2/p",
+      "description": {
+        "es": "Mayonesa clásica BC elaborada con aceite de girasol.",
+        "en": "BC classic mayonnaise made with sunflower oil."
+      },
+      "ingredientsText": "Agua, aceite vegetal de girasol, almidón modificado, azúcar, vinagre de alcohol, sal, huevo entero deshidratado, jugo de limón concentrado, aromatizante idéntico al natural, acidulante ácido láctico, acidulante ácido fosfórico, estabilizante goma xántica, estabilizante goma guar, conservador sorbato de potasio, secuestrante EDTA, colorante betacaroteno (INS 160a(i)), antioxidante BHA, antioxidante BHT.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "aceite vegetal de girasol",
+          "en": "sunflower vegetable oil",
+          "aliases": [
+            "aceite vegetal de girasol",
+            "sunflower vegetable oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified starch",
+          "aliases": [
+            "almidón modificado",
+            "modified starch"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "alcohol vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "alcohol vinegar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "huevo entero deshidratado",
+          "en": "dehydrated whole egg",
+          "aliases": [
+            "huevo entero deshidratado",
+            "dehydrated whole egg",
+            "huevo en polvo",
+            "egg"
+          ]
+        },
+        {
+          "es": "jugo de limón concentrado",
+          "en": "concentrated lemon juice",
+          "aliases": [
+            "jugo de limón concentrado",
+            "concentrated lemon juice"
+          ]
+        },
+        {
+          "es": "aromatizante idéntico al natural",
+          "en": "nature-identical flavouring",
+          "aliases": [
+            "aromatizante idéntico al natural",
+            "nature-identical flavouring",
+            "aromatizante",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid",
+            "INS 270"
+          ]
+        },
+        {
+          "es": "ácido fosfórico",
+          "en": "phosphoric acid",
+          "aliases": [
+            "ácido fosfórico",
+            "phosphoric acid",
+            "INS 338"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "goma xantana",
+            "INS 415"
+          ]
+        },
+        {
+          "es": "goma guar",
+          "en": "guar gum",
+          "aliases": [
+            "goma guar",
+            "guar gum",
+            "I",
+            "N",
+            "S",
+            " ",
+            "4",
+            "1",
+            "2"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202"
+          ]
+        },
+        {
+          "es": "EDTA",
+          "en": "EDTA",
+          "aliases": [
+            "EDTA",
+            "EDTA",
+            "edetato disódico",
+            "disodium EDTA"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta-carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta-carotene",
+            "INS 160a(i)"
+          ]
+        },
+        {
+          "es": "BHA",
+          "en": "BHA",
+          "aliases": [
+            "BHA",
+            "BHA",
+            "butilhidroxianisol",
+            "butylated hydroxyanisole",
+            "INS 320"
+          ]
+        },
+        {
+          "es": "BHT",
+          "en": "BHT",
+          "aliases": [
+            "BHT",
+            "BHT",
+            "butilhidroxitolueno",
+            "butylated hydroxytoluene",
+            "INS 321"
+          ]
+        }
+      ],
+      "sourceId": "bc-mayonesa-la-campagnola-500g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "bc-mayonesa-la-campagnola-500g-ar-image"
+    },
+    {
+      "id": "la-campagnola-lomo-atun-aceite-170g-ar",
+      "barcode": null,
+      "name": "Lomo de Atún en Aceite La Campagnola",
+      "brand": "La Campagnola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "canned_fish",
+      "package": "170 g (125 g escurrido)",
+      "image": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/14324/36128/La_Campagnola_Tuna_Loin_in_Oil_170_g_6.0_oz__22938.1759509231.jpg?c=2%3Fimbypass%3Don",
+      "imagePublisher": "Pampa Direct",
+      "imagePage": "https://pampadirect.com/la-campagnola-tuna-loin-in-oil-170-g-6-0-oz/",
+      "ingredientUrl": "https://www.jumbo.com.ar/atun-la-campagnola-en-aceite-170gr/p",
+      "description": {
+        "es": "Lomos de atún conservados en aceite de girasol.",
+        "en": "Tuna loins preserved in sunflower oil."
+      },
+      "ingredientsText": "Atún, aceite vegetal (girasol), sal.",
+      "ingredients": [
+        {
+          "es": "atún",
+          "en": "tuna",
+          "aliases": [
+            "atún",
+            "tuna",
+            "atún listado",
+            "skipjack tuna"
+          ]
+        },
+        {
+          "es": "aceite vegetal de girasol",
+          "en": "sunflower vegetable oil",
+          "aliases": [
+            "aceite vegetal de girasol",
+            "sunflower vegetable oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        }
+      ],
+      "sourceId": "la-campagnola-lomo-atun-aceite-170g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "la-campagnola-lomo-atun-aceite-170g-ar-image"
+    },
+    {
+      "id": "la-campagnola-salsa-napolitana-350g-ar",
+      "barcode": "7790580144199",
+      "name": "Salsa Napolitana La Campagnola",
+      "brand": "La Campagnola",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "pasta_sauce",
+      "package": "350 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/354406/Salsa-De-Tomate-La-Campagnola-Napolitana-350-G-0779058014419-1.jpg?v=638836386487530000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/salsa-napol-premium-x-350-gr-la-campagnola/p",
+      "description": {
+        "es": "Salsa de tomate estilo napolitana con vegetales y especias.",
+        "en": "Neapolitan-style tomato sauce with vegetables and spices."
+      },
+      "ingredientsText": "Puré de tomates, tomate en cubos, cebolla, zanahoria, aceite vegetal de girasol, azúcar, sal (0,5%), especias, ajo, aromatizante natural.",
+      "ingredients": [
+        {
+          "es": "puré de tomates",
+          "en": "tomato purée",
+          "aliases": [
+            "puré de tomates",
+            "tomato purée",
+            "pure de tomate",
+            "tomato puree"
+          ]
+        },
+        {
+          "es": "tomate en cubos",
+          "en": "diced tomatoes",
+          "aliases": [
+            "tomate en cubos",
+            "diced tomatoes",
+            "tomates en cubos",
+            "tomato cubes"
+          ]
+        },
+        {
+          "es": "cebolla",
+          "en": "onion",
+          "aliases": [
+            "cebolla",
+            "onion"
+          ]
+        },
+        {
+          "es": "zanahoria",
+          "en": "carrot",
+          "aliases": [
+            "zanahoria",
+            "carrot"
+          ]
+        },
+        {
+          "es": "aceite vegetal de girasol",
+          "en": "sunflower vegetable oil",
+          "aliases": [
+            "aceite vegetal de girasol",
+            "sunflower vegetable oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "especias",
+          "en": "spices",
+          "aliases": [
+            "especias",
+            "spices"
+          ]
+        },
+        {
+          "es": "ajo",
+          "en": "garlic",
+          "aliases": [
+            "ajo",
+            "garlic"
+          ]
+        },
+        {
+          "es": "aromatizante natural",
+          "en": "natural flavouring",
+          "aliases": [
+            "aromatizante natural",
+            "natural flavouring",
+            "aromatizante",
+            "natural flavoring"
+          ]
+        }
+      ],
+      "sourceId": "la-campagnola-salsa-napolitana-350g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "la-campagnola-salsa-napolitana-350g-ar-image"
     }
   ]
 }
