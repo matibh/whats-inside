@@ -44,12 +44,38 @@ function renderChallenge(){if(!challenge)return;show("dailyProduct",true);show("
  if(challenge.preview){setText("dailyTitle",t("previewDaily"));status("dailyStatus",t("previewOnly"));$("dailyStart").disabled=true;setText("dailyStart",t("previewButton"))}else if(dataPlayed()){setText("dailyTitle",t("already"));status("dailyStatus",t("already"));$("dailyStart").disabled=true;setText("dailyStart",t("already"))}else if(!session){setText("dailyTitle",t("daily"));status("dailyStatus",t("loginDaily"));$("dailyStart").disabled=false;setText("dailyStart",t("sign"))}else{setText("dailyTitle",t("daily"));status("dailyStatus","");$("dailyStart").disabled=false;setText("dailyStart",t("startDaily"))}}
 let dailyPlayed=false;function dataPlayed(){return dailyPlayed}
 async function checkDaily(){dailyPlayed=false;try{const data=await call("daily-challenge");challenge=data.challenge||null;dailyPlayed=!!data.played;if(challenge){renderChallenge()}else{show("dailyProduct",false);show("dailyReplayWrap",false);setText("dailyTitle",t("daily"));const next=data.next_challenge_date?new Date(data.next_challenge_date+"T12:00:00").toLocaleDateString(lang==="es"?"es-AR":"en-US"):"";status("dailyStatus",next?t("noDaily")+" "+next:t("noDaily")+" soon.");$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}}catch(e){challenge=null;show("dailyProduct",false);setText("dailyTitle",t("daily"));status("dailyStatus",t("wrong")+": "+e.message,true);$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}}
-async function loadCatalog(){try{status("practiceStatus",t("loading"));const data=await call("practice-catalog");catalog=data.products||[];status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");$("practiceStart").disabled=catalog.length<10}catch(e){status("practiceStatus",e.message,true);$("practiceStart").disabled=true}}
+async function loadCatalog(){
+ try{
+  status("practiceStatus",lang==="es"?"Preparando Practice…":"Preparing Practice…");
+  $("practiceStart").disabled=true;
+  const data=await call("practice-catalog");catalog=data.products||[];
+  if(catalog.length<10)throw new Error(lang==="es"?"No hay suficientes productos disponibles.":"Not enough products available.");
+  await preparePracticeSession();
+ }catch(e){status("practiceStatus",e.message,true);$("practiceStart").disabled=true}
+}
+async function preparePracticeSession({quiet=false}={}){
+ if(practicePreparing||practicePrepared)return;
+ practicePreparing=true;
+ if(!quiet){$("practiceStart").disabled=true;status("practiceStatus",lang==="es"?"Preparando Practice…":"Preparing Practice…")}
+ try{
+  const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim());
+  for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+  const products=pool.slice(0,10);
+  if(products.length<10)throw new Error(lang==="es"?"No hay 10 productos con imagen.":"There are not 10 products with images.");
+  const keyData=await call("practice-answer-key",{method:"POST",body:{product_ids:products.map(p=>p.id)},auth:false});
+  const keys=keyData.answer_keys||{};
+  if(products.some(p=>!Array.isArray(keys[p.id])||!keys[p.id].length))throw new Error("Could not prepare all product answers");
+  practicePrepared={products,answerKeys:keys};
+  if(!quiet){status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");$("practiceStart").disabled=false}
+ }catch(e){
+  if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=true}
+ }finally{practicePreparing=false}
+}
 function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
 function setProduct(p){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||"MYSTERY PRODUCT");const img=$("productImage");if(p.image_url){img.src=p.image_url;img.style.display="";$("productPlaceholder").style.display="none";img.onerror=()=>{img.style.display="none";$("productPlaceholder").style.display=""}}else{img.style.display="none";$("productPlaceholder").style.display=""}}
 function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();startedAt=startAt;remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
-let pendingValidations=[];let validatedIngredientIndexes=new Set();let currentAnswerKey=[];let practiceAnswerKeys={};
+let pendingValidations=[];let validatedIngredientIndexes=new Set();let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
 function addGuess(raw){
  const value=raw.trim();if(!value||!gameActive)return;
@@ -68,28 +94,16 @@ $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preven
 async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("result"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("result"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),test_daily_replay:isDailyTestReplay}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",correctCount+" / "+totalCount+" "+t("correct"));setText("finalScore",String(finalPoints).padStart(3,"0")+" "+t("score"));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("result",true);if(mode==="daily")await checkDaily()}
 function renderAnswers(id,items,missed){const box=$(id);box.innerHTML="";items.forEach(x=>{const s=document.createElement("span");s.className="answer"+(missed?" missed":"");s.textContent=x[lang]||x.es||x.en;box.append(s)});if(!items.length)box.textContent="—"}
 async function startDaily(){isDailyTestReplay=false;if(!session){openAuth();return}if(!challenge){await checkDaily();return}try{$("dailyStart").disabled=true;setText("dailyStart",t("loading"));if(!await verifyProductImage(challenge.image_url)){status("dailyStatus",t("imageMissing"),true);$("dailyStart").disabled=false;return}const data=await call("start-daily",{method:"POST",body:{}});window.dailySessionId=data.session_id;currentAnswerKey=data.answer_key||[];if(!currentAnswerKey.length)throw new Error("Daily answer key unavailable");mode="daily";setProduct({name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:challenge.image_url,brand:challenge.market});startGame(Date.now())}catch(e){status("dailyStatus",e.message,true);$("dailyStart").disabled=false}}
-async function startPractice(){
- if(catalog.length<10){status("practiceStatus",t("wrong"),true);return}
+function startPractice(){
+ if(!practicePrepared){status("practiceStatus",lang==="es"?"Practice todavía se está preparando.":"Practice is still preparing.");$("practiceStart").disabled=true;return}
  isDailyTestReplay=false;
- $("practiceStart").disabled=true;
- status("practiceStatus",lang==="es"?"Preparando partida…":"Preparing game…");
- const pool=catalog.filter(product=>typeof product.image_url==="string"&&product.image_url.trim());
- for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
- const playable=pool.slice(0,10);
- if(playable.length<10){
-  status("practiceStatus",lang==="es"?"No hay 10 productos con imagen disponible.":"There are not 10 products with an image available.",true);
-  $("practiceStart").disabled=false;return;
- }
- try{
-  const keyData=await call("practice-answer-key",{method:"POST",body:{product_ids:playable.map(p=>p.id)},auth:false});
-  practiceAnswerKeys=keyData.answer_keys||{};
-  if(playable.some(p=>!Array.isArray(practiceAnswerKeys[p.id])||!practiceAnswerKeys[p.id].length))throw new Error("Could not prepare all product answers");
-  practiceSession={products:playable,index:0,score:0,correct:0,total:0,completed:0,skipped:0,rounds:[]};
-  mode="practice";status("practiceStatus",t("practiceReady"));$("practiceStart").disabled=false;startPracticeRound();
- }catch(e){
-  status("practiceStatus",(lang==="es"?"No se pudo preparar la partida: ":"Could not prepare game: ")+e.message,true);
-  $("practiceStart").disabled=false;
- }
+ const prepared=practicePrepared;practicePrepared=null;
+ practiceAnswerKeys=prepared.answerKeys;
+ practiceSession={products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,rounds:[]};
+ mode="practice";$("practiceStart").disabled=true;
+ status("practiceStatus",t("practiceReady"));
+ startPracticeRound();
+ preparePracticeSession({quiet:true});
 }
 function startPracticeRound(){
  if(!practiceSession)return;
