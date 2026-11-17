@@ -41,7 +41,7 @@ function setMode(next){if(practiceSession&&next!=="practice")return;mode=next; $
 function updateAccount(){setText("accountLabel",session?.user?.email||t("guest"));setText("authOpen",session?t("signout"):t("sign"))}
 function updateLanguage(){
  document.documentElement.lang=lang;
- const map={kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyEyebrow:"dailyEyebrow",dailyDescription:"dailyDescription",dailyReplayTest:"testReplay",dailyResetTest:"testReset",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceEyebrow:"practiceEyebrow",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceStatus:"practiceLoading",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabel:"authEmail",authPasswordLabel:"password"};
+ const map={kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyEyebrow:"dailyEyebrow",dailyDescription:"dailyDescription",dailyReplayTest:"testReplay",dailyResetTest:"testReset",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceEyebrow:"practiceEyebrow",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabel:"authEmail",authPasswordLabel:"password"};
  for(const [id,key] of Object.entries(map))setText(id,t(key));
  $("headline").innerHTML=t("headline");
  $("langBtn").textContent=lang==="en"?"ESPAÑOL":"ENGLISH";
@@ -51,7 +51,7 @@ function updateLanguage(){
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
  $("rankingScope").options[0].textContent=t("rankTodayOption");$("rankingScope").options[1].textContent=t("rankAllOption");
  if(!$("rankingList").children.length)$("rankingList").textContent=t("rankingLoading");
- const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");
+ const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady")+" ("+catalog.length+")":t("practiceLoading");
  applyTheme(document.documentElement.dataset.theme==="dark"?"dark":"light");
  if(challenge)renderChallenge();
 }
