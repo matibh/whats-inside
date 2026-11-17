@@ -541,6 +541,78 @@
       "url": "https://superastorga.com.ar/productos/baggio-x-1l-jugo-multifruta/",
       "supports": "Real 1 L Baggio Pronto Multifruta carton image.",
       "market": "Argentina"
+    },
+    {
+      "id": "jorgito-galletitas-chips-official",
+      "productId": "jorgito-galletitas-chips-ar-120g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_website",
+      "url": "https://alfajores-jorgito.com/producto/galletitas-chips",
+      "supports": "Manufacturer's published ingredient declaration for Jorgito chocolate-chip cookies; package formats 60 g, 120 g and 240 g. Flour enrichment micronutrients are included as listed.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-jorgito-galletitas-chips-official",
+      "productId": "jorgito-galletitas-chips-ar-120g",
+      "publisher": "Alfajores Jorgito",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://alfajores-jorgito.com/media/8275694ddcaf0a1b6a9bb2cfc2522c86.webp",
+      "supports": "Official product/package image for Jorgito Galletitas con Chips; 120 g pack visible.",
+      "market": "Argentina"
+    },
+    {
+      "id": "smams-alfajor-glorioso-official",
+      "productId": "smams-alfajor-glorioso-ar-75g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-glorioso-detail",
+      "supports": "Manufacturer's ingredient declaration and 75 g presentation for gluten-free Alfajor Glorioso.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-smams-alfajor-glorioso-official",
+      "productId": "smams-alfajor-glorioso-ar-75g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.smams.com.ar/images/stories/virtuemart/product/gloriosoWebSmams.jpg",
+      "supports": "Official Smams Glorioso 75 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "smams-alfajor-triple-official",
+      "productId": "smams-alfajor-dulce-leche-triple-ar-81g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-dulce-de-leche-triple-detail",
+      "supports": "Manufacturer's ingredient declaration, 81 g unit size, nutrition and distribution details for triple dulce de leche alfajor.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-smams-alfajor-triple-official",
+      "productId": "smams-alfajor-dulce-leche-triple-ar-81g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.smams.com.ar/images/stories/virtuemart/product/alfajorTripleWeb68.jpg",
+      "supports": "Official Smams triple alfajor 81 g package image.",
+      "market": "Argentina"
+    },
+    {
+      "id": "smams-alfajor-simple-official",
+      "productId": "smams-alfajor-dulce-leche-ar-50g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_website",
+      "url": "https://www.smams.com.ar/index.php/productos/snacks-alfajores/alfajor-dulce-de-leche-detail",
+      "supports": "Manufacturer's ingredient declaration, 50 g unit size and nutrition for dulce de leche alfajor.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-smams-alfajor-simple-official",
+      "productId": "smams-alfajor-dulce-leche-ar-50g",
+      "publisher": "Smams / Wellington Foods S.A.",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg",
+      "supports": "Official Smams dulce de leche alfajor 50 g package image.",
+      "market": "Argentina"
     }
   ]
 }
