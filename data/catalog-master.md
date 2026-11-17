@@ -5,11 +5,11 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 173
-- **Argentina:** 53
+- **Productos / Products:** 181
+- **Argentina:** 61
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 173 / 173
+- **Fotos reales / Real product photos:** 181 / 181
 
 ## Reglas / Rules
 
@@ -6822,3 +6822,259 @@ Avena arrollada, harina de trigo enriquecida (hierro, ácido fólico, tiamina, r
 
 **Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790040135796-cereal-mix-avena-manzana/)  
 **Fuente de imagen / Image source:** [Disco / Jumbo](https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p)
+
+
+### Sal Fina Dos Anclas
+
+- **ID:** `dos-anclas-sal-fina-ar-500g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.cordiez.com.ar/sal-fina-paquete-dos-anclas-500-gr/p)
+- **Marca / Brand:** Dos Anclas
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 500 g
+- **Categoría / Category:** `salt`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Sal fina argentina con antiaglutinantes y yodato de potasio.
+- **Description (EN):** Argentine fine salt with anti-caking agents and potassium iodate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Sal (cloruro de sodio), antiaglutinante carbonato de magnesio (INS 504i), almidón de maíz, dióxido de silicio (INS 551), yodato de potasio (INS 917).
+
+**Respuestas aceptadas / Accepted answers**
+
+- sal / salt · sal, salt, cloruro de sodio, sodium chloride
+- carbonato de magnesio / magnesium carbonate · carbonato de magnesio, magnesium carbonate, INS 504i, E504i
+- almidón de maíz / corn starch · almidón de maíz, corn starch, maize starch
+- dióxido de silicio / silicon dioxide · dióxido de silicio, silicon dioxide, INS 551, E551
+- yodato de potasio / potassium iodate · yodato de potasio, potassium iodate, INS 917
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/sal-fina-dos-anclas-500-gr-3/p)  
+**Fuente de imagen / Image source:** [Cordiez](https://www.cordiez.com.ar/sal-fina-paquete-dos-anclas-500-gr/p)
+
+### Bizcocho Salado Don Satur
+
+- **ID:** `don-satur-bizcocho-salado-ar-200g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.mercadodelaraza.com/products/don-satur-bizcochos-salado-200-g)
+- **Marca / Brand:** Don Satur
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 200 g
+- **Categoría / Category:** `savory_biscuits`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Bizcochos salados de grasa, un clásico argentino para acompañar el mate.
+- **Description (EN):** Traditional Argentine savory fat crackers, often enjoyed with mate.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063% (B1), riboflavina 0,00013% (B2), niacina 0,0013%), grasa bovina refinada, agua, sal, azúcar.
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat, beef fat
+- agua / water · agua, water
+- sal / salt · sal, salt
+- azúcar / sugar · azúcar, sugar
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7795735000328-bizcocho-salado/)  
+**Fuente de imagen / Image source:** [Mercado de la Raza](https://www.mercadodelaraza.com/products/don-satur-bizcochos-salado-200-g)
+
+### Chocolino Cacao en Polvo
+
+- **ID:** `chocolino-la-virginia-ar-180g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.toledodigital.com.ar/cacao-en-polvo-chocolino-bolsa-180g-16355/p)
+- **Marca / Brand:** La Virginia · Chocolino
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 180 g
+- **Categoría / Category:** `chocolate_drink_powder`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Cacao granulado fortificado para preparar bebidas chocolatadas.
+- **Description (EN):** Fortified granular cocoa powder for chocolate drinks.
+
+**Ingredientes declarados / Declared ingredients**
+
+Azúcar blanco común, cacao solubilizado, sal, sulfato de zinc, vitamina B3, vitamina B6, vitamina B2, vitamina B12, aroma, emulsionante: lecitinas.
+
+**Respuestas aceptadas / Accepted answers**
+
+- azúcar blanco / white sugar · azúcar blanco, white sugar, azúcar, sugar
+- cacao solubilizado / solubilized cocoa · cacao solubilizado, solubilized cocoa, cacao, cocoa
+- sal / salt · sal, salt
+- sulfato de zinc / zinc sulfate · sulfato de zinc, zinc sulfate
+- vitamina B3 / vitamin B3 · vitamina B3, vitamin B3, niacina, niacin
+- vitamina B6 / vitamin B6 · vitamina B6, vitamin B6, piridoxina, pyridoxine
+- vitamina B2 / vitamin B2 · vitamina B2, vitamin B2, riboflavina, riboflavin
+- vitamina B12 / vitamin B12 · vitamina B12, vitamin B12, cobalamina, cobalamin
+- aroma / flavouring · aroma, flavouring, flavoring
+- lecitinas / lecithins · lecitinas, lecithins, lecitina, lecithin, E322
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790150830857-chocolino/)  
+**Fuente de imagen / Image source:** [Toledo Digital](https://www.toledodigital.com.ar/cacao-en-polvo-chocolino-bolsa-180g-16355/p)
+
+### Sonrisas
+
+- **ID:** `sonrisas-bagley-ar-108g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.supermami.com.ar/super/producto/galletas-sonrisas-x-108-gr/_/A-2142219-2142219-s)
+- **Marca / Brand:** Bagley
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 108 g
+- **Categoría / Category:** `filled_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas dulces rellenas sabor frambuesa.
+- **Description (EN):** Sweet raspberry-flavoured sandwich cookies.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), azúcar, jarabe de maíz de alta fructosa, aceite de girasol alto oleico, grasa bovina refinada, avena arrollada, carbonato de calcio, leche descremada en polvo, sal, almidón, jugo de manzana, leudantes químicos (bicarbonato de sodio, bicarbonato de amonio), gelificante (agar), emulsionante (lecitina de soja), acidulante (ácido tartárico), mejorador de harina (metabisulfito de sodio), colorante (ácido carmínico, INS 120), aromatizantes artificiales (aroma frambuesa, vainillina).
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- azúcar / sugar · azúcar, sugar
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- aceite de girasol alto oleico / high-oleic sunflower oil · aceite de girasol alto oleico, high-oleic sunflower oil, aceite de girasol, sunflower oil
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat
+- avena arrollada / rolled oats · avena arrollada, rolled oats, avena, oats
+- carbonato de calcio / calcium carbonate · carbonato de calcio, calcium carbonate
+- leche descremada en polvo / skimmed milk powder · leche descremada en polvo, skimmed milk powder, skim milk powder
+- sal / salt · sal, salt
+- almidón / starch · almidón, starch
+- jugo de manzana / apple juice · jugo de manzana, apple juice
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503
+- agar / agar · agar, agar, agar-agar, E406
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+- ácido tartárico / tartaric acid · ácido tartárico, tartaric acid, E334
+- metabisulfito de sodio / sodium metabisulfite · metabisulfito de sodio, sodium metabisulfite, E223
+- ácido carmínico / carminic acid · ácido carmínico, carminic acid, INS 120, E120
+- aroma frambuesa / raspberry flavouring · aroma frambuesa, raspberry flavouring, raspberry flavoring
+- vainillina / vanillin · vainillina, vanillin
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/5796440133488-sonrisas/)  
+**Fuente de imagen / Image source:** [Super MaMi / Dino Online](https://www.supermami.com.ar/super/producto/galletas-sonrisas-x-108-gr/_/A-2142219-2142219-s)
+
+### Dulce de Leche Clásico La Serenísima
+
+- **ID:** `serenisima-dulce-leche-clasico-ar-1kg`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.jumbo.com.ar/dulce-de-leche-clasico-x-1-kg-la-serenisima/p)
+- **Marca / Brand:** La Serenísima
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 1 kg
+- **Categoría / Category:** `dulce_de_leche`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Dulce de leche clásico en pote de un kilo.
+- **Description (EN):** Classic dulce de leche in a one-kilogram tub.
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche, azúcar, glucosa, conservante (sorbato de potasio), aromatizante (artificial vainilla).
+
+**Respuestas aceptadas / Accepted answers**
+
+- leche / milk · leche, milk
+- azúcar / sugar · azúcar, sugar
+- glucosa / glucose · glucosa, glucose
+- sorbato de potasio / potassium sorbate · sorbato de potasio, potassium sorbate, E202
+- aromatizante artificial de vainilla / artificial vanilla flavouring · aromatizante artificial de vainilla, artificial vanilla flavouring, artificial vanilla flavoring, vainilla artificial
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790742104304-dulce-de-leche-clasico/)  
+**Fuente de imagen / Image source:** [Jumbo](https://www.jumbo.com.ar/dulce-de-leche-clasico-x-1-kg-la-serenisima/p)
+
+### Yerba Mate Playadito
+
+- **ID:** `playadito-yerba-mate-ar-500g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://mate-ufa.com/mate/66-playadito-1kg.html)
+- **Marca / Brand:** Playadito · Cooperativa Liebig
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 500 g
+- **Categoría / Category:** `yerba_mate`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Yerba mate argentina tradicional elaborada con palo.
+- **Description (EN):** Traditional Argentine yerba mate blend with stems.
+
+**Ingredientes declarados / Declared ingredients**
+
+100% yerba mate (Ilex paraguariensis). Sin aditivos.
+
+**Respuestas aceptadas / Accepted answers**
+
+- yerba mate / yerba mate · yerba mate, yerba mate, Ilex paraguariensis, mate
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7793704000911-playadito/)  
+**Fuente de imagen / Image source:** [Mate-UFA](https://mate-ufa.com/mate/66-playadito-1kg.html)
+
+### Yerba Mate Amanda Tradicional
+
+- **ID:** `amanda-yerba-mate-tradicional-ar-500g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.cebate.pt/pt/yerba-mate/139-yerba-mate-tradicional-amanda-500gr-7792710000182.html)
+- **Marca / Brand:** Amanda
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 500 g
+- **Categoría / Category:** `yerba_mate`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Yerba mate tradicional argentina elaborada con palo.
+- **Description (EN):** Traditional Argentine yerba mate blend with stems.
+
+**Ingredientes declarados / Declared ingredients**
+
+Yerba mate (Ilex paraguariensis).
+
+**Respuestas aceptadas / Accepted answers**
+
+- yerba mate / yerba mate · yerba mate, yerba mate, Ilex paraguariensis, mate
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7792710000182-yerba-mate-tradicional/)  
+**Fuente de imagen / Image source:** [Cebate](https://www.cebate.pt/pt/yerba-mate/139-yerba-mate-tradicional-amanda-500gr-7792710000182.html)
+
+### Mayonesa Clásica Hellmann's
+
+- **ID:** `hellmanns-mayonesa-clasica-ar`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058)
+- **Marca / Brand:** Hellmann's · Unilever
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** Presentación argentina; tamaño no especificado en la página oficial
+- **Categoría / Category:** `mayonnaise`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Mayonesa clásica argentina con huevo y aceite vegetal.
+- **Description (EN):** Argentine classic mayonnaise made with egg and vegetable oil.
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua, aceite vegetal, huevo líquido, almidón modificado, azúcar, vinagre de alcohol, sal, jugo de limón concentrado, estabilizante: goma xántica, acidulante: ácido fosfórico, conservador: ácido sórbico, aromatizantes idénticos a los naturales y natural, secuestrante: EDTA disódico cálcico y colorante: betacaroteno.
+
+**Respuestas aceptadas / Accepted answers**
+
+- agua / water · agua, water
+- aceite vegetal / vegetable oil · aceite vegetal, vegetable oil
+- huevo líquido / liquid egg · huevo líquido, liquid egg, huevo, egg
+- almidón modificado / modified starch · almidón modificado, modified starch
+- azúcar / sugar · azúcar, sugar
+- vinagre de alcohol / alcohol vinegar · vinagre de alcohol, alcohol vinegar
+- sal / salt · sal, salt
+- jugo de limón concentrado / concentrated lemon juice · jugo de limón concentrado, concentrated lemon juice, concentrated lemon
+- goma xántica / xanthan gum · goma xántica, xanthan gum, E415
+- ácido fosfórico / phosphoric acid · ácido fosfórico, phosphoric acid, E338
+- ácido sórbico / sorbic acid · ácido sórbico, sorbic acid, E200
+- aromatizantes / flavourings · aromatizantes, flavourings, flavorings
+- EDTA disódico cálcico / calcium disodium EDTA · EDTA disódico cálcico, calcium disodium EDTA, E385
+- betacaroteno / beta-carotene · betacaroteno, beta-carotene, E160a
+
+**Fuente de ingredientes / Ingredient source:** [Hellmann's Argentina](https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058)  
+**Fuente de imagen / Image source:** [Hellmann's Argentina / Unilever](https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058)
