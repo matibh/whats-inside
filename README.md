@@ -4,7 +4,7 @@ A fast bilingual daily game about guessing the ingredients in real food products
 
 ## Current catalog
 
-- **192 curated products**: 72 Argentina-market products and 120 international products.
+- **195 curated products**: 75 Argentina-market products and 120 international products.
 - Spanish and English ingredient answers, with accepted aliases.
 - Real product/package photos with separate image-source records.
 - Ingredient statements and image provenance are tracked in `data/sources.json` and `data/sources-world.json`.
