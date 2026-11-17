@@ -1,4 +1,4 @@
-# WHAT'S INSIDE? — Registro maestro de productos / Master product register
+# Ingredora — Registro maestro de productos / Master product register
 
 Documento humano de control editorial. Los JSON siguen siendo los datos que consume el juego; este Markdown permite auditar productos, ingredientes aceptados y fuentes. Actualizarlo en cada tanda.
 
