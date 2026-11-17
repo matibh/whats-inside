@@ -40,13 +40,13 @@ Edge Functions:
 - `submit-practice`
 - `leaderboard`
 
-The matching source files and applied migrations are tracked under `supabase/`. The database has no product or challenge seed data yet, so these endpoints are backend foundations and the new experience is not live.
+The matching source files and applied migrations are tracked under `supabase/`. The 200 existing products and 2,933 ingredient records have been imported for Practice (public-safe metadata in `public.products`, answer records in `private.product_answers`). All existing products are marked `daily_eligible = false` because their answers have already been exposed in the public repository. No Daily challenges have been scheduled, and the new frontend is not live.
 
 ### Critical answer-key security requirement
 
 This GitHub repository is currently **public**. Ingredient answers and aliases exist in the current catalog JSON files and in the repository's Git history (including the master catalog). Copying those answers into Supabase's private schema does not remove the public copies.
 
-**Do not launch a competitive Daily while the repository or its history exposes answer keys.** Before seeding the protected catalog and scheduling challenges, choose a secure source for the full catalog (for example, a separate private repository or a deliberate repository privacy/history migration). Repository visibility and Git history must not be changed without an explicit decision from the owner.
+**Do not launch a competitive Daily while the repository or its history exposes answer keys.** Before creating a separate Daily-eligible product pool and scheduling challenges, choose a secure source for the full catalog (for example, a separate private repository or a deliberate repository privacy/history migration). Repository visibility and Git history must not be changed without an explicit decision from the owner.
 
 Never commit database passwords, Supabase secret/service-role keys, or other private credentials. The browser may use only the publishable key.
 
