@@ -6229,3 +6229,109 @@ Milk chocolate (sugar, cocoa butter, chocolate, skim milk, milkfat, lactose, pea
 ## Argentina catalog expansion — 17 November 2026 (5-product batch; 30-product milestone)
 
 Added five Argentina-market products: Havanna Alfajor Chocolate Clásico (55 g unit; barcode 7791875000440), Yogurísimo Bebible Frutilla (1 L; barcode 7790742567024), Vacalin Dulce de Leche Original (400 g; barcode 7790616000411), Arcor Turrón & Maní (25 g; EAN-8 77940131), and Baggio Pronto Multifruta (1 L; barcode 7790036974453). Ingredient statements are transcribed from public Open Food Facts records surfaced through ShelfPedia / FoodNutriFacts; Vacalin's base recipe is also supported by the manufacturer's technical sheet. Product photos are real package images from retailers. Every record includes Spanish and English accepted answers, aliases, market, and separate ingredient/image source references. Packaging remains the final authority where formulations change.
+
+
+### Alfajor Havanna Chocolate Clásico
+
+- **ID:** `havanna-alfajor-chocolate-clasico-ar-55g`
+- **Foto real / Real photo:** [Ver envase / View package](https://saboraustral.com.au/cdn/shop/files/AlfajorHavannaUnidad.png?v=1770893973&width=1946) · [Fuente / Source](https://saboraustral.com.au/products/alfajor-havana-chocolate-clasico-x1-un)
+- **Marca / Brand:** Havanna
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 55 g unidad (caja de 12 unidades, 660 g)
+- **Categoría / Category:** `chocolate_alfajor`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Alfajor clásico relleno de dulce de leche y cubierto con chocolate.
+- **Description (EN):** Classic chocolate-coated alfajor filled with dulce de leche.
+
+**Ingredientes declarados / Declared ingredients**
+
+Dulce de leche [leche, azúcar, glucosa, bicarbonato de sodio, sorbato de potasio, vainillina], harina de trigo enriquecida [hierro, niacina, tiamina, ácido fólico, riboflavina], cobertura de chocolate [lecitina de soja], azúcar, margarina, huevo, glucosa, fécula de maíz, miel, cacao en polvo, sal, sorbitol, bicarbonato de sodio, bicarbonato de amonio, esencia natural de limón, esencia artificial de almendra, vainillina.
+
+**Fuente / Source:** [FoodNutriFacts / Open Food Facts](https://www.foodnutrifacts.com/products/havanna-alfajores-chocolate-cl-sico-7791875000440)  
+**Tipo / Type:** `packaging_transcription_secondary`  
+**Alcance / Supports:** Public ingredient declaration and barcode 7791875000440; the source identifies a 55 g unit in a 660 g box.
+
+### Yogurísimo Bebible Frutilla
+
+- **ID:** `yogurisimo-bebible-frutilla-ar-1l`
+- **Foto real / Real photo:** [Ver envase / View package](https://jumboargentina.vtexassets.com/arquivos/ids/602255/Yogurt-Entero-Yogurt-simo-Bebible-Frutilla-1-L-1-25643.jpg?v=637353912168900000) · [Fuente / Source](https://www.jumbo.com.ar/yogur-entero-yogurisimo-bebible-tetra-frutilla-x-1litro/p)
+- **Marca / Brand:** La Serenísima
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 1 litro
+- **Categoría / Category:** `drinkable_yogurt`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Yogur entero bebible sabor frutilla.
+- **Description (EN):** Full-fat strawberry drinkable yogurt.
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche parcialmente descremada reducida en lactosa fortificada con calcio, jugo de frutilla, sólidos lácteos, maltodextrina, azúcar, vitamina C, ácido láctico, ácido málico, saborizante, goma gellan, carboximetilcelulosa, pectina y carmín.
+
+**Fuente / Source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790742567024-yogurt-bebible/)  
+**Tipo / Type:** `packaging_transcription_secondary`  
+**Alcance / Supports:** Ingredient declaration and barcode 7790742567024 for the 1 L strawberry drinkable yogurt.
+
+### Dulce de Leche Vacalin Original
+
+- **ID:** `vacalin-dulce-de-leche-original-ar-400g`
+- **Foto real / Real photo:** [Ver envase / View package](https://masonlineprod.vtexassets.com/arquivos/ids/321579/Dulce-De-Leche-Vacal-n-400-G-1-56646.jpg?v=638500233691530000) · [Fuente / Source](https://www.masonline.com.ar/dulce-de-leche-vacalin-400-g-2/p)
+- **Marca / Brand:** Vacalin
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 400 g
+- **Categoría / Category:** `dulce_de_leche`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Dulce de leche argentino clásico.
+- **Description (EN):** Traditional Argentine milk caramel spread.
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche entera, azúcar, glucosa, aromatizante sabor vainilla y conservante sorbato de potasio (INS 202).
+
+**Fuente / Source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790616000411-dulce-de-leche/) · [Ficha técnica oficial Vacalin](https://www.vacalin.com.ar/img_subcategorias/090914283978_FichaTEC-DDLOriginal2024.pdf)  
+**Tipo / Type:** `packaging_transcription_secondary` + manufacturer technical sheet  
+**Alcance / Supports:** Label transcription and barcode 7790616000411; the manufacturer sheet supports the base recipe and package range.
+
+### Turrón & Maní Arcor
+
+- **ID:** `arcor-turron-mani-ar-25g`
+- **Foto real / Real photo:** [Ver envase / View package](https://masonlineprod.vtexassets.com/arquivos/ids/319688/front-view-506.jpg?v=639059036328270000) · [Fuente / Source](https://www.masonline.com.ar/turron-de-mani-arcor-25-gr-2/p)
+- **Marca / Brand:** Arcor
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 25 g
+- **Categoría / Category:** `peanut_nougat`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Turrón blando de maní con jarabe de glucosa.
+- **Description (EN):** Soft peanut nougat bar with glucose syrup.
+
+**Ingredientes declarados / Declared ingredients**
+
+Jarabe de glucosa, harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, maní tostado (10%), aceite de girasol, proteína vegetal hidrolizada, sal, lecitina de soja, gelatina, bicarbonato de sodio y aroma artificial.
+
+**Fuente / Source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/77940131-turron-mani/)  
+**Tipo / Type:** `packaging_transcription_secondary`  
+**Alcance / Supports:** Ingredient declaration and EAN-8 77940131 for Arcor Turrón & Maní 25 g.
+
+### Baggio Pronto Multifruta
+
+- **ID:** `baggio-pronto-multifruta-ar-1l`
+- **Foto real / Real photo:** [Ver envase / View package](https://acdn-us.mitiendanube.com/stores/004/462/347/products/el-granero-141-ed55ae6938d339d71816624915194813-1024-1024-d1759abde3153bc9a317144338412089-1024-1024.webp) · [Fuente / Source](https://superastorga.com.ar/productos/baggio-x-1l-jugo-multifruta/)
+- **Marca / Brand:** Baggio
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 1 litro
+- **Categoría / Category:** `multifruit_juice_drink`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Bebida multifruta con banana, durazno, naranja y ananá.
+- **Description (EN):** Multifruit juice drink with banana, peach, orange and pineapple.
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua, puré de banana, pulpa concentrada de durazno, jugo concentrado de naranja, jugo concentrado de ananá, vitamina C, ácido cítrico, citrato de sodio, eritorbato de sodio, ácido ascórbico, sucralosa y glucósidos de esteviol.
+
+**Fuente / Source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790036974453-pronto/)  
+**Tipo / Type:** `packaging_transcription_secondary`  
+**Alcance / Supports:** Ingredient declaration and barcode 7790036974453 for Baggio Pronto 1 L multifruit juice drink.
