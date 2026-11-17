@@ -1351,6 +1351,78 @@
       "url": "https://jumboargentina.vtexassets.com/arquivos/ids/837595/Galletitas-Dulces-Sabor-Leche-Cuisine-Co-Nbe-Galletitas-Dulces-Sabor-Leche-Cuisine-X-260-Gr-1-1014935.jpg?v=638645169637670000",
       "supports": "Real front package photograph of Cuisine & Co Galletitas Sabor Leche 260 g; matching Vea listing.",
       "market": "Argentina"
+    },
+    {
+      "id": "gallo-chips-jamon-150g-ar-ingredients",
+      "productId": "gallo-chips-jamon-150g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/chips-gallo-snacks-arroz-jamon-x150g/p",
+      "supports": "Ingredient declaration for Gallo Snacks Chips flavour ham 150 g. The final repeated milk term is treated as an allergen declaration; soy appears only in may-contain and is excluded.",
+      "market": "Argentina"
+    },
+    {
+      "id": "gallo-chips-jamon-150g-ar-image",
+      "productId": "gallo-chips-jamon-150g-ar",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/310554/Chips-Gallo-Snacks-Sabor-Jam-n-150-G-1-52342.jpg?v=638385429808870000",
+      "supports": "Real package photograph of Gallo Snacks Chips ham flavour 150 g; matching listing: https://www.masonline.com.ar/chips-gallo-snacks-sabor-jamon-150-g-2/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "don-satur-pepas-membrillo-300g-ar-ingredients",
+      "productId": "don-satur-pepas-membrillo-300g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/pepas-don-satur-x300gr/p",
+      "supports": "Ingredient declaration for Don Satur Pepas 300 g. Wheat derivatives and sulfites are listed as allergen declarations and excluded from accepted answers; soy is only may-contain.",
+      "market": "Argentina"
+    },
+    {
+      "id": "don-satur-pepas-membrillo-300g-ar-image",
+      "productId": "don-satur-pepas-membrillo-300g-ar",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/318634/Galletitas-Dulces-Pepas-Don-Satur-300-G-1-55556.jpg?v=638464485701700000",
+      "supports": "Real front package photograph of Don Satur Pepas 300 g; matching listing: https://www.masonline.com.ar/galletitas-dulces-pepas-don-satur-300-g-2/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "trio-pepas-membrillo-500g-ar-ingredients",
+      "productId": "trio-pepas-membrillo-500g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/pepas-trio-500-gr/p",
+      "supports": "Ingredient declaration for Trio Pepas quince 500 g. The final milk and wheat/soy derivatives are allergen declarations and are not scored separately.",
+      "market": "Argentina"
+    },
+    {
+      "id": "trio-pepas-membrillo-500g-ar-image",
+      "productId": "trio-pepas-membrillo-500g-ar",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/216859/front-view-10991.jpg?v=637854080964130000",
+      "supports": "Real package photograph of Trio Pepas 500 g family pack; matching listing: https://www.masonline.com.ar/galletitas-pepas-trio-500-gr-2/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "smams-pepas-membrillo-150g-ar-ingredients",
+      "productId": "smams-pepas-membrillo-150g-ar",
+      "publisher": "Smams (manufacturer)",
+      "sourceType": "manufacturer_ingredient_declaration",
+      "url": "https://www.smams.ar/index.php/productos/pepas-membrillo-detail",
+      "supports": "Manufacturer's official ingredient declaration for Smams Pepas Membrillo 150 g. Used instead of retailer text where formulations differed; precautionary traces are excluded.",
+      "market": "Argentina"
+    },
+    {
+      "id": "smams-pepas-membrillo-150g-ar-image",
+      "productId": "smams-pepas-membrillo-150g-ar",
+      "publisher": "Rojas Gluten Free",
+      "sourceType": "retailer_product_image",
+      "url": "https://acdn-us.mitiendanube.com/stores/093/780/products/smamspepasmembrillo-4797139780ec7b151e17533738307303-1024-1024.webp",
+      "supports": "Real package photograph of Smams Pepas Membrillo 150 g, matching the product name and package size; listing: https://rojasglutenfree.com/productos/pepas-de-membrillo-150gr-smams/",
+      "market": "Argentina"
     }
   ]
 }
