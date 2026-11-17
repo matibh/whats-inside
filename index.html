@@ -106,11 +106,45 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 @media(min-width:900px){.shell{padding-top:28px}.intro{padding-top:58px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
 
+
+/* Dark theme */
+:root[data-theme="dark"]{
+ color-scheme:dark;
+ --paper:#111713;--ink:#edf2e9;--muted:#9ba99b;--line:#303d33;
+ --card:#1a241d;--green:#a9d86a;--red:#ff887c;
+}
+:root[data-theme="dark"] body{background:var(--paper);color:var(--ink)}
+:root[data-theme="dark"] .product-photo{background:#222e25}
+:root[data-theme="dark"] .timer:before{background:var(--paper)}
+:root[data-theme="dark"] .timer{background:conic-gradient(var(--green) var(--progress,100%),#354438 0)}
+:root[data-theme="dark"] .input-wrap{border-color:#647566;box-shadow:0 2px 0 #00000030}
+:root[data-theme="dark"] .input-wrap:focus-within{box-shadow:0 0 0 3px #718b3b}
+:root[data-theme="dark"] #ingredientInput::placeholder{color:#849287}
+:root[data-theme="dark"] .chip{background:#293d2c;color:#c5efa0}
+:root[data-theme="dark"] .chip.bad{background:#482c2a;color:#ffaaa0}
+:root[data-theme="dark"] .answer{background:#293d2c;color:#c5efa0}
+:root[data-theme="dark"] .answer.missed{background:#30372f;color:#b5b9aa}
+:root[data-theme="dark"] .empty{color:#879387}
+:root[data-theme="dark"] .btn{background:#d7f36a;color:#172014}
+:root[data-theme="dark"] .btn.primary{background:#d7f36a;color:#172014;box-shadow:0 3px 0 #9bb944}
+:root[data-theme="dark"] .btn.ghost{background:transparent;color:var(--muted);border-color:var(--line)}
+:root[data-theme="dark"] .lang{color:var(--ink);border-color:var(--line)}
+:root[data-theme="dark"] .lang:hover{background:#263329;border-color:#536553}
+:root[data-theme="dark"] .region-option{background:var(--card);color:var(--muted);border-color:var(--line)}
+:root[data-theme="dark"] .region-option.active{background:#d7f36a;border-color:#b6d24e;color:#20231f;box-shadow:0 2px 0 #9bb944}
+:root[data-theme="dark"] .product-card,:root[data-theme="dark"] .result-box{box-shadow:0 8px 28px #00000025}
+:root[data-theme="dark"] .countdown,:root[data-theme="dark"] .percent{color:var(--green)}
+.theme-toggle{border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:99px;min-height:38px;padding:7px 11px;font-size:16px;line-height:1;display:inline-flex;align-items:center;justify-content:center;gap:6px;transition:background .15s,border-color .15s}
+.theme-toggle:hover{background:#eeeedf;border-color:#b8b9a9}
+:root[data-theme="dark"] .theme-toggle:hover{background:#263329;border-color:#536553}
+.top-controls{display:flex;align-items:center;gap:8px}
+@media(max-width:360px){.top-controls{gap:5px}.theme-toggle{padding:7px 9px;min-width:36px}.lang{padding:7px 9px}}
+
 </style>
 </head>
 <body>
 <div class="shell">
-<header class="top"><div class="brand">WHAT'S <span>INSIDE?</span></div><button class="lang" id="langBtn" aria-label="Change language">ESPAÑOL</button></header>
+<header class="top"><div class="brand">WHAT'S <span>INSIDE?</span></div><div class="top-controls"><button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button><button class="lang" id="langBtn" aria-label="Change language">ESPAÑOL</button></div></header>
 <section class="intro" id="intro"><div class="eyebrow" data-i18n="kicker">THE 15-SECOND FOOD GAME</div><h1 data-i18n="headline">YOU KNOW<br>WHAT'S <em>INSIDE?</em></h1><p data-i18n="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
 <section class="start-panel" id="startPanel"><div class="region-switch" role="group" aria-label="Choose catalog"><button class="region-option active" id="regionArgentina" aria-pressed="true" data-i18n="regionArgentina">🇦🇷 ARGENTINA</button><button class="region-option" id="regionWorld" aria-pressed="false" data-i18n="regionWorld">🌎 WORLD</button></div><div class="eyebrow" id="dailyChallenge" data-i18n="daily">TODAY'S CHALLENGE · #001</div><button class="btn primary" id="startBtn" data-i18n="start" disabled>START PLAYING ↗</button><div class="rules"><span class="rule"><i class="dot"></i><span data-i18n="rule1">15 SECONDS</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule2">ENGLISH + ESPAÑOL</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule3">TYPE A COMMA TO ADD</span></span></div></section>
 <section class="game" id="game">
@@ -128,6 +162,29 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 </div>
 <script>
 const $=id=>document.getElementById(id);
+
+const THEME_KEY='whats-inside-theme';
+function applyTheme(theme){
+ const dark=theme==='dark';
+ document.documentElement.dataset.theme=dark?'dark':'light';
+ const button=$('themeBtn');
+ if(button){
+  button.textContent=dark?'☀️':'🌙';
+  button.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
+  button.title=dark?'Switch to light mode':'Switch to dark mode';
+ }
+ const meta=document.querySelector('meta[name="theme-color"]');
+ if(meta)meta.content=dark?'#111713':'#f7f5ef';
+}
+let savedTheme='dark';
+try{savedTheme=localStorage.getItem(THEME_KEY)||'dark'}catch(e){}
+applyTheme(savedTheme);
+$('themeBtn').onclick=()=>{
+ const next=document.documentElement.dataset.theme==='dark'?'light':'dark';
+ applyTheme(next);
+ try{localStorage.setItem(THEME_KEY,next)}catch(e){}
+};
+
 const words={
 en:{kicker:'THE 15-SECOND FOOD GAME',headline:'YOU KNOW<br>WHAT\'S <em>INSIDE?</em>',subhead:'One real product. Fifteen seconds. How many ingredients can you name?',daily:'TODAY\'S CHALLENGE · #001',regionArgentina:'🇦🇷 ARGENTINA',regionWorld:'🌎 WORLD',start:'START PLAYING ↗',rule1:'15 SECONDS',rule2:'ENGLISH + ESPAÑOL',rule3:'TYPE A COMMA TO ADD',productLabel:'THE PRODUCT',productDesc:'Hazelnut cocoa spread · Can you guess what\'s inside?',timeLeft:'Time left',commaHint:'Type an ingredient, then a comma',points:'POINTS',prompt:'What\'s inside?',inputHint:'Separate each ingredient with a comma. English or Spanish both work.',found:'INGREDIENTS FOUND',nothingYet:'Nothing yet. Go!',finish:'FINISH EARLY',noPause:'NO PAUSES. JUST INSTINCT.',timeUp:'TIME\'S UP',resultTitle:'NICE TRY.',youFound:'YOU FOUND',youMissed:'YOU MISSED',share:'SHARE RESULT ↗',again:'PLAY AGAIN',foundCount:n=>n+' of '+ingredients.length+' ingredients found',good:'Correct! +100',bad:'Not in this one',duplicate:'Already found!',shared:'Result copied!',score:n=>n+' POINTS',headlineUnused:''},
 es:{kicker:'EL JUEGO DE COMIDA DE 15 SEGUNDOS',headline:'¿SABÉS QUÉ<br>HAY <em>ADENTRO?</em>',subhead:'Un producto real. Quince segundos. ¿Cuántos ingredientes podés nombrar?',daily:'DESAFÍO DE HOY · #001',regionArgentina:'🇦🇷 ARGENTINA',regionWorld:'🌎 MUNDO',start:'EMPEZAR A JUGAR ↗',rule1:'15 SEGUNDOS',rule2:'ESPAÑOL + ENGLISH',rule3:'PONÉ UNA COMA PARA AGREGAR',productLabel:'EL PRODUCTO',productDesc:'Crema de cacao y avellanas · ¿Qué ingredientes tiene?',timeLeft:'Tiempo restante',commaHint:'Escribí un ingrediente y después una coma',points:'PUNTOS',prompt:'¿Qué hay adentro?',inputHint:'Separá cada ingrediente con una coma. Podés usar español o inglés.',found:'INGREDIENTES ENCONTRADOS',nothingYet:'Todavía ninguno. ¡Vamos!',finish:'TERMINAR',noPause:'SIN PAUSAS. SOLO INSTINTO.',timeUp:'SE ACABÓ EL TIEMPO',resultTitle:'¡BUEN INTENTO!',youFound:'ENCONTRASTE',youMissed:'TE FALTARON',share:'COMPARTIR RESULTADO ↗',again:'JUGAR DE NUEVO',foundCount:n=>n+' de '+ingredients.length+' ingredientes encontrados',good:'¡Correcto! +100',bad:'Ese no está',duplicate:'¡Ya lo encontraste!',shared:'¡Resultado copiado!',score:n=>n+' PUNTOS'}
