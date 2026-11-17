@@ -7523,7 +7523,7 @@ Added three products with matching package photographs and separately recorded i
 
 **Declared ingredients / Ingredientes declarados**
 
-Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso, sulfitos. La página también enumera derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.
+Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso, sulfitos. La página también enumera sulfitos y derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.
 
 **Accepted answers / Respuestas aceptadas**
 
@@ -7545,7 +7545,6 @@ Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite d
 - lecitina de soja / soy lecithin · lecitina de soja, soy lecithin
 - metabisulfito de sodio / sodium metabisulfite · metabisulfito de sodio, sodium metabisulfite
 - aromatizante artificial sabor queso / artificial cheese flavouring · aromatizante artificial sabor queso, artificial cheese flavouring, aroma queso, cheese flavouring
-- sulfitos / sulfites · sulfitos, sulfites
 
 **Ingredient source:** [Bagley · Kesitas listing](https://www.jumbo.com.ar/galletitas-kesitas-75-gr/p)  
 **Image source:** [OnCity](https://www.oncity.com/galletitas-kesitas-snack-saladas-con-queso-paquete-75-grs-95876/p)
