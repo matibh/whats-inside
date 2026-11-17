@@ -2,13 +2,13 @@
 
 A bilingual 15-second food-ingredient game: see a real packaged product and name as many of its ingredients as possible.
 
-## Current catalog
+## Catalog architecture
 
-- **200 curated products**: 80 Argentina-market products and 120 international products.
-- Spanish and English ingredient answers, with accepted aliases.
-- Product images and their provenance are tracked separately from ingredient declarations.
-- Argentina and World catalogs currently live in `data/products.json` and `data/products-world.json`.
-- Product additions are curated; Open Food Facts is a discovery aid, not a live runtime dependency.
+- The canonical editorial catalog is maintained in the private repository: [matibh/whats-inside-catalog](https://github.com/matibh/whats-inside-catalog).
+- It contains the bilingual master register, Argentina and World product JSON files, and their ingredient / image source registries.
+- This public repository retains the historical 200-product catalog (80 Argentina, 120 World) for Practice compatibility and audit history. Its answers have been public in files and Git history; these products are permanently Practice-only and must never be made Daily-eligible.
+- New products intended for competitive Daily must be curated in the private catalog, imported into Supabase's protected answer store, and exposed to the browser only as safe metadata.
+- Whenever a batch is added or corrected, update the private JSON catalogs, source registries, and `data/catalog-master.md` together.
 
 ## Current game
 
@@ -40,13 +40,13 @@ Edge Functions:
 - `submit-practice`
 - `leaderboard`
 
-The matching source files and applied migrations are tracked under `supabase/`. The 200 existing products and 2,933 ingredient records have been imported for Practice (public-safe metadata in `public.products`, answer records in `private.product_answers`). All existing products are marked `daily_eligible = false` because their answers have already been exposed in the public repository. No Daily challenges have been scheduled, and the new frontend is not live.
+The matching source files and applied migrations are tracked under `supabase/`. The 200 historical products and 2,933 ingredient records have been imported for Practice (public-safe metadata in `public.products`, answer records in `private.product_answers`). All historical products have `daily_eligible = false`. No Daily challenges have been scheduled, and the new frontend is not live.
 
 ### Critical answer-key security requirement
 
-This GitHub repository is currently **public**. Ingredient answers and aliases exist in the current catalog JSON files and in the repository's Git history (including the master catalog). Copying those answers into Supabase's private schema does not remove the public copies.
+The public repository still contains the historical answer-bearing catalog files and their Git history. Moving the canonical catalog to a private repository does not erase those public copies.
 
-**Do not launch a competitive Daily while the repository or its history exposes answer keys.** Before creating a separate Daily-eligible product pool and scheduling challenges, choose a secure source for the full catalog (for example, a separate private repository or a deliberate repository privacy/history migration). Repository visibility and Git history must not be changed without an explicit decision from the owner.
+**Do not launch a competitive Daily using any of the historical 200 products.** New Daily-eligible products must be created privately and imported into Supabase's protected answer store. Do not copy answer keys or aliases into this public repository.
 
 Never commit database passwords, Supabase secret/service-role keys, or other private credentials. The browser may use only the publishable key.
 
