@@ -274,7 +274,7 @@ body{
 }
 
 
-/* Ingredora wordmark: type in, then resolve as a correct ingredient */
+/* Ingredora wordmark: unmistakable character-by-character typewriter */
 .intro{
  display:flex;flex-direction:column;align-items:center;
  padding:clamp(38px,7vh,66px) 0 30px;
@@ -282,72 +282,64 @@ body{
 .intro .eyebrow{
  order:0;display:inline-flex;align-items:center;gap:9px;
  padding:8px 13px;margin:0 0 18px;
- border:1px solid #dce8cf;border-radius:999px;
- background:#f0f6e9;color:#54734a;
+ border:1px solid #c9dfb7;border-radius:999px;
+ background:#edf7e5;color:#294f2e;
  font:800 10px "DM Mono",monospace;letter-spacing:.16em;
 }
 .intro .eyebrow:before{
  content:"";width:7px;height:7px;border-radius:50%;
- background:#91bd45;box-shadow:0 0 0 3px #91bd4522;
+ background:#5caa39;box-shadow:0 0 0 3px #5caa3925;
 }
 .intro h1{
  order:1;position:relative;display:inline-block;
  width:max-content;max-width:100%;white-space:nowrap;overflow:hidden;
- margin:0 0 17px;padding:9px 15px;
- border:1px solid transparent;border-radius:7px;
- background:transparent;color:#245d36;
- font-size:clamp(27px,6vw,39px);font-weight:900;
- line-height:1.15;letter-spacing:-.055em;
+ margin:0 0 17px;padding:9px 34px 9px 15px;
+ border:2px solid #287b3d;border-radius:8px;
+ background:#e0f2d8;color:#174c29;
+ font-size:clamp(29px,6.4vw,43px);font-weight:950;
+ line-height:1.15;letter-spacing:-.045em;
  clip-path:inset(0 100% 0 0);
- animation:ingredoraType 1.35s steps(9,end) .25s forwards,
-           ingredoraCorrect .28s ease 1.62s forwards;
+ animation:ingredoraType 2.25s steps(9,end) .35s forwards;
 }
 .intro h1:before{
- content:"";position:absolute;right:7px;top:50%;
- height:62%;width:2px;background:#4c9858;
+ content:"";position:absolute;right:20px;top:50%;
+ height:58%;width:3px;border-radius:2px;background:#174c29;
  transform:translateY(-50%);
- animation:ingredoraCaret .65s steps(1,end) 3;
+ animation:ingredoraCaret .55s steps(1,end) 4;
 }
 .intro h1:after{
- content:"✓";position:absolute;right:-22px;top:50%;
- color:#245d36;font-size:.52em;font-weight:900;
- opacity:0;transform:translateY(-50%) scale(.5);
- animation:ingredoraCheck .3s cubic-bezier(.2,.8,.2,1) 1.72s forwards;
+ content:"✓";position:absolute;right:9px;top:50%;
+ color:#174c29;font-size:.58em;font-weight:1000;
+ opacity:0;transform:translateY(-50%) scale(.45);
+ animation:ingredoraCheck .32s cubic-bezier(.2,.8,.2,1) 2.72s forwards;
 }
-@keyframes ingredoraType{
- to{clip-path:inset(0 0 0 0)}
-}
-@keyframes ingredoraCorrect{
- to{background:#e5f0d9;border-color:#79b889;box-shadow:0 2px 0 #d2e6c5}
-}
-@keyframes ingredoraCaret{
- 0%,49%{opacity:1}50%,100%{opacity:0}
-}
+@keyframes ingredoraType{to{clip-path:inset(0 0 0 0)}}
+@keyframes ingredoraCaret{0%,49%{opacity:1}50%,100%{opacity:0}}
 @keyframes ingredoraCheck{
- to{opacity:1;right:9px;transform:translateY(-50%) scale(1)}
+ 0%{opacity:0;right:9px;transform:translateY(-50%) scale(.45)}
+ 70%{opacity:1;right:9px;transform:translateY(-50%) scale(1.2)}
+ 100%{opacity:1;right:9px;transform:translateY(-50%) scale(1)}
 }
-.intro p{order:2;margin:0 auto;max-width:420px;color:#69796d;font-size:15px;line-height:1.6}
+.intro p{order:2;margin:0 auto;max-width:420px;color:#53665a;font-size:15px;line-height:1.6}
 :root[data-theme="dark"] .intro .eyebrow{
- background:#263729;border-color:#3c5140;color:#c1dfa0;
+ background:#263d2a;border-color:#55784b;color:#e0f4ce;
 }
 :root[data-theme="dark"] .intro h1{
- color:#c5efa0;animation-name:ingredoraType,ingredoraCorrectDark;
+ background:#294b32;color:#e4ffd3;border-color:#83bd70;
 }
-@keyframes ingredoraCorrectDark{
- to{background:#294632;border-color:#648d67;box-shadow:0 2px 0 #213a29}
-}
-:root[data-theme="dark"] .intro h1:before{background:#c5efa0}
-:root[data-theme="dark"] .intro h1:after{color:#c5efa0}
+:root[data-theme="dark"] .intro h1:before{background:#e4ffd3}
+:root[data-theme="dark"] .intro h1:after{color:#e4ffd3}
+:root[data-theme="dark"] .intro p{color:#b4c4b4}
 @media(max-width:600px){
  .intro{padding:38px 0 22px}
  .intro .eyebrow{font-size:9px;margin-bottom:16px;padding:7px 11px}
- .intro h1{font-size:clamp(25px,7vw,33px);padding:8px 13px}
+ .intro h1{font-size:clamp(27px,7.5vw,36px);padding:8px 31px 8px 12px}
  .intro p{font-size:14px;max-width:320px}
 }
 @media(prefers-reduced-motion:reduce){
- .intro h1{clip-path:none;animation:none;background:#e5f0d9;border-color:#79b889}
+ .intro h1{clip-path:none;animation:none}
  .intro h1:before{display:none}
- .intro h1:after{opacity:1;right:9px;transform:translateY(-50%)}
+ .intro h1:after{opacity:1;transform:translateY(-50%) scale(1)}
 }
 </style>
 </head>
@@ -397,6 +389,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=i18n-audit-20261117"></script>
+<script type="module" src="./app.js?v=ingredora-typewriter-20261117b"></script>
 </body>
 </html>
