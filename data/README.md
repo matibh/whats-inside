@@ -103,3 +103,8 @@ Added 4 additional Argentina-market products with real package images hosted by 
 ## Argentina catalog expansion — 17 November 2026 (fourth batch)
 
 Added Cereal Mix Frutilla y Chía (207 g), Mogul 50% Frutas (50 g), Natural Break Nutritivo (27 g), and Natural Break Energía (30 g). Product photos are official Arcor images. Cereal Mix and Mogul ingredients are secondary package transcriptions; Natural Break mix components are listed in Arcor's manufacturer brochure (the brochure does not enumerate possible processing aids).
+
+
+## Argentina catalog expansion — 17 November 2026 (fifth batch)
+
+Added Águila Extra Fino 60% Cacao (14 g). The ingredient declaration is a retailer transcription of the product label; the real package image is hosted by Arcor. The may-contain statement for almonds and peanuts is kept out of accepted ingredient answers.
