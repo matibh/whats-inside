@@ -140,120 +140,59 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 .top-controls{display:flex;align-items:center;gap:8px}
 @media(max-width:360px){.top-controls{gap:5px}.theme-toggle{padding:7px 9px;min-width:36px}.lang{padding:7px 9px}}
 
+
+.mode-tabs{display:flex;gap:8px;justify-content:center;margin:0 auto 18px}.mode-tab{border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:999px;padding:11px 18px;font-weight:900;font-size:12px}.mode-tab.active{background:var(--lime);color:#20231f;border-color:#b6d24e}.account{display:flex;align-items:center;gap:9px;font-size:11px;color:var(--muted)}.account button,.link-btn{border:0;background:none;color:var(--green);font-weight:800;cursor:pointer}.panel{max-width:590px;margin:0 auto 22px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}.panel h2{margin:0 0 8px;font-size:24px;letter-spacing:-1px}.panel p{color:var(--muted);font-size:13px;line-height:1.5}.filters{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}.filters label,.auth-form label{display:grid;gap:6px;color:var(--muted);font:10px 'DM Mono',monospace;text-transform:uppercase}.filters select,.auth-form input{width:100%;padding:11px;border:1px solid var(--line);border-radius:9px;background:var(--paper);color:var(--ink)}.status{font-size:12px;color:var(--muted);min-height:22px;margin:10px 0}.auth-modal{position:fixed;inset:0;background:#0009;display:none;align-items:center;justify-content:center;padding:18px;z-index:20}.auth-modal.open{display:flex}.auth-form{width:min(100%,390px);background:var(--card);color:var(--ink);padding:24px;border-radius:18px;display:grid;gap:13px}.auth-form h2{margin:0}.auth-form .btn{width:100%}.auth-switch{display:flex;justify-content:space-between;align-items:center;font-size:12px}.rank-row{display:grid;grid-template-columns:34px 1fr auto;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:12px}.rank-row:last-child{border:0}.hidden{display:none!important}#game{margin-top:20px}@media(max-width:480px){.mode-tab{padding:10px 14px;font-size:11px}.panel{padding:16px}.filters{grid-template-columns:1fr}.account{font-size:10px}}
+
 </style>
 </head>
 <body>
 <div class="shell">
-<header class="top"><div class="brand">WHAT'S <span>INSIDE?</span></div><div class="top-controls"><button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button><button class="lang" id="langBtn" aria-label="Change language">ESPAÑOL</button></div></header>
-<section class="intro" id="intro"><div class="eyebrow" data-i18n="kicker">THE 15-SECOND FOOD GAME</div><h1 data-i18n="headline">YOU KNOW<br>WHAT'S <em>INSIDE?</em></h1><p data-i18n="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
-<section class="start-panel" id="startPanel"><div class="region-switch" role="group" aria-label="Choose catalog"><button class="region-option active" id="regionArgentina" aria-pressed="true" data-i18n="regionArgentina">🇦🇷 ARGENTINA</button><button class="region-option" id="regionWorld" aria-pressed="false" data-i18n="regionWorld">🌎 WORLD</button></div><div class="eyebrow" id="dailyChallenge" data-i18n="daily">TODAY'S CHALLENGE · #001</div><button class="btn primary" id="startBtn" data-i18n="start" disabled>START PLAYING ↗</button><div class="rules"><span class="rule"><i class="dot"></i><span data-i18n="rule1">15 SECONDS</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule2">ENGLISH + ESPAÑOL</span></span><span class="rule"><i class="dot"></i><span data-i18n="rule3">TYPE A COMMA TO ADD</span></span></div></section>
-<section class="game" id="game">
-<div class="product-card"><div class="product-photo"><img id="productImage" src="" alt="Product package" style="display:none"><span class="product-placeholder" id="productPlaceholder">🍫</span></div><div class="product-info"><div class="eyebrow" data-i18n="productLabel">MYSTERY PRODUCT</div><h2 id="productName">Nutella</h2><p id="productDesc" data-i18n="productDesc">Hazelnut cocoa spread · Can you guess what's inside?</p></div></div>
-<div class="timer-row"><div class="timer" id="timerRing"><strong id="timer">15</strong></div><div class="timer-copy"><b data-i18n="timeLeft">Time left</b><small data-i18n="commaHint">Type an ingredient, then a comma</small></div><div class="score"><strong id="score">000</strong><small data-i18n="points">POINTS</small></div></div>
-<div class="prompt" data-i18n="prompt">What's inside?</div>
-<div class="input-wrap"><div class="chips" id="chips"></div><input id="ingredientInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sugar, azúcar, milk..." aria-label="Type an ingredient"></div>
-<div class="hint" data-i18n="inputHint">Separate each ingredient with a comma. English or Spanish both work.</div><div class="feedback" id="feedback" aria-live="polite"></div>
-<div class="found-title"><span data-i18n="found">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty" data-i18n="nothingYet">Nothing yet. Go!</span></div>
-<div class="actions"><button class="btn ghost" id="finishBtn" data-i18n="finish">FINISH EARLY</button><span class="eyebrow" data-i18n="noPause">NO PAUSES. JUST INSTINCT.</span></div>
+<header class="top">
+ <div class="brand">WHAT'S <span>INSIDE?</span></div>
+ <div class="top-controls">
+  <div class="account"><span id="accountLabel">GUEST</span><button id="authOpen">SIGN IN</button></div>
+  <button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button>
+  <button class="lang" id="langBtn">ESPAÑOL</button>
+ </div>
+</header>
+<section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline">YOU KNOW<br>WHAT'S <em>INSIDE?</em></h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
+<nav class="mode-tabs" aria-label="Game mode">
+ <button class="mode-tab active" id="dailyTab">DAILY CHALLENGE</button>
+ <button class="mode-tab" id="practiceTab">PRACTICE</button>
+</nav>
+<section class="panel" id="dailyPanel">
+ <div class="eyebrow" id="dailyEyebrow">TODAY'S CHALLENGE</div><h2 id="dailyTitle">One product. Everyone plays the same one.</h2>
+ <p id="dailyDescription">A new shared challenge every day. Your official attempt counts toward the leaderboard and your streak.</p>
+ <div id="dailyProduct" class="product-card hidden"><div class="product-photo"><img id="dailyImage" alt="Mystery product" style="display:none"><span id="dailyPlaceholder" class="product-placeholder">MYSTERY PRODUCT</span></div><div class="product-info"><div class="eyebrow" id="dailyMarket">DAILY PRODUCT</div><h2 id="dailyName"></h2><p id="dailyDesc"></p></div></div>
+ <div class="status" id="dailyStatus">Checking today's challenge…</div>
+ <button class="btn primary" id="dailyStart" disabled>LOADING…</button>
+ <div class="rules"><span class="rule"><i class="dot"></i>15 SECONDS</span><span class="rule"><i class="dot"></i>100 POINTS / INGREDIENT</span><span class="rule"><i class="dot"></i>ONE OFFICIAL TRY</span></div>
+ <div style="text-align:center;margin-top:12px"><button class="link-btn" id="showRanking">VIEW LEADERBOARD</button></div>
 </section>
-<div class="countdown hidden" id="countdown">3</div>
-<section class="result" id="result"><div class="eyebrow" data-i18n="timeUp">TIME'S UP</div><h2 data-i18n="resultTitle">NICE TRY.</h2><div class="percent" id="percent">0%</div><div class="result-sub" id="resultSub">0 of 7 ingredients found</div><div class="result-box"><h3 data-i18n="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 style="margin-top:20px" data-i18n="youMissed">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div><div class="eyebrow" id="finalScore" style="margin-bottom:18px">000 POINTS</div><div class="result-actions"><button class="btn primary" id="shareBtn" data-i18n="share">SHARE RESULT ↗</button><button class="btn ghost" id="againBtn" data-i18n="again">PLAY AGAIN</button></div></section>
+<section class="panel hidden" id="practicePanel">
+ <div class="eyebrow">UNLIMITED PRACTICE</div><h2 id="practiceTitle">Train with the catalog</h2><p id="practiceDescription">Choose a market and category, then pick a product. Practice never changes your Daily score or streak.</p>
+ <div class="filters">
+  <label>MARKET<select id="marketFilter"><option value="all">All markets</option><option value="argentina">Argentina</option><option value="world">World</option></select></label>
+  <label>CATEGORY<select id="categoryFilter"><option value="all">All categories</option></select></label>
+ </div>
+ <label class="eyebrow" for="productSelect">PRODUCT</label><select id="productSelect" style="width:100%;padding:12px;border:1px solid var(--line);border-radius:9px;background:var(--paper);color:var(--ink);margin:8px 0 15px"><option>Loading catalog…</option></select>
+ <div class="status" id="practiceStatus"></div><button class="btn primary" id="practiceStart" disabled>START PRACTICE ↗</button>
+</section>
+<section class="game" id="game">
+ <div class="product-card"><div class="product-photo"><img id="productImage" alt="Product package" style="display:none"><span class="product-placeholder" id="productPlaceholder">MYSTERY PRODUCT</span></div><div class="product-info"><div class="eyebrow" id="productLabel">MYSTERY PRODUCT</div><h2 id="productName"></h2><p id="productDesc"></p></div></div>
+ <div class="timer-row"><div class="timer" id="timerRing"><strong id="timer">15</strong></div><div class="timer-copy"><b id="timeLabel">Time left</b><small id="commaHint">Type an ingredient, then a comma</small></div><div class="score"><strong id="score">000</strong><small>POINTS</small></div></div>
+ <div class="prompt" id="prompt">What's inside?</div><div class="input-wrap"><div class="chips" id="chips"></div><input id="ingredientInput" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="sugar, azúcar, milk..." aria-label="Type an ingredient"></div>
+ <div class="hint" id="inputHint">Separate each ingredient with a comma. English or Spanish both work.</div><div class="feedback" id="feedback" aria-live="polite"></div>
+ <div class="found-title"><span id="foundTitle">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty">Nothing yet. Go!</span></div>
+ <div class="actions"><button class="btn ghost" id="finishBtn">FINISH EARLY</button><span class="eyebrow" id="noPause">NO PAUSES. JUST INSTINCT.</span></div>
+</section>
+<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="percent" id="percent">0%</div><div class="result-sub" id="resultSub"></div>
+ <div class="result-box"><h3 id="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 id="youMissed" style="margin-top:20px">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div>
+ <div class="eyebrow" id="finalScore" style="margin-bottom:18px">000 POINTS</div><div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
+</section>
+<section class="panel hidden" id="rankingPanel"><div class="row" style="display:flex;justify-content:space-between;align-items:center"><h2>Leaderboard</h2><button class="link-btn" id="closeRanking">CLOSE</button></div><div class="filters"><label>SCOPE<select id="rankingScope"><option value="today">Today's Daily</option><option value="all">All-time</option></select></label></div><div id="rankingList" class="status">Loading…</div></section>
 <footer class="footer"><span>© WHAT'S INSIDE?</span><span>MADE FOR THE CURIOUS.</span></footer>
 </div>
-<script>
-const $=id=>document.getElementById(id);
-
-const THEME_KEY='whats-inside-theme';
-function applyTheme(theme){
- const dark=theme==='dark';
- document.documentElement.dataset.theme=dark?'dark':'light';
- const button=$('themeBtn');
- if(button){
-  button.textContent=dark?'☀️':'🌙';
-  button.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');
-  button.title=dark?'Switch to light mode':'Switch to dark mode';
- }
- const meta=document.querySelector('meta[name="theme-color"]');
- if(meta)meta.content=dark?'#111713':'#f7f5ef';
-}
-let savedTheme='dark';
-try{savedTheme=localStorage.getItem(THEME_KEY)||'dark'}catch(e){}
-applyTheme(savedTheme);
-$('themeBtn').onclick=()=>{
- const next=document.documentElement.dataset.theme==='dark'?'light':'dark';
- applyTheme(next);
- try{localStorage.setItem(THEME_KEY,next)}catch(e){}
-};
-
-const words={
-en:{kicker:'THE 15-SECOND FOOD GAME',headline:'YOU KNOW<br>WHAT\'S <em>INSIDE?</em>',subhead:'One real product. Fifteen seconds. How many ingredients can you name?',daily:'TODAY\'S CHALLENGE · #001',regionArgentina:'🇦🇷 ARGENTINA',regionWorld:'🌎 WORLD',start:'START PLAYING ↗',rule1:'15 SECONDS',rule2:'ENGLISH + ESPAÑOL',rule3:'TYPE A COMMA TO ADD',productLabel:'THE PRODUCT',productDesc:'Hazelnut cocoa spread · Can you guess what\'s inside?',timeLeft:'Time left',commaHint:'Type an ingredient, then a comma',points:'POINTS',prompt:'What\'s inside?',inputHint:'Separate each ingredient with a comma. English or Spanish both work.',found:'INGREDIENTS FOUND',nothingYet:'Nothing yet. Go!',finish:'FINISH EARLY',noPause:'NO PAUSES. JUST INSTINCT.',timeUp:'TIME\'S UP',resultTitle:'NICE TRY.',youFound:'YOU FOUND',youMissed:'YOU MISSED',share:'SHARE RESULT ↗',again:'PLAY AGAIN',foundCount:n=>n+' of '+ingredients.length+' ingredients found',good:'Correct! +100',bad:'Not in this one',duplicate:'Already found!',shared:'Result copied!',score:n=>n+' POINTS',headlineUnused:''},
-es:{kicker:'EL JUEGO DE COMIDA DE 15 SEGUNDOS',headline:'¿SABÉS QUÉ<br>HAY <em>ADENTRO?</em>',subhead:'Un producto real. Quince segundos. ¿Cuántos ingredientes podés nombrar?',daily:'DESAFÍO DE HOY · #001',regionArgentina:'🇦🇷 ARGENTINA',regionWorld:'🌎 MUNDO',start:'EMPEZAR A JUGAR ↗',rule1:'15 SEGUNDOS',rule2:'ESPAÑOL + ENGLISH',rule3:'PONÉ UNA COMA PARA AGREGAR',productLabel:'EL PRODUCTO',productDesc:'Crema de cacao y avellanas · ¿Qué ingredientes tiene?',timeLeft:'Tiempo restante',commaHint:'Escribí un ingrediente y después una coma',points:'PUNTOS',prompt:'¿Qué hay adentro?',inputHint:'Separá cada ingrediente con una coma. Podés usar español o inglés.',found:'INGREDIENTES ENCONTRADOS',nothingYet:'Todavía ninguno. ¡Vamos!',finish:'TERMINAR',noPause:'SIN PAUSAS. SOLO INSTINTO.',timeUp:'SE ACABÓ EL TIEMPO',resultTitle:'¡BUEN INTENTO!',youFound:'ENCONTRASTE',youMissed:'TE FALTARON',share:'COMPARTIR RESULTADO ↗',again:'JUGAR DE NUEVO',foundCount:n=>n+' de '+ingredients.length+' ingredientes encontrados',good:'¡Correcto! +100',bad:'Ese no está',duplicate:'¡Ya lo encontraste!',shared:'¡Resultado copiado!',score:n=>n+' PUNTOS'}
-};
-let ingredients=[];
-let currentProduct=null;
-let previousProductId=null;
-let playableProducts=[];
-let lang='en',region='argentina',dailyIndex=0,time=15,score=0,found=new Set(),running=false,timerId=null,buffer='',mistakes=0;
-function tr(key,...args){const v=words[lang][key];return typeof v==='function'?v(...args):v}
-function setLang(){document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(words[lang][k])el.innerHTML=words[lang][k]});$('langBtn').textContent=lang==='en'?'ESPAÑOL':'ENGLISH';$('ingredientInput').placeholder=lang==='en'?'sugar, azúcar, milk...':'azúcar, sugar, leche...';if(currentProduct){$('productDesc').textContent=currentProduct.description[lang]||currentProduct.description.en;updateDailyLabel()}}
-$('langBtn').onclick=()=>{lang=lang==='en'?'es':'en';setLang()};
-function updateRegionButtons(){$('regionArgentina').classList.toggle('active',region==='argentina');$('regionWorld').classList.toggle('active',region==='world');$('regionArgentina').setAttribute('aria-pressed',String(region==='argentina'));$('regionWorld').setAttribute('aria-pressed',String(region==='world'))}
-function updateDailyLabel(){$('dailyChallenge').textContent=(lang==='en'?"TODAY'S CHALLENGE · #":"DESAFÍO DE HOY · #")+String(dailyIndex+1).padStart(3,'0')+(region==='world'?(lang==='en'?' · WORLD':' · MUNDO'):(lang==='en'?' · ARGENTINA':' · ARGENTINA'))}
-$('regionArgentina').onclick=()=>{if(region!=='argentina'){region='argentina';updateRegionButtons();loadProductCatalog()}};
-$('regionWorld').onclick=()=>{if(region!=='world'){region='world';updateRegionButtons();loadProductCatalog()}};
-function normalize(s){return s.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,' ').trim()}
-function processTerm(raw){if(!running)return;const term=normalize(raw);if(!term)return;const idx=ingredients.findIndex(x=>x.aliases.some(a=>normalize(a)===term));if(idx<0){mistakes++;addChip(raw,false);feedback(tr('bad'),true);return}if(found.has(idx)){addChip(raw,false);feedback(tr('duplicate'),true);return}found.add(idx);score+=100;addChip(raw,true);feedback(tr('good'));$('score').textContent=String(score).padStart(3,'0');$('foundCount').textContent=found.size;$('found').innerHTML=[...found].map(i=>'<span class="chip">'+ingredients[i][lang]+'</span>').join('');}
-function addChip(text,good){const el=document.createElement('span');el.className='chip'+(good?'':' bad');el.textContent=text;$('chips').appendChild(el);setTimeout(()=>el.remove(),1800)}
-function feedback(msg,bad=false){$('feedback').textContent=msg;$('feedback').classList.toggle('bad',bad)}
-$('ingredientInput').addEventListener('input',e=>{const val=e.target.value;const parts=val.split(',');if(parts.length>1){parts.slice(0,-1).forEach(processTerm);e.target.value=parts[parts.length-1];}});
-$('ingredientInput').addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();const v=e.target.value.trim();if(v){processTerm(v);e.target.value=''}}});
-function renderTimer(){$('timer').textContent=time;$('timerRing').style.setProperty('--progress',(time/15*100)+'%');$('timerRing').style.background='conic-gradient('+(time<=5?'#b34d43':'#2e7049')+' '+(time/15*100)+'%,#e5e5dc 0)';$('timerRing').classList.toggle('urgent',time<=5)}
-function begin(){if(timerId)clearInterval(timerId);found.clear();score=0;mistakes=0;time=15;$('score').textContent='000';$('foundCount').textContent='0';$('found').innerHTML='<span class="empty">'+tr('nothingYet')+'</span>';$('chips').innerHTML='';$('feedback').textContent='';$('ingredientInput').value='';$('startPanel').classList.add('hidden');$('intro').classList.add('hidden');$('result').classList.remove('active');$('game').classList.remove('active');$('countdown').classList.remove('hidden');let n=3;$('countdown').textContent=n;const cd=setInterval(()=>{n--;if(n>0){$('countdown').textContent=n}else{clearInterval(cd);$('countdown').classList.add('hidden');$('game').classList.add('active');running=true;$('ingredientInput').focus();renderTimer();timerId=setInterval(()=>{time--;renderTimer();if(time<=0)end()},1000)}},650)}
-function end(){if(!running)return;const pending=$('ingredientInput').value.trim();if(pending)processTerm(pending);$('ingredientInput').value='';running=false;clearInterval(timerId);const correct=[...found].sort((a,b)=>a-b);const missed=ingredients.map((_,i)=>i).filter(i=>!found.has(i));$('game').classList.remove('active');$('result').classList.add('active');$('percent').textContent=Math.round(found.size/ingredients.length*100)+'%';$('resultSub').textContent=tr('foundCount',found.size);$('correctList').innerHTML=correct.length?correct.map(i=>'<span class="answer">'+ingredients[i][lang]+'</span>').join(''):'<span class="empty">—</span>';$('missedList').innerHTML=missed.map(i=>'<span class="answer missed">'+ingredients[i][lang]+'</span>').join('');$('finalScore').textContent=tr('score',score)}
-$('startBtn').onclick=begin;$('finishBtn').onclick=end;$('againBtn').onclick=()=>{$('result').classList.remove('active');$('intro').classList.remove('hidden');$('startPanel').classList.remove('hidden');loadProductCatalog()};
-$('shareBtn').onclick=async()=>{const text='WHAT\'S INSIDE?\n'+found.size+'/'+ingredients.length+' ingredients · '+score+' points\nCan you beat me?';try{if(navigator.share)await navigator.share({title:'WHAT\'S INSIDE?',text});else{await navigator.clipboard.writeText(text);$('shareBtn').textContent=tr('shared')}}catch(e){}};
-async function loadProductCatalog(){
- try{
-  $('startBtn').disabled=true;$('startBtn').textContent=lang==='en'?'LOADING…':'CARGANDO…';
-  const catalogPath=region==='argentina'?'./data/products.json':'./data/products-world.json';
-  const response=await fetch(catalogPath);
-  if(!response.ok)throw new Error('Catalog unavailable');
-  const catalog=await response.json();
-  playableProducts=catalog.products.filter(product=>product.status==='ready');
-  if(!playableProducts.length)throw new Error('No playable products');
-  let choices=playableProducts.filter(product=>product.id!==previousProductId);
-  if(!choices.length)choices=playableProducts;
-  currentProduct=choices[Math.floor(Math.random()*choices.length)];
-  previousProductId=currentProduct.id;
-  dailyIndex=playableProducts.findIndex(product=>product.id===currentProduct.id);
-  ingredients=currentProduct.ingredients;
-  $('productName').textContent=currentProduct.nameI18n?.[lang]||currentProduct.name;
-  const photo=$('productImage').parentElement;
-  if(currentProduct.image){
-   $('productImage').onerror=()=>{$('productImage').style.display='none';$('productPlaceholder').textContent=lang==='en'?'PHOTO UNAVAILABLE':'FOTO NO DISPONIBLE';$('productPlaceholder').style.display=''};
-   $('productImage').style.display='';
-   $('productImage').src=currentProduct.image;
-   $('productImage').alt=(currentProduct.nameI18n?.[lang]||currentProduct.name)+' product package';
-   $('productPlaceholder').style.display='none';
-  }else{
-   $('productImage').onerror=null;
-   $('productImage').style.display='none';
-   $('productPlaceholder').textContent=lang==='en'?'PHOTO PENDING':'FOTO PENDIENTE';
-   $('productPlaceholder').style.display='';
-  }
-  const productDescription=$('productDesc')||document.querySelector('[data-i18n="productDesc"]');
-  if(productDescription) productDescription.textContent=currentProduct.description[lang]||currentProduct.description.en;
-  updateDailyLabel();
-  $('startBtn').textContent=lang==='en'?'START PLAYING ↗':'EMPEZAR A JUGAR ↗';
-  $('startBtn').disabled=false;
- }catch(error){
-  $('startBtn').textContent=lang==='en'?'CATALOG UNAVAILABLE':'CATÁLOGO NO DISPONIBLE';
-  $('startBtn').disabled=true;
-  console.error(error);
- }
-}
-setLang();
-updateRegionButtons();
-loadProductCatalog();
-</script>
-</body></html>
+<div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden">USERNAME<input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label>EMAIL<input id="authEmail" type="email" autocomplete="email" required></label><label>PASSWORD<input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
+<script type="module" src="./app.js"></script>
+</body>
