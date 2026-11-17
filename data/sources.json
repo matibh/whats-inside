@@ -685,6 +685,78 @@
       "url": "https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg",
       "supports": "Official Arcor product image for Maná Bañada 23 g.",
       "market": "Argentina"
+    },
+    {
+      "id": "cereal-mix-frutilla-chia-vea",
+      "productId": "cereal-mix-frutilla-chia-ar-207g",
+      "publisher": "Vea / transcripción de etiqueta",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://www.vea.com.ar/galletas-cereal-mix-frutilla-chia-x207g/p",
+      "supports": "Full ingredient statement, allergens and 207 g package information for Cereal Mix Frutilla y Chía.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-cereal-mix-frutilla-chia-arcor",
+      "productId": "cereal-mix-frutilla-chia-ar-207g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/90101010783.jpg",
+      "supports": "Official Arcor product/package image for Cereal Mix Frutilla y Chía.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mogul-50-frutas-vea",
+      "productId": "mogul-50-frutas-ar-50g",
+      "publisher": "Vea / transcripción de etiqueta",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://www.vea.com.ar/gomitas-frutales-mogul-50-gr-2/p",
+      "supports": "Ingredient statement and 50 g package information for Mogul fruit gummies.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-mogul-50-frutas-arcor",
+      "productId": "mogul-50-frutas-ar-50g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/7a86dcc8d67cf6f14e215c114c88f7ac.jpg",
+      "supports": "Official Arcor product/package image for Mogul 50% Frutas.",
+      "market": "Argentina"
+    },
+    {
+      "id": "natural-break-nutritivo-arcor",
+      "productId": "natural-break-nutritivo-ar-27g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_document",
+      "url": "https://www.arcor.com/ar/uploads/downloads/888b06bf766c4684d47217660a75a6b0.pdf",
+      "supports": "Manufacturer brochure explicitly lists the Nutritivo mix components: salted peanuts, sunflower seeds, cashews and almonds. Does not enumerate possible processing aids.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-natural-break-nutritivo-arcor",
+      "productId": "natural-break-nutritivo-ar-27g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/f03914b674d5470d245747decd9967cc.jpg",
+      "supports": "Official Arcor product image for Natural Break Nutritivo.",
+      "market": "Argentina"
+    },
+    {
+      "id": "natural-break-energia-arcor",
+      "productId": "natural-break-energia-ar-30g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_document",
+      "url": "https://www.arcor.com/ar/uploads/downloads/888b06bf766c4684d47217660a75a6b0.pdf",
+      "supports": "Manufacturer brochure explicitly lists the Energía mix components: banana chips, raisins, roasted peanuts and shelled sunflower seeds. Does not enumerate possible processing aids.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-natural-break-energia-arcor",
+      "productId": "natural-break-energia-ar-30g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg",
+      "supports": "Official Arcor product image for Natural Break Energía.",
+      "market": "Argentina"
     }
   ]
 }
