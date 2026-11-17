@@ -25,7 +25,7 @@ The game reads playable products from `products.json`. A product is eligible whe
 - `retailer_label_transcription`: retailer listing that reproduces the label.
 - `packaging_transcription_secondary`: secondary transcription of packaging / Open Food Facts data.
 
-The Argentina catalog currently contains 66 products (including the latest 5-product expansion dated 17 November 2026). The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
+The Argentina catalog currently contains 80 products (including the latest Tita Clásica 19 g addition dated 17 November 2026). The source register makes clear which entries come directly from manufacturers and which rely on retailer or secondary transcriptions. Review package variants again before using the catalog for commercial or safety-critical claims.
 
 
 ## Regional catalogs
@@ -133,3 +133,8 @@ Added Bagley Kesitas Queso (75 g), Gallo Snacks Chips Queso (50 g), and Cuisine 
 ## Argentina catalog expansion — 17 November 2026 (tenth batch)
 
 Added Gallo Snacks Chips Jamón (150 g), Don Satur Pepas (300 g), Trio Pepas (500 g), and Smams Pepas Membrillo (150 g). Smams ingredients use the manufacturer's official declaration; other ingredient declarations are sourced from Jumbo. Real package photographs and image provenance are tracked separately. Allergen warnings and precautionary traces are excluded from accepted answers.
+
+
+## Argentina catalog expansion — 17 November 2026 (eleventh addition; 200-product milestone)
+
+Added Terrabusi Tita Clásica (19 g). The complete ingredient declaration is transcribed from Jumbo; the trailing allergen declaration and may-contain warning are not treated as ingredients. A matching real 19 g package photograph is sourced separately from Disco.
