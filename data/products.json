@@ -2,7 +2,7 @@
   "version": 2,
   "description": "Curated Argentina-market products. See products-world.json for the international catalog.",
   "language": "es-AR",
-  "lastUpdated": "2026-11-16",
+  "lastUpdated": "2026-11-17",
   "products": [
     {
       "id": "nutella-ar",
@@ -3666,6 +3666,714 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-santa-maria-mechaditas-ar-200g"
+    },
+    {
+      "id": "havanna-alfajor-chocolate-clasico-ar-55g",
+      "barcode": "7791875000440",
+      "name": "Alfajor Havanna Chocolate Clásico",
+      "brand": "Havanna",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_alfajor",
+      "package": "55 g unidad (caja de 12 unidades, 660 g)",
+      "image": "https://saboraustral.com.au/cdn/shop/files/AlfajorHavannaUnidad.png?v=1770893973&width=1946",
+      "description": {
+        "en": "Classic chocolate-coated alfajor filled with dulce de leche.",
+        "es": "Alfajor clásico relleno de dulce de leche y cubierto con chocolate."
+      },
+      "ingredientsText": "Dulce de leche [leche, azúcar, glucosa, regulador de acidez (bicarbonato de sodio, INS 500ii), conservante (sorbato de potasio, INS 202), aromatizante (vainillina)], harina de trigo enriquecida [sulfato ferroso (hierro), niacina, tiamina, ácido fólico, riboflavina], cobertura de chocolate [emulsionante (lecitina de soja, INS 322)], azúcar, margarina, huevo, glucosa, fécula de maíz, miel, cacao en polvo, sal, humectante (sorbitol, INS 420), leudantes químicos (bicarbonato de sodio, INS 500ii; bicarbonato de amonio, INS 503ii), aromatizantes (esencia natural de limón, esencia artificial de almendra, vainillina).",
+      "ingredients": [
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "INS 500ii",
+            "E500"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202",
+            "E202"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "INS 322",
+            "E322"
+          ]
+        },
+        {
+          "es": "margarina",
+          "en": "margarine",
+          "aliases": [
+            "margarina",
+            "margarine"
+          ]
+        },
+        {
+          "es": "huevo",
+          "en": "egg",
+          "aliases": [
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "fécula de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "fécula de maíz",
+            "corn starch",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sorbitol",
+          "en": "sorbitol",
+          "aliases": [
+            "sorbitol",
+            "sorbitol",
+            "INS 420",
+            "E420"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "INS 503ii",
+            "E503"
+          ]
+        },
+        {
+          "es": "esencia natural de limón",
+          "en": "natural lemon essence",
+          "aliases": [
+            "esencia natural de limón",
+            "natural lemon essence"
+          ]
+        },
+        {
+          "es": "esencia artificial de almendra",
+          "en": "artificial almond essence",
+          "aliases": [
+            "esencia artificial de almendra",
+            "artificial almond essence"
+          ]
+        }
+      ],
+      "sourceId": "havanna-alfajor-chocolate-foodnutrifacts",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-havanna-alfajor-chocolate-ar-55g"
+    },
+    {
+      "id": "yogurisimo-bebible-frutilla-ar-1l",
+      "barcode": "7790742567024",
+      "name": "Yogurísimo Bebible Frutilla",
+      "brand": "La Serenísima",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "drinkable_yogurt",
+      "package": "1 litro",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/602255/Yogurt-Entero-Yogurt-simo-Bebible-Frutilla-1-L-1-25643.jpg?v=637353912168900000",
+      "description": {
+        "en": "Full-fat strawberry drinkable yogurt.",
+        "es": "Yogur entero bebible sabor frutilla."
+      },
+      "ingredientsText": "Leche parcialmente descremada reducida en lactosa fortificada con calcio, jugo de frutilla, sólidos lácteos, maltodextrina, azúcar, vitamina C, reguladores de acidez (ácido láctico, ácido málico), saborizante, estabilizantes (goma gellan, carboximetilcelulosa, pectina), colorante natural carmín.",
+      "ingredients": [
+        {
+          "es": "leche parcialmente descremada reducida en lactosa",
+          "en": "lactose-reduced partially skimmed milk",
+          "aliases": [
+            "leche parcialmente descremada reducida en lactosa",
+            "lactose-reduced partially skimmed milk"
+          ]
+        },
+        {
+          "es": "calcio",
+          "en": "calcium",
+          "aliases": [
+            "calcio",
+            "calcium"
+          ]
+        },
+        {
+          "es": "jugo de frutilla",
+          "en": "strawberry juice",
+          "aliases": [
+            "jugo de frutilla",
+            "strawberry juice",
+            "jugo de fresa"
+          ]
+        },
+        {
+          "es": "sólidos lácteos",
+          "en": "milk solids",
+          "aliases": [
+            "sólidos lácteos",
+            "milk solids"
+          ]
+        },
+        {
+          "es": "maltodextrina",
+          "en": "maltodextrin",
+          "aliases": [
+            "maltodextrina",
+            "maltodextrin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C",
+            "ácido ascórbico",
+            "ascorbic acid"
+          ]
+        },
+        {
+          "es": "ácido láctico",
+          "en": "lactic acid",
+          "aliases": [
+            "ácido láctico",
+            "lactic acid",
+            "E270"
+          ]
+        },
+        {
+          "es": "ácido málico",
+          "en": "malic acid",
+          "aliases": [
+            "ácido málico",
+            "malic acid",
+            "E296"
+          ]
+        },
+        {
+          "es": "saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "saborizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "goma gellan",
+          "en": "gellan gum",
+          "aliases": [
+            "goma gellan",
+            "gellan gum",
+            "E418"
+          ]
+        },
+        {
+          "es": "carboximetilcelulosa",
+          "en": "carboxymethyl cellulose",
+          "aliases": [
+            "carboximetilcelulosa",
+            "carboxymethyl cellulose",
+            "CMC",
+            "E466"
+          ]
+        },
+        {
+          "es": "pectina",
+          "en": "pectin",
+          "aliases": [
+            "pectina",
+            "pectin",
+            "E440"
+          ]
+        },
+        {
+          "es": "carmín",
+          "en": "carmine",
+          "aliases": [
+            "carmín",
+            "carmine",
+            "E120"
+          ]
+        }
+      ],
+      "sourceId": "yogurisimo-frutilla-1l-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-yogurisimo-frutilla-1l-ar"
+    },
+    {
+      "id": "vacalin-dulce-de-leche-original-ar-400g",
+      "barcode": "7790616000411",
+      "name": "Dulce de Leche Vacalin Original",
+      "brand": "Vacalin",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "dulce_de_leche",
+      "package": "400 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/321579/Dulce-De-Leche-Vacal-n-400-G-1-56646.jpg?v=638500233691530000",
+      "description": {
+        "en": "Traditional Argentine milk caramel spread.",
+        "es": "Dulce de leche argentino clásico."
+      },
+      "ingredientsText": "Leche entera, azúcar, glucosa, aromatizante (sabor vainilla), conservante (sorbato de potasio, INS 202).",
+      "ingredients": [
+        {
+          "es": "leche entera",
+          "en": "whole milk",
+          "aliases": [
+            "leche entera",
+            "whole milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "aromatizante sabor vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante sabor vainilla",
+            "vanilla flavouring",
+            "vanilla flavoring",
+            "vainilla"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "INS 202",
+            "E202"
+          ]
+        }
+      ],
+      "sourceId": "vacalin-dulce-leche-400g-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-vacalin-dulce-leche-400g-ar"
+    },
+    {
+      "id": "arcor-turron-mani-ar-25g",
+      "barcode": "77940131",
+      "name": "Turrón & Maní Arcor",
+      "brand": "Arcor",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "peanut_nougat",
+      "package": "25 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/319688/front-view-506.jpg?v=639059036328270000",
+      "description": {
+        "en": "Soft peanut nougat bar with glucose syrup.",
+        "es": "Turrón blando de maní con jarabe de glucosa."
+      },
+      "ingredientsText": "Jarabe de glucosa, harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, maní tostado (10%), aceite de girasol, proteína vegetal hidrolizada, sal, emulsionante (lecitina de soja), espesante (gelatina), leudante (bicarbonato de sodio), aroma artificial.",
+      "ingredients": [
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "maní tostado",
+          "en": "roasted peanuts",
+          "aliases": [
+            "maní tostado",
+            "roasted peanuts",
+            "cacahuate tostado"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "proteína vegetal hidrolizada",
+          "en": "hydrolyzed vegetable protein",
+          "aliases": [
+            "proteína vegetal hidrolizada",
+            "hydrolyzed vegetable protein"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin",
+            "E428"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "aroma artificial",
+          "en": "artificial flavour",
+          "aliases": [
+            "aroma artificial",
+            "artificial flavour",
+            "artificial flavor"
+          ]
+        }
+      ],
+      "sourceId": "arcor-turron-mani-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-arcor-turron-mani-25g-ar"
+    },
+    {
+      "id": "baggio-pronto-multifruta-ar-1l",
+      "barcode": "7790036974453",
+      "name": "Baggio Pronto Multifruta",
+      "brand": "Baggio",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "multifruit_juice_drink",
+      "package": "1 litro",
+      "image": "https://acdn-us.mitiendanube.com/stores/004/462/347/products/el-granero-141-ed55ae6938d339d71816624915194813-1024-1024-d1759abde3153bc9a317144338412089-1024-1024.webp",
+      "description": {
+        "en": "Multifruit juice drink with banana, peach, orange and pineapple.",
+        "es": "Bebida multifruta con banana, durazno, naranja y ananá."
+      },
+      "ingredientsText": "Agua, puré de banana, pulpa concentrada de durazno, jugo concentrado de naranja, jugo concentrado de ananá, vitamina C, acidulante (ácido cítrico), regulador de acidez (citrato de sodio), antioxidantes (eritorbato de sodio, ácido ascórbico), edulcorantes (sucralosa, glucósidos de esteviol).",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "puré de banana",
+          "en": "banana puree",
+          "aliases": [
+            "puré de banana",
+            "banana puree",
+            "puré de plátano"
+          ]
+        },
+        {
+          "es": "pulpa concentrada de durazno",
+          "en": "concentrated peach pulp",
+          "aliases": [
+            "pulpa concentrada de durazno",
+            "concentrated peach pulp"
+          ]
+        },
+        {
+          "es": "jugo concentrado de naranja",
+          "en": "concentrated orange juice",
+          "aliases": [
+            "jugo concentrado de naranja",
+            "concentrated orange juice"
+          ]
+        },
+        {
+          "es": "jugo concentrado de ananá",
+          "en": "concentrated pineapple juice",
+          "aliases": [
+            "jugo concentrado de ananá",
+            "concentrated pineapple juice",
+            "jugo concentrado de piña"
+          ]
+        },
+        {
+          "es": "vitamina C",
+          "en": "vitamin C",
+          "aliases": [
+            "vitamina C",
+            "vitamin C",
+            "ácido ascórbico",
+            "ascorbic acid"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "citrato de sodio",
+          "en": "sodium citrate",
+          "aliases": [
+            "citrato de sodio",
+            "sodium citrate",
+            "E331"
+          ]
+        },
+        {
+          "es": "eritorbato de sodio",
+          "en": "sodium erythorbate",
+          "aliases": [
+            "eritorbato de sodio",
+            "sodium erythorbate",
+            "E316"
+          ]
+        },
+        {
+          "es": "sucralosa",
+          "en": "sucralose",
+          "aliases": [
+            "sucralosa",
+            "sucralose",
+            "E955"
+          ]
+        },
+        {
+          "es": "glucósidos de esteviol",
+          "en": "steviol glycosides",
+          "aliases": [
+            "glucósidos de esteviol",
+            "steviol glycosides",
+            "stevia",
+            "E960"
+          ]
+        }
+      ],
+      "sourceId": "baggio-pronto-multifruta-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-baggio-pronto-multifruta-1l-ar"
     }
   ]
 }
