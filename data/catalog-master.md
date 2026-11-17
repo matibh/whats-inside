@@ -7622,8 +7622,8 @@ Harina de trigo 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), nia
 - difosfato disódico (INS 450(i)) / disodium diphosphate (INS 450(i)) · difosfato disódico (INS 450(i)), disodium diphosphate (INS 450(i)), INS 450(i)
 - lecitina (INS 322) / lecithin (INS 322) · lecitina (INS 322), lecithin (INS 322), INS 322
 - metabisulfito de sodio (INS 223) / sodium metabisulfite (INS 223) · metabisulfito de sodio (INS 223), sodium metabisulfite (INS 223), INS 223
-- enzimas para panificación (INS 1100) / enzymes for baking (INS 1100) · enzimas para panificación (INS 1100), enzymes for baking (INS 1100), INS 1100
-- amilasa (INS 1101(i)) / amylase (INS 1101(i)) · amilasa (INS 1101(i)), amylase (INS 1101(i)), INS 1101(i)
+- amilasas (INS 1100) / amylases (INS 1100) · enzimas para panificación (INS 1100), enzymes for baking (INS 1100), INS 1100
+- proteasa (INS 1101(i)) / protease (INS 1101(i)) · amilasa (INS 1101(i)), amylase (INS 1101(i)), INS 1101(i)
 - esencia de leche condensada idéntica a natural / nature-identical condensed milk flavouring · esencia de leche condensada idéntica a natural, nature-identical condensed milk flavouring, esencia de leche condensada
 - esencia artificial de vainilla / artificial vanilla flavouring · esencia artificial de vainilla, artificial vanilla flavouring, esencia de vainilla, vanilla essence
 
