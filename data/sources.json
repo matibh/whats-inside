@@ -1189,6 +1189,60 @@
       "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6230/17799/Galletita-Terrabusi-con-Chips-144-Gr__04914.1657138631.jpg?c=2%3Fimbypass%3Don",
       "supports": "Real product/package photograph for the matching product; product listing: https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/",
       "market": "Argentina"
+    },
+    {
+      "id": "cunnington-cola-classic-ar-2250ml-ingredients",
+      "productId": "cunnington-cola-classic-ar-2250ml",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/gaseosa-cunnington-cola-2-25lt/p",
+      "supports": "Ingredient declaration for Cunnington Cola Classic 2.25 L, Argentina. The retailer transcribes the ingredient list; abbreviated additive names are expanded using their INS designations.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cunnington-cola-classic-ar-2250ml-image",
+      "productId": "cunnington-cola-classic-ar-2250ml",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/299191/Gaseosa-Cunnington-Cola-Classic-2-25-L-1-48349.jpg?v=638301622034530000",
+      "supports": "Real package photograph of Cunnington Cola Classic 2.25 L; product listing: https://www.masonline.com.ar/gaseosa-cunnington-cola-2-25-l-3/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "cunnington-ginger-ale-classic-ar-1500ml-ingredients",
+      "productId": "cunnington-ginger-ale-classic-ar-1500ml",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/gaseosa-cunnington-ginger-ale-1-5lt-3/p",
+      "supports": "Ingredient declaration for Cunnington Ginger Ale Classic 1.5 L, Argentina. Abbreviations in the retailer transcription are expanded using the additive INS numbers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cunnington-ginger-ale-classic-ar-1500ml-image",
+      "productId": "cunnington-ginger-ale-classic-ar-1500ml",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/299200/Gaseosa-Cunnington-Ginger-Ale-Classic-1-5-L-1-48368.jpg?v=638301622066770000",
+      "supports": "Real package photograph of Cunnington Ginger Ale Classic 1.5 L; product listing: https://www.masonline.com.ar/gaseosa-cunnington-ginger-ale-classic-1-5-l-2/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "serenisima-yogur-firme-vainilla-190g-ingredients",
+      "productId": "serenisima-yogur-firme-vainilla-190g",
+      "publisher": "La Serenísima Nutrición (official)",
+      "sourceType": "manufacturer_website",
+      "url": "https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/",
+      "supports": "Manufacturer ingredient declaration for the 190 g firm vanilla yogurt. The separate 'contains milk' allergen notice is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "serenisima-yogur-firme-vainilla-190g-image",
+      "productId": "serenisima-yogur-firme-vainilla-190g",
+      "publisher": "La Serenísima Nutrición (official)",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://laserenisimanutricion.com.ar/wp-content/uploads/2026/10/LSN_Prductos_firme_vainilla_190.webp",
+      "supports": "Official package/product image for the 190 g firm vanilla yogurt, linked from the matching manufacturer product page.",
+      "market": "Argentina"
     }
   ]
 }
