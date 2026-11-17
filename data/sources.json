@@ -613,6 +613,78 @@
       "url": "https://www.smams.com.ar/images/stories/virtuemart/product/alfajorSimpleWeb.jpg",
       "supports": "Official Smams dulce de leche alfajor 50 g package image.",
       "market": "Argentina"
+    },
+    {
+      "id": "saladix-jamon-shelfpedia",
+      "productId": "saladix-jamon-ar-100g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580716707-saladix-jamon/",
+      "supports": "Ingredient statement transcribed from package for Saladix Jamón; barcode 7790580716707. The Arcor product page is used separately for product identity and description.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-saladix-jamon-arcor",
+      "productId": "saladix-jamon-ar-100g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/90101003871.jpg",
+      "supports": "Official Arcor product image for Saladix Jamón.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mana-livianas-shelfpedia",
+      "productId": "mana-livianas-vainilla-ar-145g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790040720107-mana-livianas-sabor-vainilla/",
+      "supports": "Ingredient statement transcribed from the 145 g Maná Livianas Vainilla package; barcode 7790040720107.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-mana-livianas-arcor",
+      "productId": "mana-livianas-vainilla-ar-145g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/2874b9cbfc8afc12e8c31b5efc13439e.jpg",
+      "supports": "Official Arcor product image for Maná Livianas Vainilla; the pictured package is 145 g.",
+      "market": "Argentina"
+    },
+    {
+      "id": "bon-o-bon-leche-shelfpedia",
+      "productId": "bon-o-bon-leche-ar-15g",
+      "publisher": "ShelfPedia / Open Food Facts transcription",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580106959-bon-o-bon-leche/",
+      "supports": "Ingredient statement transcribed from Bon o Bon Leche packaging; barcode 7790580106959. Product identity and 15 g unit are corroborated by Arcor's official product page.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-bon-o-bon-leche-arcor",
+      "productId": "bon-o-bon-leche-ar-15g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/90101004303.jpg",
+      "supports": "Official Arcor product image for Bon o Bon Leche.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mana-banada-pack-transcription",
+      "productId": "mana-banada-ar-23g",
+      "publisher": "Golosinas Argentinas (video transcription of package label)",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://www.youtube.com/watch?v=hfhOkS5YXlw",
+      "supports": "Ingredient declaration transcribed from the Maná Bañada 23 g package label; includes 32% semi-sweet chocolate and its listed subingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-mana-banada-arcor",
+      "productId": "mana-banada-ar-23g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg",
+      "supports": "Official Arcor product image for Maná Bañada 23 g.",
+      "market": "Argentina"
     }
   ]
 }
