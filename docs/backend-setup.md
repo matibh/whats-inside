@@ -11,10 +11,10 @@
 
 ## Supabase project
 
-1. Create a Supabase project at https://supabase.com/dashboard.
-2. Choose a project name such as `whats-inside`, a strong database password, and a region with good latency for Argentina.
-3. Keep the database password and `service_role` key private. Never commit either value.
-4. Copy the project URL and publishable/anon key into local environment variables only after the frontend integration is ready.
+1. Supabase project created for this project: **Ingredora**, region **South America (São Paulo), `sa-east-1`**.
+2. Project reference: `xblqghhhchffuqkmzgta`; project URL: `https://xblqghhhchffuqkmzgta.supabase.co`.
+3. Keep the database password and `service_role` / secret key private. Never commit either value.
+4. The publishable key is designed for browser use when RLS and policies are correctly configured. Store it in local environment variables; do not hardcode it in source files.
 5. In Authentication → URL Configuration, add the production GitHub Pages URL and local development URL. The exact production URL should be confirmed from the repository's Pages settings before launch.
 
 ## Apply the database schema
