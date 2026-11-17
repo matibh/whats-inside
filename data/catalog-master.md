@@ -5,11 +5,11 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 181
-- **Argentina:** 61
+- **Productos / Products:** 186
+- **Argentina:** 66
 - **World:** 120
 - **Idiomas / Languages:** Español + English
-- **Fotos reales / Real product photos:** 181 / 181
+- **Fotos reales / Real product photos:** 186 / 186
 
 ## Reglas / Rules
 
@@ -7078,3 +7078,209 @@ Agua, aceite vegetal, huevo líquido, almidón modificado, azúcar, vinagre de a
 
 **Fuente de ingredientes / Ingredient source:** [Hellmann's Argentina](https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058)  
 **Fuente de imagen / Image source:** [Hellmann's Argentina / Unilever](https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058)
+
+### Chocolinas
+
+- **ID:** `chocolinas-bagley-ar-150g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.jumbo.com.ar/galletitas-chocolinas-150-gr/p)
+- **Marca / Brand:** Bagley
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 150 g
+- **Categoría / Category:** `chocolate_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas clásicas de chocolate, muy usadas para preparar chocotorta.
+- **Description (EN):** Classic chocolate cookies, widely used to make chocotorta.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), azúcar, grasa bovina refinada, cacao en polvo, jarabe de glucosa, sal, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), colorante caramelo (E150d), emulsionante (lecitina de soja), mejorador de harina (metabisulfito de sodio), aromatizante artificial (vainillina).
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- azúcar / sugar · azúcar, sugar
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat, grasa vacuna, beef fat
+- cacao en polvo / cocoa powder · cacao en polvo, cocoa powder, cacao, cocoa
+- jarabe de glucosa / glucose syrup · jarabe de glucosa, glucose syrup
+- sal / salt · sal, salt
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500, INS 500
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503, INS 503
+- colorante caramelo E150d / caramel colour E150d · colorante caramelo E150d, caramel colour E150d, caramel color E150d, E150d
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+- metabisulfito de sodio / sodium metabisulfite · metabisulfito de sodio, sodium metabisulfite, E223
+- vainillina / vanillin · vainillina, vanillin
+
+**Fuente de ingredientes / Ingredient source:** [Vea](https://www.vea.com.ar/galletitas-chocolinas-150-gr/p)  
+**Fuente de imagen / Image source:** [Jumbo](https://www.jumbo.com.ar/galletitas-chocolinas-150-gr/p)
+
+### Criollitas Original
+
+- **ID:** `criollitas-bagley-ar-100g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.frat.com.ar/galleta-criollitas-original-100-gr/p)
+- **Marca / Brand:** Bagley
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 100 g
+- **Categoría / Category:** `savory_crackers`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas crackers originales de Bagley, de sabor salado.
+- **Description (EN):** Bagley original savory crackers.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina), grasa bovina refinada, sal, extracto de malta (cebada), jarabe de glucosa, levadura, leudante químico (bicarbonato de sodio), emulsionante (lecitina de soja).
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat, grasa vacuna, beef fat
+- sal / salt · sal, salt
+- extracto de malta / malt extract · extracto de malta, malt extract, malta, malt
+- jarabe de glucosa / glucose syrup · jarabe de glucosa, glucose syrup
+- levadura / yeast · levadura, yeast
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+
+**Fuente de ingredientes / Ingredient source:** [ShelfPedia / Open Food Facts](https://shelfpedia.com/es-ar/producto/7790040377707-criollitas-original/)  
+**Fuente de imagen / Image source:** [Frat Almacenar](https://www.frat.com.ar/galleta-criollitas-original-100-gr/p)
+
+### Boca de Dama
+
+- **ID:** `boca-de-dama-terrabusi-ar-170g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://pampadirect.com/galletitas-boca-de-dama-sweet-classic-argentinian-cookies-170-g-6-oz/)
+- **Marca / Brand:** Terrabusi
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 170 g
+- **Categoría / Category:** `sweet_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas dulces clásicas con notas de almendra, limón y vainilla.
+- **Description (EN):** Classic sweet biscuits with almond, lemon and vanilla notes.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, niacina), azúcar, grasa vacuna refinada, almidón, jarabe de maíz de alta fructosa, sal, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), emulsionante (lecitina de soja), aromatizante idéntico al natural almendra, aromatizante natural limón, aromatizante artificial vainilla.
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- azúcar / sugar · azúcar, sugar
+- grasa vacuna refinada / refined beef fat · grasa vacuna refinada, refined beef fat, grasa bovina, beef fat
+- almidón / starch · almidón, starch
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- sal / salt · sal, salt
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+- aromatizante de almendra / almond flavouring · aromatizante de almendra, almond flavouring, almond flavoring
+- aromatizante natural de limón / natural lemon flavouring · aromatizante natural de limón, natural lemon flavouring, natural lemon flavoring
+- aromatizante artificial de vainilla / artificial vanilla flavouring · aromatizante artificial de vainilla, artificial vanilla flavouring, artificial vanilla flavoring, vainillina, vanillin
+
+**Fuente de ingredientes / Ingredient source:** [Vea](https://www.vea.com.ar/galletitas-dulces-boca-de-dama-terrabusi-170-gr/p)  
+**Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/galletitas-boca-de-dama-sweet-classic-argentinian-cookies-170-g-6-oz/)
+
+### Anillos Terrabusi
+
+- **ID:** `anillos-terrabusi-ar-300g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.mitiendamondelez.com.ar/galletitas-anillitos-clasicos-terrabusi-300g-2028730/p)
+- **Marca / Brand:** Terrabusi
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 300 g
+- **Categoría / Category:** `sweet_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas dulces con forma de anillo y cobertura de colores.
+- **Description (EN):** Sweet ring-shaped cookies with colourful icing.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo, hierro, ácido fólico, vitamina B1, vitamina B2, niacina, azúcar, grasa vacuna refinada, jarabe de maíz de alta fructosa, cacao en polvo, sal, gelatina, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), fosfato monocálcico, colorante caramelo III, colorante carmín, colorante cúrcuma, emulsionante lecitina de soja, aromatizante artificial vainilla, aromatizante idéntico al natural cereza, aromatizante idéntico al natural limón, espesante goma guar, acidulante ácido cítrico.
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo / wheat flour · harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- azúcar / sugar · azúcar, sugar
+- grasa vacuna refinada / refined beef fat · grasa vacuna refinada, refined beef fat, grasa bovina, beef fat
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- cacao en polvo / cocoa powder · cacao en polvo, cocoa powder, cacao, cocoa
+- sal / salt · sal, salt
+- gelatina / gelatin · gelatina, gelatin
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503
+- fosfato monocálcico / monocalcium phosphate · fosfato monocálcico, monocalcium phosphate, E341
+- colorante caramelo III / caramel colour III · colorante caramelo III, caramel colour III, caramel color III, E150c
+- colorante carmín / carmine colour · colorante carmín, carmine colour, carmine color, E120
+- colorante cúrcuma / turmeric colour · colorante cúrcuma, turmeric colour, turmeric color, curcumin, E100
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+- aromatizante artificial de vainilla / artificial vanilla flavouring · aromatizante artificial de vainilla, artificial vanilla flavouring, artificial vanilla flavoring, vainillina, vanillin
+- aromatizante de cereza / cherry flavouring · aromatizante de cereza, cherry flavouring, cherry flavoring
+- aromatizante de limón / lemon flavouring · aromatizante de limón, lemon flavouring, lemon flavoring
+- goma guar / guar gum · goma guar, guar gum, E412
+- ácido cítrico / citric acid · ácido cítrico, citric acid, E330
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/galletitas-dulces-anillitos-terrabusi-300-gr/p)  
+**Fuente de imagen / Image source:** [Mi Tienda Mondelez Argentina](https://www.mitiendamondelez.com.ar/galletitas-anillitos-clasicos-terrabusi-300g-2028730/p)
+
+### Terrabusi Chips
+
+- **ID:** `terrabusi-chips-ar-144g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/)
+- **Marca / Brand:** Terrabusi
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 144 g
+- **Categoría / Category:** `chocolate_chip_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Galletitas dulces con chips de chocolate.
+- **Description (EN):** Sweet cookies with chocolate chips.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, niacina), azúcar, aceite vegetal, aceite vegetal hidrogenado, cacao en polvo, jarabe de maíz de alta fructosa, sal, dextrosa, leche descremada en polvo, leudante químico (bicarbonato de sodio), leudante químico (bicarbonato de amonio), emulsionante lecitina de soja, emulsionante lecitina de girasol, sorbitán triestearato, aromatizante artificial vainillina.
+
+**Respuestas aceptadas / Accepted answers**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid, folato, folate
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin, vitamina B3, vitamin B3
+- azúcar / sugar · azúcar, sugar
+- aceite vegetal / vegetable oil · aceite vegetal, vegetable oil
+- aceite vegetal hidrogenado / hydrogenated vegetable oil · aceite vegetal hidrogenado, hydrogenated vegetable oil
+- cacao en polvo / cocoa powder · cacao en polvo, cocoa powder, cacao, cocoa
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- sal / salt · sal, salt
+- dextrosa / dextrose · dextrosa, dextrose, glucose
+- leche descremada en polvo / skimmed milk powder · leche descremada en polvo, skimmed milk powder, skim milk powder
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, E500
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, E322
+- lecitina de girasol / sunflower lecithin · lecitina de girasol, sunflower lecithin, E322
+- sorbitán triestearato / sorbitan tristearate · sorbitán triestearato, sorbitan tristearate, E492
+- vainillina / vanillin · vainillina, vanillin
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/galletitas-dulces-variedad-terrabusi-144-gr/p)  
+**Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/)
