@@ -10805,6 +10805,701 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "cuisine-co-galletitas-leche-260g-ar-image"
+    },
+    {
+      "id": "gallo-chips-jamon-150g-ar",
+      "barcode": null,
+      "name": "Chips Gallo Snacks Sabor Jamón",
+      "brand": "Gallo Snacks",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "rice_snacks",
+      "package": "150 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/310554/Chips-Gallo-Snacks-Sabor-Jam-n-150-G-1-52342.jpg?v=638385429808870000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/chips-gallo-snacks-sabor-jamon-150-g-2/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/chips-gallo-snacks-arroz-jamon-x150g/p",
+      "description": {
+        "es": "Snack crocante y horneado a base de arroz, sabor jamón.",
+        "en": "Crunchy baked rice snack with ham flavour."
+      },
+      "ingredientsText": "Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, ésteres de ácidos grasos con poliglicerol, mono y diglicéridos de ácidos grasos, polioxietilen sorbitán monooleato, tocoferoles concentrados mezcla, terbutil hidroquinona, colorante caramelo IV. La mención final «leche» se trata como declaración de alérgeno repetida y «puede contener derivados de soja» no se puntúa.",
+      "ingredients": [
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "fécula de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "leche descremada",
+          "en": "skimmed milk",
+          "aliases": [
+            "leche descremada",
+            "skimmed milk"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol",
+          "en": "sunflower oil",
+          "aliases": [
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "aromatizante/saborizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante/saborizante",
+            "flavouring",
+            "aromatizante",
+            "saborizante",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con poliglicerol",
+          "en": "polyglycerol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con poliglicerol",
+            "polyglycerol esters of fatty acids",
+            "ésteres de poliglicerol"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "mono y diglicéridos"
+          ]
+        },
+        {
+          "es": "polisorbato 80",
+          "en": "polysorbate 80",
+          "aliases": [
+            "polisorbato 80",
+            "polysorbate 80",
+            "polioxietilen sorbitán monooleato"
+          ]
+        },
+        {
+          "es": "tocoferoles concentrados mezcla",
+          "en": "mixed concentrated tocopherols",
+          "aliases": [
+            "tocoferoles concentrados mezcla",
+            "mixed concentrated tocopherols",
+            "tocoferoles"
+          ]
+        },
+        {
+          "es": "terbutil hidroquinona",
+          "en": "tertiary butylhydroquinone",
+          "aliases": [
+            "terbutil hidroquinona",
+            "tertiary butylhydroquinone",
+            "TBHQ",
+            "ter butil hidroxiquinona"
+          ]
+        },
+        {
+          "es": "colorante caramelo IV",
+          "en": "caramel colour IV",
+          "aliases": [
+            "colorante caramelo IV",
+            "caramel colour IV",
+            "caramelo IV",
+            "caramel color IV"
+          ]
+        }
+      ],
+      "sourceId": "gallo-chips-jamon-150g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "gallo-chips-jamon-150g-ar-image"
+    },
+    {
+      "id": "don-satur-pepas-membrillo-300g-ar",
+      "barcode": null,
+      "name": "Pepas Don Satur",
+      "brand": "Don Satur",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "sweet_cookies",
+      "package": "300 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/318634/Galletitas-Dulces-Pepas-Don-Satur-300-G-1-55556.jpg?v=638464485701700000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/galletitas-dulces-pepas-don-satur-300-g-2/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/pepas-don-satur-x300gr/p",
+      "description": {
+        "es": "Galletitas dulces argentinas con centro de mermelada de membrillo.",
+        "en": "Argentine sweet biscuits with a quince jam centre."
+      },
+      "ingredientsText": "Harina de trigo enriquecida, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar, oleomargarina, mermelada de membrillo, colorante rojo allura AC (INS 129), agua, esencia de vainilla, colorante natural amarillo annatto (INS 160b). Se excluyen «derivados de trigo» y «sulfitos» porque aparecen como declaraciones de alérgenos; «soya» figura como puede contener.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "oleomargarina",
+          "en": "oleomargarine",
+          "aliases": [
+            "oleomargarina",
+            "oleomargarine"
+          ]
+        },
+        {
+          "es": "mermelada de membrillo",
+          "en": "quince jam",
+          "aliases": [
+            "mermelada de membrillo",
+            "quince jam",
+            "dulce de membrillo",
+            "quince paste"
+          ]
+        },
+        {
+          "es": "rojo allura AC (INS 129)",
+          "en": "allura red AC (INS 129)",
+          "aliases": [
+            "rojo allura AC (INS 129)",
+            "allura red AC (INS 129)",
+            "rojo allura",
+            "allura red",
+            "E129",
+            "INS 129"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "esencia de vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "esencia de vainilla",
+            "vanilla flavouring",
+            "aroma de vainilla",
+            "vanilla essence"
+          ]
+        },
+        {
+          "es": "amarillo annatto (INS 160b)",
+          "en": "annatto yellow (INS 160b)",
+          "aliases": [
+            "amarillo annatto (INS 160b)",
+            "annatto yellow (INS 160b)",
+            "annatto",
+            "achiote",
+            "E160b",
+            "INS 160b"
+          ]
+        }
+      ],
+      "sourceId": "don-satur-pepas-membrillo-300g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "don-satur-pepas-membrillo-300g-ar-image"
+    },
+    {
+      "id": "trio-pepas-membrillo-500g-ar",
+      "barcode": null,
+      "name": "Pepas Trio",
+      "brand": "Trio",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "sweet_cookies",
+      "package": "500 g",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/216859/front-view-10991.jpg?v=637854080964130000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/galletitas-pepas-trio-500-gr-2/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/pepas-trio-500-gr/p",
+      "description": {
+        "es": "Pepas dulces con mermelada de membrillo en paquete familiar.",
+        "en": "Family-size sweet thumbprint biscuits with quince jam."
+      },
+      "ingredientsText": "Harina 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), niacina, mermelada de membrillo, acidulante ácido cítrico (INS 330), aromatizante a membrillo, colorante rojo allura AC (INS 129), azúcar, oleomargarina bovina, almidón de maíz, leche entera en polvo, aromatizante a vainilla, leudante bicarbonato de amonio (INS 503(ii)), emulsionante lecitina (INS 322), colorante curcumina (INS 100(i)), colorante annatto (INS 160b). La mención final «leche» y los derivados de trigo/soja se excluyen como declaraciones de alérgenos.",
+      "ingredients": [
+        {
+          "es": "harina de trigo 000",
+          "en": "wheat flour 000",
+          "aliases": [
+            "harina de trigo 000",
+            "wheat flour 000",
+            "harina 000",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "mermelada de membrillo",
+          "en": "quince jam",
+          "aliases": [
+            "mermelada de membrillo",
+            "quince jam",
+            "dulce de membrillo",
+            "quince paste"
+          ]
+        },
+        {
+          "es": "ácido cítrico (INS 330)",
+          "en": "citric acid (INS 330)",
+          "aliases": [
+            "ácido cítrico (INS 330)",
+            "citric acid (INS 330)",
+            "ácido cítrico",
+            "citric acid",
+            "E330",
+            "INS 330"
+          ]
+        },
+        {
+          "es": "aromatizante a membrillo",
+          "en": "quince flavouring",
+          "aliases": [
+            "aromatizante a membrillo",
+            "quince flavouring",
+            "aroma a membrillo",
+            "quince flavoring"
+          ]
+        },
+        {
+          "es": "rojo allura AC (INS 129)",
+          "en": "allura red AC (INS 129)",
+          "aliases": [
+            "rojo allura AC (INS 129)",
+            "allura red AC (INS 129)",
+            "rojo allura",
+            "allura red",
+            "E129",
+            "INS 129"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "oleomargarina bovina",
+          "en": "beef oleomargarine",
+          "aliases": [
+            "oleomargarina bovina",
+            "beef oleomargarine"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "fécula de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder",
+            "leche en polvo",
+            "milk powder"
+          ]
+        },
+        {
+          "es": "aromatizante a vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "aromatizante a vainilla",
+            "vanilla flavouring",
+            "esencia de vainilla",
+            "vanilla flavoring"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio (INS 503(ii))",
+          "en": "ammonium bicarbonate (INS 503(ii))",
+          "aliases": [
+            "bicarbonato de amonio (INS 503(ii))",
+            "ammonium bicarbonate (INS 503(ii))",
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503(ii)",
+            "INS 503(ii)"
+          ]
+        },
+        {
+          "es": "lecitina (INS 322)",
+          "en": "lecithin (INS 322)",
+          "aliases": [
+            "lecitina (INS 322)",
+            "lecithin (INS 322)",
+            "lecitina",
+            "lecithin",
+            "E322",
+            "INS 322"
+          ]
+        },
+        {
+          "es": "curcumina (INS 100(i))",
+          "en": "curcumin (INS 100(i))",
+          "aliases": [
+            "curcumina (INS 100(i))",
+            "curcumin (INS 100(i))",
+            "curcumina",
+            "curcumin",
+            "E100(i)",
+            "INS 100(i)"
+          ]
+        },
+        {
+          "es": "annatto (INS 160b)",
+          "en": "annatto (INS 160b)",
+          "aliases": [
+            "annatto (INS 160b)",
+            "annatto (INS 160b)",
+            "achiote",
+            "E160b",
+            "INS 160b"
+          ]
+        }
+      ],
+      "sourceId": "trio-pepas-membrillo-500g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "trio-pepas-membrillo-500g-ar-image"
+    },
+    {
+      "id": "smams-pepas-membrillo-150g-ar",
+      "barcode": "7798181510786",
+      "name": "Pepas con Membrillo Smams",
+      "brand": "Smams",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "gluten_free_cookies",
+      "package": "150 g",
+      "image": "https://acdn-us.mitiendanube.com/stores/093/780/products/smamspepasmembrillo-4797139780ec7b151e17533738307303-1024-1024.webp",
+      "imagePublisher": "Rojas Gluten Free",
+      "imagePage": "https://rojasglutenfree.com/productos/pepas-de-membrillo-150gr-smams/",
+      "ingredientUrl": "https://www.smams.ar/index.php/productos/pepas-membrillo-detail",
+      "description": {
+        "es": "Pepas sin TACC rellenas con dulce de membrillo.",
+        "en": "Gluten-free thumbprint cookies filled with quince paste."
+      },
+      "ingredientsText": "Dulce de membrillo, almidón de maíz, aceite vegetal interesterificado, azúcar, harina de arroz, agua, jarabe de glucosa, jarabe de maíz de alta fructosa, miel, sal, emulsionante lecitina de soja, espesante goma xántica, leudantes químicos bicarbonato de sodio y bicarbonato de amonio, conservante propionato de calcio, aromatizantes esencia de vainilla y leche condensada. Se usa la declaración de ingredientes publicada por el fabricante; las advertencias de posibles trazas de alérgenos se excluyen.",
+      "ingredients": [
+        {
+          "es": "dulce de membrillo",
+          "en": "quince paste",
+          "aliases": [
+            "dulce de membrillo",
+            "quince paste",
+            "mermelada de membrillo",
+            "quince jam"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "fécula de maíz",
+            "cornstarch"
+          ]
+        },
+        {
+          "es": "aceite vegetal interesterificado",
+          "en": "interesterified vegetable oil",
+          "aliases": [
+            "aceite vegetal interesterificado",
+            "interesterified vegetable oil"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de arroz",
+          "en": "rice flour",
+          "aliases": [
+            "harina de arroz",
+            "rice flour"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "jarabe de alta fructosa",
+            "high-fructose syrup"
+          ]
+        },
+        {
+          "es": "miel",
+          "en": "honey",
+          "aliases": [
+            "miel",
+            "honey"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "lecitina de soya",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "goma xanthan",
+            "xanthan"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "baking soda",
+            "E500(ii)"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503(ii)"
+          ]
+        },
+        {
+          "es": "propionato de calcio",
+          "en": "calcium propionate",
+          "aliases": [
+            "propionato de calcio",
+            "calcium propionate",
+            "E282"
+          ]
+        },
+        {
+          "es": "esencia de vainilla",
+          "en": "vanilla flavouring",
+          "aliases": [
+            "esencia de vainilla",
+            "vanilla flavouring",
+            "aroma de vainilla",
+            "vanilla essence"
+          ]
+        },
+        {
+          "es": "esencia de leche condensada",
+          "en": "condensed milk flavouring",
+          "aliases": [
+            "esencia de leche condensada",
+            "condensed milk flavouring",
+            "aroma de leche condensada"
+          ]
+        }
+      ],
+      "sourceId": "smams-pepas-membrillo-150g-ar-ingredients",
+      "verification": "manufacturer_ingredient_declaration",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "smams-pepas-membrillo-150g-ar-image"
     }
   ]
 }
