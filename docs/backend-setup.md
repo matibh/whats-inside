@@ -9,6 +9,15 @@
 - Practice attempts do not affect competitive Daily points or streaks.
 - The browser never receives Daily answer keys before the challenge closes.
 
+## Catalog architecture
+
+- Canonical source of truth: private repository [matibh/whats-inside-catalog](https://github.com/matibh/whats-inside-catalog).
+- The private repository contains `data/catalog-master.md`, `data/products.json`, `data/products-world.json`, `data/sources.json`, and `data/sources-world.json`.
+- Keep that repository private. Do not mirror new answer-bearing catalog files into this public code repository.
+- The 200 products already present in this public repository and its Git history are legacy Practice-only products. Their `daily_eligible` flag must remain false permanently.
+- New Daily products must be curated in the private repository, imported to Supabase (metadata to `public.products`, answer keys to `private.product_answers` and/or `private.daily_challenge_answers`), and only then scheduled. The browser receives safe metadata; validation remains server-side.
+- Update the JSON catalogs, source registries, and master Markdown together for every product batch.
+
 ## Supabase project
 
 - Project: **Ingredora**
@@ -40,20 +49,15 @@ Base URL: `https://xblqghhhchffuqkmzgta.supabase.co/functions/v1`
 | `submit-practice` | No | Validate a completed Practice round server-side; saves history if signed in |
 | `leaderboard` | No | Return today's ranking or all-time points |
 
-The function sources are committed under `supabase/functions/<function-name>/index.ts`. The 200 existing products are available to the Practice API; their answers are validated server-side and returned only after a Practice submission.
+The function sources are committed under `supabase/functions/<function-name>/index.ts`. The 200 historical products are available to the Practice API; their answers are validated server-side and returned only after a Practice submission.
 
-## Catalog import and launch blocker
+## Catalog import and Daily eligibility
 
-**The existing Practice catalog is imported.** The 200 existing catalog products (80 Argentina, 120 World) and their 2,933 ingredient records are imported. Safe metadata is in `public.products`; answer records are in `private.product_answers`. All imported products have `daily_eligible = false`, because their answer keys are already public in this repository. No Daily challenges or Daily answer keys have been seeded.
+The 200 historical catalog products (80 Argentina, 120 World) and their 2,933 ingredient records are imported. Safe metadata is in `public.products`; answer records are in `private.product_answers`. All imported historical products have `daily_eligible = false`, because their answer keys are already public in this repository and its Git history. No Daily challenges or Daily answer keys have been seeded.
 
-The repository is currently public and contains answer keys in `data/products.json`, `data/products-world.json`, `data/catalog-master.md`, and Git history. A private database does not protect answers that remain available in public GitHub files or old commits.
+The new private catalog repository has been created and the current master register, both product JSON catalogs, and both source registries have been copied and verified there. This is a source-of-truth separation for future catalog work; it does not remove the legacy public copies or make the historical products safe for competitive Daily.
 
-Before adding a separate Daily-eligible product pool and scheduling a competitive Daily, choose one of these approaches:
-
-1. Keep the code repository public and move the full answer catalog into a separate private source, removing public answer copies from the active site.
-2. Make the repository private and plan a separate, careful Git-history cleanup; changing visibility alone does not erase answers already copied or cached.
-
-Do not change repository visibility or rewrite history without explicit owner approval. Do not launch the competitive Daily until this is resolved.
+**Launch blocker:** no competitive Daily should be scheduled until a new, private-only product pool has been curated, imported and verified. Do not change visibility or rewrite history in the public code repository without explicit owner approval.
 
 ## Authentication setup still required
 
