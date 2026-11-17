@@ -6503,3 +6503,87 @@ Harina de trigo enriquecida; chocolate semiamargo 32% (azúcar, masa de cacao, m
 
 **Fuente de ingredientes / Ingredient source:** [Transcripción de etiqueta / Package-label transcription](https://www.youtube.com/watch?v=hfhOkS5YXlw)  
 **Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg)
+
+
+### Cereal Mix Frutilla y Chía
+
+- **ID:** `cereal-mix-frutilla-chia-ar-207g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/90101010783.jpg)
+- **Marca / Brand:** Arcor · Cereal Mix
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 207 g
+- **Categoría / Category:** `oat_strawberry_chia_cookies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Galletitas de avena con frutilla deshidratada, semillas de chía y ciruela.
+- **Description (EN):** Oat cookies with dried strawberry, chia seeds and dried plum.
+
+**Ingredientes declarados / Declared ingredients**
+
+Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina); azúcar; aceite de girasol alto oleico; avena arrollada (8%); ciruela deshidratada; frutilla deshidratada (2%); semillas de chía (2%); leche descremada en polvo; sal; fructosa; leudantes químicos (bicarbonato de amonio, bicarbonato de sodio); emulsionantes (mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, sales de ácidos grasos con potasio, lecitina de soja); mejorador de la harina (metabisulfito de sodio); aromatizantes artificiales (vainillina, aroma frutilla).
+
+**Fuente de ingredientes / Ingredient source:** [Vea / transcripción de etiqueta](https://www.vea.com.ar/galletas-cereal-mix-frutilla-chia-x207g/p)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/90101010783.jpg)
+
+
+### Mogul 50% Frutas
+
+- **ID:** `mogul-50-frutas-ar-50g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/7a86dcc8d67cf6f14e215c114c88f7ac.jpg)
+- **Marca / Brand:** Arcor · Mogul
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 50 g
+- **Categoría / Category:** `fruit_gummies`
+- **Estado / Status:** `ready` · **Verificación:** `packaging_transcription_secondary`
+- **Descripción (ES):** Pastillas de goma sabor frutal con la leyenda 50% jugo de fruta en el envase.
+- **Description (EN):** Fruit-flavoured gummy candies with a 50% fruit juice claim on the pack.
+
+**Ingredientes declarados / Declared ingredients**
+
+Jarabe de glucosa, azúcar, almidón, gelificante gelatina/grenetina, acidulante ácido cítrico, colorante rojo allura (INS 129), colorante amarillo ocaso (INS 110), colorante tartrazina (INS 102), colorante azul brillante (INS 133), aromatizantes artificiales.
+
+**Fuente de ingredientes / Ingredient source:** [Vea / transcripción de etiqueta](https://www.vea.com.ar/gomitas-frutales-mogul-50-gr-2/p)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/7a86dcc8d67cf6f14e215c114c88f7ac.jpg)
+
+
+### Natural Break Nutritivo
+
+- **ID:** `natural-break-nutritivo-ar-27g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/f03914b674d5470d245747decd9967cc.jpg)
+- **Marca / Brand:** Arcor · Natural Break
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 27 g
+- **Categoría / Category:** `nut_seed_mix`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_document`
+- **Descripción (ES):** Mix salado de maní, semillas de girasol, castañas de cajú y almendras.
+- **Description (EN):** A savoury mix of salted peanuts, sunflower seeds, cashews and almonds.
+
+**Ingredientes declarados / Declared ingredients**
+
+Maní salado, semillas de girasol, castañas de cajú, almendras.
+
+**Fuente de ingredientes / Ingredient source:** [Arcor](https://www.arcor.com/ar/uploads/downloads/888b06bf766c4684d47217660a75a6b0.pdf)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/f03914b674d5470d245747decd9967cc.jpg)
+
+
+### Natural Break Energía
+
+- **ID:** `natural-break-energia-ar-30g`
+- **Foto oficial / Official photo:** [Ver envase / View package](https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg)
+- **Marca / Brand:** Arcor · Natural Break
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 30 g
+- **Categoría / Category:** `dried_fruit_nut_mix`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_document`
+- **Descripción (ES):** Mix de frutas y semillas con chips de banana, pasas de uva, maní tostado y semillas de girasol.
+- **Description (EN):** A fruit and seed mix with banana chips, raisins, roasted peanuts and sunflower seeds.
+
+**Ingredientes declarados / Declared ingredients**
+
+Chips de banana, pasas de uva, maní tostado, semillas de girasol peladas.
+
+**Fuente de ingredientes / Ingredient source:** [Arcor](https://www.arcor.com/ar/uploads/downloads/888b06bf766c4684d47217660a75a6b0.pdf)  
+**Fuente de imagen / Image source:** [Imagen oficial Arcor / Official Arcor image](https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg)
