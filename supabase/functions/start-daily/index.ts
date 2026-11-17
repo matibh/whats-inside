@@ -41,6 +41,9 @@ Deno.serve(async (req: Request) => {
   const date = new Intl.DateTimeFormat("en-CA",{timeZone:"America/Argentina/Buenos_Aires",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
   const {data:challenge,error} = await admin.from("daily_challenges").select("id,challenge_date,market,product_id,product_name,image_url,description_es,description_en,starts_at,ends_at").eq("challenge_date",date).eq("status","published").maybeSingle();
   if (error || !challenge) return reply({error:"Today's challenge is unavailable"},404);
+  const now = Date.now();
+  if (now < new Date(challenge.starts_at).getTime() || now >= new Date(challenge.ends_at).getTime())
+    return reply({error:"Today's challenge is outside its active window"},404);
   const {data:attempt} = await admin.from("daily_attempts").select("id").eq("challenge_id",challenge.id).eq("user_id",user.id).maybeSingle();
   if (attempt) return reply({error:"You already played today's Daily"},409);
   const {data:existing} = await admin.from("daily_play_sessions").select("id,started_at,expires_at,consumed_at").eq("challenge_id",challenge.id).eq("user_id",user.id).maybeSingle();
