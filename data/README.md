@@ -128,3 +128,8 @@ Added BC La Campagnola Mayonnaise (500 g), La Campagnola Tuna Loin in Oil (170 g
 ## Argentina catalog expansion — 17 November 2026 (ninth batch)
 
 Added Bagley Kesitas Queso (75 g), Gallo Snacks Chips Queso (50 g), and Cuisine & Co Galletitas Dulces Sabor Leche (260 g). Each product has a separate ingredient-declaration record and a real package-photo record. Allergen warnings are excluded from accepted answers.
+
+
+## Argentina catalog expansion — 17 November 2026 (tenth batch)
+
+Added Gallo Snacks Chips Jamón (150 g), Don Satur Pepas (300 g), Trio Pepas (500 g), and Smams Pepas Membrillo (150 g). Smams ingredients use the manufacturer's official declaration; other ingredient declarations are sourced from Jumbo. Real package photographs and image provenance are tracked separately. Allergen warnings and precautionary traces are excluded from accepted answers.
