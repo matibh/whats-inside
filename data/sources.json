@@ -775,6 +775,186 @@
       "url": "https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg",
       "supports": "Official Arcor product image of the Águila 60% cocoa individual chocolate bar, 14 g.",
       "market": "Argentina"
+    },
+    {
+      "id": "mermelada-durazno-ar-454g-ingredients",
+      "productId": "mermelada-durazno-ar-454g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7795184119756-mermelada-de-durazno/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mermelada-durazno-ar-454g-image",
+      "productId": "mermelada-durazno-ar-454g",
+      "publisher": "XPallet",
+      "sourceType": "retailer_product_image",
+      "url": "https://d3340tyzmtlo4u.cloudfront.net/users/864/images/detailed/10/Arcor_Mermelada_de_Durazno_sin_TACC%2C_454_g.webp",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://xpallet.com.ar/arcor-mermelada-de-durazno-sin-tacc-454-g/",
+      "market": "Argentina"
+    },
+    {
+      "id": "polenta-instantanea-arcor-ar-500g-ingredients",
+      "productId": "polenta-instantanea-arcor-ar-500g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580660000-polenta-instantanea/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "polenta-instantanea-arcor-ar-500g-image",
+      "productId": "polenta-instantanea-arcor-ar-500g",
+      "publisher": "Amazonas Foods",
+      "sourceType": "retailer_product_image",
+      "url": "https://amazonasfoods.com/cdn/shop/files/ARC10.jpg?height=940&v=1710026440",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://amazonasfoods.com/es/products/arcor-polenta-prestopronta-500-grs",
+      "market": "Argentina"
+    },
+    {
+      "id": "rocklets-arcor-ar-40g-ingredients",
+      "productId": "rocklets-arcor-ar-40g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580327415-rocklets/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "rocklets-arcor-ar-40g-image",
+      "productId": "rocklets-arcor-ar-40g",
+      "publisher": "Rimoldi Mayorista",
+      "sourceType": "retailer_product_image",
+      "url": "https://www.rimoldimayorista.com.ar/datos/uploads/mod_catalogo/31308/rocklets-40g-604d0381cae06.png",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.rimoldimayorista.com.ar/categorias/rocklets-confites-40g-28386.html",
+      "market": "Argentina"
+    },
+    {
+      "id": "saladix-pizza-ar-30g-ingredients",
+      "productId": "saladix-pizza-ar-30g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580387006-saladix-sabor-pizza/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "saladix-pizza-ar-30g-image",
+      "productId": "saladix-pizza-ar-30g",
+      "publisher": "Farmacity",
+      "sourceType": "retailer_product_image",
+      "url": "https://farmacityar.vtexassets.com/arquivos/ids/240113/210752_Saladix-Pizza-30-gr_imagen-1.jpg?v=638163168276500000",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.farmacity.com/galletitas-saladix-sabor-pizza-x-30-gr/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "pure-tomate-arcor-ar-530g-ingredients",
+      "productId": "pure-tomate-arcor-ar-530g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580138868-pure-de-tomate/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "pure-tomate-arcor-ar-530g-image",
+      "productId": "pure-tomate-arcor-ar-530g",
+      "publisher": "Toledo Digital",
+      "sourceType": "retailer_product_image",
+      "url": "https://toledodigitalar.vtexassets.com/arquivos/ids/161481/20356.jpg?v=638796780715830000",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.toledodigital.com.ar/pure-de-tomate-arcor-530g-20356/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "arvejas-secas-remojadas-arcor-ar-300g-ingredients",
+      "productId": "arvejas-secas-remojadas-arcor-ar-300g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580132392-arvejas-secas-remojadas/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "arvejas-secas-remojadas-arcor-ar-300g-image",
+      "productId": "arvejas-secas-remojadas-arcor-ar-300g",
+      "publisher": "Pampa Direct",
+      "sourceType": "retailer_product_image",
+      "url": "https://cdn11.bigcommerce.com/s-3stx4pub31/images/stencil/1280x1280/products/6917/20310/Arvejas-Arcor-Secas-Remojadas-Al-Natural-300-Gr__00557.1661539115.jpg?c=3%3Fimbypass%3Don",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://pampadirect.com/arcor-arvejas-soaked-dry-peas-ideal-for-salads-no-preservatives-added-gluten-free-300-g-10-58-oz-can/",
+      "market": "Argentina"
+    },
+    {
+      "id": "tomates-peritas-arcor-ar-400g-ingredients",
+      "productId": "tomates-peritas-arcor-ar-400g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580567903-tomates-peritas/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "tomates-peritas-arcor-ar-400g-image",
+      "productId": "tomates-peritas-arcor-ar-400g",
+      "publisher": "Disco / Jumbo",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/581351/Tomate-Perita-En-Lata-Arcor-400-Gr-1-20524.jpg?v=637226034332730000",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.disco.com.ar/tomate-perita-en-lata-arcor-400-gr/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "cereal-mix-semillas-chips-ar-207g-ingredients",
+      "productId": "cereal-mix-semillas-chips-ar-207g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790040135758-cereal-mix-semillas-chips/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cereal-mix-semillas-chips-ar-207g-image",
+      "productId": "cereal-mix-semillas-chips-ar-207g",
+      "publisher": "Ecomodico",
+      "sourceType": "retailer_product_image",
+      "url": "https://d2eebw31vcx88p.cloudfront.net/ecomodico/uploads-r/p/5ee8acc17ea8f5fcea29d35cd20b5a884b3dd238.jpg",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://ecomodico.com/p/galletitas-cereal-mix-de-semillas-y-chips-x-207-gr/6bf8b862-1caf-4fae-a8c9-b861cf63bcc7",
+      "market": "Argentina"
+    },
+    {
+      "id": "mermelada-frutilla-arcor-ar-454g-ingredients",
+      "productId": "mermelada-frutilla-arcor-ar-454g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790580509606-mermelada-de-frutilla/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "mermelada-frutilla-arcor-ar-454g-image",
+      "productId": "mermelada-frutilla-arcor-ar-454g",
+      "publisher": "Más Online",
+      "sourceType": "retailer_product_image",
+      "url": "https://masonlineprod.vtexassets.com/arquivos/ids/217693-800-auto?aspect=true&height=auto&v=637854086192500000&width=800",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.masonline.com.ar/mermelada-arcor-de-frutilla-454gr-2/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "cereal-mix-avena-manzana-ar-180g-ingredients",
+      "productId": "cereal-mix-avena-manzana-ar-180g",
+      "publisher": "ShelfPedia / Open Food Facts",
+      "sourceType": "packaging_transcription_secondary",
+      "url": "https://shelfpedia.com/es-ar/producto/7790040135796-cereal-mix-avena-manzana/",
+      "supports": "Complete ingredient declaration transcribed from the product package as recorded in Open Food Facts; the page identifies the declaration as appearing on the package. Any precautionary may-contain statement is not scored as an ingredient.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cereal-mix-avena-manzana-ar-180g-image",
+      "productId": "cereal-mix-avena-manzana-ar-180g",
+      "publisher": "Disco / Jumbo",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/698155/Galletas-Cereal-Mix-Avena-Y-Manzana-X180g-1-887758.jpg?v=637866922207630000",
+      "supports": "Real front/package photograph of the matching product shown on the linked retailer product listing: https://www.disco.com.ar/galletas-cereal-mix-avena-y-manzana-x180g-2/p",
+      "market": "Argentina"
     }
   ]
 }
