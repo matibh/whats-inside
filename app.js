@@ -45,7 +45,7 @@ function updateLanguage(){
  document.documentElement.lang=lang;
  const map={productPlaceholder:"mysteryProduct",youFound:"foundTitle",youMissed:"missed",resultKicker:"resultKicker",resultTitle:"resultTitle",kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyEyebrow:"dailyEyebrow",dailyDescription:"dailyDescription",dailyReplayTest:"testReplay",dailyResetTest:"testReset",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceEyebrow:"practiceEyebrow",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabelText:"authEmail",authPasswordLabelText:"password"};
  for(const [id,key] of Object.entries(map))setText(id,t(key));
- const headlineText=$("headline")?.querySelector(".wordmark-text");if(headlineText)headlineText.textContent=t("headline");
+ const headline=$("headline");if(headline)headline.setAttribute("aria-label",t("headline"));
  $("langBtn").textContent=lang==="en"?"ESPAÑOL":"ENGLISH";
  const replayHint=$("dailyReplayWrap")?.querySelector(".hint");if(replayHint)replayHint.textContent=t("testHint");
  $("ingredientInput").placeholder=t("practicePlaceholder");$("ingredientInput").setAttribute("aria-label",t("prompt"));
@@ -202,6 +202,26 @@ $("dailyTab").onclick=()=>setMode("daily");$("practiceTab").onclick=()=>setMode(
 $("backBtn").onclick=()=>{show("result",false);show("intro",true);setMode(mode);if(mode==="daily")checkDaily()};$("shareBtn").onclick=async()=>{const result=lastResult;const score=result?.score??result?.attempt?.score??0;const count=result?.correct_count??result?.attempt?.correct_count??0;const msg=lang==="es"?"INGREDORA\n"+count+" ingredientes · "+score+" puntos\n¿Podés superarme?":"INGREDORA\n"+count+" ingredients · "+score+" points\nCan you beat me?";try{if(navigator.share)await navigator.share({title:"Ingredora",text:msg});else{await navigator.clipboard.writeText(msg);setText("shareBtn",lang==="es"?"¡COPIADO!":"COPIED!")}}catch{}};
 // Rankings are opened from the persistent navigation tab.$("closeRanking").onclick=()=>setMode(mode==="ranking"?"daily":mode);$("rankingScope").onchange=loadRanking;
 async function loadRanking(){$("dailyTab").classList.remove("active");$("practiceTab").classList.remove("active");$("rankingTab").classList.add("active");show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",true);show("intro",true);status("rankingList",t("loading"));try{const data=await call("leaderboard?scope="+$("rankingScope").value);const list=$("rankingList");list.innerHTML="";if(!data.entries?.length){list.textContent=t("noRank");return}data.entries.forEach(x=>{const row=document.createElement("div");row.className="rank-row";const a=document.createElement("b");a.textContent="#"+x.rank;const b=document.createElement("span");b.textContent=x.username;const c=document.createElement("strong");c.textContent=x.score+" pts";row.append(a,b,c);list.append(row)})}catch(e){status("rankingList",e.message,true)}}
+function typeIngredoraWordmark(){
+ const heading=$("headline"),target=heading?.querySelector(".wordmark-text");
+ if(!heading||!target)return;
+ const word=t("headline");
+ target.textContent="";
+ heading.classList.remove("typing-complete");
+ heading.setAttribute("aria-label",word);
+ let index=0;
+ const delays=[125,105,145,115,155,105,135,120,170];
+ const typeNext=()=>{
+  if(index<word.length){
+   target.textContent+=word[index++];
+   window.setTimeout(typeNext,delays[(index-1)%delays.length]);
+  }else{
+   window.setTimeout(()=>heading.classList.add("typing-complete"),220);
+  }
+ };
+ window.setTimeout(typeNext,350);
+}
+typeIngredoraWordmark();
 $("themeBtn").onclick=toggleTheme;$("rankingScope").value="today";$("langBtn").onclick=()=>{lang=lang==="en"?"es":"en";setText("langBtn",lang==="en"?"ESPAÑOL":"ENGLISH");updateLanguage()};
 supabase.auth.onAuthStateChange((_event,newSession)=>{session=newSession;updateAccount();checkDaily()});
 (async()=>{setMode("daily");const {data}=await supabase.auth.getSession();session=data.session;updateAccount();setText("langBtn","ESPAÑOL");updateLanguage();await Promise.all([checkDaily(),loadCatalog()]);})();
