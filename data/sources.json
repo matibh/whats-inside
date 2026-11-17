@@ -757,6 +757,24 @@
       "url": "https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg",
       "supports": "Official Arcor product image for Natural Break Energía.",
       "market": "Argentina"
+    },
+    {
+      "id": "aguila-60-cacao-vea",
+      "productId": "aguila-60-cacao-ar-14g",
+      "publisher": "Vea",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.vea.com.ar/barrita-chocolate-aguila-60cacao-x14g/p",
+      "supports": "Ingredient declaration for Águila 60% cocoa chocolate bar, 14 g. The retailer transcribes the ingredient statement; may-contain almonds and peanuts are excluded from game answers.",
+      "market": "Argentina"
+    },
+    {
+      "id": "image-aguila-60-cacao-ar-14g",
+      "productId": "aguila-60-cacao-ar-14g",
+      "publisher": "Arcor",
+      "sourceType": "manufacturer_product_image",
+      "url": "https://www.arcor.com/ar/uploads/product_images/3d288f9fd14d1c5b516e8232c5319624.jpg",
+      "supports": "Official Arcor product image of the Águila 60% cocoa individual chocolate bar, 14 g.",
+      "market": "Argentina"
     }
   ]
 }
