@@ -118,3 +118,8 @@ Added 10 Argentina-market products: Arcor Peach Jam (454 g), Presto Pronta Insta
 ## Argentina catalog expansion — 17 November 2026 (seventh batch)
 
 Added Cunnington Cola Classic (2.25 L), Cunnington Ginger Ale Classic (1.5 L), and La Serenísima Nutrición Activa Yogur Firme Vainilla (190 g). Each product has a separately recorded ingredient source and package-image source; the yogurt ingredients and image come from the manufacturer's product page.
+
+
+## Argentina catalog expansion — 17 November 2026 (eighth batch)
+
+Added BC La Campagnola Mayonnaise (500 g), La Campagnola Tuna Loin in Oil (170 g), and La Campagnola Napolitana Tomato Sauce (350 g). Each record has a separate ingredient-declaration source and a real package-image source.
