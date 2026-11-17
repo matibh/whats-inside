@@ -5915,6 +5915,465 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-mana-banada-arcor"
+    },
+    {
+      "id": "cereal-mix-frutilla-chia-ar-207g",
+      "barcode": "7790040135765",
+      "name": "Cereal Mix Frutilla y Chía",
+      "brand": "Arcor · Cereal Mix",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "oat_strawberry_chia_cookies",
+      "package": "207 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/90101010783.jpg",
+      "description": {
+        "en": "Oat cookies with dried strawberry, chia seeds and dried plum.",
+        "es": "Galletitas de avena con frutilla deshidratada, semillas de chía y ciruela."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro, ácido fólico, tiamina, riboflavina, niacina); azúcar; aceite de girasol alto oleico; avena arrollada (8%); ciruela deshidratada; frutilla deshidratada (2%); semillas de chía (2%); leche descremada en polvo; sal; fructosa; leudantes químicos (bicarbonato de amonio, bicarbonato de sodio); emulsionantes (mono y diglicéridos de ácidos grasos, ésteres de ácidos grasos con propilenglicol, sales de ácidos grasos con potasio, lecitina de soja); mejorador de la harina (metabisulfito de sodio); aromatizantes artificiales (vainillina, aroma frutilla).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "avena arrollada",
+          "en": "rolled oats",
+          "aliases": [
+            "avena arrollada",
+            "rolled oats",
+            "oats"
+          ]
+        },
+        {
+          "es": "ciruela deshidratada",
+          "en": "dried plum",
+          "aliases": [
+            "ciruela deshidratada",
+            "dried plum",
+            "prune"
+          ]
+        },
+        {
+          "es": "frutilla deshidratada",
+          "en": "dried strawberry",
+          "aliases": [
+            "frutilla deshidratada",
+            "dried strawberry"
+          ]
+        },
+        {
+          "es": "semillas de chía",
+          "en": "chia seeds",
+          "aliases": [
+            "semillas de chía",
+            "chia seeds"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "fructosa",
+          "en": "fructose",
+          "aliases": [
+            "fructosa",
+            "fructose"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "E471"
+          ]
+        },
+        {
+          "es": "ésteres de ácidos grasos con propilenglicol",
+          "en": "propylene glycol esters of fatty acids",
+          "aliases": [
+            "ésteres de ácidos grasos con propilenglicol",
+            "propylene glycol esters of fatty acids",
+            "E477"
+          ]
+        },
+        {
+          "es": "sales de ácidos grasos con potasio",
+          "en": "potassium salts of fatty acids",
+          "aliases": [
+            "sales de ácidos grasos con potasio",
+            "potassium salts of fatty acids",
+            "E470a"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "aroma de frutilla",
+          "en": "strawberry flavouring",
+          "aliases": [
+            "aroma de frutilla",
+            "strawberry flavouring",
+            "strawberry flavoring"
+          ]
+        }
+      ],
+      "sourceId": "cereal-mix-frutilla-chia-vea",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-cereal-mix-frutilla-chia-arcor"
+    },
+    {
+      "id": "mogul-50-frutas-ar-50g",
+      "barcode": null,
+      "name": "Mogul 50% Frutas",
+      "brand": "Arcor · Mogul",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "fruit_gummies",
+      "package": "50 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/7a86dcc8d67cf6f14e215c114c88f7ac.jpg",
+      "description": {
+        "en": "Fruit-flavoured gummy candies with a 50% fruit juice claim on the pack.",
+        "es": "Pastillas de goma sabor frutal con la leyenda 50% jugo de fruta en el envase."
+      },
+      "ingredientsText": "Jarabe de glucosa, azúcar, almidón, gelificante gelatina/grenetina, acidulante ácido cítrico, colorante rojo allura (INS 129), colorante amarillo ocaso (INS 110), colorante tartrazina (INS 102), colorante azul brillante (INS 133), aromatizantes artificiales.",
+      "ingredients": [
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "rojo allura",
+          "en": "allura red",
+          "aliases": [
+            "rojo allura",
+            "allura red",
+            "INS 129",
+            "E129"
+          ]
+        },
+        {
+          "es": "amarillo ocaso",
+          "en": "sunset yellow",
+          "aliases": [
+            "amarillo ocaso",
+            "sunset yellow",
+            "INS 110",
+            "E110"
+          ]
+        },
+        {
+          "es": "tartrazina",
+          "en": "tartrazine",
+          "aliases": [
+            "tartrazina",
+            "tartrazine",
+            "INS 102",
+            "E102"
+          ]
+        },
+        {
+          "es": "azul brillante",
+          "en": "brilliant blue",
+          "aliases": [
+            "azul brillante",
+            "brilliant blue",
+            "INS 133",
+            "E133"
+          ]
+        },
+        {
+          "es": "aromatizantes artificiales",
+          "en": "artificial flavourings",
+          "aliases": [
+            "aromatizantes artificiales",
+            "artificial flavourings",
+            "artificial flavorings"
+          ]
+        }
+      ],
+      "sourceId": "mogul-50-frutas-vea",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-mogul-50-frutas-arcor"
+    },
+    {
+      "id": "natural-break-nutritivo-ar-27g",
+      "barcode": null,
+      "name": "Natural Break Nutritivo",
+      "brand": "Arcor · Natural Break",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "nut_seed_mix",
+      "package": "27 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/f03914b674d5470d245747decd9967cc.jpg",
+      "description": {
+        "en": "A savoury mix of salted peanuts, sunflower seeds, cashews and almonds.",
+        "es": "Mix salado de maní, semillas de girasol, castañas de cajú y almendras."
+      },
+      "ingredientsText": "Maní salado, semillas de girasol, castañas de cajú, almendras.",
+      "ingredients": [
+        {
+          "es": "maní",
+          "en": "peanuts",
+          "aliases": [
+            "maní",
+            "peanuts",
+            "groundnuts"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "semillas de girasol",
+          "en": "sunflower seeds",
+          "aliases": [
+            "semillas de girasol",
+            "sunflower seeds"
+          ]
+        },
+        {
+          "es": "castañas de cajú",
+          "en": "cashews",
+          "aliases": [
+            "castañas de cajú",
+            "cashews",
+            "cashew nuts"
+          ]
+        },
+        {
+          "es": "almendras",
+          "en": "almonds",
+          "aliases": [
+            "almendras",
+            "almonds"
+          ]
+        }
+      ],
+      "sourceId": "natural-break-nutritivo-arcor",
+      "verification": "manufacturer_document",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-natural-break-nutritivo-arcor"
+    },
+    {
+      "id": "natural-break-energia-ar-30g",
+      "barcode": null,
+      "name": "Natural Break Energía",
+      "brand": "Arcor · Natural Break",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "dried_fruit_nut_mix",
+      "package": "30 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/e3a671ee24e99d80742597b922df29b2.jpg",
+      "description": {
+        "en": "A fruit and seed mix with banana chips, raisins, roasted peanuts and sunflower seeds.",
+        "es": "Mix de frutas y semillas con chips de banana, pasas de uva, maní tostado y semillas de girasol."
+      },
+      "ingredientsText": "Chips de banana, pasas de uva, maní tostado, semillas de girasol peladas.",
+      "ingredients": [
+        {
+          "es": "chips de banana",
+          "en": "banana chips",
+          "aliases": [
+            "chips de banana",
+            "banana chips",
+            "dried banana"
+          ]
+        },
+        {
+          "es": "pasas de uva",
+          "en": "raisins",
+          "aliases": [
+            "pasas de uva",
+            "raisins"
+          ]
+        },
+        {
+          "es": "maní tostado",
+          "en": "roasted peanuts",
+          "aliases": [
+            "maní tostado",
+            "roasted peanuts"
+          ]
+        },
+        {
+          "es": "semillas de girasol peladas",
+          "en": "shelled sunflower seeds",
+          "aliases": [
+            "semillas de girasol peladas",
+            "shelled sunflower seeds"
+          ]
+        }
+      ],
+      "sourceId": "natural-break-energia-arcor",
+      "verification": "manufacturer_document",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-natural-break-energia-arcor"
     }
   ]
 }
