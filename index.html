@@ -274,42 +274,56 @@ body{
 }
 
 
-/* Signature Ingredora wordmark */
+/* Ingredora identity — clear hierarchy and a bolder wordmark */
+.intro{
+ display:flex;flex-direction:column;align-items:center;
+ padding:clamp(38px,7vh,66px) 0 30px;
+}
+.intro .eyebrow{
+ order:0;display:inline-flex;align-items:center;gap:9px;
+ padding:8px 13px;margin:0 0 17px;
+ border:1px solid #dce8cf;border-radius:999px;
+ background:#f0f6e9;color:#54734a;
+ font:800 10px "DM Mono",monospace;letter-spacing:.16em;
+}
+.intro .eyebrow:before{
+ content:"";width:7px;height:7px;border-radius:50%;
+ background:#91bd45;box-shadow:0 0 0 3px #91bd4522;
+}
 .intro h1{
- position:relative;display:inline-block;isolation:isolate;
- font-weight:950;letter-spacing:-.095em;line-height:.94;
- color:transparent;
- background:linear-gradient(112deg,#244b30 4%,#4e8b3c 48%,#a0c943 100%);
- -webkit-background-clip:text;background-clip:text;
- text-shadow:0 8px 24px rgba(75,122,48,.10);
- padding:0 5px 15px 0;margin-bottom:13px;
+ order:1;position:relative;display:inline-block;
+ margin:0 0 17px;padding:0 4px 12px 0;
+ color:#193d2a;font-weight:1000;
+ font-size:clamp(52px,10.5vw,86px);
+ line-height:.88;letter-spacing:-.09em;
+ text-shadow:0 3px 0 rgba(25,61,42,.07);
 }
 .intro h1:after{
- content:"";position:absolute;left:2px;right:8%;bottom:0;height:7px;
- border-radius:100% 35% 90% 45%;
- background:linear-gradient(90deg,#d9fa68 0%,#a9d84d 58%,rgba(169,216,77,0) 100%);
- transform:skewX(-17deg) rotate(-1.2deg);
+ content:"";position:absolute;left:2px;right:5px;bottom:0;
+ height:9px;border-radius:3px 14px 4px 12px;
+ background:#b8e45d;transform:rotate(-1.3deg);
  z-index:-1;
 }
 .intro h1:before{
- content:"✦";position:absolute;right:-25px;top:-10px;
- color:#a4c94c;font-size:clamp(17px,2.5vw,25px);
- line-height:1;text-shadow:0 3px 12px rgba(133,164,48,.22);
- transform:rotate(12deg);
+ content:"";position:absolute;right:-17px;top:-8px;
+ width:12px;height:12px;border-radius:4px 9px 4px 9px;
+ background:#8fbd43;transform:rotate(25deg);
 }
-:root[data-theme="dark"] .intro h1{
- background:linear-gradient(112deg,#eff8dc 0%,#c9ee83 52%,#91c64a 100%);
- -webkit-background-clip:text;background-clip:text;
+.intro p{order:2;margin:0 auto;max-width:420px;color:#69796d;font-size:15px;line-height:1.6}
+:root[data-theme="dark"] .intro .eyebrow{
+ background:#263729;border-color:#3c5140;color:#c1dfa0;
 }
-:root[data-theme="dark"] .intro h1:after{
- background:linear-gradient(90deg,#8ebc45 0%,#628f39 58%,rgba(98,143,57,0) 100%);
-}
+:root[data-theme="dark"] .intro h1{color:#eff8e8;text-shadow:none}
+:root[data-theme="dark"] .intro h1:after{background:#8ebc45}
+:root[data-theme="dark"] .intro h1:before{background:#b7e65d}
 @media(max-width:600px){
- .intro h1{padding-bottom:13px}
- .intro h1:before{right:-19px;top:-8px}
- .intro h1:after{height:6px}
+ .intro{padding:38px 0 22px}
+ .intro .eyebrow{font-size:9px;margin-bottom:16px;padding:7px 11px}
+ .intro h1{font-size:clamp(48px,13vw,68px);padding-bottom:10px}
+ .intro h1:after{height:7px}
+ .intro h1:before{right:-13px;top:-6px;width:9px;height:9px}
+ .intro p{font-size:14px;max-width:320px}
 }
-
 </style>
 </head>
 <body>
