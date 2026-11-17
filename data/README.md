@@ -108,3 +108,8 @@ Added Cereal Mix Frutilla y Chía (207 g), Mogul 50% Frutas (50 g), Natural Brea
 ## Argentina catalog expansion — 17 November 2026 (fifth batch)
 
 Added Águila Extra Fino 60% Cacao (14 g). The ingredient declaration is a retailer transcription of the product label; the real package image is hosted by Arcor. The may-contain statement for almonds and peanuts is kept out of accepted ingredient answers.
+
+
+## Argentina catalog expansion — 17 November 2026 (sixth batch)
+
+Added 10 Argentina-market products: Arcor Peach Jam (454 g), Presto Pronta Instant Polenta (500 g), Rocklets (40 g), Saladix Pizza Baked Crackers (30 g), Arcor Tomato Purée (530 g), Arcor Soaked Dried Peas (300 g / 195 g drained), Arcor Tomates Peritas (400 g), Cereal Mix Semillas & Chips (207 g), Arcor Strawberry Jam (454 g), and Cereal Mix Avena & Manzana (180 g). Each has a separate package-transcription ingredient source and a separate real package-photo source. The Cereal Mix Semillas & Chips source's precautionary may-contain list is not scored as ingredients.
