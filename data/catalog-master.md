@@ -7502,3 +7502,130 @@ Puré de tomates, tomate en cubos, cebolla, zanahoria, aceite vegetal de girasol
 
 **Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/salsa-napol-premium-x-350-gr-la-campagnola/p)  
 **Fuente de imagen / Image source:** [Más Online](https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p)
+
+
+## Argentina catalog expansion — 17 November 2026 (ninth batch)
+
+Added three products with matching package photographs and separately recorded ingredient declarations: Bagley Kesitas Queso (75 g), Gallo Snacks Chips Queso (50 g), and Cuisine & Co Galletitas Dulces Sabor Leche (260 g). Ingredient declarations come from Jumbo; package photographs are separately sourced from OnCity, Jumbo and Vea. Precautionary allergen statements and repeated allergen-category terms are not scored as ingredients.
+
+### Kesitas Queso
+
+- **ID:** `kesitas-queso-75g-ar`
+- **Package photo:** [View package / Ver envase](https://www.oncity.com/galletitas-kesitas-snack-saladas-con-queso-paquete-75-grs-95876/p)
+- **Brand:** Bagley · Kesitas
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 75 g
+- **Category:** `cheese_crackers`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Galletitas saladas horneadas con queso azul y sabor a queso.
+- **Description (EN):** Baked savory crackers made with blue cheese and cheese flavour.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso, sulfitos. La página también enumera derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de trigo / wheat flour · harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin
+- aceite de girasol alto oleico / high-oleic sunflower oil · aceite de girasol alto oleico, high-oleic sunflower oil, aceite alto oleico, high oleic sunflower oil
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat
+- sal / salt · sal, salt
+- queso azul / blue cheese · queso azul, blue cheese
+- jarabe de glucosa / glucose syrup · jarabe de glucosa, glucose syrup
+- paprika / paprika · paprika, paprika, pimentón
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate
+- fosfato monocálcico / monocalcium phosphate · fosfato monocálcico, monocalcium phosphate
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin
+- metabisulfito de sodio / sodium metabisulfite · metabisulfito de sodio, sodium metabisulfite
+- aromatizante artificial sabor queso / artificial cheese flavouring · aromatizante artificial sabor queso, artificial cheese flavouring, aroma queso, cheese flavouring
+- sulfitos / sulfites · sulfitos, sulfites
+
+**Ingredient source:** [Bagley · Kesitas listing](https://www.jumbo.com.ar/galletitas-kesitas-75-gr/p)  
+**Image source:** [OnCity](https://www.oncity.com/galletitas-kesitas-snack-saladas-con-queso-paquete-75-grs-95876/p)
+
+### Gallo Snacks Chips Queso
+
+- **ID:** `gallo-chips-queso-50g-ar`
+- **Package photo:** [View package / Ver envase](https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p)
+- **Brand:** Gallo
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 50 g
+- **Category:** `rice_snacks`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Snack horneado de arroz sabor queso.
+- **Description (EN):** Cheese-flavoured baked rice snack.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, colorante betacaroteno, colorante amarillo ocaso, emulsionante ésteres de ácidos grasos con poliglicerol, emulsionante mono y diglicéridos de ácidos grasos, emulsionante polioxietilen sorbitán monooleato, antioxidante tocoferoles concentrado mezcla, antioxidante ter butil hidroquinona. La mención final «leche» corresponde a la declaración de alérgeno y no se cuenta dos veces; «derivados de soja» aparece como puede contener.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de arroz / rice flour · harina de arroz, rice flour
+- grasa vacuna refinada / refined beef fat · grasa vacuna refinada, refined beef fat
+- almidón de maíz / corn starch · almidón de maíz, corn starch, fécula de maíz, cornstarch
+- leche descremada / skimmed milk · leche descremada, skimmed milk, leche desnatada
+- sal / salt · sal, salt
+- azúcar / sugar · azúcar, sugar
+- aceite de girasol / sunflower oil · aceite de girasol, sunflower oil
+- aromatizante/saborizante / flavouring · aromatizante/saborizante, flavouring, aromatizante, saborizante, flavoring
+- betacaroteno / beta-carotene · betacaroteno, beta-carotene, colorante betacaroteno
+- amarillo ocaso / sunset yellow · amarillo ocaso, sunset yellow, amarillo ocaso FCF, E110
+- ésteres de ácidos grasos con poliglicerol / polyglycerol esters of fatty acids · ésteres de ácidos grasos con poliglicerol, polyglycerol esters of fatty acids, ésteres de poliglicerol
+- mono y diglicéridos de ácidos grasos / mono- and diglycerides of fatty acids · mono y diglicéridos de ácidos grasos, mono- and diglycerides of fatty acids, mono y diglicéridos
+- polisorbato 80 / polysorbate 80 · polisorbato 80, polysorbate 80, polioxietilen sorbitán monooleato
+- tocoferoles concentrados / concentrated tocopherols · tocoferoles concentrados, concentrated tocopherols, tocoferoles
+- terbutil hidroquinona / tertiary butylhydroquinone · terbutil hidroquinona, tertiary butylhydroquinone, TBHQ, ter butil hidroquinona
+
+**Ingredient source:** [Gallo listing](https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p)  
+**Image source:** [Jumbo](https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p)
+
+### Galletitas Dulces Sabor Leche Cuisine & Co
+
+- **ID:** `cuisine-co-galletitas-leche-260g-ar`
+- **Package photo:** [View package / Ver envase](https://www.vea.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p)
+- **Brand:** Cuisine & Co
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 260 g
+- **Category:** `sweet_cookies`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Galletitas dulces sabor leche, de industria argentina.
+- **Description (EN):** Sweet milk-flavoured biscuits made in Argentina.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina de trigo 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), niacina, azúcar, grasa bovina refinada, jarabe de alta fructosa, suero de leche, sal, leudante químico INS 503(ii), leudante químico INS 450(i), emulsionante INS 322, mejorador INS 223, mejorador INS 1100, mejorador INS 1101(i), esencia de leche condensada idéntica a natural, esencia artificial de vainilla. La página agrega derivados de trigo, leche y soja como declaración de alérgenos.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de trigo 000 / wheat flour 000 · harina de trigo 000, wheat flour 000, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin
+- azúcar / sugar · azúcar, sugar
+- grasa bovina refinada / refined beef fat · grasa bovina refinada, refined beef fat
+- jarabe de alta fructosa / high-fructose syrup · jarabe de alta fructosa, high-fructose syrup, jarabe de maíz de alta fructosa, high-fructose corn syrup
+- suero de leche / whey · suero de leche, whey, suero lácteo
+- sal / salt · sal, salt
+- bicarbonato de amonio (INS 503(ii)) / ammonium bicarbonate (INS 503(ii)) · bicarbonato de amonio (INS 503(ii)), ammonium bicarbonate (INS 503(ii)), INS 503(ii)
+- difosfato disódico (INS 450(i)) / disodium diphosphate (INS 450(i)) · difosfato disódico (INS 450(i)), disodium diphosphate (INS 450(i)), INS 450(i)
+- lecitina (INS 322) / lecithin (INS 322) · lecitina (INS 322), lecithin (INS 322), INS 322
+- metabisulfito de sodio (INS 223) / sodium metabisulfite (INS 223) · metabisulfito de sodio (INS 223), sodium metabisulfite (INS 223), INS 223
+- enzimas para panificación (INS 1100) / enzymes for baking (INS 1100) · enzimas para panificación (INS 1100), enzymes for baking (INS 1100), INS 1100
+- amilasa (INS 1101(i)) / amylase (INS 1101(i)) · amilasa (INS 1101(i)), amylase (INS 1101(i)), INS 1101(i)
+- esencia de leche condensada idéntica a natural / nature-identical condensed milk flavouring · esencia de leche condensada idéntica a natural, nature-identical condensed milk flavouring, esencia de leche condensada
+- esencia artificial de vainilla / artificial vanilla flavouring · esencia artificial de vainilla, artificial vanilla flavouring, esencia de vainilla, vanilla essence
+
+**Ingredient source:** [Cuisine & Co listing](https://www.jumbo.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p)  
+**Image source:** [Vea](https://www.vea.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p)
