@@ -1297,6 +1297,60 @@
       "url": "https://masonlineprod.vtexassets.com/arquivos/ids/354406/Salsa-De-Tomate-La-Campagnola-Napolitana-350-G-0779058014419-1.jpg?v=638836386487530000",
       "supports": "Real package photograph of La Campagnola Napolitana sauce 350 g; listing: https://www.masonline.com.ar/salsa-de-tomate-la-campagnola-napolitana-350-g/p",
       "market": "Argentina"
+    },
+    {
+      "id": "kesitas-queso-75g-ar-ingredients",
+      "productId": "kesitas-queso-75g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-kesitas-75-gr/p",
+      "supports": "Ingredient declaration for Bagley Kesitas cheese crackers 75 g. The listed derivatives of wheat, milk and soy are allergen declarations and are not scored as separate ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "kesitas-queso-75g-ar-image",
+      "productId": "kesitas-queso-75g-ar",
+      "publisher": "OnCity",
+      "sourceType": "retailer_product_image",
+      "url": "https://aremsaprod.vtexassets.com/arquivos/ids/1005501/image-4c13366cf0a10d3cf2eff6048bcfda7c0.jpg?v=638960586951800000",
+      "supports": "Real front package photograph of Bagley Kesitas cheese crackers 75 g; matching listing: https://www.oncity.com/galletitas-kesitas-snack-saladas-con-queso-paquete-75-grs-95876/p",
+      "market": "Argentina"
+    },
+    {
+      "id": "gallo-chips-queso-50g-ar-ingredients",
+      "productId": "gallo-chips-queso-50g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-snacks-gallo-queso-50g/p",
+      "supports": "Ingredient declaration for Gallo Snacks Chips cheese flavour 50 g. The repeated final milk reference is an allergen declaration; soy is listed as may contain and excluded.",
+      "market": "Argentina"
+    },
+    {
+      "id": "gallo-chips-queso-50g-ar-image",
+      "productId": "gallo-chips-queso-50g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/589088/Galletitas-Gallo-Snacks-Queso-56x50-Gr-1-849863.jpg?v=637280471032000000",
+      "supports": "Real package photograph of Gallo Snacks cheese flavour 50 g, matching the Jumbo product listing.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cuisine-co-galletitas-leche-260g-ar-ingredients",
+      "productId": "cuisine-co-galletitas-leche-260g-ar",
+      "publisher": "Jumbo",
+      "sourceType": "retailer_label_transcription",
+      "url": "https://www.jumbo.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p",
+      "supports": "Ingredient declaration for Cuisine & Co milk-flavoured sweet biscuits 260 g. Allergen-derived terms at the end are not scored as separate ingredients.",
+      "market": "Argentina"
+    },
+    {
+      "id": "cuisine-co-galletitas-leche-260g-ar-image",
+      "productId": "cuisine-co-galletitas-leche-260g-ar",
+      "publisher": "Vea",
+      "sourceType": "retailer_product_image",
+      "url": "https://jumboargentina.vtexassets.com/arquivos/ids/837595/Galletitas-Dulces-Sabor-Leche-Cuisine-Co-Nbe-Galletitas-Dulces-Sabor-Leche-Cuisine-X-260-Gr-1-1014935.jpg?v=638645169637670000",
+      "supports": "Real front package photograph of Cuisine & Co Galletitas Sabor Leche 260 g; matching Vea listing.",
+      "market": "Argentina"
     }
   ]
 }
