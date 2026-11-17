@@ -5163,6 +5163,758 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "image-smams-alfajor-simple-official"
+    },
+    {
+      "id": "saladix-jamon-ar-100g",
+      "barcode": "7790580716707",
+      "name": "Saladix Jamón",
+      "brand": "Arcor · Saladix",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "savory_crackers",
+      "package": "100 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/90101003871.jpg",
+      "description": {
+        "en": "Ham-flavoured savoury snack crackers with cheese.",
+        "es": "Galletitas snack saladas sabor jamón, con queso."
+      },
+      "ingredientsText": "Harina de trigo enriquecida según ley 25630 (harina de trigo, hierro, ácido fólico, tiamina, riboflavina); grasa bovina refinada; azúcar; jarabe de glucosa; queso en polvo 29%; extracto de malta; aceite de girasol alto oleico; sal; leudantes químicos (bicarbonato de sodio, bicarbonato de amonio); emulsionante (lecitina de soja/soya); aromatizantes artificiales (aromas jamón, aroma parmesano).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "beef tallow"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "queso en polvo",
+          "en": "cheese powder",
+          "aliases": [
+            "queso en polvo",
+            "cheese powder"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "aroma de jamón",
+          "en": "ham flavouring",
+          "aliases": [
+            "aroma de jamón",
+            "ham flavouring",
+            "ham flavoring"
+          ]
+        },
+        {
+          "es": "aroma parmesano",
+          "en": "Parmesan flavouring",
+          "aliases": [
+            "aroma parmesano",
+            "Parmesan flavouring",
+            "Parmesan flavoring"
+          ]
+        }
+      ],
+      "sourceId": "saladix-jamon-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-saladix-jamon-arcor"
+    },
+    {
+      "id": "mana-livianas-vainilla-ar-145g",
+      "barcode": "7790040720107",
+      "name": "Maná Livianas Vainilla",
+      "brand": "Bagley · Arcor · Maná",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "vanilla_cookies",
+      "package": "145 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/2874b9cbfc8afc12e8c31b5efc13439e.jpg",
+      "description": {
+        "en": "Light vanilla tea biscuits.",
+        "es": "Galletitas livianas tipo María sabor vainilla."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro 0,003%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), azúcar, aceite de girasol alto oleico, jarabe de glucosa, extracto de malta, permeado de suero en polvo, sal, leudantes químicos (bicarbonato de amonio, bicarbonato de sodio), emulsionantes (mono y diglicéridos de ácidos grasos, lecitina de soja), mejorador de la harina (metabisulfito de sodio), aromatizante artificial (vainillina).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "extracto de malta",
+          "en": "malt extract",
+          "aliases": [
+            "extracto de malta",
+            "malt extract"
+          ]
+        },
+        {
+          "es": "permeado de suero en polvo",
+          "en": "whey powder permeate",
+          "aliases": [
+            "permeado de suero en polvo",
+            "whey powder permeate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "E471"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "mana-livianas-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-mana-livianas-arcor"
+    },
+    {
+      "id": "bon-o-bon-leche-ar-15g",
+      "barcode": "7790580106959",
+      "name": "Bon o Bon Leche",
+      "brand": "Arcor · Bon o Bon",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "peanut_chocolate_candy",
+      "package": "15 g por bombón",
+      "image": "https://www.arcor.com/ar/uploads/product_images/90101004303.jpg",
+      "description": {
+        "en": "Milk chocolate and wafer bonbon filled with peanut cream.",
+        "es": "Bombón de chocolate con leche y oblea relleno con crema de maní."
+      },
+      "ingredientsText": "Azúcar, aceites vegetales (palma interesterificado y fraccionado, girasol alto oleico, soja hidrogenado), maní tostado 15%, leche descremada en polvo, harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), manteca de cacao, cacao en polvo, leche entera en polvo, masa de cacao, sal, emulsionantes (lecitina de soja, poliglicerol polirricinoleato), leudante químico (bicarbonato de sodio), aromatizantes artificiales (aroma a avellana, etil vainillina), chocolate con leche 19% (sólidos de cacao 31%).",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "aceite de palma interesterificado y fraccionado",
+          "en": "interesterified and fractionated palm oil",
+          "aliases": [
+            "aceite de palma interesterificado y fraccionado",
+            "interesterified and fractionated palm oil"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "aceite de soja hidrogenado",
+          "en": "hydrogenated soybean oil",
+          "aliases": [
+            "aceite de soja hidrogenado",
+            "hydrogenated soybean oil"
+          ]
+        },
+        {
+          "es": "maní tostado",
+          "en": "roasted peanuts",
+          "aliases": [
+            "maní tostado",
+            "roasted peanuts",
+            "peanuts"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder"
+          ]
+        },
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "leche entera en polvo",
+          "en": "whole milk powder",
+          "aliases": [
+            "leche entera en polvo",
+            "whole milk powder"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "poliglicerol polirricinoleato",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "poliglicerol polirricinoleato",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "E476"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "aroma a avellana",
+          "en": "hazelnut flavouring",
+          "aliases": [
+            "aroma a avellana",
+            "hazelnut flavouring",
+            "hazelnut flavoring"
+          ]
+        },
+        {
+          "es": "etil vainillina",
+          "en": "ethyl vanillin",
+          "aliases": [
+            "etil vainillina",
+            "ethyl vanillin"
+          ]
+        },
+        {
+          "es": "chocolate con leche",
+          "en": "milk chocolate",
+          "aliases": [
+            "chocolate con leche",
+            "milk chocolate"
+          ]
+        }
+      ],
+      "sourceId": "bon-o-bon-leche-shelfpedia",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-bon-o-bon-leche-arcor"
+    },
+    {
+      "id": "mana-banada-ar-23g",
+      "barcode": null,
+      "name": "Maná Bañada",
+      "brand": "Bagley · Arcor · Maná",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_covered_filled_cookie",
+      "package": "23 g",
+      "image": "https://www.arcor.com/ar/uploads/product_images/c52f60efe5d599c02536394f60c80f35.jpg",
+      "description": {
+        "en": "Vanilla biscuit with lemon-flavoured filling, coated in semi-sweet chocolate.",
+        "es": "Galletita de vainilla con relleno sabor limón, cubierta con chocolate semiamargo."
+      },
+      "ingredientsText": "Harina de trigo enriquecida; chocolate semiamargo 32% (azúcar, masa de cacao, manteca de cacao, emulsionantes: lecitina de soja, poliglicerol polirricinoleato, triestearato de sorbitán; aromatizante); azúcar; grasa bovina refinada; aceite de girasol alto oleico; jarabe de glucosa; almidón; permeado de suero en polvo; sal; leudantes químicos (bicarbonato de amonio, bicarbonato de sodio); emulsionantes (lecitina de soja, mono y diglicéridos de ácidos grasos); acidulante (ácido cítrico); aromatizantes artificiales (vainillina, aroma limón).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour"
+          ]
+        },
+        {
+          "es": "chocolate semiamargo",
+          "en": "semi-sweet chocolate",
+          "aliases": [
+            "chocolate semiamargo",
+            "semi-sweet chocolate"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "masa de cacao",
+          "en": "cocoa mass",
+          "aliases": [
+            "masa de cacao",
+            "cocoa mass"
+          ]
+        },
+        {
+          "es": "manteca de cacao",
+          "en": "cocoa butter",
+          "aliases": [
+            "manteca de cacao",
+            "cocoa butter"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "poliglicerol polirricinoleato",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "poliglicerol polirricinoleato",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "E476"
+          ]
+        },
+        {
+          "es": "triestearato de sorbitán",
+          "en": "sorbitan tristearate",
+          "aliases": [
+            "triestearato de sorbitán",
+            "sorbitan tristearate",
+            "E492"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "beef tallow"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil"
+          ]
+        },
+        {
+          "es": "jarabe de glucosa",
+          "en": "glucose syrup",
+          "aliases": [
+            "jarabe de glucosa",
+            "glucose syrup"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "permeado de suero en polvo",
+          "en": "whey powder permeate",
+          "aliases": [
+            "permeado de suero en polvo",
+            "whey powder permeate"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "mono y diglicéridos de ácidos grasos",
+          "en": "mono- and diglycerides of fatty acids",
+          "aliases": [
+            "mono y diglicéridos de ácidos grasos",
+            "mono- and diglycerides of fatty acids",
+            "E471"
+          ]
+        },
+        {
+          "es": "ácido cítrico",
+          "en": "citric acid",
+          "aliases": [
+            "ácido cítrico",
+            "citric acid",
+            "E330"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "aroma de limón",
+          "en": "lemon flavouring",
+          "aliases": [
+            "aroma de limón",
+            "lemon flavouring",
+            "lemon flavoring"
+          ]
+        }
+      ],
+      "sourceId": "mana-banada-pack-transcription",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "image-mana-banada-arcor"
     }
   ]
 }
