@@ -17,7 +17,10 @@ A bilingual 15-second food-ingredient game: see a real packaged product and name
 - 100 points per correct ingredient; duplicate and incorrect answers do not score.
 - Results show found and missed ingredients, percentage, score, and sharing.
 - Dark theme preference is saved locally.
-- The existing published game still uses a random product from the selected market. It is not yet the connected Daily / Practice experience.
+- `feature/daily-challenge` now contains the Supabase-connected Daily Challenge and Practice interface in `index.html` + `app.js`.
+- Daily reads only published challenges and keeps answer keys server-side. An authenticated account is required for the one official attempt.
+- Practice reads the safe product catalog, supports market/category filters, and submits guesses to the protected answer checker. Guests can practice; signed-in results are saved.
+- The branch includes sign-in / sign-up, Daily and all-time leaderboards, bilingual UI, and the 15-second timer. This is development work; it has not been merged into `main` or deployed.
 
 ## Product roadmap
 
@@ -35,7 +38,7 @@ Edge Functions:
 
 - `daily-challenge`
 - `start-daily`
-- `submit-daily`
+- `submit-daily` (v3: server rejects submissions after 16 seconds to allow only minimal network tolerance around the 15-second round)
 - `practice-catalog`
 - `submit-practice`
 - `leaderboard`
