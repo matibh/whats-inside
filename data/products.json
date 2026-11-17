@@ -11501,6 +11501,252 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "smams-pepas-membrillo-150g-ar-image"
+    },
+    {
+      "id": "tita-clasica-19g-ar",
+      "barcode": null,
+      "name": "Galletita Tita Clásica",
+      "brand": "Terrabusi · Tita",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "filled_cookies",
+      "package": "19 g",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/766232-800-600?aspect=true&height=600&v=638103549901430000&width=800",
+      "imagePublisher": "Disco",
+      "imagePage": "https://www.disco.com.ar/galletita-tita-clasica-19-gr/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/galletita-tita-clasica-19-gr/p",
+      "description": {
+        "es": "Galletita dulce rellena con sabor a limón y baño de repostería.",
+        "en": "Lemon-flavoured filled sweet biscuit with a confectionery coating."
+      },
+      "ingredientsText": "Azúcar, harina de trigo, hierro, ácido fólico, vitamina B1, vitamina B2, niacina, aceite vegetal, grasa vacuna refinada, cacao en polvo, almidón, jarabe de maíz de alta fructosa, leche descremada en polvo, sal, emulsionante lecitina de soja, emulsionante polirricinoleato de poliglicerol, leudante químico bicarbonato de amonio, leudante químico bicarbonato de sodio, leudante químico fosfato monocálcico, aromatizante natural limón, aromatizante idéntico al natural vainillina, aromatizante artificial vainilla, mejorador de la harina metabisulfito de sodio, proteasa. La transcripción de la fuente continúa con una declaración de alérgenos (leche, sulfitos y derivados de trigo y soja), que no se incluye como ingredientes; también se excluye la advertencia «puede contener huevo y maní».",
+      "ingredients": [
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "harina de trigo",
+          "en": "wheat flour",
+          "aliases": [
+            "harina de trigo",
+            "wheat flour",
+            "flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folate"
+          ]
+        },
+        {
+          "es": "vitamina B1",
+          "en": "vitamin B1",
+          "aliases": [
+            "vitamina B1",
+            "vitamin B1",
+            "tiamina",
+            "thiamine"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "grasa vacuna refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa vacuna refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "cacao en polvo",
+          "en": "cocoa powder",
+          "aliases": [
+            "cacao en polvo",
+            "cocoa powder"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "HFCS",
+            "high fructose corn syrup"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skim milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skim milk powder",
+            "nonfat dry milk"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "lecitina de soya",
+            "soya lecithin"
+          ]
+        },
+        {
+          "es": "polirricinoleato de poliglicerol",
+          "en": "polyglycerol polyricinoleate",
+          "aliases": [
+            "polirricinoleato de poliglicerol",
+            "polyglycerol polyricinoleate",
+            "PGPR",
+            "E476"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503",
+            "E503(ii)"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "baking soda",
+            "E500",
+            "E500(ii)"
+          ]
+        },
+        {
+          "es": "fosfato monocálcico",
+          "en": "monocalcium phosphate",
+          "aliases": [
+            "fosfato monocálcico",
+            "monocalcium phosphate",
+            "E341(i)"
+          ]
+        },
+        {
+          "es": "aromatizante natural de limón",
+          "en": "natural lemon flavouring",
+          "aliases": [
+            "aromatizante natural limón",
+            "aromatizante natural de limón",
+            "natural lemon flavouring",
+            "natural lemon flavor"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        },
+        {
+          "es": "aromatizante artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "aromatizante artificial vainilla",
+            "aromatizante artificial de vainilla",
+            "artificial vanilla flavouring",
+            "artificial vanilla flavor"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        },
+        {
+          "es": "proteasa",
+          "en": "protease",
+          "aliases": [
+            "proteasa",
+            "protease",
+            "protease enzyme"
+          ]
+        }
+      ],
+      "sourceId": "tita-clasica-19g-ar-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "tita-clasica-19g-ar-image"
     }
   ]
 }
