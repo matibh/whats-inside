@@ -5,8 +5,8 @@ Documento humano de control editorial. Los JSON siguen siendo los datos que cons
 Human-readable editorial register. JSON remains the game's data source; update this file with every product batch.
 
 - **Última actualización / Last updated:** 2026-11-17
-- **Productos / Products:** 186
-- **Argentina:** 66
+- **Productos / Products:** 189
+- **Argentina:** 69
 - **World:** 120
 - **Idiomas / Languages:** Español + English
 - **Fotos reales / Real product photos:** 186 / 186
@@ -7284,3 +7284,110 @@ Harina de trigo enriquecida (hierro, ácido fólico, vitamina B1, vitamina B2, n
 
 **Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/galletitas-dulces-variedad-terrabusi-144-gr/p)  
 **Fuente de imagen / Image source:** [Pampa Direct](https://pampadirect.com/terrabusi-chips-cookies-classic-sweet-cookies-with-chocolate-chips-144-g-5-07-oz-ea-pack-of-3/)
+
+---
+
+## Argentina catalog expansion — 17 November 2026 (seventh batch)
+
+Added three verified Argentina-market products across beverages and dairy: Cunnington Cola Classic (2.25 L), Cunnington Ginger Ale Classic (1.5 L), and La Serenísima Nutrición Activa Yogur Firme Vainilla (190 g). Ingredient declarations and real package images have separate provenance records; the yogurt uses the manufacturer's current ingredient list and official product image.
+
+### Cunnington Cola Classic
+
+- **ID:** `cunnington-cola-classic-ar-2250ml`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.masonline.com.ar/gaseosa-cunnington-cola-2-25-l-3/p)
+- **Marca / Brand:** Cunnington
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 2.25 L
+- **Categoría / Category:** `soft_drink`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Gaseosa cola clásica argentina · ¿Podés adivinar qué contiene?
+- **Description (EN):** Argentinian classic cola · Can you guess what's inside?
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua carbonatada, azúcar, JMAF (jarabe de maíz de alta fructosa), colorante caramelo (INS 150d), aromatizante, acidulante ácido fosfórico (INS 338), conservante benzoato de sodio, cafeína.
+
+**Respuestas aceptadas / Accepted answers**
+
+- agua carbonatada / carbonated water · agua carbonatada, carbonated water
+- azúcar / sugar · azúcar, sugar
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- colorante caramelo (INS 150d) / caramel color (INS 150d) · colorante caramelo (INS 150d), caramel color (INS 150d), caramelo 150d, E150d
+- aromatizante / flavouring · aromatizante, flavouring, aromatizantes, flavoring
+- ácido fosfórico (INS 338) / phosphoric acid (INS 338) · ácido fosfórico (INS 338), phosphoric acid (INS 338), ácido fosfórico, E338
+- benzoato de sodio / sodium benzoate · benzoato de sodio, sodium benzoate, E211
+- cafeína / caffeine · cafeína, caffeine
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/gaseosa-cunnington-cola-2-25lt/p)  
+**Fuente de imagen / Image source:** [Más Online](https://www.masonline.com.ar/gaseosa-cunnington-cola-2-25-l-3/p)
+
+---
+
+### Cunnington Ginger Ale Classic
+
+- **ID:** `cunnington-ginger-ale-classic-ar-1500ml`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://www.masonline.com.ar/gaseosa-cunnington-ginger-ale-classic-1-5-l-2/p)
+- **Marca / Brand:** Cunnington
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 1.5 L
+- **Categoría / Category:** `soft_drink`
+- **Estado / Status:** `ready` · **Verificación:** `retailer_label_transcription`
+- **Descripción (ES):** Gaseosa ginger ale argentina · ¿Reconocés sus ingredientes?
+- **Description (EN):** Argentinian ginger ale soda · Can you identify its ingredients?
+
+**Ingredientes declarados / Declared ingredients**
+
+Agua carbonatada, JMAF (jarabe de maíz de alta fructosa), azúcar, acidulante ácido cítrico (INS 330), aromatizante, conservante benzoato de sodio, colorante caramelo (INS 150d), antioxidante eritorbato de sodio (INS 316).
+
+**Respuestas aceptadas / Accepted answers**
+
+- agua carbonatada / carbonated water · agua carbonatada, carbonated water
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, JMAF, HFCS
+- azúcar / sugar · azúcar, sugar
+- ácido cítrico (INS 330) / citric acid (INS 330) · ácido cítrico (INS 330), citric acid (INS 330), ácido cítrico, E330
+- aromatizante / flavouring · aromatizante, flavouring, aromatizantes, flavoring
+- benzoato de sodio / sodium benzoate · benzoato de sodio, sodium benzoate, E211
+- colorante caramelo (INS 150d) / caramel color (INS 150d) · colorante caramelo (INS 150d), caramel color (INS 150d), caramelo 150d, E150d
+- eritorbato de sodio (INS 316) / sodium erythorbate (INS 316) · eritorbato de sodio (INS 316), sodium erythorbate (INS 316), eritorbato de sodio, E316
+
+**Fuente de ingredientes / Ingredient source:** [Jumbo](https://www.jumbo.com.ar/gaseosa-cunnington-ginger-ale-1-5lt-3/p)  
+**Fuente de imagen / Image source:** [Más Online](https://www.masonline.com.ar/gaseosa-cunnington-ginger-ale-classic-1-5-l-2/p)
+
+---
+
+### Yogur Firme Vainilla La Serenísima
+
+- **ID:** `serenisima-yogur-firme-vainilla-190g`
+- **Foto del envase / Package photo:** [Ver producto / View package](https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/)
+- **Marca / Brand:** La Serenísima · Nutrición Activa
+- **País / Country:** Argentina
+- **Mercado / Market:** Argentina
+- **Envase / Package:** 190 g
+- **Categoría / Category:** `yogurt`
+- **Estado / Status:** `ready` · **Verificación:** `manufacturer_website`
+- **Descripción (ES):** Yogur firme parcialmente descremado sabor vainilla · ¿Qué ingredientes tiene?
+- **Description (EN):** Part-skimmed vanilla set yogurt · What's in it?
+
+**Ingredientes declarados / Declared ingredients**
+
+Leche parcialmente descremada pasteurizada, azúcar de caña, leche en polvo descremada, almidón modificado de maíz, gelatina, cultivos lácticos, cultivos probióticos (Lactobacillus casei DN-114 001, Bifidobacterium lactis DN-173 010), vitaminas A, D y B12, aromas.
+
+**Respuestas aceptadas / Accepted answers**
+
+- leche parcialmente descremada pasteurizada / pasteurized partly skimmed milk · leche parcialmente descremada pasteurizada, pasteurized partly skimmed milk, leche parcialmente descremada, partly skimmed milk
+- azúcar de caña / cane sugar · azúcar de caña, cane sugar
+- leche en polvo descremada / skimmed milk powder · leche en polvo descremada, skimmed milk powder, leche descremada en polvo, skim milk powder
+- almidón modificado de maíz / modified corn starch · almidón modificado de maíz, modified corn starch, almidón modificado
+- gelatina / gelatin · gelatina, gelatin
+- cultivos lácticos / lactic cultures · cultivos lácticos, lactic cultures, cultivos lácticos
+- Lactobacillus casei / Lactobacillus casei · Lactobacillus casei, Lactobacillus casei, cultivo probiótico Lactobacillus casei
+- Bifidobacterium lactis / Bifidobacterium lactis · Bifidobacterium lactis, Bifidobacterium lactis, cultivo probiótico Bifidobacterium lactis
+- vitamina A / vitamin A · vitamina A, vitamin A
+- vitamina D / vitamin D · vitamina D, vitamin D
+- vitamina B12 / vitamin B12 · vitamina B12, vitamin B12, cobalamina, cobalamin
+- aromas / flavourings · aromas, flavourings, aroma, flavorings
+
+**Fuente de ingredientes / Ingredient source:** [La Serenísima (fabricante)](https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/)  
+**Fuente de imagen / Image source:** [La Serenísima Nutrición (official)](https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/)
