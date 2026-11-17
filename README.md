@@ -6,7 +6,8 @@ A bilingual 15-second food-ingredient game: see a real packaged product and name
 
 - The canonical editorial catalog is maintained in the private repository: [matibh/whats-inside-catalog](https://github.com/matibh/whats-inside-catalog).
 - It contains the bilingual master register, Argentina and World product JSON files, and their ingredient / image source registries.
-- This public repository retains the historical 200-product catalog (80 Argentina, 120 World) for Practice compatibility and audit history. Its answers have been public in files and Git history; these products are permanently Practice-only and must never be made Daily-eligible.
+- This public repository retains the historical 200-product catalog for Practice compatibility and audit history. Its answers have been public in files and Git history; these products are permanently Practice-only and must never be made Daily-eligible.
+- The 10 newer Argentina products curated privately for Daily have protected answer keys in Supabase. Once a Daily date has ended, its product automatically becomes available in Practice; upcoming scheduled Daily products remain excluded until their date has passed.
 - New products intended for competitive Daily must be curated in the private catalog, imported into Supabase's protected answer store, and exposed to the browser only as safe metadata.
 - Whenever a batch is added or corrected, update the private JSON catalogs, source registries, and `data/catalog-master.md` together.
 
@@ -19,7 +20,9 @@ A bilingual 15-second food-ingredient game: see a real packaged product and name
 - Dark theme preference is saved locally.
 - `feature/daily-challenge` now contains the Supabase-connected Daily Challenge and Practice interface in `index.html` + `app.js`.
 - Daily reads only published challenges and keeps answer keys server-side. An authenticated account is required for the one official attempt.
-- Practice reads the safe product catalog, supports market/category filters, and submits guesses to the protected answer checker. Guests can practice; signed-in results are saved.
+- Practice reads the safe product catalog, supports Argentina / World and category filters, and submits guesses to the protected answer checker. Guests can practice; signed-in results are saved.
+- The Rankings tab opens today's Daily and all-time leaderboards.
+- The account `ingredora@gmail.com` sees a temporary Daily replay test button. Its replay is processed through Practice, bypasses the future-Daily reservation check only for that verified account, and is excluded from official Daily scores, streaks, Practice history, and ingredient mastery.
 - The branch includes sign-in / sign-up, Daily and all-time leaderboards, bilingual UI, and the 15-second timer. This is development work; it has not been merged into `main` or deployed.
 
 ## Product roadmap
@@ -43,7 +46,7 @@ Edge Functions:
 - `submit-practice`
 - `leaderboard`
 
-The matching source files and applied migrations are tracked under `supabase/`. The 200 historical products and 2,933 ingredient records have been imported for Practice (public-safe metadata in `public.products`, answer records in `private.product_answers`). All historical products have `daily_eligible = false`. No Daily challenges have been scheduled, and the new frontend is not live.
+The matching source files and applied migrations are tracked under `supabase/`. The historical Practice catalog and 10 Daily-eligible Argentina products are imported (public-safe metadata in `public.products`, answer records in `private.product_answers`). Historical products have `daily_eligible = false`. Ten Daily challenges are scheduled for 19–28 November 2026. The frontend changes remain on `feature/daily-challenge`; they have not been merged into `main` or deployed.
 
 ### Critical answer-key security requirement
 
