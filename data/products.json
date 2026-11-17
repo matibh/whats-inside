@@ -7743,6 +7743,858 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "cereal-mix-avena-manzana-ar-180g-image"
+    },
+    {
+      "id": "dos-anclas-sal-fina-ar-500g",
+      "barcode": "7792900000138",
+      "name": "Sal Fina Dos Anclas",
+      "brand": "Dos Anclas",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "salt",
+      "package": "500 g",
+      "image": "https://arcordiezb2c.vteximg.com.br/arquivos/ids/158413/SAL-DOS-ANCLAS-FINA-PAQUETE-1-1437.jpg?v=637432191741800000",
+      "imagePublisher": "Cordiez",
+      "imagePage": "https://www.cordiez.com.ar/sal-fina-paquete-dos-anclas-500-gr/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/sal-fina-dos-anclas-500-gr-3/p",
+      "description": {
+        "es": "Sal fina argentina con antiaglutinantes y yodato de potasio.",
+        "en": "Argentine fine salt with anti-caking agents and potassium iodate."
+      },
+      "ingredientsText": "Sal (cloruro de sodio), antiaglutinante carbonato de magnesio (INS 504i), almidón de maíz, dióxido de silicio (INS 551), yodato de potasio (INS 917).",
+      "ingredients": [
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt",
+            "cloruro de sodio",
+            "sodium chloride"
+          ]
+        },
+        {
+          "es": "carbonato de magnesio",
+          "en": "magnesium carbonate",
+          "aliases": [
+            "carbonato de magnesio",
+            "magnesium carbonate",
+            "INS 504i",
+            "E504i"
+          ]
+        },
+        {
+          "es": "almidón de maíz",
+          "en": "corn starch",
+          "aliases": [
+            "almidón de maíz",
+            "corn starch",
+            "maize starch"
+          ]
+        },
+        {
+          "es": "dióxido de silicio",
+          "en": "silicon dioxide",
+          "aliases": [
+            "dióxido de silicio",
+            "silicon dioxide",
+            "INS 551",
+            "E551"
+          ]
+        },
+        {
+          "es": "yodato de potasio",
+          "en": "potassium iodate",
+          "aliases": [
+            "yodato de potasio",
+            "potassium iodate",
+            "INS 917"
+          ]
+        }
+      ],
+      "sourceId": "dos-anclas-sal-fina-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "dos-anclas-sal-fina-image"
+    },
+    {
+      "id": "don-satur-bizcocho-salado-ar-200g",
+      "barcode": "7795735000328",
+      "name": "Bizcocho Salado Don Satur",
+      "brand": "Don Satur",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "savory_biscuits",
+      "package": "200 g",
+      "image": "https://www.mercadodelaraza.com/cdn/shop/files/FullSizeRender_203ef6b0-5cb3-41b5-a458-87ecb664500d.jpg?v=1708567453",
+      "imagePublisher": "Mercado de la Raza",
+      "imagePage": "https://www.mercadodelaraza.com/products/don-satur-bizcochos-salado-200-g",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7795735000328-bizcocho-salado/",
+      "description": {
+        "es": "Bizcochos salados de grasa, un clásico argentino para acompañar el mate.",
+        "en": "Traditional Argentine savory fat crackers, often enjoyed with mate."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063% (B1), riboflavina 0,00013% (B2), niacina 0,0013%), grasa bovina refinada, agua, sal, azúcar.",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid",
+            "folato",
+            "folate"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat",
+            "beef fat"
+          ]
+        },
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        }
+      ],
+      "sourceId": "don-satur-bizcocho-salado-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "don-satur-bizcocho-salado-image"
+    },
+    {
+      "id": "chocolino-la-virginia-ar-180g",
+      "barcode": "7790150830857",
+      "name": "Chocolino Cacao en Polvo",
+      "brand": "La Virginia · Chocolino",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "chocolate_drink_powder",
+      "package": "180 g",
+      "image": "https://toledodigitalar.vtexassets.com/arquivos/ids/164285/16355.png?v=638796802170130000",
+      "imagePublisher": "Toledo Digital",
+      "imagePage": "https://www.toledodigital.com.ar/cacao-en-polvo-chocolino-bolsa-180g-16355/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790150830857-chocolino/",
+      "description": {
+        "es": "Cacao granulado fortificado para preparar bebidas chocolatadas.",
+        "en": "Fortified granular cocoa powder for chocolate drinks."
+      },
+      "ingredientsText": "Azúcar blanco común, cacao solubilizado, sal, sulfato de zinc, vitamina B3, vitamina B6, vitamina B2, vitamina B12, aroma, emulsionante: lecitinas.",
+      "ingredients": [
+        {
+          "es": "azúcar blanco",
+          "en": "white sugar",
+          "aliases": [
+            "azúcar blanco",
+            "white sugar",
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "cacao solubilizado",
+          "en": "solubilized cocoa",
+          "aliases": [
+            "cacao solubilizado",
+            "solubilized cocoa",
+            "cacao",
+            "cocoa"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "sulfato de zinc",
+          "en": "zinc sulfate",
+          "aliases": [
+            "sulfato de zinc",
+            "zinc sulfate"
+          ]
+        },
+        {
+          "es": "vitamina B3",
+          "en": "vitamin B3",
+          "aliases": [
+            "vitamina B3",
+            "vitamin B3",
+            "niacina",
+            "niacin"
+          ]
+        },
+        {
+          "es": "vitamina B6",
+          "en": "vitamin B6",
+          "aliases": [
+            "vitamina B6",
+            "vitamin B6",
+            "piridoxina",
+            "pyridoxine"
+          ]
+        },
+        {
+          "es": "vitamina B2",
+          "en": "vitamin B2",
+          "aliases": [
+            "vitamina B2",
+            "vitamin B2",
+            "riboflavina",
+            "riboflavin"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12",
+            "cobalamina",
+            "cobalamin"
+          ]
+        },
+        {
+          "es": "aroma",
+          "en": "flavouring",
+          "aliases": [
+            "aroma",
+            "flavouring",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "lecitinas",
+          "en": "lecithins",
+          "aliases": [
+            "lecitinas",
+            "lecithins",
+            "lecitina",
+            "lecithin",
+            "E322"
+          ]
+        }
+      ],
+      "sourceId": "chocolino-la-virginia-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "chocolino-la-virginia-image"
+    },
+    {
+      "id": "sonrisas-bagley-ar-108g",
+      "barcode": null,
+      "name": "Sonrisas",
+      "brand": "Bagley",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "filled_cookies",
+      "package": "108 g",
+      "image": "https://statics.dinoonline.com.ar/imagenes/full_600x600_ma/2142219_f.jpg",
+      "imagePublisher": "Super MaMi / Dino Online",
+      "imagePage": "https://www.supermami.com.ar/super/producto/galletas-sonrisas-x-108-gr/_/A-2142219-2142219-s",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/5796440133488-sonrisas/",
+      "description": {
+        "es": "Galletitas dulces rellenas sabor frambuesa.",
+        "en": "Sweet raspberry-flavoured sandwich cookies."
+      },
+      "ingredientsText": "Harina de trigo enriquecida (hierro 0,0030%, ácido fólico 0,00022%, tiamina 0,00063%, riboflavina 0,00013%, niacina 0,0013%), azúcar, jarabe de maíz de alta fructosa, aceite de girasol alto oleico, grasa bovina refinada, avena arrollada, carbonato de calcio, leche descremada en polvo, sal, almidón, jugo de manzana, leudantes químicos (bicarbonato de sodio, bicarbonato de amonio), gelificante (agar), emulsionante (lecitina de soja), acidulante (ácido tartárico), mejorador de harina (metabisulfito de sodio), colorante (ácido carmínico, INS 120), aromatizantes artificiales (aroma frambuesa, vainillina).",
+      "ingredients": [
+        {
+          "es": "harina de trigo enriquecida",
+          "en": "enriched wheat flour",
+          "aliases": [
+            "harina de trigo enriquecida",
+            "enriched wheat flour",
+            "harina de trigo",
+            "wheat flour"
+          ]
+        },
+        {
+          "es": "hierro",
+          "en": "iron",
+          "aliases": [
+            "hierro",
+            "iron"
+          ]
+        },
+        {
+          "es": "ácido fólico",
+          "en": "folic acid",
+          "aliases": [
+            "ácido fólico",
+            "folic acid"
+          ]
+        },
+        {
+          "es": "tiamina",
+          "en": "thiamine",
+          "aliases": [
+            "tiamina",
+            "thiamine",
+            "vitamina B1",
+            "vitamin B1"
+          ]
+        },
+        {
+          "es": "riboflavina",
+          "en": "riboflavin",
+          "aliases": [
+            "riboflavina",
+            "riboflavin",
+            "vitamina B2",
+            "vitamin B2"
+          ]
+        },
+        {
+          "es": "niacina",
+          "en": "niacin",
+          "aliases": [
+            "niacina",
+            "niacin",
+            "vitamina B3",
+            "vitamin B3"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "aceite de girasol alto oleico",
+          "en": "high-oleic sunflower oil",
+          "aliases": [
+            "aceite de girasol alto oleico",
+            "high-oleic sunflower oil",
+            "aceite de girasol",
+            "sunflower oil"
+          ]
+        },
+        {
+          "es": "grasa bovina refinada",
+          "en": "refined beef fat",
+          "aliases": [
+            "grasa bovina refinada",
+            "refined beef fat"
+          ]
+        },
+        {
+          "es": "avena arrollada",
+          "en": "rolled oats",
+          "aliases": [
+            "avena arrollada",
+            "rolled oats",
+            "avena",
+            "oats"
+          ]
+        },
+        {
+          "es": "carbonato de calcio",
+          "en": "calcium carbonate",
+          "aliases": [
+            "carbonato de calcio",
+            "calcium carbonate"
+          ]
+        },
+        {
+          "es": "leche descremada en polvo",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche descremada en polvo",
+            "skimmed milk powder",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "almidón",
+          "en": "starch",
+          "aliases": [
+            "almidón",
+            "starch"
+          ]
+        },
+        {
+          "es": "jugo de manzana",
+          "en": "apple juice",
+          "aliases": [
+            "jugo de manzana",
+            "apple juice"
+          ]
+        },
+        {
+          "es": "bicarbonato de sodio",
+          "en": "sodium bicarbonate",
+          "aliases": [
+            "bicarbonato de sodio",
+            "sodium bicarbonate",
+            "E500"
+          ]
+        },
+        {
+          "es": "bicarbonato de amonio",
+          "en": "ammonium bicarbonate",
+          "aliases": [
+            "bicarbonato de amonio",
+            "ammonium bicarbonate",
+            "E503"
+          ]
+        },
+        {
+          "es": "agar",
+          "en": "agar",
+          "aliases": [
+            "agar",
+            "agar",
+            "agar-agar",
+            "E406"
+          ]
+        },
+        {
+          "es": "lecitina de soja",
+          "en": "soy lecithin",
+          "aliases": [
+            "lecitina de soja",
+            "soy lecithin",
+            "E322"
+          ]
+        },
+        {
+          "es": "ácido tartárico",
+          "en": "tartaric acid",
+          "aliases": [
+            "ácido tartárico",
+            "tartaric acid",
+            "E334"
+          ]
+        },
+        {
+          "es": "metabisulfito de sodio",
+          "en": "sodium metabisulfite",
+          "aliases": [
+            "metabisulfito de sodio",
+            "sodium metabisulfite",
+            "E223"
+          ]
+        },
+        {
+          "es": "ácido carmínico",
+          "en": "carminic acid",
+          "aliases": [
+            "ácido carmínico",
+            "carminic acid",
+            "INS 120",
+            "E120"
+          ]
+        },
+        {
+          "es": "aroma frambuesa",
+          "en": "raspberry flavouring",
+          "aliases": [
+            "aroma frambuesa",
+            "raspberry flavouring",
+            "raspberry flavoring"
+          ]
+        },
+        {
+          "es": "vainillina",
+          "en": "vanillin",
+          "aliases": [
+            "vainillina",
+            "vanillin"
+          ]
+        }
+      ],
+      "sourceId": "sonrisas-bagley-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "sonrisas-bagley-image"
+    },
+    {
+      "id": "serenisima-dulce-leche-clasico-ar-1kg",
+      "barcode": "7790742104304",
+      "name": "Dulce de Leche Clásico La Serenísima",
+      "brand": "La Serenísima",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "dulce_de_leche",
+      "package": "1 kg",
+      "image": "https://jumboargentina.vtexassets.com/arquivos/ids/869632/D-leche-La-Serenisima-Clasico-1kg-1-1034562.jpg?v=638842270314700000",
+      "imagePublisher": "Jumbo",
+      "imagePage": "https://www.jumbo.com.ar/dulce-de-leche-clasico-x-1-kg-la-serenisima/p",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7790742104304-dulce-de-leche-clasico/",
+      "description": {
+        "es": "Dulce de leche clásico en pote de un kilo.",
+        "en": "Classic dulce de leche in a one-kilogram tub."
+      },
+      "ingredientsText": "Leche, azúcar, glucosa, conservante (sorbato de potasio), aromatizante (artificial vainilla).",
+      "ingredients": [
+        {
+          "es": "leche",
+          "en": "milk",
+          "aliases": [
+            "leche",
+            "milk"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "glucosa",
+          "en": "glucose",
+          "aliases": [
+            "glucosa",
+            "glucose"
+          ]
+        },
+        {
+          "es": "sorbato de potasio",
+          "en": "potassium sorbate",
+          "aliases": [
+            "sorbato de potasio",
+            "potassium sorbate",
+            "E202"
+          ]
+        },
+        {
+          "es": "aromatizante artificial de vainilla",
+          "en": "artificial vanilla flavouring",
+          "aliases": [
+            "aromatizante artificial de vainilla",
+            "artificial vanilla flavouring",
+            "artificial vanilla flavoring",
+            "vainilla artificial"
+          ]
+        }
+      ],
+      "sourceId": "serenisima-dulce-leche-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "serenisima-dulce-leche-image"
+    },
+    {
+      "id": "playadito-yerba-mate-ar-500g",
+      "barcode": "7793704000911",
+      "name": "Yerba Mate Playadito",
+      "brand": "Playadito · Cooperativa Liebig",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "yerba_mate",
+      "package": "500 g",
+      "image": "https://mate-ufa.com/174-thickbox_default/playadito-1kg.jpg",
+      "imagePublisher": "Mate-UFA",
+      "imagePage": "https://mate-ufa.com/mate/66-playadito-1kg.html",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7793704000911-playadito/",
+      "description": {
+        "es": "Yerba mate argentina tradicional elaborada con palo.",
+        "en": "Traditional Argentine yerba mate blend with stems."
+      },
+      "ingredientsText": "100% yerba mate (Ilex paraguariensis). Sin aditivos.",
+      "ingredients": [
+        {
+          "es": "yerba mate",
+          "en": "yerba mate",
+          "aliases": [
+            "yerba mate",
+            "yerba mate",
+            "Ilex paraguariensis",
+            "mate"
+          ]
+        }
+      ],
+      "sourceId": "playadito-yerba-mate-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "playadito-yerba-mate-image"
+    },
+    {
+      "id": "amanda-yerba-mate-tradicional-ar-500g",
+      "barcode": "7792710000182",
+      "name": "Yerba Mate Amanda Tradicional",
+      "brand": "Amanda",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "yerba_mate",
+      "package": "500 g",
+      "image": "https://www.cebate.pt/680-large_default/yerba-mate-tradicional-amanda-500gr.jpg",
+      "imagePublisher": "Cebate",
+      "imagePage": "https://www.cebate.pt/pt/yerba-mate/139-yerba-mate-tradicional-amanda-500gr-7792710000182.html",
+      "ingredientUrl": "https://shelfpedia.com/es-ar/producto/7792710000182-yerba-mate-tradicional/",
+      "description": {
+        "es": "Yerba mate tradicional argentina elaborada con palo.",
+        "en": "Traditional Argentine yerba mate blend with stems."
+      },
+      "ingredientsText": "Yerba mate (Ilex paraguariensis).",
+      "ingredients": [
+        {
+          "es": "yerba mate",
+          "en": "yerba mate",
+          "aliases": [
+            "yerba mate",
+            "yerba mate",
+            "Ilex paraguariensis",
+            "mate"
+          ]
+        }
+      ],
+      "sourceId": "amanda-yerba-mate-ingredients",
+      "verification": "packaging_transcription_secondary",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "amanda-yerba-mate-image"
+    },
+    {
+      "id": "hellmanns-mayonesa-clasica-ar",
+      "barcode": "7794000006058",
+      "name": "Mayonesa Clásica Hellmann's",
+      "brand": "Hellmann's · Unilever",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "mayonnaise",
+      "package": "Presentación argentina; tamaño no especificado en la página oficial",
+      "image": "https://assets.unileversolutions.com/v1/144186463.png",
+      "imagePublisher": "Hellmann's Argentina / Unilever",
+      "imagePage": "https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058",
+      "ingredientUrl": "https://www.hellmanns.com/ar/p/mayonesa-clasica.html/07794000006058",
+      "description": {
+        "es": "Mayonesa clásica argentina con huevo y aceite vegetal.",
+        "en": "Argentine classic mayonnaise made with egg and vegetable oil."
+      },
+      "ingredientsText": "Agua, aceite vegetal, huevo líquido, almidón modificado, azúcar, vinagre de alcohol, sal, jugo de limón concentrado, estabilizante: goma xántica, acidulante: ácido fosfórico, conservador: ácido sórbico, aromatizantes idénticos a los naturales y natural, secuestrante: EDTA disódico cálcico y colorante: betacaroteno.",
+      "ingredients": [
+        {
+          "es": "agua",
+          "en": "water",
+          "aliases": [
+            "agua",
+            "water"
+          ]
+        },
+        {
+          "es": "aceite vegetal",
+          "en": "vegetable oil",
+          "aliases": [
+            "aceite vegetal",
+            "vegetable oil"
+          ]
+        },
+        {
+          "es": "huevo líquido",
+          "en": "liquid egg",
+          "aliases": [
+            "huevo líquido",
+            "liquid egg",
+            "huevo",
+            "egg"
+          ]
+        },
+        {
+          "es": "almidón modificado",
+          "en": "modified starch",
+          "aliases": [
+            "almidón modificado",
+            "modified starch"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "vinagre de alcohol",
+          "en": "alcohol vinegar",
+          "aliases": [
+            "vinagre de alcohol",
+            "alcohol vinegar"
+          ]
+        },
+        {
+          "es": "sal",
+          "en": "salt",
+          "aliases": [
+            "sal",
+            "salt"
+          ]
+        },
+        {
+          "es": "jugo de limón concentrado",
+          "en": "concentrated lemon juice",
+          "aliases": [
+            "jugo de limón concentrado",
+            "concentrated lemon juice",
+            "concentrated lemon"
+          ]
+        },
+        {
+          "es": "goma xántica",
+          "en": "xanthan gum",
+          "aliases": [
+            "goma xántica",
+            "xanthan gum",
+            "E415"
+          ]
+        },
+        {
+          "es": "ácido fosfórico",
+          "en": "phosphoric acid",
+          "aliases": [
+            "ácido fosfórico",
+            "phosphoric acid",
+            "E338"
+          ]
+        },
+        {
+          "es": "ácido sórbico",
+          "en": "sorbic acid",
+          "aliases": [
+            "ácido sórbico",
+            "sorbic acid",
+            "E200"
+          ]
+        },
+        {
+          "es": "aromatizantes",
+          "en": "flavourings",
+          "aliases": [
+            "aromatizantes",
+            "flavourings",
+            "flavorings"
+          ]
+        },
+        {
+          "es": "EDTA disódico cálcico",
+          "en": "calcium disodium EDTA",
+          "aliases": [
+            "EDTA disódico cálcico",
+            "calcium disodium EDTA",
+            "E385"
+          ]
+        },
+        {
+          "es": "betacaroteno",
+          "en": "beta-carotene",
+          "aliases": [
+            "betacaroteno",
+            "beta-carotene",
+            "E160a"
+          ]
+        }
+      ],
+      "sourceId": "hellmanns-mayonesa-ingredients",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "hellmanns-mayonesa-image"
     }
   ]
 }
