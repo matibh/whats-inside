@@ -93,3 +93,8 @@ Added 5 Argentina-market records: Havanna Alfajor Chocolate Clásico, Yogurísim
 ## Argentina catalog expansion — 17 November 2026 (second batch)
 
 Added 4 products using manufacturer-published ingredient declarations and official product images: Jorgito Galletitas con Chips (120 g), Smams Alfajor Glorioso (75 g), Smams Alfajor Dulce de Leche Triple (81 g), and Smams Alfajor Dulce de Leche (50 g). Product-specific ingredient and image references are stored in `sources.json`.
+
+
+## Argentina catalog expansion — 17 November 2026 (third batch)
+
+Added 4 additional Argentina-market products with real package images hosted by Arcor: Saladix Jamón (100 g), Maná Livianas Vainilla (145 g), Bon o Bon Leche (15 g unit), and Maná Bañada (23 g). Ingredient statements are explicitly marked as secondary package transcriptions; Arcor-hosted images are recorded separately. Mogul 50% Frutas was researched but held back because a complete ingredient statement could not be verified from an adequate source.
