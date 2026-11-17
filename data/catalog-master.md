@@ -7628,3 +7628,163 @@ Harina de trigo 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), nia
 
 **Ingredient source:** [Cuisine & Co listing](https://www.jumbo.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p)  
 **Image source:** [Vea](https://www.vea.com.ar/galletitas-dulces-sabor-leche-260-grs-cuisine-co/p)
+
+
+## Argentina catalog expansion — 17 November 2026 (tenth batch)
+
+Added four products: Gallo Snacks Chips Jamón 150 g, Don Satur Pepas 300 g, Trio Pepas 500 g, and Smams Pepas Membrillo 150 g. The first three ingredient declarations are transcribed from Jumbo; Smams ingredients use the manufacturer's official declaration because retailer text differs. Each package photograph has a separate image source record. Allergen-only statements and precautionary traces are excluded from accepted answers.
+
+### Chips Gallo Snacks Sabor Jamón
+
+- **ID:** `gallo-chips-jamon-150g-ar`
+- **Package photo:** [View package / Ver envase](https://www.masonline.com.ar/chips-gallo-snacks-sabor-jamon-150-g-2/p)
+- **Brand:** Gallo Snacks
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 150 g
+- **Category:** `rice_snacks`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Snack crocante y horneado a base de arroz, sabor jamón.
+- **Description (EN):** Crunchy baked rice snack with ham flavour.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina de arroz, grasa vacuna refinada, almidón de maíz, leche descremada, sal, azúcar, aceite de girasol, aromatizante/saborizante, ésteres de ácidos grasos con poliglicerol, mono y diglicéridos de ácidos grasos, polioxietilen sorbitán monooleato, tocoferoles concentrados mezcla, terbutil hidroquinona, colorante caramelo IV. La mención final «leche» se trata como declaración de alérgeno repetida y «puede contener derivados de soja» no se puntúa.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de arroz / rice flour · harina de arroz, rice flour
+- grasa vacuna refinada / refined beef fat · grasa vacuna refinada, refined beef fat
+- almidón de maíz / corn starch · almidón de maíz, corn starch, fécula de maíz, cornstarch
+- leche descremada / skimmed milk · leche descremada, skimmed milk
+- sal / salt · sal, salt
+- azúcar / sugar · azúcar, sugar
+- aceite de girasol / sunflower oil · aceite de girasol, sunflower oil
+- aromatizante/saborizante / flavouring · aromatizante/saborizante, flavouring, aromatizante, saborizante, flavoring
+- ésteres de ácidos grasos con poliglicerol / polyglycerol esters of fatty acids · ésteres de ácidos grasos con poliglicerol, polyglycerol esters of fatty acids, ésteres de poliglicerol
+- mono y diglicéridos de ácidos grasos / mono- and diglycerides of fatty acids · mono y diglicéridos de ácidos grasos, mono- and diglycerides of fatty acids, mono y diglicéridos
+- polisorbato 80 / polysorbate 80 · polisorbato 80, polysorbate 80, polioxietilen sorbitán monooleato
+- tocoferoles concentrados mezcla / mixed concentrated tocopherols · tocoferoles concentrados mezcla, mixed concentrated tocopherols, tocoferoles
+- terbutil hidroquinona / tertiary butylhydroquinone · terbutil hidroquinona, tertiary butylhydroquinone, TBHQ, ter butil hidroxiquinona
+- colorante caramelo IV / caramel colour IV · colorante caramelo IV, caramel colour IV, caramelo IV, caramel color IV
+
+**Ingredient source:** [Gallo Snacks listing](https://www.jumbo.com.ar/chips-gallo-snacks-arroz-jamon-x150g/p)  
+**Image source:** [Más Online](https://www.masonline.com.ar/chips-gallo-snacks-sabor-jamon-150-g-2/p)
+
+### Pepas Don Satur
+
+- **ID:** `don-satur-pepas-membrillo-300g-ar`
+- **Package photo:** [View package / Ver envase](https://www.masonline.com.ar/galletitas-dulces-pepas-don-satur-300-g-2/p)
+- **Brand:** Don Satur
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 300 g
+- **Category:** `sweet_cookies`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Galletitas dulces argentinas con centro de mermelada de membrillo.
+- **Description (EN):** Argentine sweet biscuits with a quince jam centre.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina de trigo enriquecida, hierro, ácido fólico, tiamina, riboflavina, niacina, azúcar, oleomargarina, mermelada de membrillo, colorante rojo allura AC (INS 129), agua, esencia de vainilla, colorante natural amarillo annatto (INS 160b). Se excluyen «derivados de trigo» y «sulfitos» porque aparecen como declaraciones de alérgenos; «soya» figura como puede contener.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de trigo enriquecida / enriched wheat flour · harina de trigo enriquecida, enriched wheat flour, harina de trigo, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin
+- azúcar / sugar · azúcar, sugar
+- oleomargarina / oleomargarine · oleomargarina, oleomargarine
+- mermelada de membrillo / quince jam · mermelada de membrillo, quince jam, dulce de membrillo, quince paste
+- rojo allura AC (INS 129) / allura red AC (INS 129) · rojo allura AC (INS 129), allura red AC (INS 129), rojo allura, allura red, E129, INS 129
+- agua / water · agua, water
+- esencia de vainilla / vanilla flavouring · esencia de vainilla, vanilla flavouring, aroma de vainilla, vanilla essence
+- amarillo annatto (INS 160b) / annatto yellow (INS 160b) · amarillo annatto (INS 160b), annatto yellow (INS 160b), annatto, achiote, E160b, INS 160b
+
+**Ingredient source:** [Don Satur listing](https://www.jumbo.com.ar/pepas-don-satur-x300gr/p)  
+**Image source:** [Más Online](https://www.masonline.com.ar/galletitas-dulces-pepas-don-satur-300-g-2/p)
+
+### Pepas Trio
+
+- **ID:** `trio-pepas-membrillo-500g-ar`
+- **Package photo:** [View package / Ver envase](https://www.masonline.com.ar/galletitas-pepas-trio-500-gr-2/p)
+- **Brand:** Trio
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 500 g
+- **Category:** `sweet_cookies`
+- **Status:** `ready` · **Verification:** `retailer_label_transcription`
+- **Description (ES):** Pepas dulces con mermelada de membrillo en paquete familiar.
+- **Description (EN):** Family-size sweet thumbprint biscuits with quince jam.
+
+**Declared ingredients / Ingredientes declarados**
+
+Harina 000, hierro, ácido fólico, tiamina (B1), riboflavina (B2), niacina, mermelada de membrillo, acidulante ácido cítrico (INS 330), aromatizante a membrillo, colorante rojo allura AC (INS 129), azúcar, oleomargarina bovina, almidón de maíz, leche entera en polvo, aromatizante a vainilla, leudante bicarbonato de amonio (INS 503(ii)), emulsionante lecitina (INS 322), colorante curcumina (INS 100(i)), colorante annatto (INS 160b). La mención final «leche» y los derivados de trigo/soja se excluyen como declaraciones de alérgenos.
+
+**Accepted answers / Respuestas aceptadas**
+
+- harina de trigo 000 / wheat flour 000 · harina de trigo 000, wheat flour 000, harina 000, wheat flour
+- hierro / iron · hierro, iron
+- ácido fólico / folic acid · ácido fólico, folic acid
+- tiamina / thiamine · tiamina, thiamine, vitamina B1, vitamin B1
+- riboflavina / riboflavin · riboflavina, riboflavin, vitamina B2, vitamin B2
+- niacina / niacin · niacina, niacin
+- mermelada de membrillo / quince jam · mermelada de membrillo, quince jam, dulce de membrillo, quince paste
+- ácido cítrico (INS 330) / citric acid (INS 330) · ácido cítrico (INS 330), citric acid (INS 330), ácido cítrico, citric acid, E330, INS 330
+- aromatizante a membrillo / quince flavouring · aromatizante a membrillo, quince flavouring, aroma a membrillo, quince flavoring
+- rojo allura AC (INS 129) / allura red AC (INS 129) · rojo allura AC (INS 129), allura red AC (INS 129), rojo allura, allura red, E129, INS 129
+- azúcar / sugar · azúcar, sugar
+- oleomargarina bovina / beef oleomargarine · oleomargarina bovina, beef oleomargarine
+- almidón de maíz / corn starch · almidón de maíz, corn starch, fécula de maíz, cornstarch
+- leche entera en polvo / whole milk powder · leche entera en polvo, whole milk powder, leche en polvo, milk powder
+- aromatizante a vainilla / vanilla flavouring · aromatizante a vainilla, vanilla flavouring, esencia de vainilla, vanilla flavoring
+- bicarbonato de amonio (INS 503(ii)) / ammonium bicarbonate (INS 503(ii)) · bicarbonato de amonio (INS 503(ii)), ammonium bicarbonate (INS 503(ii)), bicarbonato de amonio, ammonium bicarbonate, E503(ii), INS 503(ii)
+- lecitina (INS 322) / lecithin (INS 322) · lecitina (INS 322), lecithin (INS 322), lecitina, lecithin, E322, INS 322
+- curcumina (INS 100(i)) / curcumin (INS 100(i)) · curcumina (INS 100(i)), curcumin (INS 100(i)), curcumina, curcumin, E100(i), INS 100(i)
+- annatto (INS 160b) / annatto (INS 160b) · annatto (INS 160b), annatto (INS 160b), achiote, E160b, INS 160b
+
+**Ingredient source:** [Trio listing](https://www.jumbo.com.ar/pepas-trio-500-gr/p)  
+**Image source:** [Más Online](https://www.masonline.com.ar/galletitas-pepas-trio-500-gr-2/p)
+
+### Pepas con Membrillo Smams
+
+- **ID:** `smams-pepas-membrillo-150g-ar`
+- **Package photo:** [View package / Ver envase](https://rojasglutenfree.com/productos/pepas-de-membrillo-150gr-smams/)
+- **Brand:** Smams
+- **Country:** Argentina
+- **Market:** Argentina
+- **Package:** 150 g
+- **Category:** `gluten_free_cookies`
+- **Status:** `ready` · **Verification:** `manufacturer_ingredient_declaration`
+- **Description (ES):** Pepas sin TACC rellenas con dulce de membrillo.
+- **Description (EN):** Gluten-free thumbprint cookies filled with quince paste.
+
+**Declared ingredients / Ingredientes declarados**
+
+Dulce de membrillo, almidón de maíz, aceite vegetal interesterificado, azúcar, harina de arroz, agua, jarabe de glucosa, jarabe de maíz de alta fructosa, miel, sal, emulsionante lecitina de soja, espesante goma xántica, leudantes químicos bicarbonato de sodio y bicarbonato de amonio, conservante propionato de calcio, aromatizantes esencia de vainilla y leche condensada. Se usa la declaración de ingredientes publicada por el fabricante; las advertencias de posibles trazas de alérgenos se excluyen.
+
+**Accepted answers / Respuestas aceptadas**
+
+- dulce de membrillo / quince paste · dulce de membrillo, quince paste, mermelada de membrillo, quince jam
+- almidón de maíz / corn starch · almidón de maíz, corn starch, fécula de maíz, cornstarch
+- aceite vegetal interesterificado / interesterified vegetable oil · aceite vegetal interesterificado, interesterified vegetable oil
+- azúcar / sugar · azúcar, sugar
+- harina de arroz / rice flour · harina de arroz, rice flour
+- agua / water · agua, water
+- jarabe de glucosa / glucose syrup · jarabe de glucosa, glucose syrup
+- jarabe de maíz de alta fructosa / high-fructose corn syrup · jarabe de maíz de alta fructosa, high-fructose corn syrup, jarabe de alta fructosa, high-fructose syrup
+- miel / honey · miel, honey
+- sal / salt · sal, salt
+- lecitina de soja / soy lecithin · lecitina de soja, soy lecithin, lecitina de soya, soya lecithin
+- goma xántica / xanthan gum · goma xántica, xanthan gum, goma xanthan, xanthan
+- bicarbonato de sodio / sodium bicarbonate · bicarbonato de sodio, sodium bicarbonate, baking soda, E500(ii)
+- bicarbonato de amonio / ammonium bicarbonate · bicarbonato de amonio, ammonium bicarbonate, E503(ii)
+- propionato de calcio / calcium propionate · propionato de calcio, calcium propionate, E282
+- esencia de vainilla / vanilla flavouring · esencia de vainilla, vanilla flavouring, aroma de vainilla, vanilla essence
+- esencia de leche condensada / condensed milk flavouring · esencia de leche condensada, condensed milk flavouring, aroma de leche condensada
+
+**Ingredient source:** [Smams listing](https://www.smams.ar/index.php/productos/pepas-membrillo-detail)  
+**Image source:** [Rojas Gluten Free](https://rojasglutenfree.com/productos/pepas-de-membrillo-150gr-smams/)
