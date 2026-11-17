@@ -10283,7 +10283,7 @@
         "es": "Galletitas saladas horneadas con queso azul y sabor a queso.",
         "en": "Baked savory crackers made with blue cheese and cheese flavour."
       },
-      "ingredientsText": "Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso, sulfitos. La página también enumera derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.",
+      "ingredientsText": "Harina de trigo, hierro, ácido fólico, tiamina, riboflavina, niacina, aceite de girasol alto oleico, grasa bovina refinada, sal, queso azul (1%), jarabe de glucosa, paprika, leudante químico bicarbonato de amonio, leudante químico fosfato monocálcico, leudante químico bicarbonato de sodio, emulsionante lecitina de soja/soya, mejorador de harina metabisulfito de sodio, aromatizante artificial aroma queso. La página también enumera sulfitos y derivados de trigo, leche y soja como declaraciones de alérgenos; no se puntúan por separado.",
       "ingredients": [
         {
           "es": "harina de trigo",
@@ -10436,14 +10436,6 @@
             "artificial cheese flavouring",
             "aroma queso",
             "cheese flavouring"
-          ]
-        },
-        {
-          "es": "sulfitos",
-          "en": "sulfites",
-          "aliases": [
-            "sulfitos",
-            "sulfites"
           ]
         }
       ],
