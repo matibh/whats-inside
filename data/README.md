@@ -83,3 +83,8 @@ Added Branston Original Pickle (UK), Pocky Almond Crush (US-market Glico formula
 ## World catalog expansion — 16 November 2026 (10-product batch; 120-product milestone)
 
 Added Haldiram's Aloo Bhujia (India), McVitie's Jaffa Cakes (UK), Jell-O Strawberry Gelatin Dessert Mix (US), Kikkoman Teriyaki Marinade & Sauce (US), Pringles Sour Cream & Onion (Spain-market formulation), Calbee Kappa Ebisen (Japan), Walkers Wotsits Really Cheesy (UK), Campbell's Chicken Broth (Latin America regional page; package size not stated), Gatorade Lemon Lime (US; PepsiCo-hosted label PDF), and M&M'S Peanut Butter Chocolate Candies (US; Mars Foodservices). Source type and market/formula scope are recorded per item. Precautionary may-contain statements are excluded from accepted answers.
+
+
+## Argentina catalog expansion — 17 November 2026
+
+Added 5 Argentina-market records: Havanna Alfajor Chocolate Clásico, Yogurísimo Bebible Frutilla, Vacalin Dulce de Leche Original, Arcor Turrón & Maní, and Baggio Pronto Multifruta. Ingredient transcriptions and image references are recorded individually in `products.json` and `sources.json`; see `catalog-master.md` for the human-readable register.
