@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f7f5ef"><meta name="description" content="A fast daily game. Guess what's inside real food products.">
-<title>WHAT'S INSIDE? — A tiny food guessing game</title>
+<meta name="theme-color" content="#f7f5ef"><meta name="description" content="Ingredora: a fast daily game. Guess the ingredients in real food products.">
+<title>Ingredora — The 15-second ingredient game</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800;900&display=swap');
 :root{--paper:#f7f5ef;--ink:#20231f;--muted:#77796f;--line:#deded4;--lime:#d7f36a;--green:#2e7049;--red:#b34d43;--card:#fffefa}
@@ -159,14 +159,14 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
 <body>
 <div class="shell">
 <header class="top">
- <div class="brand">WHAT'S <span>INSIDE?</span></div>
+ <div class="brand">Ingredora</div>
  <div class="top-controls">
   <div class="account"><span id="accountLabel">GUEST</span><button id="authOpen">SIGN IN</button></div>
   <button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button>
   <button class="lang" id="langBtn">ESPAÑOL</button>
  </div>
 </header>
-<section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline">YOU KNOW<br>WHAT'S <em>INSIDE?</em></h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
+<section class="intro" id="intro"><div class="eyebrow" id="kicker">THE 15-SECOND FOOD GAME</div><h1 id="headline">INGREDORA</h1><p id="subhead">One real product. Fifteen seconds. How many ingredients can you name?</p></section>
 <nav class="mode-tabs" aria-label="Game mode">
  <button class="mode-tab active" id="dailyTab">DAILY CHALLENGE</button>
  <button class="mode-tab" id="practiceTab">PRACTICE</button>
@@ -199,7 +199,7 @@ button:focus-visible,input:focus-visible{outline:3px solid #91ad35;outline-offse
  <div class="eyebrow" id="finalScore" style="margin-bottom:18px">000 POINTS</div><div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
 <section class="panel hidden" id="rankingPanel"><div class="row" style="display:flex;justify-content:space-between;align-items:center"><h2 id="rankingTitle">Leaderboard</h2><button class="link-btn" id="closeRanking">CLOSE</button></div><div class="filters"><label><span id="rankingScopeLabel">SCOPE</span><select id="rankingScope"><option value="today">Today's Daily</option><option value="all">All-time</option></select></label></div><div id="rankingList" class="status">Loading…</div></section>
-<footer class="footer"><span>© WHAT'S INSIDE?</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
+<footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
 <script type="module" src="./app.js?v=i18n-audit-20261117"></script>
