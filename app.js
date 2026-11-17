@@ -45,7 +45,7 @@ function updateLanguage(){
  document.documentElement.lang=lang;
  const map={productPlaceholder:"mysteryProduct",youFound:"foundTitle",youMissed:"missed",resultKicker:"resultKicker",resultTitle:"resultTitle",kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyEyebrow:"dailyEyebrow",dailyDescription:"dailyDescription",dailyReplayTest:"testReplay",dailyResetTest:"testReset",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceEyebrow:"practiceEyebrow",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabelText:"authEmail",authPasswordLabelText:"password"};
  for(const [id,key] of Object.entries(map))setText(id,t(key));
- $("headline").innerHTML=t("headline");
+ const headlineText=$("headline")?.querySelector(".wordmark-text");if(headlineText)headlineText.textContent=t("headline");
  $("langBtn").textContent=lang==="en"?"ESPAÑOL":"ENGLISH";
  const replayHint=$("dailyReplayWrap")?.querySelector(".hint");if(replayHint)replayHint.textContent=t("testHint");
  $("ingredientInput").placeholder=t("practicePlaceholder");$("ingredientInput").setAttribute("aria-label",t("prompt"));
