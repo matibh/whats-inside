@@ -9566,6 +9566,340 @@
       "status": "ready",
       "region": "argentina",
       "imageSourceId": "terrabusi-chips-ar-144g-image"
+    },
+    {
+      "id": "cunnington-cola-classic-ar-2250ml",
+      "barcode": "7790639003437",
+      "name": "Cunnington Cola Classic",
+      "brand": "Cunnington",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "soft_drink",
+      "package": "2.25 L",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/299191/Gaseosa-Cunnington-Cola-Classic-2-25-L-1-48349.jpg?v=638301622034530000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/gaseosa-cunnington-cola-2-25-l-3/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/gaseosa-cunnington-cola-2-25lt/p",
+      "description": {
+        "es": "Gaseosa cola clásica argentina · ¿Podés adivinar qué contiene?",
+        "en": "Argentinian classic cola · Can you guess what's inside?"
+      },
+      "ingredientsText": "Agua carbonatada, azúcar, JMAF (jarabe de maíz de alta fructosa), colorante caramelo (INS 150d), aromatizante, acidulante ácido fosfórico (INS 338), conservante benzoato de sodio, cafeína.",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "colorante caramelo (INS 150d)",
+          "en": "caramel color (INS 150d)",
+          "aliases": [
+            "colorante caramelo (INS 150d)",
+            "caramel color (INS 150d)",
+            "caramelo 150d",
+            "E150d"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "aromatizantes",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "ácido fosfórico (INS 338)",
+          "en": "phosphoric acid (INS 338)",
+          "aliases": [
+            "ácido fosfórico (INS 338)",
+            "phosphoric acid (INS 338)",
+            "ácido fosfórico",
+            "E338"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate",
+            "E211"
+          ]
+        },
+        {
+          "es": "cafeína",
+          "en": "caffeine",
+          "aliases": [
+            "cafeína",
+            "caffeine"
+          ]
+        }
+      ],
+      "sourceId": "cunnington-cola-classic-ar-2250ml-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "cunnington-cola-classic-ar-2250ml-image"
+    },
+    {
+      "id": "cunnington-ginger-ale-classic-ar-1500ml",
+      "barcode": null,
+      "name": "Cunnington Ginger Ale Classic",
+      "brand": "Cunnington",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "soft_drink",
+      "package": "1.5 L",
+      "image": "https://masonlineprod.vtexassets.com/arquivos/ids/299200/Gaseosa-Cunnington-Ginger-Ale-Classic-1-5-L-1-48368.jpg?v=638301622066770000",
+      "imagePublisher": "Más Online",
+      "imagePage": "https://www.masonline.com.ar/gaseosa-cunnington-ginger-ale-classic-1-5-l-2/p",
+      "ingredientUrl": "https://www.jumbo.com.ar/gaseosa-cunnington-ginger-ale-1-5lt-3/p",
+      "description": {
+        "es": "Gaseosa ginger ale argentina · ¿Reconocés sus ingredientes?",
+        "en": "Argentinian ginger ale soda · Can you identify its ingredients?"
+      },
+      "ingredientsText": "Agua carbonatada, JMAF (jarabe de maíz de alta fructosa), azúcar, acidulante ácido cítrico (INS 330), aromatizante, conservante benzoato de sodio, colorante caramelo (INS 150d), antioxidante eritorbato de sodio (INS 316).",
+      "ingredients": [
+        {
+          "es": "agua carbonatada",
+          "en": "carbonated water",
+          "aliases": [
+            "agua carbonatada",
+            "carbonated water"
+          ]
+        },
+        {
+          "es": "jarabe de maíz de alta fructosa",
+          "en": "high-fructose corn syrup",
+          "aliases": [
+            "jarabe de maíz de alta fructosa",
+            "high-fructose corn syrup",
+            "JMAF",
+            "HFCS"
+          ]
+        },
+        {
+          "es": "azúcar",
+          "en": "sugar",
+          "aliases": [
+            "azúcar",
+            "sugar"
+          ]
+        },
+        {
+          "es": "ácido cítrico (INS 330)",
+          "en": "citric acid (INS 330)",
+          "aliases": [
+            "ácido cítrico (INS 330)",
+            "citric acid (INS 330)",
+            "ácido cítrico",
+            "E330"
+          ]
+        },
+        {
+          "es": "aromatizante",
+          "en": "flavouring",
+          "aliases": [
+            "aromatizante",
+            "flavouring",
+            "aromatizantes",
+            "flavoring"
+          ]
+        },
+        {
+          "es": "benzoato de sodio",
+          "en": "sodium benzoate",
+          "aliases": [
+            "benzoato de sodio",
+            "sodium benzoate",
+            "E211"
+          ]
+        },
+        {
+          "es": "colorante caramelo (INS 150d)",
+          "en": "caramel color (INS 150d)",
+          "aliases": [
+            "colorante caramelo (INS 150d)",
+            "caramel color (INS 150d)",
+            "caramelo 150d",
+            "E150d"
+          ]
+        },
+        {
+          "es": "eritorbato de sodio (INS 316)",
+          "en": "sodium erythorbate (INS 316)",
+          "aliases": [
+            "eritorbato de sodio (INS 316)",
+            "sodium erythorbate (INS 316)",
+            "eritorbato de sodio",
+            "E316"
+          ]
+        }
+      ],
+      "sourceId": "cunnington-ginger-ale-classic-ar-1500ml-ingredients",
+      "verification": "retailer_label_transcription",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "cunnington-ginger-ale-classic-ar-1500ml-image"
+    },
+    {
+      "id": "serenisima-yogur-firme-vainilla-190g",
+      "barcode": null,
+      "name": "Yogur Firme Vainilla La Serenísima",
+      "brand": "La Serenísima · Nutrición Activa",
+      "country": "Argentina",
+      "market": "Argentina",
+      "category": "yogurt",
+      "package": "190 g",
+      "image": "https://laserenisimanutricion.com.ar/wp-content/uploads/2026/10/LSN_Prductos_firme_vainilla_190.webp",
+      "imagePublisher": "La Serenísima Nutrición (official)",
+      "imagePage": "https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/",
+      "ingredientUrl": "https://laserenisimanutricion.com.ar/productos/yogures/firmes-y-cremosos/firme-vainilla-190g/",
+      "description": {
+        "es": "Yogur firme parcialmente descremado sabor vainilla · ¿Qué ingredientes tiene?",
+        "en": "Part-skimmed vanilla set yogurt · What's in it?"
+      },
+      "ingredientsText": "Leche parcialmente descremada pasteurizada, azúcar de caña, leche en polvo descremada, almidón modificado de maíz, gelatina, cultivos lácticos, cultivos probióticos (Lactobacillus casei DN-114 001, Bifidobacterium lactis DN-173 010), vitaminas A, D y B12, aromas.",
+      "ingredients": [
+        {
+          "es": "leche parcialmente descremada pasteurizada",
+          "en": "pasteurized partly skimmed milk",
+          "aliases": [
+            "leche parcialmente descremada pasteurizada",
+            "pasteurized partly skimmed milk",
+            "leche parcialmente descremada",
+            "partly skimmed milk"
+          ]
+        },
+        {
+          "es": "azúcar de caña",
+          "en": "cane sugar",
+          "aliases": [
+            "azúcar de caña",
+            "cane sugar"
+          ]
+        },
+        {
+          "es": "leche en polvo descremada",
+          "en": "skimmed milk powder",
+          "aliases": [
+            "leche en polvo descremada",
+            "skimmed milk powder",
+            "leche descremada en polvo",
+            "skim milk powder"
+          ]
+        },
+        {
+          "es": "almidón modificado de maíz",
+          "en": "modified corn starch",
+          "aliases": [
+            "almidón modificado de maíz",
+            "modified corn starch",
+            "almidón modificado"
+          ]
+        },
+        {
+          "es": "gelatina",
+          "en": "gelatin",
+          "aliases": [
+            "gelatina",
+            "gelatin"
+          ]
+        },
+        {
+          "es": "cultivos lácticos",
+          "en": "lactic cultures",
+          "aliases": [
+            "cultivos lácticos",
+            "lactic cultures",
+            "cultivos lácticos"
+          ]
+        },
+        {
+          "es": "Lactobacillus casei",
+          "en": "Lactobacillus casei",
+          "aliases": [
+            "Lactobacillus casei",
+            "Lactobacillus casei",
+            "cultivo probiótico Lactobacillus casei"
+          ]
+        },
+        {
+          "es": "Bifidobacterium lactis",
+          "en": "Bifidobacterium lactis",
+          "aliases": [
+            "Bifidobacterium lactis",
+            "Bifidobacterium lactis",
+            "cultivo probiótico Bifidobacterium lactis"
+          ]
+        },
+        {
+          "es": "vitamina A",
+          "en": "vitamin A",
+          "aliases": [
+            "vitamina A",
+            "vitamin A"
+          ]
+        },
+        {
+          "es": "vitamina D",
+          "en": "vitamin D",
+          "aliases": [
+            "vitamina D",
+            "vitamin D"
+          ]
+        },
+        {
+          "es": "vitamina B12",
+          "en": "vitamin B12",
+          "aliases": [
+            "vitamina B12",
+            "vitamin B12",
+            "cobalamina",
+            "cobalamin"
+          ]
+        },
+        {
+          "es": "aromas",
+          "en": "flavourings",
+          "aliases": [
+            "aromas",
+            "flavourings",
+            "aroma",
+            "flavorings"
+          ]
+        }
+      ],
+      "sourceId": "serenisima-yogur-firme-vainilla-190g-ingredients",
+      "verification": "manufacturer_website",
+      "status": "ready",
+      "region": "argentina",
+      "imageSourceId": "serenisima-yogur-firme-vainilla-190g-image"
     }
   ]
 }
