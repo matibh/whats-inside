@@ -124,10 +124,7 @@ async function preparePracticeSession({quiet=false}={}){
   Promise.all(products.map(p=>preloadPracticeImage(p.image_url,12000))).then(loaded=>{
    loaded.forEach((image,index)=>{if(image)images[products[index].id]=image});
   });
-  const keyData=await call("practice-answer-key",{method:"POST",body:{product_ids:products.map(p=>p.id)},auth:false});
-  const keys=keyData.answer_keys||{};
-  if(products.some(p=>!Array.isArray(keys[p.id])||!keys[p.id].length))throw new Error(t("answersUnavailable"));
-  practicePrepared={products,answerKeys:keys,images};
+  practicePrepared={products,images};
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");$("practiceStart").disabled=false}
  }catch(e){
   if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=true}
@@ -144,16 +141,11 @@ function addGuess(raw){
  const norm=normalizeGuess(value);if(!norm||guesses.some(x=>normalizeGuess(x)===norm))return;
  guesses.push(value);
  const chip=document.createElement("span");chip.className="chip";chip.textContent=value;$("chips").append(chip);
- const ingredientIndex=currentAnswerKey.findIndex(item=>[item.es,item.en,...(Array.isArray(item.aliases)?item.aliases:[])].filter(alias=>typeof alias==="string").some(alias=>normalizeGuess(alias)===norm));
- if(ingredientIndex>=0){
-  if(validatedIngredientIndexes.has(ingredientIndex)){chip.classList.add("duplicate");setText("feedback",t("ingredientDuplicate"));}
-  else{validatedIngredientIndexes.add(ingredientIndex);comboStreak++;const gained=100+(comboStreak>1?50:0);roundScore+=gained;chip.classList.add("good");chip.setAttribute("aria-label",value+" ✓");setText("feedback",comboStreak>1?(lang==="es"?"¡COMBO x"+comboStreak+"! +"+gained+" puntos":"COMBO x"+comboStreak+"! +"+gained+" points"):(lang==="es"?"¡Correcto! +100 puntos":"Correct! +100 points"));$("feedback").classList.remove("bad");}
- }else{comboStreak=0;chip.classList.add("bad");chip.setAttribute("aria-label",value+" ✕");setText("feedback",t("incorrectFeedback"));$("feedback").classList.add("bad");}
- const count=validatedIngredientIndexes.size;setText("foundCount",String(count));setText("score",String(roundScore+(practiceSession?.score||0)).padStart(3,"0"));
+ setText("feedback",lang==="es"?"Respuesta registrada; se valida al terminar.":"Answer recorded; it will be checked at the end.");$("feedback").classList.remove("bad");
 }
 $("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
 $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
-async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(finalPoints));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("youMissed").style.display="";$("missedList").style.display="";$("correctList").classList.remove("practice-score-list");renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("intro",false);show("result",true);if(mode==="daily")await checkDaily()}
+async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const matchedDaily=new Set(data.matched_answers||[]),rejectedDaily=new Set(data.rejected_answers||[]);if(mode==="daily"){[...$("chips").children].forEach((chip,i)=>{const answer=guesses[i];if(matchedDaily.has(answer))chip.classList.add("good");else if(rejectedDaily.has(answer))chip.classList.add("bad")});setText("foundCount",String(data.correct_count??0));setText("score",String(data.score??0).padStart(3,"0"));}const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(finalPoints));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("youMissed").style.display="";$("missedList").style.display="";$("correctList").classList.remove("practice-score-list");renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("intro",false);show("result",true);if(mode==="daily")await checkDaily()}
 function renderAnswers(id,items,missed){const box=$(id);box.innerHTML="";items.forEach(x=>{const s=document.createElement("span");s.className="answer"+(missed?" missed":"");s.textContent=x[lang]||x.es||x.en;box.append(s)});if(!items.length)box.textContent="—"}
 function renderPracticeScores(rounds){const box=$("correctList");box.innerHTML="";box.classList.remove("practice-score-list");rounds.forEach(r=>{const item=document.createElement("span");item.className="answer";item.textContent=r.name+" · "+String(Number(r.score)||0)+" PTS";box.append(item)});if(!rounds.length)box.textContent="—"}
 async function startDaily(){
@@ -164,8 +156,7 @@ async function startDaily(){
  try{
   $("dailyStart").disabled=true;setText("dailyStart",t("loading"));
   const data=await call("start-daily",{method:"POST",body:{}});
-  window.dailySessionId=data.session_id;currentAnswerKey=data.answer_key||[];
-  if(!currentAnswerKey.length)throw new Error(t("dailyKeyUnavailable"));
+  window.dailySessionId=data.session_id;currentAnswerKey=[];
   challenge=data.challenge||challenge;
   mode="daily";
   setProduct({name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:challenge.image_url,brand:challenge.market});
@@ -173,10 +164,11 @@ async function startDaily(){
  }catch(e){status("dailyStatus",e.message,true);$("dailyStart").disabled=false}
 }
 function startPractice(){
+ if(!session){openAuth();return}
  if(!practicePrepared){status("practiceStatus",t("practicePreparing"));$("practiceStart").disabled=true;return}
 
  const prepared=practicePrepared;practicePrepared=null;
- practiceAnswerKeys=prepared.answerKeys;practiceImageCache=prepared.images||{};
+ practiceAnswerKeys={};practiceImageCache=prepared.images||{};
  practiceSession={products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,skippedProducts:[],rounds:[]};
  setPracticeNavigationLock(true);
  mode="practice";$("practiceStart").disabled=true;
@@ -187,8 +179,7 @@ function startPractice(){
 function startPracticeRound(){
  if(!practiceSession)return;
  selectedProduct=practiceSession.products[practiceSession.index];
- currentAnswerKey=practiceAnswerKeys[selectedProduct.id]||[];
- if(!currentAnswerKey.length){status("practiceStatus",t("answersUnavailable"),true);finishPracticeSession();return;}
+ currentAnswerKey=[];
  setProduct(selectedProduct);
  setText("practiceProgress",(lang==="es"?"PRODUCTO ":"PRODUCT ")+(practiceSession.index+1)+"/10");
  setText("score",String(practiceSession.score).padStart(3,"0"));
