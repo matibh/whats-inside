@@ -401,6 +401,97 @@ body{
  color:#e0f4ce!important;
 }
 
+
+/* Desktop: keep the complete homepage and every gameplay control in one viewport.
+   Mobile/tablet layouts and game mechanics are intentionally untouched. */
+@media (min-width: 900px) {
+ .shell{padding-top:12px;padding-bottom:12px}
+ .top{padding-bottom:9px}
+ .brand{gap:7px}
+ .intro{padding-top:clamp(14px,3vh,28px);padding-bottom:14px}
+ .intro .eyebrow{padding:6px 11px;margin-bottom:10px}
+ .intro h1{margin-bottom:10px;padding:6px 13px;font-size:clamp(46px,6vw,66px)}
+ .intro p{font-size:13px;line-height:1.4}
+ .mode-tabs{margin-bottom:10px;padding:4px;gap:5px}
+ .mode-tab{padding:8px 15px;font-size:10px}
+ .panel{padding:14px;margin-bottom:10px}
+ .panel h2{font-size:20px;margin-bottom:5px}
+ .panel p{font-size:12px;line-height:1.35;margin:5px 0 9px}
+ .panel .status{min-height:16px;margin:6px 0;font-size:11px}
+ .panel .btn{padding:10px 17px}
+ .panel .rules{margin-top:12px;gap:14px}
+ .panel .product-card{min-height:132px;grid-template-columns:minmax(115px,.65fr) 1.35fr}
+ .panel .product-photo{padding:8px}
+ .panel .product-photo img{height:116px}
+ .panel .product-info{padding:12px 16px}
+ .panel .product-info h2{font-size:19px}
+ .panel .product-info p{font-size:11px}
+ .footer{margin-top:10px;padding-top:8px}
+ /* During a round, reclaim the navigation row and keep the action buttons visible. */
+ .shell:has(#game.active) .mode-tabs{display:none}
+ #game{max-width:650px;margin:8px auto 0}
+ #game .practice-session-meta{margin:0 0 6px;font-size:10px}
+ #game .product-card{min-height:132px;grid-template-columns:minmax(125px,.7fr) 1.3fr}
+ #game .product-photo{padding:8px}
+ #game .product-photo img{height:116px}
+ #game .product-info{padding:12px 17px}
+ #game .product-info h2{font-size:21px;margin:5px 0 3px}
+ #game .product-info p{font-size:11px;line-height:1.35}
+ #game .timer-row{margin:9px 0 7px;gap:10px}
+ #game .timer{width:44px;height:44px}
+ #game .timer strong{font-size:16px}
+ #game .timer-copy b{font-size:12px}
+ #game .timer-copy small{font-size:10px}
+ #game .score strong{font-size:19px}
+ #game .prompt{font-size:16px;margin:8px 0 5px}
+ #game .input-wrap{min-height:48px;padding:8px 11px;border-radius:11px}
+ #game .chip{font-size:10px;padding:4px 7px}
+ #game #ingredientInput{font-size:13px;padding:3px 0}
+ #game .hint{font-size:10px;margin:4px 2px 0}
+ #game .feedback{height:16px;font-size:10px;margin:3px 2px}
+ #game .found-title{margin:7px 0 4px;font-size:9px}
+ #game .found{min-height:22px;gap:4px}
+ #game .empty{font-size:10px}
+ #game .actions{margin-top:9px;gap:8px}
+ #game .actions .btn{padding:9px 13px;font-size:10px}
+ #game .practice-controls{gap:6px}
+ #game .practice-controls .btn{min-width:0}
+ #game .actions .eyebrow{font-size:8px}
+ .shell:has(#result.active) .mode-tabs{display:none}
+ #result{max-width:650px;margin:8px auto 0;padding:12px 0}
+ #result h2{font-size:30px;margin:4px 0}
+ #result .percent{font-size:58px;margin:0}
+ #result .result-sub{font-size:11px}
+ #result .result-box{margin:12px 0;padding:12px}
+ #result .result-box h3{margin-bottom:7px;font-size:9px}
+ #result .answer-list{gap:5px}
+ #result .answer{font-size:10px;padding:5px 7px}
+ #result #youMissed{margin-top:10px!important}
+ #result #finalScore{margin-bottom:9px!important}
+}
+@media (min-width: 900px) and (max-height: 700px) {
+ .shell{padding-top:7px;padding-bottom:7px}
+ .top{padding-bottom:6px}
+ .intro{padding-top:9px;padding-bottom:8px}
+ .intro .eyebrow{margin-bottom:6px;padding:5px 9px}
+ .intro h1{font-size:48px;margin-bottom:6px;padding:4px 10px}
+ .intro p{font-size:11px}
+ .mode-tabs{margin-bottom:7px}
+ .panel{padding:10px}
+ .panel .product-card{min-height:110px}
+ .panel .product-photo img{height:96px}
+ #game{margin-top:4px}
+ #game .product-card{min-height:108px}
+ #game .product-photo img{height:94px}
+ #game .timer-row{margin:6px 0 4px}
+ #game .timer{width:38px;height:38px}
+ #game .input-wrap{min-height:42px}
+ #game .actions{margin-top:5px}
+ #result{padding-top:5px}
+ #result .result-box{margin:7px 0;padding:9px}
+ .footer{margin-top:6px;padding-top:5px}
+}
+
 </style>
 </head>
 <body>
