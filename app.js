@@ -148,12 +148,19 @@ async function preparePracticeSession({quiet=false}={}){
  try{
   const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim()&&!/image-not-available|placeholder/i.test(p.image_url));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
-  const products=pool.slice(0,10);
-  if(products.length<10)throw new Error(lang==="es"?"No hay 10 productos con imagen disponibles.":"Not enough products with images.");
+  const products=[];
   const images={};
-  Promise.all(products.map(p=>preloadPracticeImage(p.image_url,12000))).then(loaded=>{
-   loaded.forEach((image,index)=>{if(image)images[products[index].id]=image});
-  });
+  for(let offset=0;offset<pool.length&&products.length<10;offset+=12){
+   const batch=pool.slice(offset,offset+12);
+   const loaded=await Promise.all(batch.map(p=>preloadPracticeImage(p.image_url,12000)));
+   loaded.forEach((image,index)=>{
+    if(image&&products.length<10){
+     products.push(batch[index]);
+     images[batch[index].id]=image;
+    }
+   });
+  }
+  if(products.length<10)throw new Error(lang==="es"?"No hay 10 productos cuyas imágenes carguen correctamente.":"Not enough products with images that load successfully.");
   practicePrepared={products,images};
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");$("practiceStart").disabled=false}
  }catch(e){
@@ -185,7 +192,7 @@ function addGuess(raw){
  const chip=document.createElement("span");chip.className="chip pending";chip.textContent=value;$("chips").append(chip);
  const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
  validationQueue=validationQueue.then(async()=>{
-  if(!gameActive||sequence!==validationSequence)return;
+  if(sequence!==validationSequence)return;
   try{
    const data=await call("validate-ingredient",{method:"POST",body:{mode,session_id:mode==="daily"?window.dailySessionId:practiceSession?.id,product_id:mode==="practice"?selectedProduct?.id:undefined,answers}});
    if(!gameActive||sequence!==validationSequence)return;
