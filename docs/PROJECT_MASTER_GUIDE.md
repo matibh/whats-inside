@@ -821,3 +821,13 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **PENDING:** poblar `fallback_image_url` con URLs alternativas verificadas o subir copias autorizadas al bucket y asignar sus URLs. Hasta entonces, productos sin una secundaria configurada seguirán usando solo su imagen principal y el placeholder si falla.
 - **DAILY:** no se modificaron la función `daily-challenge`, el frontend Daily ni su temporizador.
 - **QA:** pendiente de parseo automatizado, comprobación de URLs reales, prueba de principal fallida/secundaria correcta, ambas fallidas y regresión visual en navegador.
+
+
+### Imágenes de productos — alcance Practice y Daily (2026-11-18)
+
+- Fuente compartida: `public.products.fallback_image_url`. Practice recibe el campo desde `practice-catalog` v2.
+- Daily: `daily-challenge` v8 devuelve la URL alternativa del producto asociado al desafío. El frontend prueba imagen principal y luego alternativa al preparar Daily; durante la ronda también usa el fallback del producto.
+- Bucket `practice-product-backups`: público, JPEG/PNG/WebP/AVIF, máximo 5 MiB. La URL pública se sirve por CDN. Referencia: https://supabase.com/docs/guides/storage/serving/downloads
+- Función `mirror-product-images` v1 desplegada para copiar imágenes primarias que se puedan descargar, validar su firma binaria y tamaño, subirlas al bucket y guardar el fallback. Lotes de hasta 30 productos. **La ejecución y cobertura de las 230 copias siguen pendientes**.
+- Los registros de `daily_challenges` mantienen su imagen principal; la alternativa se consulta desde `products` para evitar duplicar imágenes.
+- QA pendiente: ejecutar mirroring, revisar productos fallidos y prueba visual en navegador para Practice y Daily.
