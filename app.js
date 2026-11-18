@@ -168,13 +168,28 @@ async function preparePracticeSession({quiet=false}={}){
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady"));$("practiceStart").disabled=false}
  }catch(e){
   if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=false}
- }finally{practicePreparing=false}
+ }finally{practicePreparing=false;if(practiceStartRequested&&practicePrepared)startPractice()}
 }
 function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
 function setProduct(p){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||t("mysteryProduct"));const img=$("productImage");if(p.image_url){img.onerror=null;img.src=p.image_url;img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.onerror=()=>{img.style.display="none";$("productPlaceholder").style.display=""}}else{img.style.display="none";$("productPlaceholder").style.display=""}}
-function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
-let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;let practiceImageCache={};
+function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;roundCorrectCount=0;localValidationQueue=Promise.resolve();$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
+let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let roundCorrectCount=0;let localValidationQueue=Promise.resolve();let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;let practiceStartRequested=false;let practiceImageCache={};let practiceSyncQueue=Promise.resolve();
+function queuePracticeSync(task,label){
+ const run=practiceSyncQueue.then(async()=>{
+  for(let attempt=0;attempt<4;attempt++){
+   try{return await task()}
+   catch(error){
+    const transient=/Failed to fetch|NetworkError|Request failed \((?:408|429|5\d\d)\)/i.test(String(error?.message||error));
+    if(!transient||attempt===3){console.warn("Practice background sync failed:",label,error);return null}
+    await new Promise(resolve=>setTimeout(resolve,[250,700,1500][attempt]));
+   }
+  }
+  return null;
+ });
+ practiceSyncQueue=run.then(()=>undefined,()=>undefined);
+ return run;
+}
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
 function applyGuessFeedback(matchedAnswers=[],rejectedAnswers=[]){
  const matched=new Set(matchedAnswers.map(normalizeGuess)),rejected=new Set(rejectedAnswers.map(normalizeGuess));
@@ -198,14 +213,14 @@ function addGuess(raw){
   const answerKey=currentAnswerKey;
   const localCheck=(async()=>{
    const digests=await Promise.all(answers.map(answer=>hashPracticeGuess(answer,answerKey.salt)));
-   if(!gameActive||sequence!==validationSequence)return;
+   if(sequence!==validationSequence)return;
    const found=new Set(),matched=[],rejected=[];let combo=0,score=0;
    digests.forEach((digest,index)=>{
     const ingredientIndex=answerKey.hashToIndex.get(digest);
     if(ingredientIndex===undefined||found.has(ingredientIndex)){rejected.push(answers[index]);combo=0;return}
     found.add(ingredientIndex);matched.push(answers[index]);combo++;score+=100+(combo>1?50:0);
    });
-   const previousScore=roundScore;roundScore=score;
+   const previousScore=roundScore;roundScore=score;roundCorrectCount=found.size;
    applyGuessFeedback(matched,rejected);
    setText("foundCount",String(found.size));
    setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
@@ -219,12 +234,14 @@ function addGuess(raw){
     $("feedback").classList.add("bad");
    }
   })().catch(error=>{
-   if(gameActive&&sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}
+   if(sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}
   });
-  const serverSnapshot=(async()=>{
-   try{await call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:practiceSession?.id,product_id:selectedProduct?.id,answers}})}
-   catch(error){console.warn("Practice server-side answer snapshot failed; local hash feedback remains available.",error)}
-  })();
+  localValidationQueue=localCheck;
+  const practiceRef=practiceSession,productId=selectedProduct?.id;
+  const serverSnapshot=queuePracticeSync(async()=>{
+   const serverSession=await practiceRef.ready;
+   return call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:serverSession.session_id,product_id:productId,answers}});
+  },"answer snapshot");
   pendingValidations.push(serverSnapshot);
   validationQueue=Promise.allSettled(pendingValidations);
   return;
@@ -255,7 +272,7 @@ function addGuess(raw){
 }
 $("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
 $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
-async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){if(!options.skip&&Date.now()-startedAt>15000)await Promise.allSettled(pendingValidations);await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}lastResult=data;lastResult.xpEarned=Number(data.progression?.xp_awarded)||0;renderXpReward(lastResult.xpEarned,data.progression?.level);renderAchievementUnlocks(data.unlocked||[]);if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();const found=data.found||[],missed=data.missed||[];if(mode==="daily"){applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(data.correct_count??data.attempt?.correct_count??found.length));setText("score",String(data.score??data.attempt?.score??0).padStart(3,"0"));}const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(finalPoints));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("youMissed").style.display="";$("missedList").style.display="";$("correctList").classList.remove("practice-score-list");renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("intro",false);show("result",true);if(mode==="daily")await checkDaily()}
+async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await localValidationQueue;completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}lastResult=data;lastResult.xpEarned=Number(data.progression?.xp_awarded)||0;renderXpReward(lastResult.xpEarned,data.progression?.level);renderAchievementUnlocks(data.unlocked||[]);if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();const found=data.found||[],missed=data.missed||[];if(mode==="daily"){applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(data.correct_count??data.attempt?.correct_count??found.length));setText("score",String(data.score??data.attempt?.score??0).padStart(3,"0"));}const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(finalPoints));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("youMissed").style.display="";$("missedList").style.display="";$("correctList").classList.remove("practice-score-list");renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("intro",false);show("result",true);if(mode==="daily")await checkDaily()}
 function renderAnswers(id,items,missed){const box=$(id);box.innerHTML="";items.forEach(x=>{const s=document.createElement("span");s.className="answer"+(missed?" missed":"");s.textContent=x[lang]||x.es||x.en;box.append(s)});if(!items.length)box.textContent="—"}
 function renderPracticeScores(rounds){const box=$("correctList");box.innerHTML="";box.classList.remove("practice-score-list");rounds.forEach(r=>{const item=document.createElement("span");item.className="answer";item.textContent=r.name+" · "+String(Number(r.score)||0)+" PTS";box.append(item)});if(!rounds.length)box.textContent="—"}
 async function startDaily(){
@@ -273,44 +290,75 @@ async function startDaily(){
   startGame(new Date(data.started_at).getTime())
  }catch(e){status("dailyStatus",e.message,true);$("dailyStart").disabled=false}
 }
-async function startPractice(){
+function startPractice(){
  if(!session){openAuth();return}
  if(!practicePrepared){
-  if(!practicePreparing) await preparePracticeSession();
-  while(practicePreparing) await new Promise(resolve=>setTimeout(resolve,50));
-  if(!practicePrepared){status("practiceStatus",t("practicePreparing"));return}
+  practiceStartRequested=true;
+  if(!practicePreparing)preparePracticeSession();
+  return;
  }
- const prepared=practicePrepared;practicePrepared=null;
- $("practiceStart").disabled=false;
- status("practiceStatus",lang==="es"?"Iniciando sesión segura…":"Starting secure session…");
- try{
-  const serverSession=await call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
-  if(!serverSession.session_id)throw new Error(lang==="es"?"No se pudo iniciar la sesión.":"Could not start the session.");if(!serverSession.first_round_started_at)throw new Error(lang==="es"?"Falta la hora de inicio del servidor.":"Missing server round start time.");
-  practiceAnswerKeys=prepared.answerKeys||{};practiceImageCache=prepared.images||{};
-  practiceSession={id:serverSession.session_id,products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,xpEarned:0,progression:null,unlocked:[],skippedProducts:[],rounds:[]};
-  setPracticeNavigationLock(true);
-  mode="practice";
-  status("practiceStatus",t("practiceReady"));
-  startPracticeRound(serverSession.first_round_started_at);
-  preparePracticeSession({quiet:true});
- }catch(e){
-  practicePrepared=prepared;
-  $("practiceStart").disabled=false;
-  status("practiceStatus",(lang==="es"?"No se pudo iniciar Practice: ":"Could not start Practice: ")+e.message,true);
- }
+ const prepared=practicePrepared;practicePrepared=null;practiceStartRequested=false;
+ practiceAnswerKeys=prepared.answerKeys||{};practiceImageCache=prepared.images||{};
+ const ready=call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
+ const s={id:null,ready,products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,xpEarned:0,progression:null,unlocked:[],skippedProducts:[],rounds:[]};
+ practiceSession=s;
+ ready.then(data=>{s.id=data.session_id;}).catch(error=>console.warn("Practice session could not be created in the background.",error));
+ setPracticeNavigationLock(true);
+ mode="practice";
+ status("practiceStatus",t("practiceReady"));
+ startPracticeRound(Date.now());
+ preparePracticeSession({quiet:true});
 }
-function startPracticeRound(serverStartedAt){
+function startPracticeRound(localStartedAt=Date.now()){
  if(!practiceSession)return;
  selectedProduct=practiceSession.products[practiceSession.index];
  currentAnswerKey=practiceAnswerKeys[selectedProduct.id]||null;
  setProduct(selectedProduct);
  setText("practiceProgress",(lang==="es"?"PRODUCTO ":"PRODUCT ")+(practiceSession.index+1)+"/10");
  setText("score",String(practiceSession.score).padStart(3,"0"));
- if(!serverStartedAt)throw new Error("Missing server round start time");startGame(new Date(serverStartedAt).getTime());
+ startGame(localStartedAt);
 }
-async function completePracticeRound({skipped=false,stop=false}={}){const product=selectedProduct,s=practiceSession;if(!s)return;const name=product.name_i18n?.[lang]||product.name;if(skipped){let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),skipped:true,stop_after:stop}})}catch(e){if(practiceSession!==s)return;gameActive=true;$("ingredientInput").disabled=true;$("practiceSkip").disabled=false;status("feedback",(lang==="es"?"No se pudo saltar este producto: ":"Could not skip this product: ")+e.message+(lang==="es"?" · Volvé a tocar Saltar producto para reintentar.":" · Press Skip product again to retry."),true);return}if(practiceSession!==s)return;const score=Number(data.score)||0,correct=Number(data.correct_count)||0,total=Number(data.total_ingredients)||0;s.xpEarned+=Number(data.progression?.xp_awarded)||0;s.progression=data.progression||s.progression;s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(correct));s.score+=score;s.correct+=correct;s.total+=total;s.completed++;s.skipped++;s.skippedProducts.push(name);s.rounds.push({name,score,correct,total,skipped:true,error:null});setText("score",String(s.score).padStart(3,"0"));status("feedback",t("productSkipped")+" · "+correct+(lang==="es"?" correctos · +":" correct · +")+score+" pts");if(stop||s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound(data.next_round_started_at);return}let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),stop_after:stop}})}catch(e){if(practiceSession!==s)return;gameActive=true;$("ingredientInput").disabled=true;$("practiceSkip").disabled=false;status("feedback",(lang==="es"?"No se pudo guardar esta ronda: ":"Could not save this round: ")+e.message+(lang==="es"?" · Podés reintentar Saltar producto para continuar.":" · You can retry Skip product to continue."),true);return}if(practiceSession!==s)return;s.xpEarned+=Number(data.progression?.xp_awarded)||0;s.progression=data.progression||s.progression;s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(data.correct_count||0));status("feedback",data.correct_count+(lang==="es"?" ingredientes correctos de ":" correct ingredients out of ")+data.total_ingredients);s.score+=Number(data.score)||0;s.correct+=Number(data.correct_count)||0;s.total+=Number(data.total_ingredients)||0;s.completed++;s.rounds.push({name,score:Number(data.score)||0,correct:Number(data.correct_count)||0,total:Number(data.total_ingredients)||0,skipped:false,error:null});setText("score",String(s.score).padStart(3,"0"));if(stop){finishPracticeSession();return}if(practiceSession!==s)return;if(s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound(data.next_round_started_at)}
+async function completePracticeRound({skipped=false,stop=false}={}){
+ const product=selectedProduct,s=practiceSession;
+ if(!s)return;
+ await localValidationQueue;
+ if(practiceSession!==s)return;
+ const name=product.name_i18n?.[lang]||product.name;
+ const answers=[...guesses];
+ const score=skipped?0:Number(roundScore)||0;
+ const correct=skipped?0:Number(roundCorrectCount)||0;
+ const total=Number(currentAnswerKey?.total_ingredients)||0;
+ const elapsed=Math.min(15000,Math.max(0,Date.now()-startedAt));
+ s.score+=score;s.correct+=correct;s.total+=total;s.completed++;
+ if(skipped){s.skipped++;s.skippedProducts.push(name)}
+ s.rounds.push({name,score,correct,total,skipped,error:null});
+ setText("score",String(s.score).padStart(3,"0"));
+ if(skipped)status("feedback",t("productSkipped"));
+ else status("feedback",correct+(lang==="es"?" ingredientes correctos":" correct ingredients"));
+ const payload={answers,elapsed_ms:elapsed,skipped,stop_after:stop};
+ queuePracticeSync(async()=>{
+  const serverSession=await s.ready;
+  return call("submit-practice",{method:"POST",body:{session_id:serverSession.session_id,product_id:product.id,...payload}});
+ },"round completion").then(data=>{
+  if(!data)return;
+  s.xpEarned+=Number(data.progression?.xp_awarded)||0;
+  s.progression=data.progression||s.progression;
+  s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];
+  if(Number(data.score)!==score||Number(data.correct_count)!==correct)console.warn("Practice local/server result mismatch; server result remains authoritative.",{local:{score,correct},server:{score:data.score,correct:data.correct_count}});
+  if(lastResult?.sessionRef===s){
+   lastResult.xpEarned=s.xpEarned;lastResult.progression=s.progression;lastResult.unlocked=s.unlocked;
+   renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();
+  }else if(practiceSession===s){
+   refreshPlayerProgression();
+  }
+ });
+ if(stop||s.index>=9){finishPracticeSession();return}
+ if(practiceSession!==s)return;
+ s.index++;
+ startPracticeRound(Date.now());
+}
 function stopPracticeImmediately(){if(!practiceSession)return;finishGame({stop:true})}
-function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true,xpEarned:s.xpEarned,progression:s.progression,unlocked:s.unlocked};renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady"));}}
+function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true,xpEarned:s.xpEarned,progression:s.progression,unlocked:s.unlocked,sessionRef:s};renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady"));}}
 function openAuth(){show("authModal",true);$("authModal").classList.add("open");status("authStatus","")}
 function closeAuth(){$("authModal").classList.remove("open");show("authModal",false)}
 let authMode="signin";function setAuthMode(next){authMode=next;const signup=next==="signup";setText("authTitle",signup?t("signupTitle"):t("signinTitle"));setText("authSubmit",signup?t("signupSubmit"):t("submit"));setText("authMode",signup?t("signinSwitch"):t("create"));setText("authHint",signup?t("signupHint"):t("signinHint"));show("usernameLabel",signup)}
