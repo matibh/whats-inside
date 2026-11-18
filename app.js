@@ -154,6 +154,13 @@ $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preven
 async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),test_daily_replay:isDailyTestReplay}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",correctCount+" / "+totalCount+" "+t("correct"));setText("finalScore",String(finalPoints).padStart(3,"0")+" "+t("score"));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("result",true);if(mode==="daily")await checkDaily()}
 function renderAnswers(id,items,missed){const box=$(id);box.innerHTML="";items.forEach(x=>{const s=document.createElement("span");s.className="answer"+(missed?" missed":"");s.textContent=x[lang]||x.es||x.en;box.append(s)});if(!items.length)box.textContent="—"}
 async function startDaily(){
+ const isDailyTester=["ingredora@gmail.com","matias.bellisario@gmail.com"].includes(session?.user?.email?.toLowerCase()||"");
+ if(isDailyTester){
+  if(!challenge?.product_id)await checkDaily();
+  if(challenge?.product_id){await replayDailyForTesting();return}
+  status("dailyStatus",lang==="es"?"No se pudo cargar el producto de prueba. Actualizá e intentá otra vez.":"Could not load the test product. Refresh and try again.",true);
+  return;
+ }
  if(challenge?.preview){await replayDailyForTesting();return}
  isDailyTestReplay=false;
  if(!session){openAuth();return}
