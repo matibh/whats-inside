@@ -171,7 +171,7 @@ function applyGuessFeedback(matchedAnswers=[],rejectedAnswers=[]){
  [...$("chips").children].forEach((chip,i)=>{
   const answer=normalizeGuess(guesses[i]||chip.firstChild?.textContent||chip.textContent);
   const isCorrect=matched.has(answer),isWrong=!isCorrect&&rejected.has(answer);
-  chip.classList.remove("good","bad");
+  chip.classList.remove("good","bad","pending");
   chip.querySelector(".chip-mark")?.remove();
   if(!isCorrect&&!isWrong)return;
   chip.classList.add(isCorrect?"good":"bad");
@@ -182,7 +182,7 @@ function addGuess(raw){
  const value=raw.trim();if(!value||!gameActive)return;
  const norm=normalizeGuess(value);if(!norm||guesses.some(x=>normalizeGuess(x)===norm))return;
  guesses.push(value);
- const chip=document.createElement("span");chip.className="chip";chip.textContent=value;$("chips").append(chip);
+ const chip=document.createElement("span");chip.className="chip pending";chip.textContent=value;$("chips").append(chip);
  const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
  validationQueue=validationQueue.then(async()=>{
   if(!gameActive||sequence!==validationSequence)return;
