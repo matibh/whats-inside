@@ -201,7 +201,7 @@ async function startPractice(){
  status("practiceStatus",lang==="es"?"Iniciando sesión segura…":"Starting secure session…");
  try{
   const serverSession=await call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
-  if(!serverSession.session_id)throw new Error(lang==="es"?"No se pudo iniciar la sesión.":"Could not start the session.");
+  if(!serverSession.session_id)throw new Error(lang==="es"?"No se pudo iniciar la sesión.":"Could not start the session.");if(!serverSession.first_round_started_at)throw new Error(lang==="es"?"Falta la hora de inicio del servidor.":"Missing server round start time.");
   practiceAnswerKeys={};practiceImageCache=prepared.images||{};
   practiceSession={id:serverSession.session_id,products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,xpEarned:0,progression:null,unlocked:[],skippedProducts:[],rounds:[]};
   setPracticeNavigationLock(true);
