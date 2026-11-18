@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (Practice instant-start cache)  
+> **Last updated:** 2026-11-18 (live product language switching)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -831,3 +831,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Función `mirror-product-images` v1 desplegada para copiar imágenes primarias que se puedan descargar, validar su firma binaria y tamaño, subirlas al bucket y guardar el fallback. Lotes de hasta 30 productos. **La ejecución y cobertura de las 230 copias siguen pendientes**.
 - Los registros de `daily_challenges` mantienen su imagen principal; la alternativa se consulta desde `products` para evitar duplicar imágenes.
 - QA pendiente: ejecutar mirroring, revisar productos fallidos y prueba visual en navegador para Practice y Daily.
+
+
+### Product-card language switching — 2026-11-18
+
+- **IMPLEMENTED (frontend source):** extracted the current product's localized name, description, and label rendering into `refreshSelectedProductLanguage()`. `setProduct()` uses the same helper when a round starts, and `updateLanguage()` calls it whenever the player switches EN/ES. The visible Practice or Daily product card therefore updates immediately without requesting the catalog again, reloading the product image, restarting the round, or changing guesses, score, validation, session state, or the 15-second timer.
+- **DATA CONFIRMED:** the Pepas Trio record already contains both `description_i18n.en` and `description_i18n.es`; the server's `practice-catalog` v2 selects `description_i18n`. No database or Edge Function change was needed.
+- **COMMITS:** app.js `939f1645ed561c87b64a24d63a812a18dd6d9123`; index.html cache-buster commit `30c8b44e7bd125ea12ff26908c495aab8c47c806`. New cache-buster: `app.js?v=live-product-language-switch-20261118a`.
+- **QA STATUS:** source change and live catalog field availability confirmed. Browser interaction and visual QA have not yet been performed; do not claim they have passed.
