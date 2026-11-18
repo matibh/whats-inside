@@ -325,10 +325,12 @@ async function completePracticeRound({skipped=false,stop=false}={}){
  if(practiceSession!==s)return;
  const name=product.name_i18n?.[lang]||product.name;
  const answers=[...guesses];
- const score=skipped?0:Number(roundScore)||0;
- const correct=skipped?0:Number(roundCorrectCount)||0;
+ const rawElapsed=Math.max(0,Date.now()-startedAt);
+ const lateSkip=skipped&&rawElapsed>15000;
+ const score=lateSkip?0:Number(roundScore)||0;
+ const correct=lateSkip?0:Number(roundCorrectCount)||0;
  const total=Number(currentAnswerKey?.total_ingredients)||0;
- const elapsed=Math.min(15000,Math.max(0,Date.now()-startedAt));
+ const elapsed=Math.min(15000,rawElapsed);
  s.score+=score;s.correct+=correct;s.total+=total;s.completed++;
  if(skipped){s.skipped++;s.skippedProducts.push(name)}
  s.rounds.push({name,score,correct,total,skipped,error:null});
