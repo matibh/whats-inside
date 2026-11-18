@@ -5,7 +5,7 @@ const SUPABASE_KEY = "sb_publishable__TDF6zsAZEvsWgSkAntJgw_qxYYuUop";
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 const $ = (id) => document.getElementById(id);
 const API = (name) => SUPABASE_URL + "/functions/v1/" + name;
-let session = null, mode = "daily", lang = "en", catalog = [], challenge = null, isDailyTestReplay = false;
+let session = null, mode = "daily", lang = "en", catalog = [], challenge = null;
 let selectedProduct = null, guesses = [], timer = null, remaining = 15, startedAt = 0, gameActive = false, lastResult = null, practiceSession = null;
 const text = {
  en:{kicker:"THE 15-SECOND FOOD GAME",headline:"INGREDORA",subhead:"One real product. Fifteen seconds. How many ingredients can you name?",daily:"DAILY CHALLENGE",practice:"PRACTICE",rankTab:"RANKINGS",marketLabel:"MARKET",allMarkets:"All markets",previewDaily:"NEXT DAILY · PREVIEW",previewOnly:"Private preview of the next Daily. It is not playable yet.",previewButton:"AVAILABLE ON ITS DAY",testReplay:"↻ REPLAY DAILY (TEST)",testHint:"Private test button · does not affect official score or streak.",sign:"SIGN IN",signout:"SIGN OUT",guest:"GUEST",startDaily:"PLAY TODAY'S CHALLENGE ↗",startPractice:"START PRACTICE ↗",loading:"LOADING…",noDaily:"The next Daily challenge starts on",loginDaily:"Sign in to start your one official Daily attempt.",already:"You already played today's challenge.",time:"Time left",comma:"Type an ingredient, then a comma",prompt:"Name an ingredient",hint:"Separate each ingredient with a comma. English or Spanish both work.",found:"YOUR GUESSES",finish:"FINISH EARLY",skip:"SKIP PRODUCT →",stop:"STOP PRACTICE",share:"SHARE RESULT ↗",back:"BACK",foundTitle:"YOU FOUND",missed:"YOU MISSED",signinTitle:"Welcome back",signinHint:"Sign in to play Daily and save your official score.",create:"Create account",submit:"SIGN IN",username:"USERNAME",email:"EMAIL",password:"PASSWORD",cancel:"CANCEL",rank:"VIEW LEADERBOARD",all:"All markets",arg:"Argentina",world:"World",allCats:"All categories",noProducts:"No products match these filters.",practiceReady:"Ten random products · 15 seconds each.",result:"ROUND COMPLETE",dailyResult:"DAILY RESULT SAVED",score:"POINTS",correct:"correct",missedCount:"missing",authOk:"Check your email to confirm your account.",wrong:"Could not complete the request.",imageMissing:"This product image is unavailable. It won't be included in the game.",rankToday:"Today's Daily",rankAll:"All-time",noRank:"No scores yet.",dailyEyebrow:"TODAY'S CHALLENGE",dailyDescription:"A new shared challenge every day. Your official attempt counts toward the leaderboard and your streak.",ruleTime:"15 SECONDS",rulePoints:"100 POINTS / INGREDIENT",ruleTry:"ONE OFFICIAL TRY",testReset:"↻ RESET DAILY (TEST)",testHint:"Private test controls · remove before public launch.",pointsLabel:"POINTS",noPause:"NO PAUSES. JUST INSTINCT.",practiceEyebrow:"GLOBAL PRACTICE",practiceTitle:"10 products. One practice run.",practiceDescription:"A random mix from the full catalog. 15 seconds per product. Skip any product or stop whenever you want.",practiceLoading:"Loading the catalog…",practicePlaceholder:"sugar, azúcar, milk...",emptyGuesses:"Nothing yet. Go!",practiceProgress:"PRODUCT",rankingTitle:"LEADERBOARD",close:"CLOSE",scope:"SCOPE",rankTodayOption:"Today's Daily",rankAllOption:"All-time",rankingLoading:"Loading…",footerTagline:"MADE FOR THE CURIOUS.",practiceResultKicker:"PRACTICE SESSION",practiceResultTitle:"PRACTICE COMPLETE",scoreByProduct:"SCORE BY PRODUCT",skippedProducts:"SKIPPED PRODUCTS",authEmail:"EMAIL",signupTitle:"Create your account",signupSubmit:"CREATE ACCOUNT",signinSwitch:"I already have an account",signupHint:"Your account saves Daily scores, streaks and achievements.",authEmailPlaceholder:"Email",authPasswordPlaceholder:"Password",signupError:"Username field is unavailable. Please refresh and try again."},
@@ -61,7 +61,7 @@ let dailyImageReady=false,dailyImageObject=null,dailyImageLoading=false;
 function renderChallenge(){
  if(!challenge)return;
  show("dailyProduct",false);
- show("dailyReplayWrap",false);
+ 
  setText("dailyName","");setText("dailyDesc","");setText("dailyMarket","");$("dailyImage").removeAttribute("src");$("dailyImage").style.display="none";$("dailyPlaceholder").style.display="";
  if(dataPlayed()){setText("dailyTitle",t("already"));status("dailyStatus",t("already"));$("dailyStart").disabled=true;setText("dailyStart",t("already"))}
  else if(!session){setText("dailyTitle",t("daily"));status("dailyStatus",t("loginDaily"));$("dailyStart").disabled=false;setText("dailyStart",t("sign"))}
@@ -82,11 +82,11 @@ async function checkDaily(){
     renderChallenge();
    }else{dailyImageLoading=false;dailyImageReady=false;status("dailyStatus",t("imageMissing"),true);$("dailyStart").disabled=true}
   }else{
-   show("dailyProduct",false);show("dailyReplayWrap",false);setText("dailyTitle",t("daily"));
+   show("dailyProduct",false);setText("dailyTitle",t("daily"));
    const next=data.next_challenge_date?new Date(data.next_challenge_date+"T12:00:00").toLocaleDateString(lang==="es"?"es-AR":"en-US"):"";
    status("dailyStatus",next?t("noDaily")+" "+next:t("noDaily")+" soon.");$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))
   }
- }catch(e){challenge=null;show("dailyProduct",false);show("dailyReplayWrap",false);setText("dailyTitle",t("daily"));status("dailyStatus",t("wrong")+": "+e.message,true);$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}
+ }catch(e){challenge=null;show("dailyProduct",false);setText("dailyTitle",t("daily"));status("dailyStatus",t("wrong")+": "+e.message,true);$("dailyStart").disabled=true;setText("dailyStart",t("startDaily"))}
 }
 async function loadCatalog(){
  try{
@@ -149,10 +149,10 @@ function addGuess(raw){
 }
 $("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
 $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
-async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),test_daily_replay:isDailyTestReplay}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",correctCount+" / "+totalCount+" "+t("correct"));setText("finalScore",String(finalPoints).padStart(3,"0")+" "+t("score"));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("result",true);if(mode==="daily")await checkDaily()}
+async function finishGame(options={}){if(!gameActive)return;addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);if(mode==="practice"&&practiceSession){await completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");try{let data;if(mode==="daily"){data=await call("submit-daily",{method:"POST",body:{session_id:window.dailySessionId,answers:guesses}})}else{data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}lastResult=data;const found=data.found||[],missed=data.missed||[];const correctCount=data.correct_count??data.attempt?.correct_count??found.length;const totalCount=data.total_ingredients??data.attempt?.total_ingredients??(found.length+missed.length);const finalPoints=data.score??data.attempt?.score??0;setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");setText("resultSub",correctCount+" / "+totalCount+" "+t("correct"));setText("finalScore",String(finalPoints).padStart(3,"0")+" "+t("score"));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));}catch(e){setText("resultTitle",t("wrong"));setText("resultSub",e.message);setText("percent","—");setText("finalScore","");$("correctList").innerHTML="";$("missedList").innerHTML=""}show("game",false);show("result",true);if(mode==="daily")await checkDaily()}
 function renderAnswers(id,items,missed){const box=$(id);box.innerHTML="";items.forEach(x=>{const s=document.createElement("span");s.className="answer"+(missed?" missed":"");s.textContent=x[lang]||x.es||x.en;box.append(s)});if(!items.length)box.textContent="—"}
 async function startDaily(){
- isDailyTestReplay=false;
+
  if(!session){openAuth();return}
  if(!challenge){await checkDaily();return}
  if(!dailyImageReady){status("dailyStatus",lang==="es"?"El misterio todavía se está preparando.":"The mystery is still preparing.");return}
@@ -169,7 +169,7 @@ async function startDaily(){
 }
 function startPractice(){
  if(!practicePrepared){status("practiceStatus",t("practicePreparing"));$("practiceStart").disabled=true;return}
- isDailyTestReplay=false;
+
  const prepared=practicePrepared;practicePrepared=null;
  practiceAnswerKeys=prepared.answerKeys;practiceImageCache=prepared.images||{};
  practiceSession={products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,rounds:[]};
