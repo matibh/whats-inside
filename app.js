@@ -85,7 +85,7 @@ function updateLanguage(){
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
  $("rankingScope").options[0].textContent=t("rankTodayOption");$("rankingScope").options[1].textContent=t("rankAllOption");
  if(!$("rankingList").children.length)$("rankingList").textContent=t("rankingLoading");
- const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady"):t("practiceLoading");
+ const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!$("practiceStatus").classList.contains("bad"))$("practiceStatus").textContent=t("practiceReady");
  applyTheme(document.documentElement.dataset.theme==="dark"?"dark":"light");
  if(challenge)renderChallenge();
  refreshResultLanguage();
@@ -124,7 +124,6 @@ async function checkDaily(){
 }
 async function loadCatalog(){
  try{
-  status("practiceStatus","");
   $("practiceStart").disabled=false;
   const data=await call("practice-catalog");catalog=data.products||[];
   if(catalog.length<10)throw new Error(lang==="es"?"No hay suficientes productos disponibles.":"Not enough products available.");
@@ -150,7 +149,7 @@ async function hashPracticeGuess(value,salt){
 async function preparePracticeSession({quiet=false}={}){
  if(practicePreparing||practicePrepared||!catalog.length)return;
  practicePreparing=true;
- if(!quiet){$("practiceStart").disabled=false;status("practiceStatus","")}
+ if(!quiet){$("practiceStart").disabled=false;}
  try{
   const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim()&&!/image-not-available|placeholder/i.test(p.image_url));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
