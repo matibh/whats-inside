@@ -733,3 +733,10 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **FRONTEND COMMITS:** `1c3e62bcfffaca7478ddf1945186554d3d859b54` (local hash preparation and Practice validation), `1b09f96579254c4cbebbab1f48a1d9ec30dbbaac` (cache buster), `59b5fc390ab5900a8fff161aad4f30df8bea124a` (keep local feedback independent of server snapshot network errors). Latest cache buster: `app.js?v=local-practice-hashes-20261118a`.
 - **NOT YET VERIFIED:** no live call to `practice-answer-hashes`, authenticated end-to-end Practice session, deployed GitHub Pages browser test, local hash parity test against real catalog data, or full regression pass has been performed. Do not mark Practice as working until these tests pass.
 - **NEXT QA:** verify hash endpoint response contains no raw ingredients; compare local hash results with server results for English/Spanish names, accents, aliases, punctuation, whitespace, duplicate aliases and duplicate guesses; test all 10 rounds, 15-second expiry, Skip, Stop, save/retry, XP and achievements. Only after Practice passes should the same local-hash approach be evaluated for Daily.
+
+
+### Practice button readiness UX correction — 2026-11-18
+
+- **IMPLEMENTED (frontend source):** the Practice start button is never disabled during catalog/hash/image preparation or on preparation errors. Clicking it before preparation finishes waits for the preparation promise's current work rather than immediately failing.
+- **IMPLEMENTED (frontend source):** removed the parenthesized catalog-size suffix from the Practice ready label. The previously visible `(201)` was `catalog.length`, i.e. the number of products returned in the Practice catalog, not the number of products in the session or a game level.
+- **NOT YET VERIFIED:** GitHub Pages deployment and browser interaction after this correction remain pending.
