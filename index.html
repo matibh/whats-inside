@@ -651,7 +651,7 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-result-metric-exact-parity-20261118i"></script>
+<script type="module" src="./app.js?v=ingredora-practice-score-chips-20261118j"></script>
 </body>
 </html>
 
@@ -679,13 +679,6 @@ body{
 :root[data-theme="dark"] #result .score-metric{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a;color:#17271c}
 @media(max-width:420px){#result .result-metrics{gap:9px;margin-top:14px}#result .result-metric{min-height:126px;padding:13px 8px;border-radius:15px}#result .metric-label{font-size:9px;letter-spacing:.09em}#result .accuracy-metric .percent{font-size:clamp(48px,15vw,62px)}#result .score-metric .final-score{font-size:clamp(35px,11vw,46px)}#result .metric-caption{font-size:10px}}
 
-/* Practice results: one readable score row per played product */
-#result .practice-score-list{display:flex;flex-direction:column;flex-wrap:nowrap;gap:8px;width:100%}
-#result .practice-score-row{display:flex;align-items:center;justify-content:space-between;gap:14px;width:100%;box-sizing:border-box;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);text-align:left}
-#result .practice-score-name{min-width:0;flex:1;font-size:13px;line-height:1.35;font-weight:650;color:var(--text);overflow-wrap:anywhere}
-#result .practice-score-value{flex:none;min-width:66px;padding:6px 9px;border-radius:7px;background:#e5f0d9;color:#245d36;text-align:center;font:800 11px "DM Mono",monospace;white-space:nowrap}
-:root[data-theme="dark"] #result .practice-score-value{background:#294632;color:#c5efa0}
-@media(max-width:420px){#result .practice-score-row{padding:9px 10px;gap:8px}#result .practice-score-name{font-size:12px}#result .practice-score-value{min-width:58px;padding:6px 7px}}
 
 /* Match the Final Score number to the Ingredients Found metric */
 #result .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;white-space:normal;text-align:center;gap:0;margin:0}
