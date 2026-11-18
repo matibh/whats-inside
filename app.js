@@ -41,7 +41,7 @@ async function call(name,{method="GET",body=null,auth=true}={}){const r=await fe
 function show(el,on=true){const node=$(el);node.classList.toggle("hidden",!on);if(el==="game"||el==="result")node.classList.toggle("active",on)}
 function setPracticeNavigationLock(locked){["dailyTab","practiceTab","rankingTab"].forEach(id=>{const button=$(id);button.disabled=locked;button.setAttribute("aria-disabled",String(locked));button.title=locked?(lang==="es"?"Terminá la práctica para acceder":"Finish Practice to access this section"):""})}
 function setMode(next){if(practiceSession)return;mode=next; $("dailyTab").classList.toggle("active",mode==="daily");$("practiceTab").classList.toggle("active",mode==="practice");$("rankingTab").classList.toggle("active",mode==="ranking");show("dailyPanel",mode==="daily");show("practicePanel",mode==="practice");show("rankingPanel",mode==="ranking");show("intro",true);show("game",false);show("result",false)}
-function updateAccount(){setText("accountLabel",session?.user?.email||t("guest"));setText("authOpen",session?t("signout"):t("sign"))}
+function updateAccount(){setText("accountLabel",session?.user?.user_metadata?.username||t("guest"));setText("authOpen",session?t("signout"):t("sign"))}
 async function refreshPlayerProgression(){
  const badge=$("levelBadge");if(!badge)return;
  if(!session){playerProgression=null;badge.classList.add("hidden");return}
@@ -81,7 +81,7 @@ function updateLanguage(){
  const headline=$("headline");if(headline)headline.setAttribute("aria-label",t("headline"));
  $("langBtn").textContent=lang==="en"?"ES":"EN";
  $("ingredientInput").placeholder=t("practicePlaceholder");$("ingredientInput").setAttribute("aria-label",t("prompt"));
- $("accountLabel").textContent=session?.user?.email||t("guest");setText("authOpen",session?t("signout"):t("sign"));
+ $("accountLabel").textContent=session?.user?.user_metadata?.username||t("guest");setText("authOpen",session?t("signout"):t("sign"));
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
  $("rankingScope").options[0].textContent=t("rankTodayOption");$("rankingScope").options[1].textContent=t("rankAllOption");
  if(!$("rankingList").children.length)$("rankingList").textContent=t("rankingLoading");
