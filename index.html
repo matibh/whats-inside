@@ -481,6 +481,22 @@ body{
  .footer{margin-top:15px;padding-top:9px}
 }
 
+/* Practice only: a little less vertical spacing so its controls stay in view. */
+@media (min-width: 900px) {
+ #game:has(#practiceSkip:not(.hidden)) .practice-session-meta{margin-bottom:6px}
+ #game:has(#practiceSkip:not(.hidden)) .product-card{min-height:145px}
+ #game:has(#practiceSkip:not(.hidden)) .product-photo img{height:128px}
+ #game:has(#practiceSkip:not(.hidden)) .product-info{padding-top:14px;padding-bottom:14px}
+ #game:has(#practiceSkip:not(.hidden)) .timer-row{margin-top:10px;margin-bottom:7px}
+ #game:has(#practiceSkip:not(.hidden)) .prompt{margin-top:10px;margin-bottom:6px}
+ #game:has(#practiceSkip:not(.hidden)) .input-wrap{min-height:56px;padding-top:9px;padding-bottom:9px}
+ #game:has(#practiceSkip:not(.hidden)) .hint{margin-top:4px}
+ #game:has(#practiceSkip:not(.hidden)) .feedback{margin-top:3px;margin-bottom:3px}
+ #game:has(#practiceSkip:not(.hidden)) .found-title{margin-top:8px;margin-bottom:5px}
+ #game:has(#practiceSkip:not(.hidden)) .found{min-height:26px}
+ #game:has(#practiceSkip:not(.hidden)) .actions{margin-top:10px}
+}
+
 </style>
 </head>
 <body>
