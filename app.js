@@ -164,17 +164,43 @@ async function preparePracticeSession({quiet=false}={}){
   }
   const images={};
   practicePrepared={products,images,answerKeys};
+  persistPracticeCache(practicePrepared);
   products.forEach(product=>{preloadPracticeImage(product.image_url,12000).then(image=>{if(image)images[product.id]=image})});
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady"));$("practiceStart").disabled=false}
  }catch(e){
-  if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=false}
+  if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true)}
+  if(practiceStartRequested){practiceStartRequested=false;setText("practiceStart",t("startPractice"))}
+  $("practiceStart").disabled=false;
  }finally{practicePreparing=false;if(practiceStartRequested&&practicePrepared)startPractice()}
 }
 function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
 function setProduct(p){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||t("mysteryProduct"));const img=$("productImage");if(p.image_url){img.onerror=null;img.src=p.image_url;img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.onerror=()=>{img.style.display="none";$("productPlaceholder").style.display=""}}else{img.style.display="none";$("productPlaceholder").style.display=""}}
 function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;roundCorrectCount=0;localValidationQueue=Promise.resolve();$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
-let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let roundCorrectCount=0;let localValidationQueue=Promise.resolve();let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;let practiceStartRequested=false;let practiceImageCache={};let practiceSyncQueue=Promise.resolve();
+const PRACTICE_CACHE_KEY="ingredora.practice.prepared.v1";
+const PRACTICE_CACHE_TTL=20*60*1000;
+function restorePracticeCache(){
+ try{
+  const cached=JSON.parse(localStorage.getItem(PRACTICE_CACHE_KEY)||"null");
+  if(!cached||cached.version!==1||Date.now()-cached.savedAt>PRACTICE_CACHE_TTL||!Array.isArray(cached.products)||cached.products.length!==10||!Array.isArray(cached.answerKeys))return null;
+  const ids=cached.products.map(p=>p?.id);
+  if(ids.some(id=>!id)||new Set(ids).size!==10)return null;
+  const answerKeys={};
+  for(const [id,key] of cached.answerKeys){
+   if(!ids.includes(id)||typeof key?.salt!=="string"||!Number.isInteger(key.total_ingredients)||!Array.isArray(key.hashes)||!key.hashes.length)return null;
+   answerKeys[id]={salt:key.salt,total_ingredients:key.total_ingredients,hashToIndex:new Map(key.hashes)};
+  }
+  if(ids.some(id=>!answerKeys[id]))return null;
+  return {products:cached.products,images:{},answerKeys};
+ }catch{return null}
+}
+function persistPracticeCache(prepared){
+ try{
+  const answerKeys=Object.entries(prepared.answerKeys).map(([id,key])=>[id,{salt:key.salt,total_ingredients:key.total_ingredients,hashes:[...key.hashToIndex.entries()]}]);
+  localStorage.setItem(PRACTICE_CACHE_KEY,JSON.stringify({version:1,savedAt:Date.now(),products:prepared.products,answerKeys}));
+ }catch(error){console.warn("Practice cache could not be saved.",error)}
+}
+let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let roundCorrectCount=0;let localValidationQueue=Promise.resolve();let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=restorePracticeCache();let practicePreparing=false;let practiceStartRequested=false;let practiceImageCache={};let practiceSyncQueue=Promise.resolve();
 function queuePracticeSync(task,label){
  const run=practiceSyncQueue.then(async()=>{
   for(let attempt=0;attempt<4;attempt++){
@@ -293,16 +319,28 @@ async function startDaily(){
 function startPractice(){
  if(!session){openAuth();return}
  if(!practicePrepared){
+  if(practiceStartRequested)return;
   practiceStartRequested=true;
+  setText("practiceStart",lang==="es"?"INICIANDO…":"STARTING…");
   if(!practicePreparing)preparePracticeSession();
   return;
  }
  const prepared=practicePrepared;practicePrepared=null;practiceStartRequested=false;
+ setText("practiceStart",t("startPractice"));
  practiceAnswerKeys=prepared.answerKeys||{};practiceImageCache=prepared.images||{};
  const ready=call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
  const s={id:null,ready,products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,xpEarned:0,progression:null,unlocked:[],skippedProducts:[],rounds:[]};
  practiceSession=s;
- ready.then(data=>{s.id=data.session_id;}).catch(error=>console.warn("Practice session could not be created in the background.",error));
+ ready.then(data=>{s.id=data.session_id;}).catch(error=>{
+  console.warn("Practice session could not be created.",error);
+  if(practiceSession!==s)return;
+  if(timer)clearInterval(timer);
+  gameActive=false;practiceSession=null;setPracticeNavigationLock(false);
+  show("game",false);show("result",false);show("intro",true);show("practicePanel",true);
+  practicePrepared=null;
+  try{localStorage.removeItem(PRACTICE_CACHE_KEY)}catch{}
+  status("practiceStatus",error.message||t("wrong"),true);
+ });
  setPracticeNavigationLock(true);
  mode="practice";
  status("practiceStatus",t("practiceReady"));
