@@ -610,6 +610,12 @@ body{
 .brand .brand-name{display:inline-flex!important;align-items:center;gap:12px}
 .brand .brand-check{display:inline-flex;align-items:center;justify-content:center;margin-left:4px!important;background:inherit!important;padding:0!important;border:0!important;border-radius:0!important;font:900 12px/1 "DM Sans",sans-serif;color:#245d36;transform:translateY(-1px)}
 :root[data-theme="dark"] .brand .brand-check{background:inherit!important;color:#e0f4ce}
+
+/* Explicit correct / incorrect answer markers */
+#chips .chip.good::before{content:"✓";display:inline-block;margin-right:5px;font-weight:900}
+#chips .chip.bad::before{content:"✕";display:inline-block;margin-right:5px;font-weight:900}
+#correctList .answer::before{content:"✓";display:inline-block;margin-right:6px;font-weight:900}
+#missedList .answer::before{content:"✕";display:inline-block;margin-right:6px;font-weight:900}
 </style>
 </head>
 <body>
