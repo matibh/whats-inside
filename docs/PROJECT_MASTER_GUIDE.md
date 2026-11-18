@@ -684,3 +684,21 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **IMPLEMENTED (frontend source):** failed Practice submissions now keep the current Practice session open, restore a retryable Skip product action, and do not append a fake completed/skipped round. The ingredient input is disabled until a new round starts; the next round resets it.
 - **CACHE BUSTER:** `index.html` now loads `app.js?v=instant-answer-feedback-20261118d`.
 - **NOT YET VERIFIED:** no authenticated live answer request or browser interaction has been run after this correction. GitHub Pages deployment is not confirmed. The hard 15-second deadline and authoritative final scoring remain unchanged.
+
+
+### Validation latency, final-round save, duplicate marks and image loading — 2026-11-18
+
+- **DEPLOYED (Supabase SQL):** `public.validate_game_answer_check` is a service-role-only security-definer RPC. It validates the authenticated session, active product and strict 15-second deadline, enforces append-only guess history, and returns the private answer key only to the service-role Edge Function in one database roundtrip.
+- **DEPLOYED (Supabase Edge Function):** `validate-ingredient` v8 now uses the consolidated RPC instead of multiple sequential database lookups per guess. Answer keys are never returned to the browser.
+- **DEPLOYED (Supabase Edge Function):** `submit-practice` v21 recovers the last server-accepted cumulative answer list if the final submit request arrives after 15 seconds. It does not accept guesses that were not validated by the server before the deadline. The completion RPC verifies that the answer-check snapshot was timestamped at or before the round deadline.
+- **DEPLOYED (Supabase SQL):** `public.get_practice_answer_snapshot` is service-role-only and reads the append-only validated guess snapshot for the current user's active Practice round.
+- **DEPLOYED (Supabase SQL):** `public.complete_practice_round` permits delayed transport of the final submit only when the saved answer-check snapshot is timely. It still does not permit a late answer check or grant extra play time.
+- **IMPLEMENTED (frontend source):** Practice waits for any validation request already queued before submitting the final round. A queued request still has to pass the server's hard deadline; the client does not extend the timer.
+- **IMPLEMENTED (frontend source):** Practice image preparation now awaits actual image loading and selects only products whose image successfully loads. This prevents a non-resolving image URL from entering the next Practice session.
+- **IMPLEMENTED (frontend CSS):** removed the duplicate CSS pseudo-element ✓/✕ marks; JavaScript now renders a single check or cross per guess.
+- **DEPLOYED (Supabase Edge Function):** `start-practice` v4 removes the 3-sessions-per-10-minutes throttle as explicitly requested. Authentication, 10 unique ready products, Daily reservation checks and session expiry remain.
+- **CACHE BUSTER:** `index.html` now loads `app.js?v=instant-answer-feedback-20261118e`.
+- **SECURITY:** verified EXECUTE privileges for `validate_game_answer_check`, `get_practice_answer_snapshot`, `complete_practice_round` and `consume_game_answer_check`: anon=false, authenticated=false, service_role=true.
+- **SECURITY ADVISOR:** 12 expected RLS-enabled/no-policy informational findings remain for private/service-role-only tables. Leaked-password protection remains disabled on Free plan.
+- **NOT YET VERIFIED:** no authenticated live HTTP/browser session has been played after these changes. GitHub Pages deployment and visual/browser QA are pending.
+- **KNOWN BAD IMAGE URL:** `jorgito-alfajor-choco-blanco-55g` currently references a non-resolving `tiendajorgito.com.ar` image host. The product will now be excluded from Practice unless its image loads. Replace its catalog URL with a verified working official asset before making it eligible again.
