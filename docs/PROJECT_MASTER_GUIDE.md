@@ -649,3 +649,13 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **DECISIÓN DE PRODUCTO:** Profile, Achievements, Cosmetics y la experiencia de Levels/XP quedan preparados en backend, pero sus pantallas/experiencia completa de usuario se aplazan. No crear todavía páginas de perfil, editor de perfil, galería cosmética ni listado/detalle de logros.
 - **SCOPE DE ESTE CAMBIO:** solo se simplifica la identidad del header. No se alteran datos, tablas, RPCs, Edge Functions, XP acumulado, niveles calculados ni unlocks existentes.
 - **QA:** código actualizado en `index.html` y `app.js`; pendiente verificar visualmente el header en navegador después del despliegue de GitHub Pages.
+
+
+### Answer feedback regression fix — 2026-11-18
+
+- **DEPLOYED TO MAIN** — frontend commit `df562f4` applies one normalized answer-feedback renderer to both Daily and Practice. It compares submitted guesses with the server-returned matched/rejected answer arrays using the same accent/case/whitespace normalization, rather than relying on exact raw-string equality.
+- **DEPLOYED TO MAIN** — correct guesses now receive a visible green `✓`; incorrect guesses receive a red `✕`. Explicit `.chip.good` and `.chip.bad` styles prevent all guesses from inheriting the default green appearance.
+- **DEPLOYED TO MAIN** — Daily now reads score and correct count from the nested `attempt` object when those fields are not at the response root; this matches the live `submit-daily` response shape.
+- **DEPLOYED TO MAIN** — Practice updates the per-round found counter and applies the same feedback renderer for normal and skipped submissions.
+- **CACHE BUSTER** — `index.html` now loads `app.js?v=answer-feedback-20261118`.
+- **NOT YET VERIFIED** — GitHub Pages deployment and authenticated browser QA have not yet been confirmed. Backend answer validation and scoring functions were not modified; strict 15-second server enforcement remains unchanged.
