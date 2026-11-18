@@ -134,7 +134,12 @@ function preloadPracticeImage(url,timeoutMs=12000){
   if(image.complete)finish(image.naturalWidth>0&&image.naturalHeight>0);
  });
 }
-async function hashPracticeGuess(value,salt){
+async function preloadPracticeProductImage(product,timeoutMs=12000){
+  const urls=[product?.image_url,product?.fallback_image_url].filter((url,index,all)=>typeof url==="string"&&url.trim()&&all.indexOf(url)===index);
+  for(const url of urls){const image=await preloadPracticeImage(url,timeoutMs);if(image)return image}
+  return null;
+ }
+ async function hashPracticeGuess(value,salt){
  const normalized=normalizeGuess(value);
  const bytes=new TextEncoder().encode(salt+"|"+normalized);
  const digest=await crypto.subtle.digest("SHA-256",bytes);
@@ -145,7 +150,7 @@ async function preparePracticeSession({quiet=false}={}){
  practicePreparing=true;
  if(!quiet){$("practiceStart").disabled=false;}
  try{
-  const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim()&&!/image-not-available|placeholder/i.test(p.image_url));
+  const pool=catalog.filter(p=>[p.image_url,p.fallback_image_url].some(url=>typeof url==="string"&&url.trim()&&!/image-not-available|placeholder/i.test(url)));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
   const products=pool.slice(0,10);
   if(products.length<10)throw new Error(lang==="es"?"No hay 10 productos disponibles con imagen.":"Not enough products with an image URL.");
@@ -159,7 +164,7 @@ async function preparePracticeSession({quiet=false}={}){
   const images={};
   practicePrepared={products,images,answerKeys};
   persistPracticeCache(practicePrepared);
-  products.forEach(product=>{preloadPracticeImage(product.image_url,12000).then(image=>{if(image)images[product.id]=image})});
+  products.forEach(product=>{preloadPracticeProductImage(product,12000).then(image=>{if(image)images[product.id]=image})});
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady"));$("practiceStart").disabled=false}
  }catch(e){
   if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true)}
@@ -169,14 +174,14 @@ async function preparePracticeSession({quiet=false}={}){
 }
 function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
-function setProduct(p){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||t("mysteryProduct"));const img=$("productImage");if(p.image_url){img.onerror=null;img.src=p.image_url;img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.onerror=()=>{img.style.display="none";$("productPlaceholder").style.display=""}}else{img.style.display="none";$("productPlaceholder").style.display=""}}
+function setProduct(p,{allowFallback=false}={}){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||t("mysteryProduct"));const img=$("productImage");img.onerror=null;img.removeAttribute("src");const urls=[p.image_url,...(allowFallback?[p.fallback_image_url]:[])].filter((url,index,all)=>typeof url==="string"&&url.trim()&&all.indexOf(url)===index);const cached=allowFallback?practiceImageCache[p.id]:null;if(cached?.src){urls.unshift(cached.src)}let attempt=0;const showPlaceholder=()=>{img.onerror=null;img.style.display="none";$("productPlaceholder").style.display=""};const tryNext=()=>{if(attempt>=urls.length){showPlaceholder();return}const url=urls[attempt++];img.onerror=()=>{if(img.currentSrc&&img.currentSrc!==url)return;tryNext()};img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.src=url};if(urls.length)tryNext();else showPlaceholder()}
 function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;roundCorrectCount=0;localValidationQueue=Promise.resolve();$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
-const PRACTICE_CACHE_KEY="ingredora.practice.prepared.v1";
+const PRACTICE_CACHE_KEY="ingredora.practice.prepared.v2";
 const PRACTICE_CACHE_TTL=20*60*1000;
 function restorePracticeCache(){
  try{
   const cached=JSON.parse(localStorage.getItem(PRACTICE_CACHE_KEY)||"null");
-  if(!cached||cached.version!==1||Date.now()-cached.savedAt>PRACTICE_CACHE_TTL||!Array.isArray(cached.products)||cached.products.length!==10||!Array.isArray(cached.answerKeys))return null;
+  if(!cached||cached.version!==2||Date.now()-cached.savedAt>PRACTICE_CACHE_TTL||!Array.isArray(cached.products)||cached.products.length!==10||!Array.isArray(cached.answerKeys))return null;
   const ids=cached.products.map(p=>p?.id);
   if(ids.some(id=>!id)||new Set(ids).size!==10)return null;
   const answerKeys={};
@@ -191,7 +196,7 @@ function restorePracticeCache(){
 function persistPracticeCache(prepared){
  try{
   const answerKeys=Object.entries(prepared.answerKeys).map(([id,key])=>[id,{salt:key.salt,total_ingredients:key.total_ingredients,hashes:[...key.hashToIndex.entries()]}]);
-  localStorage.setItem(PRACTICE_CACHE_KEY,JSON.stringify({version:1,savedAt:Date.now(),products:prepared.products,answerKeys}));
+  localStorage.setItem(PRACTICE_CACHE_KEY,JSON.stringify({version:2,savedAt:Date.now(),products:prepared.products,answerKeys}));
  }catch(error){console.warn("Practice cache could not be saved.",error)}
 }
 let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let roundCorrectCount=0;let localValidationQueue=Promise.resolve();let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=restorePracticeCache();let practicePreparing=false;let practiceStartRequested=false;let practiceImageCache={};let practiceSyncQueue=Promise.resolve();
@@ -345,7 +350,7 @@ function startPracticeRound(localStartedAt=Date.now()){
  if(!practiceSession)return;
  selectedProduct=practiceSession.products[practiceSession.index];
  currentAnswerKey=practiceAnswerKeys[selectedProduct.id]||null;
- setProduct(selectedProduct);
+ setProduct(selectedProduct,{allowFallback:true});
  setText("practiceProgress",(lang==="es"?"PRODUCTO ":"PRODUCT ")+(practiceSession.index+1)+"/10");
  setText("score",String(practiceSession.score).padStart(3,"0"));
  startGame(localStartedAt);
