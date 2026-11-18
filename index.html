@@ -631,7 +631,7 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-practice-score-unit-fix-20261118c"></script>
+<script type="module" src="./app.js?v=ingredora-final-score-style-20261118d"></script>
 </body>
 </html>
 
@@ -646,6 +646,9 @@ body{
 #result .accuracy-metric .percent{font-size:clamp(58px,8vw,76px);line-height:.98;letter-spacing:-.065em;margin:0}
 #result .metric-caption{font-size:11px;color:var(--muted);margin-top:6px}
 #result .score-metric .final-score{font:900 clamp(42px,6vw,58px)/1 "DM Sans",sans-serif;letter-spacing:-.065em;color:#17271c;white-space:nowrap}
+#result .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
+#result .score-metric .final-score .final-score-number{display:block;font:inherit;letter-spacing:inherit;line-height:1;color:inherit;margin:0}
+
 #result .score-metric .final-score .final-score-unit{display:block;font:800 11px "DM Mono",monospace;letter-spacing:.16em;text-align:center;margin:7px 0 0;color:#365326}
 #result .result-sub{font-size:13px;line-height:1.5;font-weight:600;margin:8px auto 0;max-width:520px}
 :root[data-theme="dark"] #result .accuracy-metric{background:#1a241d;border-color:#384a3b;box-shadow:0 8px 28px #0003}
