@@ -713,3 +713,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **CACHE BUSTER:** index.html now loads app.js?v=instant-answer-feedback-20261118f.
 - **VALIDATION LATENCY OBSERVED:** recent validate-ingredient v8 server execution was approximately 119–130 ms for POST requests in available logs; network round-trip adds additional latency. No local answer key was exposed because that would reveal the private catalogue to the browser.
 - **NOT YET VERIFIED:** after the SELECT grant, no new authenticated Practice round has yet been completed end-to-end. GitHub Pages publication and browser QA remain pending. The fix is grounded in the exact PostgreSQL permission error and a successful read-only execution of the affected metrics function as service_role.
+
+
+### Validation preflight optimization — 2026-11-18
+
+- **DEPLOYED (Supabase Edge Function):** validate-ingredient v9 adds Access-Control-Max-Age: 86400 to its CORS response. This allows browsers to cache the cross-origin OPTIONS preflight for up to 24 hours and avoids paying an additional preflight round-trip for every ingredient check.
+- **LATENCY NOTE:** the latest available v8 function logs showed approximately 119–130 ms execution for POST validation; repeated OPTIONS requests were separately visible. The client now dispatches cumulative validation requests concurrently rather than serially. This improves perceived response time but server verification still requires network communication.
+- **ROUND SAVE ROOT CAUSE:** the service_role-only SELECT grant on private.product_category_groups resolves the exact SQLSTATE 42501 observed during complete_practice_round. The round-completion transaction remains responsible for persisting each product immediately; the final Practice screen aggregates the saved per-product results.
+- **NOT YET VERIFIED:** no new authenticated Practice session has been run after the permission grant and v9 deployment. Do not claim end-to-end or browser QA until performed.
