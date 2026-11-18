@@ -581,3 +581,8 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 4. Audit all 50 achievement metrics and all 30 cosmetic asset mappings/default inventory behavior.
 5. Review public SELECT policies and column exposure; preserve the least-privilege write grants established by the remediation migration.
 6. Continue profile UI/reserved username work; do not rebuild XP, achievements or cosmetic database foundations.
+### Follow-up checks: achievements and cosmetics
+- private.get_player_achievement_metrics was inspected. It derives Practice completion/perfect counts from non-skipped attempts, Practice sessions from completed full_completion sessions, combo from recorded max_combo, and Explorer product/category/country counts from unique played product IDs. Daily accuracy achievements require at least 10 Daily attempts; Practice accuracy requires at least 50 non-skipped Practice products.
+- Auth signup trigger handle_new_user creates the profile with default cosmetic slots and inserts all default_owned cosmetics into private.user_cosmetics. Five default cosmetics are configured (avatar_default, frame_default, bg_default, title_curious, effect_none).
+- Existing users had 6 or 9 cosmetics each at audit time; all five accounts have the five defaults plus achievement unlocks.
+- The 50-achievement category distribution is: Getting Started 6, Daily 8, Accuracy 7, Combo 4, Practice 7, Score 4, Explorer 7, Loyalty 7.
