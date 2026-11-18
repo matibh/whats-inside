@@ -643,7 +643,7 @@ body{
  <div class="found-title"><span id="foundTitle">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty" id="emptyGuessText">Nothing yet. Go!</span></div>
  <div class="actions"><button class="btn ghost" id="finishBtn">FINISH EARLY</button><div class="practice-controls"><button class="btn ghost hidden" id="practiceSkip" type="button">SKIP PRODUCT →</button><button class="btn ghost hidden" id="practiceStop" type="button">STOP PRACTICE</button></div><span class="eyebrow" id="noPause">NO PAUSES. JUST INSTINCT.</span></div>
 </section>
-<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="result-metric accuracy-metric"><div class="metric-label" id="accuracyLabel">INGREDIENTS FOUND</div><div class="percent" id="percent">0%</div><div class="metric-caption" id="accuracyCaption">of all possible ingredients</div></div><div class="result-metric score-metric"><div class="metric-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score"><span class="final-score-number" id="finalScore">300</span> <span class="final-score-unit" id="scoreUnit">POINTS</span></div></div></div><div class="result-sub" id="resultSub"></div>
+<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="result-metric accuracy-metric"><div class="metric-label" id="accuracyLabel">INGREDIENTS FOUND</div><div class="percent" id="percent">0%</div><div class="metric-caption" id="accuracyCaption">of all possible ingredients</div></div><div class="result-metric score-metric"><div class="metric-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score"><div class="final-score-number" id="finalScore">300</div><div class="metric-caption final-score-unit" id="scoreUnit">POINTS</div></div></div></div><div class="result-sub" id="resultSub"></div>
  <div class="result-box"><h3 id="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 id="youMissed" style="margin-top:20px">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div>
  <div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
@@ -651,7 +651,7 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-practice-score-chips-20261118j"></script>
+<script type="module" src="./app.js?v=ingredora-exact-result-typography-20261118k"></script>
 </body>
 </html>
 
@@ -686,3 +686,23 @@ body{
 #result .score-metric .final-score .final-score-unit{display:block;width:100%;font:600 11px "DM Sans",sans-serif;letter-spacing:0;text-align:center;color:#365326;margin:6px 0 0;line-height:1.3}
 @media(max-width:420px){#result .score-metric .final-score .final-score-number{font-size:clamp(48px,15vw,62px)}#result .score-metric .final-score .final-score-unit{font-size:10px;margin-top:6px}}
 </style>
+
+
+/* Shared typography: both result metrics use identical label, value and caption rules */
+#result .result-metrics .result-metric .metric-label,
+#result .result-metrics .result-metric .final-score-label{font:800 10px "DM Mono",monospace;letter-spacing:.13em;line-height:1.2;text-align:center;margin:0 0 7px}
+#result .result-metrics .accuracy-metric .percent,
+#result .result-metrics .score-metric .final-score-number{font:900 clamp(58px,8vw,76px)/.98 "DM Sans",sans-serif;letter-spacing:-.065em;line-height:.98;text-align:center;margin:0;padding:0}
+#result .result-metrics .accuracy-metric .metric-caption,
+#result .result-metrics .score-metric .final-score-unit{font:600 11px/1.3 "DM Sans",sans-serif;letter-spacing:0;text-align:center;margin:6px 0 0}
+#result .result-metrics .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:100%;gap:0;margin:0;padding:0;white-space:normal}
+#result .result-metrics .score-metric .final-score-number{display:block;width:100%;color:#17271c}
+#result .result-metrics .score-metric .final-score-unit{display:block;width:100%;color:#365326}
+#result .result-metrics .score-metric .metric-label{color:#365326}
+@media(max-width:420px){
+ #result .result-metrics .accuracy-metric .percent,
+ #result .result-metrics .score-metric .final-score-number{font-size:clamp(48px,15vw,62px)}
+ #result .result-metrics .accuracy-metric .metric-caption,
+ #result .result-metrics .score-metric .final-score-unit{font-size:10px;margin-top:6px}
+ #result .result-metrics .result-metric .metric-label{font-size:9px;letter-spacing:.09em}
+}
