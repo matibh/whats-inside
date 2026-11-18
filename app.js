@@ -47,8 +47,8 @@ async function refreshPlayerProgression(){
  if(!session){playerProgression=null;badge.classList.add("hidden");return}
  try{
   playerProgression=await call("get-player-progression");
-  badge.textContent=(lang==="es"?"NIV. ":"LVL ")+playerProgression.level;
-  badge.title=(playerProgression.level_name?.[lang]||"")+" · "+playerProgression.xp_total+" XP · "+(lang==="es"?"faltan ":"")+" "+playerProgression.xp_to_next+" XP";
+  badge.textContent=(lang==="es"?"NIV. ":"LVL ")+playerProgression.level+" · "+playerProgression.xp_total+" XP";
+  badge.title=(playerProgression.level_name?.[lang]||"")+" · "+playerProgression.xp_to_next+" "+(lang==="es"?"XP para el siguiente nivel":"XP to next level");
   badge.classList.remove("hidden");
  }catch(e){badge.classList.add("hidden")}
 }
