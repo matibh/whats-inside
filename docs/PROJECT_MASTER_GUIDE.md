@@ -151,10 +151,12 @@ Implemented backend foundation:
 - Basic elapsed-time and score/count coherence checks exist in the RPC.
 
 Remaining:
+- **DONE — server-authoritative per-product timer deployed** — start-practice v3 stores the ordered product list and starts the first round on the server; complete_practice_round checks each round against its server timestamp and starts the next round only after the previous one is submitted.
+- **DONE — Stop Practice closes the server session** — stop_after is persisted before completion; the RPC closes the session without starting another product or awarding the full-session bonus.
 - **PENDING** — authenticated end-to-end HTTP/browser test of start → play → submit → persisted result.
 - **PENDING** — test expired session, wrong owner, product not in session, duplicate submission, and rate limit through real endpoint calls.
 - **PENDING** — consider cleanup of session rows older than 7 days and an index on `expires_at`; this is maintenance, not a launch blocker unless volume warrants it.
-- **KNOWN LIMITATION** — current round RPC checks session expiry but does not independently validate server-measured elapsed time for each round. Client-supplied elapsed time is range-checked (0–15 seconds); do not describe this as a server-enforced 15-second wall-clock timer.
+- **DONE — server-authoritative timer deployed** — each new Practice product row stores its server-side `round_started_at` and `round_order`; the completion RPC independently checks elapsed wall-clock time. Non-skipped submissions are accepted through 15 seconds plus a 1.5-second network grace, while persisted elapsed time is capped at 15,000 ms. The client-supplied `elapsed_ms` is ignored for authority.
 
 ### 4.3 Daily sessions and submissions
 
@@ -164,6 +166,7 @@ Remaining:
 - **DONE** — the RPC returns only the attempt fields needed by the client plus unlocked achievements; it does not return user ID, challenge ID, or submitted answers.
 - **DONE** — RPC is executable only by `service_role`.
 - **DONE** — a reversible transaction test was performed; no test rows were left behind.
+- **DONE — server-authoritative 15-second enforcement deployed** — submit-daily v11 and complete_daily_attempt calculate elapsed time from the server session start, reject submissions after 16.5 seconds (15 seconds + 1.5-second network grace), and persist at most 15,000 ms. Frontend timer now uses the server `started_at` value.
 - **PENDING** — real authenticated Daily start/submit browser test, including duplicate/replay and expired-session cases.
 - **PENDING** — verify Daily product assignment and no-repeat invariant against the complete schedule/catalog before extending future dates.
 
@@ -356,6 +359,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [x] Remove answer key from Daily start response.
 - [x] Make Daily completion and related stats/unlocks transactional.
 - [x] Add profile username uniqueness and 30-day change cooldown foundation.
+- [x] Enforce 15-second Daily and per-product Practice timers on the server (with 1.5-second network grace; persisted elapsed capped at 15 seconds).
 - [ ] Complete real authenticated browser/API QA for Daily and Practice.
 - [ ] Re-run final security endpoint/RPC/grants audit.
 - [ ] Re-run Supabase Security Advisor and document expected/actionable warnings.
@@ -427,7 +431,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 
 ## 10. Known game rules and scoring behavior
 
-- Round duration: 15 seconds.
+- Round duration: 15 seconds. Backend allows a 1.5-second request grace after the deadline but caps the recorded elapsed time at 15,000 ms.
 - Combo scoring: first correct ingredient = 100 points; second consecutive correct = 150; third consecutive correct = 150, for 400 total in that example.
 - Each consecutive correct after the first adds the combo bonus (+50).
 - An incorrect guess resets the combo.
@@ -513,10 +517,10 @@ Never collapse these statuses into a single “done”.
 
 The next work should proceed in this order:
 
-1. **Confirm XP award values** (50 Daily / 10 per Practice product / +20 for a complete 10-product session). These are still proposals, not approved numbers.
-2. Finish the Phase 0/1 authenticated browser and API QA for Daily, Practice, and profile protections.
-3. Re-inspect live Supabase function versions, schema, grants, and transaction RPC definitions before writing XP migrations.
-4. Once XP values and thresholds are approved, implement Phase 2 with an idempotent ledger and transactional awards.
+1. Complete authenticated API/browser QA for Daily and Practice, especially 15-second timeout, 1.5-second grace, replay, expiry, ownership, skip, Stop Practice, and full-session bonus.
+2. Audit all 50 achievement criteria and 30 cosmetic asset mappings; confirm profile UI/default inventory behavior.
+3. Implement reserved-username enforcement and the profile editor/public profile page.
+4. Continue XP/achievement/cosmetic regression tests; do not recreate existing systems.
 5. Update this guide after every completed subtask and keep it as the navigation point for future sessions.
 
 ---
@@ -586,3 +590,33 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Auth signup trigger handle_new_user creates the profile with default cosmetic slots and inserts all default_owned cosmetics into private.user_cosmetics. Five default cosmetics are configured (avatar_default, frame_default, bg_default, title_curious, effect_none).
 - Existing users had 6 or 9 cosmetics each at audit time; all five accounts have the five defaults plus achievement unlocks.
 - The 50-achievement category distribution is: Getting Started 6, Daily 8, Accuracy 7, Combo 4, Practice 7, Score 4, Explorer 7, Loyalty 7.
+## 16. Server-authoritative round timer — 2026-11-18
+
+### Design and implementation
+- Daily: `start-daily` already returns the server-created `started_at`; frontend now uses that timestamp for its countdown. `submit-daily` v11 rejects elapsed time above 16,500 ms. `complete_daily_attempt` independently rechecks elapsed time using `clock_timestamp()` after locking the session and stores `least(elapsed, 15000)`.
+- Practice: migration `enforce_server_side_round_timers` added `round_order` and `round_started_at` to `practice_play_session_products`, plus `stop_requested` to `practice_play_sessions` and a unique partial index on `(session_id, round_order)`.
+- `start-practice` v3 writes the submitted product order and sets a server-generated start timestamp only for round 1. It returns `first_round_started_at`.
+- `submit-practice` v17 reads the server timestamp, rejects non-skipped late submissions, ignores the client elapsed value for authority, and passes a normalized market (`Argentina` or `World`) to the completion RPC. This also fixes a pre-existing failure: `practice_attempts.market` only permits `Argentina`/`World`, while product records may contain country-specific market strings.
+- `complete_practice_round` independently calculates elapsed time from the locked product row, rejects non-skipped attempts after 16,500 ms, and caps stored elapsed at 15,000 ms. It starts the next product timer at the server with a 1,100 ms transition offset.
+- Stop Practice sends `stop_after`; Edge Function marks `stop_requested` before the transaction. The completion RPC closes the session without starting another round and without a full-session bonus unless all ten products were actually submitted.
+- Skipped products can still be submitted after the timer, but remain skipped and receive no product XP; this preserves the explicit Skip action while preventing late scored submissions.
+- The 1.5-second grace is an intentional network tolerance, not extra score time: persisted elapsed is capped at 15 seconds. This is a deliberate compromise between strict client experience and real network transit.
+
+### Deployments
+- Supabase migration applied: `enforce_server_side_round_timers`.
+- Edge Function versions deployed with JWT verification enabled: `start-practice` v3, `submit-practice` v17, `submit-daily` v11.
+- Frontend commits: `82e7d2b3501cb2b12691630f0f4d073bf23d9d03` (timer integration) and `790c0e3158b2f33f7e5324b7aa5c2d4fab03add7` (cache-buster `server-round-timer-20261118`).
+- GitHub Pages workflow for cache-buster commit `790c0e3` completed successfully (run 44365960347). This verifies deployment workflow success, not visual browser QA.
+
+### Verification performed
+- Reversible Practice RPC test passed: a 17-second non-skipped round was rejected; a valid round persisted a 10 XP result and initialized the next round timestamp; Stop Practice closed the session and did not start another product. Transaction was rolled back; no test rows persisted.
+- Reversible Daily RPC test passed: a 17-second attempt was rejected; a valid 1-second attempt completed and stored elapsed at or below 15,000 ms. Transaction was rolled back; no test rows persisted.
+- Post-change live counts remained unchanged: 74 Practice attempts, 5 Daily attempts, 79 XP ledger events; zero active Practice/Daily sessions.
+- Verified `complete_daily_attempt` and `complete_practice_round` are executable by `service_role` only; anon/authenticated EXECUTE is false.
+- Verified timer columns and order index exist. Public client write privilege audit still returns true for the condition that all anon/authenticated INSERT/UPDATE/DELETE/TRUNCATE privileges are absent.
+- Security Advisor remains at 10 informational RLS-enabled/no-policy findings on intentionally restricted tables and one leaked-password protection warning (Free plan limitation).
+
+### Not yet verified
+- No authenticated live Edge Function session was run because no test-user credentials/session token were available in this work session.
+- No real browser QA was performed. The GitHub Pages workflow succeeded, but timer display, Skip, Stop Practice, and Daily expiry still require visual/interactive browser verification.
+- The 1.5-second grace and 1.1-second Practice transition offset should be checked under real network latency and on mobile devices.
