@@ -757,3 +757,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **FIXED (frontend source):** removed both extra quotes without changing Practice logic.
 - **CACHE BUSTER:** `app.js?v=local-practice-hashes-20261118c` in `index.html` forces clients to fetch the corrected script.
 - **NOT YET VERIFIED:** GitHub Pages deployment and browser loading/Practice interaction remain pending.
+
+
+### Eliminación de esperas innecesarias en Skip / Stop Practice — 2026-11-18
+
+- IMPLEMENTADO (frontend source): Skip Product ya no espera a que terminen las peticiones de snapshots de respuestas antes de enviar el salto. El endpoint submit-practice recibe las respuestas acumuladas y las puntúa del lado servidor si la ronda sigue dentro de los 15 segundos; si el usuario salta después del límite, la regla existente de cero puntos por skip tardío permanece intacta.
+- IMPLEMENTADO (frontend source): End Practice / Stop Practice tampoco espera esas peticiones cuando se pulsa dentro de los 15 segundos. Si se pulsa después del límite, conserva la espera por snapshots ya aceptados por el servidor, necesaria para recuperar únicamente respuestas validadas antes del deadline. No se añadió ningún retraso artificial ni se cambió el temporizador.
+- VALIDACIÓN DE SOURCE: el archivo completo app.js parsea correctamente con new Function tras retirar su import ESM superior. Cache buster actualizado a app.js?v=local-practice-hashes-20261118d.
+- PENDING: GitHub Pages deployment y browser QA real de Skip Product / Stop Practice. No afirmar que el comportamiento visual o la latencia real ya fueron verificados.
