@@ -224,7 +224,7 @@ function addGuess(raw){
   });
   const serverSnapshot=(async()=>{
    try{await call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:practiceSession?.id,product_id:selectedProduct?.id,answers}})}
-   catch(error){if(gameActive&&sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}}
+   catch(error){console.warn("Practice server-side answer snapshot failed; local hash feedback remains available.",error)}
   })();
   pendingValidations.push(serverSnapshot);
   validationQueue=Promise.allSettled(pendingValidations);
