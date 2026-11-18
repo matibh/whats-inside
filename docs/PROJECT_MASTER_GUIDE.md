@@ -144,7 +144,7 @@ Implemented backend foundation:
 - Session expiry: 30 minutes.
 - 10 unique products per session.
 - Rate limit: 3 sessions per user per 10 minutes.
-- `start-practice` requires a JWT/user, checks 10 unique ready product IDs, checks Daily reservations, creates a session and records its products.
+- `start-practice` requires a JWT/user, validates the 10 unique ready product IDs supplied by the frontend, checks Daily reservations, creates a session and records product order/timing. The frontend still chooses the candidate set; independent server-side random selection remains pending.
 - `submit-practice` requires authentication, checks session ownership and expiry, verifies product membership, prevents duplicate submissions, obtains the answer key server-side, and calculates the result on the backend.
 - `complete_practice_round(uuid,uuid,text,text,integer,integer,integer,integer)` atomically marks the session product submitted and inserts the attempt. If insertion fails, the transaction rolls back.
 - RPC execution is restricted to `service_role`; `anon` and `authenticated` cannot execute it.
@@ -242,17 +242,17 @@ Levels continue beyond 10. Current implementation adds 1,200 XP for level 11 and
 
 ### 5.3 XP technical requirements
 
-Once rewards and thresholds are approved:
-- Create an append-only/idempotent XP ledger.
-- Use unique source references so retries cannot grant XP twice.
-- Daily XP source should be the unique Daily attempt (or another immutable attempt identifier), not merely the calendar date.
-- Practice per-product XP source should be the unique Practice attempt ID.
-- Full-session bonus source should be the Practice session ID and only be awarded once when all 10 products are validly completed.
-- Integrate awards inside the same database transaction that completes the corresponding Daily/Practice attempt, or use an equally safe transactional design.
-- Keep authoritative total XP and current level server-derived. Do not trust client totals/level.
-- Define behavior for deleted/invalid attempts, refunds/reversals, and replayed requests before production.
-- Define whether XP is cumulative lifetime XP; recommendation is cumulative and never spent.
-- Add tests for duplicate submission, retry, concurrent submissions, partial sessions, and level boundary crossings.
+Implemented architecture:
+- Append-only `private.player_xp_events` ledger with unique `(user_id,event_type,source_id)` idempotency key.
+- Daily source is the unique Daily attempt ID; Practice product source is the unique Practice attempt ID; full-session bonus source is the Practice session ID.
+- Daily and Practice XP awards are inside their completion transactions.
+- `public.user_stats.xp_total` and level are updated server-side; the client reads progression through an authenticated Edge Function.
+- Current awards: 50 XP per Daily, 10 XP per non-skipped Practice product, +20 XP for a 10/10 Practice session with no skips; achievements award 0 XP.
+
+Pending release QA:
+- Test duplicate submissions, retries, concurrent requests, partial/skipped sessions and level-boundary crossings with authenticated users.
+- Define formal reversal/refund behavior before introducing deletion or invalidation of attempts.
+- Confirm cumulative lifetime XP remains the intended long-term rule.
 
 **Current status:** XP ledger, XP awards, level table, level calculation and progression endpoint are implemented. Browser QA and concurrency/idempotency tests remain pending.
 
@@ -262,15 +262,7 @@ Once rewards and thresholds are approved:
 
 ### Existing database catalog
 
-There are currently 50 achievement records in the live database; the original eight legacy entries have been expanded/replaced. Verify migration history before assuming legacy IDs were retained:
-1. First Daily — Primer Daily
-2. Ten Dailies — 10 Daily
-3. Good taste — 50 ingredients
-4. Perfect ingredients — Daily perfecto
-5. One thousand — 1,000 puntos
-6. Five thousand — 5,000 puntos
-7. Three in a row — racha de 3 días
-8. A full week — racha de 7 días
+The live catalog contains 50 achievements across Getting Started (6), Daily (8), Accuracy (7), Combo (4), Practice (7), Score (4), Explorer (7), and Loyalty (7). The original eight achievements were the legacy seed set; migration history and unlock-ID continuity still need a dedicated preservation audit. There are 19 unlock rows across 5 user accounts at the last database snapshot.
 
 There are currently 19 unlock records in `user_achievements` (5 user accounts exist).
 
@@ -280,16 +272,16 @@ There are currently 19 unlock records in `user_achievements` (5 user accounts ex
 - Achievements grant 0 XP.
 - No gameplay advantages, score multipliers, or currency rewards.
 
-### Pending work
-- Audit the criteria and current consumers of `achievements.points` before removing, deprecating, or ignoring that field. Do not drop it blindly.
-- Review the 8 existing achievements for naming, criteria, translations, and compatibility with existing unlocks.
-- The earlier target proposal was a catalog of 50 achievements across Getting Started, Daily, Accuracy, Combo, Practice, Score, Explorer, and Loyalty. This is a planning target, not an approved final list.
-- Define every achievement with stable ID, category, criteria, display name/description in ES/EN, hidden/visible status, and cosmetic reward ID.
-- Explorer achievements require consistent product/catalog tags.
-- Hidden achievements must not leak the current Daily product, answer key, or other secret challenge data.
-- Ensure achievement evaluation is idempotent and transactional with the qualifying event.
-- Preserve existing unlocks when migrating IDs or criteria.
-- Add tests for thresholds, repeated triggers, streak boundaries, timezone/date boundaries, and simultaneous unlocks.
+Implemented foundation:
+- 50 stable achievement records with category, tier, ES/EN names/descriptions, criteria and cosmetic reward IDs.
+- `private.user_achievement_progress` tracks progress; `private.evaluate_player_achievements` performs idempotent unlock evaluation and grants linked cosmetics transactionally.
+- Authenticated `get-player-achievements` endpoint is deployed; result screens display unlock notifications.
+
+Pending audit and QA:
+- Verify every one of the 50 criteria against its intended metric, especially Explorer product/category/country metrics and score/perfect thresholds.
+- Audit legacy ID/unlock preservation and all consumers of `achievements.points` before changing that field.
+- Test thresholds, repeated triggers, streak/date boundaries, simultaneous unlocks and hidden-achievement privacy.
+- Browser QA for achievement list/details/hidden states remains pending.
 
 ---
 
@@ -300,14 +292,16 @@ Approved:
 - Achievement rewards are cosmetic only.
 - No shop, coins, paid currency, or gameplay-affecting items.
 
+Implemented database/backend foundation:
+- 30 active cosmetic definitions across avatar, frame, background, title and effect types.
+- `private.user_cosmetics` stores ownership; achievement rewards are granted transactionally.
+- New-user trigger provisions the five default cosmetic slots and default-owned inventory.
+- Authenticated get/equip Edge Functions are deployed; equip checks ownership and active status.
+
 Pending:
-- Define the preset avatar catalog and stable IDs.
-- Define cosmetic types (avatar, frame, title, badge, theme, etc.) only where useful; do not expand scope without a reason.
-- Create inventory/unlock records and equip state.
-- Validate ownership and unlock eligibility on the server.
-- Define default cosmetic and fallback behavior if an item is retired.
-- Build gallery/equip UI and public display.
-- Test that users cannot equip an unowned item or spoof a cosmetic ID.
+- Verify all 30 `asset_key` values map to real shipped assets and check fallbacks for retired/missing assets.
+- Build the gallery/equip UI and show equipped cosmetics on profiles.
+- Test unauthorized equip attempts and default inventory for existing/new users.
 
 ---
 
@@ -353,7 +347,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 
 ### Phase 0 — Existing game and security hardening
 - [x] Remove public answer-key retrieval paths.
-- [x] Move Practice session selection and validation server-side.
+- [x] Validate the frontend's 10 unique Practice product IDs, readiness and Daily reservations server-side (the candidate set is still chosen client-side; independent server-side random selection remains pending).
 - [x] Add server-side Practice session ownership, expiry, unique-product, and duplicate-submit checks.
 - [x] Make Practice attempt persistence atomic.
 - [x] Remove answer key from Daily start response.
@@ -361,8 +355,8 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [x] Add profile username uniqueness and 30-day change cooldown foundation.
 - [x] Enforce 15-second Daily and per-product Practice timers on the server (with 1.5-second network grace; persisted elapsed capped at 15 seconds).
 - [ ] Complete real authenticated browser/API QA for Daily and Practice.
-- [ ] Re-run final security endpoint/RPC/grants audit.
-- [ ] Re-run Supabase Security Advisor and document expected/actionable warnings.
+- [x] Re-run endpoint/RPC/grants audit; client write grants and completion RPC ACLs verified.
+- [x] Re-run Supabase Security Advisor and document expected/actionable warnings (10 informational restricted-table findings; leaked-password protection warning is a Free-plan limitation).
 
 **Gate:** do not treat hardening as fully QA-approved until real authenticated endpoint/browser tests pass.
 
@@ -388,22 +382,23 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [ ] Browser QA for Daily and Practice XP rewards, badge refresh and level-up feedback.
 
 ### Phase 3 — Achievements
-- [ ] Audit existing 8 achievements and all consumers of `points`.
-- [ ] Finalize catalog and criteria (target proposal: 50; not yet final).
-- [ ] Define ES/EN text and stable IDs.
-- [ ] Define cosmetic reward mapping.
-- [ ] Implement/verify transactional idempotent unlock evaluation.
-- [ ] Preserve historical unlocks.
-- [ ] Add achievement list, detail, hidden achievement, and unlocked states.
-- [ ] Test every criterion and edge case.
+- [x] Implement 50 achievement definitions with categories, tiers, ES/EN copy, criteria and cosmetic reward IDs.
+- [x] Implement private progress tracking and transactional idempotent unlock evaluation.
+- [x] Award linked cosmetics transactionally.
+- [x] Deploy authenticated achievement read endpoint and result-screen unlock notifications.
+- [ ] Audit all criteria/metrics and Explorer taxonomy.
+- [ ] Audit legacy unlock preservation and `achievements.points` consumers.
+- [ ] Build/verify full achievement list, details and hidden states in browser.
+- [ ] Test all thresholds and edge cases.
 
 ### Phase 4 — Cosmetics
-- [ ] Define preset avatar and cosmetic catalogs.
-- [ ] Implement inventory/unlocks/equipping schema.
-- [ ] Enforce ownership server-side.
-- [ ] Implement gallery and equip UI.
-- [ ] Show selected cosmetics on profiles.
-- [ ] Test unauthorized equip attempts and retired-item fallback.
+- [x] Create 30 cosmetic definitions and inventory schema.
+- [x] Award achievement cosmetics transactionally.
+- [x] Implement ownership-checked equip RPC and authenticated get/equip endpoints.
+- [x] Provision five default cosmetics on new-user signup.
+- [ ] Verify asset files, defaults for existing accounts and retired-item fallback.
+- [ ] Implement gallery/equip UI and public profile display.
+- [ ] Test unauthorized equip attempts.
 
 ### Phase 5 — Public profiles, statistics, activity
 - [ ] Finalize public profile fields and route.
