@@ -85,7 +85,7 @@ function updateLanguage(){
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
  $("rankingScope").options[0].textContent=t("rankTodayOption");$("rankingScope").options[1].textContent=t("rankAllOption");
  if(!$("rankingList").children.length)$("rankingList").textContent=t("rankingLoading");
- const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady")":t("practiceLoading");
+ const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady"):t("practiceLoading");
  applyTheme(document.documentElement.dataset.theme==="dark"?"dark":"light");
  if(challenge)renderChallenge();
  refreshResultLanguage();
