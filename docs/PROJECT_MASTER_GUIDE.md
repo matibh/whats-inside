@@ -591,15 +591,15 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Daily: `start-daily` already returns the server-created `started_at`; frontend now uses that timestamp for its countdown. `submit-daily` v11 rejects elapsed time above 16,500 ms. `complete_daily_attempt` independently rechecks elapsed time using `clock_timestamp()` after locking the session and stores `least(elapsed, 15000)`.
 - Practice: migration `enforce_server_side_round_timers` added `round_order` and `round_started_at` to `practice_play_session_products`, plus `stop_requested` to `practice_play_sessions` and a unique partial index on `(session_id, round_order)`.
 - `start-practice` v3 writes the submitted product order and sets a server-generated start timestamp only for round 1. It returns `first_round_started_at`.
-- `submit-practice` v17 reads the server timestamp, rejects non-skipped late submissions, ignores the client elapsed value for authority, and passes a normalized market (`Argentina` or `World`) to the completion RPC. This also fixes a pre-existing failure: `practice_attempts.market` only permits `Argentina`/`World`, while product records may contain country-specific market strings.
+- `submit-practice` v18 reads the server timestamp, rejects non-skipped late submissions, ignores the client elapsed value for authority, and passes a normalized market (`Argentina` or `World`) to the completion RPC. This also fixes a pre-existing failure: `practice_attempts.market` only permits `Argentina`/`World`, while product records may contain country-specific market strings.
 - `complete_practice_round` independently calculates elapsed time from the locked product row, rejects non-skipped attempts after 16,500 ms, and caps stored elapsed at 15,000 ms. It starts the next product timer at the server with a 1,100 ms transition offset.
 - Stop Practice sends `stop_after`; Edge Function marks `stop_requested` before the transaction. The completion RPC closes the session without starting another round and without a full-session bonus unless all ten products were actually submitted.
-- Skipped products can still be submitted after the timer, but remain skipped and receive no product XP; this preserves the explicit Skip action while preventing late scored submissions.
-- The 1.5-second grace is an intentional network tolerance, not extra score time: persisted elapsed is capped at 15 seconds. This is a deliberate compromise between strict client experience and real network transit.
+- A Skip action is accepted after the deadline so the player can advance, but if it arrives after 15,000 ms the server forces score/correct count/combo to zero; skipped products receive no XP. A Skip used before 15 seconds can retain any partial score entered before skipping.
+- The 1.5-second grace is an intentional network tolerance: a non-skipped submission arriving between 15,000 and 16,500 ms is accepted and may retain its score, while persisted elapsed is capped at 15,000 ms. This is a deliberate compromise that technically permits up to 1.5 seconds of extra scoring time; it should be reviewed if strict competitive timing is required.
 
 ### Deployments
 - Supabase migration applied: `enforce_server_side_round_timers`.
-- Edge Function versions deployed with JWT verification enabled: `start-practice` v3, `submit-practice` v17, `submit-daily` v11.
+- Edge Function versions deployed with JWT verification enabled: `start-practice` v3, `submit-practice` v18, `submit-daily` v11.
 - Frontend commits: `82e7d2b3501cb2b12691630f0f4d073bf23d9d03` (timer integration) and `790c0e3158b2f33f7e5324b7aa5c2d4fab03add7` (cache-buster `server-round-timer-20261118`).
 - GitHub Pages workflow for cache-buster commit `790c0e3` completed successfully (run 44365960347). This verifies deployment workflow success, not visual browser QA.
 
@@ -615,3 +615,8 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - No authenticated live Edge Function session was run because no test-user credentials/session token were available in this work session.
 - No real browser QA was performed. The GitHub Pages workflow succeeded, but timer display, Skip, Stop Practice, and Daily expiry still require visual/interactive browser verification.
 - The 1.5-second grace and 1.1-second Practice transition offset should be checked under real network latency and on mobile devices.
+
+### Late Skip hardening follow-up
+- Migration `zero_late_skipped_practice_scores` updates `complete_practice_round`: a skipped submission arriving after 15,000 ms has score, correct count and combo forced to zero at the database layer.
+- `submit-practice` v18 applies the same rule to the response payload so the result screen matches the stored attempt.
+- Reversible RPC test passed for a late skipped product: stored score/correct count were zero; Stop Practice still closed the session; no rows persisted after rollback.
