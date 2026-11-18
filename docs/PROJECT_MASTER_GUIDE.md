@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (Practice non-blocking local-first flow)  
+ > **Last updated:** 2026-11-18 (Practice instant-start cache)  
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -787,3 +787,17 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Daily code and Daily submission flow are unchanged.
 - **Implemented in source:** frontend app.js non-blocking Practice flow; cache-buster updated in index.html.
 - **Not yet deployed/verified:** GitHub Pages deployment, parser/integration tests, and browser QA. Do not mark Practice release-ready until these checks pass.
+
+
+### Practice instant-start preparation cache — 2026-11-18
+
+- IMPLEMENTED IN SOURCE: successful Practice preparation is now persisted in browser `localStorage` as a versioned cache containing the 10 selected safe product records and the salted ingredient hashes/index mappings. Hash maps are serialized as entry arrays and reconstructed as `Map` objects on restore.
+- IMPLEMENTED IN SOURCE: cache lifetime is 20 minutes. On a return visit with a valid cache, the set and answer hashes are available synchronously before the user clicks Start Practice; the click can begin the local game without waiting for the catalog or hash endpoints.
+- IMPLEMENTED IN SOURCE: image loading remains independent and does not block the click or start timer.
+- IMPLEMENTED IN SOURCE: when there is no valid cache (first visit, expired/corrupt cache, or cleared site data), the click immediately changes the button label to `STARTING…` / `INICIANDO…`, leaves the button enabled, and waits for the required product/hash preparation before starting the first 15-second round. The timer does not consume time while hashes are unavailable. Repeated clicks during this pending start are ignored.
+- IMPLEMENTED IN SOURCE: if the asynchronous server session cannot be created (including a cached product that became ineligible or reserved for Daily), the local game is stopped, the user is returned to Practice, the stale cache is cleared, and the error is shown. The server remains authoritative for session eligibility and scoring.
+- SECURITY NOTE: the local cache stores the same salted hashes already delivered to the browser for local Practice validation; it does not contain plaintext answer keys. This is obfuscation, not strong protection against dictionary attacks or a determined client.
+- DAILY: no Daily frontend flow, answer validation, or timer code was changed.
+- VALIDATION: full `app.js` source parsed successfully with `new Function` after removing its ESM import. This validates syntax only, not runtime behavior.
+- CACHE BUSTER: `app.js?v=practice-instant-cache-20261118a`.
+- PENDING: verify GitHub Pages deployment, exercise warm-cache and cold-cache clicks in a real browser, test stale Daily-reserved cache recovery, and confirm no regression in Skip/Stop/answer feedback. Do not claim browser QA or end-to-end success until performed.
