@@ -801,3 +801,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - VALIDATION: full `app.js` source parsed successfully with `new Function` after removing its ESM import. This validates syntax only, not runtime behavior.
 - CACHE BUSTER: `app.js?v=practice-instant-cache-20261118a`.
 - PENDING: verify GitHub Pages deployment, exercise warm-cache and cold-cache clicks in a real browser, test stale Daily-reserved cache recovery, and confirm no regression in Skip/Stop/answer feedback. Do not claim browser QA or end-to-end success until performed.
+
+
+## 18. Eliminación del indicador visual de XP/nivel — 2026-11-18
+
+- **IMPLEMENTED (frontend source):** se elimina del resultado de Practice/Daily el indicador combinado `+XP · LEVEL/NIVEL`. No se muestra XP ni nivel en ese bloque de resultados.
+- **SCOPE:** este cambio es exclusivamente visual. No modifica los eventos del ledger, los XP históricos, las funciones transaccionales, los puntajes, los logros ni los datos de cuentas existentes. No reintroducir niveles en la interfaz sin una nueva decisión explícita.
+- **BUG INVESTIGATION — Practice result showed 0% / 0:** la sesión más reciente inspeccionada (18 Nov 2026, 19:53 local) quedó cerrada en backend con 3 intentos, 350 puntos, 3 respuestas correctas y 44 ingredientes totales. Sus tres intentos fueron persistidos y las llamadas `submit-practice` correspondientes respondieron HTTP 200. Por lo tanto, el 0% / 0 observado en pantalla no coincide con el resultado guardado y apunta a que la interfaz mostró el estado local/provisional antes de la reconciliación asíncrona del servidor. Esto es un diagnóstico probable basado en los datos persistidos y el flujo frontend; no se ha reproducido en navegador.
+- **QA:** sintaxis completa de `app.js` validada tras retirar el import ESM. Browser QA y verificación visual post-deploy pendientes.
