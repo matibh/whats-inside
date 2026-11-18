@@ -623,7 +623,7 @@ body{
  <div class="found-title"><span id="foundTitle">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty" id="emptyGuessText">Nothing yet. Go!</span></div>
  <div class="actions"><button class="btn ghost" id="finishBtn">FINISH EARLY</button><div class="practice-controls"><button class="btn ghost hidden" id="practiceSkip" type="button">SKIP PRODUCT →</button><button class="btn ghost hidden" id="practiceStop" type="button">STOP PRACTICE</button></div><span class="eyebrow" id="noPause">NO PAUSES. JUST INSTINCT.</span></div>
 </section>
-<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="percent" id="percent">0%</div><div class="final-score-card"><div class="final-score-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score" id="finalScore">300 <span>POINTS</span></div></div></div><div class="result-sub" id="resultSub"></div>
+<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="result-metric accuracy-metric"><div class="metric-label" id="accuracyLabel">INGREDIENTS FOUND</div><div class="percent" id="percent">0%</div><div class="metric-caption" id="accuracyCaption">of all possible ingredients</div></div><div class="result-metric score-metric"><div class="metric-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score" id="finalScore">300 <span>POINTS</span></div></div></div><div class="result-sub" id="resultSub"></div>
  <div class="result-box"><h3 id="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 id="youMissed" style="margin-top:20px">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div>
  <div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
@@ -634,3 +634,21 @@ body{
 <script type="module" src="./app.js?v=ingredora-result-cleanup-20261118a"></script>
 </body>
 </html>
+
+<style>
+/* Result screen: two equally clear, high-priority metrics */
+#result .result-metrics{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:520px;margin:18px auto 10px;align-items:stretch}
+#result .result-metric{min-width:0;min-height:142px;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px 12px}
+#result .accuracy-metric{background:var(--card);border:1px solid var(--line);box-shadow:0 5px 18px rgba(35,62,39,.055)}
+#result .score-metric{background:linear-gradient(145deg,#e5ff91,#d7f36a);border:1px solid #b8d94d;box-shadow:0 5px 0 #b8d94d,0 10px 24px rgba(133,164,48,.16);color:#17271c}
+#result .metric-label{font:800 10px "DM Mono",monospace;letter-spacing:.13em;text-align:center;color:var(--muted);margin-bottom:7px}
+#result .score-metric .metric-label{color:#365326}
+#result .accuracy-metric .percent{font-size:clamp(58px,8vw,76px);line-height:.98;letter-spacing:-.065em;margin:0}
+#result .metric-caption{font-size:11px;color:var(--muted);margin-top:6px}
+#result .score-metric .final-score{font:900 clamp(42px,6vw,58px)/1 "DM Sans",sans-serif;letter-spacing:-.065em;color:#17271c;white-space:nowrap}
+#result .score-metric .final-score span{display:block;font:800 11px "DM Mono",monospace;letter-spacing:.16em;text-align:center;margin:7px 0 0;color:#365326}
+#result .result-sub{font-size:13px;line-height:1.5;font-weight:600;margin:8px auto 0;max-width:520px}
+:root[data-theme="dark"] #result .accuracy-metric{background:#1a241d;border-color:#384a3b;box-shadow:0 8px 28px #0003}
+:root[data-theme="dark"] #result .score-metric{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a;color:#17271c}
+@media(max-width:420px){#result .result-metrics{gap:9px;margin-top:14px}#result .result-metric{min-height:126px;padding:13px 8px;border-radius:15px}#result .metric-label{font-size:9px;letter-spacing:.09em}#result .accuracy-metric .percent{font-size:clamp(48px,15vw,62px)}#result .score-metric .final-score{font-size:clamp(35px,11vw,46px)}#result .metric-caption{font-size:10px}}
+</style>
