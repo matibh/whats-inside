@@ -1,0 +1,527 @@
+# Ingredora — Project Master Guide
+
+> **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
+>
+> **Last updated:** 2026-11-18  
+> **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
+> **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
+> **Product name:** Ingredora (formerly Whatsinside)
+
+---
+
+## 1. Project overview
+
+Ingredora is a bilingual (Spanish / English) ingredient-discovery game. Players inspect real food products and try to identify their ingredients within short timed rounds.
+
+Core game modes:
+- **Daily:** one globally shared daily product/challenge, with competitive attempts and rankings.
+- **Practice:** a session of products for non-Daily play, with server-validated attempts.
+- **Rankings:** public competitive ranking based on eligible game results.
+
+The long-term account/progression experience consists of six areas:
+1. Profile
+2. Achievements
+3. Levels & XP
+4. Cosmetics
+5. Statistics
+6. Activity
+
+### Product decisions already approved
+
+| Area | Decision |
+|---|---|
+| Identity | Unique username |
+| Profile visibility | Public and shareable |
+| Avatar | Preset gallery only; no user uploads |
+| Levels | Yes |
+| Progression | XP and levels |
+| Public activity | Yes |
+| Account requirement | Account required to play and save progress; no guest progression |
+| Achievements | Permanent unlocks |
+| Achievement rewards | Cosmetic only |
+| XP from achievements | None; avoid double rewards |
+| Social features | No clans, friends, DMs, or achievement rankings |
+| Economy | No coins or shop |
+| Extra tasks | No additional mission system |
+
+Cosmetic rewards must not grant gameplay advantages or score bonuses.
+
+---
+
+## 2. Non-negotiable project rules
+
+These constraints apply to every future change.
+
+### Catalog and answer security
+- The private catalog repository is the editorial source of truth and **must remain private**.
+- Product answer keys and complete ingredient answer data must stay server-side.
+- The public frontend may receive safe product metadata only.
+- Never add new answer-bearing products, ingredient statements, aliases, or answer keys to this public repository.
+- The historical `data/` snapshot in this public repository contains 200 old products (80 Argentina-market and 120 international). Those records and their answers are already public in Git history. They are **Practice-only** and must never be used for competitive Daily challenges.
+- Deleting historical files from the latest commit does not make already-public Git history secret.
+
+### Daily uniqueness and lifecycle
+- **Never repeat a product in Daily**, including across different dates.
+- If a Daily challenge expires, its product returns to the eligible Practice pool.
+- If there are 10 eligible products, a Practice session must contain 10 unique products.
+- Daily assignment and eligibility must be checked against published and scheduled challenges, not just past dates.
+- Do not silently weaken uniqueness rules to make catalog assignment easier.
+
+### Game/session integrity
+- All competitive scoring and answer validation must be authoritative on the backend.
+- A product can be submitted only once within a Practice session.
+- A Daily session can be consumed only once.
+- Keep writes atomic where multiple records/stats/unlocks must succeed together.
+- Enforce ownership, expiry, eligibility, and idempotency on the server; never trust client-supplied score or answer correctness.
+- Account required: do not add guest submission paths.
+
+### UI and QA
+- Do not change visual styles, layout, colors, spacing, or copy unless explicitly requested.
+- Every product must have an image.
+- An image URL existing in the database is **not proof** that the image loads. Verify HTTP response and/or browser rendering before marking it as tested.
+- Desktop homepage, Daily, and Practice should fit without scrolling, but do not achieve this by ugly compression or sacrificing readability.
+- Never report visual/browser QA as complete unless it was actually performed.
+- When a frontend commit is pushed to `main`, allow GitHub Pages deployment to propagate and hard-refresh with `Ctrl+F5` before visual validation.
+
+---
+
+## 3. Architecture and repositories
+
+### Frontend
+- Repository: `matibh/whats-inside`
+- Branch: `main`
+- Hosting: GitHub Pages via GitHub Actions; pushes to `main` trigger deployment.
+- Main app is currently implemented in `index.html` / frontend JavaScript and CSS.
+- Public URL: https://matibh.github.io/whats-inside/
+
+### Private catalog
+- Repository: `matibh/whats-inside-catalog`
+- Must remain private.
+- Holds the complete editorial catalog and answer data.
+- Do not move answer-bearing material into the public frontend repository.
+
+### Backend
+- Supabase project ref: `xblqghhhchffuqkmzgta`
+- Project URL: https://xblqghhhchffuqkmzgta.supabase.co
+- Supabase organization: `qwxbbuzomysltytxtkrw`
+- Current plan: Free (`tier_free`).
+
+### Security boundary
+- Frontend: UI, safe product metadata, user interaction.
+- Supabase Edge Functions: authenticated orchestration and server-side validation.
+- Database/RPC: authoritative transactions, scoring persistence, answer-key access through privileged server-side functions.
+- Private answer tables and answer-key RPCs must not be callable by `anon` or ordinary `authenticated` clients.
+
+---
+
+## 4. Current implementation status
+
+Status labels:
+- **DONE** — implemented and supported by code/database inspection or deployment evidence.
+- **PARTIAL** — foundation exists, but user-facing integration or full verification is incomplete.
+- **PENDING** — not implemented or not yet verified.
+
+### 4.1 Game and frontend
+
+- **DONE** — bilingual Spanish/English interface.
+- **DONE** — 15-second rounds, ingredient entry, feedback, scoring, and result reveal.
+- **DONE** — browser tab title follows the selected language.
+- **DONE** — ingredient answer feedback displays a check/cross at the end of the ingredient label.
+- **DONE** — Practice session controls prevent switching to Daily, Practice, Rankings, or changing mode while a session is active; Stop Practice unlocks navigation. Recent commit: `989812d`.
+- **DONE** — YOUR GUESSES counter colors follow the logo palette (light `#e5f0d9`, dark `#294632`). Recent commit: `f9354b1`.
+- **DONE** — Practice server-session integration sends `session_id` from both round submission paths; `startPractice` is asynchronous and calls `start-practice`. Recent commits include `ac36bb6` and cache-buster `7a0d6`.
+- **DONE** — earlier frontend removal of direct answer-key retrieval; commits included `02f7723` and cache-buster `a2dd4c3`.
+- **DONE** — check/cross presentation commit `63e2b4d`.
+- **PENDING** — full desktop and mobile browser regression pass after the recent backend/session changes.
+- **PENDING** — verify the deployed GitHub Pages build is current after latest commits; hard refresh before testing.
+- **PENDING** — verify all catalog product images actually load, not merely that image URLs are populated.
+
+### 4.2 Practice sessions and secure submissions
+
+Implemented backend foundation:
+- `public.practice_play_sessions` and `public.practice_play_session_products`.
+- RLS enabled; direct `anon` and `authenticated` table privileges revoked; `service_role` retains access.
+- Session expiry: 30 minutes.
+- 10 unique products per session.
+- Rate limit: 3 sessions per user per 10 minutes.
+- `start-practice` requires a JWT/user, checks 10 unique ready product IDs, checks Daily reservations, creates a session and records its products.
+- `submit-practice` requires authentication, checks session ownership and expiry, verifies product membership, prevents duplicate submissions, obtains the answer key server-side, and calculates the result on the backend.
+- `complete_practice_round(uuid,uuid,text,text,integer,integer,integer,integer)` atomically marks the session product submitted and inserts the attempt. If insertion fails, the transaction rolls back.
+- RPC execution is restricted to `service_role`; `anon` and `authenticated` cannot execute it.
+- Basic elapsed-time and score/count coherence checks exist in the RPC.
+
+Remaining:
+- **PENDING** — authenticated end-to-end HTTP/browser test of start → play → submit → persisted result.
+- **PENDING** — test expired session, wrong owner, product not in session, duplicate submission, and rate limit through real endpoint calls.
+- **PENDING** — consider cleanup of session rows older than 7 days and an index on `expires_at`; this is maintenance, not a launch blocker unless volume warrants it.
+- **KNOWN LIMITATION** — current round RPC checks session expiry but does not independently validate server-measured elapsed time for each round. Client-supplied elapsed time is range-checked (0–15 seconds); do not describe this as a server-enforced 15-second wall-clock timer.
+
+### 4.3 Daily sessions and submissions
+
+- **DONE** — `start-daily` requires authentication and no longer returns an answer key.
+- **DONE** — `submit-daily` calls the transactional `complete_daily_attempt(...)` RPC.
+- **DONE** — transaction locks and validates the user's Daily session, checks the challenge is published, consumes the session, inserts the attempt, updates Daily stats and ingredient mastery, evaluates current achievements, and stores unlocks atomically.
+- **DONE** — the RPC returns only the attempt fields needed by the client plus unlocked achievements; it does not return user ID, challenge ID, or submitted answers.
+- **DONE** — RPC is executable only by `service_role`.
+- **DONE** — a reversible transaction test was performed; no test rows were left behind.
+- **PENDING** — real authenticated Daily start/submit browser test, including duplicate/replay and expired-session cases.
+- **PENDING** — verify Daily product assignment and no-repeat invariant against the complete schedule/catalog before extending future dates.
+
+### 4.4 Answer-key exposure
+
+- **DONE** — `practice-answer-key` endpoint was retired and returns HTTP 410.
+- **DONE** — `validate-ingredient` endpoint was retired (410).
+- **DONE** — `start-daily` no longer returns `answer_key`.
+- **DONE** — frontend no longer contains calls/references for the old answer-key retrieval flow.
+- **DONE** — Practice and Daily submissions obtain answer keys inside privileged backend code through server-side RPCs.
+- **DONE** — answer-key RPC permissions were inspected; `anon` and `authenticated` do not have EXECUTE.
+- **PENDING** — final deployed endpoint audit to ensure no alternate public endpoint, debug route, log, or response leaks answer data.
+- **IMPORTANT** — the public historical 200-product snapshot is already exposed in Git history and cannot be treated as secret. Keep it out of Daily.
+
+### 4.5 Profiles and authentication foundation
+
+- **DONE** — 5 Auth users and 5 linked public profiles were found; 0 orphan profiles/users in the audit.
+- **DONE** — `profiles` has a case-insensitive unique username index (`lower(username)`).
+- **DONE** — `handle_new_user()` trigger creates a profile from Auth user metadata.
+- **DONE** — added `username_changed_at timestamptz` and `avatar_id text`.
+- **DONE** — profile guard prevents a real username change for 30 days; case-only changes are normalized back to the original username.
+- **DONE** — trigger updates `updated_at`.
+- **DONE** — direct table UPDATE was revoked from PUBLIC/anon/authenticated; authenticated users may update only `username`. They cannot directly update cooldown timestamp or avatar fields.
+- **PARTIAL** — profile table/read foundation exists, but no profile editor UI or public profile page yet.
+- **PENDING** — reserved username policy and server-side enforcement.
+- **PENDING** — define avatar preset IDs/gallery and ownership/equipping validation.
+- **PENDING** — decide whether/how to migrate or review the 5 existing accounts; do not delete or modify them without an explicit migration plan.
+- **NOTE** — legacy `avatar_url` remains for compatibility, but normal users cannot update it directly.
+
+### 4.6 Supabase security and plan constraints
+
+- Supabase organization is currently on the **Free** plan.
+- Auth leaked-password protection was reported disabled. Supabase makes this feature available from Pro; it cannot be enabled on the current Free plan. Do not claim it has been enabled or suggest that a dashboard toggle will bypass the plan restriction.
+- RLS enabled/no-policy warnings on private/service-role-only tables can be expected when direct client access is intentionally denied. Verify grants and policies before changing them; do not weaken the security boundary merely to silence an advisor warning.
+- Re-run Security Advisor after the final schema changes and record which warnings are expected versus actionable.
+- Official reference: https://supabase.com/docs/guides/auth/password-security
+
+---
+
+## 5. Progression system — decisions and pending implementation
+
+### 5.1 XP award values — NOT YET APPROVED
+
+The following values were proposed but the user has **not yet explicitly confirmed them**. Do not implement them until confirmed or replaced with new values.
+
+| Event | Proposed XP | Status |
+|---|---:|---|
+| Complete a Daily | 50 XP | Awaiting confirmation |
+| Complete one Practice product | 10 XP | Awaiting confirmation |
+| Complete a full 10-product Practice session | +20 XP bonus | Awaiting confirmation |
+| Unlock an achievement | 0 XP | Approved principle: achievements give cosmetics only |
+
+No XP should be awarded for achievements. Gameplay-valid XP and cosmetic achievement rewards remain separate.
+
+### 5.2 Proposed level thresholds — NOT YET APPROVED
+
+These are a draft, not final configuration:
+
+| Level | Name | XP threshold |
+|---:|---|---:|
+| 1 | Beginner | 0 |
+| 2 | Curious | 100 |
+| 3 | Explorer | 250 |
+| 4 | Apprentice | 500 |
+| 5 | Ingredient Hunter | 850 |
+| 6 | Food Detective | 1,300 |
+| 7 | Specialist | 1,850 |
+| 8 | Expert | 2,500 |
+| 9 | Master | 3,300 |
+| 10 | Legend | 4,300 |
+
+Draft direction: no maximum level; XP requirements continue increasing beyond level 10. The exact formula/curve after level 10 remains to be designed and approved.
+
+### 5.3 XP technical requirements
+
+Once rewards and thresholds are approved:
+- Create an append-only/idempotent XP ledger.
+- Use unique source references so retries cannot grant XP twice.
+- Daily XP source should be the unique Daily attempt (or another immutable attempt identifier), not merely the calendar date.
+- Practice per-product XP source should be the unique Practice attempt ID.
+- Full-session bonus source should be the Practice session ID and only be awarded once when all 10 products are validly completed.
+- Integrate awards inside the same database transaction that completes the corresponding Daily/Practice attempt, or use an equally safe transactional design.
+- Keep authoritative total XP and current level server-derived. Do not trust client totals/level.
+- Define behavior for deleted/invalid attempts, refunds/reversals, and replayed requests before production.
+- Define whether XP is cumulative lifetime XP; recommendation is cumulative and never spent.
+- Add tests for duplicate submission, retry, concurrent submissions, partial sessions, and level boundary crossings.
+
+**Current status:** no XP ledger, XP award integration, or level tables/RPCs have been implemented yet.
+
+---
+
+## 6. Achievements
+
+### Existing database catalog
+
+There are currently 8 achievement records:
+1. First Daily — Primer Daily
+2. Ten Dailies — 10 Daily
+3. Good taste — 50 ingredients
+4. Perfect ingredients — Daily perfecto
+5. One thousand — 1,000 puntos
+6. Five thousand — 5,000 puntos
+7. Three in a row — racha de 3 días
+8. A full week — racha de 7 días
+
+There are 5 existing unlock records in `user_achievements`.
+
+### Agreed reward policy
+- Achievements are permanent.
+- Rewards are cosmetic only.
+- Achievements grant 0 XP.
+- No gameplay advantages, score multipliers, or currency rewards.
+
+### Pending work
+- Audit the criteria and current consumers of `achievements.points` before removing, deprecating, or ignoring that field. Do not drop it blindly.
+- Review the 8 existing achievements for naming, criteria, translations, and compatibility with existing unlocks.
+- The earlier target proposal was a catalog of 50 achievements across Getting Started, Daily, Accuracy, Combo, Practice, Score, Explorer, and Loyalty. This is a planning target, not an approved final list.
+- Define every achievement with stable ID, category, criteria, display name/description in ES/EN, hidden/visible status, and cosmetic reward ID.
+- Explorer achievements require consistent product/catalog tags.
+- Hidden achievements must not leak the current Daily product, answer key, or other secret challenge data.
+- Ensure achievement evaluation is idempotent and transactional with the qualifying event.
+- Preserve existing unlocks when migrating IDs or criteria.
+- Add tests for thresholds, repeated triggers, streak boundaries, timezone/date boundaries, and simultaneous unlocks.
+
+---
+
+## 7. Cosmetics
+
+Approved:
+- Preset avatar gallery; no image uploads.
+- Achievement rewards are cosmetic only.
+- No shop, coins, paid currency, or gameplay-affecting items.
+
+Pending:
+- Define the preset avatar catalog and stable IDs.
+- Define cosmetic types (avatar, frame, title, badge, theme, etc.) only where useful; do not expand scope without a reason.
+- Create inventory/unlock records and equip state.
+- Validate ownership and unlock eligibility on the server.
+- Define default cosmetic and fallback behavior if an item is retired.
+- Build gallery/equip UI and public display.
+- Test that users cannot equip an unowned item or spoof a cosmetic ID.
+
+---
+
+## 8. Public profiles, statistics, and activity
+
+### Profile
+Planned public, shareable profile should include only intentional public information, such as:
+- Username and preset avatar.
+- Level and XP progress.
+- Achievement showcase.
+- Selected cosmetic.
+- Selected gameplay statistics.
+- Public activity feed, according to the approved public-activity setting.
+
+Pending decisions/implementation:
+- Public profile route/URL format and not-found behavior.
+- Which statistics and activity events are public by default.
+- Whether users can hide individual activity event types (while profile remains public).
+- Username reserved words, normalization, and moderation rules.
+- Profile UI/editor and sharing metadata.
+
+### Statistics
+Potential statistics to design and validate:
+- Daily attempts/completions and streak.
+- Practice rounds completed.
+- Correct ingredients and accuracy.
+- Score totals/bests.
+- Product/category exploration, if catalog tags are reliable.
+
+Do not expose private answer data or other users' sensitive account data. Define denominators and time windows clearly so metrics are not misleading.
+
+### Activity
+- Public activity is approved.
+- Use a controlled allowlist of event types (e.g. level reached, achievement unlocked, selected challenge milestones).
+- Do not publish submitted guesses, answer keys, private session data, or detailed behavioral telemetry.
+- Make feed writes idempotent and paginate efficiently.
+
+---
+
+## 9. Implementation roadmap and gates
+
+Follow this order. Do not skip ahead and leave foundations inconsistent.
+
+### Phase 0 — Existing game and security hardening
+- [x] Remove public answer-key retrieval paths.
+- [x] Move Practice session selection and validation server-side.
+- [x] Add server-side Practice session ownership, expiry, unique-product, and duplicate-submit checks.
+- [x] Make Practice attempt persistence atomic.
+- [x] Remove answer key from Daily start response.
+- [x] Make Daily completion and related stats/unlocks transactional.
+- [x] Add profile username uniqueness and 30-day change cooldown foundation.
+- [ ] Complete real authenticated browser/API QA for Daily and Practice.
+- [ ] Re-run final security endpoint/RPC/grants audit.
+- [ ] Re-run Supabase Security Advisor and document expected/actionable warnings.
+
+**Gate:** do not treat hardening as fully QA-approved until real authenticated endpoint/browser tests pass.
+
+### Phase 1 — Profile foundation
+- [x] Unique case-insensitive username foundation.
+- [x] Profile creation trigger.
+- [x] Username cooldown enforcement.
+- [x] Avatar ID column foundation.
+- [ ] Reserved username enforcement.
+- [ ] Define preset avatar catalog.
+- [ ] Profile edit UI.
+- [ ] Public profile page and shareable URL.
+- [ ] Profile privacy/activity display behavior.
+
+### Phase 2 — XP and Levels
+- [ ] Confirm XP award values.
+- [ ] Finalize level names, thresholds, and post-level-10 curve.
+- [ ] Design XP ledger and idempotency keys.
+- [ ] Add transactional XP awards to Daily.
+- [ ] Add transactional XP awards to Practice.
+- [ ] Add once-only full-session bonus.
+- [ ] Add level calculation and level-up event.
+- [ ] Add UI for current level, progress bar, and level-up feedback.
+- [ ] Test duplicates, retries, concurrent events, partial Practice, and boundaries.
+
+### Phase 3 — Achievements
+- [ ] Audit existing 8 achievements and all consumers of `points`.
+- [ ] Finalize catalog and criteria (target proposal: 50; not yet final).
+- [ ] Define ES/EN text and stable IDs.
+- [ ] Define cosmetic reward mapping.
+- [ ] Implement/verify transactional idempotent unlock evaluation.
+- [ ] Preserve historical unlocks.
+- [ ] Add achievement list, detail, hidden achievement, and unlocked states.
+- [ ] Test every criterion and edge case.
+
+### Phase 4 — Cosmetics
+- [ ] Define preset avatar and cosmetic catalogs.
+- [ ] Implement inventory/unlocks/equipping schema.
+- [ ] Enforce ownership server-side.
+- [ ] Implement gallery and equip UI.
+- [ ] Show selected cosmetics on profiles.
+- [ ] Test unauthorized equip attempts and retired-item fallback.
+
+### Phase 5 — Public profiles, statistics, activity
+- [ ] Finalize public profile fields and route.
+- [ ] Implement public profile page and share/share-preview metadata.
+- [ ] Define and implement public statistics.
+- [ ] Define activity event allowlist and privacy behavior.
+- [ ] Implement feed creation, pagination, and UI.
+- [ ] Test public access boundaries and data minimization.
+
+### Phase 6 — Full QA, release readiness
+- [ ] Desktop browser regression: homepage, Daily, Practice, rankings, profile, achievements, cosmetics.
+- [ ] Mobile browser regression at supported viewport sizes.
+- [ ] Spanish and English copy/layout parity.
+- [ ] Light and dark theme contrast/readability.
+- [ ] No-scroll target on desktop homepage/Daily/Practice without cramped layout.
+- [ ] Test all scoring/combo/duplicate/skip/stop flows.
+- [ ] Test authentication, session expiry, replay, ownership, and rate limits.
+- [ ] Verify every product image loads (HTTP + browser visual check).
+- [ ] Check console errors, failed network requests, and accessibility basics.
+- [ ] Verify GitHub Pages deployment and cache-buster.
+- [ ] Final Supabase grants/RLS/RPC/Edge Function audit.
+- [ ] Document any accepted limitations and launch blockers.
+
+---
+
+## 10. Known game rules and scoring behavior
+
+- Round duration: 15 seconds.
+- Combo scoring: first correct ingredient = 100 points; second consecutive correct = 150; third consecutive correct = 150, for 400 total in that example.
+- Each consecutive correct after the first adds the combo bonus (+50).
+- An incorrect guess resets the combo.
+- A duplicate guess does not score and does not change the combo.
+- Practice Stop preserves the current round/result flow as implemented; do not regress this behavior.
+- Skip Product awards the configured skip behavior and must not duplicate skipped products.
+- Practice results should list products actually played, not unplayed products remaining in the session.
+- Daily product is global/shared; rankings are worldwide.
+- Practice archive/history is part of the intended experience.
+
+Before changing any scoring rule, inspect the current implementation and tests, then update this guide and the test expectations together.
+
+---
+
+## 11. Edge Functions and database objects — known inventory
+
+Known Edge Functions:
+- `start-practice` — authenticated; creates server-side Practice session.
+- `submit-practice` — authenticated; validates and records Practice result.
+- `practice-answer-key` — retired; returns 410.
+- `start-daily` — authenticated; creates Daily play session and returns safe challenge data only.
+- `submit-daily` — authenticated; submits Daily result through transaction.
+- `daily-challenge` — public safe challenge metadata only.
+- `practice-catalog` — public safe product metadata only.
+- `leaderboard` — public allowlisted ranking data.
+- `validate-ingredient` — retired; returns 410.
+
+Known important database objects:
+- `public.profiles`
+- `public.achievements`
+- `public.user_achievements`
+- `public.practice_play_sessions`
+- `public.practice_play_session_products`
+- `public.daily_play_sessions`
+- `public.daily_attempts`
+- `public.practice_attempts`
+- `private.daily_challenge_answers`
+- `private.product_answers`
+- RPCs `complete_practice_round(...)`, `complete_daily_attempt(...)`, and privileged answer-key retrieval RPCs.
+
+This is a known inventory from prior implementation work, not a substitute for re-inspecting the live project before migrations. Verify actual function versions, schema, grants, and deployed code before modifying anything.
+
+---
+
+## 12. Required workflow for every future work session
+
+At the beginning of each work session:
+1. Read this guide in full.
+2. Check the latest GitHub commits and current branch.
+3. Inspect the relevant frontend files, Edge Functions, schema, RPCs, and tests before editing.
+4. Compare live implementation with the status recorded here; correct stale status before proceeding.
+5. Identify the next unchecked task in the roadmap and its dependencies.
+6. State the exact scope and acceptance criteria before implementation.
+
+During implementation:
+1. Make the smallest coherent change; avoid unrelated UI/style changes.
+2. Keep secret data server-side.
+3. Use migrations for database changes and preserve rollback/safety considerations.
+4. Add or update tests with each behavior change.
+5. Verify actual deployment/version after deploying Edge Functions.
+6. Never claim a test passed unless it was actually run and its result inspected.
+
+At the end of each work session:
+1. Record files changed, migrations, function versions, commit SHA, and deployment status.
+2. Mark checklist items only when implementation and required verification are complete.
+3. Separate **implemented**, **deployed**, and **tested** states.
+4. Record known limitations, failed tests, and remaining blockers.
+5. Update the **Last updated** date.
+6. Commit this guide update to the public frontend repository in the same work session whenever project state changes.
+
+### Status vocabulary
+- **Implemented:** code/schema change exists.
+- **Deployed:** deployed to the intended environment.
+- **Tested:** the relevant test was actually executed and passed.
+- **Verified in browser:** the user-facing behavior was inspected in a real browser.
+- **Pending:** not done or evidence is missing.
+
+Never collapse these statuses into a single “done”.
+
+---
+
+## 13. Current next actions
+
+The next work should proceed in this order:
+
+1. **Confirm XP award values** (50 Daily / 10 per Practice product / +20 for a complete 10-product session). These are still proposals, not approved numbers.
+2. Finish the Phase 0/1 authenticated browser and API QA for Daily, Practice, and profile protections.
+3. Re-inspect live Supabase function versions, schema, grants, and transaction RPC definitions before writing XP migrations.
+4. Once XP values and thresholds are approved, implement Phase 2 with an idempotent ledger and transactional awards.
+5. Update this guide after every completed subtask and keep it as the navigation point for future sessions.
+
+---
+
+## 14. Change log
+
+- **2026-11-18:** Consolidated project decisions, catalog/security rules, Practice and Daily hardening, profile foundation, progression proposals, achievement/cosmetic design, roadmap, QA gates, and operating workflow into this master guide.
