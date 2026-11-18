@@ -333,7 +333,7 @@ async function completePracticeRound({skipped=false,stop=false}={}){
  const elapsed=Math.min(15000,rawElapsed);
  s.score+=score;s.correct+=correct;s.total+=total;s.completed++;
  if(skipped){s.skipped++;s.skippedProducts.push(name)}
- s.rounds.push({name,score,correct,total,skipped,error:null});
+ s.rounds.push({productId:product.id,name,score,correct,total,skipped,error:null});
  setText("score",String(s.score).padStart(3,"0"));
  if(skipped)status("feedback",t("productSkipped"));
  else status("feedback",correct+(lang==="es"?" ingredientes correctos":" correct ingredients"));
@@ -346,12 +346,22 @@ async function completePracticeRound({skipped=false,stop=false}={}){
   s.xpEarned+=Number(data.progression?.xp_awarded)||0;
   s.progression=data.progression||s.progression;
   s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];
-  if(Number(data.score)!==score||Number(data.correct_count)!==correct)console.warn("Practice local/server result mismatch; server result remains authoritative.",{local:{score,correct},server:{score:data.score,correct:data.correct_count}});
+  const savedRound=s.rounds.find(round=>round.productId===product.id);
+  if(savedRound){
+   savedRound.score=Number(data.score)||0;savedRound.correct=Number(data.correct_count)||0;
+   savedRound.total=Number(data.total_ingredients)||savedRound.total;
+  }
+  s.score=s.rounds.reduce((sum,round)=>sum+round.score,0);
+  s.correct=s.rounds.reduce((sum,round)=>sum+round.correct,0);
+  s.total=s.rounds.reduce((sum,round)=>sum+round.total,0);
   if(lastResult?.sessionRef===s){
+   lastResult.score=s.score;lastResult.correct_count=s.correct;lastResult.total_ingredients=s.total;
    lastResult.xpEarned=s.xpEarned;lastResult.progression=s.progression;lastResult.unlocked=s.unlocked;
-   renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();
+   setText("finalScore",String(s.score));setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");
+   setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");
+   renderPracticeScores(s.rounds);renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();
   }else if(practiceSession===s){
-   refreshPlayerProgression();
+   setText("score",String(s.score).padStart(3,"0"));refreshPlayerProgression();
   }
  });
  if(stop||s.index>=9){finishPracticeSession();return}
