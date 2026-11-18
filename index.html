@@ -605,12 +605,17 @@ body{
  #result .result-metric .metric-value{font-size:clamp(48px,15vw,62px)}
  #result .result-metric .metric-caption{font-size:10px}
 }
+
+/* The verification check belongs to the Ingredora wordmark, not a separate I icon. */
+.brand .brand-name{display:inline-flex!important;align-items:center;gap:5px}
+.brand .brand-check{display:inline-flex;align-items:center;justify-content:center;font:900 12px/1 "DM Sans",sans-serif;color:#276b45;transform:translateY(-1px)}
+:root[data-theme="dark"] .brand .brand-check{color:#d9fa68}
 </style>
 </head>
 <body>
 <div class="shell">
 <header class="top">
- <div class="brand"><span class="brand-mark" aria-hidden="true"><span>I</span><b>✓</b></span><span>Ingredora</span></div>
+ <div class="brand"><span class="brand-name">Ingredora<span class="brand-check" aria-hidden="true">✓</span></span></div>
  <div class="top-controls">
   <div class="account"><span id="accountLabel">GUEST</span><button id="authOpen">SIGN IN</button></div>
   <button class="theme-toggle" id="themeBtn" type="button" aria-label="Switch to light mode" title="Switch to light mode">☀️</button>
