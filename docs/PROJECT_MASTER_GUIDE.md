@@ -640,3 +640,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Migration `zero_late_skipped_practice_scores` updates `complete_practice_round`: a skipped submission arriving after 15,000 ms has score, correct count and combo forced to zero at the database layer.
 - `submit-practice` v18 applies the same rule to the response payload so the result screen matches the stored attempt.
 - Reversible RPC test passed for a late skipped product: stored score/correct count were zero; Stop Practice still closed the session; no rows persisted after rollback.
+
+## 17. Header simplificado y aplazamiento de Profile/Achievements — 2026-11-18
+
+- **IMPLEMENTED (frontend source):** el header ya no incluye el badge de nivel/XP.
+- **IMPLEMENTED (frontend source):** con sesión iniciada, el identificador visible del header es únicamente el username (`user_metadata.username`), no el email. El botón de sesión (SIGN IN / SIGN OUT) se conserva como acción independiente.
+- **VERIFIED (live DB):** los 5 perfiles existentes tienen `user_metadata.username` coincidente con `public.profiles.username`; no hace falta una consulta adicional ni modificar cuentas para mostrar el username actual.
+- **DECISIÓN DE PRODUCTO:** Profile, Achievements, Cosmetics y la experiencia de Levels/XP quedan preparados en backend, pero sus pantallas/experiencia completa de usuario se aplazan. No crear todavía páginas de perfil, editor de perfil, galería cosmética ni listado/detalle de logros.
+- **SCOPE DE ESTE CAMBIO:** solo se simplifica la identidad del header. No se alteran datos, tablas, RPCs, Edge Functions, XP acumulado, niveles calculados ni unlocks existentes.
+- **QA:** código actualizado en `index.html` y `app.js`; pendiente verificar visualmente el header en navegador después del despliegue de GitHub Pages.
