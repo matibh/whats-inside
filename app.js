@@ -163,8 +163,8 @@ async function preparePracticeSession({quiet=false}={}){
 function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
 function setProduct(p){selectedProduct=p;setText("productName",p.name_i18n?.[lang]||p.name);setText("productDesc",p.description_i18n?.[lang]||"");setText("productLabel",p.brand||t("mysteryProduct"));const img=$("productImage");if(p.image_url){img.onerror=null;img.src=p.image_url;img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.onerror=()=>{img.style.display="none";$("productPlaceholder").style.display=""}}else{img.style.display="none";$("productPlaceholder").style.display=""}}
-function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
-let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;let practiceImageCache={};
+function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{remaining=Math.max(0,15-Math.floor((Date.now()-startedAt)/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining<=0)finishGame()},100)}
+let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=null;let practicePreparing=false;let practiceImageCache={};
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
 function applyGuessFeedback(matchedAnswers=[],rejectedAnswers=[]){
  const matched=new Set(matchedAnswers.map(normalizeGuess)),rejected=new Set(rejectedAnswers.map(normalizeGuess));
@@ -183,7 +183,32 @@ function addGuess(raw){
  const norm=normalizeGuess(value);if(!norm||guesses.some(x=>normalizeGuess(x)===norm))return;
  guesses.push(value);
  const chip=document.createElement("span");chip.className="chip";chip.textContent=value;$("chips").append(chip);
- setText("feedback",lang==="es"?"Respuesta registrada; se valida al terminar.":"Answer recorded; it will be checked at the end.");$("feedback").classList.remove("bad");
+ const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
+ validationQueue=validationQueue.then(async()=>{
+  if(!gameActive)return;
+  try{
+   const data=await call("validate-ingredient",{method:"POST",body:{mode,session_id:mode==="daily"?window.dailySessionId:practiceSession?.id,product_id:mode==="practice"?selectedProduct?.id:undefined,answers}});
+   if(!gameActive||sequence!==validationSequence)return;
+   applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
+   const isCorrect=(data.matched_answers||[]).some(x=>normalizeGuess(x)===normalizeGuess(latest));
+   const previousScore=roundScore;roundScore=Number(data.score)||0;
+   setText("foundCount",String(data.correct_count||0));
+   setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
+   if(isCorrect){
+    const gained=Math.max(0,roundScore-previousScore);
+    setText("feedback",lang==="es"?"¡Correcto! +"+gained+" puntos":"Correct! +"+gained+" points");
+    $("feedback").classList.remove("bad");
+   }else{
+    setText("feedback",t("incorrectFeedback"));
+    $("feedback").classList.add("bad");
+   }
+  }catch(error){
+   if(gameActive&&sequence===validationSequence){
+    setText("feedback",error.message||t("wrong"));
+    $("feedback").classList.add("bad");
+   }
+  }
+ });
 }
 $("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
 $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
