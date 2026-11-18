@@ -765,3 +765,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - IMPLEMENTADO (frontend source): End Practice / Stop Practice tampoco espera esas peticiones cuando se pulsa dentro de los 15 segundos. Si se pulsa después del límite, conserva la espera por snapshots ya aceptados por el servidor, necesaria para recuperar únicamente respuestas validadas antes del deadline. No se añadió ningún retraso artificial ni se cambió el temporizador.
 - VALIDACIÓN DE SOURCE: el archivo completo app.js parsea correctamente con new Function tras retirar su import ESM superior. Cache buster actualizado a app.js?v=local-practice-hashes-20261118d.
 - PENDING: GitHub Pages deployment y browser QA real de Skip Product / Stop Practice. No afirmar que el comportamiento visual o la latencia real ya fueron verificados.
+
+
+### Copy de Practice visible desde el primer render — 2026-11-18
+
+- IMPLEMENTADO (frontend source): el texto `Ten random products · 15 seconds each.` aparece en el HTML inicial, sin esperar autenticación, catálogo, hashes ni precarga de imágenes.
+- IMPLEMENTADO (frontend source): al cambiar idioma, el status muestra inmediatamente la traducción de `practiceReady`, siempre que no haya un error real que deba permanecer visible.
+- IMPLEMENTADO (frontend source): la carga del catálogo y la preparación de hashes ya no limpian ni reemplazan ese texto por un estado de carga. El botón y la preparación mantienen su comportamiento existente.
+- VALIDACIÓN DE SOURCE: `app.js` completo parseado correctamente con `new Function` tras retirar el import ESM superior. Cache buster actualizado a `local-practice-hashes-20261118e`.
+- PENDING: GitHub Pages deployment y browser QA visual.
