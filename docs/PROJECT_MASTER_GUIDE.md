@@ -143,7 +143,7 @@ Implemented backend foundation:
 - RLS enabled; direct `anon` and `authenticated` table privileges revoked; `service_role` retains access.
 - Session expiry: 30 minutes.
 - 10 unique products per session.
-- Rate limit: 3 sessions per user per 10 minutes.
+- **Removed 2026-11-18 at the user's request:** the 3-sessions-per-10-minutes start throttle. No replacement throttle is currently configured.
 - `start-practice` requires a JWT/user, validates the 10 unique ready product IDs supplied by the frontend, checks Daily reservations, creates a session and records product order/timing. The frontend still chooses the candidate set; independent server-side random selection remains pending.
 - `submit-practice` requires authentication, checks session ownership and expiry, verifies product membership, prevents duplicate submissions, obtains the answer key server-side, and calculates the result on the backend.
 - `complete_practice_round(uuid,uuid,text,text,integer,integer,integer,integer)` atomically marks the session product submitted and inserts the attempt. If insertion fails, the transaction rolls back.
@@ -693,9 +693,9 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **DEPLOYED (Supabase Edge Function):** `submit-practice` v21 recovers the last server-accepted cumulative answer list if the final submit request arrives after 15 seconds. It does not accept guesses that were not validated by the server before the deadline. The completion RPC verifies that the answer-check snapshot was timestamped at or before the round deadline.
 - **DEPLOYED (Supabase SQL):** `public.get_practice_answer_snapshot` is service-role-only and reads the append-only validated guess snapshot for the current user's active Practice round.
 - **DEPLOYED (Supabase SQL):** `public.complete_practice_round` permits delayed transport of the final submit only when the saved answer-check snapshot is timely. It still does not permit a late answer check or grant extra play time.
-- **IMPLEMENTED (frontend source):** Practice waits for any validation request already queued before submitting the final round. A queued request still has to pass the server's hard deadline; the client does not extend the timer.
-- **IMPLEMENTED (frontend source):** Practice image preparation now awaits actual image loading and selects only products whose image successfully loads. This prevents a non-resolving image URL from entering the next Practice session.
-- **IMPLEMENTED (frontend CSS):** removed the duplicate CSS pseudo-element ✓/✕ marks; JavaScript now renders a single check or cross per guess.
+- **IMPLEMENTED (frontend source, commit `f546d2593e9f2b1d7259f96b16d12c03231e95d3`):** Practice waits for any validation request already queued before submitting the final round. A queued request still has to pass the server's hard deadline; the client does not extend the timer.
+- **IMPLEMENTED (frontend source, commit `f546d2593e9f2b1d7259f96b16d12c03231e95d3`):** Practice image preparation now awaits actual image loading and selects only products whose image successfully loads. This prevents a non-resolving image URL from entering the next Practice session.
+- **IMPLEMENTED (frontend CSS, commit `40ce7c477c474beba00a6b95d680f616eabfff65`):** removed the duplicate CSS pseudo-element ✓/✕ marks; JavaScript now renders a single check or cross per guess.
 - **DEPLOYED (Supabase Edge Function):** `start-practice` v4 removes the 3-sessions-per-10-minutes throttle as explicitly requested. Authentication, 10 unique ready products, Daily reservation checks and session expiry remain.
 - **CACHE BUSTER:** `index.html` now loads `app.js?v=instant-answer-feedback-20261118e`.
 - **SECURITY:** verified EXECUTE privileges for `validate_game_answer_check`, `get_practice_answer_snapshot`, `complete_practice_round` and `consume_game_answer_check`: anon=false, authenticated=false, service_role=true.
