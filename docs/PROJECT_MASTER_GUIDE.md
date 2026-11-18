@@ -749,3 +749,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **NOT YET VERIFIED:** GitHub Pages deployment, browser load, and Practice interaction must be checked after deployment. Do not mark browser QA complete based on this source correction alone.
 
 - **CACHE BUSTER:** updated the script URL to `app.js?v=local-practice-hashes-20261118b` so browsers do not keep the broken cached script.
+
+
+### Second Practice JavaScript syntax regression — 2026-11-18
+
+- **ROOT CAUSE:** two more stray double quotes remained in `preparePracticeSession()` and `finishPracticeSession()`, both in calls to `status(..., t("practiceReady"))`. The browser reported `missing ) after argument list` at line 169; the second malformed call was also corrected before it could surface.
+- **FIXED (frontend source):** removed both extra quotes without changing Practice logic.
+- **CACHE BUSTER:** `app.js?v=local-practice-hashes-20261118c` in `index.html` forces clients to fetch the corrected script.
+- **NOT YET VERIFIED:** GitHub Pages deployment and browser loading/Practice interaction remain pending.
