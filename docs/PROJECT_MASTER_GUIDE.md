@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18  
+> **Last updated:** 2026-11-18 (live audit refresh)  
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -525,3 +525,60 @@ The next work should proceed in this order:
 ## 14. Change log
 
 - **2026-11-18:** Consolidated project decisions, catalog/security rules, Practice and Daily hardening, profile foundation, progression proposals, achievement/cosmetic design, roadmap, QA gates, and operating workflow into this master guide.
+
+## 15. Live audit refresh — 2026-11-18
+
+### Important correction to earlier status
+Work continued after the first guide commit. XP, achievements and cosmetics are no longer merely planned: their database foundation and several Edge Functions are already deployed. Do not recreate these systems.
+
+### Repository
+- Latest frontend commits include 41a9633 (XP/level display), 160cb49 (localization), 3969483 (total XP badge), 784e080 (cache refresh), e178345 and 3eca0e0 (achievement unlock result notifications).
+- app.js uses authenticated Edge Functions for progression and achievements. Code inspection is not browser QA.
+
+### Supabase live inventory
+- start-practice v2 (JWT), submit-practice v15 (JWT), start-daily v4 (JWT), submit-daily v10 (JWT).
+- get-player-progression v2, get-player-achievements v1, get-player-cosmetics v1, equip-player-cosmetic v1 (all JWT required).
+- practice-catalog v1, daily-challenge v7 and leaderboard v2 are public read endpoints with safe/allowlisted data.
+- practice-answer-key v3 and validate-ingredient v3 are still marked ACTIVE in deployment metadata, but source code returns HTTP 410.
+- reset-daily-test v5 is deployed and must be inspected/removed or strongly restricted before public launch.
+- Database snapshot: 5 profiles, 74 Practice attempts, 5 Daily attempts, 79 XP ledger events, 50 achievements, 19 achievement unlocks, 30 cosmetic definitions, 33 user cosmetic inventory rows, 10 level definitions.
+
+### XP and levels — implemented, QA pending
+- Daily completion awards 50 XP in complete_daily_attempt, inside the same transaction as the attempt and stats.
+- Each non-skipped Practice product awards 10 XP in complete_practice_round.
+- The +20 XP Practice session bonus is awarded only when all 10 products are submitted and none was skipped.
+- XP ledger uniqueness is (user_id,event_type,source_id), preventing duplicate awards for the same source event.
+- Snapshot: 5 Daily ledger events at 50 XP and 74 Practice product events at 10 XP; no full-session bonus event existed at audit time.
+- Thresholds 0, 100, 250, 500, 850, 1300, 1850, 2500, 3300 and 4300 are seeded in private.level_definitions.
+- Post-level-10 curve exists in both private.calculate_player_level and get-player-progression v2. Add automated boundary tests to prevent formula drift.
+- Frontend displays XP rewards and a level/total-XP badge. Visual browser QA remains pending.
+
+### Achievements and cosmetics — implemented foundation, QA pending
+- Deployed catalog contains 50 achievements with categories, tiers, localized names/descriptions, criteria and cosmetic reward IDs.
+- private.user_achievement_progress stores progress; private.evaluate_player_achievements performs idempotent unlock evaluation and awards linked cosmetics transactionally.
+- 30 active cosmetic definitions exist across avatar, frame, background, title and effect types; 33 user inventory rows existed at audit time.
+- Authenticated get/equip Edge Functions use private RPCs; equip RPC checks ownership and active status before updating the profile cosmetic slot.
+- Achievement result notifications were added in frontend commits e178345 and 3eca0e0.
+- Still pending: audit all 50 metric definitions, legacy unlock preservation, actual shipped asset mappings, default inventory provisioning, and browser QA.
+
+### Security remediation performed
+- Audit found anon and authenticated had broad table privileges on several public tables, including INSERT/UPDATE/DELETE/TRUNCATE/REFERENCES/TRIGGER. RLS alone does not neutralize TRUNCATE.
+- Applied migration revoke_public_client_table_write_privileges: revoked INSERT, UPDATE, DELETE, TRUNCATE, REFERENCES and TRIGGER on all existing public tables from anon and authenticated; granted only column-level UPDATE on profiles.username to authenticated.
+- Post-migration verification confirmed no public table permits anon/authenticated INSERT, DELETE, TRUNCATE or table-level UPDATE. Authenticated can update profiles.username only; avatar columns are not directly updatable. Existing SELECT privileges remain governed by RLS.
+- Attempt to alter default privileges failed due insufficient privilege and was not applied. Future public tables must have their grants explicitly audited in each migration; do not assume default privileges were changed.
+- Security Advisor after remediation: 10 INFO RLS-enabled/no-policy findings (private/service-role-only and session tables intentionally deny direct access) and one WARN for leaked-password protection disabled. Current Supabase Free plan does not support enabling that feature; Pro is required.
+- Performance Advisor: 5 unindexed foreign keys and 2 unused indexes. Review after functional QA; do not drop indexes based only on low current traffic.
+
+### Open logic and QA findings
+- submit-daily v10 does not reject a submission after 15 seconds; it caps stored elapsed_ms at 15,000. Practice elapsed time is client-supplied and clamped. If 15 seconds is a hard competitive limit, enforce it server-side.
+- start-practice v2 validates ten IDs sent by the frontend but does not independently choose/randomize the product set server-side.
+- Authenticated end-to-end Daily/Practice browser and API tests were not performed during this audit.
+- Review reset-daily-test v5 before public launch.
+
+### Next actions
+1. Inspect reset-daily-test v5 and remove/restrict it safely.
+2. Complete authenticated API/browser QA for Daily and Practice, including duplicate/replay, expiry, ownership, skip, 10/10 bonus, and XP idempotency.
+3. Enforce the 15-second rule server-side if required by the competitive game design.
+4. Audit all 50 achievement metrics and all 30 cosmetic asset mappings/default inventory behavior.
+5. Review public SELECT policies and column exposure; preserve the least-privilege write grants established by the remediation migration.
+6. Continue profile UI/reserved username work; do not rebuild XP, achievements or cosmetic database foundations.
