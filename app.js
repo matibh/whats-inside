@@ -129,7 +129,7 @@ async function loadCatalog(){
   const data=await call("practice-catalog");catalog=data.products||[];
   if(catalog.length<10)throw new Error(lang==="es"?"No hay suficientes productos disponibles.":"Not enough products available.");
   await preparePracticeSession();
- }catch(e){status("practiceStatus",e.message,true);$("practiceStart").disabled=true}
+ }catch(e){status("practiceStatus",e.message,true);$("practiceStart").disabled=false}
 }
 function preloadPracticeImage(url,timeoutMs=12000){
  return new Promise(resolve=>{
@@ -168,7 +168,7 @@ async function preparePracticeSession({quiet=false}={}){
   products.forEach(product=>{preloadPracticeImage(product.image_url,12000).then(image=>{if(image)images[product.id]=image})});
   if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady")");$("practiceStart").disabled=false}
  }catch(e){
-  if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=true}
+  if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=false}
  }finally{practicePreparing=false}
 }
 function renderProducts(){}
