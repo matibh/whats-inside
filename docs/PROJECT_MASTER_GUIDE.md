@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (live product language switching)
+> **Last updated:** 2026-11-18 (Ingredora social media strategy)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -543,6 +543,7 @@ The next work should proceed in this order:
 ## 14. Change log
 
 - **2026-11-18:** Consolidated project decisions, catalog/security rules, Practice and Daily hardening, profile foundation, progression proposals, achievement/cosmetic design, roadmap, QA gates, and operating workflow into this master guide.
+- **2026-11-18:** Added the dedicated social media and growth strategy document, based on current platform guidance and audience research.
 
 ## 15. Live audit refresh — 2026-11-18
 
@@ -839,3 +840,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **DATA CONFIRMED:** the Pepas Trio record already contains both `description_i18n.en` and `description_i18n.es`; the server's `practice-catalog` v2 selects `description_i18n`. No database or Edge Function change was needed.
 - **COMMITS:** app.js `939f1645ed561c87b64a24d63a812a18dd6d9123`; index.html cache-buster commit `30c8b44e7bd125ea12ff26908c495aab8c47c806`. New cache-buster: `app.js?v=live-product-language-switch-20261118a`.
 - **QA STATUS:** source change and live catalog field availability confirmed. Browser interaction and visual QA have not yet been performed; do not claim they have passed.
+
+
+## 19. Social media content and growth strategy — 2026-11-18
+
+- **DOCUMENT CREATED:** [INGREDORA_SOCIAL_MEDIA_GROWTH_STRATEGY.md](INGREDORA_SOCIAL_MEDIA_GROWTH_STRATEGY.md) contains the strategic playbook for YouTube, TikTok, Instagram, X and Facebook.
+- **SCOPE:** audience research, current platform guidance, positioning, five platform-specific strategies, 100 content concepts (20 per platform), 50 bilingual hooks, tone and editorial rules, EN/ES approach, production workflow, 30-day calendar, acquisition funnel, measurement framework, 15 fully developed post examples and 90-day execution plan.
+- **RESEARCH SNAPSHOT:** compiled on 2026-11-18. Includes DataReportal Digital 2027: Argentina (late-2026 figures available at publication) plus official platform guidance from YouTube, TikTok, Meta/Instagram/Facebook and X. Source links and caveats are included in the strategy document.
+- **PRODUCT ACCURACY:** the document distinguishes current public gameplay from deferred Profile/Achievements/Cosmetics UI. It instructs social content not to expose private catalog answer keys or imply unavailable features.
+- **STATUS:** documentation only. No application code, database schema, Supabase function, catalog data, gameplay rules or user records were modified. The calendar begins 2026-11-19 and is a proposed schedule, not a published content plan.
