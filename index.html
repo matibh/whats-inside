@@ -557,6 +557,32 @@ body{
  text-shadow:0 1px 0 #000;
 }
 
+
+/* Practice actions use the same theme-specific colors as Start Practice. */
+#practiceSkip,#practiceStop{
+ background:#d9fa68;
+ color:#17271c;
+ border-color:#b8d94d;
+ box-shadow:0 4px 0 #b8d94d,0 8px 18px rgba(133,164,48,.12);
+}
+#practiceSkip:hover,#practiceStop:hover{
+ background:#e3ff83;
+ color:#17271c;
+ border-color:#b8d94d;
+}
+:root[data-theme="dark"] #practiceSkip,
+:root[data-theme="dark"] #practiceStop{
+ background:#d7f36a;
+ color:#172014;
+ border-color:#b6d24e;
+ box-shadow:0 3px 0 #9bb944;
+}
+:root[data-theme="dark"] #practiceSkip:hover,
+:root[data-theme="dark"] #practiceStop:hover{
+ background:#e3ff83;
+ color:#172014;
+}
+
 </style>
 </head>
 <body>
