@@ -241,6 +241,6 @@ function typeIngredoraWordmark(){
  window.setTimeout(typeNext,350);
 }
 typeIngredoraWordmark();
-$("themeBtn").onclick=toggleTheme;$("rankingScope").value="today";$("langBtn").onclick=()=>{lang=lang==="en"?"es":"en";setText("langBtn",lang==="en"?"ES":"EN");updateLanguage()};
+$("themeBtn").onclick=toggleTheme;$("rankingScope").value="today";$("langBtn").onclick=()=>{lang=lang==="en"?"es":"en";setText("langBtn",lang==="en"?"ES":"EN");updateLanguage();refreshPlayerProgression();refreshResultLanguage()};
 supabase.auth.onAuthStateChange((_event,newSession)=>{session=newSession;updateAccount();refreshPlayerProgression();checkDaily()});
 (async()=>{setMode("daily");const {data}=await supabase.auth.getSession();session=data.session;updateAccount();setText("langBtn","ES");updateLanguage();await Promise.all([checkDaily(),loadCatalog(),refreshPlayerProgression()]);})();
