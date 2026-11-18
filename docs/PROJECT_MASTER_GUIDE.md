@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (strict timers and grouped Explorer categories)  
+> **Last updated:** 2026-11-18 (Practice non-blocking local-first flow)  
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -774,3 +774,16 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - IMPLEMENTADO (frontend source): la carga del catálogo y la preparación de hashes ya no limpian ni reemplazan ese texto por un estado de carga. El botón y la preparación mantienen su comportamiento existente.
 - VALIDACIÓN DE SOURCE: `app.js` completo parseado correctamente con `new Function` tras retirar el import ESM superior. Cache buster actualizado a `local-practice-hashes-20261118e`.
 - PENDING: GitHub Pages deployment y browser QA visual.
+
+
+## 4.7 Practice — non-blocking local-first interaction (implementation in progress)
+
+- Practice gameplay UI advances locally: product start, feedback, score, Skip, Stop, timer expiry, and the final result do not await Supabase responses.
+- Practice start creates the server session asynchronously. Local answer-hash validation continues while that request is pending.
+- Practice answer snapshots and round submissions are serialized through a background promise queue so snapshots for a round precede its completion, and a completion precedes snapshots for the next product.
+- Server-side scoring, answer-key evaluation, XP ledger writes, achievements, and session completion remain authoritative. The client displays provisional local score/results immediately and reconciles XP/achievement UI after server responses.
+- The browser's 15-second timer remains local. The server still enforces its own 15-second deadline from the timestamp it records for each round. Because the next local round starts before the previous completion response returns, server-side round timestamps can trail the visual start by request/processing latency; this is not an exact shared clock. Do not describe the two clocks as perfectly synchronized.
+- Background sync retries transient network/5xx/429 failures up to four attempts. This implementation does not yet provide a durable IndexedDB outbox across tab closure; a closed tab or persistent outage can leave Practice results unsynced.
+- Daily code and Daily submission flow are unchanged.
+- **Implemented in source:** frontend app.js non-blocking Practice flow; cache-buster updated in index.html.
+- **Not yet deployed/verified:** GitHub Pages deployment, parser/integration tests, and browser QA. Do not mark Practice release-ready until these checks pass.
