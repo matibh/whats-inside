@@ -740,3 +740,10 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **IMPLEMENTED (frontend source):** the Practice start button is never disabled during catalog/hash/image preparation or on preparation errors. Clicking it before preparation finishes waits for the preparation promise's current work rather than immediately failing.
 - **IMPLEMENTED (frontend source):** removed the parenthesized catalog-size suffix from the Practice ready label. The previously visible `(201)` was `catalog.length`, i.e. the number of products returned in the Practice catalog, not the number of products in the session or a game level.
 - **NOT YET VERIFIED:** GitHub Pages deployment and browser interaction after this correction remain pending.
+
+
+### JavaScript syntax regression — 2026-11-18
+
+- **ROOT CAUSE:** a stray double quote after `t("practiceReady")` in `updateLanguage()` caused `Uncaught SyntaxError: Unexpected string` at app.js line 88. This prevented the entire frontend script from parsing.
+- **FIXED (frontend source):** removed the extra quote; no other behavior was intentionally changed.
+- **NOT YET VERIFIED:** GitHub Pages deployment, browser load, and Practice interaction must be checked after deployment. Do not mark browser QA complete based on this source correction alone.
