@@ -778,7 +778,7 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 
 ## 4.7 Practice — non-blocking local-first interaction (implementation in progress)
 
-- Practice gameplay UI advances locally: product start, feedback, score, Skip, Stop, timer expiry, and the final result do not await Supabase responses.
+- Practice gameplay UI advances locally: product start, feedback, score, Skip, Stop, timer expiry, and the final result do not await Supabase responses. Early skips preserve locally earned points; skips after the 15-second deadline score zero.
 - Practice start creates the server session asynchronously. Local answer-hash validation continues while that request is pending.
 - Practice answer snapshots and round submissions are serialized through a background promise queue so snapshots for a round precede its completion, and a completion precedes snapshots for the next product.
 - Server-side scoring, answer-key evaluation, XP ledger writes, achievements, and session completion remain authoritative. The client displays provisional local score/results immediately and reconciles XP/achievement UI after server responses.
