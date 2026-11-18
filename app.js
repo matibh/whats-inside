@@ -85,7 +85,7 @@ function updateLanguage(){
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
  $("rankingScope").options[0].textContent=t("rankTodayOption");$("rankingScope").options[1].textContent=t("rankAllOption");
  if(!$("rankingList").children.length)$("rankingList").textContent=t("rankingLoading");
- const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady")+" ("+catalog.length+")":t("practiceLoading");
+ const empty=$("emptyGuessText");if(empty)empty.textContent=t("emptyGuesses");if($("practiceStatus")&&!practicePreparing)$("practiceStatus").textContent=practicePrepared?t("practiceReady")":t("practiceLoading");
  applyTheme(document.documentElement.dataset.theme==="dark"?"dark":"light");
  if(challenge)renderChallenge();
  refreshResultLanguage();
@@ -125,7 +125,7 @@ async function checkDaily(){
 async function loadCatalog(){
  try{
   status("practiceStatus","");
-  $("practiceStart").disabled=true;
+  $("practiceStart").disabled=false;
   const data=await call("practice-catalog");catalog=data.products||[];
   if(catalog.length<10)throw new Error(lang==="es"?"No hay suficientes productos disponibles.":"Not enough products available.");
   await preparePracticeSession();
@@ -150,7 +150,7 @@ async function hashPracticeGuess(value,salt){
 async function preparePracticeSession({quiet=false}={}){
  if(practicePreparing||practicePrepared||!catalog.length)return;
  practicePreparing=true;
- if(!quiet){$("practiceStart").disabled=true;status("practiceStatus","")}
+ if(!quiet){$("practiceStart").disabled=false;status("practiceStatus","")}
  try{
   const pool=catalog.filter(p=>typeof p.image_url==="string"&&p.image_url.trim()&&!/image-not-available|placeholder/i.test(p.image_url));
   for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
@@ -166,7 +166,7 @@ async function preparePracticeSession({quiet=false}={}){
   const images={};
   practicePrepared={products,images,answerKeys};
   products.forEach(product=>{preloadPracticeImage(product.image_url,12000).then(image=>{if(image)images[product.id]=image})});
-  if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");$("practiceStart").disabled=false}
+  if(!quiet||(!practiceSession&&!gameActive)){status("practiceStatus",t("practiceReady")");$("practiceStart").disabled=false}
  }catch(e){
   if(!quiet){status("practiceStatus",(lang==="es"?"No se pudo preparar Practice: ":"Could not prepare Practice: ")+e.message,true);$("practiceStart").disabled=true}
  }finally{practicePreparing=false}
@@ -276,9 +276,13 @@ async function startDaily(){
 }
 async function startPractice(){
  if(!session){openAuth();return}
- if(!practicePrepared){status("practiceStatus",t("practicePreparing"));$("practiceStart").disabled=true;return}
+ if(!practicePrepared){
+  if(!practicePreparing) await preparePracticeSession();
+  while(practicePreparing) await new Promise(resolve=>setTimeout(resolve,50));
+  if(!practicePrepared){status("practiceStatus",t("practicePreparing"));return}
+ }
  const prepared=practicePrepared;practicePrepared=null;
- $("practiceStart").disabled=true;
+ $("practiceStart").disabled=false;
  status("practiceStatus",lang==="es"?"Iniciando sesión segura…":"Starting secure session…");
  try{
   const serverSession=await call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
@@ -307,7 +311,7 @@ function startPracticeRound(serverStartedAt){
 }
 async function completePracticeRound({skipped=false,stop=false}={}){const product=selectedProduct,s=practiceSession;if(!s)return;const name=product.name_i18n?.[lang]||product.name;if(skipped){let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),skipped:true,stop_after:stop}})}catch(e){if(practiceSession!==s)return;gameActive=true;$("ingredientInput").disabled=true;$("practiceSkip").disabled=false;status("feedback",(lang==="es"?"No se pudo saltar este producto: ":"Could not skip this product: ")+e.message+(lang==="es"?" · Volvé a tocar Saltar producto para reintentar.":" · Press Skip product again to retry."),true);return}if(practiceSession!==s)return;const score=Number(data.score)||0,correct=Number(data.correct_count)||0,total=Number(data.total_ingredients)||0;s.xpEarned+=Number(data.progression?.xp_awarded)||0;s.progression=data.progression||s.progression;s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(correct));s.score+=score;s.correct+=correct;s.total+=total;s.completed++;s.skipped++;s.skippedProducts.push(name);s.rounds.push({name,score,correct,total,skipped:true,error:null});setText("score",String(s.score).padStart(3,"0"));status("feedback",t("productSkipped")+" · "+correct+(lang==="es"?" correctos · +":" correct · +")+score+" pts");if(stop||s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound(data.next_round_started_at);return}let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt),stop_after:stop}})}catch(e){if(practiceSession!==s)return;gameActive=true;$("ingredientInput").disabled=true;$("practiceSkip").disabled=false;status("feedback",(lang==="es"?"No se pudo guardar esta ronda: ":"Could not save this round: ")+e.message+(lang==="es"?" · Podés reintentar Saltar producto para continuar.":" · You can retry Skip product to continue."),true);return}if(practiceSession!==s)return;s.xpEarned+=Number(data.progression?.xp_awarded)||0;s.progression=data.progression||s.progression;s.unlocked=[...new Set([...s.unlocked,...(data.unlocked||[])])];applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);setText("foundCount",String(data.correct_count||0));status("feedback",data.correct_count+(lang==="es"?" ingredientes correctos de ":" correct ingredients out of ")+data.total_ingredients);s.score+=Number(data.score)||0;s.correct+=Number(data.correct_count)||0;s.total+=Number(data.total_ingredients)||0;s.completed++;s.rounds.push({name,score:Number(data.score)||0,correct:Number(data.correct_count)||0,total:Number(data.total_ingredients)||0,skipped:false,error:null});setText("score",String(s.score).padStart(3,"0"));if(stop){finishPracticeSession();return}if(practiceSession!==s)return;if(s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound(data.next_round_started_at)}
 function stopPracticeImmediately(){if(!practiceSession)return;finishGame({stop:true})}
-function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true,xpEarned:s.xpEarned,progression:s.progression,unlocked:s.unlocked};renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");}}
+function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true,xpEarned:s.xpEarned,progression:s.progression,unlocked:s.unlocked};renderXpReward(s.xpEarned,s.progression?.level);renderAchievementUnlocks(s.unlocked);refreshPlayerProgression();if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady")");}}
 function openAuth(){show("authModal",true);$("authModal").classList.add("open");status("authStatus","")}
 function closeAuth(){$("authModal").classList.remove("open");show("authModal",false)}
 let authMode="signin";function setAuthMode(next){authMode=next;const signup=next==="signup";setText("authTitle",signup?t("signupTitle"):t("signinTitle"));setText("authSubmit",signup?t("signupSubmit"):t("submit"));setText("authMode",signup?t("signinSwitch"):t("create"));setText("authHint",signup?t("signupHint"):t("signinHint"));show("usernameLabel",signup)}
