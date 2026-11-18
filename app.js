@@ -105,7 +105,7 @@ async function checkDaily(){
    renderChallenge();
    if(challenge.image_url){
     dailyImageLoading=true;
-    const image=await preloadPracticeImage(challenge.image_url);
+    let image=null;for(const imageUrl of [challenge.image_url,challenge.fallback_image_url].filter((url,index,all)=>typeof url==="string"&&url.trim()&&all.indexOf(url)===index)){image=await preloadPracticeImage(imageUrl);if(image)break}
     dailyImageLoading=false;dailyImageObject=image;dailyImageReady=!!image;
     renderChallenge();
    }else{dailyImageLoading=false;dailyImageReady=false;status("dailyStatus",t("imageMissing"),true);$("dailyStart").disabled=true}
@@ -311,7 +311,7 @@ async function startDaily(){
   window.dailySessionId=data.session_id;currentAnswerKey=[];
   challenge=data.challenge||challenge;
   mode="daily";
-  setProduct({name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:challenge.image_url,brand:challenge.market});
+  setProduct({name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
   startGame(new Date(data.started_at).getTime())
  }catch(e){status("dailyStatus",e.message,true);$("dailyStart").disabled=false}
 }
