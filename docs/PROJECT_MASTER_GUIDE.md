@@ -747,3 +747,5 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **ROOT CAUSE:** a stray double quote after `t("practiceReady")` in `updateLanguage()` caused `Uncaught SyntaxError: Unexpected string` at app.js line 88. This prevented the entire frontend script from parsing.
 - **FIXED (frontend source):** removed the extra quote; no other behavior was intentionally changed.
 - **NOT YET VERIFIED:** GitHub Pages deployment, browser load, and Practice interaction must be checked after deployment. Do not mark browser QA complete based on this source correction alone.
+
+- **CACHE BUSTER:** updated the script URL to `app.js?v=local-practice-hashes-20261118b` so browsers do not keep the broken cached script.
