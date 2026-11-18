@@ -163,18 +163,27 @@ async function startDaily(){
   startGame(Date.now())
  }catch(e){status("dailyStatus",e.message,true);$("dailyStart").disabled=false}
 }
-function startPractice(){
+async function startPractice(){
  if(!session){openAuth();return}
  if(!practicePrepared){status("practiceStatus",t("practicePreparing"));$("practiceStart").disabled=true;return}
-
  const prepared=practicePrepared;practicePrepared=null;
- practiceAnswerKeys={};practiceImageCache=prepared.images||{};
- practiceSession={products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,skippedProducts:[],rounds:[]};
- setPracticeNavigationLock(true);
- mode="practice";$("practiceStart").disabled=true;
- status("practiceStatus",t("practiceReady"));
- startPracticeRound();
- preparePracticeSession({quiet:true});
+ $("practiceStart").disabled=true;
+ status("practiceStatus",lang==="es"?"Iniciando sesión segura…":"Starting secure session…");
+ try{
+  const serverSession=await call("start-practice",{method:"POST",body:{product_ids:prepared.products.map(p=>p.id)}});
+  if(!serverSession.session_id)throw new Error(lang==="es"?"No se pudo iniciar la sesión.":"Could not start the session.");
+  practiceAnswerKeys={};practiceImageCache=prepared.images||{};
+  practiceSession={id:serverSession.session_id,products:prepared.products,index:0,score:0,correct:0,total:0,completed:0,skipped:0,skippedProducts:[],rounds:[]};
+  setPracticeNavigationLock(true);
+  mode="practice";
+  status("practiceStatus",t("practiceReady"));
+  startPracticeRound();
+  preparePracticeSession({quiet:true});
+ }catch(e){
+  practicePrepared=prepared;
+  $("practiceStart").disabled=false;
+  status("practiceStatus",(lang==="es"?"No se pudo iniciar Practice: ":"Could not start Practice: ")+e.message,true);
+ }
 }
 function startPracticeRound(){
  if(!practiceSession)return;
@@ -185,7 +194,7 @@ function startPracticeRound(){
  setText("score",String(practiceSession.score).padStart(3,"0"));
  startGame();
 }
-async function completePracticeRound({skipped=false,stop=false}={}){const product=selectedProduct,s=practiceSession;if(!s)return;const name=product.name_i18n?.[lang]||product.name;if(skipped){let data;try{data=await call("submit-practice",{method:"POST",body:{product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}catch(e){status("feedback",(lang==="es"?"No se pudo validar esta ronda: ":"Could not validate this round: ")+e.message,true);s.rounds.push({name,score:0,correct:0,total:0,skipped:true,error:e.message});finishPracticeSession();return}if(practiceSession!==s)return;const score=Number(data.score)||0,correct=Number(data.correct_count)||0,total=Number(data.total_ingredients)||0;s.score+=score;s.correct+=correct;s.total+=total;s.completed++;s.skipped++;s.skippedProducts.push(name);s.rounds.push({name,score,correct,total,skipped:true,error:null});setText("score",String(s.score).padStart(3,"0"));status("feedback",t("productSkipped")+" · "+correct+(lang==="es"?" correctos · +":" correct · +")+score+" pts");if(stop||s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound();return}let data;try{data=await call("submit-practice",{method:"POST",body:{product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}catch(e){status("feedback",(lang==="es"?"No se pudo validar esta ronda: ":"Could not validate this round: ")+e.message,true);s.rounds.push({name,score:0,correct:0,total:0,skipped:false,error:e.message});finishPracticeSession();return}if(practiceSession!==s)return;const matched=new Set(data.matched_answers||[]),rejected=new Set(data.rejected_answers||[]);[...$("chips").children].forEach((chip,i)=>{const answer=guesses[i];if(matched.has(answer))chip.classList.add("good");else if(rejected.has(answer))chip.classList.add("bad")});status("feedback",data.correct_count+(lang==="es"?" ingredientes correctos de ":" correct ingredients out of ")+data.total_ingredients);s.score+=Number(data.score)||0;s.correct+=Number(data.correct_count)||0;s.total+=Number(data.total_ingredients)||0;s.completed++;s.rounds.push({name,score:Number(data.score)||0,correct:Number(data.correct_count)||0,total:Number(data.total_ingredients)||0,skipped:false,error:null});setText("score",String(s.score).padStart(3,"0"));if(stop){finishPracticeSession();return}await new Promise(resolve=>setTimeout(resolve,1100));if(practiceSession!==s)return;if(s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound()}
+async function completePracticeRound({skipped=false,stop=false}={}){const product=selectedProduct,s=practiceSession;if(!s)return;const name=product.name_i18n?.[lang]||product.name;if(skipped){let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}catch(e){status("feedback",(lang==="es"?"No se pudo validar esta ronda: ":"Could not validate this round: ")+e.message,true);s.rounds.push({name,score:0,correct:0,total:0,skipped:true,error:e.message});finishPracticeSession();return}if(practiceSession!==s)return;const score=Number(data.score)||0,correct=Number(data.correct_count)||0,total=Number(data.total_ingredients)||0;s.score+=score;s.correct+=correct;s.total+=total;s.completed++;s.skipped++;s.skippedProducts.push(name);s.rounds.push({name,score,correct,total,skipped:true,error:null});setText("score",String(s.score).padStart(3,"0"));status("feedback",t("productSkipped")+" · "+correct+(lang==="es"?" correctos · +":" correct · +")+score+" pts");if(stop||s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound();return}let data;try{data=await call("submit-practice",{method:"POST",body:{session_id:s.id,product_id:product.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}})}catch(e){status("feedback",(lang==="es"?"No se pudo validar esta ronda: ":"Could not validate this round: ")+e.message,true);s.rounds.push({name,score:0,correct:0,total:0,skipped:false,error:e.message});finishPracticeSession();return}if(practiceSession!==s)return;const matched=new Set(data.matched_answers||[]),rejected=new Set(data.rejected_answers||[]);[...$("chips").children].forEach((chip,i)=>{const answer=guesses[i];if(matched.has(answer))chip.classList.add("good");else if(rejected.has(answer))chip.classList.add("bad")});status("feedback",data.correct_count+(lang==="es"?" ingredientes correctos de ":" correct ingredients out of ")+data.total_ingredients);s.score+=Number(data.score)||0;s.correct+=Number(data.correct_count)||0;s.total+=Number(data.total_ingredients)||0;s.completed++;s.rounds.push({name,score:Number(data.score)||0,correct:Number(data.correct_count)||0,total:Number(data.total_ingredients)||0,skipped:false,error:null});setText("score",String(s.score).padStart(3,"0"));if(stop){finishPracticeSession();return}await new Promise(resolve=>setTimeout(resolve,1100));if(practiceSession!==s)return;if(s.index>=9){finishPracticeSession();return}s.index++;startPracticeRound()}
 function stopPracticeImmediately(){if(!practiceSession)return;finishGame({stop:true})}
 function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true};if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady")+" ("+catalog.length+")");}}
 function openAuth(){show("authModal",true);$("authModal").classList.add("open");status("authStatus","")}
