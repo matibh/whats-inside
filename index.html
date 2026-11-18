@@ -585,23 +585,23 @@ body{
 
 .result-metrics .final-score-card{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:150px;padding:12px 22px 13px;border:1px solid #b8d94d;border-radius:16px;background:linear-gradient(145deg,#e5ff91,#d7f36a);box-shadow:0 5px 0 #b8d94d,0 10px 24px rgba(133,164,48,.16);color:#17271c}.result-metrics .final-score-label{font:800 9px "DM Mono",monospace;letter-spacing:.17em;opacity:.68;margin-bottom:2px}.result-metrics .final-score{font:900 clamp(31px,5vw,43px) "DM Sans",sans-serif;letter-spacing:-2px;line-height:1.05;white-space:nowrap}.result-metrics .final-score span{font:800 10px "DM Mono",monospace;letter-spacing:.12em;vertical-align:middle;margin-left:2px}.result-metrics .percent{font-size:clamp(64px,9vw,76px)}:root[data-theme="dark"] .result-metrics .final-score-card{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a;box-shadow:0 5px 0 #8eaf3d,0 10px 24px #0004;color:#17271c}@media(max-width:600px){.result-metrics{gap:14px}.result-metrics .final-score-card{min-width:125px;padding:10px 14px 11px;border-radius:13px}.result-metrics .final-score{font-size:clamp(28px,8vw,36px)}.result-metrics .percent{font-size:clamp(58px,16vw,68px)}}
 
-/* Exact typography and alignment parity between both result metrics */
-#result .result-metric{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;text-align:center}
-#result .result-metric .metric-label{width:100%;font:800 10px "DM Mono",monospace;letter-spacing:.13em;text-align:center;margin:0 0 7px}
-#result .score-metric .metric-label{color:var(--muted)}
-#result .accuracy-metric .percent,
-#result .score-metric .final-score .final-score-number{display:block;width:100%;font:900 clamp(58px,8vw,76px)/.98 "DM Sans",sans-serif;letter-spacing:-.065em;text-align:center;margin:0}
-#result .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:100%;margin:0;padding:0;gap:0}
-#result .score-metric .final-score .final-score-number{color:#17271c}
-#result .metric-caption,
-#result .score-metric .final-score .final-score-unit{display:block;width:100%;font:600 11px/1.3 "DM Sans",sans-serif;letter-spacing:0;text-align:center;margin:6px 0 0;color:var(--muted)}
-#result .score-metric .final-score .final-score-unit{color:#365326}
+
+/* Result metrics: one shared layout and typography system for both cards */
+#result .result-metrics{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:520px;margin:18px auto 10px;align-items:stretch}
+#result .result-metric{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0;min-height:142px;padding:16px 12px;border-radius:18px;text-align:center}
+#result .accuracy-metric{background:var(--card);border:1px solid var(--line);box-shadow:0 5px 18px rgba(35,62,39,.055)}
+#result .score-metric{background:linear-gradient(145deg,#e5ff91,#d7f36a);border:1px solid #b8d94d;box-shadow:0 5px 0 #b8d94d,0 10px 24px rgba(133,164,48,.16)}
+#result .result-metric .metric-label{display:block;width:100%;font:800 10px/1.2 "DM Mono",monospace;letter-spacing:.13em;text-align:center;color:var(--muted);margin:0 0 7px}
+#result .result-metric .metric-value{display:block;width:100%;font:900 clamp(58px,8vw,76px)/.98 "DM Sans",sans-serif;letter-spacing:-.065em;line-height:.98;text-align:center;color:var(--green);margin:0;padding:0}
+#result .result-metric .metric-caption{display:block;width:100%;font:600 11px/1.3 "DM Sans",sans-serif;letter-spacing:0;text-align:center;color:var(--muted);margin:6px 0 0}
+:root[data-theme="dark"] #result .accuracy-metric{background:#1a241d;border-color:#384a3b;box-shadow:0 8px 28px #0003}
+:root[data-theme="dark"] #result .score-metric{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a}
 @media(max-width:420px){
+ #result .result-metrics{gap:9px;margin-top:14px}
+ #result .result-metric{min-height:126px;padding:13px 8px;border-radius:15px}
  #result .result-metric .metric-label{font-size:9px;letter-spacing:.09em}
- #result .accuracy-metric .percent,
- #result .score-metric .final-score .final-score-number{font-size:clamp(48px,15vw,62px)}
- #result .metric-caption,
- #result .score-metric .final-score .final-score-unit{font-size:10px;margin-top:6px}
+ #result .result-metric .metric-value{font-size:clamp(48px,15vw,62px)}
+ #result .result-metric .metric-caption{font-size:10px;margin-top:6px}
 }
 
 </style>
@@ -643,7 +643,7 @@ body{
  <div class="found-title"><span id="foundTitle">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty" id="emptyGuessText">Nothing yet. Go!</span></div>
  <div class="actions"><button class="btn ghost" id="finishBtn">FINISH EARLY</button><div class="practice-controls"><button class="btn ghost hidden" id="practiceSkip" type="button">SKIP PRODUCT →</button><button class="btn ghost hidden" id="practiceStop" type="button">STOP PRACTICE</button></div><span class="eyebrow" id="noPause">NO PAUSES. JUST INSTINCT.</span></div>
 </section>
-<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="result-metric accuracy-metric"><div class="metric-label" id="accuracyLabel">INGREDIENTS FOUND</div><div class="percent" id="percent">0%</div><div class="metric-caption" id="accuracyCaption">of all possible ingredients</div></div><div class="result-metric score-metric"><div class="metric-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score"><div class="final-score-number" id="finalScore">300</div><div class="metric-caption final-score-unit" id="scoreUnit">POINTS</div></div></div></div><div class="result-sub" id="resultSub"></div>
+<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="result-metric accuracy-metric"><div class="metric-label" id="accuracyLabel">INGREDIENTS FOUND</div><div class="metric-value" id="percent">0%</div><div class="metric-caption" id="accuracyCaption">of all possible ingredients</div></div><div class="result-metric score-metric"><div class="metric-label" id="finalScoreLabel">FINAL SCORE</div><div class="metric-value" id="finalScore">300</div><div class="metric-caption" id="scoreUnit">POINTS</div></div></div><div class="result-sub" id="resultSub"></div>
  <div class="result-box"><h3 id="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 id="youMissed" style="margin-top:20px">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div>
  <div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
@@ -651,58 +651,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-exact-result-typography-20261118k"></script>
+<script type="module" src="./app.js?v=ingredora-shared-result-metrics-20261118l"></script>
 </body>
 </html>
-
-<style>
-/* Result screen: two equally clear, high-priority metrics */
-#result .result-metrics{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:520px;margin:18px auto 10px;align-items:stretch}
-#result .result-metric{min-width:0;min-height:142px;border-radius:18px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px 12px}
-#result .accuracy-metric{background:var(--card);border:1px solid var(--line);box-shadow:0 5px 18px rgba(35,62,39,.055)}
-#result .score-metric{background:linear-gradient(145deg,#e5ff91,#d7f36a);border:1px solid #b8d94d;box-shadow:0 5px 0 #b8d94d,0 10px 24px rgba(133,164,48,.16);color:#17271c}
-#result .metric-label{font:800 10px "DM Mono",monospace;letter-spacing:.13em;text-align:center;color:var(--muted);margin-bottom:7px}
-#result .score-metric .metric-label{color:#365326}
-#result .accuracy-metric .percent{font-size:clamp(58px,8vw,76px);line-height:.98;letter-spacing:-.065em;margin:0}
-#result .metric-caption{font-size:11px;color:var(--muted);margin-top:6px}
-#result .score-metric .final-score{font:900 clamp(42px,6vw,58px)/1 "DM Sans",sans-serif;letter-spacing:-.065em;color:#17271c;white-space:nowrap}
-#result .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0}
-#result .score-metric .final-score .final-score-number{display:block;font:inherit;letter-spacing:inherit;line-height:1;color:inherit;margin:0}
-
-#result .score-metric .final-score .final-score-unit{display:block;font:800 11px "DM Mono",monospace;letter-spacing:.16em;text-align:center;margin:7px 0 0;color:#365326}
-#result .score-metric .final-score{width:100%;text-align:center!important;white-space:normal!important;align-items:center!important}
-#result .score-metric .final-score .final-score-number{display:block!important;width:100%;text-align:center!important}
-#result .score-metric .final-score .final-score-unit{display:block!important;width:100%;text-align:center!important;margin:7px 0 0!important}
-
-#result .result-sub{font-size:13px;line-height:1.5;font-weight:600;margin:8px auto 0;max-width:520px}
-:root[data-theme="dark"] #result .accuracy-metric{background:#1a241d;border-color:#384a3b;box-shadow:0 8px 28px #0003}
-:root[data-theme="dark"] #result .score-metric{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a;color:#17271c}
-@media(max-width:420px){#result .result-metrics{gap:9px;margin-top:14px}#result .result-metric{min-height:126px;padding:13px 8px;border-radius:15px}#result .metric-label{font-size:9px;letter-spacing:.09em}#result .accuracy-metric .percent{font-size:clamp(48px,15vw,62px)}#result .score-metric .final-score{font-size:clamp(35px,11vw,46px)}#result .metric-caption{font-size:10px}}
-
-
-/* Match the Final Score number to the Ingredients Found metric */
-#result .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;white-space:normal;text-align:center;gap:0;margin:0}
-#result .score-metric .final-score .final-score-number{display:block;width:100%;font:900 clamp(58px,8vw,76px)/.98 "DM Sans",sans-serif;letter-spacing:-.065em;color:#17271c;text-align:center;margin:0}
-#result .score-metric .final-score .final-score-unit{display:block;width:100%;font:600 11px "DM Sans",sans-serif;letter-spacing:0;text-align:center;color:#365326;margin:6px 0 0;line-height:1.3}
-@media(max-width:420px){#result .score-metric .final-score .final-score-number{font-size:clamp(48px,15vw,62px)}#result .score-metric .final-score .final-score-unit{font-size:10px;margin-top:6px}}
-</style>
-
-
-/* Shared typography: both result metrics use identical label, value and caption rules */
-#result .result-metrics .result-metric .metric-label,
-#result .result-metrics .result-metric .final-score-label{font:800 10px "DM Mono",monospace;letter-spacing:.13em;line-height:1.2;text-align:center;margin:0 0 7px}
-#result .result-metrics .accuracy-metric .percent,
-#result .result-metrics .score-metric .final-score-number{font:900 clamp(58px,8vw,76px)/.98 "DM Sans",sans-serif;letter-spacing:-.065em;line-height:.98;text-align:center;margin:0;padding:0}
-#result .result-metrics .accuracy-metric .metric-caption,
-#result .result-metrics .score-metric .final-score-unit{font:600 11px/1.3 "DM Sans",sans-serif;letter-spacing:0;text-align:center;margin:6px 0 0}
-#result .result-metrics .score-metric .final-score{display:flex;flex-direction:column;align-items:center;justify-content:flex-start;width:100%;gap:0;margin:0;padding:0;white-space:normal}
-#result .result-metrics .score-metric .final-score-number{display:block;width:100%;color:#17271c}
-#result .result-metrics .score-metric .final-score-unit{display:block;width:100%;color:#365326}
-#result .result-metrics .score-metric .metric-label{color:#365326}
-@media(max-width:420px){
- #result .result-metrics .accuracy-metric .percent,
- #result .result-metrics .score-metric .final-score-number{font-size:clamp(48px,15vw,62px)}
- #result .result-metrics .accuracy-metric .metric-caption,
- #result .result-metrics .score-metric .final-score-unit{font-size:10px;margin-top:6px}
- #result .result-metrics .result-metric .metric-label{font-size:9px;letter-spacing:.09em}
-}
