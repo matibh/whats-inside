@@ -185,7 +185,7 @@ function addGuess(raw){
  const chip=document.createElement("span");chip.className="chip";chip.textContent=value;$("chips").append(chip);
  const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
  validationQueue=validationQueue.then(async()=>{
-  if(!gameActive)return;
+  if(!gameActive||sequence!==validationSequence)return;
   try{
    const data=await call("validate-ingredient",{method:"POST",body:{mode,session_id:mode==="daily"?window.dailySessionId:practiceSession?.id,product_id:mode==="practice"?selectedProduct?.id:undefined,answers}});
    if(!gameActive||sequence!==validationSequence)return;
