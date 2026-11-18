@@ -583,6 +583,7 @@ body{
  color:#172014;
 }
 
+.result-metrics .final-score-card{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:150px;padding:12px 22px 13px;border:1px solid #b8d94d;border-radius:16px;background:linear-gradient(145deg,#e5ff91,#d7f36a);box-shadow:0 5px 0 #b8d94d,0 10px 24px rgba(133,164,48,.16);color:#17271c}.result-metrics .final-score-label{font:800 9px "DM Mono",monospace;letter-spacing:.17em;opacity:.68;margin-bottom:2px}.result-metrics .final-score{font:900 clamp(31px,5vw,43px) "DM Sans",sans-serif;letter-spacing:-2px;line-height:1.05;white-space:nowrap}.result-metrics .final-score span{font:800 10px "DM Mono",monospace;letter-spacing:.12em;vertical-align:middle;margin-left:2px}.result-metrics .percent{font-size:clamp(64px,9vw,76px)}:root[data-theme="dark"] .result-metrics .final-score-card{background:linear-gradient(145deg,#dfff83,#c5e85a);border-color:#a9d34a;box-shadow:0 5px 0 #8eaf3d,0 10px 24px #0004;color:#17271c}@media(max-width:600px){.result-metrics{gap:14px}.result-metrics .final-score-card{min-width:125px;padding:10px 14px 11px;border-radius:13px}.result-metrics .final-score{font-size:clamp(28px,8vw,36px)}.result-metrics .percent{font-size:clamp(58px,16vw,68px)}}
 </style>
 </head>
 <body>
@@ -622,7 +623,7 @@ body{
  <div class="found-title"><span id="foundTitle">INGREDIENTS FOUND</span><span id="foundCount">0</span></div><div class="found" id="found"><span class="empty" id="emptyGuessText">Nothing yet. Go!</span></div>
  <div class="actions"><button class="btn ghost" id="finishBtn">FINISH EARLY</button><div class="practice-controls"><button class="btn ghost hidden" id="practiceSkip" type="button">SKIP PRODUCT →</button><button class="btn ghost hidden" id="practiceStop" type="button">STOP PRACTICE</button></div><span class="eyebrow" id="noPause">NO PAUSES. JUST INSTINCT.</span></div>
 </section>
-<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="percent" id="percent">0%</div><div class="eyebrow final-score" id="finalScore">000 POINTS</div></div><div class="result-sub" id="resultSub"></div>
+<section class="result" id="result"><div class="eyebrow" id="resultKicker">TIME'S UP</div><h2 id="resultTitle">NICE TRY.</h2><div class="result-metrics"><div class="percent" id="percent">0%</div><div class="final-score-card"><div class="final-score-label" id="finalScoreLabel">FINAL SCORE</div><div class="final-score" id="finalScore">300 <span>POINTS</span></div></div></div><div class="result-sub" id="resultSub"></div>
  <div class="result-box"><h3 id="youFound">YOU FOUND</h3><div class="answer-list" id="correctList"></div><h3 id="youMissed" style="margin-top:20px">YOU MISSED</h3><div class="answer-list" id="missedList"></div></div>
  <div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
@@ -630,6 +631,6 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=ingredora-combos-20261118a"></script>
+<script type="module" src="./app.js?v=ingredora-final-score-20261118a"></script>
 </body>
 </html>
