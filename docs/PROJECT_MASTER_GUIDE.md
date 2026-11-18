@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (server timer and late-skip hardening)  
+> **Last updated:** 2026-11-18 (strict 15-second deadline)  
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -156,7 +156,9 @@ Remaining:
 - **PENDING** — authenticated end-to-end HTTP/browser test of start → play → submit → persisted result.
 - **PENDING** — test expired session, wrong owner, product not in session, duplicate submission, and rate limit through real endpoint calls.
 - **PENDING** — consider cleanup of session rows older than 7 days and an index on `expires_at`; this is maintenance, not a launch blocker unless volume warrants it.
-- **DONE — server-authoritative timer deployed** — each new Practice product row stores its server-side `round_started_at` and `round_order`; the completion RPC independently checks elapsed wall-clock time. Non-skipped submissions are accepted through 15 seconds plus a 1.5-second network grace, while persisted elapsed time is capped at 15,000 ms. The client-supplied `elapsed_ms` is ignored for authority.
+- **DEPLOYED** — migration `enforce_strict_15_second_round_deadline`; Edge Functions `submit-daily` v12 and `submit-practice` v19; frontend commits `81ca3da`, `30f91a7`, and cache-buster `293b7ad` (GitHub Pages workflow succeeded).
+- **TESTED (SQL transaction + rollback)** — Daily and Practice RPCs both rejected submissions at 15.001 seconds; no test rows were retained. Browser QA and authenticated HTTP end-to-end QA remain pending.
+- **DONE — strict server-authoritative 15-second timer deployed** — Practice submissions are rejected as soon as server time passes `round_started_at + 15 seconds`; there is no network grace. Late skips may advance but receive zero score. The next product timer starts at the server timestamp with no artificial 1.1-second transition delay. The client-supplied `elapsed_ms` is ignored for authority. SQL transaction tests confirmed a submission at 15.001 seconds is rejected and rolled back.
 
 ### 4.3 Daily sessions and submissions
 
@@ -166,7 +168,7 @@ Remaining:
 - **DONE** — the RPC returns only the attempt fields needed by the client plus unlocked achievements; it does not return user ID, challenge ID, or submitted answers.
 - **DONE** — RPC is executable only by `service_role`.
 - **DONE** — a reversible transaction test was performed; no test rows were left behind.
-- **DONE — server-authoritative 15-second enforcement deployed** — submit-daily v11 and complete_daily_attempt calculate elapsed time from the server session start, reject submissions after 16.5 seconds (15 seconds + 1.5-second network grace), and persist at most 15,000 ms. Frontend timer now uses the server `started_at` value.
+- **DONE — strict server-authoritative 15-second enforcement deployed** — submit-daily v12 and `complete_daily_attempt` reject any submission received after `started_at + 15 seconds`, with no network grace. Frontend timer uses the server `started_at` value. SQL transaction tests confirmed a submission at 15.001 seconds is rejected and rolled back.
 - **PENDING** — real authenticated Daily start/submit browser test, including duplicate/replay and expired-session cases.
 - **PENDING** — verify Daily product assignment and no-repeat invariant against the complete schedule/catalog before extending future dates.
 
@@ -353,7 +355,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [x] Remove answer key from Daily start response.
 - [x] Make Daily completion and related stats/unlocks transactional.
 - [x] Add profile username uniqueness and 30-day change cooldown foundation.
-- [x] Enforce 15-second Daily and per-product Practice timers on the server (with 1.5-second network grace; persisted elapsed capped at 15 seconds).
+- [x] Enforce a hard 15-second deadline for Daily and each Practice product on the server, with no network grace or artificial inter-round pause.
 - [ ] Complete real authenticated browser/API QA for Daily and Practice.
 - [x] Re-run endpoint/RPC/grants audit; client write grants and completion RPC ACLs verified.
 - [x] Re-run Supabase Security Advisor and document expected/actionable warnings (10 informational restricted-table findings; leaked-password protection warning is a Free-plan limitation).
@@ -426,7 +428,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 
 ## 10. Known game rules and scoring behavior
 
-- Round duration: 15 seconds. Backend allows a 1.5-second request grace after the deadline but caps the recorded elapsed time at 15,000 ms.
+- Round duration: exactly 15 seconds. The server rejects submissions received after the 15-second deadline; there is no network grace. Practice transitions directly to the next product using its server start timestamp, without an artificial 1.1-second pause.
 - Combo scoring: first correct ingredient = 100 points; second consecutive correct = 150; third consecutive correct = 150, for 400 total in that example.
 - Each consecutive correct after the first adds the combo bonus (+50).
 - An incorrect guess resets the combo.
@@ -512,7 +514,7 @@ Never collapse these statuses into a single “done”.
 
 The next work should proceed in this order:
 
-1. Complete authenticated API/browser QA for Daily and Practice, especially 15-second timeout, 1.5-second grace, replay, expiry, ownership, skip, Stop Practice, and full-session bonus.
+1. Complete authenticated API/browser QA for Daily and Practice, especially the strict 15-second cutoff, replay, expiry, ownership, skip, Stop Practice, and full-session bonus.
 2. Audit all 50 achievement criteria and 30 cosmetic asset mappings; confirm profile UI/default inventory behavior.
 3. Implement reserved-username enforcement and the profile editor/public profile page.
 4. Continue XP/achievement/cosmetic regression tests; do not recreate existing systems.
