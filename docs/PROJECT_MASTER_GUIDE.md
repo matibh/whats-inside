@@ -810,3 +810,14 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **BUG INVESTIGATION — Practice result showed 0% / 0:** la sesión más reciente inspeccionada (18 Nov 2026, 19:53 local) quedó cerrada en backend con 3 intentos, 350 puntos, 3 respuestas correctas y 44 ingredientes totales. Sus tres intentos fueron persistidos y las llamadas `submit-practice` correspondientes respondieron HTTP 200. Por lo tanto, el 0% / 0 observado en pantalla no coincide con el resultado guardado y apunta a que la interfaz mostró el estado local/provisional antes de la reconciliación asíncrona del servidor. Esto es un diagnóstico probable basado en los datos persistidos y el flujo frontend; no se ha reproducido en navegador.
 - **CACHE BUSTER:** `app.js?v=practice-no-level-reward-20261118a`.
 - **QA:** sintaxis completa de `app.js` validada tras retirar el import ESM. Browser QA y verificación visual post-deploy pendientes.
+
+
+### Practice — fallback de imágenes (2026-11-18)
+
+- **SCOPE:** fallback de imágenes habilitado únicamente en Practice. Daily conserva su carga y su imagen principal sin cambios.
+- **DATABASE:** migration `practice_product_image_fallbacks` agrega `public.products.fallback_image_url` y crea el bucket público `practice-product-backups` en Supabase Storage (límite 5 MiB por objeto; MIME permitidos: JPEG, PNG, WebP y AVIF). El bucket comienza vacío; no se han copiado imágenes ni asignado URLs secundarias automáticamente.
+- **FRONTEND SOURCE:** Practice admite productos con imagen principal o secundaria; precarga ambas en orden y muestra la secundaria si la principal falla. Si ambas fallan, conserva el placeholder existente. La selección y la carga de imágenes siguen sin bloquear el botón ni los 15 segundos de juego.
+- **CACHE:** se versiona el cache local de Practice a v2 para descartar registros anteriores sin el nuevo campo.
+- **PENDING:** poblar `fallback_image_url` con URLs alternativas verificadas o subir copias autorizadas al bucket y asignar sus URLs. Hasta entonces, productos sin una secundaria configurada seguirán usando solo su imagen principal y el placeholder si falla.
+- **DAILY:** no se modificaron la función `daily-challenge`, el frontend Daily ni su temporizador.
+- **QA:** pendiente de parseo automatizado, comprobación de URLs reales, prueba de principal fallida/secundaria correcta, ambas fallidas y regresión visual en navegador.
