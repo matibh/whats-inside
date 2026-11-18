@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (strict 15-second deadline)  
+> **Last updated:** 2026-11-18 (strict timers and achievement audit)  
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -268,6 +268,17 @@ The live catalog contains 50 achievements across Getting Started (6), Daily (8),
 
 There are currently 19 unlock records in `user_achievements` (5 user accounts exist).
 
+### Audit snapshot — 2026-11-18
+
+- **DONE — criteria/metric-key coverage inspected:** all 50 achievement definitions reference metric keys returned by `private.get_player_achievement_metrics`; no missing metric keys were found. The evaluator updates progress and grants each unlock idempotently.
+- **DONE — current reward/points policy checked:** all 50 `achievements.points` values are 0; the player-achievement read RPC does not expose a points field. Achievements remain cosmetic-only and award no XP.
+- **DONE — legacy reference integrity checked:** the eight legacy IDs remain present in the current catalog and there are 0 orphan rows in `user_achievements`. This confirms current referential integrity, not a full historical snapshot comparison.
+- **DONE — reward references checked:** all 24 non-null achievement reward IDs match active rows in `private.cosmetic_definitions`. Actual asset-file/browser rendering verification remains pending.
+- **DONE — country alias normalization:** `normalize_country_aliases_for_explorer_achievements` maps `Brasil` and `Brazil` to one country for Explorer metrics and recalculates current `countries_3` progress. Before this correction the ready catalog had 25 raw country labels; after normalization it has 24. No `countries_3` unlock had been granted, so no permanent unlock was revoked.
+- **PENDING — Explorer category taxonomy decision:** `products.category` currently has 116 distinct ready-product slugs and no separate category-group/taxonomy table exists. `categories_3` and `categories_5` therefore count exact granular category slugs, not broad food families. Decide whether this is the intended game rule or whether a curated macro-category mapping should be introduced.
+- **NOTE** — 10 ready products have no country value; null countries are excluded from the distinct-country metric.
+
+
 ### Agreed reward policy
 - Achievements are permanent.
 - Rewards are cosmetic only.
@@ -280,8 +291,11 @@ Implemented foundation:
 - Authenticated `get-player-achievements` endpoint is deployed; result screens display unlock notifications.
 
 Pending audit and QA:
-- Verify every one of the 50 criteria against its intended metric, especially Explorer product/category/country metrics and score/perfect thresholds.
-- Audit legacy ID/unlock preservation and all consumers of `achievements.points` before changing that field.
+- Cross-check all 50 criteria metric keys against the live metrics function; no missing metric keys found.
+- Decide whether Explorer categories should use the current 116 granular product-category slugs or a curated broad-category taxonomy.
+- Complete threshold, streak/date-boundary, repeated-trigger, and concurrent-unlock tests.
+- Verify the eight legacy IDs remain in the catalog, current unlock references have no orphans, all 50 `points` values are 0, and the player-achievement RPC does not expose `points`.
+- Compare legacy unlock continuity against an authoritative historical snapshot if one is available; do not change achievement IDs or unlock rows without that evidence.
 - Test thresholds, repeated triggers, streak/date boundaries, simultaneous unlocks and hidden-achievement privacy.
 - Browser QA for achievement list/details/hidden states remains pending.
 
@@ -515,7 +529,7 @@ Never collapse these statuses into a single “done”.
 The next work should proceed in this order:
 
 1. Complete authenticated API/browser QA for Daily and Practice, especially the strict 15-second cutoff, replay, expiry, ownership, skip, Stop Practice, and full-session bonus.
-2. Audit all 50 achievement criteria and 30 cosmetic asset mappings; confirm profile UI/default inventory behavior.
+2. Resolve the Explorer macro-category decision; finish achievement threshold/edge-case QA and verify cosmetic asset files in browser.
 3. Implement reserved-username enforcement and the profile editor/public profile page.
 4. Continue XP/achievement/cosmetic regression tests; do not recreate existing systems.
 5. Update this guide after every completed subtask and keep it as the navigation point for future sessions.
