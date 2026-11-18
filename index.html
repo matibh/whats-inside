@@ -282,8 +282,8 @@ body{
 .intro .eyebrow{
  order:0;display:inline-flex;align-items:center;gap:9px;
  padding:8px 13px;margin:0 0 18px;
- border:1px solid #c9dfb7;border-radius:999px;
- background:#edf7e5;color:#294f2e;
+ border:1px solid #79b889;border-radius:999px;
+ background:#e5f0d9;color:#245d36;
  font:800 10px "DM Mono",monospace;letter-spacing:.16em;
 }
 .intro .eyebrow:before{
@@ -314,7 +314,7 @@ body{
 @keyframes ingredoraBlink{0%,49%{opacity:1}50%,100%{opacity:0}}
 .intro p{order:2;margin:0 auto;max-width:420px;color:#53665a;font-size:15px;line-height:1.6}
 :root[data-theme="dark"] .intro .eyebrow{
- background:#263d2a;border-color:#55784b;color:#e0f4ce;
+ background:#294632;border-color:#648d67;color:#c5efa0;
 }
 :root[data-theme="dark"] .intro h1{background:#294632;color:#c5efa0;border-color:#648d67}
 :root[data-theme="dark"] .intro .typing-check{color:#c5efa0}
@@ -375,9 +375,11 @@ body{
 /* Brand mark: high-contrast green tile with a clear I + check in both themes */
 .brand{gap:9px}
 .brand:before,.brand:after{content:none!important}
-.brand .brand-mark{width:29px;height:29px;flex:0 0 29px;display:inline-flex;align-items:center;justify-content:center;position:relative;border:1px solid #80b18a;border-radius:9px;background:#3d7650;color:#fff;box-shadow:0 1px 4px #0008;font-size:17px;font-weight:900;line-height:1;letter-spacing:-.06em}
-.brand .brand-mark b{position:absolute;right:-4px;bottom:-4px;width:14px;height:14px;display:grid;place-items:center;border:1.5px solid #1a241d;border-radius:50%;background:#d9fa68;color:#17271c;font:900 10px/1 "DM Sans",sans-serif;letter-spacing:0}
+.brand .brand-mark{width:29px;height:29px;flex:0 0 29px;display:inline-flex;align-items:center;justify-content:center;position:relative;border:1px solid #79b889;border-radius:9px;background:#e5f0d9;color:#245d36;box-shadow:0 1px 3px rgba(24,37,29,.18);font-size:17px;font-weight:900;line-height:1;letter-spacing:-.06em}
+.brand .brand-mark b{position:absolute;right:-4px;bottom:-4px;width:14px;height:14px;display:grid;place-items:center;border:1.5px solid #e5f0d9;border-radius:50%;background:#245d36;color:#fff;font:900 10px/1 "DM Sans",sans-serif;letter-spacing:0}
 .brand .brand-mark>span{-webkit-text-stroke:1px #174a2c;paint-order:stroke fill;background:transparent!important;padding:0!important;border-radius:0!important}
+:root[data-theme="dark"] .brand .brand-mark{background:#294632;border-color:#648d67;color:#c5efa0;box-shadow:0 1px 4px #0008}
+:root[data-theme="dark"] .brand .brand-mark b{background:#c5efa0;color:#17271c;border-color:#294632}
 @media(max-width:600px){.brand .brand-mark{width:26px;height:26px;flex-basis:26px;font-size:16px}}
 @media(max-width:360px){.brand .brand-mark{width:22px;height:22px;flex-basis:22px;font-size:14px}.brand .brand-mark b{width:12px;height:12px;font-size:9px}}
 
@@ -388,7 +390,7 @@ body{
  padding:4px 8px!important;
  border:1px solid #79b889!important;
  border-radius:7px!important;
- background:#8FAF3E!important;
+ background:#e5f0d9!important;
  color:#245d36!important;
  line-height:1.15;
  text-shadow:none!important;
