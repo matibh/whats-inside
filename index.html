@@ -532,6 +532,11 @@ body{
 .found{gap:7px}
 
 
+/* Practice session label: stronger weight in light theme */
+:root:not([data-theme="dark"]) #practiceProgress{
+ font-weight:700;
+}
+
 /* Stronger hierarchy for Practice labels and completion screen in dark mode */
 :root[data-theme="dark"] #practiceProgress{
  color:#dcebdc;
