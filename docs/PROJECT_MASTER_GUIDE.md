@@ -205,22 +205,22 @@ Remaining:
 
 ## 5. Progression system — decisions and pending implementation
 
-### 5.1 XP award values — NOT YET APPROVED
+### 5.1 XP award values — IMPLEMENTED (browser QA pending)
 
-The following values were proposed but the user has **not yet explicitly confirmed them**. Do not implement them until confirmed or replaced with new values.
+The following values are implemented in the live completion RPCs and have generated XP ledger events. Verify through authenticated browser/API tests before considering the feature release-ready.
 
 | Event | Proposed XP | Status |
 |---|---:|---|
-| Complete a Daily | 50 XP | Awaiting confirmation |
-| Complete one Practice product | 10 XP | Awaiting confirmation |
-| Complete a full 10-product Practice session | +20 XP bonus | Awaiting confirmation |
+| Complete a Daily | 50 XP | Implemented transactionally |
+| Complete one non-skipped Practice product | 10 XP | Implemented transactionally |
+| Complete all 10 Practice products without skips | +20 XP bonus | Implemented transactionally |
 | Unlock an achievement | 0 XP | Approved principle: achievements give cosmetics only |
 
 No XP should be awarded for achievements. Gameplay-valid XP and cosmetic achievement rewards remain separate.
 
-### 5.2 Proposed level thresholds — NOT YET APPROVED
+### 5.2 Level thresholds — IMPLEMENTED
 
-These are a draft, not final configuration:
+These ten thresholds are seeded in private.level_definitions and used by the current progression implementation:
 
 | Level | Name | XP threshold |
 |---:|---|---:|
@@ -235,7 +235,7 @@ These are a draft, not final configuration:
 | 9 | Master | 3,300 |
 | 10 | Legend | 4,300 |
 
-Draft direction: no maximum level; XP requirements continue increasing beyond level 10. The exact formula/curve after level 10 remains to be designed and approved.
+Levels continue beyond 10. Current implementation adds 1,200 XP for level 11 and increases the next interval by 100 XP per level. Automated boundary tests remain pending.
 
 ### 5.3 XP technical requirements
 
@@ -251,7 +251,7 @@ Once rewards and thresholds are approved:
 - Define whether XP is cumulative lifetime XP; recommendation is cumulative and never spent.
 - Add tests for duplicate submission, retry, concurrent submissions, partial sessions, and level boundary crossings.
 
-**Current status:** no XP ledger, XP award integration, or level tables/RPCs have been implemented yet.
+**Current status:** XP ledger, XP awards, level table, level calculation and progression endpoint are implemented. Browser QA and concurrency/idempotency tests remain pending.
 
 ---
 
@@ -259,7 +259,7 @@ Once rewards and thresholds are approved:
 
 ### Existing database catalog
 
-There are currently 8 achievement records:
+There are currently 50 achievement records in the live database; the original eight legacy entries have been expanded/replaced. Verify migration history before assuming legacy IDs were retained:
 1. First Daily — Primer Daily
 2. Ten Dailies — 10 Daily
 3. Good taste — 50 ingredients
@@ -269,7 +269,7 @@ There are currently 8 achievement records:
 7. Three in a row — racha de 3 días
 8. A full week — racha de 7 días
 
-There are 5 existing unlock records in `user_achievements`.
+There are currently 19 unlock records in `user_achievements` (5 user accounts exist).
 
 ### Agreed reward policy
 - Achievements are permanent.
@@ -374,15 +374,14 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [ ] Profile privacy/activity display behavior.
 
 ### Phase 2 — XP and Levels
-- [ ] Confirm XP award values.
-- [ ] Finalize level names, thresholds, and post-level-10 curve.
-- [ ] Design XP ledger and idempotency keys.
-- [ ] Add transactional XP awards to Daily.
-- [ ] Add transactional XP awards to Practice.
-- [ ] Add once-only full-session bonus.
-- [ ] Add level calculation and level-up event.
-- [ ] Add UI for current level, progress bar, and level-up feedback.
-- [ ] Test duplicates, retries, concurrent events, partial Practice, and boundaries.
+- [x] Implement XP awards: 50 Daily / 10 per non-skipped Practice product / +20 only for all 10 products completed without skips.
+- [x] Create XP ledger with unique (user_id,event_type,source_id) idempotency key.
+- [x] Add transactional XP awards to Daily and Practice.
+- [x] Add once-only full-session bonus.
+- [x] Add level calculation and progression read endpoint.
+- [x] Add frontend XP reward display and level/total-XP badge.
+- [ ] Test duplicates, retries, concurrent events, partial/skipped Practice and level boundaries.
+- [ ] Browser QA for Daily and Practice XP rewards, badge refresh and level-up feedback.
 
 ### Phase 3 — Achievements
 - [ ] Audit existing 8 achievements and all consumers of `points`.
@@ -573,7 +572,7 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - submit-daily v10 does not reject a submission after 15 seconds; it caps stored elapsed_ms at 15,000. Practice elapsed time is client-supplied and clamped. If 15 seconds is a hard competitive limit, enforce it server-side.
 - start-practice v2 validates ten IDs sent by the frontend but does not independently choose/randomize the product set server-side.
 - Authenticated end-to-end Daily/Practice browser and API tests were not performed during this audit.
-- Review reset-daily-test v5 before public launch.
+- reset-daily-test v5 was inspected: JWT required and handler always returns HTTP 410; no reset action is performed. Removal is optional cleanup.
 
 ### Next actions
 1. Inspect reset-daily-test v5 and remove/restrict it safely.
