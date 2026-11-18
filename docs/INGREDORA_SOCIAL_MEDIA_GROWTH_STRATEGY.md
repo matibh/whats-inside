@@ -4,7 +4,7 @@
 > **Versión:** 1.0  
 > **Fecha de investigación:** 18 de noviembre de 2026  
 > **Producto:** Ingredora  
-> **Repositoro:** matibh/whats-inside · rama main  
+> **Repositorio:** matibh/whats-inside · rama main  
 > **Objetivo:** convertir contenido social en jugadores reales y recurrentes, no solamente acumular seguidores.
 
 ---
@@ -1056,7 +1056,7 @@ El calendario es una primera iteración de prueba, no una obligación de publica
 | 10 · 28 nov | X poll + IG Story | “¿Qué categoría es más difícil?” | Participación | Votar | ES | Dos opciones |
 | 11 · 29 nov | YouTube Short | “Three products, one score” | Descubrimiento | Suscribirse/probar | EN | Tres productos |
 | 12 · 30 nov | TikTok + IG Reel | “Este ingrediente no me lo esperaba” | Curiosidad | Comentar sorpresa | ES | Reveal verificado |
-| 13 · 1 dic | Facebook post + X | “Desafío del domingo” (mover al día de semana correspondiente) | Conversación | Responder | ES | Imagen de reto |
+| 13 · 1 dic | Facebook post + X | “Mini trivia de la semana” | Conversación | Responder | ES | Imagen de reto |
 | 14 · 2 dic | IG Stories | Votación de producto + quiz | Activación de seguidores | Votar | ES | Stories interactivas |
 | 15 · 3 dic | TikTok + Shorts | “Can you beat the timer?” | Conversión | Visitar Ingredora | EN | Grabación de juego |
 | 16 · 4 dic | IG carrusel | “Argentina vs. World” | Compartidos | Comentar país | ES | Productos/países |
