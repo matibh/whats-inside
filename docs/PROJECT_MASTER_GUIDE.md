@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-19 (silent Daily/Practice loading UI)
+> **Last updated:** 2026-11-19 (Daily local-first interaction)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -859,3 +859,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - SCOPE: frontend presentation only. No Daily or Practice validation, scoring, answer keys, timers, session creation, API/Edge Function, database, catalog, or user data changes.
 - CACHE BUSTER: app.js?v=silent-loading-clean-ui-20261119a.
 - QA STATUS: pending full JavaScript syntax validation, HTML/source checks, GitHub Pages deployment verification, and browser QA. Do not claim browser behavior verified until tested.
+
+## 21. Daily local-first interaction — 2026-11-19
+
+- **DEPLOYED** — `daily-challenge` returns a salted SHA-256 answer-hash bundle only to an authenticated user who has not already completed today's Daily. No ingredient strings or aliases are returned. Hashes use the same normalization as Practice; this is a client-feedback optimization, not strong protection against dictionary attacks.
+- **DEPLOYED** — Daily opens immediately and starts its local 15-second countdown on click while `start-daily` completes asynchronously. Submission waits for the authenticated server session ID. The local timer begins at click, so it cannot extend the server's strict 15-second deadline.
+- **DEPLOYED** — Daily ingredient feedback and provisional score are calculated locally. The result screen appears with provisional totals immediately; `submit-daily` still recalculates and transactionally saves the official score, combo, found/missed ingredients, attempt, XP and achievements, then reconciles the screen.
+- **UNCHANGED** — Practice code path, scoring formula, Daily XP values, one-attempt policy, timer duration, database schema and transactional completion RPC.
+- **LIMITATION** — salted hashes are susceptible to dictionary guessing; do not describe them as strong secrecy.
+- **QA** — syntax and deployment checks recorded separately. Authenticated browser gameplay, slow-network, offline, replay and duplicate-submission tests remain pending.
