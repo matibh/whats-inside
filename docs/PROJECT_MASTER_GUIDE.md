@@ -990,3 +990,9 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Ranking navigation remains within the existing layout; Daily and Practice panels are hidden as before.
 - Only the screen visibility transition in `loadRanking()` changed. No leaderboard data, scoring, result, or game logic changed.
 - Browser QA not performed.
+
+### Rankings screen cache correction — 19 Nov 2026
+
+- Follow-up to the Rankings navigation cleanup: the first app.js commit was not accompanied by an index.html cache-buster update, so clients could continue loading the cached prior app.js and still show the Daily result under Rankings.
+- Updated the app.js query string in index.html to `rankings-screen-cleanup-20261119b` so the screen-visibility fix is fetched.
+- Browser QA remains pending.
