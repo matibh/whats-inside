@@ -974,3 +974,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **ACHIEVEMENTS V1:** corrected the Daily completion RPC's backward-compatible `unlocked` return to an empty JSON array after achievement evaluation was disabled.
 - **SCORING/SCOPE:** combo formula, Daily 15-second server validation, XP award, attempts, and other product behavior remain unchanged. The service-role-only snapshot RPC provides the official answer list from validated server state.
 - **QA:** SQL function/permission checks and frontend syntax validation performed. Browser end-to-end Daily play remains pending.
+
+
+## Daily Finish Early — instant result rendering (19 Nov 2026)
+- The Daily `FINISH EARLY` button now uses the same `.btn.primary` green treatment as `SHARE RESULT` in light and dark themes.
+- Daily completion renders a provisional result immediately from the local answer/hash state and switches to the result screen before awaiting network work.
+- Local hash reconciliation, Daily snapshot flushing, authoritative `submit-daily`, XP/progression refresh, and replacement with server-confirmed found/missed/score data continue asynchronously in the background.
+- Server confirmation remains authoritative; if synchronization fails, the provisional result stays visible with a pending-confirmation message rather than replacing it with an empty/error result.
+- Strict 15-second rules and scoring formula are unchanged. Browser QA remains pending.
