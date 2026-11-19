@@ -982,3 +982,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Local hash reconciliation, Daily snapshot flushing, authoritative `submit-daily`, XP/progression refresh, and replacement with server-confirmed found/missed/score data continue asynchronously in the background.
 - Server confirmation remains authoritative; if synchronization fails, the provisional result stays visible with a pending-confirmation message rather than replacing it with an empty/error result.
 - Strict 15-second rules and scoring formula are unchanged. Browser QA remains pending.
+
+## Rankings navigation screen cleanup — 19 Nov 2026
+
+- Opening Rankings now explicitly hides the active game and result screens before showing the rankings panel.
+- This prevents a completed Daily result (or any previous game screen) from remaining visible above/below the leaderboard.
+- Ranking navigation remains within the existing layout; Daily and Practice panels are hidden as before.
+- Only the screen visibility transition in `loadRanking()` changed. No leaderboard data, scoring, result, or game logic changed.
+- Browser QA not performed.
