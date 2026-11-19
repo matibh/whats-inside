@@ -887,3 +887,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **SECURITY / GAME RULES:** no answer strings or aliases were added to the client. `submit-daily` still validates the session against the server-side 15,000 ms limit and remains authoritative for score, found/missed lists, attempt consumption and progression. No server function, database, XP, achievement or Practice behavior was changed.
 - **CACHE BUSTER:** `app.js?v=daily-zero-atomic-results-20261119a`.
 - **QA:** JavaScript parser check passed before commit. GitHub Pages deployment and authenticated browser timing/network QA remain pending; do not claim the visual behavior is browser-verified.
+
+## 24. Daily result language and achievement endpoint fix — 2026-11-19
+
+- Fixed the Daily result language switch: when the result is active, switching EN/ES now re-renders both the found and missed ingredient lists from the already received localized result payload. Practice result rendering remains separate.
+- Removed a duplicate result-language refresh call from the language button handler.
+- Achievement unlock rendering now caches the achievement catalog response in memory, so language changes do not issue another request each time.
+- Fixed `get-player-achievements` Edge Function v2. The prior implementation called `admin.rpc("get_player_achievements")`, but the actual function lives in the non-exposed `private` schema; PostgREST returned 404/PGRST202, surfaced to the browser as 500. The Edge Function now verifies the user as before and reads the public achievement catalog and that authenticated user's unlocked-achievement rows using the service-role client. Hidden achievements remain filtered unless unlocked. No schema, RLS, scoring, XP, or achievement criteria changes.
+- Frontend JavaScript parser check passed. Edge Function v2 deployed with JWT verification enabled. Browser QA is still pending; verify the Daily result language switch in the live GitHub Pages deployment after Pages publishes this commit.
+- Cache buster: `daily-results-language-fix-20261119a`.
