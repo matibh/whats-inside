@@ -181,7 +181,7 @@ function renderProducts(){}
 function verifyProductImage(url){return new Promise(resolve=>{if(!url){resolve(false);return}const probe=new Image();let settled=false;const finish=ok=>{if(settled)return;settled=true;clearTimeout(timeout);probe.onload=null;probe.onerror=null;resolve(ok)};const timeout=setTimeout(()=>finish(false),8000);probe.onload=()=>finish(probe.naturalWidth>0&&probe.naturalHeight>0);probe.onerror=()=>finish(false);probe.src=url})}
 function refreshSelectedProductLanguage(){if(!selectedProduct)return;setText("productName",selectedProduct.name_i18n?.[lang]||selectedProduct.name);setText("productDesc",selectedProduct.description_i18n?.[lang]||"");setText("productLabel",selectedProduct.brand||t("mysteryProduct"))}
 function setProduct(p,{allowFallback=false}={}){selectedProduct=p;refreshSelectedProductLanguage();const img=$("productImage");img.onerror=null;img.removeAttribute("src");const urls=[p.image_url,...(allowFallback?[p.fallback_image_url]:[])].filter((url,index,all)=>typeof url==="string"&&url.trim()&&all.indexOf(url)===index);const cached=allowFallback?practiceImageCache[p.id]:null;if(cached?.src){urls.unshift(cached.src)}let attempt=0;const showPlaceholder=()=>{img.onerror=null;img.style.display="none";$("productPlaceholder").style.display=""};const tryNext=()=>{if(attempt>=urls.length){showPlaceholder();return}const url=urls[attempt++];img.onerror=()=>{if(img.currentSrc&&img.currentSrc!==url)return;tryNext()};img.loading="eager";img.decoding="async";img.style.display="";$("productPlaceholder").style.display="none";img.src=url};if(urls.length)tryNext();else showPlaceholder()}
-function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;roundCorrectCount=0;localValidationQueue=Promise.resolve();$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{const elapsed=Date.now()-startedAt;remaining=Math.max(0,15-Math.floor(elapsed/1000));if(mode==="daily"&&elapsed>=14500)remaining=0;setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if((mode==="daily"&&elapsed>=14500)||remaining<=0)finishGame()},100)}
+function startGame(startAt=Date.now()){show("practiceProgress",!!practiceSession);show("practiceSkip",!!practiceSession);show("practiceStop",!!practiceSession);show("finishBtn",!practiceSession);guesses=[];pendingValidations=[];validatedIngredientIndexes=new Set();comboStreak=0;roundScore=0;roundCorrectCount=0;localValidationQueue=Promise.resolve();$("ingredientInput").disabled=false;$("practiceSkip").disabled=false;validationSequence++;validationQueue=Promise.resolve();startedAt=startAt;remaining=Math.min(15,Math.max(0,15-Math.floor((Date.now()-startedAt)/1000)));gameActive=true;$("ingredientInput").value="";$("chips").innerHTML="";$("found").innerHTML="";setText("foundCount","0");setText("score",String(practiceSession?.score||0).padStart(3,"0"));setText("feedback","");setText("timer","15");$("timerRing").style.setProperty("--progress","100%");show("intro",false);show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",false);show("result",false);show("game",true);$("ingredientInput").focus();if(timer)clearInterval(timer);timer=setInterval(()=>{const elapsed=Date.now()-startedAt;remaining=Math.max(0,15-Math.floor(elapsed/1000));setText("timer",String(remaining));$("timerRing").style.setProperty("--progress",(remaining/15*100)+"%");if(remaining===0)finishGame()},100)}
 const PRACTICE_CACHE_KEY="ingredora.practice.prepared.v2";
 const PRACTICE_CACHE_TTL=20*60*1000;
 function restorePracticeCache(){
@@ -288,28 +288,29 @@ async function finishGame(options={}){
  if(mode==="practice"&&practiceSession){await localValidationQueue;completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}
  setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");
  if(mode==="daily"){
-  await localValidationQueue;
-  const answers=[...guesses],localCorrect=Number(roundCorrectCount)||0,localTotal=Number(currentAnswerKey?.total_ingredients)||0,localScore=Number(roundScore)||0;
-  lastResult={score:localScore,correct_count:localCorrect,total_ingredients:localTotal,unlocked:[]};
+  const answers=[...guesses];
   setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");
-  setText("percent",Math.round(localCorrect/Math.max(1,localTotal)*100)+"%");
-  setText("resultSub",lang==="es"?localCorrect+" de "+localTotal+" ingredientes encontrados":localCorrect+" of "+localTotal+" ingredients found");
-  setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(localScore));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");
+  setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");
   $("youMissed").style.display="";$("missedList").style.display="";$("correctList").innerHTML="";$("missedList").innerHTML="";
-  setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));show("game",false);show("intro",false);show("result",true);
+  setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));
   try{
    const started=await dailyStartPromise;
    const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id,answers}});
    lastResult={...data,xpEarned:Number(data.progression?.xp_awarded)||0};renderAchievementUnlocks(data.unlocked||[]);
    if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();
    applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
-   setText("foundCount",String(data.correct_count??data.attempt?.correct_count??0));setText("score",String(data.score??data.attempt?.score??0).padStart(3,"0"));
-   const found=data.found||[],missed=data.missed||[],correctCount=data.correct_count??data.attempt?.correct_count??found.length,totalCount=data.total_ingredients??data.attempt?.total_ingredients??found.length+missed.length;
+   const found=data.found||[],missed=data.missed||[],correctCount=data.correct_count??data.attempt?.correct_count??found.length,totalCount=data.total_ingredients??data.attempt?.total_ingredients??found.length+missed.length,finalScore=data.score??data.attempt?.score??0;
+   setText("foundCount",String(correctCount));setText("score",String(finalScore).padStart(3,"0"));
    setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");
    setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");
-   setText("finalScore",String(data.score??data.attempt?.score??0));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);
-   await checkDaily();
-  }catch(e){console.error("Daily result sync failed.",e);renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);setText("resultTitle",t("wrong"));setText("resultSub",lang==="es"?"No se pudo confirmar el resultado oficial. Si la sesión expiró sin guardar un intento, podés volver a intentarlo. "+e.message:"The official result could not be confirmed. If the session expired without saving an attempt, you can try again. "+e.message)}
+   setText("finalScore",String(finalScore));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);
+   show("game",false);show("intro",false);show("result",true);
+   checkDaily().catch(error=>console.warn("Daily refresh after result failed.",error));
+  }catch(e){
+   console.error("Daily result sync failed.",e);renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
+   setText("resultTitle",t("wrong"));setText("resultSub",lang==="es"?"No se pudo confirmar el resultado oficial. Si la sesión expiró sin guardar un intento, podés volver a intentarlo. "+e.message:"The official result could not be confirmed. If the session expired without a saved attempt, you can try again. "+e.message);
+   show("game",false);show("intro",false);show("result",true);
+  }
   return;
  }
  try{
