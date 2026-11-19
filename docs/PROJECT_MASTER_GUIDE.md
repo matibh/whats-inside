@@ -276,9 +276,9 @@ There are currently 19 unlock records in `user_achievements` (5 user accounts ex
 - **DONE — reward references checked:** all 24 non-null achievement reward IDs match active rows in `private.cosmetic_definitions`. Actual asset-file/browser rendering verification remains pending.
 - **DONE — country alias normalization:** `normalize_country_aliases_for_explorer_achievements` maps `Brasil` and `Brazil` to one country for Explorer metrics and recalculates current `countries_3` progress. Before this correction the ready catalog had 25 raw country labels; after normalization it has 24. No `countries_3` unlock had been granted, so no permanent unlock was revoked.
 
-- **DEPLOYED** — migration `group_product_categories_for_explorer_achievements` creates the private category map and updates `private.get_player_achievement_metrics`; 116/116 slugs mapped, 12 groups, 0 unmapped ready categories.
+- **DEPLOYED** — migration `group_product_categories_for_explorer_achievements` creates the private category map and updates `private.get_player_achievement_metrics`; 118/118 slugs mapped, 12 groups, 0 unmapped ready categories.
 - **TESTED (database)** — live metrics return macro-category counts; progress for both Explorer category achievements was recalculated. Existing unlock rows were retained and completed progress was preserved for already-unlocked achievements. Security Advisor now shows 12 expected RLS-enabled/no-policy informational findings (the new private mapping table adds one); the Free-plan leaked-password warning remains unchanged.
-- **DONE — Explorer macro-category taxonomy:** all 116 ready-product category slugs are explicitly mapped in `private.product_category_groups` to 12 broad groups: Beverages, Dairy & Desserts, Cookies & Bakery, Chocolate & Sweets, Savory Snacks, Sauces & Condiments, Canned & Preserved, Soups & Broths, Grains & Pasta, Prepared Foods, Spreads, and Pantry & Seasonings. The table is private, RLS-enabled, and has no client grants. `unique_categories` now counts these broad groups instead of 116 granular slugs; no current ready category is unmapped.
+- **DONE — Explorer macro-category taxonomy:** all 118 ready-product category slugs are explicitly mapped in `private.product_category_groups` to 12 broad groups: Beverages, Dairy & Desserts, Cookies & Bakery, Chocolate & Sweets, Savory Snacks, Sauces & Condiments, Canned & Preserved, Soups & Broths, Grains & Pasta, Prepared Foods, Spreads, and Pantry & Seasonings. The table is private, RLS-enabled, and has no client grants. `unique_categories` now counts these broad groups instead of 118 granular slugs; no current ready category is unmapped.
 - **DONE — category progress recalculated:** all existing `categories_3` / `categories_5` progress rows were recomputed using the 12-group taxonomy. The two already-unlocked achievements were preserved permanently and their displayed progress remains complete.
 - **NOTE** — 10 ready products have no country value; null countries are excluded from the distinct-country metric.
 
@@ -296,7 +296,7 @@ Implemented foundation:
 
 Pending audit and QA:
 - Cross-check all 50 criteria metric keys against the live metrics function; no missing metric keys found.
-- Implemented and verified the curated 12-group Explorer taxonomy covering all 116 current ready-product category slugs.
+- Implemented and verified the curated 12-group Explorer taxonomy covering all 118 current ready-product category slugs.
 - Complete threshold, streak/date-boundary, repeated-trigger, and concurrent-unlock tests.
 - Verify the eight legacy IDs remain in the catalog, current unlock references have no orphans, all 50 `points` values are 0, and the player-achievement RPC does not expose `points`.
 - Compare legacy unlock continuity against an authoritative historical snapshot if one is available; do not change achievement IDs or unlock rows without that evidence.
@@ -406,7 +406,7 @@ Follow this order. Do not skip ahead and leave foundations inconsistent.
 - [x] Implement private progress tracking and transactional idempotent unlock evaluation.
 - [x] Award linked cosmetics transactionally.
 - [x] Deploy authenticated achievement read endpoint and result-screen unlock notifications.
-- [x] Audit all criteria/metrics and implement the 12-group Explorer taxonomy (116/116 current category slugs mapped).
+- [x] Audit all criteria/metrics and implement the 12-group Explorer taxonomy (118/118 current category slugs mapped).
 - [x] Audit legacy IDs/unlock references and confirm `achievements.points` remains 0 with no read-RPC exposure.
 - [ ] Build/verify full achievement list, details and hidden states in browser.
 - [ ] Test all thresholds and edge cases.
@@ -936,6 +936,7 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **CREATED FROM SCRATCH:** 10 new US-market product variants were added to the private catalog. All 10 IDs were checked against both historical public product JSON files and have zero matches; none has appeared in the public repository snapshot.
 - **PRIVATE CATALOG FIRST:** added all 10 product records to `matibh/whats-inside-catalog/data/products-world.json`, 20 ingredient/image provenance records to `data/sources-world.json`, and full bilingual ingredient records to `data/catalog-master.md`. Updated private README counts and eligibility rules. The repository remains private.
 - **PRODUCTS / DATES:** Dec 27 Cinnamon Toast Crunch 12 oz; Dec 28 REESE'S PUFFS 11.5 oz; Dec 29 Jif Creamy Peanut Butter 16 oz; Dec 30 PLANTERS Salted Dry Roasted Peanuts 1.75 oz; Dec 31 Cheez-It Original 1.5 oz; Jan 1 Frank's RedHot Original 12 oz; Jan 2 French's Classic Yellow Mustard 8 oz; Jan 3 HERSHEY'S Milk Chocolate 1.55 oz; Jan 4 Mott's No Sugar Added Cinnamon Applesauce 3.2 oz; Jan 5 Pepperidge Farm Goldfish Cheddar 6.6 oz.
+- **CATEGORY MAPPING:** added `peanut_butter` to Spreads and `applesauce` to Canned & Preserved; reused existing categories for the other new products. Verified 118/118 ready-product category slugs mapped across the same 12 macro groups, with zero unmapped categories.
 - **BILINGUAL COMPLETENESS:** every product has a Spanish and English display name, description, and ingredient answer entries. Ingredient counts: 27, 31, 8, 14, 22, 5, 9, 8, 6, and 24 respectively. Every answer entry has Spanish, English, and aliases.
 - **SOURCE PROVENANCE:** manufacturer product/SmartLabel sources back the ingredient declarations; package images have separately recorded image-source provenance. Some image sources are retailers rather than manufacturers. The actual image URLs were visually inspected through source results, but app/browser rendering has not been tested.
 - **SUPABASE IMPORT:** inserted 10 new rows into `public.products` with `daily_eligible=true`, 10 matching master keys into `private.product_answers`, 10 scheduled `public.daily_challenges` rows, and 10 corresponding `private.daily_challenge_answers` rows copied from the master keys. No schema or RLS changes.
