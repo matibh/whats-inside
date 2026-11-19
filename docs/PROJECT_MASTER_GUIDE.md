@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-19 (Daily answer-key corrections and Practice return lifecycle audit)
+> **Last updated:** 2026-11-19 (10 additional Daily challenges scheduled)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -915,3 +915,15 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **DEFENSE IN DEPTH:** deployed `practice-answer-hashes` v1 independently applies the same Argentina-local date/status reservation check before issuing Practice answer hashes. `start-practice` also validates Daily reservations server-side.
 - **CACHE CAVEAT:** the browser's Practice preparation cache has a 20-minute lifetime. A tab using a previously prepared/cached product set may not display a newly returned Daily product until that cache is refreshed/expired; this does not change backend eligibility. The next catalog/hash preparation and server-side session validation remain authoritative.
 - **QA:** SQL verification confirmed 21/21 exact match for Havanna and 7/7 exact match for Sancor, with zero incomplete entries. Edge Function source inspection confirmed the lifecycle filters. No browser-midnight rollover test was performed.
+
+
+## 27. Ten additional Daily challenges — 2026-11-19
+
+- **SCHEDULED:** added 10 consecutive Argentina-market Daily challenges for 2026-12-17 through 2026-12-26. The existing 30 challenges remain intact; the schedule now contains 40 distinct dates and 40 distinct products, with no product reused.
+- **PRODUCTS / DATES:** Dec 17 A.1. Original Steak Sauce 10 oz; Dec 18 Ajinomoto Gyoza; Dec 19 Bonne Maman Strawberry Extra Jam; Dec 20 Cadbury Dairy Milk 45 g; Dec 21 Original Cheerios; Dec 22 Glico Tomato Pretz; Dec 23 Goya Black Beans; Dec 24 Haldiram's Aloo Bhujia; Dec 25 VEGEMITE Original; Dec 26 Whittaker's Peanut Slab.
+- **BILINGUAL DATA:** every scheduled row has a product image URL, Spanish and English challenge descriptions, and product names/descriptions in both `name_i18n` and `description_i18n`.
+- **ANSWER KEYS:** each new `private.daily_challenge_answers.ingredients` value was copied from that product's existing `private.product_answers.ingredients` master key. SQL verification confirmed exact equality for all 10 products. Ingredient entries were verified to contain English name, Spanish name, and aliases; counts range from 3 to 25.
+- **ELIGIBILITY:** only the 10 selected ready products were marked `daily_eligible=true`; no other catalog products were changed. Daily uniqueness and the existing expired-Daily → Practice return lifecycle remain unchanged.
+- **TIME WINDOW:** challenges use the existing Argentina Daily window, 00:00 to 00:00 local time (`03:00 UTC` boundaries for these December dates), status `scheduled`.
+- **SCOPE:** no frontend, Edge Function, timer, scoring, XP, achievement, session, or user-account changes. Product image URLs exist; actual image rendering/availability was not browser-tested. External manufacturer/technical sources were identified for the selected keys; this database audit is not a substitute for physical-packaging verification where market/variant differences may exist.
+- **QA:** SQL read-back confirmed 10/10 dates, unique products, bilingual metadata, non-empty image URLs, Daily keys present, exact master-key equality, and eligibility. Browser Daily gameplay and image-load QA remain pending.
