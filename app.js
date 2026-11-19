@@ -437,7 +437,11 @@ async function startDaily(){
   return data;
  }).catch(error=>{
   console.error("Daily session could not be created.",error);
-  if(gameActive){gameActive=false;if(timer)clearInterval(timer);show("game",false);show("intro",true);status("dailyStatus",error.message||t("wrong"),true)}
+  const alreadyPlayed=/already played today's Daily/i.test(error.message||"");
+  if(gameActive){gameActive=false;if(timer)clearInterval(timer);show("game",false);show("intro",true)}
+  if(alreadyPlayed){
+   dailyPlayed=true;dailyAnswerKey=null;setText("dailyTitle",t("already"));status("dailyStatus",t("already"));setText("dailyStart",t("already"));$("dailyStart").disabled=true;
+  }else status("dailyStatus",error.message||t("wrong"),true);
   setDailyNavigationLock(false);
   dailyStartPromise=null;throw error;
  });
