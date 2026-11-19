@@ -633,16 +633,16 @@ body{
  <button class="mode-tab" id="rankingTab">RANKINGS</button>
 </nav>
 <section class="panel" id="dailyPanel">
- <div class="eyebrow" id="dailyEyebrow">TODAY'S CHALLENGE</div><h2 id="dailyTitle">One product. Everyone plays the same one.</h2>
+<h2 id="dailyTitle">One product. Everyone plays the same one.</h2>
  <p id="dailyDescription">A new shared challenge every day. Your official attempt counts toward the leaderboard and your streak.</p>
  <div id="dailyProduct" class="product-card hidden"><div class="product-photo"><img id="dailyImage" alt="Mystery product" style="display:none"><span id="dailyPlaceholder" class="product-placeholder">MYSTERY PRODUCT</span></div><div class="product-info"><div class="eyebrow" id="dailyMarket">DAILY PRODUCT</div><h2 id="dailyName"></h2><p id="dailyDesc"></p></div></div>
- <div class="status" id="dailyStatus">Checking today's challenge…</div>
+
  <button class="btn primary" id="dailyStart" disabled>LOADING…</button>
  <div class="rules"><span class="rule"><i class="dot"></i><span id="dailyRuleTime">15 SECONDS</span></span><span class="rule"><i class="dot"></i><span id="dailyRulePoints">100 POINTS / INGREDIENT</span></span><span class="rule"><i class="dot"></i><span id="dailyRuleTry">ONE OFFICIAL TRY</span></span></div>
 </section>
 <section class="panel hidden" id="practicePanel">
- <div class="eyebrow" id="practiceEyebrow">GLOBAL PRACTICE</div><h2 id="practiceTitle">10 products. One practice run.</h2><p id="practiceDescription">A random mix from the full catalog. 15 seconds per product. Skip any product or stop whenever you want.</p>
- <div class="status" id="practiceStatus">Ten random products · 15 seconds each.</div><button class="btn primary" id="practiceStart" disabled>START PRACTICE ↗</button>
+<h2 id="practiceTitle">10 products. One practice run.</h2><p id="practiceDescription">A random mix from the full catalog. 15 seconds per product. Skip any product or stop whenever you want.</p>
+<button class="btn primary" id="practiceStart" disabled>START PRACTICE ↗</button>
 </section>
 <section class="game" id="game">
  <div class="practice-session-meta hidden" id="practiceProgress"><span id="practiceProgressLabel">PRODUCT</span> 1/10</div>
@@ -661,7 +661,7 @@ body{
 <footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
 </div>
 <div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
-<script type="module" src="./app.js?v=live-product-language-switch-20261118a"></script>
+<script type="module" src="./app.js?v=silent-loading-clean-ui-20261119a"></script>
 </body>
 </html>
 <style>.chip.good{background:#e5f0d9;color:var(--green)}.chip.bad{background:#f5e4df;color:var(--red)}.chip-mark{display:inline-block;margin-left:5px;font-weight:900;line-height:1}</style>
