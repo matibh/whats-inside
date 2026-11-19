@@ -876,3 +876,5 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **FIXED** — Daily's client submits with a 500 ms safety margin before the server's strict 15-second deadline, accounting for the timer tick and request transit. Server-side timing and one-attempt validation remain authoritative. Practice timer is unchanged.
 - **FIXED** — the result error state renders explicit empty-list placeholders instead of leaving YOU FOUND / YOU MISSED visually blank. On successful official submission, server-provided ingredient lists replace those placeholders.
 - **QA** — JavaScript syntax and source checks passed; deployed Edge Function versions and GitHub Actions are verified separately. Browser end-to-end QA remains pending.
+
+- **FOLLOW-UP FIX** — Daily's public challenge payload now includes the product ID as well as its public display metadata. The game view reuses the image URL that was already successfully preloaded for the Daily card, avoiding a second unnecessary image fetch when switching into the round.
