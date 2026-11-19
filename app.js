@@ -52,12 +52,18 @@ async function refreshPlayerProgression(){
   badge.classList.remove("hidden");
  }catch(e){badge.classList.add("hidden")}
 }
+let achievementCatalogCache=null,achievementCatalogPromise=null;
+async function getAchievementCatalog(){
+ if(achievementCatalogCache)return achievementCatalogCache;
+ if(!achievementCatalogPromise)achievementCatalogPromise=call("get-player-achievements").then(data=>(achievementCatalogCache=data.achievements||[],achievementCatalogCache)).catch(error=>{achievementCatalogPromise=null;throw error});
+ return achievementCatalogPromise;
+}
 async function renderAchievementUnlocks(ids){
  const node=$("achievementReward");if(!node)return;
  if(!Array.isArray(ids)||!ids.length){node.classList.add("hidden");node.textContent="";return}
  try{
-  const data=await call("get-player-achievements");
-  const byId=new Map((data.achievements||[]).map(a=>[a.id,a]));
+  const achievements=await getAchievementCatalog();
+  const byId=new Map(achievements.map(a=>[a.id,a]));
   const names=ids.map(id=>byId.get(id)?.name_i18n?.[lang]||id);
   node.textContent="";
   const label=document.createElement("span");label.className="achievement-label";
@@ -66,7 +72,23 @@ async function renderAchievementUnlocks(ids){
   node.append(label,title);node.classList.remove("hidden");
  }catch(e){node.classList.add("hidden")}
 }
-function refreshResultLanguage(){if(!lastResult||!$("result").classList.contains("active"))return;renderAchievementUnlocks(lastResult.unlocked||[]);const correct=Number(lastResult.correct_count??lastResult.attempt?.correct_count??0),total=Number(lastResult.total_ingredients??lastResult.attempt?.total_ingredients??0);setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("finalScore",String(Number(lastResult.score??lastResult.attempt?.score??0)));setText("percent",Math.round(correct/Math.max(1,total)*100)+"%");setText("resultSub",lastResult.practice?(lang==="es"?correct+" de "+total+" ingredientes encontrados · "+Number(lastResult.completed||0)+" de 10 productos jugados":correct+" of "+total+" ingredients found · "+Number(lastResult.completed||0)+" of 10 products played"):(lang==="es"?correct+" de "+total+" ingredientes encontrados":correct+" of "+total+" ingredients found"))}
+function refreshResultLanguage(){
+ if(!lastResult||!$("result").classList.contains("active"))return;
+ renderAchievementUnlocks(lastResult.unlocked||[]);
+ const correct=Number(lastResult.correct_count??lastResult.attempt?.correct_count??0),total=Number(lastResult.total_ingredients??lastResult.attempt?.total_ingredients??0);
+ setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");
+ setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");
+ setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");
+ setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");
+ setText("finalScore",String(Number(lastResult.score??lastResult.attempt?.score??0)));
+ setText("percent",Math.round(correct/Math.max(1,total)*100)+"%");
+ setText("resultSub",lastResult.practice?(lang==="es"?correct+" de "+total+" ingredientes encontrados · "+Number(lastResult.completed||0)+" de 10 productos jugados":correct+" of "+total+" ingredients found · "+Number(lastResult.completed||0)+" of 10 products played"):(lang==="es"?correct+" de "+total+" ingredientes encontrados":correct+" of "+total+" ingredients found"));
+ if(!lastResult.practice&&Array.isArray(lastResult.found)&&Array.isArray(lastResult.missed)){
+  renderAnswers("correctList",lastResult.found,false);
+  renderAnswers("missedList",lastResult.missed,true);
+  setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));
+ }
+}
 function updateLanguage(){
  document.documentElement.lang=lang;
  document.title=lang==="es"?"Ingredora — El juego de ingredientes de 15 segundos":"Ingredora — The 15-second ingredient game";
@@ -463,6 +485,6 @@ function typeIngredoraWordmark(){
  window.setTimeout(typeNext,350);
 }
 typeIngredoraWordmark();
-$("themeBtn").onclick=toggleTheme;$("rankingScope").value="today";$("langBtn").onclick=()=>{lang=lang==="en"?"es":"en";setText("langBtn",lang==="en"?"ES":"EN");updateLanguage();refreshPlayerProgression();refreshResultLanguage()};
+$("themeBtn").onclick=toggleTheme;$("rankingScope").value="today";$("langBtn").onclick=()=>{lang=lang==="en"?"es":"en";setText("langBtn",lang==="en"?"ES":"EN");updateLanguage();refreshPlayerProgression()};
 supabase.auth.onAuthStateChange((_event,newSession)=>{session=newSession;updateAccount();refreshPlayerProgression();checkDaily()});
 (async()=>{setMode("daily");const {data}=await supabase.auth.getSession();session=data.session;updateAccount();setText("langBtn","ES");updateLanguage();await Promise.all([checkDaily(),loadCatalog(),refreshPlayerProgression()]);})();
