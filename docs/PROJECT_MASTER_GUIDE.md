@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-19 (Daily metadata and timeout recovery fixes)
+> **Last updated:** 2026-11-19 (Daily answer-key corrections and Practice return lifecycle audit)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -904,3 +904,14 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - This does not add gameplay time: submissions arriving at the Edge Function after 15,000 ms are still rejected by `submit-daily`. Only backend processing latency after an on-time arrival is excluded.
 - Improved dark-theme contrast for the timer label, helper text, and numeric countdown with explicit light foreground colors.
 - Cache buster: `daily-timer-contrast-submit-race-20261119a`. SQL definition/grants and frontend CSS/cache were checked after the change. Browser QA remains pending.
+
+
+## 26. Daily answer-key corrections and Practice return lifecycle — 2026-11-19
+
+- **FIXED — Havanna Daily 2026-11-23:** replaced `private.daily_challenge_answers.ingredients` with the exact master answer key from `private.product_answers` for product `havanna-galletitas-limon-6u-ar`. The key now contains 21 ingredients.
+- **FIXED — Sancor Shake Daily 2026-11-28:** replaced the Daily answer key with the exact master key for `sancor-shake-chocolatada-1l-ar`. The key now contains 7 ingredients.
+- **VERIFIED:** both Daily JSON answer keys exactly equal their master `private.product_answers.ingredients` values; every entry has Spanish and English names plus an aliases array. No product metadata, challenge dates/status, scoring, timer, Practice answers, or user records were changed.
+- **VERIFIED — automatic Daily → Practice eligibility:** deployed `practice-catalog` v2 calculates the current date in `America/Argentina/Buenos_Aires` and excludes products only when they have a `scheduled` or `published` Daily challenge with `challenge_date >=` that local date. Once a Daily date is in the past, the product is automatically included in the next Practice catalog response; no manual move, delete, or status update is required.
+- **DEFENSE IN DEPTH:** deployed `practice-answer-hashes` v1 independently applies the same Argentina-local date/status reservation check before issuing Practice answer hashes. `start-practice` also validates Daily reservations server-side.
+- **CACHE CAVEAT:** the browser's Practice preparation cache has a 20-minute lifetime. A tab using a previously prepared/cached product set may not display a newly returned Daily product until that cache is refreshed/expired; this does not change backend eligibility. The next catalog/hash preparation and server-side session validation remain authoritative.
+- **QA:** SQL verification confirmed 21/21 exact match for Havanna and 7/7 exact match for Sancor, with zero incomplete entries. Edge Function source inspection confirmed the lifecycle filters. No browser-midnight rollover test was performed.
