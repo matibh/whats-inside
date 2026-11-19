@@ -375,6 +375,12 @@ async function finishGame(options={}){
   void (async()=>{
    try{
     await localValidationQueue;
+    const localCorrect=Number(roundCorrectCount)||0,localTotal=Number(currentAnswerKey?.total_ingredients)||0,localScore=Number(roundScore)||0;
+    lastResult={score:localScore,correct_count:localCorrect,total_ingredients:localTotal,provisional:true};
+    setText("foundCount",String(localCorrect));setText("score",String(localScore).padStart(3,"0"));
+    setText("percent",localTotal?Math.round(localCorrect/localTotal*100)+"%":"—");
+    setText("resultSub",lang==="es"?localCorrect+" de "+localTotal+" ingredientes encontrados":localCorrect+" of "+localTotal+" ingredients found");
+    setText("finalScore",String(localScore));
     const started=await dailyStartPromise;
     await flushDailySnapshots();
     const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id}});
