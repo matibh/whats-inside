@@ -1001,3 +1001,10 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 ## Daily Finish Early spacing — 19 Nov 2026
 - Reduced the top margin above the game action row from 24px to 12px, bringing `FINISH EARLY` closer to the guesses/count area without changing button styling, behavior, or game logic.
 - No browser QA performed.
+
+
+## Finish Early alignment and guesses spacing — 19 Nov 2026
+- Centered the Daily `FINISH EARLY` action horizontally and placed the no-pause note beneath it.
+- Tightened vertical spacing between the ingredient hint, feedback reserve, `YOUR GUESSES`, and the action button. No game logic, timer, scoring, or validation changed.
+- Updated the app.js cache buster in index.html.
+- Browser QA not performed.
