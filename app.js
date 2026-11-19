@@ -236,7 +236,7 @@ function addGuess(raw){
  guesses.push(value);
  const chip=document.createElement("span");chip.className="chip pending";chip.textContent=value;$("chips").append(chip);
  const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
- if((mode==="practice"&&currentAnswerKey?.hashToIndex)||(mode==="daily"&&currentAnswerKey?.hashToIndex)){
+ if((mode==="practice"||mode==="daily")&&currentAnswerKey?.hashToIndex){
   const answerKey=currentAnswerKey;
   const localCheck=(async()=>{
    const digests=await Promise.all(answers.map(answer=>hashPracticeGuess(answer,answerKey.salt)));
@@ -244,8 +244,10 @@ function addGuess(raw){
    const found=new Set(),matched=[],rejected=[];let combo=0,score=0;
    digests.forEach((digest,index)=>{
     const ingredientIndex=answerKey.hashToIndex.get(digest);
-    if(ingredientIndex===undefined||found.has(ingredientIndex)){rejected.push(answers[index]);combo=0;return}
-    found.add(ingredientIndex);matched.push(answers[index]);combo++;score+=100+(combo>1?50:0);
+    if(ingredientIndex===undefined){rejected.push(answers[index]);combo=0;return}
+    matched.push(answers[index]);
+    if(found.has(ingredientIndex)){if(mode==="practice"){rejected.push(answers[index]);combo=0}return}
+    found.add(ingredientIndex);combo++;score+=100+(combo>1?50:0);
    });
    const previousScore=roundScore;roundScore=score;roundCorrectCount=found.size;applyGuessFeedback(matched,rejected);
    setText("foundCount",String(found.size));setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
@@ -261,43 +263,6 @@ function addGuess(raw){
   }
   return;
  }
- if(mode==="practice"&&currentAnswerKey?.hashToIndex){
-  const answerKey=currentAnswerKey;
-  const localCheck=(async()=>{
-   const digests=await Promise.all(answers.map(answer=>hashPracticeGuess(answer,answerKey.salt)));
-   if(sequence!==validationSequence)return;
-   const found=new Set(),matched=[],rejected=[];let combo=0,score=0;
-   digests.forEach((digest,index)=>{
-    const ingredientIndex=answerKey.hashToIndex.get(digest);
-    if(ingredientIndex===undefined||found.has(ingredientIndex)){rejected.push(answers[index]);combo=0;return}
-    found.add(ingredientIndex);matched.push(answers[index]);combo++;score+=100+(combo>1?50:0);
-   });
-   const previousScore=roundScore;roundScore=score;roundCorrectCount=found.size;
-   applyGuessFeedback(matched,rejected);
-   setText("foundCount",String(found.size));
-   setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
-   const isCorrect=matched.some(x=>normalizeGuess(x)===normalizeGuess(latest));
-   if(isCorrect){
-    const gained=Math.max(0,roundScore-previousScore);
-    setText("feedback",lang==="es"?"¡Correcto! +"+gained+" puntos":"Correct! +"+gained+" points");
-    $("feedback").classList.remove("bad");
-   }else{
-    setText("feedback",t("incorrectFeedback"));
-    $("feedback").classList.add("bad");
-   }
-  })().catch(error=>{
-   if(sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}
-  });
-  localValidationQueue=localCheck;
-  const practiceRef=practiceSession,productId=selectedProduct?.id;
-  const serverSnapshot=queuePracticeSync(async()=>{
-   const serverSession=await practiceRef.ready;
-   return call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:serverSession.session_id,product_id:productId,answers}});
-  },"answer snapshot");
-  pendingValidations.push(serverSnapshot);
-  validationQueue=Promise.allSettled(pendingValidations);
-  return;
- }
  const request=(async()=>{
   try{
    const data=await call("validate-ingredient",{method:"POST",body:{mode,session_id:mode==="daily"?window.dailySessionId:practiceSession?.id,product_id:mode==="practice"?selectedProduct?.id:undefined,answers}});
@@ -305,22 +270,12 @@ function addGuess(raw){
    applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
    const isCorrect=(data.matched_answers||[]).some(x=>normalizeGuess(x)===normalizeGuess(latest));
    const previousScore=roundScore;roundScore=Number(data.score)||0;
-   setText("foundCount",String(data.correct_count||0));
-   setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
-   if(isCorrect){
-    const gained=Math.max(0,roundScore-previousScore);
-    setText("feedback",lang==="es"?"¡Correcto! +"+gained+" puntos":"Correct! +"+gained+" points");
-    $("feedback").classList.remove("bad");
-   }else{
-    setText("feedback",t("incorrectFeedback"));
-    $("feedback").classList.add("bad");
-   }
-  }catch(error){
-   if(gameActive&&sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}
-  }
+   setText("foundCount",String(data.correct_count||0));setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
+   if(isCorrect){const gained=Math.max(0,roundScore-previousScore);setText("feedback",lang==="es"?"¡Correcto! +"+gained+" puntos":"Correct! +"+gained+" points");$("feedback").classList.remove("bad")}
+   else{setText("feedback",t("incorrectFeedback"));$("feedback").classList.add("bad")}
+  }catch(error){if(gameActive&&sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}}
  })();
- pendingValidations.push(request);
- validationQueue=Promise.allSettled(pendingValidations);
+ pendingValidations.push(request);validationQueue=Promise.allSettled(pendingValidations);
 }
 $("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
 $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
