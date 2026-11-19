@@ -878,3 +878,12 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **QA** — JavaScript syntax and source checks passed; deployed Edge Function versions and GitHub Actions are verified separately. Browser end-to-end QA remains pending.
 
 - **FOLLOW-UP FIX** — Daily's public challenge payload now includes the product ID as well as its public display metadata. The game view reuses the image URL that was already successfully preloaded for the Daily card, avoiding a second unnecessary image fetch when switching into the round.
+
+## 23. Daily timer and atomic results transition — 2026-11-19
+
+- **TIMER:** removed the Daily-only 14.5-second early cutoff. Daily now counts down through 1 to 0 and calls finish at 0 (15 seconds from the local click timestamp). Practice timer behavior is unchanged.
+- **RESULT TRANSITION:** Daily no longer waits for the local hash-validation promise before submitting the final answer snapshot. It submits directly to the authoritative `submit-daily` endpoint when the timer reaches zero.
+- **ATOMIC UI:** the result screen is not revealed with empty ingredient lists. The game screen remains visible at 0 while the official submission is processed; after the server returns, score, percentage, found list, missed list, progression and achievements are populated before the result screen is shown. Error state also transitions as one complete screen.
+- **SECURITY / GAME RULES:** no answer strings or aliases were added to the client. `submit-daily` still validates the session against the server-side 15,000 ms limit and remains authoritative for score, found/missed lists, attempt consumption and progression. No server function, database, XP, achievement or Practice behavior was changed.
+- **CACHE BUSTER:** `app.js?v=daily-zero-atomic-results-20261119a`.
+- **QA:** JavaScript parser check passed before commit. GitHub Pages deployment and authenticated browser timing/network QA remain pending; do not claim the visual behavior is browser-verified.
