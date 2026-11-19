@@ -996,3 +996,8 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Follow-up to the Rankings navigation cleanup: the first app.js commit was not accompanied by an index.html cache-buster update, so clients could continue loading the cached prior app.js and still show the Daily result under Rankings.
 - Updated the app.js query string in index.html to `rankings-screen-cleanup-20261119b` so the screen-visibility fix is fetched.
 - Browser QA remains pending.
+
+
+## Daily Finish Early spacing — 19 Nov 2026
+- Reduced the top margin above the game action row from 24px to 12px, bringing `FINISH EARLY` closer to the guesses/count area without changing button styling, behavior, or game logic.
+- No browser QA performed.
