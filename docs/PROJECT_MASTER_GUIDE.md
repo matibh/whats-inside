@@ -18,7 +18,7 @@ Core game modes:
 - **Practice:** a session of products for non-Daily play, with server-validated attempts.
 - **Rankings:** public competitive ranking based on eligible game results.
 
-The long-term account/progression experience consists of six areas:
+The long-term account/progression experience may eventually consist of six areas (Profile, Achievements, Levels & XP, Cosmetics, Statistics, Activity). For production v1, achievements and achievement-linked cosmetics are deferred; only the approved active game/progression features remain.
 1. Profile
 2. Achievements
 3. Levels & XP
@@ -37,8 +37,8 @@ The long-term account/progression experience consists of six areas:
 | Progression | XP and levels |
 | Public activity | Yes |
 | Account requirement | Account required to play and save progress; no guest progression |
-| Achievements | Permanent unlocks |
-| Achievement rewards | Cosmetic only |
+| Achievements | Deferred entirely to the next product version; no achievement UI, unlock evaluation, or rewards in production v1 |
+| Achievement rewards | Deferred with achievements; no achievement cosmetics awarded in production v1 |
 | XP from achievements | None; avoid double rewards |
 | Social features | No clans, friends, DMs, or achievement rankings |
 | Economy | No coins or shop |
@@ -944,3 +944,13 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **VERIFICATION:** all 10 product IDs were absent from the public historical snapshot before import; SQL read-back confirmed 10/10 dates, 10 distinct new products, bilingual metadata, non-empty image URLs, `daily_eligible=true`, zero incomplete ingredient entries, and exact equality between each Daily key and its private master key. Full schedule currently has 50 rows across 50 dates and 50 unique product IDs.
 - **IMPORTANT REMAINING REMEDIATION:** the separate 2026-12-17–2026-12-26 batch remains non-compliant because all 10 products are in the historical public snapshot. It was not modified in this operation. Replace those 10 with new private-only products before their dates; do not delete historical Daily records without an explicit replacement plan.
 - **SCOPE:** no frontend, Edge Functions, timer, scoring, XP, achievements, user records, or Practice code changed. Browser Daily gameplay and rendered image QA remain pending.
+
+
+## Production v1 scope correction — achievements deferred
+
+- **PRODUCT DECISION (2026-11-19):** all achievements are postponed to the next product version. Production v1 must not show achievement unlock messages, achievement lists, achievement indicators, or achievement reward notifications.
+- **FRONTEND:** removed the result-screen achievement renderer and its call to `get-player-achievements`; removed the `achievementReward` element and achievement-specific styling. Daily and Practice result screens retain score, ingredient lists, and existing XP/progression display.
+- **BACKEND:** disabled achievement evaluation inside `public.complete_daily_attempt` and `public.complete_practice_round`. The RPCs return an empty `unlocked` array for backward compatibility. XP, scores, combos, 15-second limits, attempts, stats, ingredient mastery, and Practice completion bonus remain unchanged.
+- **DATA PRESERVATION:** existing achievement definitions, progress rows, unlock rows, cosmetics, and user records were not deleted or modified. The feature is dormant for v1 and can be re-enabled in a later version.
+- **EDGE FUNCTIONS:** existing submit functions may continue forwarding an empty `unlocked` array; no achievement content is exposed to the frontend and no new unlock evaluation occurs.
+- **QA:** static source and SQL verification performed; browser gameplay regression remains pending.
