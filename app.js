@@ -362,27 +362,36 @@ async function finishGame(options={}){
   setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");
   $("youMissed").style.display="";$("missedList").style.display="";$("correctList").innerHTML="";$("missedList").innerHTML="";
   setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));
-  try{
-   const started=await dailyStartPromise;
-   await flushDailySnapshots();
-   const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id}});
-   lastResult={...data,xpEarned:Number(data.progression?.xp_awarded)||0};
-   if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();
-   applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
-   const found=data.found||[],missed=data.missed||[],correctCount=data.correct_count??data.attempt?.correct_count??found.length,totalCount=data.total_ingredients??data.attempt?.total_ingredients??found.length+missed.length,finalScore=data.score??data.attempt?.score??0;
-   setText("foundCount",String(correctCount));setText("score",String(finalScore).padStart(3,"0"));
-   setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");
-   setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");
-   setText("finalScore",String(finalScore));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);
-   show("game",false);show("intro",false);show("result",true);
-   checkDaily().catch(error=>console.warn("Daily refresh after result failed.",error));
-  }catch(e){
-   console.error("Daily result sync failed.",e);lastResult=null;dailyStartPromise=null;window.dailySessionId=null;
-   renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
-   setText("resultTitle",t("wrong"));setText("percent","—");setText("finalScore","—");setText("foundCount","0");setText("score","000");
-   setText("resultSub",lang==="es"?"No se pudo confirmar el resultado oficial. El puntaje no se guardó. Podés volver a intentarlo. "+e.message:"The official result could not be confirmed. The score was not saved. You can try again. "+e.message);
-   show("game",false);show("intro",false);show("result",true);
-  }
+  // Render the Daily result immediately from the local answer state. Network work continues below.
+  const provisionalCorrect=Number(roundCorrectCount)||0;
+  const provisionalTotal=Number(currentAnswerKey?.total_ingredients)||0;
+  const provisionalScore=Number(roundScore)||0;
+  lastResult={score:provisionalScore,correct_count:provisionalCorrect,total_ingredients:provisionalTotal,provisional:true};
+  setText("foundCount",String(provisionalCorrect));setText("score",String(provisionalScore).padStart(3,"0"));
+  setText("percent",provisionalTotal?Math.round(provisionalCorrect/provisionalTotal*100)+"%":"—");
+  setText("resultSub",lang==="es"?provisionalCorrect+" de "+provisionalTotal+" ingredientes encontrados":provisionalCorrect+" of "+provisionalTotal+" ingredients found");
+  setText("finalScore",String(provisionalScore));renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
+  show("game",false);show("intro",false);show("result",true);
+  void (async()=>{
+   try{
+    await localValidationQueue;
+    const started=await dailyStartPromise;
+    await flushDailySnapshots();
+    const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id}});
+    lastResult={...data,xpEarned:Number(data.progression?.xp_awarded)||0};
+    if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();
+    applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
+    const found=data.found||[],missed=data.missed||[],correctCount=data.correct_count??data.attempt?.correct_count??found.length,totalCount=data.total_ingredients??data.attempt?.total_ingredients??found.length+missed.length,finalScore=data.score??data.attempt?.score??0;
+    setText("foundCount",String(correctCount));setText("score",String(finalScore).padStart(3,"0"));
+    setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");
+    setText("resultSub",lang==="es"?correctCount+" de "+totalCount+" ingredientes encontrados":correctCount+" of "+totalCount+" ingredients found");
+    setText("finalScore",String(finalScore));renderAnswers("correctList",found,false);renderAnswers("missedList",missed,true);
+    checkDaily().catch(error=>console.warn("Daily refresh after result failed.",error));
+   }catch(e){
+    console.error("Daily result sync failed.",e);
+    setText("resultSub",lang==="es"?"Resultado pendiente de confirmación del servidor. "+e.message:"Result pending server confirmation. "+e.message);
+   }
+  })();
   return;
  }
  try{
