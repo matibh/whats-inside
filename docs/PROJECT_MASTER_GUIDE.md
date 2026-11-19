@@ -1014,3 +1014,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Follow-up after the first spacing change was not visible to the user. Added a final cascade override at the end of the stylesheet so later page styles cannot supersede it.
 - The hint/feedback/guesses/action stack is now compact; empty feedback no longer reserves a fixed-height blank row. Finish Early is centered as a vertical action.
 - Bumped app.js query string again. No game logic or scoring changed. Browser/Pages deployment not independently verified.
+
+
+## Daily navigation lock — 19 Nov 2026
+- Starting a Daily round disables all three mode tabs: Daily, Practice, and Rankings, preventing navigation away from the active Daily attempt or its result.
+- The tabs remain locked on the Daily result screen; the existing Back action returns to the Daily landing panel and unlocks navigation.
+- If server-side Daily session creation fails, navigation is unlocked so the user is not trapped.
+- Practice navigation locking and all timers, scoring, validation, and submission behavior remain unchanged.
+- Updated the app.js cache buster. Browser QA and Pages deployment verification remain pending.
