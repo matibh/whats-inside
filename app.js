@@ -245,9 +245,8 @@ function addGuess(raw){
    digests.forEach((digest,index)=>{
     const ingredientIndex=answerKey.hashToIndex.get(digest);
     if(ingredientIndex===undefined){rejected.push(answers[index]);combo=0;return}
-    matched.push(answers[index]);
-    if(found.has(ingredientIndex)){if(mode==="practice"){rejected.push(answers[index]);combo=0}return}
-    found.add(ingredientIndex);combo++;score+=100+(combo>1?50:0);
+    if(found.has(ingredientIndex)){if(mode==="daily")matched.push(answers[index]);else{rejected.push(answers[index]);combo=0}return}
+    matched.push(answers[index]);found.add(ingredientIndex);combo++;score+=100+(combo>1?50:0);
    });
    const previousScore=roundScore;roundScore=score;roundCorrectCount=found.size;applyGuessFeedback(matched,rejected);
    setText("foundCount",String(found.size));setText("score",String((practiceSession?.score||0)+roundScore).padStart(3,"0"));
