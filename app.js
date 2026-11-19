@@ -101,7 +101,11 @@ let dailyPlayed=false;let dailyAnswerKey=null;let dailyStartPromise=null;let dai
 async function checkDaily(){
  dailyPlayed=false;dailyAnswerKey=null;dailyImageReady=false;dailyImageObject=null;dailyImageLoading=false;
  try{
-  const data=await call("daily-challenge");challenge=data.challenge||null;dailyPlayed=!!data.played;dailyAnswerKey=data.answer_key&&typeof data.answer_key.salt==="string"&&Array.isArray(data.answer_key.hashes)&&data.answer_key.hashes.length&&Number(data.answer_key.total_ingredients)>0?{salt:data.answer_key.salt,total_ingredients:Number(data.answer_key.total_ingredients),hashToIndex:new Map(data.answer_key.hashes.map(x=>[x.hash,Number(x.index)]))}:null;
+  const data=await call("daily-challenge");challenge=data.challenge||null;dailyPlayed=!!data.played;dailyAnswerKey=null;
+  if(data.answer_key&&typeof data.answer_key.salt==="string"&&Array.isArray(data.answer_key.hashes)&&data.answer_key.hashes.length&&Number(data.answer_key.total_ingredients)>0){
+   const hashToIndex=new Map();data.answer_key.hashes.forEach(x=>{if(!hashToIndex.has(x.hash))hashToIndex.set(x.hash,Number(x.index))});
+   dailyAnswerKey={salt:data.answer_key.salt,total_ingredients:Number(data.answer_key.total_ingredients),hashToIndex};
+  }
   if(challenge){
    renderChallenge();
    if(challenge.image_url){
