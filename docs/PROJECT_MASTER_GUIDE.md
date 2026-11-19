@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-19 (10 additional Daily challenges scheduled)
+> **Last updated:** 2026-11-19 (10 new private-only US Daily products added and scheduled)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -927,3 +927,19 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **TIME WINDOW:** challenges use the existing Argentina Daily window, 00:00 to 00:00 local time (`03:00 UTC` boundaries for these December dates), status `scheduled`.
 - **SCOPE:** no frontend, Edge Function, timer, scoring, XP, achievement, session, or user-account changes. Product image URLs exist; actual image rendering/availability was not browser-tested. External manufacturer/technical sources were identified for the selected keys; this database audit is not a substitute for physical-packaging verification where market/variant differences may exist.
 - **QA:** SQL read-back confirmed 10/10 dates, unique products, bilingual metadata, non-empty image URLs, Daily keys present, exact master-key equality, and eligibility. Browser Daily gameplay and image-load QA remain pending.
+
+- **POST-AUDIT CORRECTION — IMPORTANT:** the 10 products scheduled for 2026-12-17 through 2026-12-26 were pre-existing catalog records, not newly curated products created from scratch in the private catalog. All 10 IDs were confirmed present in the historical public repository snapshot. They therefore violate the Practice-only rule for the public historical 200-product baseline. They were not deleted or rescheduled during the 2026-11-19 follow-up; they remain scheduled pending a separate replacement operation. Do not treat this batch as a compliant Daily precedent.
+
+
+## 28. Ten new private-only US Daily products — 2026-11-19
+
+- **CREATED FROM SCRATCH:** 10 new US-market product variants were added to the private catalog. All 10 IDs were checked against both historical public product JSON files and have zero matches; none has appeared in the public repository snapshot.
+- **PRIVATE CATALOG FIRST:** added all 10 product records to `matibh/whats-inside-catalog/data/products-world.json`, 20 ingredient/image provenance records to `data/sources-world.json`, and full bilingual ingredient records to `data/catalog-master.md`. Updated private README counts and eligibility rules. The repository remains private.
+- **PRODUCTS / DATES:** Dec 27 Cinnamon Toast Crunch 12 oz; Dec 28 REESE'S PUFFS 11.5 oz; Dec 29 Jif Creamy Peanut Butter 16 oz; Dec 30 PLANTERS Salted Dry Roasted Peanuts 1.75 oz; Dec 31 Cheez-It Original 1.5 oz; Jan 1 Frank's RedHot Original 12 oz; Jan 2 French's Classic Yellow Mustard 8 oz; Jan 3 HERSHEY'S Milk Chocolate 1.55 oz; Jan 4 Mott's No Sugar Added Cinnamon Applesauce 3.2 oz; Jan 5 Pepperidge Farm Goldfish Cheddar 6.6 oz.
+- **BILINGUAL COMPLETENESS:** every product has a Spanish and English display name, description, and ingredient answer entries. Ingredient counts: 27, 31, 8, 14, 22, 5, 9, 8, 6, and 24 respectively. Every answer entry has Spanish, English, and aliases.
+- **SOURCE PROVENANCE:** manufacturer product/SmartLabel sources back the ingredient declarations; package images have separately recorded image-source provenance. Some image sources are retailers rather than manufacturers. The actual image URLs were visually inspected through source results, but app/browser rendering has not been tested.
+- **SUPABASE IMPORT:** inserted 10 new rows into `public.products` with `daily_eligible=true`, 10 matching master keys into `private.product_answers`, 10 scheduled `public.daily_challenges` rows, and 10 corresponding `private.daily_challenge_answers` rows copied from the master keys. No schema or RLS changes.
+- **SCHEDULE:** 2026-12-27 through 2027-01-05, one product per day, Argentina local midnight to midnight, status `scheduled`, market `Argentina`.
+- **VERIFICATION:** all 10 product IDs were absent from the public historical snapshot before import; SQL read-back confirmed 10/10 dates, 10 distinct new products, bilingual metadata, non-empty image URLs, `daily_eligible=true`, zero incomplete ingredient entries, and exact equality between each Daily key and its private master key. Full schedule currently has 50 rows across 50 dates and 50 unique product IDs.
+- **IMPORTANT REMAINING REMEDIATION:** the separate 2026-12-17–2026-12-26 batch remains non-compliant because all 10 products are in the historical public snapshot. It was not modified in this operation. Replace those 10 with new private-only products before their dates; do not delete historical Daily records without an explicit replacement plan.
+- **SCOPE:** no frontend, Edge Functions, timer, scoring, XP, achievements, user records, or Practice code changed. Browser Daily gameplay and rendered image QA remain pending.
