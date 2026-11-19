@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-19 (Daily local-first interaction)
+> **Last updated:** 2026-11-19 (Daily metadata and timeout recovery fixes)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -868,3 +868,11 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **UNCHANGED** — Practice code path, scoring formula, Daily XP values, one-attempt policy, timer duration, database schema and transactional completion RPC.
 - **LIMITATION** — salted hashes are susceptible to dictionary guessing; do not describe them as strong secrecy.
 - **QA** — syntax and deployment checks recorded separately. Authenticated browser gameplay, slow-network, offline, replay and duplicate-submission tests remain pending.
+
+## 22. Daily product metadata and timeout recovery — 2026-11-19
+
+- **FIXED** — `daily-challenge` now includes the public product name, market label and bilingual descriptions in its challenge metadata. It still does not expose ingredient answers; aliases remain available only as salted hashes to authenticated eligible players.
+- **FIXED** — `start-daily` can replace an expired, unconsumed session only after confirming there is no saved Daily attempt. A consumed session or existing attempt remains non-replayable. This recovers abandoned sessions without allowing a second official attempt.
+- **FIXED** — Daily's client submits with a 500 ms safety margin before the server's strict 15-second deadline, accounting for the timer tick and request transit. Server-side timing and one-attempt validation remain authoritative. Practice timer is unchanged.
+- **FIXED** — the result error state renders explicit empty-list placeholders instead of leaving YOU FOUND / YOU MISSED visually blank. On successful official submission, server-provided ingredient lists replace those placeholders.
+- **QA** — JavaScript syntax and source checks passed; deployed Edge Function versions and GitHub Actions are verified separately. Browser end-to-end QA remains pending.
