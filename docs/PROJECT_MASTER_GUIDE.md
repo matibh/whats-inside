@@ -1008,3 +1008,9 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - Tightened vertical spacing between the ingredient hint, feedback reserve, `YOUR GUESSES`, and the action button. No game logic, timer, scoring, or validation changed.
 - Updated the app.js cache buster in index.html.
 - Browser QA not performed.
+
+
+## Finish Early follow-up layout correction — 19 Nov 2026
+- Follow-up after the first spacing change was not visible to the user. Added a final cascade override at the end of the stylesheet so later page styles cannot supersede it.
+- The hint/feedback/guesses/action stack is now compact; empty feedback no longer reserves a fixed-height blank row. Finish Early is centered as a vertical action.
+- Bumped app.js query string again. No game logic or scoring changed. Browser/Pages deployment not independently verified.
