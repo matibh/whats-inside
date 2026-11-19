@@ -210,18 +210,44 @@ function persistPracticeCache(prepared){
 let pendingValidations=[];let validatedIngredientIndexes=new Set();let comboStreak=0;let roundScore=0;let roundCorrectCount=0;let localValidationQueue=Promise.resolve();let validationQueue=Promise.resolve();let validationSequence=0;let currentAnswerKey=[];let practiceAnswerKeys={};let practicePrepared=restorePracticeCache();let practicePreparing=false;let practiceStartRequested=false;let practiceImageCache={};let practiceSyncQueue=Promise.resolve();
 function queuePracticeSync(task,label){
  const run=practiceSyncQueue.then(async()=>{
-  for(let attempt=0;attempt<4;attempt++){
+  for(let attempt=0;attempt<3;attempt++){
    try{return await task()}
    catch(error){
-    const transient=/Failed to fetch|NetworkError|Request failed \((?:408|429|5\d\d)\)/i.test(String(error?.message||error));
-    if(!transient||attempt===3){console.warn("Practice background sync failed:",label,error);return null}
-    await new Promise(resolve=>setTimeout(resolve,[250,700,1500][attempt]));
+    const transient=/Failed to fetch|NetworkError|Request failed \((?:429|502|503|504)\)/i.test(String(error?.message||error));
+    if(!transient||attempt===2){console.warn("Practice background sync failed:",label,error);return null}
+    await new Promise(resolve=>setTimeout(resolve,[250,700][attempt]));
    }
   }
   return null;
  });
  practiceSyncQueue=run.then(()=>undefined,()=>undefined);
  return run;
+}
+let pendingPracticeSnapshot=null,practiceSnapshotScheduled=false;
+function schedulePracticeSnapshot(snapshot){
+ pendingPracticeSnapshot=snapshot;
+ if(practiceSnapshotScheduled)return;
+ practiceSnapshotScheduled=true;
+ queuePracticeSync(async()=>{
+  const current=pendingPracticeSnapshot;
+  pendingPracticeSnapshot=null;
+  if(!current)return null;
+  if(Date.now()-current.roundStartedAt>=15000){
+   if(pendingPracticeSnapshot?.productId===current.productId)pendingPracticeSnapshot=null;
+   return null;
+  }
+  const serverSession=await current.sessionRef.ready;
+  try{
+   return await call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:serverSession.session_id,product_id:current.productId,answers:current.answers}});
+  }catch(error){
+   console.warn("Practice answer snapshot was not accepted:",error);
+   if(/Request failed \((?:408|409|410)\)/i.test(String(error?.message||error))&&pendingPracticeSnapshot?.productId===current.productId)pendingPracticeSnapshot=null;
+   return null;
+  }
+ },"answer snapshot").finally(()=>{
+  practiceSnapshotScheduled=false;
+  if(pendingPracticeSnapshot)schedulePracticeSnapshot(pendingPracticeSnapshot);
+ });
 }
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
 function applyGuessFeedback(matchedAnswers=[],rejectedAnswers=[]){
@@ -261,10 +287,8 @@ function addGuess(raw){
    else{setText("feedback",t("incorrectFeedback"));$("feedback").classList.add("bad")}
   })().catch(error=>{if(sequence===validationSequence){setText("feedback",error.message||t("wrong"));$("feedback").classList.add("bad")}});
   localValidationQueue=localCheck;
-  if(mode==="practice"){
-   const practiceRef=practiceSession,productId=selectedProduct?.id;
-   const serverSnapshot=queuePracticeSync(async()=>{const serverSession=await practiceRef.ready;return call("validate-ingredient",{method:"POST",body:{mode:"practice",session_id:serverSession.session_id,product_id:productId,answers}});},"answer snapshot");
-   pendingValidations.push(serverSnapshot);validationQueue=Promise.allSettled(pendingValidations);
+  if(mode==="practice"&&gameActive&&Date.now()-startedAt<15000){
+   schedulePracticeSnapshot({sessionRef:practiceSession,productId:selectedProduct?.id,answers,roundStartedAt:startedAt});
   }
   return;
  }
@@ -287,7 +311,7 @@ $("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preven
 async function finishGame(options={}){
  if(!gameActive)return;
  addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);
- if(mode==="practice"&&practiceSession){await localValidationQueue;completePracticeRound({skipped:!!options.skip,stop:!!options.stop});return}
+ if(mode==="practice"&&practiceSession){const immediate=!!options.stop||practiceSession.index>=9;completePracticeRound({skipped:!!options.skip,stop:!!options.stop,immediate});return}
  setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");
  if(mode==="daily"){
   const answers=[...guesses];
@@ -384,10 +408,10 @@ function startPracticeRound(localStartedAt=Date.now()){
  setText("score",String(practiceSession.score).padStart(3,"0"));
  startGame(localStartedAt);
 }
-async function completePracticeRound({skipped=false,stop=false}={}){
+async function completePracticeRound({skipped=false,stop=false,immediate=false}={}){
  const product=selectedProduct,s=practiceSession;
  if(!s)return;
- await localValidationQueue;
+ if(!immediate)await localValidationQueue;
  if(practiceSession!==s)return;
  const name=product.name_i18n?.[lang]||product.name;
  const answers=[...guesses];
@@ -399,7 +423,23 @@ async function completePracticeRound({skipped=false,stop=false}={}){
  const elapsed=Math.min(15000,rawElapsed);
  s.score+=score;s.correct+=correct;s.total+=total;s.completed++;
  if(skipped){s.skipped++;s.skippedProducts.push(name)}
- s.rounds.push({productId:product.id,name,score,correct,total,skipped,error:null});
+ const roundRecord={productId:product.id,name,score,correct,total,skipped,error:null,serverReconciled:false};
+ s.rounds.push(roundRecord);
+ if(immediate){
+  localValidationQueue.then(()=>{
+   if(roundRecord.serverReconciled||lateSkip)return;
+   roundRecord.score=Number(roundScore)||0;roundRecord.correct=Number(roundCorrectCount)||0;
+   s.score=s.rounds.reduce((sum,round)=>sum+round.score,0);
+   s.correct=s.rounds.reduce((sum,round)=>sum+round.correct,0);
+   s.total=s.rounds.reduce((sum,round)=>sum+round.total,0);
+   if(lastResult?.sessionRef===s){
+    lastResult.score=s.score;lastResult.correct_count=s.correct;lastResult.total_ingredients=s.total;
+    setText("finalScore",String(s.score));setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");
+    setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");
+    renderPracticeScores(s.rounds);
+   }
+  });
+ }
  setText("score",String(s.score).padStart(3,"0"));
  if(skipped)status("feedback",t("productSkipped"));
  else status("feedback",correct+(lang==="es"?" ingredientes correctos":" correct ingredients"));
@@ -414,6 +454,7 @@ async function completePracticeRound({skipped=false,stop=false}={}){
   
   const savedRound=s.rounds.find(round=>round.productId===product.id);
   if(savedRound){
+   savedRound.serverReconciled=true;
    savedRound.score=Number(data.score)||0;savedRound.correct=Number(data.correct_count)||0;
    savedRound.total=Number(data.total_ingredients)||savedRound.total;
   }
