@@ -2,7 +2,7 @@
 
 > **Purpose:** this is the working source of truth for project decisions, implementation status, security constraints, pending work, and the order of execution. Read it before making changes and update it in the same work session whenever a decision, implementation, migration, deployment, or test changes the project state.
 >
-> **Last updated:** 2026-11-18 (Ingredora social media strategy)
+> **Last updated:** 2026-11-19 (silent Daily/Practice loading UI)
 > **Repository:** `matibh/whats-inside` (public frontend, branch `main`)  
 > **Private catalog:** `matibh/whats-inside-catalog` (must remain private)  
 > **Product name:** Ingredora (formerly Whatsinside)
@@ -849,3 +849,13 @@ Work continued after the first guide commit. XP, achievements and cosmetics are 
 - **RESEARCH SNAPSHOT:** compiled on 2026-11-18. Includes DataReportal Digital 2027: Argentina (late-2026 figures available at publication) plus official platform guidance from YouTube, TikTok, Meta/Instagram/Facebook and X. Source links and caveats are included in the strategy document.
 - **PRODUCT ACCURACY:** the document distinguishes current public gameplay from deferred Profile/Achievements/Cosmetics UI. It instructs social content not to expose private catalog answer keys or imply unavailable features.
 - **STATUS:** documentation only. No application code, database schema, Supabase function, catalog data, gameplay rules or user records were modified. The calendar begins 2026-11-19 and is a proposed schedule, not a published content plan.
+
+
+## 20. Daily and Practice silent loading UI — 2026-11-19
+
+- USER REQUEST: Daily may continue checking the challenge, loading product metadata, and verifying/preloading its image, but must not show transient status text such as “Checking today's challenge…” or “The mystery is still preparing.” Practice may continue loading the catalog and preparing its product/hash set, but must not display the helper line “Ten random products · 15 seconds each.”
+- REMOVED FROM THE VISIBLE UI: the Daily status line, Practice status line, Daily eyebrow “TODAY'S CHALLENGE”, and Practice eyebrow “GLOBAL PRACTICE”. The mode titles, descriptions, game controls, and all other copy remain unchanged.
+- INTERNAL BEHAVIOR PRESERVED: checkDaily(), renderChallenge(), loadCatalog(), preparePracticeSession(), image preloading, answer-hash preparation, button readiness/disabled state, and error/status assignments in JavaScript were not redesigned. The status helper safely no-ops when those removed status elements are absent. Loading and checking continue; only their on-screen announcements are removed.
+- SCOPE: frontend presentation only. No Daily or Practice validation, scoring, answer keys, timers, session creation, API/Edge Function, database, catalog, or user data changes.
+- CACHE BUSTER: app.js?v=silent-loading-clean-ui-20261119a.
+- QA STATUS: pending full JavaScript syntax validation, HTML/source checks, GitHub Pages deployment verification, and browser QA. Do not claim browser behavior verified until tested.
