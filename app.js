@@ -249,6 +249,47 @@ function schedulePracticeSnapshot(snapshot){
   if(pendingPracticeSnapshot)schedulePracticeSnapshot(pendingPracticeSnapshot);
  });
 }
+let pendingDailySnapshot=null,dailySnapshotTask=null,dailyServerAlignedStartAt=0;
+function scheduleDailySnapshot(snapshot){
+ pendingDailySnapshot=snapshot;
+ if(dailySnapshotTask)return dailySnapshotTask;
+ const run=async()=>{
+  while(pendingDailySnapshot){
+   const current=pendingDailySnapshot;
+   pendingDailySnapshot=null;
+   if(Date.now()-current.roundStartedAt>=15000)continue;
+   try{
+    const started=await current.sessionPromise;
+    current.roundStartedAt=dailyServerAlignedStartAt||current.roundStartedAt;
+    if(Date.now()-current.roundStartedAt>=15000)continue;
+    for(let attempt=0;attempt<2;attempt++){
+     try{
+      await call("validate-ingredient",{method:"POST",body:{mode:"daily",session_id:started.session_id,answers:current.answers}});
+      break;
+     }catch(error){
+      const transient=/Failed to fetch|NetworkError|Request failed \((?:429|502|503|504)\)/i.test(String(error?.message||error));
+      if(!transient||attempt===1||Date.now()-current.roundStartedAt>=15000){
+       console.warn("Daily answer snapshot was not accepted:",error);
+       break;
+      }
+      await new Promise(resolve=>setTimeout(resolve,75));
+     }
+    }
+   }catch(error){console.warn("Daily answer snapshot could not be sent:",error)}
+  }
+ };
+ dailySnapshotTask=run().finally(()=>{
+  dailySnapshotTask=null;
+  if(pendingDailySnapshot)scheduleDailySnapshot(pendingDailySnapshot);
+ });
+ return dailySnapshotTask;
+}
+async function flushDailySnapshots(){
+ while(dailySnapshotTask||pendingDailySnapshot){
+  if(dailySnapshotTask)await dailySnapshotTask;
+  else scheduleDailySnapshot(pendingDailySnapshot);
+ }
+}
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
 function applyGuessFeedback(matchedAnswers=[],rejectedAnswers=[]){
  const matched=new Set(matchedAnswers.map(normalizeGuess)),rejected=new Set(rejectedAnswers.map(normalizeGuess));
@@ -289,6 +330,8 @@ function addGuess(raw){
   localValidationQueue=localCheck;
   if(mode==="practice"&&gameActive&&Date.now()-startedAt<15000){
    schedulePracticeSnapshot({sessionRef:practiceSession,productId:selectedProduct?.id,answers,roundStartedAt:startedAt});
+  }else if(mode==="daily"&&gameActive&&Date.now()-startedAt<15000&&dailyStartPromise){
+   scheduleDailySnapshot({sessionPromise:dailyStartPromise,answers,roundStartedAt:startedAt});
   }
   return;
  }
@@ -321,7 +364,8 @@ async function finishGame(options={}){
   setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));
   try{
    const started=await dailyStartPromise;
-   const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id,answers}});
+   await flushDailySnapshots();
+   const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id}});
    lastResult={...data,xpEarned:Number(data.progression?.xp_awarded)||0};
    if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();
    applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
@@ -333,8 +377,10 @@ async function finishGame(options={}){
    show("game",false);show("intro",false);show("result",true);
    checkDaily().catch(error=>console.warn("Daily refresh after result failed.",error));
   }catch(e){
-   console.error("Daily result sync failed.",e);renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
-   setText("resultTitle",t("wrong"));setText("resultSub",lang==="es"?"No se pudo confirmar el resultado oficial. Si la sesión expiró sin guardar un intento, podés volver a intentarlo. "+e.message:"The official result could not be confirmed. If the session expired without a saved attempt, you can try again. "+e.message);
+   console.error("Daily result sync failed.",e);lastResult=null;dailyStartPromise=null;window.dailySessionId=null;
+   renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
+   setText("resultTitle",t("wrong"));setText("percent","—");setText("finalScore","—");setText("foundCount","0");setText("score","000");
+   setText("resultSub",lang==="es"?"No se pudo confirmar el resultado oficial. El puntaje no se guardó. Podés volver a intentarlo. "+e.message:"The official result could not be confirmed. The score was not saved. You can try again. "+e.message);
    show("game",false);show("intro",false);show("result",true);
   }
   return;
@@ -361,7 +407,18 @@ async function startDaily(){
  mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=dailyAnswerKey;
  setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:dailyImageObject?.src||challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
  const localStart=dailyLocalStartedAt;
- dailyStartPromise=call("start-daily",{method:"POST",body:{}}).then(data=>{window.dailySessionId=data.session_id;challenge=data.challenge||challenge;return data;}).catch(error=>{
+ dailyServerAlignedStartAt=0;
+ const requestStartedAt=Date.now();
+ dailyStartPromise=call("start-daily",{method:"POST",body:{}}).then(data=>{
+  window.dailySessionId=data.session_id;
+  challenge=data.challenge||challenge;
+  const roundTrip=Math.max(0,Date.now()-requestStartedAt);
+  const estimatedElapsed=Math.min(15000,Math.max(0,Number(data.elapsed_ms)||0)+Math.round(roundTrip/2));
+  startedAt=Date.now()-estimatedElapsed;
+  dailyLocalStartedAt=startedAt;
+  dailyServerAlignedStartAt=startedAt;
+  return data;
+ }).catch(error=>{
   console.error("Daily session could not be created.",error);
   if(gameActive){gameActive=false;if(timer)clearInterval(timer);show("game",false);show("intro",true);status("dailyStatus",error.message||t("wrong"),true)}
   dailyStartPromise=null;throw error;
