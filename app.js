@@ -332,7 +332,7 @@ async function startDaily(){
  if(!dailyImageReady||!dailyAnswerKey)return;
  if(gameActive||dailyStartPromise)return;
  mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=dailyAnswerKey;
- setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
+ setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:dailyImageObject?.src||challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
  const localStart=dailyLocalStartedAt;
  dailyStartPromise=call("start-daily",{method:"POST",body:{}}).then(data=>{window.dailySessionId=data.session_id;challenge=data.challenge||challenge;return data;}).catch(error=>{
   console.error("Daily session could not be created.",error);
