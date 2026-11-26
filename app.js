@@ -15,6 +15,20 @@ const t=(k)=>text[lang][k]||text.en[k]||k;
 Object.assign(text.en, {mysteryProduct:"MYSTERY PRODUCT", resultKicker:"TIME'S UP", resultTitle:"NICE TRY.", usernameRule:"Username must be 3–20 letters, numbers or underscores.", answersUnavailable:"Could not prepare all product answers", dailyKeyUnavailable:"Daily answer key unavailable", answerKeyUnavailable:"Answer key unavailable", practicePreparing:"Practice is still preparing.", ingredientDuplicate:"You already found that ingredient.", correctFeedback:"Correct! +100 points", incorrectFeedback:"Not an ingredient. Try another one.", productSkipped:"Product skipped", productsWord:"products", soon:"soon."});
 Object.assign(text.es, {mysteryProduct:"PRODUCTO MISTERIOSO", resultKicker:"¡TIEMPO!", resultTitle:"¡BUEN INTENTO!", usernameRule:"El usuario debe tener entre 3 y 20 caracteres: letras, números o guion bajo.", answersUnavailable:"No se pudieron preparar las respuestas de todos los productos", dailyKeyUnavailable:"No se pudo cargar la respuesta del Daily", answerKeyUnavailable:"No se pudo cargar la respuesta", practicePreparing:"La práctica todavía se está preparando.", ingredientDuplicate:"Ese ingrediente ya estaba acertado.", correctFeedback:"¡Correcto! +100 puntos", incorrectFeedback:"No es un ingrediente. Probá con otro.", productSkipped:"Producto omitido", productsWord:"productos", soon:"próximamente."});
 
+Object.assign(text.en, {
+ legalConsent:"I have read and accept the Privacy Policy and Terms.",
+ legalConsentRequired:"Please accept the Privacy Policy and Terms to create an account.",
+ privacyLink:"Privacy Policy",termsLink:"Terms and Conditions",
+ footerPrivacy:"PRIVACY",footerTerms:"TERMS",footerContact:"CONTACT"
+});
+Object.assign(text.es, {
+ legalConsent:"Leí y acepto la Política de Privacidad y los Términos y Condiciones.",
+ legalConsentRequired:"Aceptá la Política de Privacidad y los Términos y Condiciones para crear una cuenta.",
+ privacyLink:"Política de Privacidad",termsLink:"Términos y Condiciones",
+ footerPrivacy:"PRIVACIDAD",footerTerms:"TÉRMINOS",footerContact:"CONTACTO"
+});
+
+
 function setText(id,value){const el=$(id);if(el)el.textContent=value}
 function status(id,msg,bad=false){const el=$(id);if(el){el.textContent=msg||"";el.classList.toggle("bad",bad)}}
 const THEME_KEY="whatsinside-theme";
@@ -73,10 +87,15 @@ function refreshResultLanguage(){
 function updateLanguage(){
  document.documentElement.lang=lang;
  document.title=lang==="es"?"Ingredora — El juego de ingredientes de 15 segundos":"Ingredora — The 15-second ingredient game";
- const map={productPlaceholder:"mysteryProduct",youFound:"foundTitle",youMissed:"missed",resultKicker:"resultKicker",resultTitle:"resultTitle",kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyDescription:"dailyDescription",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabelText:"authEmail",authPasswordLabelText:"password"};
+ const map={productPlaceholder:"mysteryProduct",youFound:"foundTitle",youMissed:"missed",resultKicker:"resultKicker",resultTitle:"resultTitle",kicker:"kicker",subhead:"subhead",dailyTab:"daily",practiceTab:"practice",rankingTab:"rankTab",dailyDescription:"dailyDescription",timeLabel:"time",commaHint:"comma",prompt:"prompt",inputHint:"hint",foundTitle:"found",finishBtn:"finish",practiceSkip:"skip",practiceStop:"stop",shareBtn:"share",backBtn:"back",authTitle:"signinTitle",authHint:"signinHint",authSubmit:"submit",authMode:"create",authClose:"cancel",usernameLabelText:"username",dailyRuleTime:"ruleTime",dailyRulePoints:"rulePoints",dailyRuleTry:"ruleTry",scoreLabel:"pointsLabel",noPause:"noPause",practiceTitle:"practiceTitle",practiceDescription:"practiceDescription",practiceStart:"startPractice",practiceProgressLabel:"practiceProgress",rankingTitle:"rankingTitle",closeRanking:"close",rankingScopeLabel:"scope",footerTagline:"footerTagline",authEmailLabelText:"authEmail",authPasswordLabelText:"password",legalConsentLabel:"legalConsent",privacyConsentLink:"privacyLink",termsConsentLink:"termsLink",footerPrivacy:"footerPrivacy",footerTerms:"footerTerms",footerContact:"footerContact"};
  for(const [id,key] of Object.entries(map))setText(id,t(key));
  const headline=$("headline");if(headline)headline.setAttribute("aria-label",t("headline"));
  $("langBtn").textContent=lang==="en"?"ES":"EN";
+ $("footerPrivacy").href="./privacy.html?lang="+lang;
+ $("footerTerms").href="./terms.html?lang="+lang;
+ $("footerContact").href="./contact.html?lang="+lang;
+ $("privacyConsentLink").href="./privacy.html?lang="+lang;
+ $("termsConsentLink").href="./terms.html?lang="+lang;
  $("ingredientInput").placeholder=t("practicePlaceholder");$("ingredientInput").setAttribute("aria-label",t("prompt"));
  $("accountLabel").textContent=session?.user?.user_metadata?.username||t("guest");setText("authOpen",session?t("signout"):t("sign"));
  $("authEmail").placeholder=t("authEmailPlaceholder");$("authPassword").placeholder=t("authPasswordPlaceholder");
@@ -598,9 +617,52 @@ function stopPracticeImmediately(){if(!practiceSession)return;finishGame({stop:t
 function finishPracticeSession(){const s=practiceSession;if(!s)return;practiceSession=null;setPracticeNavigationLock(false);show("practiceProgress",false);show("practiceSkip",false);show("practiceStop",false);show("finishBtn",true);show("game",false);show("intro",false);show("result",true);setText("resultKicker",t("practiceResultKicker"));setText("resultTitle",t("practiceResultTitle"));setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");setText("percent",s.total?Math.round(s.correct/s.total*100)+"%":"—");setText("resultSub",lang==="es"?s.correct+" de "+s.total+" ingredientes encontrados · "+s.completed+" de 10 productos jugados":s.correct+" of "+s.total+" ingredients found · "+s.completed+" of 10 products played");setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("finalScore",String(s.score));setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");setText("youFound",t("scoreByProduct"));$("youMissed").style.display="none";$("missedList").style.display="none";$("missedList").innerHTML="";renderPracticeScores(s.rounds);lastResult={score:s.score,correct_count:s.correct,total_ingredients:s.total,completed:s.completed,practice:true,xpEarned:s.xpEarned,progression:s.progression,sessionRef:s};refreshPlayerProgression();if(practicePrepared){$("practiceStart").disabled=false;status("practiceStatus",t("practiceReady"));}}
 function openAuth(){show("authModal",true);$("authModal").classList.add("open");status("authStatus","")}
 function closeAuth(){$("authModal").classList.remove("open");show("authModal",false)}
-let authMode="signin";function setAuthMode(next){authMode=next;const signup=next==="signup";setText("authTitle",signup?t("signupTitle"):t("signinTitle"));setText("authSubmit",signup?t("signupSubmit"):t("submit"));setText("authMode",signup?t("signinSwitch"):t("create"));setText("authHint",signup?t("signupHint"):t("signinHint"));show("usernameLabel",signup)}
+let authMode="signin";
+function setAuthMode(next){
+ authMode=next;
+ const signup=next==="signup";
+ setText("authTitle",signup?t("signupTitle"):t("signinTitle"));
+ setText("authSubmit",signup?t("signupSubmit"):t("submit"));
+ setText("authMode",signup?t("signinSwitch"):t("create"));
+ setText("authHint",signup?t("signupHint"):t("signinHint"));
+ show("usernameLabel",signup);
+ show("legalConsentWrap",signup);
+ $("legalConsent").required=signup;
+ $("legalConsent").checked=false;
+}
 $("authOpen").onclick=async()=>{if(session){await supabase.auth.signOut();return}setAuthMode("signin");openAuth()};$("authClose").onclick=closeAuth;$("authMode").onclick=()=>setAuthMode(authMode==="signin"?"signup":"signin");
-$("authForm").addEventListener("submit",async e=>{e.preventDefault();const email=$("authEmail").value.trim(),password=$("authPassword").value;status("authStatus",t("loading"));try{let result;if(authMode==="signup"){const username=$("authUsername")?.value?.trim();if(!username)throw new Error(t("signupError"));if(!/^[A-Za-z0-9_]{3,20}$/.test(username))throw new Error(t("usernameRule"));result=await supabase.auth.signUp({email,password,options:{data:{username}}});if(result.error)throw result.error;if(!result.data.session){status("authStatus",t("authOk"));return}}else result=await supabase.auth.signInWithPassword({email,password});if(result.error)throw result.error;closeAuth()}catch(err){status("authStatus",err.message||t("wrong"),true)}});
+$("authForm").addEventListener("submit",async e=>{
+ e.preventDefault();
+ const email=$("authEmail").value.trim(),password=$("authPassword").value;
+ status("authStatus",t("loading"));
+ try{
+  let result;
+  if(authMode==="signup"){
+   const username=$("authUsername")?.value?.trim();
+   if(!username)throw new Error(t("signupError"));
+   if(!/^[A-Za-z0-9_]{3,20}$/.test(username))throw new Error(t("usernameRule"));
+   if(!$("legalConsent").checked)throw new Error(t("legalConsentRequired"));
+   const acceptedAt=new Date().toISOString();
+   result=await supabase.auth.signUp({
+    email,password,
+    options:{data:{
+     username,
+     legal_terms_version:"1.0-2026-11-26",
+     legal_privacy_version:"1.0-2026-11-26",
+     legal_accepted_at:acceptedAt
+    }}
+   });
+   if(result.error)throw result.error;
+   if(!result.data.session){status("authStatus",t("authOk"));return}
+  }else{
+   result=await supabase.auth.signInWithPassword({email,password});
+  }
+  if(result.error)throw result.error;
+  closeAuth();
+ }catch(err){
+  status("authStatus",err.message||t("wrong"),true);
+ }
+});
 $("dailyTab").onclick=()=>setMode("daily");$("practiceTab").onclick=()=>setMode("practice");$("rankingTab").onclick=()=>loadRanking();$("dailyStart").onclick=startDaily;$("practiceStart").onclick=startPractice;$("finishBtn").onclick=()=>finishGame();$("practiceSkip").onclick=()=>finishGame({skip:true});$("practiceStop").onclick=stopPracticeImmediately;$("backBtn").onclick=()=>{show("result",false);show("intro",true);if(mode==="daily")setDailyNavigationLock(false);setMode(mode);if(mode==="daily")checkDaily()};$("shareBtn").onclick=async()=>{const result=lastResult;const score=result?.score??result?.attempt?.score??0;const count=result?.correct_count??result?.attempt?.correct_count??0;const msg=lang==="es"?"INGREDORA\n"+count+" ingredientes · "+score+" puntos\n¿Podés superarme?":"INGREDORA\n"+count+" ingredients · "+score+" points\nCan you beat me?";try{if(navigator.share)await navigator.share({title:"Ingredora",text:msg});else{await navigator.clipboard.writeText(msg);setText("shareBtn",lang==="es"?"¡COPIADO!":"COPIED!")}}catch{}};
 // Rankings are opened from the persistent navigation tab.$("closeRanking").onclick=()=>setMode(mode==="ranking"?"daily":mode);$("rankingScope").onchange=loadRanking;
 async function loadRanking(){if(practiceSession)return;show("game",false);show("result",false);$("dailyTab").classList.remove("active");$("practiceTab").classList.remove("active");$("rankingTab").classList.add("active");show("dailyPanel",false);show("practicePanel",false);show("rankingPanel",true);show("intro",true);status("rankingList",t("loading"));try{const data=await call("leaderboard?scope="+$("rankingScope").value);const list=$("rankingList");list.innerHTML="";if(!data.entries?.length){list.textContent=t("noRank");return}data.entries.forEach(x=>{const row=document.createElement("div");row.className="rank-row";const a=document.createElement("b");a.textContent="#"+x.rank;const b=document.createElement("span");b.textContent=x.username;const c=document.createElement("strong");c.textContent=x.score+" pts";row.append(a,b,c);list.append(row)})}catch(e){status("rankingList",e.message,true)}}

@@ -624,6 +624,15 @@ body{
 #game .actions{flex-direction:column;justify-content:center;gap:6px;margin-top:8px}
 #game .actions .eyebrow{text-align:center;max-width:none}
 #game .practice-controls{width:100%}
+
+.footer{gap:12px;flex-wrap:wrap;align-items:center}
+.footer-links{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
+.footer-links a,.legal-consent a{color:var(--green);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.legal-consent{display:grid;gap:6px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--paper);font-size:12px;color:var(--ink)}
+.legal-consent-main{display:flex;align-items:flex-start;gap:8px;line-height:1.45}
+.legal-consent-main input{margin:2px 0 0;accent-color:var(--green);flex:0 0 auto}
+.legal-consent-links{padding-left:23px;color:var(--muted);font-size:11px}
+@media(max-width:540px){.footer{justify-content:center;text-align:center}.footer-links{order:3;width:100%}}
 </style>
 </head>
 <body>
@@ -668,9 +677,32 @@ body{
  <div class="result-actions"><button class="btn primary" id="shareBtn">SHARE RESULT ↗</button><button class="btn ghost" id="backBtn">BACK</button></div>
 </section>
 <section class="panel hidden" id="rankingPanel"><div class="row" style="display:flex;justify-content:space-between;align-items:center"><h2 id="rankingTitle">Leaderboard</h2><button class="link-btn" id="closeRanking">CLOSE</button></div><div class="filters"><label><span id="rankingScopeLabel">SCOPE</span><select id="rankingScope"><option value="today">Today's Daily</option><option value="all">All-time</option></select></label></div><div id="rankingList" class="status">Loading…</div></section>
-<footer class="footer"><span>© Ingredora</span><span id="footerTagline">MADE FOR THE CURIOUS.</span></footer>
+<footer class="footer">
+ <span>© Ingredora</span>
+ <nav class="footer-links" aria-label="Legal information">
+  <a id="footerPrivacy" href="./privacy.html?lang=en">PRIVACY</a>
+  <a id="footerTerms" href="./terms.html?lang=en">TERMS</a>
+  <a id="footerContact" href="./contact.html?lang=en">CONTACT</a>
+ </nav>
+ <span id="footerTagline">MADE FOR THE CURIOUS.</span>
+</footer>
 </div>
-<div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><form class="auth-form" id="authForm"><h2 id="authTitle">Welcome back</h2><p id="authHint">Sign in to play Daily and save your official score.</p><label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label><label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label><label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label><div class="status" id="authStatus"></div><button class="btn primary" id="authSubmit" type="submit">SIGN IN</button><div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div></form></div>
+<div class="auth-modal" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle">
+ <form class="auth-form" id="authForm">
+  <h2 id="authTitle">Welcome back</h2>
+  <p id="authHint">Sign in to play Daily and save your official score.</p>
+  <label id="usernameLabel" class="hidden"><span id="usernameLabelText">USERNAME</span><input id="authUsername" minlength="3" maxlength="20" autocomplete="username"></label>
+  <label id="authEmailLabel"><span id="authEmailLabelText">EMAIL</span><input id="authEmail" type="email" autocomplete="email" required></label>
+  <label id="authPasswordLabel"><span id="authPasswordLabelText">PASSWORD</span><input id="authPassword" type="password" minlength="6" autocomplete="current-password" required></label>
+  <div class="legal-consent hidden" id="legalConsentWrap">
+   <div class="legal-consent-main"><input id="legalConsent" type="checkbox"><label for="legalConsent" id="legalConsentLabel">I have read and accept the Privacy Policy and Terms.</label></div>
+   <div class="legal-consent-links"><a id="privacyConsentLink" href="./privacy.html?lang=en" target="_blank" rel="noopener noreferrer">Privacy Policy</a> · <a id="termsConsentLink" href="./terms.html?lang=en" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></div>
+  </div>
+  <div class="status" id="authStatus"></div>
+  <button class="btn primary" id="authSubmit" type="submit">SIGN IN</button>
+  <div class="auth-switch"><button type="button" class="link-btn" id="authMode">Create account</button><button type="button" class="link-btn" id="authClose">CANCEL</button></div>
+ </form>
+</div>
 <script type="module" src="./app.js?v=daily-prewarm-enter-20261126b"></script>
 </body>
 </html>
