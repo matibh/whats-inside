@@ -380,8 +380,19 @@ function addGuess(raw){
  })();
  pendingValidations.push(request);validationQueue=Promise.allSettled(pendingValidations);
 }
-$("ingredientInput").addEventListener("input",e=>{const parts=e.target.value.split(",");if(parts.length>1){parts.slice(0,-1).forEach(addGuess);e.target.value=parts.at(-1)}});
-$("ingredientInput").addEventListener("keydown",e=>{if(e.key==="Enter"){e.preventDefault();addGuess(e.target.value);e.target.value=""}});
+function commitIngredientInput(input){
+ const value=input.value;
+ if(!value.trim())return;
+ addGuess(value);
+ input.value="";
+}
+$("ingredientInput").addEventListener("input",e=>{
+ const parts=e.target.value.split(",");
+ if(parts.length>1){parts.slice(0,-1).forEach(part=>addGuess(part));e.target.value=parts.at(-1)}
+});
+$("ingredientInput").addEventListener("keydown",e=>{
+ if(e.key==="Enter"&&!e.isComposing){e.preventDefault();commitIngredientInput(e.currentTarget)}
+});
 async function finishGame(options={}){
  if(!gameActive)return;
  addGuess($("ingredientInput").value);$("ingredientInput").value="";gameActive=false;if(timer)clearInterval(timer);
