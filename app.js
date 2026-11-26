@@ -97,18 +97,14 @@ function renderChallenge(){
  setText("dailyName","");setText("dailyDesc","");setText("dailyMarket","");$("dailyImage").removeAttribute("src");$("dailyImage").style.display="none";$("dailyPlaceholder").style.display="";
  if(dataPlayed()){setText("dailyTitle",t("already"));status("dailyStatus",t("already"));$("dailyStart").disabled=true;setText("dailyStart",t("already"))}
  else if(!session){setText("dailyTitle",t("daily"));status("dailyStatus",t("loginDaily"));$("dailyStart").disabled=false;setText("dailyStart",t("sign"))}
- else if(!dailyImageReady||!dailyAnswerKey){setText("dailyTitle",t("daily"));status("dailyStatus",t("mysteryPreparing"));$("dailyStart").disabled=true;setText("dailyStart",t("loading"))}
+ else if(!dailyImageReady){setText("dailyTitle",t("daily"));status("dailyStatus",t("mysteryPreparing"));$("dailyStart").disabled=true;setText("dailyStart",t("loading"))}
  else{setText("dailyTitle",t("daily"));status("dailyStatus","");$("dailyStart").disabled=false;setText("dailyStart",t("startDaily"))}
 }
-let dailyPlayed=false;let dailyAnswerKey=null;let dailyStartPromise=null;let dailyLocalStartedAt=0;function dataPlayed(){return dailyPlayed}
+let dailyPlayed=false;let dailyStartPromise=null;let dailyLocalStartedAt=0;function dataPlayed(){return dailyPlayed}
 async function checkDaily(){
- dailyPlayed=false;dailyAnswerKey=null;dailyImageReady=false;dailyImageObject=null;dailyImageLoading=false;
+ dailyPlayed=false;dailyImageReady=false;dailyImageObject=null;dailyImageLoading=false;
  try{
-  const data=await call("daily-challenge");challenge=data.challenge||null;dailyPlayed=!!data.played;dailyAnswerKey=null;
-  if(data.answer_key&&typeof data.answer_key.salt==="string"&&Array.isArray(data.answer_key.hashes)&&data.answer_key.hashes.length&&Number(data.answer_key.total_ingredients)>0){
-   const hashToIndex=new Map();data.answer_key.hashes.forEach(x=>{if(!hashToIndex.has(x.hash))hashToIndex.set(x.hash,Number(x.index))});
-   dailyAnswerKey={salt:data.answer_key.salt,total_ingredients:Number(data.answer_key.total_ingredients),hashToIndex};
-  }
+  const data=await call("daily-challenge");challenge=data.challenge||null;dailyPlayed=!!data.played;
   if(challenge){
    renderChallenge();
    if(challenge.image_url){
@@ -250,45 +246,75 @@ function schedulePracticeSnapshot(snapshot){
   if(pendingPracticeSnapshot)schedulePracticeSnapshot(pendingPracticeSnapshot);
  });
 }
-let pendingDailySnapshot=null,dailySnapshotTask=null,dailyServerAlignedStartAt=0;
-function scheduleDailySnapshot(snapshot){
- pendingDailySnapshot=snapshot;
+const DAILY_MAX_GUESSES=30;
+const DAILY_MIN_CHECK_GAP_MS=100;
+let pendingDailySnapshots=[],dailySnapshotTask=null,dailyServerAlignedStartAt=0,dailyLastValidationAt=0;
+function startDailySnapshotQueue(){
  if(dailySnapshotTask)return dailySnapshotTask;
  const run=async()=>{
-  while(pendingDailySnapshot){
-   const current=pendingDailySnapshot;
-   pendingDailySnapshot=null;
-   if(Date.now()-current.roundStartedAt>=15000)continue;
+  while(pendingDailySnapshots.length){
+   const current=pendingDailySnapshots.shift();
    try{
     const started=await current.sessionPromise;
     current.roundStartedAt=dailyServerAlignedStartAt||current.roundStartedAt;
-    if(Date.now()-current.roundStartedAt>=15000)continue;
-    for(let attempt=0;attempt<2;attempt++){
+    for(let attempt=0;attempt<3;attempt++){
+     if(Date.now()-current.roundStartedAt>=15000)break;
+     const wait=Math.max(0,DAILY_MIN_CHECK_GAP_MS-(Date.now()-dailyLastValidationAt));
+     if(wait)await new Promise(resolve=>setTimeout(resolve,wait));
+     if(Date.now()-current.roundStartedAt>=15000)break;
      try{
-      await call("validate-ingredient",{method:"POST",body:{mode:"daily",session_id:started.session_id,answers:current.answers}});
+      const data=await call("validate-ingredient",{method:"POST",body:{mode:"daily",session_id:started.session_id,answers:current.answers}});
+      dailyLastValidationAt=Date.now();
+      if(current.sequence===validationSequence&&gameActive){
+       applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
+       const previousScore=roundScore;
+       roundScore=Number(data.score)||0;
+       roundCorrectCount=Number(data.correct_count)||0;
+       setText("foundCount",String(roundCorrectCount));
+       setText("score",String(roundScore).padStart(3,"0"));
+       const isCorrect=(data.matched_answers||[]).some(x=>normalizeGuess(x)===normalizeGuess(current.latest));
+       if(isCorrect){
+        const gained=Math.max(0,roundScore-previousScore);
+        setText("feedback",lang==="es"?"¡Correcto! +"+gained+" puntos":"Correct! +"+gained+" points");
+        $("feedback").classList.remove("bad");
+       }else{
+        setText("feedback",t("incorrectFeedback"));
+        $("feedback").classList.add("bad");
+       }
+      }
       break;
      }catch(error){
-      const transient=/Failed to fetch|NetworkError|Request failed \((?:429|502|503|504)\)/i.test(String(error?.message||error));
-      if(!transient||attempt===1||Date.now()-current.roundStartedAt>=15000){
-       console.warn("Daily answer snapshot was not accepted:",error);
+      const message=String(error?.message||error);
+      const retryable=/limit reached|rate limit|too frequent|Failed to fetch|NetworkError|Request failed \((?:408|429|502|503|504)\)/i.test(message);
+      if(!retryable||attempt===2||Date.now()-current.roundStartedAt>=15000){
+       console.warn("Daily answer check was not accepted:",error);
+       if(current.sequence===validationSequence&&gameActive){
+        setText("feedback",lang==="es"?"No se pudo validar la respuesta.":"Could not validate this answer.");
+        $("feedback").classList.add("bad");
+       }
        break;
       }
-      await new Promise(resolve=>setTimeout(resolve,75));
+      await new Promise(resolve=>setTimeout(resolve,DAILY_MIN_CHECK_GAP_MS));
      }
     }
-   }catch(error){console.warn("Daily answer snapshot could not be sent:",error)}
+   }catch(error){console.warn("Daily answer check could not be sent:",error)}
   }
  };
- dailySnapshotTask=run().finally(()=>{
+ const task=run();
+ dailySnapshotTask=task.finally(()=>{
   dailySnapshotTask=null;
-  if(pendingDailySnapshot)scheduleDailySnapshot(pendingDailySnapshot);
+  if(pendingDailySnapshots.length)startDailySnapshotQueue();
  });
  return dailySnapshotTask;
 }
+function scheduleDailySnapshot(snapshot){
+ pendingDailySnapshots.push(snapshot);
+ return startDailySnapshotQueue();
+}
 async function flushDailySnapshots(){
- while(dailySnapshotTask||pendingDailySnapshot){
+ while(dailySnapshotTask||pendingDailySnapshots.length){
   if(dailySnapshotTask)await dailySnapshotTask;
-  else scheduleDailySnapshot(pendingDailySnapshot);
+  else startDailySnapshotQueue();
  }
 }
 function normalizeGuess(value){return value.toLocaleLowerCase().normalize("NFD").replace(/\p{M}/gu,"").replace(/[^a-z0-9\s-]/g,"").replace(/\s+/g," ").trim()}
@@ -310,7 +336,17 @@ function addGuess(raw){
  guesses.push(value);
  const chip=document.createElement("span");chip.className="chip pending";chip.textContent=value;$("chips").append(chip);
  const answers=[...guesses],sequence=++validationSequence,latest=answers[answers.length-1];
- if((mode==="practice"||mode==="daily")&&currentAnswerKey?.hashToIndex){
+ if(mode==="daily"){
+  if(answers.length>DAILY_MAX_GUESSES){
+   guesses.pop();chip.remove();
+   setText("feedback",lang==="es"?"Máximo "+DAILY_MAX_GUESSES+" respuestas por partida.":"Maximum "+DAILY_MAX_GUESSES+" guesses per round.");
+   $("feedback").classList.add("bad");
+   return;
+  }
+  if(dailyStartPromise)scheduleDailySnapshot({sessionPromise:dailyStartPromise,answers,roundStartedAt:startedAt,sequence,latest});
+  return;
+ }
+ if(mode==="practice"&&currentAnswerKey?.hashToIndex){
   const answerKey=currentAnswerKey;
   const localCheck=(async()=>{
    const digests=await Promise.all(answers.map(answer=>hashPracticeGuess(answer,answerKey.salt)));
@@ -331,8 +367,6 @@ function addGuess(raw){
   localValidationQueue=localCheck;
   if(mode==="practice"&&gameActive&&Date.now()-startedAt<15000){
    schedulePracticeSnapshot({sessionRef:practiceSession,productId:selectedProduct?.id,answers,roundStartedAt:startedAt});
-  }else if(mode==="daily"&&gameActive&&Date.now()-startedAt<15000&&dailyStartPromise){
-   scheduleDailySnapshot({sessionPromise:dailyStartPromise,answers,roundStartedAt:startedAt});
   }
   return;
  }
@@ -358,36 +392,21 @@ async function finishGame(options={}){
  if(mode==="practice"&&practiceSession){const immediate=!!options.stop||practiceSession.index>=9;completePracticeRound({skipped:!!options.skip,stop:!!options.stop,immediate});return}
  setText("resultKicker",t("resultKicker"));setText("resultTitle",mode==="daily"?t("dailyResult"):t("resultTitle"));status("dailyStatus","");
  if(mode==="daily"){
-  const answers=[...guesses];
   setText("accuracyLabel",lang==="es"?"INGREDIENTES ENCONTRADOS":"INGREDIENTS FOUND");setText("accuracyCaption",lang==="es"?"del total de ingredientes posibles":"of all possible ingredients");
   setText("finalScoreLabel",lang==="es"?"PUNTAJE FINAL":"FINAL SCORE");setText("scoreUnit",lang==="es"?"PUNTOS":"POINTS");
   $("youMissed").style.display="";$("missedList").style.display="";$("correctList").innerHTML="";$("missedList").innerHTML="";
   setText("youFound",t("foundTitle"));setText("youMissed",t("missed"));
-  // Render the Daily result immediately from the local answer state. Network work continues below.
-  const provisionalCorrect=Number(roundCorrectCount)||0;
-  const provisionalTotal=Number(currentAnswerKey?.total_ingredients)||0;
-  const provisionalScore=Number(roundScore)||0;
-  lastResult={score:provisionalScore,correct_count:provisionalCorrect,total_ingredients:provisionalTotal,provisional:true};
-  setText("foundCount",String(provisionalCorrect));setText("score",String(provisionalScore).padStart(3,"0"));
-  setText("percent",provisionalTotal?Math.round(provisionalCorrect/provisionalTotal*100)+"%":"—");
-  setText("resultSub",lang==="es"?provisionalCorrect+" de "+provisionalTotal+" ingredientes encontrados":provisionalCorrect+" of "+provisionalTotal+" ingredients found");
-  setText("finalScore",String(provisionalScore));renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
+  setText("foundCount","—");setText("score","—");setText("percent","—");setText("finalScore","—");
+  setText("resultSub",lang==="es"?"Confirmando resultado oficial…":"Confirming official result…");
+  renderAnswers("correctList",[],false);renderAnswers("missedList",[],true);
   show("game",false);show("intro",false);show("result",true);
   void (async()=>{
    try{
-    await localValidationQueue;
-    const localCorrect=Number(roundCorrectCount)||0,localTotal=Number(currentAnswerKey?.total_ingredients)||0,localScore=Number(roundScore)||0;
-    lastResult={score:localScore,correct_count:localCorrect,total_ingredients:localTotal,provisional:true};
-    setText("foundCount",String(localCorrect));setText("score",String(localScore).padStart(3,"0"));
-    setText("percent",localTotal?Math.round(localCorrect/localTotal*100)+"%":"—");
-    setText("resultSub",lang==="es"?localCorrect+" de "+localTotal+" ingredientes encontrados":localCorrect+" of "+localTotal+" ingredients found");
-    setText("finalScore",String(localScore));
     const started=await dailyStartPromise;
     await flushDailySnapshots();
     const data=await call("submit-daily",{method:"POST",body:{session_id:started.session_id}});
     lastResult={...data,xpEarned:Number(data.progression?.xp_awarded)||0};
     if(data.progression)playerProgression={...playerProgression,...data.progression};refreshPlayerProgression();
-    applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
     const found=data.found||[],missed=data.missed||[],correctCount=data.correct_count??data.attempt?.correct_count??found.length,totalCount=data.total_ingredients??data.attempt?.total_ingredients??found.length+missed.length,finalScore=data.score??data.attempt?.score??0;
     setText("foundCount",String(correctCount));setText("score",String(finalScore).padStart(3,"0"));
     setText("percent",Math.round(correctCount/Math.max(1,totalCount)*100)+"%");
@@ -399,6 +418,8 @@ async function finishGame(options={}){
     setText("resultSub",lang==="es"?"Resultado pendiente de confirmación del servidor. "+e.message:"Result pending server confirmation. "+e.message);
    }
   })();
+  return;
+ }
   return;
  }
  try{
@@ -418,10 +439,10 @@ function renderPracticeScores(rounds){const box=$("correctList");box.innerHTML="
 async function startDaily(){
  if(!session){openAuth();return}
  if(!challenge){await checkDaily();return}
- if(!dailyImageReady||!dailyAnswerKey)return;
+ if(!dailyImageReady)return;
  if(gameActive||dailyStartPromise)return;
  setDailyNavigationLock(true);
- mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=dailyAnswerKey;
+ mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=null;pendingDailySnapshots=[];dailyLastValidationAt=0;
  setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:dailyImageObject?.src||challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
  const localStart=dailyLocalStartedAt;
  dailyServerAlignedStartAt=0;
@@ -440,7 +461,7 @@ async function startDaily(){
   const alreadyPlayed=/already played today's Daily/i.test(error.message||"");
   if(gameActive){gameActive=false;if(timer)clearInterval(timer);show("game",false);show("intro",true)}
   if(alreadyPlayed){
-   dailyPlayed=true;dailyAnswerKey=null;setText("dailyTitle",t("already"));status("dailyStatus",t("already"));setText("dailyStart",t("already"));$("dailyStart").disabled=true;
+   dailyPlayed=true;setText("dailyTitle",t("already"));status("dailyStatus",t("already"));setText("dailyStart",t("already"));$("dailyStart").disabled=true;
   }else status("dailyStatus",error.message||t("wrong"),true);
   setDailyNavigationLock(false);
   dailyStartPromise=null;throw error;
