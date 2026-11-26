@@ -90,6 +90,17 @@ function updateLanguage(){
 }
 async function refreshDaily(){await checkDaily()}
 let dailyImageReady=false,dailyImageObject=null,dailyImageLoading=false;
+let dailyValidationWarmupPromise=null,dailyValidationWarmed=false;
+function warmDailyValidation(){
+ if(dailyValidationWarmed)return Promise.resolve(true);
+ if(dailyValidationWarmupPromise)return dailyValidationWarmupPromise;
+ if(!session?.access_token)return Promise.resolve(false);
+ dailyValidationWarmupPromise=call("validate-ingredient",{method:"POST",body:{mode:"warmup"}})
+  .then(()=>{dailyValidationWarmed=true;return true;})
+  .catch(error=>{console.debug("Daily validation warm-up skipped:",error);return false;})
+  .finally(()=>{dailyValidationWarmupPromise=null;});
+ return dailyValidationWarmupPromise;
+}
 function renderChallenge(){
  if(!challenge)return;
  show("dailyProduct",false);
@@ -112,6 +123,7 @@ async function checkDaily(){
     let image=null;for(const imageUrl of [challenge.image_url,challenge.fallback_image_url].filter((url,index,all)=>typeof url==="string"&&url.trim()&&all.indexOf(url)===index)){image=await preloadPracticeImage(imageUrl);if(image)break}
     dailyImageLoading=false;dailyImageObject=image;dailyImageReady=!!image;
     renderChallenge();
+    if(dailyImageReady&&session)void warmDailyValidation();
    }else{dailyImageLoading=false;dailyImageReady=false;status("dailyStatus",t("imageMissing"),true);$("dailyStart").disabled=true}
   }else{
    show("dailyProduct",false);setText("dailyTitle",t("daily"));
@@ -447,6 +459,7 @@ async function startDaily(){
  if(!dailyImageReady)return;
  if(gameActive||dailyStartPromise)return;
  setDailyNavigationLock(true);
+ void warmDailyValidation();
  mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=null;pendingDailySnapshot=null;
  setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:dailyImageObject?.src||challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
  const localStart=dailyLocalStartedAt;
