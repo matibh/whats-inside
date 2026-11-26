@@ -436,7 +436,7 @@ async function startDaily(){
  if(!dailyImageReady)return;
  if(gameActive||dailyStartPromise)return;
  setDailyNavigationLock(true);
- mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=null;pendingDailySnapshots=[];dailyLastValidationAt=0;
+ mode="daily";dailyLocalStartedAt=Date.now();window.dailySessionId=null;currentAnswerKey=null;pendingDailySnapshot=null;
  setProduct({id:challenge.product_id,name:challenge.product_name,name_i18n:{es:challenge.product_name,en:challenge.product_name},description_i18n:{es:challenge.description_es||"",en:challenge.description_en||""},image_url:dailyImageObject?.src||challenge.image_url,fallback_image_url:challenge.fallback_image_url,brand:challenge.market},{allowFallback:true});
  const localStart=dailyLocalStartedAt;
  dailyServerAlignedStartAt=0;
