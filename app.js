@@ -247,24 +247,20 @@ function schedulePracticeSnapshot(snapshot){
  });
 }
 const DAILY_MAX_GUESSES=30;
-const DAILY_MIN_CHECK_GAP_MS=100;
-let pendingDailySnapshots=[],dailySnapshotTask=null,dailyServerAlignedStartAt=0,dailyLastValidationAt=0;
+let pendingDailySnapshot=null,dailySnapshotTask=null,dailyServerAlignedStartAt=0;
 function startDailySnapshotQueue(){
  if(dailySnapshotTask)return dailySnapshotTask;
  const run=async()=>{
-  while(pendingDailySnapshots.length){
-   const current=pendingDailySnapshots.shift();
+  while(pendingDailySnapshot){
+   const current=pendingDailySnapshot;
+   pendingDailySnapshot=null;
    try{
     const started=await current.sessionPromise;
     current.roundStartedAt=dailyServerAlignedStartAt||current.roundStartedAt;
-    for(let attempt=0;attempt<3;attempt++){
-     if(Date.now()-current.roundStartedAt>=15000)break;
-     const wait=Math.max(0,DAILY_MIN_CHECK_GAP_MS-(Date.now()-dailyLastValidationAt));
-     if(wait)await new Promise(resolve=>setTimeout(resolve,wait));
+    for(let attempt=0;attempt<4;attempt++){
      if(Date.now()-current.roundStartedAt>=15000)break;
      try{
       const data=await call("validate-ingredient",{method:"POST",body:{mode:"daily",session_id:started.session_id,answers:current.answers}});
-      dailyLastValidationAt=Date.now();
       if(current.sequence===validationSequence&&gameActive){
        applyGuessFeedback(data.matched_answers||[],data.rejected_answers||[]);
        const previousScore=roundScore;
@@ -285,8 +281,8 @@ function startDailySnapshotQueue(){
       break;
      }catch(error){
       const message=String(error?.message||error);
-      const retryable=/limit reached|rate limit|too frequent|Failed to fetch|NetworkError|Request failed \((?:408|429|502|503|504)\)/i.test(message);
-      if(!retryable||attempt===2||Date.now()-current.roundStartedAt>=15000){
+      const retryable=/rate limit|too frequent|Failed to fetch|NetworkError|Request failed \\((?:408|429|502|503|504)\\)/i.test(message);
+      if(!retryable||attempt===3||Date.now()-current.roundStartedAt>=15000){
        console.warn("Daily answer check was not accepted:",error);
        if(current.sequence===validationSequence&&gameActive){
         setText("feedback",lang==="es"?"No se pudo validar la respuesta.":"Could not validate this answer.");
@@ -294,7 +290,7 @@ function startDailySnapshotQueue(){
        }
        break;
       }
-      await new Promise(resolve=>setTimeout(resolve,DAILY_MIN_CHECK_GAP_MS));
+      await new Promise(resolve=>setTimeout(resolve,50));
      }
     }
    }catch(error){console.warn("Daily answer check could not be sent:",error)}
@@ -303,16 +299,16 @@ function startDailySnapshotQueue(){
  const task=run();
  dailySnapshotTask=task.finally(()=>{
   dailySnapshotTask=null;
-  if(pendingDailySnapshots.length)startDailySnapshotQueue();
+  if(pendingDailySnapshot)startDailySnapshotQueue();
  });
  return dailySnapshotTask;
 }
 function scheduleDailySnapshot(snapshot){
- pendingDailySnapshots.push(snapshot);
+ pendingDailySnapshot=snapshot;
  return startDailySnapshotQueue();
 }
 async function flushDailySnapshots(){
- while(dailySnapshotTask||pendingDailySnapshots.length){
+ while(dailySnapshotTask||pendingDailySnapshot){
   if(dailySnapshotTask)await dailySnapshotTask;
   else startDailySnapshotQueue();
  }
