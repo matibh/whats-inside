@@ -416,8 +416,6 @@ async function finishGame(options={}){
   })();
   return;
  }
-  return;
- }
  try{
   const data=await call("submit-practice",{method:"POST",body:{product_id:selectedProduct.id,answers:guesses,elapsed_ms:Math.min(15000,Date.now()-startedAt)}});
   lastResult=data;lastResult.xpEarned=Number(data.progression?.xp_awarded)||0;
